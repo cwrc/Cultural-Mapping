@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>-->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Mapping Tags and Tagging Maps</title>
+                <title level="m" type="main" xml:lang="en-CA">Cultural Mapping and the Digital Sphere</title>
+                <title level="m" type="sub" xml:lang="en-CA">Place and Space</title>
+                <author>Susan Brown, Isobel Grundy, Mariana Paredes-Olea, Jeffery Antoniuk, &amp; Breanna Mroczek</author>
+                <editor role="editor">
+                    <forename>Ruth</forename>
+                    <surname>Panofsky</surname>
+                </editor>
+                <editor role="editor">
+                    <forename>Kathleen</forename>
+                    <surname>Kellett</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <forename>Ilovan</forename>
+                    </name>
+                </respStmt>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor>
+                    <orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Dynamic Table of Contexts editors: </resp>
+                    <name>
+                        <forename>Ruth</forename>
+                        <surname>Panofsky</surname>
+                    </name>
+                    <name>
+                        <forename>Kathleen</forename>
+                        <surname>Kellett</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Principal: </resp>
+                    <name>
+                        <forename>Susan</forename>
+                        <surname>Brown</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <surname>Ilovan</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copyediting and proofreading: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Olivier</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexing:</resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name>
+                        <forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Cover design: </resp>
+                    <name role="book_designer">
+                        <forename>Virginia</forename>
+                        <surname>Penny</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface design lead: </resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead: </resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>Mary Lou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer:</resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by: </resp>
+                    <name role="markup_editor">
+                        <forename>Kristine</forename>
+                        <surname>Abramoff</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Anita</forename>
+                        <surname>Cutic</surname>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address>
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address>
+                        <addrLine>www.cwrc.ca</addrLine>
+                    </address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1- 55195-365- 6</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Individual chapter extract from: Cultural Mapping and the Digital Sphere: Place and Space, ed. Ruth Panofsky &amp; Kathleen Kellett (Edmonton: University of Alberta Press, 2015 / DToC ed. 2016).</p>
+                <ab type="host-volume">
+                    <listBibl>
+                        <bibl>
+                            <title level="a" type="main">Foreword</title>
+                            <author>
+                                <forename>Susan</forename>
+                                <surname>Brown</surname>
+                            </author> &amp; <author>
+                                <forename>Mary-Jo</forename>
+                                <surname>Romaniuk</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Preface</title>
+                            <author>
+                                <forename>Ruth</forename>
+                                <surname>Panofsky</surname>
+                            </author> &amp; <author>
+                                <forename>Kathleen</forename>
+                                <surname>Kellett</surname>
+                            </author>
+                        </bibl>
+                        <listBibl>
+                            <head>Part I. Place and the Digital Frontier</head>
+                            <bibl>
+                                <title level="a" type="maiin">Mapping Tags and Tagging Maps</title>
+                                <title type="sub">Leveraging Spatial Markup for Literary History</title>
+                                <author>
+                                    <forename>Susan</forename>
+                                    <surname>Brown</surname>
+                                </author>, <author>
+                                    <forename>Isobel</forename>
+                                    <surname>Grundy</surname>
+                                </author>, <author>
+                                    <forename>Mariana</forename>
+                                    <surname>Paredes-Olea</surname>
+                                </author>, <author>
+                                    <forename>Jeffery</forename>
+                                    <surname>Antoniuk</surname>
+                                </author> &amp; <author>
+                                    <forename>Breanna</forename>
+                                    <surname>Mroczek</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Modeling Collaboration in Digital Humanities Scholarship</title>
+                                <title type="sub">Foundational Concepts of an EMiC UA Project Charter</title>
+                                <author>
+                                    <forename>Paul</forename>
+                                    <surname>Hjartarson</surname>
+                                </author>, <author>
+                                    <forename>Harvey</forename>
+                                    <surname>Quamen</surname>
+                                </author>, <author>
+                                    <forename>Andrea</forename>
+                                    <surname>Hasenbank</surname>
+                                </author>, <author>
+                                    <forename>Vanessa</forename>
+                                    <surname>Lent</surname>
+                                </author> &amp; <author>
+                                    <orgName> EMiC UA</orgName>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">An Interactive, Materialist-Semiotic Archive</title>
+                                <title type="sub">Visualizing the Canadian Theatrical Canon in the Simulated Environment for Theatre</title>
+                                <author>
+                                    <forename>Sasha</forename>
+                                    <surname>Kovacs</surname>
+                                </author> and <author>
+                                    <forename>Jennifer</forename>
+                                    <surname>Roberts-Smith</surname>
+                                </author>, <author>
+                                    <forename>Theresa M.</forename>
+                                    <surname>Dobson</surname>
+                                </author>, <author>
+                                    <forename>Sandra</forename>
+                                    <surname>Gabriele</surname>
+                                </author>, <author>
+                                    <forename>Omar</forename>
+                                    <surname>Rodrigues-Arenas</surname>
+                                </author>, <author>
+                                    <forename>Stan</forename>
+                                    <surname>Ruecker</surname>
+                                </author>, <author>
+                                    <forename>Stéfan</forename>
+                                    <surname>Sinclair</surname>
+                                </author>, <author>
+                                    <forename>Shawn</forename>
+                                    <surname>DeSouza-Coelho</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">"Talk to the Work"</title>
+                                <title type="sub">Applying istc Identifiers to the Digital Edition of the Canadian Bookman (1909–1941)</title>
+                                <author>
+                                    <forename>Ravit H.</forename>
+                                    <surname>David</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">How to Play with Maps</title>
+                                <author>
+                                    <forename>Bethany</forename>
+                                    <surname>Nowviskie</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Edmonton Pipelines</title>
+                                <title type="sub">Living and Playing in the Digital City </title>
+                                <author>
+                                    <forename>Heather</forename>
+                                    <surname>Zwicker</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Representing Canadian Queer Authorship</title>
+                                <title type="sub">Making the Internet a Women’s Place</title>
+                                <author>
+                                    <forename>Michelle</forename>
+                                    <surname>Schwartz</surname>
+                                </author> &amp; <author>
+                                    <forename>Constance</forename>
+                                    <surname>Crompton</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Part II. Writers and Readers: Mapping Textual Space</head>
+                            <bibl>
+                                <title level="a" type="main">Salomania</title>
+                                <title type="sub">Maud Allan, Postcards, and Early Twentieth-Century “Viral” Circulation</title>
+                                <author>
+                                    <forename>Cecily</forename>
+                                    <surname>Devereux</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Toronto the Good in the Fiction and Life of Grace Irwin</title>
+                                <author>
+                                    <forename>Patricia</forename>
+                                    <surname>Demers</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">« Where are you froM? »</title>
+                                <title type="sub" xml:lang="fr-CA">La ville et l’écriture migrante dans l’autofiction de Marguerite Andersen</title>
+                                <author>
+                                    <forename>Kathleen</forename>
+                                    <surname>Kellett</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Languages as Spaces, Translation as Play</title>
+                                <title type="sub">Moving (through) Languages</title>
+                                <author>
+                                    <forename>Lori</forename>
+                                    <surname>Saint-Martin</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">L'espace ensorcelé</title>
+                                <title type="sub">Les enfants du sabbat d’Anne Hébert</title>
+                                <author>
+                                    <forename>Stéphanie</forename>
+                                    <surname>Walsh Matthews</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick and Kim Thúy</title>
+                                <author>
+                                    <forename>Mireille</forename>
+                                    <surname>MaiTruong</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Standing on a Rainbow</title>
+                                <title type="sub">Reading in Place, Position, and Time</title>
+                                <author>
+                                    <forename>Margaret</forename>
+                                    <surname>Mackey</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <bibl>
+                            <title type="main" xml:lang="en-CA">Contributors</title> / <title type="main" xml:lang="fr-CA">Collaborateurs</title>
+                        </bibl>
+                    </listBibl>
+                </ab>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p />
+            </projectDesc>
+            <classDecl>
+                <taxonomy>
+                    <desc>Semantic tags employed in this book can be reviewed at <ref target="http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml">http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml</ref>
+                    </desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-CA">English</language>
+                <language ident="fr-CA">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline />
+                <item />
+                <index>
+                    <term />
+                </index>
+                <byline />
+                <index>
+                    <term />
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:lang="en-CA">
+                <head>
+                    <title level="a">Mapping Tags and Tagging Maps</title>
+                </head>
+                <byline>
+                    <hi rend="italic">Leveraging Spatial Markup for Literary History</hi>
+                </byline>
+                <docAuthor> Susan Brown, Isobel Grundy, Mariana Paredes-Olea, Jeffery Antoniuk, &amp; Breanna Mroczek</docAuthor>
+                <div type="section">
+                    <head>Introduction</head>
+                    <p xml:id="p1037">
+                        <ref target="#theory">The <q>spatial turn</q> is making itself felt throughout literary studies, as it is in other areas of the humanities and social sciences.</ref> As Barney Warf and Santa Arias argue,</p>
+                    <q type="block">
+                        <ref target="#theory">
+                            <ref target="#theme_or_topic">
+                                <ref target="#spatiality">Recent works in the fields of literary and cultural studies, sociology, political science, anthropology, history, and art history have become increasingly spatial in their orientation.</ref>
+                                <ref target="#textual_strategies">From various perspectives, they assert that space is a social construction relevant to the understanding of the different histories of human subjects and to the production of cultural phenomena.</ref>…In other ways, however, the spatial turn is much more substantive, involving a reworking of the very notion and significance of spatiality to offer a perspective in which space is every bit as important as time in the unfolding of human affairs, a view in which geography is not relegated to an afterthought of social relations, but is intimately involved in their construction. Geography matters, not for the simplistic and overly used reason that everything happens in space, but because where things happen is critical to knowing how and why they happen.</ref>
+                        </ref>
+                        <note place="inline">
+                            <bibl>1</bibl>
+                        </note>
+                    </q>
+                    <p xml:id="p1038">
+                        <ref target="#theme_or_topic">
+                            <ref target="#spatiality">
+                                <ref target="#technology">There are always complex reasons for an intensifying interest in space as a topic or analytical category</ref>, but there is no question that the current interest is fuelled by the greater accessibility of spatial technologies such as plotting tools and geographic information systems (<abbr>GIS</abbr>), made possible by the World Wide Web, that put a dazzling array of maps at our fingertips. These maps allow us to explore digital representations of space by interactively zooming in and out, experimenting with various layers of information, and <ref target="#close_reading">gathering granular analysis of a vast range of materials.</ref>
+                                <ref target="#methodology">The application of computational spatial analysis in literary studies is relatively new, but the results are already evident in a number of impressive projects.</ref> These projects include an overview of the development of printing technologies <note place="inline">
+                                    <bibl>Prickman</bibl>
+                                </note>; an analysis of the impact of railway development <note place="inline">
+                                    <bibl>Thomas, Healey, and Cottingham</bibl>
+                                </note>; and a study of the circulation of letters in early modern Europe <note place="inline">
+                                    <bibl>Coleman, Edelstein, and Findlen</bibl>
+                                </note>.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1039">
+                        <ref target="#technology">Given that the Canadian Writing Research Collaboratory (<abbr>CWRC</abbr>) is dedicated to creating an online environment for research on writing and seeks to offer traditional scholars a wider array of computational tools than those they typically incorporate into their research, it is hardly surprising that the literary researchers involved in <abbr>CWRC’s</abbr> development have consistently identified the mapping of literary data as a highly desirable feature of a shared digital tool set. <ref target="#spatiality">The precise nature of the mapping required for most <abbr>CWRC</abbr> projects has yet to be established, but there is definite interest in how the spatial and temporal aspects of literary research intersect. <ref target="#canon_formation">
+                                    <ref target="#history">Historical maps are also desirable for their representation of literary materials or activities from the past, as are maps that might represent slices of time or change over time. As Peter K. Bol argues, <q>if we fail to see that change over time unfolds differently across space, we substitute a single history for the reality of multiple histories</q>
+                                        <note place="inline">
+                                            <bibl>297</bibl>
+                                        </note>.</ref>
+                                </ref>
+                                <ref target="#technology">
+                                    <ref target="#spatiality">While the study of writing has attended to the impact of place in myriad ways, newly accessible visual representations are fast becoming an effective means of tracking changing spatial and temporal relationships.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1040">
+                        <ref target="#theme_or_topic">
+                            <ref target="#spatiality">All of the research projects affiliated with <abbr>CWRC</abbr> have a spatial component. Some are concerned with regional writing. <ref target="#genre_performance">A number of theatre projects seek to spatially track productions and networks of professionals.</ref>
+                                <ref target="#technology">The Editing Modernism in Canada project at the University of Alberta has developed a smart phone app called <title level="m">WatsonWalk</title> based on <ref target="#history">walks taken by Sheila Watson while she and her husband Wilfred Watson lived in Paris from 1955 to 1956</ref>, as documented in her journals.</ref> Kristine Moruzi’s project <title level="m">From Colonial to Modern: Transnational Girlhood in Australian, New Zealand, and Canadian Print Cultures <note place="inline">
+                                        <bibl>(1840–1940)</bibl>
+                                    </note>
+                                </title> aims to map the relationship between places of production, places of publication, and places of dissemination. The most ambitious of <abbr>CWRC’s</abbr> pilot projects is <title>Magazines, Travel, and Middlebrow Culture in Canada 1925–1960,</title> led by Faye Hammill of the University of Strathclyde. <ref target="#genre_journalism">This project investigates geographical mobility as a form of upward mobility, and is designed to distinguish leisure travel from the enforced movement of migration and diaspora. The project uses middlebrow magazines to map shifts in travel patterns.</ref> If one takes seriously the claim that space <q>is not simply a passive reflection of social and cultural trends, but an active participant, i.e., geography is constitutive as well as representative</q>
+                                <note place="inline">
+                                    <bibl>Warf and Arias 10</bibl>
+                                </note>, then to make available a dynamic mapping environment that visualizes spatial relations is to give scholars a potentially transformative tool for investigating those constitutive relations. Yet, given the wide range of <abbr>CWRC</abbr> projects, the task of devising even a basic generalized system of mapping is a considerable challenge, as the project’s core development team learned in its initial experiments with spatial data contained in its largest seed project, the Orlando Project, housed at the University of Alberta.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1041">
+                        <ref target="#theme_or_topic">Orlando is the founding project behind <abbr>CWRC</abbr>. <ref target="#canon_formation">Initiated in the mid-1990s by a small team of literary researchers, Susan Brown, Patricia Clements, and Isobel Grundy, just as graphical browser environments were exponentially expanding the usage of the World Wide Web, this research project sought to produce, from scratch, <ref target="#women_writing">
+                                    <ref target="#intellectual_history">a history of women’s writing in the British Isles</ref> using computers <note place="inline">
+                                        <bibl>Brown and Clements et al.</bibl>
+                                    </note>. <ref target="#technology">
+                                        <ref target="#theme_or_topic">Rather than digitizing existing texts—the focus of many digital literary projects then and now—Orlando sought to produce born-digital scholarship in a form intended from the outset to take advantage of the digital medium.</ref> That meant trying to imagine how the scholarly text that one is researching and creating might take advantage of the yet emerging possibilities of a <ref target="#place_of_publication">web publication environment.</ref>
+                                        <ref target="#collaboration">Hence, on the advice of our digital humanities co-investigator Susan Hockey</ref>, the project adopted Standard Generalized Markup Language (the precursor to Extensible Markup Language or <abbr>XML</abbr>) as a means of encoding the text in a form that would make it amenable to reuse in applications that could not be developed during the initial stages of the Orlando Project.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1042">
+                        <ref target="#spatiality">Members of Orlando were keen to map its contents. <ref target="#methodology">
+                                <ref target="#technology">From the start, they assiduously tagged locations throughout the text base using nested tags, based on those developed by the Text Encoding Initiative (<abbr>TEI</abbr>), to label places mentioned in many different contexts so that it would be possible to search and eventually map the materials that were being written. Thus, spatial information in Orlando was tagged with labels that specify that the text enveloped in the tag is a reference to a place, with sub-tags or nested tags demarcating the subcomponents of the spatial information.</ref>
+                            </ref> For example, the markup for the city of London is</ref>
+                    </p>
+                    <q type="block">
+                        <code>&lt;PLACE&gt;&lt;SETTLEMENT&gt;London&lt;/SETTLEMENT&gt;&lt;REGION REG=Middlesex&gt;&lt;/REGION&gt;&lt;GEOG REG=England&gt;&lt;/GEOG&gt;&lt;/PLACE&gt;</code>
+                    </q>
+                    <p xml:id="p1043">
+                        <ref target="#spatiality">Such tagging distinguishes this particular reference to London from the more than two dozen other settlements around the world (including London, Ontario) that take their name from the English city, from building names such as London House, and from proper names such as Jack London.</ref>
+                    </p>
+                    <p xml:id="p1044">
+                        <ref target="#non-book_media">
+                            <ref target="#theory">
+                                <ref target="#spatiality">The Orlando text base comprises several types of materials in which such spatial information occurs: bibliographical entries that identify locations of publishing activities; events that usually (though not always) specify the places where those events occurred; and detailed bio-critical entries on particular writers that contain information about locations related to their subjects’ lives and writing careers, as well as the places involved in the poems, plays, novels, travel writings, or other texts they produced. Orlando’s bio-critical entries on writers thus contain rich spatial information, as do the bibliographical and contextual event material. Among Orlando’s more than eight million words of born-digital scholarship, there are (at the time of writing) a total of 65,488 place tags and a total of 10,657 unique place names. <ref target="#technology">On the basis of this extensive set of materials, the Orlando and <abbr>CWRC</abbr> teams have conducted experimental geographical visualizations as a means of exploring how best to implement mapping functionality within the Collaboratory platform. We have begun with information related to writers’ places of residence, travel, migration, and social networks, and how this biographical data may relate to facets of their writing careers, such as places of production or reception, literary settings, and topographical descriptions. Here, we report the results of this first foray into the complex interrelationship of data, tools, and graphical interfaces.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1045">
+                        <ref target="#theory">
+                            <ref target="#spatiality">
+                                <ref target="#non-book_media">Because the range of available spatial information varies considerably, the digital mapping of place and space contained in a literary history such as Orlando demands a flexible system that combines spatial identification with contextual information. Places may be real or fictional, domiciles or travel destinations, sites of political activity, publication, or reception of texts, and all of these place types are included in the spatial information encoded in Orlando’s text base.</ref> A map that represented all such information without distinction would be difficult to read. Moreover, the project’s historical sweep soon made it evident that many places require definition in time as well as space in order to be represented meaningfully, particularly since place names and boundaries have changed over the course of British (and international) history. Location is similarly pertinent to matters of biography and literary reception. Visualizations may be space-dominant or time-dominant, and one of our challenges is to better integrate spatial and temporal dimensions in the production of geographical representations of literary history, as Ian Gregory advocates in <title level="m">Exploiting Time and Space: A Challenge for <abbr>GIS</abbr> in the Digital Humanities.</title>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1046">
+                        <ref target="#non-book_media">
+                            <ref target="#technology">
+                                <ref target="#spatiality">Orlando’s texts use tags based on <abbr>TEI</abbr> for entities such as place, but they also use a custom tag set designed specifically by the research team for the production of a digital literary history. This tag set demarcates spans of text according to several contexts, such as discussions of writers’ residences, travels, or migrations; fictional settings or non-fictional topographical descriptions; sites of theatrical productions; or where a writer engaged in political activism. Thus, the tagging of a sentence such as <q>Frances Brooke sailed from England to join her husband in Québec</q> under a <q>location</q> tag allows place as a destination of travel to be distinguished from a sentence such as <q>This novel is best known for its picture of settler or habitant life in Lower Canada, which Frances Brooke drew from her own years there</q>
+                                    <note place="inline">
+                                        <bibl>Brown, Clements, and Grundy</bibl>
+                                    </note>. <ref target="#politics">Places often mentioned under the <q>politics</q> tag, for instance, include Hyde Park and Trafalgar Square in London, the nuclear research station at Aldermaston in Berkshire as the site of <ref target="#social_movement">demonstrations</ref>, and Holloway Prison as the place where London <ref target="#gender issue">
+                                            <ref target="#social_movement">suffragettes</ref>
+                                        </ref> were incarcerated.</ref> These references to London as a place are all distinguishable from London as a place of birth, death, or publication, even within the current published interface of Orlando, which is entirely textual.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1047">
+                        <ref target="#theme_or_topic">
+                            <ref target="#spatiality">
+                                <ref target="#technology">As a result of having implemented such semantic tags in Orlando, then, we can contextualize each mention of a place name and explore the axes of geographical representation that will be useful to <abbr>CWRC</abbr>-affiliated researchers and in the delivery of <abbr>CWRC</abbr> materials. <ref target="#methodology">The <abbr>CWRC</abbr> team needs to test spatial data infrastructure that can map diverse projects and varying articulations of spatial experience. For our initial explorations, we therefore selected two axes of representation that would be of broad interest to literary scholars: the travel or migration of writers or groups of writers; and trends in writers’ geographical subject matter (that is, places represented in writing).</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Creating the Maps</head>
+                    <p xml:id="p1048">
+                        <ref target="#methodology">
+                            <ref target="#canon_formation">
+                                <ref target="#theme_or_topic">The methodology for generating the maps discussed here involved several stages. <ref target="#technology">First, Orlando data was queried according to various parameters, drawing on the semantic tags discussed above, such as <q>return all biographies in a given range of birth dates,</q>
+                                        <q>return all excerpts containing a given keyword,</q> or, <q>return all excerpts containing <q>Scotland</q> within discussions of <ref target="#violence">violence</ref> or <ref target="#politics">politics.</ref>
+                                        </q> Second, once the queried data was retrieved it was fed into a pre-processing stage in which geographical data was extracted, contextualized, and stored separately. By contextualization we mean specifically the association of geographical data with a declared temporal axis, or—when no date was mentioned in the precise context—with a speculation as to temporal location. We processed all place names returned by these search parameters into the form of events with spatial and temporal co-ordinates. <ref target="#non-book_media">In so doing, we avoided the necessity of visualizing all of Orlando’s spatial information in a single, temporally conflated map. In the absence of temporal information embedded in the spatial data itself, we drew on the fact that Orlando’s documents organize information in roughly chronological order to provisionally infer the temporality associated with a place by extrapolating from adjacent dated material. Based on this process of inference, each instance of geographical information produced by the initial extraction process was associated with a specific date or range of dates, the writer’s name, and the subject discussed, as well as the complete excerpt of the prose under each location as mentioned in Orlando.</ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1049">
+                        <ref target="#methodology">
+                            <ref target="#canon_formation">
+                                <ref target="#spatiality">A third step consisted of matching place names to latitude and longitude information. In advance of mapping, however, the existing spatial data needed to be enhanced. The mapping systems with which we experimented cannot produce a map from a simple place name like <q>London,</q> as it is not in itself geo-referenced, that is, related to a location on the earth. This is not a trivial process, even for materials in which the different forms of <q>London</q> have already been distinguished from one another. <ref target="#technology">Automated services for geo-referencing place names exist, but they produce a certain number of false or (in other respects) inadequate matches and so require considerable manual checking and cleanup.</ref> Within <abbr>CWRC</abbr>, new place data will be geo-referenced at the time of creation; the hundreds of thousands of place names contained in the <abbr>CWRC</abbr> data donations and seed data projects will undergo this process.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1050">
+                        <ref target="#methodology">
+                            <ref target="#technology">
+                                <ref target="#spatiality">For the purposes of these experiments, we geo-referenced the Orlando data with a Python script that uses GeoPy, a geo-referencing tool box that allows users to <q>locate the coordinates of addresses, cities, countries, and landmarks across the globe</q> by acquiring data from third party services such as Google Maps and GeoNames. Thus, an enriched subset of the Orlando data was created without modifying the original text base. By processing the contextual semantic information contained in Orlando’s custom tags, this subset of data was used to create geographical visualizations of travel and migration events, of writing about place that can be explored and faceted by means of semantic tags.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1051">
+                        <ref target="#technology">
+                            <ref target="#spatiality">We considered a number of mapping tools—such as Exhibit (Huynh), OpenLayers (MetaCarta), Google Maps (Google), ArcGIS (Esri), and HyperCities (UCLA)—experimented with several, and achieved varying degrees of success depending, respectively, on the intuitiveness of their navigation, their ability to read and plot geo-referenced data, and the quality of the visualizations they produced. The maps discussed here were produced using the Map View component of the open source Exhibit 2.0 software produced by the SIMILE project (<abbr>MIT</abbr>) and more recently sustained by Google. Exhibit enables the creation of dynamic websites with various views for rendering spatial data within a browser.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1052">
+                        <ref target="#methodology">
+                            <ref target="#theme_or_topic">Because the place tagging is so dense, we found it essential to work progressively. Initially, we experimented with relatively small subsets of the Orlando materials in order to make the maps readable and meaningful. Later, we narrowed down references to a group of writers, specific countries, or a set of subjects.</ref> Figure 1.1 offers a bird’s eye view of a sample map, the basis for successive visualizations discussed below. It shows places mentioned in the Orlando biographies for the writers born in each century from 1500 to 2000. As Figure 1.1 makes clear, a single map showing all places mentioned in all of the biographies during this time span would contain a dizzying overabundance of data.</ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Visualizations</head>
+                    <p xml:id="p1053">
+                        <ref target="#religion">
+                            <ref target="#historical_oppression">Consider the visualization we produced of the travels and global influence of Mary Ward (1585–1645), a Roman Catholic at a time when <ref target="#violence">people of this faith were a persecuted minority</ref> in England, whose lifelong ambition was to found a non-enclosed <ref target="#gender_issue">religious order for women modelled after the all-male Jesuits.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <figure>
+                        <head>Subset of Orlando places</head>
+                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3Aeb21a41e-1f7a-4446-b26b-5bd25bbb830e/datastream/JPG-DToC/view" />
+                        <figDesc>Figure 1.1a: Biographies of writers born between 1500-1599.</figDesc>
+                    </figure>
+                    <figure>
+                        <head>Subset of Orlando places</head>
+                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3Accfa9c69-b589-4a24-b9fa-665e595158c3/manage/datastreams" />
+                        <figDesc>Figure 1.1b: Biographies of writers born between 1600-1699.</figDesc>
+                    </figure>
+                    <figure>
+                        <head>Subset of Orlando places</head>
+                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A39c0d242-223b-4347-958f-0d6fed100d3d/datastream/JPG-DToC/view" />
+                        <figDesc>Figure 1.1c: Biographies of writers born between 1700-1799.</figDesc>
+                    </figure>
+                    <figure>
+                        <head>Subset of Orlando places</head>
+                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3Aa4956f56-fe4d-4e89-9455-9a1ffb2db540/datastream/JPG-DToC/view" />
+                        <figDesc>Figure 1.1d: Biographies of writers born between 1800-1899.</figDesc>
+                        <figure>
+                            <head>Subset of Orlando places</head>
+                            <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A075b6876-6e57-4df8-b802-1c579161a9c5/datastream/JPG-DToC/view" />
+                            <figDesc>Figure 1.1e: Biographies of writers born between 1900-2000.</figDesc>
+                        </figure>
+                        <p xml:id="p1054">
+                            <ref target="#spatiality">This map produced many hits in England, numerous hits in continental Europe, and a few hits worldwide (see Figure 1.2).</ref>
+                        </p>
+                        <p xml:id="p1055">
+                            <ref target="#representation_of_women">Figure 1.3 shows Ward’s extensive travels around Europe: an extraordinary testimony to one woman’s influence at a time when travel was slow and dangerous.</ref>
+                        </p>
+                        <p xml:id="p1056">Figure 1.4 indicates a concentration of hits in northern England (which reflects <ref target="#religion">the semi-underground life lived by Catholics</ref> during the time of Ward’s adolescence) and a cluster of hits in London.</p>
+                        <p xml:id="p1057">
+                            <ref target="#spatiality">Zooming in further in the Exhibit view reveals the various addresses or names of public buildings associated with Mary Ward. Most, but not all, of these addresses and buildings still exist today, which affirms the desirability of certain kinds of <ref target="#technology">mapping technologies for smart phone applications.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p1058">
+                            <ref target="#spatiality">If is it possible to produce a map with this degree of detail from the life of a single writer as described in Orlando, imagine the potential for further visualizations. <ref target="#history">Maps produced from combining multiple writers into a single visualization would reveal a great deal about the relationships between groups of writers and the changing uses of space within the city of London, for example. Imagine the thickly populated general maps of eighteenth-century writers’ London or twentieth-century</ref>
+                            </ref>
+                            <figure>
+                                <head>Figure 1.3</head>
+                                <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A577eae57-b584-4fcf-9fde-a5ba94d0f78b/datastream/JPG-DToC/view" />
+                                <figDesc>Places related to Mary Ward's travels and influence in Europe.</figDesc>
+                            </figure>
+                            <figure>
+                                <head>Figure 1.4</head>
+                                <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A206263d4-7084-4ab3-95b1-91bb866d04b9/datastream/JPG-DToC/view" />
+                                <figDesc>Places related to Mary Ward's travels and influence in England.</figDesc>
+                            </figure> writers’ London. <ref target="#close_reading">Theoretically, the degree of possible granularity knows no bounds.</ref>
+                        </p>
+                        <p xml:id="p1059">
+                            <ref target="#spatiality">
+                                <ref target="#non-book_media">The availability of map resources is a relevant issue. How badly does <abbr>CWRC</abbr>, in particular, need online historical maps? <ref target="#technology">The interlayering of maps from different centuries enabled by the HyperCities platform, for example, produces beautiful contrasts and juxtapositions</ref>, but spatial relations are not the focus of most <abbr>CWRC</abbr> projects. What emerged from our initial round of experiments is that spatially mapping events from roughly the same period does not necessarily provide insight into changing historical patterns in relation to place and space.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p1060">
+                            <ref target="#history">
+                                <ref target="#spatiality">
+                                    <ref target="#non-book_media">Even without the benefit of historical maps against which to view the spatial data, mapping and then comparing Orlando’s eighteenth-century London and nineteenth-century London (Figures 1.5 and 1.6) clearly indicates the speed with which the boundaries of the city were moving outwards and the changes made, for instance, by roads taking over from the River Thames as transport corridors. Similarly, mapping and then comparing Orlando’s seventeenth-century and nineteenth-century Britain indicates the ways in which literary activity shifted as the centres of population shifted from the old agricultural centres to the new industrial centres.</ref>
+                                </ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p1061">
+                            <ref target="#theme_or_topic">The outlying markers in the map of Mary Ward’s travels (Canada, the United States, India, and Australia) shed light on two further considerations. They show the extent to which the context leveraged from markup is always already embedded in the specifics of the author’s life and works, and must therefore be understood as part of an ongoing process of humanistic interpretation and situated representation, rather than a positivist index of certain relations. These hits on Ward’s map (Figure 1.2) reflect the information provided in Orlando’s entry on Ward that <ref target="#religion">the order she founded flourishes today</ref> in those places.</ref>
+                        </p>
+                        <p xml:id="p1062">
+                            <ref target="#spatiality">The way Orlando’s material on Mary Ward figures on our map highlights one of the crucial aspects of the kind of mapping that will be involved in <abbr>CWRC</abbr> as a whole. There are, as mentioned above, rare projects involved in <abbr>CWRC</abbr> that focus on the idea of space and have mapping as a central component; however, for the bulk of <abbr>CWRC</abbr> projects, and certainly for donated data projects that predate the Collaboratory, these</ref>
+                            <figure>
+                                <head>Figure 1.5</head>
+                                <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A1e502987-5452-45e7-a9e8-98b3c468afe9/datastream/JPG-DToC/view" />
+                                <figDesc>Places in London associated with writers of the eighteenth century in Orlando.</figDesc>
+                            </figure>
+                            <figure>
+                                <head>Figure 1.6</head>
+                                <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A56565066-25ba-481f-91b0-007e9c8f9d1b/datastream/JPG-DToC/view" />
+                                <figDesc>Places in London associated with the writers of the nineteenth century in Orlando</figDesc>
+                            </figure>
+                            <ref target="#spatiality">concerns are not central to the research aims that inform the way that spatial information is collected. The implications of this are twofold. <ref target="#theme_or_topic">
+                                    <ref target="#close_reading">First, there will be many cases, such as that of Mary Ward’s global reach, when spatial information is not as granular as it might be in a dedicated <abbr>GIS</abbr> project, which could lead to surprising results. Second, there will be an inherent unevenness in the granularity of the spatial data across the project as a whole. Some projects will dedicate considerable effort to linking spatial and temporal data to enable precise rendering of materials on maps that will support exploration of research questions developed with spatial analysis in mind. Other projects will produce spatial data more casually, in keeping with standard biographical, critical, or bibliographical methods.</ref>
+                                </ref>
+                                <ref target="#collaboration">Thus, <abbr>CWRC</abbr> maps rendered from data produced across the Collaboratory will differ considerably from maps created by single projects. Although the format of the data will be interoperable, it will vary considerably from data produced by a single project with uniform principles, aims, and methods in the production of spatial data.</ref> While all maps require interpretation, <abbr>CWRC’s</abbr> maps will, for this reason, require careful readerly analysis. Hence, the rhetoric of the interface will need to signal that the map is not a finished product but an interpretive tool, one of several offered by the Collaboratory.</ref>
+                        </p>
+                        <p xml:id="p1063">
+                            <ref target="#technology">
+                                <ref target="#spatiality">This species of map will differ considerably, for instance, from those facilitated by the Neatline project: <ref target="#archive">
+                                        <q>beautiful, complex maps and narrative sequences from collections of archives and artifacts…maps and narratives with timelines that are more-than-usually sensitive to ambiguity and nuance….Neatline lets you make hand-crafted, interactive stories as interpretive expressions of an archival or cultural heritage collection</q>
+                                    </ref>
+                                    <note place="inline">
+                                        <bibl>Scholars’ Lab</bibl>
+                                    </note>. <ref target="#collaboration">Not all visualizations within <abbr>CWRC</abbr> will offer the highly interpretive, detailed, and exquisitely curated spatial and temporal representations of materials produced by a single scholar or co-ordinated team effort in a project to which mapping is central, but the ability to bring together sets of materials and to visualize their spatial data—the unexpected conjunction of materials—may garner serendipitous results. Moreover, embedding such visualizations within an extensive and multi-faceted knowledge environment, so that one can move between the visualizations and other lenses on a given set of materials, means that the mappings will offer a <q>dynamic rendering of culture,</q> which humanities scholars prefer over <q>static ones</q>
+                                        <note place="inline">
+                                            <bibl>Corrigan 80–81</bibl>
+                                        </note>. As John Corrigan affirms, <q>Complex data is dynamic data…It is data that is characterized by interaction between its various parts, which massage each other <figure>
+                                                <head>Figure 1.7</head>
+                                                <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A8043a3ee-1ff4-4453-94b1-13a52e329dde/datastream/JPG-DToC/view" />
+                                                <figDesc>Places associated with the seventeenth-century Society of Friends in Orlando.</figDesc>
+                                            </figure> continually in ways that alter our understanding of what we are looking at</q>
+                                        <note place="inline">
+                                            <bibl>80–81</bibl>
+                                        </note>.</ref>
+                                </ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p1064">
+                            <ref target="#spatiality">
+                                <ref target="#theme_or_topic">The diversity of project aims and data granularity drives home the importance, indeed the necessity, of allowing the reader to move from a map to the source data that lies behind it. <ref target="#intertextuality">Whereas a number of impressive mapping projects associated with writing, such as Gregory Prickman’s <title level="m">The Atlas of Early Printing,</title> provide maps that represent data without giving access to the specific source information that underlies each point in a map (as is typical of printed maps), users of <abbr>CWRC</abbr> maps will need to be able to access the text that is the source of the visualization in order to determine the relevance of particular points on a map, and subsequently the nature of the connection to the place in question.</ref> Information pertaining to provenance also may prove particularly important in this context. Given the inevitability of divergent practices with respect to spatial data on different projects, it will be important to allow those who are creating spatial visualizations of <abbr>CWRC</abbr> materials to filter out certain sets of information deemed incompatible with the terms of their inquiry.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p1065">
+                            <ref target="#theme_or_topic">Another issue of concern is the way insufficiently specified places—or the combination of varying levels of granularity in a single spatial visualization—can yield misleading results. <ref target="#religion">This can be seen clearly on a map showing the travels of seventeenth-century Quakers.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p1066">
+                            <ref target="#representation_of_women">Figure 1.7 shows at a glance how widely these intrepid women penetrated the eastern seaboard of colonial North America, travelled from Newfoundland in the north to Jamaica and Barbados in the south. It also shows their travels in Europe and eastwards to Greece, Turkey, and Jerusalem, as well as all over England and Ireland. <ref target="#religion">Like Mary Ward, these members of the Society of Friends were driven by the determination to spread their faith worldwide.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p1067">
+                            <ref target="#religion">
+                                <ref target="#history">
+                                    <ref target="#spatiality">But this map also indicates hits in the American Midwest, where no Quakers, indeed no Europeans at all, had reached during the seventeenth century. It is not in the Midwest but in <q>America</q> generally that the <ref target="#non-book_media">Orlando text base says many Quakers travelled and preached. Likewise, it is not in Saskatchewan but in <q>Canada</q> generally that Mary Ward’s order flourishes today (see Figure 1.2). <ref target="#politics">The fact that we are using a map based on current political boundaries as the basis for our visualization is historically insensitive and makes Saskatchewan the generalized geographical centre of Canada at a time in history when such a notion was nonsensical.</ref> This problem would be partially resolved by using historical maps that represented the boundaries of Canada as they existed in Ward’s lifetime, or the parts of the United States frequented by Europeans during the early activities of the Quakers.</ref> If the results for Mary Ward were shown on a historical map rather than a modern map, the <q>centres</q> of Canada and the United States (at least from a colonial perspective, on colonial maps) would lie much further to the east and the degree of misplacement would be lessened.</ref> Nation or country place names would still produce generalized results that are very misleading if represented by points, but the approximation to more distinct regions would be more evident.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p1068">
+                            <ref target="#religion">Ward’s case would remain problematic, however; the Canada in which her order currently flourishes is indeed present-day Canada that spans from east to west coast, though that was not the Canada of Ward’s time. <ref target="#representation_of_women">As a result, no single visual representation of Canada could satisfactorily represent Ward’s influence.</ref>
+                            </ref>
+                            <ref target="#spatiality">
+                                <ref target="#politics">The example of Ward gives rise to potent questions. How, for instance, might one map First Nations settlements <figure>
+                                        <head>Figure 1.8</head>
+                                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A6038108c-7313-4d53-99d3-dfeb89884338/datastream/JPG-DToC/view" />
+                                        <figDesc>Enlarged portion of map of Society of Friends.</figDesc>
+                                    </figure> and activities as opposed to colonial activity, and how might one represent First Nations conceptions of space at varying points in history?</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p1069">
+                            <ref target="#politics">
+                                <ref target="#theme_or_topic">
+                                    <ref target="#spatiality">Both Ward’s case and that of the Quakers emphasize the problems of representation that emerge from mapping information of <ref target="#close_reading">varying degrees of particularity within the same environment</ref>, and the tension between concepts of the spatial or geographical, on the one hand, and the national or political, on the other. They remind us of the constructedness and historical contingency of visual representations of place and space, and invite us to explore ways that we might combine existing conventions of representation, such as the usual pins, lines, polygons, and gradients, to represent different, and at times conflicting, spatial references and associations contained in <ref target="#non-book_media">Orlando’s prose and in Orlando’s markup.</ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p1070">
+                            <ref target="#history">
+                                <ref target="#politics">
+                                    <ref target="#religion">If one looks at parts of the Quaker map in larger scale (Figure 1.8), one sees generic designators of a country alongside more precise hits on particular places within those countries.</ref> This combination can produce misleading ahistorical results: in earlier periods, for instance, current nations such as Germany and Italy were not united political entities.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p1071">
+                            <ref target="#spatiality">
+                                <ref target="#writing_climate">The constructedness of space, as well as its constitutive aspects within literary culture and the production of subjectivities and sensibilities through literature, is especially relevant to Orlando and <abbr>CWRC</abbr> whose <figure>
+                                        <head>Figure 1.9</head>
+                                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A1bd114ad-4cdc-469e-8580-f7c9b891fadf/datastream/JPG-DToC/view" />
+                                        <figDesc>Scotland as a literary setting.</figDesc>
+                                    </figure> teams are particularly interested in the possibilities for mapping place in both historical time and imaginative literature.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p1072">
+                            <ref target="#writing_climate">
+                                <ref target="#spatiality">Figure 1.9 maps Scotland as a setting for writing (fiction and non-fiction). It indicates the extent to which, within texts, more places are mentioned in general terms than in Orlando’s discussions of writers’ lives, which frequently supply the name of a town, village, castle, or farmhouse. Hence, many texts make reference simply to Scotland, or to the romantic regions of the Scottish Highlands or Scottish Borders, providing perhaps a fictitious place name within those areas. Again, a range of visualization strategies could designate <ref target="#close_reading">different levels of granularity on a single map and help distinguish particular locations from generalized areas, thereby creating a hermeneutic layer that represents less specific fictional regions.</ref>
+                                    <ref target="#intertextuality">These layers are akin to <q>the spaces—Foucault’s hetero­topias—that cannot be mapped, such as the marketplace, the theatre, the fairground, and the ship</q>
+                                        <note place="inline">
+                                            <bibl>Jenstad 117</bibl>
+                                        </note> that Janelle Jenstad identifies as challenges to mapping early modern London in ways that are responsive to the needs of literary scholars. Although such mapping presents difficulties, there is real potential for this kind of visualization to assist in understanding some of the characteristics of the representation of space, and of particular spaces, in literature.</ref>
+                                </ref>
+                            </ref>
+                        </p>
+                    </figure>
+                </div>
+                <div type="section">
+                    <head>Conclusions</head>
+                    <p xml:id="p1073">
+                        <ref target="#theory">
+                            <ref target="#theme_or_topic">
+                                <ref target="#spatiality">Knowing what we want to map and, as far as possible, how we want to map our materials will be a great advantage to <abbr>CWRC</abbr>. <ref target="#technology">When Orlando began, the kind of web-based mapping systems available today did not exist and, although we tried to anticipate what would be required for mapping, we struggled to sufficiently disambiguate place names for delivery and searchability as text. It is not surprising, then (despite the painstaking application of spatial metadata throughout the text base), that an extensive cleanup of place tagging was required to create the relatively straightforward maps represented in this chapter.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1074">
+                        <ref target="#theory">
+                            <ref target="#spatiality">
+                                <ref target="#technology">The challenges described here are by no means unique to this particular mapping project. They invoke the impact of drawing on uneven spatial data, in terms of its granularity (such as North America versus Halifax, Nova Scotia) and density (such as <abbr>CWRC</abbr> items that only have a few places mentioned in their metadata in contrast to a piece of travel writing in Orlando that already has extensive tagging). There is yet a further source of unevenness within <abbr>CWRC</abbr>: differences in the extent to which contextualizing semantic data is present within and across projects in the Collaboratory. A challenge for both <abbr>CWRC</abbr> and Orlando is the sheer density of spatial data across the collections, especially in relation to major population and publishing centres such as London, Toronto, and Montreal. An ideal mapping interface would allow efficient processing and visualization of large quantities of spatial data in a web environment, easy faceting according to a range of criteria, and manual sifting of results, plus quick reference to the source text.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1075">
+                        <ref target="#theory">
+                            <ref target="#spatiality">
+                                <ref target="#theme_or_topic">
+                                    <ref target="#technology">Our early experimental work tackles only a few of the more obvious complexities of spatial and temporal mapping. We are also keenly aware that our pragmatic experimentation with existing open source tools means that, to date, we have relied on existing conventions for representation of space that may be inherently out of step with the nature of our undertaking. As Johanna Drucker urges, humanities visualization needs <q>interpretations that arise in observer-codependence, characterized by ambiguity and uncertainty, as the basis on which a representation is constructed</q> to create <q>a map whose basic coordinate grid is constructed as an effect of these ambiguities</q>
+                                        <note place="inline">
+                                            <bibl>Drucker par. 2</bibl>
+                                        </note>. The systems with which we have experimented thus far cannot begin to support such a nuanced model of spatial visualization. How best to address the mapping needs of literary scholars within <abbr>CWRC</abbr>, given the available resources, continues to drive our research. We look forward to learning what affordances other spatial visualization systems, such as Neatline with its attempt to incorporate an interpretive, humanistic perspective, can offer, and how we might adapt them to the kind of <ref target="#collaboration">collaborative, spontaneous, serendipitous mapping environment that <abbr>CWRC</abbr> hopes to support.</ref>
+                                        <abbr>CWRC</abbr> also hopes to incorporate more focused, curated mapping work. Creating even a relatively simple environment within which scholars of wide-ranging perspectives can play with place and space as part of their respective investigations will help advance scholarly reflection on mapping itself and discovery of what kinds of mapping are most conducive to scholarly analysis and interpretation in the field of literary historical studies. But we know we still have considerable ground to cover.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Works Cited</head>
+                    <listBibl>
+                        <head>Digital Sources</head>
+                        <bibl>
+                            <title level="m">ArcGIS</title>. <ref target="http://www.esri.com/software/arcgis">http://www.esri.com/software/arcgis</ref>
+                        </bibl>
+                        <bibl>Brown, Susan, and Patricia Clements et al. <title level="a">Tag Team: Computing, Collaborators, and the History of Women’s Writing in the British Isles</title>. <title level="s">Computing in the Humanities Working Papers</title> (April 1998). <ref target="http://projects.chass.utoronto.ca/chwp/orlando">http://projects.chass.utoronto.ca/chwp/orlando</ref>
+                        </bibl>
+                        <bibl>Brown, Susan, Patricia Clements, and Isobel Grundy, eds. <title level="m">Orlando: Women’s Writing in the British Isles from the Beginnings to the Present</title>. Cambridge: Cambridge University Press, 2006–2012. <ref target="http://orlando.cambridge.org">http://orlando.cambridge.org</ref>
+                        </bibl>
+                        <bibl>Coleman, Nicole, Dan Edelstein, and Paula Findlen. <title level="m">Mapping the Republic of Letters</title>. Stanford University. <ref target="https://republicofletters.stanford.edu">https://republicofletters.stanford.edu</ref>
+                        </bibl>
+                        <bibl>Drucker, Johanna. <title level="a">Humanities Approaches to Graphical Display</title>. <title level="j">DHQ: Digital Humanities Quarterly</title> 5.1 (2011). <ref target="http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html">http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html</ref>
+                        </bibl>
+                        <bibl>
+                            <title level="m">GeoNames</title>. <ref target="http://www.geonames.org">http://www.geonames.org</ref>
+                        </bibl>
+                        <bibl>
+                            <title level="a">geopy—A Geocoding Toolbox for Python</title>. <title level="m">Google Code</title>. <ref target="https://github.com/geopy/geopy">https://github.com/geopy/geopy</ref>
+                        </bibl>
+                        <bibl>
+                            <title level="m">Google Maps</title>. <ref target="http://maps.google.ca">http://maps.google.ca</ref>
+                        </bibl>
+                        <bibl>Huynh, David François. <title level="m">Exhibit</title>. Massachusetts Institute of Technology. <ref target="http://www.simile-widgets.org/exhibit">http://www.simile-widgets.org/exhibit</ref>
+                        </bibl>
+                        <bibl>
+                            <title level="m">HyperCities</title>. University of California, Los Angeles. <ref target="http://hypercities.com">http://hypercities.com</ref>
+                        </bibl>
+                        <bibl>MetaCarta. <title level="m">OpenLayers</title>. Open Source Geospatial Foundation. <ref target="http://openlayers.org">http://openlayers.org</ref>
+                        </bibl>
+                        <bibl>Prickman, Gregory. <title level="m">The Atlas of Early Printing</title>. University of Iowa Libraries. <ref target="http://atlas.lib.uiowa.edu">http://atlas.lib.uiowa.edu</ref>
+                        </bibl>
+                        <bibl>Scholars’ Lab. <title level="m">Neatline: Plot Your Course in Space and Time</title>. University of Virginia Library. <ref target="http://neatline.org">http://neatline.org</ref>
+                        </bibl>
+                        <bibl>
+                            <title level="m">The SIMILE Project</title>. Massachusetts Institute of Technology. <ref target="http://simile-widgets.org">http://simile-widgets.org</ref>
+                        </bibl>
+                        <bibl>
+                            <title level="m">TEI: Text Encoding Initiative.</title>
+                            <ref target="http://www.tei-c.org/index.xml">http://www.tei-c.org/index.xml</ref>
+                        </bibl>
+                        <bibl>Thomas, William G., <hi rend="small-caps">iii</hi>, Richard G. Healey, and Ian J. Cottingham. <title level="m">The Aurora Project</title>. University of Nebraska. <ref target="http://auroraproject.unl.edu/web/railroads.xhtml">http://auroraproject.unl.edu/web/railroads.xhtml</ref>
+                        </bibl>
+                    </listBibl>
+                    <listBibl>
+                        <head>Print Sources</head>
+                        <bibl>Bol, Peter K. <title level="a">What Do Humanists Want? What Do Humanists Need? What Might Humanists Get?</title>
+                            <title level="m">GeoHumanities: Art, History, Text at the Edge of Place</title>. Ed. Michael Dear, Jim Ketchum, Sarah Luria, and Douglas Richardson. London: Routledge, 2011. 296–308.</bibl>
+                        <bibl>Cooper, David, and Ian N. Gregory. <title level="a">Mapping the English Lake District: A Literary <abbr>GIS</abbr>
+                            </title>. <title level="j">Transactions of the Institute of British Geographers</title> 36 (2011): 89–108.</bibl>
+                        <bibl>Corrigan, John. <title level="a">Qualitative <abbr>GIS</abbr> and Emergent Semantics</title>. <title level="m">Spatial Humanities: <abbr>GIS</abbr> and the Future of Humanities Scholarship</title>. Bloomington: Indiana University Press, 2010. 76–88.</bibl>
+                        <bibl>Gregory, Ian. <title level="a">Exploiting Time and Space: A Challenge for <abbr>GIS</abbr> in the Digital Humanities</title>. <title level="m">The Spatial Humanities: <abbr>GIS</abbr> and the Future of Humanities Scholarship</title>. Ed. David J. Bodenhamer, John Corrigan, and Trevor M. Harris. Bloomington: Indiana University Press, 2010. 58–75.</bibl>
+                        <bibl>Jenstad, Janelle. <title level="a">Using Early Modern Maps in Literary Studies: Views and Caveats from London</title>. <title level="m">GeoHumanities: Art, History, Text at the Edge of Place</title>. Ed. Michael Dear, Jim Ketchum, Sarah Luria, and Douglas Richardson. London: Routledge, 2011. 112–19.</bibl>
+                        <bibl>Warf, Barney, and Santa Arias. <title level="a">Introduction: The Reinsertion of Space in to the Social Sciences and Humanities</title>. <title level="m">The Spatial Turn: Interdisciplinary Perspectives</title>. Ed. Warf and Arias. London: Routledge, 2008. 1–10.</bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

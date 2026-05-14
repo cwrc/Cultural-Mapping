@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>-->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main" xml:lang="en-CA">Preface</title>
+                <title level="m" type="main" xml:lang="en-CA">Cultural Mapping and the Digital Sphere</title>
+                <title level="m" type="sub" xml:lang="en-CA">Place and Space</title>
+                <author>Ruth Panofsky &amp; Kathleen Kellett</author>
+                <editor role="editor">
+                    <forename>Ruth</forename>
+                    <surname>Panofsky</surname>
+                </editor>
+                <editor role="editor">
+                    <forename>Kathleen</forename>
+                    <surname>Kellett</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <forename>Ilovan</forename>
+                    </name>
+                </respStmt>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor>
+                    <orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Dynamic Table of Contexts editors: </resp>
+                    <name>
+                        <forename>Ruth</forename>
+                        <surname>Panofsky</surname>
+                    </name>
+                    <name>
+                        <forename>Kathleen</forename>
+                        <surname>Kellett</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Principal: </resp>
+                    <name>
+                        <forename>Susan</forename>
+                        <surname>Brown</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <surname>Ilovan</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copyediting and proofreading: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Olivier</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexing:</resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name>
+                        <forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Cover design: </resp>
+                    <name role="book_designer">
+                        <forename>Virginia</forename>
+                        <surname>Penny</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface design lead: </resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead: </resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>Mary Lou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer:</resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by: </resp>
+                    <name role="markup_editor">
+                        <forename>Kristine</forename>
+                        <surname>Abramoff</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Anita</forename>
+                        <surname>Cutic</surname>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address>
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address>
+                        <addrLine>www.cwrc.ca</addrLine>
+                    </address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1- 55195-365- 6</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Individual preface extract from: Cultural Mapping and the Digital Sphere: Place and Space, ed. Ruth Panofsky &amp; Kathleen Kellett (Edmonton: University of Alberta Press, 2015 / DToC ed. 2016).</p>
+                <ab type="host-volume">
+                    <listBibl>
+                        <bibl>
+                            <title level="a" type="main">Foreword</title>
+                            <author>
+                                <forename>Susan</forename>
+                                <surname>Brown</surname>
+                            </author> &amp; <author>
+                                <forename>Mary-Jo</forename>
+                                <surname>Romaniuk</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Preface</title>
+                            <author>
+                                <forename>Ruth</forename>
+                                <surname>Panofsky</surname>
+                            </author> &amp; <author>
+                                <forename>Kathleen</forename>
+                                <surname>Kellett</surname>
+                            </author>
+                        </bibl>
+                        <listBibl>
+                            <head>Part I. Place and the Digital Frontier</head>
+                            <bibl>
+                                <title level="a" type="maiin">Mapping Tags and Tagging Maps</title>
+                                <title type="sub">Leveraging Spatial Markup for Literary History</title>
+                                <author>
+                                    <forename>Susan</forename>
+                                    <surname>Brown</surname>
+                                </author>, <author>
+                                    <forename>Isobel</forename>
+                                    <surname>Grundy</surname>
+                                </author>, <author>
+                                    <forename>Mariana</forename>
+                                    <surname>Paredes-Olea</surname>
+                                </author>, <author>
+                                    <forename>Jeffery</forename>
+                                    <surname>Antoniuk</surname>
+                                </author> &amp; <author>
+                                    <forename>Breanna</forename>
+                                    <surname>Mroczek</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Modeling Collaboration in Digital Humanities Scholarship</title>
+                                <title type="sub">Foundational Concepts of an EMiC UA Project Charter</title>
+                                <author>
+                                    <forename>Paul</forename>
+                                    <surname>Hjartarson</surname>
+                                </author>, <author>
+                                    <forename>Harvey</forename>
+                                    <surname>Quamen</surname>
+                                </author>, <author>
+                                    <forename>Andrea</forename>
+                                    <surname>Hasenbank</surname>
+                                </author>, <author>
+                                    <forename>Vanessa</forename>
+                                    <surname>Lent</surname>
+                                </author> &amp; <author>
+                                    <orgName> EMiC UA</orgName>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">An Interactive, Materialist-Semiotic Archive</title>
+                                <title type="sub">Visualizing the Canadian Theatrical Canon in the Simulated Environment for Theatre</title>
+                                <author>
+                                    <forename>Sasha</forename>
+                                    <surname>Kovacs</surname>
+                                </author> and <author>
+                                    <forename>Jennifer</forename>
+                                    <surname>Roberts-Smith</surname>
+                                </author>, <author>
+                                    <forename>Theresa M.</forename>
+                                    <surname>Dobson</surname>
+                                </author>, <author>
+                                    <forename>Sandra</forename>
+                                    <surname>Gabriele</surname>
+                                </author>, <author>
+                                    <forename>Omar</forename>
+                                    <surname>Rodrigues-Arenas</surname>
+                                </author>, <author>
+                                    <forename>Stan</forename>
+                                    <surname>Ruecker</surname>
+                                </author>, <author>
+                                    <forename>Stéfan</forename>
+                                    <surname>Sinclair</surname>
+                                </author>, <author>
+                                    <forename>Shawn</forename>
+                                    <surname>DeSouza-Coelho</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">"Talk to the Work"</title>
+                                <title type="sub">Applying istc Identifiers to the Digital Edition of the Canadian Bookman (1909–1941)</title>
+                                <author>
+                                    <forename>Ravit H.</forename>
+                                    <surname>David</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">How to Play with Maps</title>
+                                <author>
+                                    <forename>Bethany</forename>
+                                    <surname>Nowviskie</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Edmonton Pipelines</title>
+                                <title type="sub">Living and Playing in the Digital City </title>
+                                <author>
+                                    <forename>Heather</forename>
+                                    <surname>Zwicker</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Representing Canadian Queer Authorship</title>
+                                <title type="sub">Making the Internet a Women’s Place</title>
+                                <author>
+                                    <forename>Michelle</forename>
+                                    <surname>Schwartz</surname>
+                                </author> &amp; <author>
+                                    <forename>Constance</forename>
+                                    <surname>Crompton</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Part II. Writers and Readers: Mapping Textual Space</head>
+                            <bibl>
+                                <title level="a" type="main">Salomania</title>
+                                <title type="sub">Maud Allan, Postcards, and Early Twentieth-Century “Viral” Circulation</title>
+                                <author>
+                                    <forename>Cecily</forename>
+                                    <surname>Devereux</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Toronto the Good in the Fiction and Life of Grace Irwin</title>
+                                <author>
+                                    <forename>Patricia</forename>
+                                    <surname>Demers</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">« Where are you froM? »</title>
+                                <title type="sub" xml:lang="fr-CA">La ville et l’écriture migrante dans l’autofiction de Marguerite Andersen</title>
+                                <author>
+                                    <forename>Kathleen</forename>
+                                    <surname>Kellett</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Languages as Spaces, Translation as Play</title>
+                                <title type="sub">Moving (through) Languages</title>
+                                <author>
+                                    <forename>Lori</forename>
+                                    <surname>Saint-Martin</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">L'espace ensorcelé</title>
+                                <title type="sub">Les enfants du sabbat d’Anne Hébert</title>
+                                <author>
+                                    <forename>Stéphanie</forename>
+                                    <surname>Walsh Matthews</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick and Kim Thúy</title>
+                                <author>
+                                    <forename>Mireille</forename>
+                                    <surname>MaiTruong</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Standing on a Rainbow</title>
+                                <title type="sub">Reading in Place, Position, and Time</title>
+                                <author>
+                                    <forename>Margaret</forename>
+                                    <surname>Mackey</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <bibl>
+                            <title type="main" xml:lang="en-CA">Contributors</title> / <title type="main" xml:lang="fr-CA">Collaborateurs</title>
+                        </bibl>
+                    </listBibl>
+                </ab>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p />
+            </projectDesc>
+            <classDecl>
+                <taxonomy>
+                    <desc>Semantic tags employed in this book can be reviewed at <ref target="http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml">http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml</ref>
+                    </desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-CA">English</language>
+                <language ident="fr-CA">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline />
+                <item />
+                <index>
+                    <term />
+                </index>
+                <byline />
+                <index>
+                    <term />
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="preface" xml:lang="en-CA">
+                <head>
+                    <title level="a">Preface</title>
+                </head>
+                <p xml:id="p1027">
+                    <ref target="#collaboration">
+                        <ref target="#theme_or_topic">As lead developers <persName>Susan Brown</persName> and <persName>Mary-Jo Romaniuk</persName> outline in their Foreword to this volume, the <orgName>Canadian Writing Research Collaboratory</orgName> (<abbr>CWRC</abbr>) is an innovative undertaking—a catalyst for progressive research on Canadian literature and culture; a virtual hub for wide-ranging digital activities, most scholarly, others creative, all exploratory; and a repository for projects that either rely on or incorporate digital components.</ref>
+                        <ref target="#spatiality">The inventive spirit evoked and fostered by <abbr>CWRC</abbr> is evident across this collection of essays, which emerged from the Collaboratory’s second annual conference held at <orgName>Ryerson University</orgName> in late <date cert="high" when="2011-09">October 2011</date>. Ryerson University’s urban setting in the heart of downtown <placeName>Toronto</placeName> gave rise to the conference’s triadic theme of <q>Space / Place / Play.</q>
+                        </ref> Given the suggestive topic, it is not surprising that the original call for papers generated vigorous response from scholars and practitioners across <placeName>North America</placeName>.</ref>
+                </p>
+                <p xml:id="p1028">
+                    <ref target="#technology">
+                        <ref target="#theme_or_topic">
+                            <ref target="#spatiality">
+                                <ref target="#archive">
+                                    <ref target="#methodology">The arrangement of this volume highlights the exciting research possibilities in the eclectic and versatile field of digital humanities. Part I of the collection, <title level="a">Place and the Digital Frontier,</title> opens with essays that limn the discourse of digital projects and digital collaboration, including that endorsed by <abbr>
+                                            <orgName>CWRC</orgName>
+                                        </abbr>. It continues with essays charting the terrain of projects that apply digital practice and methodologies to archival artifacts and the act of storytelling. Part II, <title level="a">Writers and Readers: Mapping Textual Space,</title> includes essays that emphasize a dynamic engagement with literary texts at the level of writerly and readerly play. Notwithstanding their differing approaches—digital, archival, historical, iterative, critical, creative, reflective—the essays gathered here articulate new ways of seeing, investigating, and apprehending literature and culture.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1029">
+                    <ref target="#technology">
+                        <ref target="#theme_or_topic">The essays in Part I showcase evolving digital projects that are intended to push the boundaries of the developing field of digital humanities. <ref target="#collaboration">The first two essays set out some of the current and potential uses of digital technologies and consider appropriate guidelines for collaborative work in the field.</ref>
+                            <ref target="#authorship">
+                                <ref target="#history">
+                                    <ref target="#writing_climate">
+                                        <ref target="#representation_of_women">Under the aegis of <orgName>
+                                                <abbr>CWRC</abbr>
+                                            </orgName>, <title level="a">Mapping Tags and Tagging Maps</title> sets out the challenges faced by <persName>Susan Brown</persName> and her colleagues who aim to identify and map the wide range of activities undertaken historically by literary women in Canada.</ref>
+                                    </ref>
+                                </ref> Since the parameters of such a vast project are still unfolding, the attempt to match semantic tags to anticipated mapping requirements is especially challenging.</ref>
+                            <ref target="#authorship">In <title level="a">Modelling Collaboration,</title>
+                                <persName>Paul Hjartarson</persName> and colleagues initiate a project charter of <q>trust cluster</q> principles to guide collaborative editorial work on three projects undertaken under the aegis of <orgName>Editing Modernism in Canada</orgName>, a partner project of <abbr>
+                                    <orgName>CWRC</orgName>
+                                </abbr>
+                                <ref target="#economics">funded by a <abbr>
+                                        <orgName>SSHRC</orgName>
+                                    </abbr> Strategic Knowledge Cluster grant</ref>.</ref>
+                            <ref target="#collaboration">That charter—which elaborates principles of collaboration, credit, documentation, and communication—is shaped as much by the distinctive digital nature of each editorial project as the desire to assign scholarly credit equitably for individual and collaborative contributions.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1030">
+                    <ref target="#technology">
+                        <ref target="#theme_or_topic">Emphasizing the hands-on nature of digital humanities research, the next group of essays presents innovative applications of digital technology in literary and archival research. <ref target="#technology">
+                                <ref target="genre_performance">
+                                    <persName>Sasha Kovacs</persName> and her colleagues demonstrate the use of their <q>interactive, materialist-semiotic archive,</q> the <orgName>Simulated Environment for Theatre</orgName>, in a comparative analysis of stage performances of <persName>Judith Thompson</persName>’s classic Canadian play <title level="m">White Biting Dog</title>, first at the <placeName>Tarragon Theatre</placeName> in <date cert="high" when="1984">1984</date> and, more recently, as a <orgName>Soulpepper</orgName> production at the <orgName>Young Centre for the Performing Arts</orgName> in <date cert="high" when="2011">2011</date>.</ref>
+                            </ref>
+                            <ref target="#archive">This promising archival tool may be used not only to store records of past performances but also to simulate hypothetical ones</ref>. Focusing on the <title level="j">Canadian Bookman</title>, a periodical that spanned <date cert="high" from="1900" to="1931">1900 to 1941</date>,<persName>Ravit H. David</persName> seeks to digitize a complete run of the periodical and analyze the advertisements, which appeared alongside literary material, as optical codes to reading. In this endeavour, she reveals the usefulness of International Standard Text Code (<abbr>ISTC</abbr>), which allows scholars to catalogue literary content, while taking into account the various forms—both existing and future editions—it may take in the digital age.</ref>
+                    </ref>
+                </p>
+                <p xml:id="p1031">
+                    <ref target="#technology">
+                        <ref target="#theme_or_topic">
+                            <ref target="#spatiality">Other projects focus specifically on storytelling and the creation of narrative in the digital age. <title level="a">In How to Play with Maps,</title>
+                                <persName>Bethany Nowviskie</persName> highlights undertakings in digital research intended to facilitate storytelling at the <orgName>Scholars’ Lab</orgName> at the <orgName>University of Virginia Library</orgName>, in particular the Neatline project. <ref target="#representation_of_women">She demonstrates the ludic possibilities of mapmaking in her study of an illustrated map, created in <date cert="high" when="1823">1823</date> by a fourteen-year-old student at the <orgName>Troy Female Seminary</orgName> and marked by a distinctively personal interpretation of national geography.</ref> As part of the <orgName>Canadian Institute for Research Computing in Arts’ Digital Urbanism Collaboratory</orgName>, <persName>Heather Zwicker</persName> and other researchers have created a series of projects known as <orgName>Edmonton Pipelines</orgName> to uncover the hidden stories of the <q>undernarrated</q> city of <placeName>Edmonton</placeName>. <ref target="#history">In particular, Zwicker shows the usefulness of digital technology to go beyond the linearity of text to recreate and preserve the history of <placeName>Rossdale Flats</placeName> from a pre–Treaty 6 Aboriginal settlement to its present-day role as part of Edmonton’s Ribbon of Green, created through the expropriation of homes. Finally, <persName>Michelle Schwartz</persName> and <persName>Constance Crompton</persName> also are concerned with preserving stories from an undernarrated past—in this case, the history of the lesbian and gay liberation movement in <placeName>Canada</placeName> and, in particular, the dearth of materials recognizing women’s activism.</ref> Beyond a simple digitization of archival materials, Schwartz and Crompton intend to show the benefits of the <orgName>Text Encoding Initiative</orgName> to establish personographic records, offering a more nuanced alternative to the <q>Internet behemoths</q>
+                                <orgName>Google</orgName> and <orgName>Wikipedia</orgName>that currently filter our access to culture in the online universe.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1032">
+                    <ref target="#authorship">
+                        <ref target="#theme_or_topic">
+                            <ref target="#spatiality">Part II of this collection includes essays that explore the interpretative power of spatio-temporal analysis in the context of writerly and readerly play. <ref target="#intellectual_history">
+                                    <persName>Cecily Devereux</persName> presents <persName>Maud Allan</persName>, a <placeName>Toronto</placeName>-born dancer whose Salome dance, performed throughout <placeName>Europe</placeName> and <placeName>North America</placeName> at the turn of the twentieth century, is an early instance of <ref target="#genre_performance">performance</ref>
+                                    <q>going viral,</q>
+                                    <ref target="#response_formal">the dance being described by the media as a veritable form of contagion</ref>
+                                </ref>. <ref target="#representation_of_women">
+                                    <ref target="#technology">
+                                        <ref target="#archive">This influential representation of mobile <q>white femininity</q> owed much of its impact to the newly developed communication technology of the postcard, whose images have been conserved in archives and disseminated through digital media.</ref>
+                                    </ref>
+                                </ref> Celebrating both literal and literary cartographies, essays by <persName>Patricia Demers</persName> and <persName>Kathleen Kellett</persName> examine the subjective construction of space in literary representations of the city. <ref target="#history">Demers guides the contemporary reader through the cartographic imagination of <persName>Grace Irwin</persName>, whose novels and autobiography capture Toronto the Good as it was before its more bucolic spaces were transformed into city streets. <ref target="#tone_or_style">As a textual creation, the city appears as palimpsest; the excitement of seeing the <q>new</q>
+                                        <orgName>Eaton’s</orgName> store on <placeName>College Street</placeName> feels as distant and foreign now as the anguished <ref target="#religion">struggles over faith experienced by the minister who is Irwin’s main protagonist</ref>.</ref>
+                                </ref>
+                                <ref target="spatiality">
+                                    <ref target="#genre_lifeWriting">Kellett’s analysis of <hi rend="italic">autofiction</hi> by <persName>Marguerite Andersen</persName> shows how this author represents Toronto not only as a major centre of Franco-Ontarian culture but also as an urban space implicated in her own family romance, as she draws parallels between the literary institutions of francophone Toronto and those of <placeName>Berlin</placeName>, where her father also wrote and fought for authors’ rights.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1033">
+                    <ref target="#theme_or_topic">
+                        <ref target="#spatiality">The remaining essays offer serious study of the ludic possibilities of literary space through perspective shifting, translation, and code switching. These essays focus on the creative possibilities of <q>languages in play.</q>
+                            <ref target="#authorship">
+                                <ref target="#translation">
+                                    <ref target="#language">As a scholar, creative writer, and literary translator, <persName>Lori Saint-Martin</persName> reveals an intimate perspective on her relationship with language(s), beginning with her own personal trajectory from the predominantly unilingual <placeName>Kitchener, Ontario,</placeName> to <placeName>Montreal</placeName>, an eminently bilingual city. <ref target="#technology">Her essay probes the art of translation—from the technology of simultaneous translation to the intricacies of literary translation and, in particular, self-translation and the ludic opportunities for transgression.</ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                            <ref target="#authorship">
+                                <ref target="#intertextuality">
+                                    <persName>Stéphanie Walsh Matthews</persName> initiates the reader into the <q>enchanted space</q> of <placeName>Quebec</placeName> seen through the lens of magic realism in <persName>Anne Hébert</persName>’s <date cert="high" when="1975">1975</date> novel <title level="m" xml:lang="fr-CA">Les enfants du sabbat</title>. <ref target="#history">Writing in the wake of the tumultuous <ref target="#social_movement">Quiet Revolution</ref> of the <date cert="high" when="1960">1960s</date>, with ambiguously dark humour, Hébert takes her place alongside <persName>Gabriel García Márquez</persName> in celebrating the potentially subversive spirit of the human imagination.</ref>
+                                    <ref target="#language">
+                                        <persName>Mireille Mai Truong</persName> also explores the intertwining of personal journeys and language in her study of two Vietnamese-Canadian writers, <persName>Thuong Vuong-Riddick</persName> and <persName>Kim Thúy</persName>. <ref target="#genre_lifeWriting">She examines the textual relationship among the cultural nuances of the Vietnamese language and the postcolonial languages of the <placeName>English</placeName> memoirs of <orgName>Vuong-Riddick</orgName> and the French <hi rend="italic">autofiction</hi> of Thúy.</ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1034">
+                    <ref target="#technology">
+                        <ref target="#authorship">
+                            <ref target="#theme_or_topic">
+                                <ref target="#textual_agency">In the final essay of the collection, bridging the space between traditional and digital humanities, <persName>Margaret Mackey</persName> makes the case for literary mapping that captures and contextualizes the role of the reader. <ref target="#response_informal">Working from her own <q>tiny case study</q> of what she remembers of her mother’s and her own response to her mother’s favourite book, <title level="m">Stand on a Rainbow</title>by <placeName>Toronto</placeName> author <persName>Mary Quayle Innis</persName>, she speculates on the possibilities proffered by digital technology to compile meaningful data not only on sales and borrowing figures but also on <ref target="#textual_agency">the responses of multiple readers at different points in time.</ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1035">
+                    <ref target="#technology">
+                        <ref target="#theory">
+                            <ref target="#collaboration">
+                                <ref target="#theme_or_topic">The coupling of nuanced critical thought and careful application of theoretical and digital practice that characterizes this volume testifies to the scholarly enterprise of <abbr>
+                                        <orgName>CWRC</orgName>
+                                    </abbr> and the original efforts of the scholars affiliated with the Collaboratory.</ref> But this collection of essays, which pulses with the same energy that drove the landmark conference that gave it first life, is also celebratory. Its <ref target="#spatiality">emphasis on place and space</ref> is suggestive of the principle of joyful investigation that shapes the projects described herein, and the deep scholarly satisfaction that comes from successfully applying innovative practice to materials and subject matter that one appreciates deeply—and seeks to bring to a wider community of scholars, critics, and readers.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1036">
+                    <ref target="#collaboration">
+                        <ref target="#economics">We acknowledge the generous support of <abbr>
+                                <orgName>SSHRC</orgName>
+                            </abbr> in the form of an Aid to Research Workshops and Conferences in Canada grant, additional funding support from <orgName>Ryerson University</orgName>
+                        </ref>, and the research assistance of <persName>Emma Renda</persName>.</ref>
+                </p>
+                <docAuthor rend="italic">
+                    <persName>Ruth Panofsky</persName> &amp; <persName>Kathleen Kellett</persName>
+                </docAuthor>
+            </div>
+        </body>
+    </text>
+</TEI>

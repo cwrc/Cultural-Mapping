@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>-->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Representing Canadian Queer Authorship</title>
+                <title level="m" type="main" xml:lang="en-CA">Cultural Mapping and the Digital Sphere</title>
+                <title level="m" type="sub" xml:lang="en-CA">Place and Space</title>
+                <author>Michelle Schwartz &amp; Constance Crompton</author>
+                <editor role="editor">
+                    <forename>Ruth</forename>
+                    <surname>Panofsky</surname>
+                </editor>
+                <editor role="editor">
+                    <forename>Kathleen</forename>
+                    <surname>Kellett</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <forename>Ilovan</forename>
+                    </name>
+                </respStmt>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor>
+                    <orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Dynamic Table of Contexts editors: </resp>
+                    <name>
+                        <forename>Ruth</forename>
+                        <surname>Panofsky</surname>
+                    </name>
+                    <name>
+                        <forename>Kathleen</forename>
+                        <surname>Kellett</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Principal: </resp>
+                    <name>
+                        <forename>Susan</forename>
+                        <surname>Brown</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <surname>Ilovan</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copyediting and proofreading: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Olivier</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexing:</resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name>
+                        <forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Cover design: </resp>
+                    <name role="book_designer">
+                        <forename>Virginia</forename>
+                        <surname>Penny</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface design lead: </resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead: </resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>Mary Lou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer:</resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by: </resp>
+                    <name role="markup_editor">
+                        <forename>Kristine</forename>
+                        <surname>Abramoff</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Anita</forename>
+                        <surname>Cutic</surname>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address>
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address>
+                        <addrLine>www.cwrc.ca</addrLine>
+                    </address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1- 55195-365- 6</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Individual chapter extract from: Cultural Mapping and the Digital Sphere: Place and Space, ed. Ruth Panofsky &amp; Kathleen Kellett (Edmonton: University of Alberta Press, 2015 / DToC ed. 2016).</p>
+                <ab type="host-volume">
+                    <listBibl>
+                        <bibl>
+                            <title level="a" type="main">Foreword</title>
+                            <author>
+                                <forename>Susan</forename>
+                                <surname>Brown</surname>
+                            </author> &amp; <author>
+                                <forename>Mary-Jo</forename>
+                                <surname>Romaniuk</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Preface</title>
+                            <author>
+                                <forename>Ruth</forename>
+                                <surname>Panofsky</surname>
+                            </author> &amp; <author>
+                                <forename>Kathleen</forename>
+                                <surname>Kellett</surname>
+                            </author>
+                        </bibl>
+                        <listBibl>
+                            <head>Part I. Place and the Digital Frontier</head>
+                            <bibl>
+                                <title level="a" type="maiin">Mapping Tags and Tagging Maps</title>
+                                <title type="sub">Leveraging Spatial Markup for Literary History</title>
+                                <author>
+                                    <forename>Susan</forename>
+                                    <surname>Brown</surname>
+                                </author>, <author>
+                                    <forename>Isobel</forename>
+                                    <surname>Grundy</surname>
+                                </author>, <author>
+                                    <forename>Mariana</forename>
+                                    <surname>Paredes-Olea</surname>
+                                </author>, <author>
+                                    <forename>Jeffery</forename>
+                                    <surname>Antoniuk</surname>
+                                </author> &amp; <author>
+                                    <forename>Breanna</forename>
+                                    <surname>Mroczek</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Modeling Collaboration in Digital Humanities Scholarship</title>
+                                <title type="sub">Foundational Concepts of an EMiC UA Project Charter</title>
+                                <author>
+                                    <forename>Paul</forename>
+                                    <surname>Hjartarson</surname>
+                                </author>, <author>
+                                    <forename>Harvey</forename>
+                                    <surname>Quamen</surname>
+                                </author>, <author>
+                                    <forename>Andrea</forename>
+                                    <surname>Hasenbank</surname>
+                                </author>, <author>
+                                    <forename>Vanessa</forename>
+                                    <surname>Lent</surname>
+                                </author> &amp; <author>
+                                    <orgName> EMiC UA</orgName>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">An Interactive, Materialist-Semiotic Archive</title>
+                                <title type="sub">Visualizing the Canadian Theatrical Canon in the Simulated Environment for Theatre</title>
+                                <author>
+                                    <forename>Sasha</forename>
+                                    <surname>Kovacs</surname>
+                                </author> and <author>
+                                    <forename>Jennifer</forename>
+                                    <surname>Roberts-Smith</surname>
+                                </author>, <author>
+                                    <forename>Theresa M.</forename>
+                                    <surname>Dobson</surname>
+                                </author>, <author>
+                                    <forename>Sandra</forename>
+                                    <surname>Gabriele</surname>
+                                </author>, <author>
+                                    <forename>Omar</forename>
+                                    <surname>Rodrigues-Arenas</surname>
+                                </author>, <author>
+                                    <forename>Stan</forename>
+                                    <surname>Ruecker</surname>
+                                </author>, <author>
+                                    <forename>Stéfan</forename>
+                                    <surname>Sinclair</surname>
+                                </author>, <author>
+                                    <forename>Shawn</forename>
+                                    <surname>DeSouza-Coelho</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">"Talk to the Work"</title>
+                                <title type="sub">Applying istc Identifiers to the Digital Edition of the Canadian Bookman (1909–1941)</title>
+                                <author>
+                                    <forename>Ravit H.</forename>
+                                    <surname>David</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">How to Play with Maps</title>
+                                <author>
+                                    <forename>Bethany</forename>
+                                    <surname>Nowviskie</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Edmonton Pipelines</title>
+                                <title type="sub">Living and Playing in the Digital City </title>
+                                <author>
+                                    <forename>Heather</forename>
+                                    <surname>Zwicker</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Representing Canadian Queer Authorship</title>
+                                <title type="sub">Making the Internet a Women’s Place</title>
+                                <author>
+                                    <forename>Michelle</forename>
+                                    <surname>Schwartz</surname>
+                                </author> &amp; <author>
+                                    <forename>Constance</forename>
+                                    <surname>Crompton</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Part II. Writers and Readers: Mapping Textual Space</head>
+                            <bibl>
+                                <title level="a" type="main">Salomania</title>
+                                <title type="sub">Maud Allan, Postcards, and Early Twentieth-Century “Viral” Circulation</title>
+                                <author>
+                                    <forename>Cecily</forename>
+                                    <surname>Devereux</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Toronto the Good in the Fiction and Life of Grace Irwin</title>
+                                <author>
+                                    <forename>Patricia</forename>
+                                    <surname>Demers</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">« Where are you froM? »</title>
+                                <title type="sub" xml:lang="fr-CA">La ville et l’écriture migrante dans l’autofiction de Marguerite Andersen</title>
+                                <author>
+                                    <forename>Kathleen</forename>
+                                    <surname>Kellett</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Languages as Spaces, Translation as Play</title>
+                                <title type="sub">Moving (through) Languages</title>
+                                <author>
+                                    <forename>Lori</forename>
+                                    <surname>Saint-Martin</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">L'espace ensorcelé</title>
+                                <title type="sub">Les enfants du sabbat d’Anne Hébert</title>
+                                <author>
+                                    <forename>Stéphanie</forename>
+                                    <surname>Walsh Matthews</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick and Kim Thúy</title>
+                                <author>
+                                    <forename>Mireille</forename>
+                                    <surname>MaiTruong</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Standing on a Rainbow</title>
+                                <title type="sub">Reading in Place, Position, and Time</title>
+                                <author>
+                                    <forename>Margaret</forename>
+                                    <surname>Mackey</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <bibl>
+                            <title type="main" xml:lang="en-CA">Contributors</title> / <title type="main" xml:lang="fr-CA">Collaborateurs</title>
+                        </bibl>
+                    </listBibl>
+                </ab>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p />
+            </projectDesc>
+            <classDecl>
+                <taxonomy>
+                    <desc>Semantic tags employed in this book can be reviewed at <ref target="http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml">http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml</ref>
+                    </desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-CA">English</language>
+                <language ident="fr-CA">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline />
+                <item />
+                <index>
+                    <term />
+                </index>
+                <byline />
+                <index>
+                    <term />
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:lang="en-CA">
+                <head>
+                    <title level="a">Representing Canadian Queer Authorship</title>
+                </head>
+                <byline>Making the Internet a Women’s Place</byline>
+                <docAuthor> Michelle Schwartz &amp; Constance Crompton</docAuthor>
+                <p xml:id="p1278">
+                    <ref target="#gender_issue">
+                        <ref target="#sexuality">
+                            <ref target="#genre_novel">Reflecting on her life, Jane Rule mused that after the 1964 publication of <title level="m">Desert of the Heart</title>, English Canada’s first literary lesbian novel, she <q>became, for the media, the only lesbian in Canada</q>
+                                <note place="inline">
+                                    <bibl>Martin S8</bibl>
+                                </note>.</ref> Rule passed away in 2007, but not before she became a featured activist on the website of the Canadian Lesbian and Gay Archives’ National Portrait Collection and one of the few female activists from the Canadian lesbian and gay liberation movement with an entry in <title level="m">Wikipedia.</title>
+                            <ref target="#politics">Her inclusion in these online spaces meets one of the political goals of the Lesbian and Gay Liberation in Canada (<abbr>LGLC</abbr>) project—namely, to increase the online visibility of queer Canadian history.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1279">
+                    <ref target="#sexuality">
+                        <ref target="#theme_or_topic">When we first formulated the <abbr>LGLC</abbr> project in December 2010, we envisaged a straightforward online publication of <title level="m">Lesbian and Gay Liberation in Canada: A Selected Annotated Chronology, 1964–1975</title>, a groundbreaking work by Donald McLeod, a long-time volunteer at the Canadian Lesbian and Gay Archives and a librarian at the University of Toronto. <ref target="#non-book_media">
+                                <ref target="#gender_issue">We planned to augment the digital edition with maps and network graphs that would illustrate the relationships between the events, people, and places that were central to the gay and lesbian liberation movement in Canada.</ref> From the outset, our project was tied closely to the Canadian Lesbian and Gay Archives (<abbr>CLGA</abbr>), since <abbr>CLGA</abbr> material underpins much of McLeod’s chronology. And, indeed, our project was guided by the <abbr>CLGA</abbr> motto, <q>keeping our stories alive.</q>
+                            </ref>
+                            <ref target="#authorship">
+                                <ref target="#genre_fiction">
+                                    <ref target="#genre_non-fiction">
+                                        <ref target="#genre_poetry">
+                                            <ref target="#politics">The 107 women (including, for instance, author and politician Judy LaMarsh, authors Jackie Manthorne and Marie-Claire Blais, and activists Pat Murphy and Lamar Van Dyke) whose stories are represented in McLeod’s book, and in <abbr>CLGA</abbr>’s collection more broadly, wore many hats; they were and remain writers of fiction and polemic, experts in poetry and politics. Their work as authors has been informed by their activism; their writing has, in turn, shaped the Canadian political and literary landscape, and yet they are underrepresented in high traffic online areas.</ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1280">
+                    <ref target="#technology">
+                        <ref target="#social_movement">
+                            <ref target="#representation_of_women">
+                                <ref target="#gender_issue">
+                                    <ref target="#theme_or_topic">Our encoding of the events of the gay and lesbian liberation movement in <abbr>TEI</abbr> (the markup language of the Text Encoding Initiative), for addition to the Canadian Writing Research Collaboratory’s (<abbr>CWRC</abbr>) corpus, is part of our attempt to make the Internet a women’s place: one that reflects women’s multiple experiences and supports their multiple perspectives. We seek to intervene in the online representation of the women in our data set, with the hope of increasing their visibility to the traditional and citizen scholars who work within <abbr>CWRC</abbr>, and to the public at large. <ref target="#collaboration">Our 2011 inclusion within <abbr>CWRC</abbr> has compelled us to look outward, not just at the relationships represented within our material source (McLeod’s chronology), but at the social relationships represented and, indeed, <hi rend="italic">forged</hi>, online. <abbr>CWRC</abbr> is a digital space designed to foster interaction among traditional scholars, citizen scholars, and, in the case of our project, perhaps even the living persons represented within our data set.</ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1281">
+                    <ref target="#technology">
+                        <ref target="#gender_issue">
+                            <ref target="#theme_or_topic">This chapter introduces our project in the context of the Canadian Lesbian and Gay Archives. First, we introduce our source text, the type of community story we aim to tell, and demonstrate how <abbr>TEI</abbr> might help us tell that story. <ref target="#representation_of_women">We go on to investigate the difficulties associated with this project: the implications of the current representation of the women in our data set on <title level="m">Wikipedia</title>, in the online instantiation of the <abbr>CLGA</abbr>’s National Portrait Collection (<abbr>NPC</abbr>), and on the Internet more generally.</ref>
+                                <ref target="#collaboration">Using our project as a case study, we argue that digital scholarship and online activism can be paired in order to spur on the larger discussion about whether Internet behemoths like <orgName>Wikipedia</orgName> and Google should be the primary gatekeepers of our cultural history.</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1282">
+                    <ref target="#technology">
+                        <ref target="#history">
+                            <ref target="#non-book_media">
+                                <ref target="#theme_or_topic">In addition to reproducing McLeod’s text, the <abbr>LGLC</abbr> project reconfigures his chronology as a digital resource that will let researchers trace the events of the gay liberation movement aided by maps and timelines; model the shifting identities of the actors within the text; contribute personal reflections about the events in the text; and critically evaluate the relationship between the text and the bibliographic materials that make up its content.</ref>
+                            </ref> Our project is underpinned by material from the Canadian Lesbian and Gay Archives, so we want our project, from the code on up, to be a credit to the organization.</ref>
+                    </ref>
+                </p>
+                <div type="section">
+                    <head>Don McLeod and <title level="m">Lesbian and Gay Liberation in Canada: A Selected Annotated Chronology, 1964–1975</title>
+                    </head>
+                    <p xml:id="p1283">
+                        <ref target="#intellectual_history">Donald W. McLeod was born in 1957 in Cornwall, Ontario and grew up in Calgary, Alberta. <ref target="#education">Since receiving his master’s degree in library science from the University of Toronto in 1983, he has worked in both publishing and librarianship.</ref>
+                            <ref target="#gender_issue">He is now the head of book and serial acquisitions for the University of Toronto Libraries, and continues to be involved in the publication of documents on gay and Canadian history. In addition to his writing and editorial work, he has been a volunteer at the Canadian Lesbian and Gay Archives for twenty-five years. <ref target="#health_issue">He first became involved with the <abbr>CLGA</abbr> when he was commissioned by the <abbr>CLGA</abbr> and the <abbr>AIDS</abbr> Committee of Toronto to work on <title level="m">Medical, Social, and Political Aspects of the Acquired Immune Deficiency Syndrome (<abbr>AIDS</abbr>) Crisis: A Bibliography</title>, which was published in 1985 <note place="inline">
+                                        <note place="inline">
+                                            <bibl>
+                                                <abbr>CLGA</abbr>,<title level="m">National Portrait Collection</title>
+                                            </bibl>
+                                        </note>
+                                    </note>.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1284">
+                        <ref target="#authorship">
+                            <ref target="#intellectual_history">
+                                <ref target="#gender_issue">
+                                    <ref target="#sexuality">McLeod began work on the first volume of <title level="m">Lesbian and Gay Liberation in Canada: A Selected Annotated Chronology</title> in 1989. <ref target="#intertextuality">
+                                            <ref target="#anthologization">The work was inspired by <title level="a">Victories and Defeats: A Gay and Lesbian Chronology, 1964–1982,</title> which James Fraser compiled and published in the 1982 anthology <title level="m">Flaunting It!: A Decade of Gay Journalism from <title level="j">The Body Politic</title>
+                                                </title>
+                                                <note place="inline">
+                                                    <bibl>edited by Ed Jackson and Stan Persky</bibl>
+                                                </note>
+                                            </ref>. In the course of his work at the <abbr>CLGA</abbr>, McLeod often consulted Fraser’s chronology but was frustrated by its lack of bibliographic citations. McLeod believed that a detailed chronology of gay liberation history <hi rend="italic">combined </hi>with a bibliography of sources for each entry would be an <q>authoritative reference guide to the origins and development of lesbians and gay liberation in Canada</q>
+                                            <note place="inline">
+                                                <bibl>McLeod viii</bibl>
+                                            </note>.</ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1285">
+                        <ref target="#authorship">
+                            <ref target="#intellectual_history">From 1989 to 1996, during his free time, McLeod laboured over his chronology. <ref target="#archival_location">
+                                    <ref target="#gender_issue">The <abbr>CLGA</abbr> served as the base of operations for his research, as the archive possesses the world’s largest collection of lesbian and gay periodicals, as well as the records for many of the most influential gay liberation organizations for the period in question. <ref target="#collaboration">Along with the <abbr>CLGA</abbr>, the holdings of two other organizations formed the tripartite backbone of the sources for McLeod’s book: the Archives gaies du Québec in Montreal, and the Canadian Women’s Movement Archives in Ottawa. McLeod supplemented these collections with materials found in the archives of the University of British Columbia and the New York Public Library, and further augmented them with accounts from his direct correspondence with fifty of the key actors in the events mentioned in his book.</ref> These individuals were called upon to correct errors or misconceptions and to offer additional sources of information. Finally, <q>more than ten of them were asked to examine an earl[y] draft of the project and were able to offer cogent advice</q>
+                                        <note place="inline">
+                                            <bibl>McLeod ix</bibl>
+                                        </note>.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1286">
+                        <ref target="#place_of_publication">
+                            <ref target="#theme_or_topic">
+                                <ref target="#editions">
+                                    <title level="m">Lesbian and Gay Liberation in Canada: A Selected Annotated Chronology, 1964–1975</title> was originally published by Homewood Books in 1996 and reissued in 2011.</ref>
+                                <ref target="#history">
+                                    <ref target="#social_movement">The book consists of a chronology of the first twelve years of the <q>organized homophile/gay liberation movement in Canada.</q>
+                                    </ref> The chronology begins with the formation of the Vancouver-based Association for Social Knowledge, the country’s first large-scale homophile organization. It ends with the founding of the National Gay Rights Coalition/<hi xml:lang="fr-CA">Coalition national pour les droits des homosexuels</hi>, the <q>first truly national coalition of Canadian lesbian and gay groups</q>
+                                    <note place="inline">
+                                        <bibl>McLeod viii</bibl>
+                                    </note>.</ref>
+                                <ref target="#sexuality">The book’s subtitle—<title level="m" type="sub">A Selected Annotated Chronology</title>—refers to McLeod’s primary focus on <q>self-declared lesbians and gay men and their activities in regard to the forging of lesbian and gay communities and liberation in Canada</q>
+                                    <note place="inline">
+                                        <bibl>viii</bibl>
+                                    </note>. Hence, the book devotes most attention to demonstrations, political actions, lobbying, and legal reforms. As a secondary and supplementary focus, it lists <q>artistic and cultural contributions with significant lesbian or gay content,</q> and includes three appendices listing lesbian and gay organizations, periodicals, bars and clubs. Heterosexuals who were instrumental either in supporting or opposing the gay liberation movement are included, and foreign events are noted if they either had a direct impact on the Canadian gay liberation movement or featured the prominent involvement of gay Canadians. McLeod is currently completing a second volume that will span from 1975 to 1981, from the founding of the National Gay Rights Coalition/<hi xml:lang="fr-CA">Coalition national pour les droits des homosexuels</hi> to the start of the <ref target="#health_issues">
+                                        <abbr>AIDS</abbr> crisis</ref>.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1287">
+                        <ref target="#technology">
+                            <ref target="#theme_or_topic">
+                                <ref target="#spatiality">
+                                    <ref target="#history">McLeod’s chronology is structured as a series of entries, first by date, then by location. Each entry is followed by a dense bibliography of primary sources. The combination of chronology and bibliography drew us to <abbr>TEI</abbr> encoding as a potential methodology to enhance access to McLeod’s text. We were not motivated simply to digitize the chronology—in fact, it is available online on <title level="m">
+                                            <abbr>LGBT</abbr> Life with Full Text</title> and as a <abbr>PDF</abbr> on <title level="m">T-Space</title>, the University of Toronto’s research repository. Rather, we saw potential in <title level="m">Lesbian and Gay Liberation in Canada: A Selected Annotated Chronology, 1964–1975</title> as both a text and a rich geospatial and temporal database of landmarks in Canadian history.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>The Canadian Lesbian and Gay Archives</head>
+                    <p xml:id="p1288">
+                        <ref target="#genre_journalism">
+                            <ref target="#textual_agency">
+                                <ref target="#gender_issue">
+                                    <ref target="#archive">
+                                        <ref target="#history">
+                                            <ref target="#place_of_publication">
+                                                <ref target="#theme_or_topic">
+                                                    <ref target="#intellectual_history">Originally called the Canadian Gay Liberation Movement Archives, the core of the <abbr>CLGA</abbr>’s collection consists of the records of <title level="j">The Body Politic (<abbr>TBP</abbr>)</title>, a gay liberation newspaper published in Toronto between 1971 and 1987.</ref> In just over fifteen years, <title level="j">The Body Politic</title> published 135 issues, becoming <q>the leading journal of gay liberation in all of Canada and—with an eventual third of its circulation outside the country—an internationally respected voice of radical gay thought</q>
+                                                </ref>
+                                            </ref>
+                                        </ref>
+                                        <note place="inline">
+                                            <bibl>
+                                                <abbr>CLGA</abbr>, <title level="a">A Chronology of the Archives</title>
+                                            </bibl>
+                                        </note>. <ref target="#writing_climate">
+                                            <ref target="#place_of_publication">
+                                                <title level="j">The Body Politic</title> was published by a collective that incorporated in 1975 under the not-for-profit umbrella of Pink Triangle Press. The creation of Pink Triangle Press ensured that <q>if legal charges were ever laid against <hi rend="sc-italic">
+                                                        <abbr>TBP</abbr>
+                                                    </hi>, those charges would be brought against the corporation and its officers, leaving most Collective members untouched and able to continue to publish the magazine</q>
+                                                <note place="inline">
+                                                    <bibl>
+                                                        <abbr>CLGA</abbr>, <title level="a">The Collective Years</title>
+                                                    </bibl>
+                                                </note>.</ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1289">
+                        <ref target="#textual_agency">
+                            <ref target="#place_of_publication">
+                                <ref target="#politics">
+                                    <ref target="#writing_climate">By establishing Pink Triangle Press, <ref target="#theme_or_topic">
+                                            <title level="j">The Body Politic</title> collective placed itself directly into the fray of the gay liberation struggle.</ref>
+                                        <ref target="#censorship">
+                                            <ref target="#authority">Never content with simply reporting the news, the collective sought to re­inforce <q>opposition to state censorship as a form of social control</q> through the publication of material <q>about practices seen by some as beyond the bounds of conventional gay rights</q>
+                                            </ref>
+                                            <note place="inline">
+                                                <bibl>
+                                                    <abbr>CLGA</abbr>, <title level="a">The Collective Years</title>
+                                                </bibl>
+                                            </note>. Pink Triangle saw this open goading of institutional power as part of its <q>commitment to a wider struggle for liberation, and [a] refusal to marginalize others out of concern for <q>respectability</q>
+                                            </q>
+                                            <note place="inline">
+                                                <bibl>
+                                                    <abbr>CLGA</abbr>, <title level="a">The Collective Years</title>
+                                                </bibl>
+                                            </note>. <ref target="#historical_oppression">
+                                                <ref target="#sexuality">By printing cartoons depicting oral sex to articles about fist fucking, the collective provoked the Morality Squad of the Metropolitan Toronto Police to remove issues of <title level="j">The Body Politic</title> from newsstands, and the joint Toronto–provincial pornography squad (known as <q>
+                                                        <orgName>Operation P</orgName>
+                                                    </q>) to raid its offices and seize crates of material, including the newspaper’s subscription lists <note place="inline">
+                                                        <bibl>Bébout, <title level="a">Promiscuous</title>
+                                                        </bibl>
+                                                    </note>
+                                                </ref>.</ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1290">
+                        <ref target="#censorship">
+                            <ref target="#writing_climate">
+                                <ref target="#historical_oppression">
+                                    <ref target="#history">Most notably, following the publication in 1978 of <title level="j">The Body Politic</title> article <title level="a">Men Loving Boys Loving Men,</title> the Pink Triangle Press was charged by the Crown with <q>possession of obscene material for distribution</q> and <q>use of the mails for purpose of transmitting indecent, immoral or scurrilous materials.</q> The ongoing series of trials and appeals lasted until 1982, with the acquittal of the entire collective</ref>
+                                    <note place="inline">
+                                        <bibl>Bébout, <title level="m">Text</title>
+                                        </bibl>
+                                    </note>. The drama of the trials helped feed the protests over the 1981 Toronto bathhouse raids <note place="inline">
+                                        <bibl>
+                                            <abbr>CLGA</abbr>, <title level="a">The Collective Years</title>
+                                        </bibl>
+                                    </note>, which, in turn, were backed by extensive coverage in <title level="j">The Body Politic</title>, including the famous March 1981 cover that headlined black and white photographs of the police conducting the raids with one word—<hi rend="small-caps">rage</hi>—in blood-red capital letters.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1291">
+                        <ref target="#archival_location">
+                            <ref target="#archive">
+                                <ref target="#theme_or_topic">
+                                    <ref target="#cannon_formation">In 1973, the <abbr>CLGA</abbr>’s nascent archivists began soliciting additional material in the pages of <title level="j">The Body Politic</title>, and the collection soon expanded beyond the basement of the archive’s founder and first champion, <title level="j">Body Politic</title> member Ron Dayman. The archives changed its name to the Canadian Gay Archives in 1975, and began gathering material from all over Canada and from beyond the confines of the gay liberation movement. This broadening mandate led to its current name, the Canadian Lesbian and Gay Archives, adopted in 1993.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1292">
+                        <ref target="#cannon_formation">
+                            <ref target="#gender_issue">
+                                <ref target="#archival_location">
+                                    <ref target="#spatiality">The <abbr>CLGA</abbr> has had a series of homes since its beginning in Dayman’s basement at 203 Boulton Avenue in Toronto. The collection has grown from its origins as a personal hobby, out of storage space in the homes of various members of <title level="j">The Body Politic</title> collective, to a large-scale research collection in need of workspace for archivists and researchers alike. In 1988, it moved to a 1,000-square-foot space on the second floor of 464 Yonge Street in Toronto. By 1992, the collection had grown so large it demanded a move to the archive’s first fully independent space—2,000 square feet at 56 Temperance Street in Toronto <note place="inline">
+                                            <bibl>
+                                                <abbr>CLGA</abbr>, <title level="a">A Chronology of the Archives</title>
+                                            </bibl>
+                                        </note>. The collection eventually outgrew the space on Temperance Street and the archive moved to yet another location at the corner of Church and Wellesley Streets—the heart of Toronto’s historic gay village. In 2009, thanks to the work of former city councilor Kyle Rae and the generosity of the Children’s Aid Society of Toronto, the <abbr>CLGA</abbr> was able to acquire the Jared D. Sessions House, an Italianate heritage home built in 1858, and located at 34 Isabella Street in Toronto <note place="inline">
+                                            <bibl>
+                                                <abbr>CLGA</abbr>, <title>Doors Open Script</title>
+                                            </bibl>
+                                        </note>. The house was envisaged as a public showcase for the vast amount of material amassed over the course of almost four decades. For the first time ever, the archive had a dedicated gallery. The gallery’s permanent collection is the <abbr>CLGA</abbr>’s National Portrait Collection.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1293">
+                        <ref target="#textual_agency">
+                            <ref target="#non-book_media">
+                                <ref target="#gender_issue">
+                                    <ref target="#archive">
+                                        <ref target="#spatiality">The National Portrait Collection was established in 1998, in celebration of the archive’s twenty-fifth anniversary. Commissioned works have been added regularly over the years, bringing the total number of portraits in the collection to seventy. The purpose of the <abbr>NPC</abbr> is to honour individuals who have made <q>significant contributions to the growth of diverse, out and proud lesbian, gay, bisexual and trans (<abbr>LGBT</abbr>) communities in Canada. The collection is regularly exhibited…in Toronto as well as at other venues across Canada, in celebration of all LGBT communities</q>
+                                            <note place="inline">
+                                                <bibl>
+                                                    <abbr>CLGA</abbr>, <title level="a">National Portrait Collection</title>
+                                                </bibl>
+                                            </note>
+                                        </ref>. The <abbr>CLGA</abbr> has made it part of its mandate to continue to expand the National Portrait Collection, <q>thereby actively engaging in the creation of our own historical record</q>
+                                        <note place="inline">
+                                            <bibl>
+                                                <abbr>CLGA</abbr>, <title level="a">National Portrait Collection</title>
+                                            </bibl>
+                                        </note>. <ref target="#technology">In addition to public exhibitions, the <abbr>CLGA</abbr> also maintains a digital display of the <abbr>NPC</abbr> on its website. Each inductee’s portrait is accompanied by a brief biography in both English and French. Often, these biographies represent the main web presence for <abbr>NPC</abbr> inductees, even when they have been central to the lesbian and gay liberation movement in Canada.</ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1294">
+                        <ref target="#theme_or_topic">The <abbr>CLGA</abbr> has always been a volunteer-run, community-based organization. It is an open space, welcoming any member of the community—regardless of age or academic affiliation—who wishes to use its materials. <ref target="#economics">Access is open and usage fees remain minimal</ref>. Moreover, volunteers of any skill level are welcomed, trained, and assigned any number of tasks. <ref target="#archive">While similar collections, like the Canadian Women’s Movement Archives and the <hi rend="small-caps">one</hi> National Gay and Lesbian Archives, have been subsumed by government and university libraries, the <abbr>CLGA</abbr> has opted to remain independent. Run by and for the community it serves, it turned down an offer from the Archives of Ontario to take over the curation and storage of a portion of the <abbr>CLGA</abbr>’s holdings <note place="inline">
+                                    <bibl>
+                                        <abbr>CLGA</abbr>, <title level="a">A Chronology of the Archives</title>
+                                    </bibl>
+                                </note>.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1295">
+                        <ref target="#textual_agency">
+                            <ref target="#theme_or_topic">
+                                <ref target="#archive">
+                                    <ref target="#nationality_issue">
+                                        <ref target="#sexuality">
+                                            <ref target="#spatiality">The <abbr>CLGA</abbr>’s mandate is to <q>acquire, preserve, organize, and give public access to information and materials in any medium, by and about lesbians and gays, primarily produced in or concerning Canada</q>
+                                                <note place="inline">
+                                                    <bibl>
+                                                        <title level="a">About Us</title>
+                                                    </bibl>
+                                                </note>.</ref>
+                                        </ref> This expansive mandate, perfectly encapsulated by the <abbr>CLGA</abbr> motto <q>keeping our stories alive,</q> was born out of a need by the <abbr>LGBT</abbr> community for the representation they lacked in mainstream society <note place="inline">
+                                            <bibl>
+                                                <abbr>CLGA</abbr>, <title level="a">Collections</title>
+                                            </bibl>
+                                        </note>. It was born, too, of a desire to preserve archival material that might otherwise disappear. In the twenty years since <abbr>CLGA</abbr> added <q>lesbian</q> to its name, it has been working to rehabilitate its reputation from an organization concerned only with gay men. We hope to support those efforts by amplifying McLeod’s chronology: the addition of personographic and place records will help establish the importance of women’s materials at the <abbr>CLGA</abbr> and the importance of queer history in online communities like <abbr>CWRC</abbr>.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>
+                        <q>Keeping Our Stories Alive</q>
+                    </head>
+                    <p xml:id="p1296">
+                        <ref target="#technology">Before outlining <abbr>TEI</abbr>’s markup utility in teasing out new meanings from the details of McLeod’s chronology, we would like to relate the sort of story we hope the <abbr>LGLC</abbr> project will bring to the fore.</ref>
+                        <ref target="#representation_of_women">
+                            <ref target="#historical_oppression">
+                                <ref target="#spatiality">On January 15, 1974, four women took the stage on amateur talent night at the Brunswick Tavern. <ref target="#class_issue">The Brunswick, an institution in what was then a working-class Toronto neighbourhood that was just starting to cater to students at the nearby University of Toronto, was a rowdy place, a cavernous hall lined with wooden tables and benches, with a plywood stage at one end of the hall.</ref>
+                                </ref>
+                                <ref target="#sexuality">
+                                    <ref target="#genre_performance">Heather Beyer Elizabeth, Pat Murphy, Adrienne Potts, and Sue Wells got up on the stage and sang <title level="a">I Enjoy Being a Dyke,</title> their lively send-up of <title level="a">I Enjoy Being a Girl.</title>
+                                    </ref>
+                                </ref>
+                                <ref target="#censorship">The management asked the four women to leave. Although they were surrounded by beer-spitting, catcalling patrons, the women refused to depart <note place="inline">
+                                        <bibl>Schwabel</bibl>
+                                    </note>. They were arrested and, after hours of verbal harassment by Toronto police officers, were charged with creating a disturbance <note place="inline">
+                                        <bibl>Warner 40</bibl>
+                                    </note>.</ref>
+                                <ref target="#history">
+                                    <ref target="#social_movement">The incident galvanized the Toronto gay community, whose defense of the Brunswick Four has been likened to the consciousness-raising that followed the Stonewall riots of June 28, 1969 in New York’s Greenwich Village. </ref>
+                                    <ref target="#technology">The Brunswick Four may be a prime example of women’s centrality to the gay liberation movement in Canada, but representing the Brunswick Four and their influence through <abbr>TEI</abbr> helps dramatize the difficulty of trying to build a reliable and ethically responsible personography of the actors in the movement.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1297">
+                        <ref target="#history">
+                            <ref target="#theme_or_topic">
+                                <ref target="#gender_issue">
+                                    <ref target="#sexuality">The Lesbian and Gay Liberation in Canada project is not interested solely in recovering gay history; it is also responsive to the very debates that have shaped that history.</ref>
+                                    <abbr>LGLC</abbr>’s initial personographic encoding has been motivated by the rise in the 1990s of those seeking to recuperate lost lesbian and trans histories. The debates may be familiar. In the 1980s, there was a rush to assert lesbian status for biological females who lived as men (including surgeon James Barry, music hall performer Annie Hindle, and pianist Billy Tipton)—those who previously did not have access to <q>lesbian</q> as an identity marker. In the following decade, the trans community rejoined with competing claims that these historical actors were part of trans history. <ref target="#intertextuality">Jack Halberstam draws on the typical characterization of jazz pianist Billy Tipton to summarize the debate: <q>Tipton, the jazz musician who lived his life as a man and who married a woman, is often represented within lesbian history as a lesbian woman forced to hide her gender in order to advance within her profession, rather than as a transsexual man living within his chosen gender identity</q>
+                                        <note place="inline">
+                                            <bibl>Halberstam 293</bibl>
+                                        </note>
+                                    </ref>. These debates over identities are far from settled. The <abbr>LGLC</abbr> project seeks to intervene, not in the interest of taking sides or settling debates, but in re-imagining how encoding can be used to produce a temporally sensitive folksonomic articulation of identity that extends beyond the categories represented by the acronym <abbr>LGBT</abbr>.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1298">
+                        <ref target="#technology">What is the conscientious encoder to do in the face of such temporal specificity? <ref target="#history">The particular actors in the <abbr>LGLC</abbr> project are far removed from the cultural context that led Tipton to identify as a man in the 1940s and 1950s; however, that many individuals in the <abbr>LGLC</abbr> data set share similar stories gives us an opportunity to code for self-identification over time. <ref target="#gender_issue">
+                                    <ref target="#sexuality">Encoding practices may offer a new way to comprehend the relationship between gender performance, sexual practice, and the cultural context embedded in identity-naming practices.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1299">
+                        <ref target="#technology">
+                            <ref target="#theme_or_topic">If, at the start of the project, we were wary about encoding identity, we are all the more wary today about personographic tagging practices. Rather than impose identity definitions from on high, our aim is to develop a tagging method that would produce temporally specific identity definitions built from collective self-naming. <ref target="#women_writing">
+                                    <ref target="#sexuality">
+                                        <ref target="#attitudes_to_women_writing">Our personographic encoding, complete with explicit and temporally specific records of self-naming, results not in a dictionary definition of what, for example, the word <q>dyke</q> meant in 1974, but rather a list of women whose self-identification produces a definition by example. Our desire is to reconstruct what Eve Kosofsky Sedgwick calls nonce taxonomies, formed through <q>the making and unmaking…of hundreds of old and new categorical imaginings…for mapping [a particular social] landscape</q>
+                                            <note place="inline">
+                                                <bibl>23</bibl>
+                                            </note>. Interesting in itself, this endeavour will further serve one of the central goals of our project. <ref target="#archive">In order to make sense of our populated, rather than verbal, definitions, users will have to learn about the women in the archive, thereby increasing the general knowledge about women’s contributions to gay liberation in Canada.</ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1300">
+                        <ref target="#technology">
+                            <ref target="#attitudes_to_women_writing">
+                                <ref target="#theme_or_topic">We have been preoccupied with <abbr>TEI</abbr> standards when encoding personographies. <ref target="#gender_issue">For example, the <abbr>TEI</abbr> standards that categorize sex may facilitate interoperability,<note xml:id="n73" place="end">The four values offered as sex attributes are <hi rend="italic">male</hi>, <hi rend="italic">female</hi>, <hi rend="italic">unknown</hi>, and <hi rend="italic">not applicable</hi>.</note> but they simultaneously limit our encoding’s expressiveness. Our initial goal—to make women’s contributions to the <abbr>CLGA</abbr> more visible—was soon mired in our desire to have the contributors and materials speak for themselves. In trying to design a personography-derived definition of <q>dyke</q> or <q>queer,</q> do we risk reproducing labels that actors within the <abbr>LGLC</abbr> data set abhorred in the first place? Is a secondhand account of one person’s identification enough to include in our markup? <ref target="#archive">
+                                            <ref target="#spatiality">We find ourselves combing through the archive, happy to recount instances where women, like the Brunswick Four, stood up, microphones at the ready, to proclaim their identification at a particular moment and place.</ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>A Women’s Place on the Web</head>
+                    <p xml:id="p1301">
+                        <ref target="#attitudes_to_women_writing">
+                            <ref target="#technology">
+                                <ref target="#non-book_media">
+                                    <ref target="#gender_issue">
+                                        <ref target="#representation_of_women">
+                                            <ref target="#theme_or_topic">The stories that we would like our data to tell through prose, maps, and graphs are conspicuous (to us, at least) in their absence from popular knowledge repositories, such as <title level="m">Wikipedia</title>. For example, even though she does not have her own <title level="m">Wikipedia</title> entry, National Portrait Collection inductee Pat Murphy is mentioned in the <title level="m">Wikipedia</title> entry that describes the arrest of the Brunswick Four. Indeed, none of the Brunswick Four women have individual <title level="m">Wikipedia</title> entries. Moreover, there is no <title level="m">Wikipedia</title> entry for <ref target="#history">the Community Homophile Association of Toronto (<abbr>CHAT</abbr>), one of the first gay liberation organizations in all of Canada, which Murphy founded with George Hislop and others in 1971</ref>
+                                                <note place="inline">
+                                                    <bibl>McLeod 56</bibl>
+                                                </note>.</ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1302">
+                        <ref target="#technology">
+                            <ref target="#gender_issue">It is nearly impossible to find information about Murphy through Google. Google’s new customized search results have reduced the serendipity of Google searches, returning results that Google’s algorithms suggest for each user based on previous searches. When <hi rend="italic">we</hi> search for Murphy, her <abbr>NPC</abbr> biography is elevated to our first page of Google hits because Google has collected data on our preferred search results. Our frequent visits to the National Portrait Collection through the Google homepage, rather than through direct links, ensure that we are linked to Murphy through Google. These modestly promising returns are wiped out, however, when Google’s default personalization is turned off, reducing the number of relevant hits on the first page of a Google search from one to zero. Due to Google’s reliance on personalization and <q>relevance</q> (determined in large part by the number of links on a page), it is unlikely that users who are not already running Google searches related to the Canadian lesbian and gay liberation movement will ever locate information about Murphy.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1303">
+                        <ref target="#attitudes_to_women_writing">
+                            <ref target="#technology">
+                                <ref target="#representation_of_women">
+                                    <ref target="#gender_issue">
+                                        <ref target="#theme_or_topic">
+                                            <ref target="#history">It is extremely difficult, even when conducting more traditional online research, to discern the connections between organizations, events, and people, and to piece together women’s involvement in Canadian <abbr>LGBT</abbr> history</ref>.</ref>
+                                        <ref target="#spatiality">For instance, via correspondence with Lamar Van Dyke (formerly Heather Beyer Elizabeth), one of the Brunswick Four, we learned the reason the four women had been at the Brunswick Tavern on the night of their arrest; Van Dyke, then co-ordinator of A Women’s Place, a feminist community centre, sought a rapprochement with Murphy, who had been working primarily with <abbr>CHAT</abbr>, an organization perceived by the women’s movement as focusing only on gay men’s issues. Searches for variations of <q>A Women’s Place</q> returned no relevant Google hits—even for us—despite the fact that A Women’s Place was the original location for what became the Toronto Women’s Bookstore, a fixture of the feminist and <abbr>LGBT</abbr> communities in Toronto for thirty-nine years (the store closed on November 30, 2012). In the <title level="m">Wikipedia</title> entry on the Toronto Women’s Bookstore, A Women’s Place is referenced in passing as an unnamed women’s resource centre located on nearby Dupont Street. <abbr>TEI</abbr> will help us draw these very connections between the various events, places, and people in the <abbr>LGLC</abbr> data set within the Collaboratory.</ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1304">
+                        <ref target="#history">
+                            <ref target="#gender_issue">
+                                <ref target="#technology">
+                                    <ref target="#theme_or_topic">
+                                        <ref target="#intertextuality">Although the scope of our project is currently bound by the years 1964 to 1981, the date at which Don McLeod’s chronology ends, we are keenly aware of the dearth of online information about queer trailblazers.</ref>
+                                        <ref target="#representation_of_women">Pioneering activists from the <abbr>LGLC</abbr> data set and later waves of the lesbian and gay liberation movement do not fare much better in <title level="m">Wikipedia</title> than in Google search results. <ref target="#genre_issue">Persimmon Blackbridge, author, mental health activist, and recent National Portrait Collection inductee, only appears on <title level="m">Wikipedia</title> in the entry for Kiss and Tell, her Vancouver-based art collective. At the time of writing, Blackbridge’s name appears in red on the Kiss and Tell page, which signifies that even though she does not have a dedicated entry in <title level="m">Wikipedia</title>, at least one<title level="m">Wikipedia</title> editor has suggested that such an entry ought to exist. The Kiss and Tell <title level="m">Wikipedia</title> entry is itself an orphan—an article to which no other article links. To read about Kiss and Tell on <title level="m">Wikipedia</title> one must have prior knowledge of the collective, which works against the serendipitous knowledge acquisition that makes encyclopedias such wonderful resources. If links are the currency of the Internet in general, and in Google’s indexing algorithm and <title level="m">Wikipedia</title> more specifically, then the women in the <abbr>LGLC</abbr>’s data set lack sufficient cultural capital.</ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1305">
+                        <ref target="#non-book_media">
+                            <ref target="#technology">
+                                <ref target="#writing_climate">
+                                    <ref target="#representation_of_women">Our examples bear out the general trend of the <abbr>LGLC</abbr> National Portrait Collection inductees’ representation in <title level="m">Wikipedia</title>. Of the seventy inductees, forty are without <title level="m">Wikipedia</title> entries. Of the thirty inductees that do have entries, nine have been marked as<q>stubs,</q> the <title level="m">Wikipedia</title> term for one- or two-paragraph entries. Of the twenty-eight women in the <abbr>CLGA</abbr>’s National Portrait Collection, however, only 39 per cent have their own dedicated <title level="m">Wikipedia</title> entry, as opposed to the 47 per cent of <abbr>NPC</abbr> men who have <title level="m">Wikipedia</title> entries. Moreover, half of the women’s entries are stubs.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1306">
+                        <ref target="#theme_or_topic">
+                            <ref target="#technology">
+                                <ref target="#attitudes_to_women_writing">Our findings are consistent with the general trend in <title level="m">Wikipedia</title>. <ref target="#gender_issue">Using length as a proxy for quality, Shyong Lam, a computer scientist from the University of Minnesota, has noted that the <title level="m">Wikipedia</title> content that attracts male editors is of higher quality than the content that attracts female editors. We are especially interested in the distribution of gendered articles across <title level="m">Wikipedia</title>’s seven content areas: Arts, Geography, Health, History, People, Philosophy and Religion, and Science. <ref target="#writing_climate">Women are more likely to contribute to <title level="a">Arts</title> and <title level="a">People</title> (the areas most relevant to our project) than they are to other content areas, but, due to the relative lack of female <title level="m">Wikipedia</title> editors, entries on men in the <title level="a">Arts</title> and <title level="a">People</title> sections outnumber those on women by a ratio of ten to one.<note xml:id="n74" place="end">According to Lam, who was using data from 2008, 11.8 per cent of <title level="a">People</title> and <title level="a">Arts</title> contributors are self-identified women <bibl>Lam et al.</bibl>.</note>
+                                        </ref>
+                                        <ref target="#women_writing">Lam attributes this gap to the culture of <title level="m">Wikipedia</title>: women do not have a critical mass in the encyclopedia, and the <orgName>Wikipedia</orgName> community treats them far less affably than it does men. Just 16 per cent of <title level="m">Wikipedia</title> editors are women, and new female editors are more likely than their male counterparts to have their edits reversed. <ref target="#sexuality">Women’s lack of participation in <title level="m">Wikipedia</title> has skewed the encyclopedia’s content, quality, and, by extension, the visibility of subjects that, due to the enculturated differences between the sexes, are of particular interest to women (including the lesbian focused events, places, and women in the Lesbian and Gay Liberation in Canada data set).</ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1307">
+                        <ref target="#technology">Through our involvement with <abbr>CWRC</abbr>, we hope to further expand the network of online connections, drawing on the rich array of materials available under the umbrella of <abbr>CWRC</abbr>’s Online Research Canada repository. <ref target="#sexuality">
+                                <ref target="#genre_novel">For instance, author Jane Rule played an important role in Canadian gay history, initiating, to McLeod’s mind at least, the Canadian lesbian and gay liberation movement with her publication of the lesbian themed novel, <title level="m">Desert of the Heart</title>
+                                    <note place="inline">
+                                        <bibl>McLeod 2</bibl>
+                                    </note>. In addition to <title level="m">Lesbian Images</title>, a study of lesbian writers</ref>, and several other novels, <ref target="#genre_journalism">Rule also wrote extensively for <title level="j">The Body Politic</title>, the Canadian gay liberation newspaper that gave birth to the <abbr>CLGA</abbr>. <ref target="#censorship">
+                                        <ref target="#historical_oppression">Her column, <title level="a">So’s Your Grandmother,</title> began in response to the police raid of the offices of the newspaper and archives after the publication of the article <title level="a">Men Loving Boys Loving Men.</title>
+                                        </ref>
+                                        <ref target="#censorship">To show her support for the organization and her opposition to censorship, she offered to write regularly for the duration of the legal proceedings</ref>
+                                        <note place="inline">
+                                            <bibl>Averill</bibl>
+                                        </note>
+                                    </ref>.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1308">
+                        <ref target="#technology">
+                            <ref target="#authority">
+                                <ref target="#theme_or_topic">We need to have a conversation, while the online sphere is still open, as to whether <orgName>Wikipedia</orgName> and Google ought to be the gatekeepers of our cultural knowledge—a conversation that we can pair with activism (such as that carried out under the aegis of <abbr>CWRC</abbr>) and will empower traditional and citizen scholars alike. <ref target="#gender_issue">
+                                        <ref target="#representation_of_women">
+                                            <ref target="#history">After all, we now know that Rule was not the only lesbian in Canada in 1964, nor is she the only lesbian on the Internet today. The Lesbian and Gay Liberation in Canada project seeks to represent historical lesbian and gay experience in order to make the Internet truly a digital Women’s Place.</ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Works Cited</head>
+                    <listBibl>
+                        <bibl>Averill, Harold. <title level="a">
+                                <q>Re: Women’s Accessions</q>. Email to the authors</title>. 5 March 2011.</bibl>
+                        <bibl>Bébout, Rick. <title level="m">Promiscuous Affections: A Life in the Bar, 1969–2000.</title> Toronto: n.p., 2003.</bibl>
+                        <bibl>. <title level="m">Text Crimes: Yet Again…The Issue That Won’t Go Away</title>. Toronto: n.p., 2003.</bibl>
+                        <bibl>Canadian Lesbian and Gay Archives (<abbr>CLGA</abbr>). <title level="a">About Us</title>. <ref target="http://www.clga.ca/about-us">http://www.clga.ca/about-us</ref>
+                        </bibl>
+                        <bibl>. <title level="a">A Chronology of the Archives</title>. <ref target="http://www.clga.ca">http://www.clga.ca</ref>
+                        </bibl>
+                        <bibl>. <title level="a">Collections</title>. <ref target="http://www.clga.ca/collections">http://www.clga.ca/collections</ref>
+                        </bibl>
+                        <bibl>. <title level="a">Doors Open Script</title>. 30 May 2010: n. pag.</bibl>
+                        <bibl>. <title level="a">National Portrait Collection/<hi xml:lang="fr-CA">La Collection nationale de portraits</hi>
+                            </title>. <ref target="http://www.clga.ca/npc">http://www.clga.ca/npc</ref>
+                        </bibl>
+                        <bibl>Fraser, James. <title level="a">Victories and Defeats: A Gay and Lesbian Chronology, 1969–1982</title>. <title level="m">Flaunting It!: A Decade of Gay Journalism from <title level="j">The Body Politic</title>: An Anthology</title>. Ed. Ed Jackson and Stan Persky. Toronto: Pink Triangle Press; Vancouver: New Star Books, 1982. 224–43.</bibl>
+                        <bibl>Halberstam, J. Jack. <title level="a">Transgender Butch: Butch/<hi rend="small-caps">ftm</hi> Border Wars and the Masculine Continuum</title>. <title level="j">
+                                <hi rend="small-capitals">gql</hi>: A Journal of Lesbian and Gay Studies</title> 4.2 (1998): 287–310.</bibl>
+                        <bibl>Jackson, Ed, and Stan Persky, eds. <title level="m">Flaunting It!: A Decade of Gay Journalism from <title level="j">The Body Politic</title>: An Anthology</title>. Toronto: Pink Triangle Press; Vancouver: New Star Books, 1982.</bibl>
+                        <bibl>Lam, Shyong, et al. <title level="a">WP: Clubhouse? An Exploration of <title level="m">Wikipedia</title>’s Gender Imbalance</title>. <title level="m">WikiSym 2011: Seventh International Symposium on Wikis and Open Collaboration</title>. <ref target="http://dl.acm.org/citation.cfm?doid=2038558.2038560">http://dl.acm.org/citation.cfm?doid=2038558.2038560</ref>
+                        </bibl>
+                        <bibl>Martin, Sandra. <title level="a">B.C. Novelist Wrote a Cult Classic and Became a Lesbian Role Model</title>. <title level="j">Globe and Mail</title> 2 November 2007: S8.</bibl>
+                        <bibl>McLeod, Donald W. <title level="m">Lesbian and Gay Liberation in Canada: A Selected Annotated Chronology, 1964–1975</title>. Toronto: <hi rend="small-caps">ecw</hi> Press/Homewood Books, 1996.</bibl>
+                        <bibl>. <title level="m">Lesbian and Gay Liberation in Canada: A Selected Annotated Chronology, 1964–1975. <hi rend="small-capitals">lgbt</hi> Life with Full Text</title>. <ref target="http://www.ebscohost.com/academic/lgbt-life-with-full-text">http://www.ebscohost.com/academic/lgbt-life-with-full-text</ref>
+                        </bibl>
+                        <bibl>.<title level="m"> Lesbian and Gay Liberation in Canada: A Selected Annotated Chronology, 1964–1975. T-Space at the University of Toronto Libraries</title>. <ref target="https://tspace.library.utoronto.ca/handle/1807/4397">https://tspace.library.utoronto.ca/handle/1807/4397</ref>
+                        </bibl>
+                        <bibl>. <title level="m">Lesbian and Gay Liberation in Canada: A Selected Annotated Chronology, 1976–1981</title>. Toronto: Homewood Books, 2014. <hi rend="italic">T-Space at the University of Toronto Libraries</hi>. <ref target="http://lglc.library.utoronto.ca">http://lglc.library.utoronto.ca</ref>
+                        </bibl>
+                        <bibl>Pink Triangle Press. <title level="a">The Collective Years</title>. <ref target="http://www.pinktrianglepress.com/collective-years">http://www.pinktrianglepress.com/collective-years</ref>
+                        </bibl>
+                        <bibl>Rule, Jane. <title level="m">Lesbian Images.</title> Garden City, NY: Doubleday, 1975.</bibl>
+                        <bibl>Schwabel, Fania. <title level="a">Our Shocking Past: Queer Youth Offer Four Quickie Histories.</title>
+                            <title level="j">Xtra!</title> 23 September 1999: n. pag.</bibl>
+                        <bibl>Sedgwick, Eve Kosofsky. <title level="m">Epistemology of the Closet.</title> Berkeley: University of California Press, 1990.</bibl>
+                        <bibl>Warner, Tom. <title level="m">Never Going Back: A History of Queer Activism in Canada.</title> Toronto: University of Toronto Press, 2002.</bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>-->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Standing on a Rainbow</title>
+                <title level="m" type="main" xml:lang="en-CA">Cultural Mapping and the Digital Sphere</title>
+                <title level="m" type="sub" xml:lang="en-CA">Place and Space</title>
+                <author>Margaret Mackey</author>
+                <editor role="editor">
+                    <forename>Ruth</forename>
+                    <surname>Panofsky</surname>
+                </editor>
+                <editor role="editor">
+                    <forename>Kathleen</forename>
+                    <surname>Kellett</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <forename>Ilovan</forename>
+                    </name>
+                </respStmt>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor>
+                    <orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Dynamic Table of Contexts editors: </resp>
+                    <name>
+                        <forename>Ruth</forename>
+                        <surname>Panofsky</surname>
+                    </name>
+                    <name>
+                        <forename>Kathleen</forename>
+                        <surname>Kellett</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Principal: </resp>
+                    <name>
+                        <forename>Susan</forename>
+                        <surname>Brown</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <surname>Ilovan</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copyediting and proofreading: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Olivier</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexing:</resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name>
+                        <forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Cover design: </resp>
+                    <name role="book_designer">
+                        <forename>Virginia</forename>
+                        <surname>Penny</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface design lead: </resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead: </resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>Mary Lou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer:</resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by: </resp>
+                    <name role="markup_editor">
+                        <forename>Kristine</forename>
+                        <surname>Abramoff</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Anita</forename>
+                        <surname>Cutic</surname>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address>
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address>
+                        <addrLine>www.cwrc.ca</addrLine>
+                    </address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1- 55195-365- 6</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Individual chapter extract from: Cultural Mapping and the Digital Sphere: Place and Space, ed. Ruth Panofsky &amp; Kathleen Kellett (Edmonton: University of Alberta Press, 2015 / DToC ed. 2016).</p>
+                <ab type="host-volume">
+                    <listBibl>
+                        <bibl>
+                            <title level="a" type="main">Foreword</title>
+                            <author>
+                                <forename>Susan</forename>
+                                <surname>Brown</surname>
+                            </author> &amp; <author>
+                                <forename>Mary-Jo</forename>
+                                <surname>Romaniuk</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Preface</title>
+                            <author>
+                                <forename>Ruth</forename>
+                                <surname>Panofsky</surname>
+                            </author> &amp; <author>
+                                <forename>Kathleen</forename>
+                                <surname>Kellett</surname>
+                            </author>
+                        </bibl>
+                        <listBibl>
+                            <head>Part I. Place and the Digital Frontier</head>
+                            <bibl>
+                                <title level="a" type="maiin">Mapping Tags and Tagging Maps</title>
+                                <title type="sub">Leveraging Spatial Markup for Literary History</title>
+                                <author>
+                                    <forename>Susan</forename>
+                                    <surname>Brown</surname>
+                                </author>, <author>
+                                    <forename>Isobel</forename>
+                                    <surname>Grundy</surname>
+                                </author>, <author>
+                                    <forename>Mariana</forename>
+                                    <surname>Paredes-Olea</surname>
+                                </author>, <author>
+                                    <forename>Jeffery</forename>
+                                    <surname>Antoniuk</surname>
+                                </author> &amp; <author>
+                                    <forename>Breanna</forename>
+                                    <surname>Mroczek</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Modeling Collaboration in Digital Humanities Scholarship</title>
+                                <title type="sub">Foundational Concepts of an EMiC UA Project Charter</title>
+                                <author>
+                                    <forename>Paul</forename>
+                                    <surname>Hjartarson</surname>
+                                </author>, <author>
+                                    <forename>Harvey</forename>
+                                    <surname>Quamen</surname>
+                                </author>, <author>
+                                    <forename>Andrea</forename>
+                                    <surname>Hasenbank</surname>
+                                </author>, <author>
+                                    <forename>Vanessa</forename>
+                                    <surname>Lent</surname>
+                                </author> &amp; <author>
+                                    <orgName> EMiC UA</orgName>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">An Interactive, Materialist-Semiotic Archive</title>
+                                <title type="sub">Visualizing the Canadian Theatrical Canon in the Simulated Environment for Theatre</title>
+                                <author>
+                                    <forename>Sasha</forename>
+                                    <surname>Kovacs</surname>
+                                </author> and <author>
+                                    <forename>Jennifer</forename>
+                                    <surname>Roberts-Smith</surname>
+                                </author>, <author>
+                                    <forename>Theresa M.</forename>
+                                    <surname>Dobson</surname>
+                                </author>, <author>
+                                    <forename>Sandra</forename>
+                                    <surname>Gabriele</surname>
+                                </author>, <author>
+                                    <forename>Omar</forename>
+                                    <surname>Rodrigues-Arenas</surname>
+                                </author>, <author>
+                                    <forename>Stan</forename>
+                                    <surname>Ruecker</surname>
+                                </author>, <author>
+                                    <forename>Stéfan</forename>
+                                    <surname>Sinclair</surname>
+                                </author>, <author>
+                                    <forename>Shawn</forename>
+                                    <surname>DeSouza-Coelho</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">"Talk to the Work"</title>
+                                <title type="sub">Applying istc Identifiers to the Digital Edition of the Canadian Bookman (1909–1941)</title>
+                                <author>
+                                    <forename>Ravit H.</forename>
+                                    <surname>David</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">How to Play with Maps</title>
+                                <author>
+                                    <forename>Bethany</forename>
+                                    <surname>Nowviskie</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Edmonton Pipelines</title>
+                                <title type="sub">Living and Playing in the Digital City </title>
+                                <author>
+                                    <forename>Heather</forename>
+                                    <surname>Zwicker</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Representing Canadian Queer Authorship</title>
+                                <title type="sub">Making the Internet a Women’s Place</title>
+                                <author>
+                                    <forename>Michelle</forename>
+                                    <surname>Schwartz</surname>
+                                </author> &amp; <author>
+                                    <forename>Constance</forename>
+                                    <surname>Crompton</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Part II. Writers and Readers: Mapping Textual Space</head>
+                            <bibl>
+                                <title level="a" type="main">Salomania</title>
+                                <title type="sub">Maud Allan, Postcards, and Early Twentieth-Century “Viral” Circulation</title>
+                                <author>
+                                    <forename>Cecily</forename>
+                                    <surname>Devereux</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Toronto the Good in the Fiction and Life of Grace Irwin</title>
+                                <author>
+                                    <forename>Patricia</forename>
+                                    <surname>Demers</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">« Where are you froM? »</title>
+                                <title type="sub" xml:lang="fr-CA">La ville et l’écriture migrante dans l’autofiction de Marguerite Andersen</title>
+                                <author>
+                                    <forename>Kathleen</forename>
+                                    <surname>Kellett</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Languages as Spaces, Translation as Play</title>
+                                <title type="sub">Moving (through) Languages</title>
+                                <author>
+                                    <forename>Lori</forename>
+                                    <surname>Saint-Martin</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">L'espace ensorcelé</title>
+                                <title type="sub">Les enfants du sabbat d’Anne Hébert</title>
+                                <author>
+                                    <forename>Stéphanie</forename>
+                                    <surname>Walsh Matthews</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick and Kim Thúy</title>
+                                <author>
+                                    <forename>Mireille</forename>
+                                    <surname>MaiTruong</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Standing on a Rainbow</title>
+                                <title type="sub">Reading in Place, Position, and Time</title>
+                                <author>
+                                    <forename>Margaret</forename>
+                                    <surname>Mackey</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <bibl>
+                            <title type="main" xml:lang="en-CA">Contributors</title> / <title type="main" xml:lang="fr-CA">Collaborateurs</title>
+                        </bibl>
+                    </listBibl>
+                </ab>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p />
+            </projectDesc>
+            <classDecl>
+                <taxonomy>
+                    <desc>Semantic tags employed in this book can be reviewed at <ref target="http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml">http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml</ref>
+                    </desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-CA">English</language>
+                <language ident="fr-CA">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline />
+                <item />
+                <index>
+                    <term />
+                </index>
+                <byline />
+                <index>
+                    <term />
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:lang="en-CA">
+                <head>
+                    <title level="a">Standing on a Rainbow</title>
+                </head>
+                <byline>Reading in Place, Position, and Time</byline>
+                <docAuthor> Margaret Mackey</docAuthor>
+                <p xml:id="p1497">
+                    <ref target="#theme_or_topic">
+                        <ref target="#textual_agency">Readers are material beings, placed in time and space, history and geography, and the material conditions of each reader have an inevitable impact on the reading experience. In this chapter, I address questions of how our understanding of literature may shift when we consider the materiality of the audience as well as of the text and of those responsible for its production. To increase awareness of the specificity of that material audience—in contrast to the widely studied concept of the mass audience—I focus here on two singular readers of one particular book. <ref target="#methodology">I seek to balance what I can ascertain about the readers against what I have been able to learn about the author, and against my assessment of at least some aspects of the text under consideration, <title level="m">Stand on a Rainbow</title> by <persName>Mary Quayle Innis</persName>. I then assess the conceptual implications of this tiny case study for how we may develop a principled literary map.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1498">
+                    <ref target="#authorship">
+                        <ref target="#education">
+                            <ref target="#textual_agency">As readers, we each have some sense of our own position in time and space, often almost by default. As students and scholars, we are sometimes invited to consider the importance of an author’s position in time and space. As contemporary lay readers (rather than scholars), we may also be encouraged to pay heed to the author’s persona as developed in websites, Twitter accounts, reading tours, and the like. None of these readerly stances is particularly rare; yet it is unusual to develop an awareness of a reading experience that takes account of the placement of both author and readers. One reason for the scarcity of such an approach, of course, is that readers are multiple and largely unknowable in that very plurality. <ref target="#genre">A book, simply by the fact of its existence, is designed on the broadcast model of one-to-many; to consider it in terms of one-to-one is to alter the exploration of its address in radical ways.</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1499">
+                    <ref target="#authorship">
+                        <ref target="#theme_or_topic">My aim here is to explore how we understand a reading experience if we balance an assessment of the text and a study of the author with an equivalent focus on readers</ref>. <ref target="#theory">
+                            <ref target="#close_reading">Already, my articles are betraying my argument. In my small case study, the text and the author can be designated through the definitive article <q>the,</q> but my specimen readers must more accurately be labelled in the singular as <q>a</q> reader—in this case two particular readers, one of whom influenced the other. <q>The</q> reader does not exist, except as a generic category almost too abstract to be useful at all—an audience member whose experience is represented in an aggregate description or even a set of statistics. Very often a reference to <q>the</q> reader camouflages a self-referential assumption that all readers behave just like the person making the reference. Unpacking this careless generalization is one of the challenges of this study of the readerly experience.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1500">
+                    <ref target="#theme_or_topic">Here are the units of my study. <ref target="#genre_novel">In <date cert="high" when="1943">1943</date>, an author named <persName>Mary Quayle Innis</persName> published a book entitled <title level="m">Stand on a Rainbow</title>.</ref> It tells the story of Leslie, a housewife and mother of three children, two sons and a daughter. In the <date cert="high" from="1950-01-01" to="1959-12-31">1950s</date>, my own mother regularly borrowed this book from the public library and read it over and over again; she described it as her favourite novel. <ref target="#response_re-evaluation">
+                            <ref target="#childhood">Curious about what it was that inspired her so greatly, I also read this book more than once—initially as a child of ten or eleven and later as an adult, purposefully looking back on my childhood reading experiences</ref>. At this later date, I came full circle in some ways by locating comments on Mary Quayle Innis by her own daughter. I also made a discovery that recontextualized the author for me and altered my own reading relationship with her text.</ref>
+                    </ref>
+                </p>
+                <p xml:id="p1501">
+                    <ref target="#theory">
+                        <ref target="#authorship">Conventional studies of literature <q>place</q> fiction in time and space (with associated cultural and ideological implications) and often do the same for an author.</ref>
+                        <ref target="#methodology">
+                            <ref target="#spatiality">My project entails an equivalent <q>placement</q> effort of two readers. Obviously not every reader of a book can be located in such a singular way, but I hope at least to reveal a standard omission in the conventional scholarly account of literature and to show how that absence can lead to an imbalance in our literary understanding that is so normalized as to be almost invisible.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <div type="section">
+                    <head>The Story of the Characters</head>
+                    <p xml:id="p1502">
+                        <ref target="#characterization">
+                            <ref target="#genre_novel">
+                                <title level="m">Stand on a Rainbow</title> recounts a year in the life of Leslie Everett, and the book is told almost entirely through her perspective. <ref target="#childhood">Her husband, Arthur, is barely a character in this domestic novel, but her three children have sharply defined personalities. Leslie herself lacks confidence in her own judgement and defers frequently to her decisive fourteen-year-old son, John. The other children are Sheila, aged ten, and Miles, aged eight.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1503">
+                        <ref target="#theme_or_topic">
+                            <ref target="#textual_strategies">
+                                <ref target="#genre_novel">
+                                    <title level="m">Stand on a Rainbow</title> is a book about places, seasons, relationships, and emotional atmospheres. Not a lot actually happens in this novel.</ref>
+                                <ref target="#characterization">
+                                    <ref target="#tone_or_style">Events are summed up fairly explicitly by Leslie’s reverie as she waits for Sheila to play her piece in the piano recital: <q>Leslie began to knit at an over-sized sock, thinking how her year was parcelled out like the year of a department store with its August—furniture, January—white sales. After the summer holidays her schedule ran, October–November–December, getting ready for Christmas; January–February, colds and at least one contagious disease; March–April, letting down her daughter’s dresses and taking up her own; May–June, annual meetings and recitals</q>
+                                        <note place="inline">
+                                            <bibl>Innis 219</bibl>
+                                        </note>
+                                    </ref>.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1504">
+                        <ref target="#characterization">
+                            <ref target="#motif">
+                                <ref target="#tone_or_style">Leslie’s is a pedestrian enough life for most of the year, punctuated by blissful summers at the cottage, which are described as a poem compared to <q>the long prose of the year</q>
+                                    <note place="inline">
+                                        <bibl>Innis 11</bibl>
+                                    </note>. There are times when Leslie seems to wallow in the drudgery of her existence, even in the face of seasonal changes that explicitly offer opportunities for more lyrical reflection:</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <q type="block">
+                        <ref target="#tone_or_style">On the Saturday before his birthday they set out. It was a radiant autumn day; looking out at breakfast time Leslie had thought not of orange maples, bronze oaks and the low-burning fire of scarlet sumac but of the fact that it would be a perfect day on which to wash the last of the blankets. She wanted to wash blankets, to make pear jam, to finish Sheila’s new jumper dress.</ref>
+                        <note place="inline">
+                            <bibl>95</bibl>
+                        </note>
+                    </q>
+                    <p xml:id="p1505">
+                        <ref target="#voice_or_narration">
+                            <ref target="#informal_response">To want to get on with one’s work is an honourable enough impulse, but as a reader I find this paragraph depressing.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1506">
+                        <ref target="#characterization">
+                            <ref target="#tone_or_style">Leslie is not impervious to the glories of the northern seasons, however. There is an ecstatic mid-book chapter in which she manages to get out into the heart of an ice storm.</ref>
+                            <ref target="#representation_of_women">All three children are ill and she has been housebound for many days, but Arthur (who <q>had not come home on purpose to let her go out since Miles was a baby</q>
+                                <note place="inline">
+                                    <bibl>Innis 155</bibl>
+                                </note>) actually leaves the office early, ostensibly to allow her to go to a tea organized by a friend.</ref>
+                            <ref target="#spatiality">Instead, Leslie surreptitiously wanders through the glittering urban landscape: <q>She had not come out a moment too soon.…Shadows fell long and sharp, painting blue images of crystal trees upon the porcelain earth.…Houses had become mere scaffolding to hold draperies of diamond vine and trellis, flounces of crystal fringe.…She had collected ice storms all her life and never a lovelier one than this</q>
+                                <note place="inline">
+                                    <bibl>156–57</bibl>
+                                </note>.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1507">
+                        <ref target="#characterization">At another particularly cold stage in the long winter of this book, Leslie mulls over what she knows and imagines about a family who, in <date cert="high" when="1825">1825</date>, lived where her house now stands, and whose story she found in a pamphlet from the library. She thinks of them as <q>the other people</q>
+                            <note place="inline">
+                                <bibl>177</bibl>
+                            </note>:</ref>
+                    </p>
+                    <q type="block">
+                        <ref target="#characterization">
+                            <ref target="#voice_or_narration">The children of the other people had waked crying at night and there had been no more blankets to give them. In the morning the loaf had to be sawn like a block of wood and Ruthie, running to the ox-stable, had frozen her cheeks and ears. Leslie pictured the ox-stable as standing where her garage stood and on each side of the bleak white street she saw the gray fence of forest drawn menacingly together. In that clearing during her first winter, one of the women had recorded her wish that the summer heat and winter cold, both so violent, could be carded through one another to make a proper climate. How many women on this ground had wished that? <note place="inline">
+                                    <bibl>178</bibl>
+                                </note>
+                            </ref>
+                        </ref>
+                    </q>
+                    <p xml:id="p1508">
+                        <ref target="#theme_or_topic">
+                            <ref target="#representation_of_women">
+                                <ref target="#characterization">Such inner musing is the main focus of this book. <ref target="#representation_of_men">Twenty-first-century readers may be frustrated with Arthur’s overblown sense of male entitlement, but it does not seem to occur to Leslie to do anything but take it for granted.</ref> Her frustration lies largely with herself. <ref target="#childhood">She does not read the ambitious books she borrows from the library; she does not practise the piano; she does not discipline her children sufficiently.</ref> The quotidian episodes march forward quietly, with some joy, some irritation, some delight in the children, some unspoken annoyance at the headlong way they pursue life while their mother picks up the pieces behind them, with almost no mention of the absent Arthur.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1509">
+                        <ref target="#authorship">
+                            <ref target="#genre_short_story">
+                                <persName>Innis</persName> published forty-five short stories <date cert="high" from="1938-01-01" to="1947-12-31">between 1938 and 1947</date>, most in <title level="j">Saturday Night</title>, and, according to the note in the Mary Quayle Innis fonds held at the <placeName>University of Waterloo Library</placeName>, <ref target="#genre_novel">
+                                    <ref target="#genre_lifeWriting">
+                                        <q>Several of these were rewritten for inclusion in <title level="m">Stand on a Rainbow</title> (<date cert="high" when="1943">1943</date>), an autobiographical <q>novel.</q>
+                                        </q>
+                                    </ref>
+                                </ref>
+                            </ref>
+                            <ref target="#women_writing">
+                                <ref target="#characterization">Yet Leslie never does anything intellectually independent such as publish short stories; the autobiographical links fall short of a complete match-up. From a contemporary perspective, Leslie’s life seems to consist of an enormous quotient of drudgery.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1510">
+                        <ref target="#characterization">
+                            <ref target="#genre_novel">The novel’s title comes from a brief episode in the book. <ref target="#childhood">Leslie indulges in one of the superstitions of her childhood: she stamps one hand into the other on seeing a white horse. Her sons and daughter roll their eyes and she perceives in their dismissal of her quaint ways a new world that is deficient in the old magic. It soon becomes apparent, however, that the three have their own childish rituals. Sheila suddenly stands still, and then accounts for her conduct in these terms: <q>‘I was wishing,’ she explained. ‘You stand on a rainbow and wish.’ She pointed to an iridescent oil stain on the pavement</q>
+                                </ref>
+                                <note place="inline">
+                                    <bibl>196</bibl>
+                                </note>. Leslie is encouraged to discover that superstition still triumphs occasionally, even if in more modern guise, and seems to see it as a victory for romance.</ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>The Story of the First Reader</head>
+                    <p xml:id="p1511">
+                        <ref target="#health_issue">
+                            <ref target="#language">
+                                <persName>Elizabeth McCurdy</persName>, my mother, has advanced Alzheimer’s. Additionally, in <date cert="high" when="2007">2007</date> she suffered a small but specific stroke that more or less destroyed her capacity to speak coherent sentences. From time to time, however, some important sentiment that can be expressed in a very short sentence will defeat the language scrambler in her brain. </ref>Not long after her debilitating stroke, I found <title level="m">Stand on a Rainbow</title> on her bookshelf and asked if I could borrow it. She agreed and managed one of her rare short remarks: <q>I love that book.</q>
+                        </ref>
+                    </p>
+                    <p xml:id="p1512">My mother’s copy is a library discard, but it does not indicate the name of the library. Inside the book I found a bookmark from <orgName>Munro’s Bookstore</orgName>, which indicates that she continued to read this story after she and my father moved to <placeName>Victoria</placeName> in <date cert="high" when="1994">1994</date> when she was seventy-one. If that is the case, her encounters with this novel spanned the best part of forty years and maybe more.</p>
+                    <p xml:id="p1513">
+                        <ref target="#theme_or_topic">
+                            <ref target="#genre_lifeWriting">
+                                <ref target="#spatiality">
+                                    <title level="m">Stand on a Rainbow</title> was published in <date cert="high" when="1943">1943</date>, the year my mother married my father. I do not know when she first read it. The parallels between the events of the book and her personal life are many. <ref target="#spatiality">Although the geography of the autobiographical narrative is not specified, <persName>Mary Quayle Innis</persName> and her husband lived and worked in the <placeName>Toronto</placeName> region. The book begins and ends in cottage country, and the case for a <placeName>southern Ontario</placeName> setting is reasonably strong.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1514">
+                        <ref target="#voice_or_narration">
+                            <ref target="#spatiality">My mother grew up in <placeName>Halifax</placeName> in the <date cert="high" from="1920-01-01" to="1939-12-31">1920s and 1930s</date>.</ref>
+                            <ref target="#class_issue">At one point, her family was affluent enough to hire a single maid-of-all-work to help my grandmother. <ref target="#childhood">At another stage, <ref target="#history">during the <listEvent>
+                                            <event>
+                                                <label>Depression</label>
+                                            </event>
+                                        </listEvent>
+                                    </ref>, times were so hard that there were days when the six children ate porridge for breakfast and porridge again for supper because their parents could afford only one proper meal a day (and that one heavy on potatoes).</ref>
+                            </ref>
+                            <ref target="#spatiality">But during at least two summers, they rented a cottage in <placeName>Merigomish, Nova Scotia</placeName>
+                            </ref>, and my mother knew the intense pleasures of the summer escape that are described vividly in this book. Leslie is devoted to the charms of berry picking (making jam is her favourite domestic activity). My mother also liked to pick berries but she was even more attracted to the delights of wild flowers, and was knowledgeable about their names and habitats. Leslie’s choice is more domestic and productive; my mother’s preference led to nothing but pleasure. <ref target="#tone_or_style">I strongly suspect that the lyrical sections of the book, limning the joys of summer in the country or an ice storm in the city, spoke to her in important ways.</ref>
+                            <ref target="#textual_agency">Contemporary readers often value <q>relatability,</q> a neologism that perhaps arises directly out of current reading practices; while I am certain my mother <q>related</q> to <title level="m">Stand on a Rainbow</title>, I believe she also relished the delights of the kind of lyrical description that featured more prominently in an earlier age of vernacular reading than in today’s relatable novels. <ref target="#spatiality">Readers belong to their time as well as to their place.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1515">
+                        <ref target="voice_or_narration">
+                            <ref target="#economics">
+                                <ref target="#education">Family financial restrictions prevented my mother from going to university.</ref> She took commercial classes after high school and earned her living as a secretary. She married young and was a stay-at-home mother like Leslie, eventually with five children. <ref target="#spatiality">In <date cert="high" when="1950">1950</date>, our family moved to <placeName>Newfoundland</placeName> from <placeName>Nova Scotia</placeName>, and she set about making a new home.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1516">
+                        <ref target="#voice_or_narration">In a perfect world, I would have had the opportunity to interview my mother about her affection for this book. <ref target="#health_issue">In reality, the insidious destruction of dementia was well underway long before I had the idea of revisiting my own childhood literacy.</ref> I am very, very reluctant to put words into her mouth, or even to speculate too impertinently about the hold of this book on her imagination. <ref target="#spatiality">The parallels are vivid: <placeName>Halifax</placeName> has the long winter and inadequate spring of <title level="m">Stand on a Rainbow</title>; <ref target="#history">local history is important in <placeName>Nova Scotia</placeName>
+                                </ref> and, in her youth, my mother might well have had some sense of <q>the other people,</q> one of the more evocative ingredients of <persName>Innis</persName>’s novel</ref>. <ref target="#education">She certainly regretted never having had the chance for an education, so I am sure Leslie’s frustrations resonated very deeply with her.</ref> On the more positive side, she enjoyed the evocation of summer recreations and childhood memories. She could read herself into this story in many deep and real ways, vivify it through the experience of her own felt life. <ref target="#genre_novel">There were, of course, few Canadian novels that treated the more or less contemporary world of a housewife and mother, so it is perhaps not surprising that my mother loved this one so fiercely.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1517">
+                        <ref target="#voice_or_narration">
+                            <ref target="#informal_response">The lifelong love affair between a reader and a particular book is a complex topic, and not one that necessarily receives the attention it deserves. To what extent did this book support and confirm my mother’s life decisions? To what extent may it have consoled her for decisions she regretted? What it did do, I am certain, was provide her with some assurance that her own experiences were seen, recorded, shaped, and expressed in the form of a novel she could hold, borrow, read, and eventually own. She could stand outside these experiences and revisit them, re-savour the felt life in a newly framed perspective, feel the force of its limitations as perceived by another, sympathetic point of view—and perhaps play with its possibilities and alternatives.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1518">
+                        <ref target="#voice_or_narration">It is very possible that she also read the book in more aesthetic and/or resistant ways, but I do not know. My very strong sense has always been that this book offered my mother a reading of validation. I cannot definitively account for all the sources of appeal in this book, but I can testify to her reiterated statements of its power in her life.</ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>The Story of the Author</head>
+                    <p xml:id="p1519">
+                        <ref target="#authorship">In <date cert="high" when="2007">2007</date>, the name <persName>Mary Quayle Innis</persName> meant little to me beyond her authorship of <title level="m">Stand on a Rainbow</title>. When I began to seek out information about her, I made one of those discoveries that takes previous insights and gives them a vigorous shaking-out.</ref>
+                    </p>
+                    <p xml:id="p1520">
+                        <ref target="#authorship">
+                            <ref target="#intellectual_history">The <persName>Innis</persName> who gave <persName>Mary Quayle</persName> her married surname was Harold Innis, well-known Canadian communications scholar and a major influence on <persName>Marshall McLuhan</persName>
+                            </ref>. <ref target="#genre_non-fiction">
+                                <ref target="#editions">
+                                    <ref target="#economics">In addition to her novel, Mary Quayle Innis wrote <title level="m">An Economic History of Canada</title>, which became a standard university textbook in its revised edition (also published in <date cert="high" when="1943">1943</date>).</ref>
+                                </ref>
+                            </ref>
+                            <ref target="#education">After Harold Innis died, she served as dean of women at <orgName>University College in Toronto</orgName> for nine years, and was a Canadian delegate to the Commonwealth Conference on Education in <placeName>Oxford</placeName> in <date cert="high" when="1959">1959</date>.</ref>
+                            <ref target="#response_formal">She edited her husband’s work, and communications scholar <persName>J. David Black</persName> has devoted an extensive article to teasing out ways in which her own scholarly interests and background may have fed into Harold Innis’s widely known theories of communication.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1521">
+                        <ref target="#authorship">
+                            <persName>Mary Quayle Innis</persName> herself, says <persName>Black</persName>, <q>thought her life and her writing inseparable</q>
+                            <note place="inline">
+                                <bibl>435</bibl>
+                            </note>. <ref target="#response_formal">
+                                <ref target="#genre_novel">According to Innis’s daughter <persName>Anne</persName>, <title level="m">Stand on a Rainbow</title> is highly autobiographical: <q>
+                                        <ref target="#class_issue">The novel is an account of a year in the life of a middle-class family, and according to Anne Innis Dagg, is drawn almost entirely from incidents in Mary’s domestic life</ref>
+                                    </q>
+                                    <note place="inline">
+                                        <bibl>Black 437</bibl>
+                                    </note>. Mary Quayle Innis, according to her daughter, was frustrated at being taken only as an academic wife, not as an academic in her own right <note place="inline">
+                                        <bibl>Black 437</bibl>
+                                    </note>.</ref> The frustration certainly made its way into the novel but her autonomous academic achievements did not.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1522">
+                        <ref target="#authorship">
+                            <ref target="#representation_of_women">
+                                <ref target="#genre_novel">There is no reason, of course, why a novel, even an autobiographical novel, need represent every facet of an author’s life. <persName>Mary Quayle Innis</persName> may well have been interested in the constraints on the life of an <q>average</q> suburban mother. Be that as it may, she certainly made an authorial choice to reduce Leslie’s options and to restrict both her outer and inner life to intensely domestic concerns.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1523">
+                        <ref target="#spatiality">No doubt some of the constrictions are linked to the time and space of the era. Here is a scene in which Leslie and the two younger children are late coming home: <q>Arthur stood at the window, John waited in the hall, both of them with the restless and expectant air of hungry men in a house where the kitchen is empty</q>
+                            <note place="inline">
+                                <bibl>Innis 170</bibl>
+                            </note>
+                        </ref>. Even when Arthur later apologizes, his sense of responsibility is highly limited: <q>I should have put the kettle on but I brought some work home and I had started on it</q>
+                        <note place="inline">
+                            <bibl>172</bibl>
+                        </note>. My own father was never so useless. Yet that sense of always being responsible for both the drudgery and the satisfactions of domestic order must nevertheless have dogged my mother’s days.</p>
+                </div>
+                <div type="section">
+                    <head>The Story of the Second Reader</head>
+                    <head rend="bold">Adolescent Reading</head>
+                    <p xml:id="p1524">
+                        <ref target="#voice_or_narration">
+                            <ref target="#response_informal">
+                                <ref target="#childhood">I remember reading <title level="m">Stand on a Rainbow</title> more than once at the age of ten or eleven, just because I knew my mother loved it, and I wanted to see what she admired so much. <ref target="#spatiality">The book did an adequate job of transporting me to another world, but I did not find it gripping. I lacked some of my mother’s immediate hooks into the story: I had no experience of spending a full summer in a cottage away from home (at most we made day trips to visit friends in cabins not far from town).</ref>
+                                    <ref target="#history">I had no sense of any <q>other people</q> in my city, which for centuries was a temporary summer shelter for European fishermen rather than a permanent settlement.</ref>
+                                    <ref target="#representation_of_women">Most crucially, perhaps, I had not lived a housewife’s life.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1525">
+                        <ref target="#voice_or_narration">I did, of course, recognize the family dynamics that pulse through the book. <ref target="#motif">But the picture of adulthood the novel painted was not one that appealed to me, though I certainly recognized it from my own life and from other reading material that surrounded me.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1526">
+                        <ref target="#intertextuality">
+                            <ref target="#textual_agency">
+                                <ref target="#spatiality">
+                                    <ref target="#childhood">With books where I was more closely aligned with the implied reader, I could import my own experiences into my interpretation. With adult materials, it was more complicated. In many ways, because I was <q>reading up,</q> looking outside my own experience to sample adult life, I had to <q>place</q> myself within the intertext of other adult materials. My own childish experience could offer only limited grounding to my reading of <persName>Innis</persName>’s novel.</ref> And of course the available intertextual references were also <q>placed</q>—temporally, spatially, and ideologically.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1527">
+                        <ref target="#representation_of_women">
+                            <ref target="#intertextuality">Much of what <persName>Innis</persName>’s book might have told me about my mother’s life in the <date cert="high" from="1960-01-01" to="1965-12-31">early 1960s</date> was a message I did not want to hear. <ref target="#childhood">I was just beginning to understand that I would not be a girl forever, that someday I would become a woman. For all the considerable familiarity of its terms of reference, <title level="m">Stand on a Rainbow</title> did not show me a world to which I aspired.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1528">
+                        <ref target="#response_informal">Overall, my best recollection (articulated in terms I could not have used at the time) is that, far from participating in a reading of validation as my mother did, my own encounters with this book involved a kind of reading as closing-down, a restriction of possibilities, a reading of disappointment.</ref>
+                    </p>
+                    <l rend="bold">Adult Re-reading </l>
+                    <p xml:id="p1529">
+                        <ref target="#voice_or_narration">
+                            <ref target="#textual_agency">I do not have enough information to know whether my mother changed her attitude in relation to <title level="m">Stand on a Rainbow</title> over the course of her reading life. I suspect not, given her comment to me in her old age, but I have no way of confirming my suspicion. <ref target="#childhood">I, however, changed from a child reader to a highly educated and <q>professional</q> adult reader in the decades between my first and later readings of this book.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1530">
+                        <ref target="#response_re-evaluation">In <date cert="high" when="2007">2007</date>, as I began to consider the possibilities of a project involving the re-assembling of as many materials as possible from the textual universe within which I became literate, I knew that my mother’s books would be important to my collection. My first re-reading of this title in <date cert="high" when="2007">2007</date> left me simply dispirited. The source of this book’s appeal to my mother was even more baffling to me as an adult. <ref target="#education">
+                                <ref target="#representation_of_women">
+                                    <ref target="#spatiality">I could not ask her, and the only part of the book that evoked any positive response for me in <date cert="high" when="2007">2007</date> was the notion of <q>the other people</q>—and that chiefly as a cause for regret, that my education in local history had been so wanting that my imagination had never been charged with any curiosity about the past of my own city.</ref>
+                                    <ref target="#textual_agency">While I could appreciate the felt detail in <persName>Innis</persName>’s account of a domestic life, I could not make myself want to read myself <q>into</q> its restrictions and limitations. I put the book aside.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1531">
+                        <ref target="#response_re-evaluation">
+                            <ref target="#authorship">In the summer of <date cert="high" when="2011">2011</date>, I thought the time had come to return to the book and took the standard scholarly step of seeing what I could learn about the author. The biographical reference to <persName>Harold Innis</persName> caught me completely by surprise. <persName>Mary Quayle Innis</persName>’s own scholarly, literary, and public record was another shock. <ref target="#representation_of_women">When I re-read the book yet again, I was attending to absences as well as presences. Leslie’s diffidence about herself, compounded by the book’s lack of any description of a single independent achievement on her part, took a different shape in my mind when outlined against the other biographical components of Innis’s life, the experiences that were not translated into this fiction.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1532">
+                        <ref target="#authorship">
+                            <ref target="#representation_of_women">
+                                <persName>Mary Quayle Innis</persName> was writing for adults. She was not writing material for little girls to cut their developmental teeth on—and not writing for some academic woman of the future, either. <ref target="#childhood">As a pre-adolescent in the early <date cert="high" from="1960-01-01" to="1969-12-31">1960s</date>, I was beginning to think about finding my place as a grown-up. The place offered in this book was discouraging, and made almost no room for an adult female life outside the yoke of domestic labour. I find it hard to set aside my contemporary self, angered on behalf of my child self, to look dispassionately at what Innis did achieve in this novel.</ref>
+                                <ref target="#women_writing">In part this anger arises from the supporting cast of so many other female authors in the <date cert="high" from="1960-01-01" to="1969-12-31">1960s</date> telling the same destructive story; Innis at least supplies the wistfulness and uncertainty that was the shadow of this apparently <q>fulfilled</q> woman’s life.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1533">
+                        <ref target="#authorship">
+                            <ref target="#characterization">
+                                <ref target="#genre_novel">What was <persName>Mary Quayle Innis</persName> doing as she excised her own intellectual interests in developing her autobiographically based story of Leslie? She certainly succeeded in presenting a particular set of choices. <ref target="#representation_of_women">In some ways, Leslie embodies the issue that was later highlighted by <persName>Betty Friedan</persName> in <title level="m">The Feminine Mystique</title> as <q>the problem that has no name</q>
+                                        <note place="inline">
+                                            <bibl>15</bibl>
+                                        </note>—the depression that leads to a kind of housewifely anomie in the face of stifled talents and foreclosed opportunities. In her restricted portrait of Leslie, Innis presents one logical outcome of being the kind of woman society claimed to want and need.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1534">
+                        <ref target="#characterization">
+                            <ref target="response_re-evaluation">
+                                <ref target="#childhood">As an adult looking back on my childhood reading, would I have been so sharply troubled by <title level="m">Stand on a Rainbow</title> if it had been written by Mrs. George (or John or Joe) <persName>Innis</persName> (let alone Ms. Georgina Innis)?</ref> Was it only the discrepancy between Innis’s life and her autobiographical novel that irritated me? <ref target="response_informal">I think I have been a resistant reader of Innis’s book from my earliest encounters with her story, and being given a righteous finger to wag at its hypocritical lacunae was initially very satisfying. I now realize that Innis’s total life experiences must have been rather closer to my own than Leslie’s could ever be. Innis, too, was an academic woman who took time out to raise children. <ref target="#authorship">She chose to write her novel about the domestic world rather than the academy, a choice to which she is as entitled as any other writer</ref>.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1535">
+                        <ref target="#response_re-evaluation">
+                            <ref target="#genre_novel">Once I learned these basic biographical facts, however, I could not <q>unread</q> them out of my response to the novel. My <date cert="high" when="2011">2011</date> reading differed from my <date cert="high" when="2007">2007</date> encounter with the book because I read the protagonist’s life against the backdrop of the author’s more varied biography. <ref target="#characterization">As a reader, I am uneasy about Leslie’s lack of self-confidence and willingness to be a drudge to the unworthy and ungrateful Arthur. <ref target="#representation_of_woman">I know women did behave this way in the <date cert="high" from="1940-01-01" to="1949-12-31">1940s</date>, but <persName>Mary Quayle Innis</persName> did not, and she deliberately chose to omit other sources of satisfaction from her heroine’s life. How much of the achievement of this novel lies in its creation of an interior life experienced within the confines of an inexorable and utterly accepted domesticity? Is it simultaneously a novel of protest? Leslie certainly does not question the conditions of her life; she seems only to question herself. <ref target="#textual_agency">In what ways is such a novel <q>readable</q> today? Does this book lend itself to resistant reading only in anachronistic ways? How difficult would it be for a contemporary young woman to read this novel compliantly?</ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1536">
+                        <ref target="#authorship">
+                            <ref target="#genre_lifeWriting">In spite of the ways in which her own accomplishments meant that <persName>Mary Quayle Innis</persName> was living a life somewhat less constricted than her protagonist’s, she created an <q>autobiographical</q> narrative of frustration, even while acknowledging the joys of being alive in a prosperous and comfortable society. <ref target="#representation_of_woman">
+                                    <ref target="#childhood">To what extent was she simply recording a problem, even as she inadvertently extended her story’s reach by showing little girls (never her chosen implied readers) that the future really might be dreary?</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1537">
+                        <ref target="#history">
+                            <ref target="#gender_issue">
+                                <ref target="#spatiality">The iniquities for women of the postwar retreat to home and the suburbs have been well rehearsed. <persName>Innis</persName>’s book suggests that the problem goes back further in time, but otherwise it describes a familiar issue. <ref target="#childhood">I am unlikely to add significantly to this debate by contributing my own childish grievances from that era. Nor do I want to put words into the mouth of my silenced mother. In fact, an ideological discussion of the historical role of women is not my main interest in this chapter. Instead, I am intrigued by the implications of such ideology for the study of reader reception.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Divergent Readers</head>
+                    <p xml:id="p1538">
+                        <ref target="#textual_agency">
+                            <ref target="#spatiality">
+                                <ref target="#childhood">My first reading position as a child interloper, outside the implied address of this novel, highlights questions about the place of readers in our literary landscape.</ref>
+                            </ref> Once this orange-and-pink hardback was let loose on the world, <persName>Innis</persName> and her publishers lost control of the readership. In practical terms, that is certainly a basic truth about publishing and, in a way, marks the end of the story, so to speak. In theoretical terms, however, I think we need to make more room for the counterweight to the author that is created by the engagement of many individual readers, even if specific details necessarily remain wanting.</ref>
+                    </p>
+                    <p xml:id="p1539">
+                        <ref target="#class_isse">
+                            <ref target="#textual_agency">
+                                <ref target="#race_issue">As a white, middle-class female adult, I was not so far from the implied reader inscribed in this story; as a child, I was radically outside some of the terms of its address.</ref> My example is a very small case of the ways in which actual readers can distort the singular direction of the notional communicative <q>arrow</q> from writer to recipient. This account of me and my mother as two divergent readers is historically not very important, but theoretically I think it provides a significant reminder. Moreover, my own experience is bifurcated; I was by no means the same reader in <date cert="high" when="1961">1961</date> as I was in <date cert="high" when="2007">2007</date>, and I was operating from a different knowledge base again in <date cert="high" when="2011">2011</date>.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1540">
+                        <ref target="#textual_agency">Readers are notoriously hard to pin down and impossible to render stable. <ref target="#nationality">My mother’s unchanging ardour for this book possibly reflects her delight at her identification with the implied reader; for Canadian readers at that time, this was a relatively unusual experience, one she clearly cherished.</ref> But my own reading relationship with this book was highly mutable and always resistant. My mother and I were two closely connected readers but we never made the same link to this story—nor could we.</ref>
+                    </p>
+                    <p xml:id="p1541">
+                        <ref target="#textual_agency">
+                            <ref target="#spatiality">
+                                <ref target="#genre_novel">An approach that takes account of the force supplied by readers in many ways localizes a text through the individual connections its various readers make to its fictional structures. Yet in many real ways, that local life is the only existence a novel can have. It changes the nature of the scholarly relationship to that text if, in addition to attending to the prism, we also acknowledge all the rainbows on the wall. But making room for individual readers in our schema of literature is an important step to consider.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Grounded Reading</head>
+                    <p xml:id="p1542">
+                        <ref target="#spatiality">
+                            <ref target="#textual_agency">My mother and I occupied the same space and time as we read <title level="m">Stand on a Rainbow</title> in the <date cert="high" from="1960-01-01" to="1965-12-31">early 1960s</date> in <placeName>St. John’s, Newfoundland</placeName>. But how we related our reading to our situation in time and space was different in a variety of vital ways.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1543">
+                        <ref target="#genre_novel">
+                            <ref target="#spatiality">Even a case study of two opens the door to a more plural approach to this or any novel. If we confine our study of this novel to the limits of <persName>Mary Quayle Innis</persName>’s own trajectories, decisions, and life patterns, we distort the picture of a work of literature’s own movement through time and space. <ref target="#theme_or_topic">I have attempted to define two examples of the book’s trajectory after it left Innis’s hands through the actions and imaginings of two different, though related readers.</ref>
+                                <ref target="#textual_agency">The point about any novel, however, is that it is always in motion through time and space when it is being read, savoured, analyzed, and written about—<q>carded through</q> the lives of its readers. The significance of a reader’s placement in time and space is conventionally elided in much scholarly study, but that evaporation of the reader into some kind of impersonal analysis is itself a fiction. Even as we may have to create an empty set to represent the plurality of potential readers in time and space, we need also to make allowance for the located and specific nature of the scholar who presents <q>a</q> reading. No reader is disembodied; no reader exists outside of time and space. Acknowledging the force of that locatedness on the part of readers allows us to attend properly to the dynamics of reading that make literature what it is. Within the larger context of this scholarly collection, for example, this chapter is unusually autobiographical; but I bring the same history and experience to all my reading, no matter how neutrally and academically I write about a book.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1544">
+                        <ref target="#genre_novel">
+                            <ref target="technology">
+                                <ref target="#textual_agency">Any mapping of a novel that tries to include its total readership would be utterly illegible, an irony of the one-to-many schema. Yet the novel comes to life only in the minds of individual readers and it should be possible to register the weight of that fact in some way. What would happen to our scholarship if the plenitude of digital space allowed us to consider a database category along the lines of <q>known readers of this novel,</q> for example? How would such a change affect the balance of power that has for so many years privileged the author and rendered interpreters bodiless and placeless—a neutered stance that belies important elements of the accomplishment of any work of fiction that successfully reaches others?</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1545">
+                        <ref target="#theory">By <q>known readers of this novel,</q> I do not mean simple sales or borrowing figures—although, despite inherent limitations, such data would be of considerable interest if rendered specific. (How well did <title level="m">Stand on a Rainbow</title> sell? Where did it sell well? How many libraries bought how many copies? In which branches were these copies placed? How many people borrowed them and from where?) In historical terms, these are not questions we may readily answer (although <ref target="#technology">digital point-of-sale information and radio frequency identification technology used in libraries</ref> may well enable us to gather more substantial statistics in the future). But even acknowledging the importance of such questions alters an invisibly skewed balance of power between authors, critics, and readers. <ref target="#textual_agency">Adding responses from specific readers (lay and professional alike) to a database built to describe a literary culture also has the potential to enhance our understanding of literature and its influence on readers. Placing authors and readers on the same map, however conceptually or notionally, changes and enriches the literary landscape and alters how we think about the relationship between them.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1546">
+                        <ref target="#theory">
+                            <ref target="#textual_agency">The material audience is part of the world of literature. As critic <persName>Danielle Fuller</persName> suggests, we need to attend to <q>the importance of developing nuanced analyses of non-academic reading practices and theories capable of explaining the pleasures, politics, and social relations that reading practices both shape and resist</q>
+                                <note place="inline">
+                                    <bibl>31</bibl>
+                                </note>. One way of highlighting the importance of such readers and reading practices is simply to map them.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1547">
+                        <ref target="#technology">
+                            <ref target="#theory">With our massive digital affordances, we are in a position to consider ways in which we might mark the activities and achievements of a book’s readers located in time and space. Without belabouring the metaphor too heavily, current book history is indeed standing on a rainbow of varied and individual private responses to the materials whose details we otherwise record carefully—and if we simply stamp on it, the rainbow will dissolve into an oil slick of indecipherable and apparently insignificant uniformity. How can we acknowledge and make space for the variegated and transient power of that rainbow in our scholarly record keeping? Is it not time to take up that challenge?</ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>works cited</head>
+                    <bibl>Black, J. David. <title level="a">‘Both of Us Can Move Mountains’: Mary Quayle Innis and Her Relationship to Harold Innis’ Legacy.</title>
+                        <title level="j">Canadian Journal of Communication</title> 28 (2003): 433–47.</bibl>
+                    <bibl>Friedan, Betty. <title level="m">The Feminine Mystique</title>. New York: Dell, 1963.</bibl>
+                    <bibl>Fuller, Danielle. <title level="a">Listening to the Readers of ‘Canada Reads.’</title>
+                        <title level="j">Canadian Literature</title> 193 (Summer 2007): 11–34.</bibl>
+                    <bibl>Innis, Mary Quayle. <title>Mary Quayle Innis fonds.</title>
+                        <title>GA 127</title>. Special Collections, University of Waterloo Library. <ref target="https://uwaterloo.ca/library/special-collections-archives/collections/innis-mary-quayle-fonds">https://uwaterloo.ca/library/special-collections-archives/collections/innis-mary-quayle-fonds</ref>
+                    </bibl>
+                    <bibl>. <title level="m">Stand on a Rainbow</title>. Toronto: William Collins, 1943.</bibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

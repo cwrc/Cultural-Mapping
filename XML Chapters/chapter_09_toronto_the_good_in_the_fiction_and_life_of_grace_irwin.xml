@@ -1,0 +1,1013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>-->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Toronto the Good in the Fiction and Life of Grace Irwin</title>
+                <title level="m" type="main" xml:lang="en-CA">Cultural Mapping and the Digital Sphere</title>
+                <title level="m" type="sub" xml:lang="en-CA">Place and Space</title>
+                <author>Patricia Demers</author>
+                <editor role="editor">
+                    <forename>Ruth</forename>
+                    <surname>Panofsky</surname>
+                </editor>
+                <editor role="editor">
+                    <forename>Kathleen</forename>
+                    <surname>Kellett</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <forename>Ilovan</forename>
+                    </name>
+                </respStmt>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor>
+                    <orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Dynamic Table of Contexts editors: </resp>
+                    <name>
+                        <forename>Ruth</forename>
+                        <surname>Panofsky</surname>
+                    </name>
+                    <name>
+                        <forename>Kathleen</forename>
+                        <surname>Kellett</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Principal: </resp>
+                    <name>
+                        <forename>Susan</forename>
+                        <surname>Brown</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <surname>Ilovan</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copyediting and proofreading: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Olivier</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexing:</resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name>
+                        <forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Cover design: </resp>
+                    <name role="book_designer">
+                        <forename>Virginia</forename>
+                        <surname>Penny</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface design lead: </resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead: </resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>Mary Lou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer:</resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by: </resp>
+                    <name role="markup_editor">
+                        <forename>Kristine</forename>
+                        <surname>Abramoff</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Anita</forename>
+                        <surname>Cutic</surname>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address>
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address>
+                        <addrLine>www.cwrc.ca</addrLine>
+                    </address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1- 55195-365- 6</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Individual chapter extract from: Cultural Mapping and the Digital Sphere: Place and Space, ed. Ruth Panofsky &amp; Kathleen Kellett (Edmonton: University of Alberta Press, 2015 / DToC ed. 2016).</p>
+                <ab type="host-volume">
+                    <listBibl>
+                        <bibl>
+                            <title level="a" type="main">Foreword</title>
+                            <author>
+                                <forename>Susan</forename>
+                                <surname>Brown</surname>
+                            </author> &amp; <author>
+                                <forename>Mary-Jo</forename>
+                                <surname>Romaniuk</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Preface</title>
+                            <author>
+                                <forename>Ruth</forename>
+                                <surname>Panofsky</surname>
+                            </author> &amp; <author>
+                                <forename>Kathleen</forename>
+                                <surname>Kellett</surname>
+                            </author>
+                        </bibl>
+                        <listBibl>
+                            <head>Part I. Place and the Digital Frontier</head>
+                            <bibl>
+                                <title level="a" type="maiin">Mapping Tags and Tagging Maps</title>
+                                <title type="sub">Leveraging Spatial Markup for Literary History</title>
+                                <author>
+                                    <forename>Susan</forename>
+                                    <surname>Brown</surname>
+                                </author>, <author>
+                                    <forename>Isobel</forename>
+                                    <surname>Grundy</surname>
+                                </author>, <author>
+                                    <forename>Mariana</forename>
+                                    <surname>Paredes-Olea</surname>
+                                </author>, <author>
+                                    <forename>Jeffery</forename>
+                                    <surname>Antoniuk</surname>
+                                </author> &amp; <author>
+                                    <forename>Breanna</forename>
+                                    <surname>Mroczek</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Modeling Collaboration in Digital Humanities Scholarship</title>
+                                <title type="sub">Foundational Concepts of an EMiC UA Project Charter</title>
+                                <author>
+                                    <forename>Paul</forename>
+                                    <surname>Hjartarson</surname>
+                                </author>, <author>
+                                    <forename>Harvey</forename>
+                                    <surname>Quamen</surname>
+                                </author>, <author>
+                                    <forename>Andrea</forename>
+                                    <surname>Hasenbank</surname>
+                                </author>, <author>
+                                    <forename>Vanessa</forename>
+                                    <surname>Lent</surname>
+                                </author> &amp; <author>
+                                    <orgName> EMiC UA</orgName>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">An Interactive, Materialist-Semiotic Archive</title>
+                                <title type="sub">Visualizing the Canadian Theatrical Canon in the Simulated Environment for Theatre</title>
+                                <author>
+                                    <forename>Sasha</forename>
+                                    <surname>Kovacs</surname>
+                                </author> and <author>
+                                    <forename>Jennifer</forename>
+                                    <surname>Roberts-Smith</surname>
+                                </author>, <author>
+                                    <forename>Theresa M.</forename>
+                                    <surname>Dobson</surname>
+                                </author>, <author>
+                                    <forename>Sandra</forename>
+                                    <surname>Gabriele</surname>
+                                </author>, <author>
+                                    <forename>Omar</forename>
+                                    <surname>Rodrigues-Arenas</surname>
+                                </author>, <author>
+                                    <forename>Stan</forename>
+                                    <surname>Ruecker</surname>
+                                </author>, <author>
+                                    <forename>Stéfan</forename>
+                                    <surname>Sinclair</surname>
+                                </author>, <author>
+                                    <forename>Shawn</forename>
+                                    <surname>DeSouza-Coelho</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">"Talk to the Work"</title>
+                                <title type="sub">Applying istc Identifiers to the Digital Edition of the Canadian Bookman (1909–1941)</title>
+                                <author>
+                                    <forename>Ravit H.</forename>
+                                    <surname>David</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">How to Play with Maps</title>
+                                <author>
+                                    <forename>Bethany</forename>
+                                    <surname>Nowviskie</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Edmonton Pipelines</title>
+                                <title type="sub">Living and Playing in the Digital City </title>
+                                <author>
+                                    <forename>Heather</forename>
+                                    <surname>Zwicker</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Representing Canadian Queer Authorship</title>
+                                <title type="sub">Making the Internet a Women’s Place</title>
+                                <author>
+                                    <forename>Michelle</forename>
+                                    <surname>Schwartz</surname>
+                                </author> &amp; <author>
+                                    <forename>Constance</forename>
+                                    <surname>Crompton</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Part II. Writers and Readers: Mapping Textual Space</head>
+                            <bibl>
+                                <title level="a" type="main">Salomania</title>
+                                <title type="sub">Maud Allan, Postcards, and Early Twentieth-Century “Viral” Circulation</title>
+                                <author>
+                                    <forename>Cecily</forename>
+                                    <surname>Devereux</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Toronto the Good in the Fiction and Life of Grace Irwin</title>
+                                <author>
+                                    <forename>Patricia</forename>
+                                    <surname>Demers</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">« Where are you froM? »</title>
+                                <title type="sub" xml:lang="fr-CA">La ville et l’écriture migrante dans l’autofiction de Marguerite Andersen</title>
+                                <author>
+                                    <forename>Kathleen</forename>
+                                    <surname>Kellett</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Languages as Spaces, Translation as Play</title>
+                                <title type="sub">Moving (through) Languages</title>
+                                <author>
+                                    <forename>Lori</forename>
+                                    <surname>Saint-Martin</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">L'espace ensorcelé</title>
+                                <title type="sub">Les enfants du sabbat d’Anne Hébert</title>
+                                <author>
+                                    <forename>Stéphanie</forename>
+                                    <surname>Walsh Matthews</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick and Kim Thúy</title>
+                                <author>
+                                    <forename>Mireille</forename>
+                                    <surname>MaiTruong</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Standing on a Rainbow</title>
+                                <title type="sub">Reading in Place, Position, and Time</title>
+                                <author>
+                                    <forename>Margaret</forename>
+                                    <surname>Mackey</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <bibl>
+                            <title type="main" xml:lang="en-CA">Contributors</title> / <title type="main" xml:lang="fr-CA">Collaborateurs</title>
+                        </bibl>
+                    </listBibl>
+                </ab>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p />
+            </projectDesc>
+            <classDecl>
+                <taxonomy>
+                    <desc>Semantic tags employed in this book can be reviewed at <ref target="http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml">http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml</ref>
+                    </desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-CA">English</language>
+                <language ident="fr-CA">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline />
+                <item />
+                <index>
+                    <term />
+                </index>
+                <byline />
+                <index>
+                    <term />
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:lang="en-CA">
+                <head>
+                    <title level="a"> Toronto the Good in the Fiction and Life of Grace Irwin</title>
+                </head>
+                <docAuthor>
+                    <persName>Patricia Demers</persName>
+                </docAuthor>
+                <p xml:id="p1340">
+                    <ref target="#spatiality">
+                        <ref target="#theme_or_topic">Stories and theories about the city have created their own crossroads of understanding. <ref target="#genre_novel">
+                                <ref target="#history">Attempts to analyze the importance of the <placeName>Toronto</placeName> city­scape from the <date cert="high" from="1920-01-01" to="1959-12-31">1920s to the 1950s</date> in five novels by lifelong Toronto resident <persName>Grace Irwin</persName> necessitate some acknowledgement of the varied array of registers and metrics reflecting multiple perspectives and changing social practice.</ref> A re-entry to <date cert="high" from="1900" to="1955">early twentieth-century</date> Toronto, before <placeName>Metro and Greater Toronto Area</placeName> designations, might be managed by working back from current conceptualizations of urban place and space. Since interdisciplinary urban studies, like its subject, have experienced explosive growth since the <date cert="high" when="1960-01-01" to="1969-12-01">1960s</date>, such a look backward could also help to chart both the divides and some interconnections between then and now.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1341">
+                    <ref target="#spatiality">
+                        <ref target="#theory">In the realms of the scalar geographical imagination, <persName>Raymond Williams</persName>’s formula for the city as <q>the physical embodiment of a decisive modern consciousness</q>
+                            <note place="inline">
+                                <bibl>239</bibl>
+                            </note> often leads to a series of polarizations—between <q>core and periphery, metropolis and hinterland, or centre and margin</q>
+                            <note place="inline">
+                                <bibl>McCann and Smith 70</bibl>
+                            </note>
+                        </ref>. The porosity or openness of the city is an influential matter of debate. <ref target="#representation_of_women">For women citizens, in particular, the city as a <q>cultural artifact</q> can exclude their participation and also free them <q>for the first time from their isolation in the private home</q>
+                            <note place="inline">
+                                <bibl>Squier 5</bibl>
+                            </note>.</ref>
+                        <ref target="#class_issue">Its forms and structures can <q>ensure social conformity</q> or point to the <q>marginality [of] ghettoization</q>
+                            <note place="inline">
+                                <bibl>Grosz 109</bibl>
+                            </note>. As <q>spectacle,…spaces for face-to-face contact of amazing richness</q>
+                            <note place="inline">
+                                <bibl>Wilson 158</bibl>
+                            </note>, the city presents both <q>the challenge of space,…of the full recognition of coeval others,</q> and <q>the essential openness of place to the beyond</q>
+                            <note place="inline">
+                                <bibl>Massey 216, 217</bibl>
+                            </note>. The intersections of the city, then, can afford opportunities for voice, agency, and experimentation, as well as structures of powerlessness and domination.</ref>
+                    </ref>
+                </p>
+                <p xml:id="p1342">
+                    <ref target="#spatiality">
+                        <ref target="#theme_or_topic">
+                            <ref target="#theory">Globalization theory has affected contemporary views of human agency, locality, and cultural practices within urban environments. <persName>Michael Peter Smith</persName> insists on the more precise language of transnational urbanism; he sees <q>people’s everyday lives [as] sites of criss-crossing communication circuits</q> constituting <q>sometimes separate, sometimes overlapping, and sometimes competing terrains for the contestation, as well as the reproduction, of cultural meanings</q>
+                                <note place="inline">
+                                    <bibl>127</bibl>
+                                </note>. <ref target="#theory">For <persName>Saskia Sassen</persName>, <ref target="#economics">
+                                        <q>economic globalization has contributed to a new geography of centrality and marginality</q>
+                                        <note place="inline">
+                                            <bibl>Sassen 194</bibl>
+                                        </note>
+                                    </ref>. In <q>emergent transnational urban systems,</q> she argues, where <q>globalities [are] centered in cities,</q> powerlessness can become <q>a complex condition in the concrete space of cities where multiple groups and projects intersect</q>
+                                    <note place="inline">
+                                        <bibl>Sassen 194</bibl>
+                                    </note>.</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1343">
+                    <ref target="#spatiality">
+                        <ref target="#authorship">
+                            <ref target="#theme_or_topic">
+                                <ref target="#class_issue">Through the experiences and ruminations of her fictional protagonists, <persName>Grace Irwin</persName> clothes concepts of place and space, the challenges of openness and modernity, and class-enabled or -restricted occasions for voice or silence, in human encounters with <placeName>Toronto</placeName>.</ref> Although transnational globality is not a prominent feature of her <date cert="high" from="1900-01-01" to="1970-12-31">early and mid-twentieth-century</date> city, Irwin’s Toronto embodies both the <q>identity-endowing</q>
+                                <note place="inline">
+                                    <bibl>Ball 185</bibl>
+                                </note> specificity of place and the liminality of space through which her characters move, question, and discover themselves. Aware of the fragmentary, isolated, atomistic quality of city life, her perception of Toronto does not draw on the demi-monde scurrility of <persName>Christopher Saint George Clark</persName>’s <date cert="high" from="1850" to="1899-12-31">late nineteenth-century</date> exposé, <title level="m">Of Toronto the Good: A Social Study</title>. <ref target="#social_issue">
+                                    <ref target="#representation_of_women">Cataloguing <q>unwholesome truths</q> and familiar with the <q>shabby tumble-down houses</q> where <q>the poor were obliged to live,</q> Clark delighted in poking a finger in the eye of righteousness, asserting the omnipresence of street walkers: <q>on every street in the city…I have been solicited</q>
+                                        <note place="inline">
+                                            <bibl>Clark 209, 3, 131</bibl>
+                                        </note>. </ref>
+                                    <ref target="#religion">Citing the success of <q>unprincipled knaves [who] can secure entrance to the best social circles</q>
+                                        <note place="inline">
+                                            <bibl>Clark 27</bibl>
+                                        </note>, yet granting that <q>Toronto is essentially a city of churches</q>
+                                        <note place="inline">
+                                            <bibl>147</bibl>
+                                        </note>, he derided these institutions’ sermons as <q>the vilest billingsgate</q>
+                                        <note place="inline">
+                                            <bibl>165</bibl>
+                                        </note>, their choirs as <q>the dumping ground for all the old stagers</q>
+                                        <note place="inline">
+                                            <bibl>153</bibl>
+                                        </note>, their hymns as <q>Pharisaic twaddle</q>
+                                        <note place="inline">
+                                            <bibl>154</bibl>
+                                        </note>, and clerics, <q>‘fishers of men’ who do not pay their debts</q>
+                                        <note place="inline">
+                                            <bibl>31</bibl>
+                                        </note>, as practitioners of <q>chicanery and infidelity</q>
+                                        <note place="inline">
+                                            <bibl>164</bibl>
+                                        </note>. The Toronto Irwin presents thirty years later and beyond is not simply a backdrop for exposing hypocrisies. A city of parishes and doubt, landmarks and expansion, past and present, it possesses a hermeneutic architecture.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1344">
+                    <ref target="#religion">
+                        <ref target="#characterization">
+                            <ref target="#genre_novel">
+                                <ref target="#editions">
+                                    <ref target="#translation">
+                                        <ref target="#language">Clergyman Andrew Connington is the central figure of three of <persName>Irwin</persName>’s novels, <title level="m">Least of All Saints</title>, <title level="m">Andrew Connington</title>, and <title level="m">Contend with Horses</title>, all published by <orgName>McClelland and Stewart</orgName> and translated into German.</ref>
+                                    </ref>
+                                </ref> Irwin fashions Connington’s <date cert="high" from="1920-01-01" to="1929-12-31">1920s</date>
+                                <placeName>Toronto</placeName> as an observant, dialogic milieu—<q>there was nothing peculiar about church attendance in Toronto</q>
+                                <note place="inline">
+                                    <bibl>
+                                        <hi rend="italic">Least of All Saints</hi> 5</bibl>
+                                </note>—shot through with a Modernist angst of disbelief. <q>‘No honest man with an intellectual grasp of what it involves,’</q> maintains Connington’s industrialist uncle, <q>‘can accept orthodox Christianity today’</q>
+                                <note place="inline">
+                                    <bibl>
+                                        <title level="m">Least of All Saints</title> 24</bibl>
+                                </note>. Andrew Connington himself defends the Blue Law by observing, <q>I like Sunday in Toronto</q> and praising <q>the comparative quiet in the city as…incalculably beneficial in an age of haste and nervous strain</q>
+                                <note place="inline">
+                                    <bibl>
+                                        <hi rend="italic">Least of All Saints</hi> 218</bibl>
+                                </note>. <ref target="#spatiality">Despite this tension between attendance and ebbing belief, the Toronto of churches, compendious theological debate at <orgName>Emmanuel College</orgName>, and the domestic life of an ejected pastor, who is also a husband, parent, and eventually widower, is not a satirical indictment of clergy; rather, Irwin’s Connington novels are a deeply attentive, engaged exploration of the shaping, testing, and expansion of a clerical vocation within the shifting geographies of centre and margin of an altered urban milieu.</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1345">
+                    <ref target="#class_issue">
+                        <ref target="#authorship">
+                            <ref target="#religion">
+                                <ref target="#theme_or_topic">
+                                    <ref target="#spatiality">
+                                        <ref target="#genre_novel">
+                                            <ref target="#childhood">The changing <placeName>Toronto</placeName> of <persName>Irwin</persName>’s novels is her city as well. Growing up in <q>a typical middle-class <placeName>West Toronto</placeName> Methodist</q>
+                                                <note place="inline">
+                                                    <bibl>Irwin, <title level="m">Three Lives</title>8</bibl>
+                                                </note> milieu, daughter of a schoolteacher mother and an <q>officer of the law</q>
+                                                <note place="inline">
+                                                    <bibl>20</bibl>
+                                                </note> father, who was a member of Toronto’s morality staff, <ref target="#education">Irwin (<date cert="high" from="1907" to="2008">1907–2008</date>) majored in classics at the <orgName>University of Toronto</orgName> (honours BA and MA in Greek drama and philosophy</ref>).</ref>
+                                        </ref> Following her retirement as a high school teacher of thirty-nine years, all but one of them at <orgName>Humberside Collegiate</orgName>, she became an ordained minister of the <orgName>Christian Congregational Conference of Ontario</orgName> at age seventy-three, serving at a church in <placeName>West Toronto</placeName>.</ref>
+                                    <ref target="#recognitions">Today, the <orgName>Word Guild of Canadian Christian Writing</orgName> offers the Grace Irwin Award as its top prize.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1346">
+                    <ref target="#spatiality">
+                        <ref target="#authorship">
+                            <ref target="#genre_lifeWriting">Announcing that she has <q>lived in only three permanent homes, all in <placeName>Toronto</placeName>’s west end, <ref target="#education">attended one public school, one high school, one university</ref>, [with her] teaching career in one school,</q>
+                                <persName>Irwin</persName>’s autobiography maintains that <q>change has flowed, been seen more clearly as change than it would against the confusion of an often altered background</q>
+                                <note place="inline">
+                                    <bibl>
+                                        <title level="m">Three Lives</title> ix</bibl>
+                                </note>.</ref>
+                            <ref target="#voice_or_narration">The solid positioning and narrative attitude toward this sea of change distinguish and complicate Irwin’s Toronto.</ref> Her Toronto supplies what <persName>Elizabeth Wilson</persName> longs for, <q>spaces for face-to-face contact</q>
+                            <note place="inline">
+                                <bibl>Wilson 158</bibl>
+                            </note>; it fulfills <persName>John Clement Ball</persName>’s criterion as <q>the constitutive context for the self</q>
+                            <note place="inline">
+                                <bibl>Ball 192</bibl>
+                            </note>. <ref target="#religion">But how does this city of church politics and biblically-fuelled wrangles, recalled childhood picnics and hikes, and close, venerated family ties unbroken until death meet what <persName>Doreen Massey</persName> articulates as <q>the full recognition of coeval others</q> and the responsibilities of <q>the essential openness of place to the beyond</q>
+                                <note place="inline">
+                                    <bibl>216, 217</bibl>
+                                </note>?</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1347">
+                    <ref target="#history">
+                        <ref target="#spatiality">
+                            <ref target="#theme_or_topic">
+                                <ref target="#genre_novel">More than a backdrop or a scene-plotting Global Positioning System (<abbr>GPS</abbr>), the city of <placeName>Toronto</placeName> and, <date cert="high" when="1954">after 1954</date>, <orgName>Metro Toronto</orgName>, is the essential social space of five of <persName>Irwin</persName>’s seven novels. <ref target="#intertextuality">
+                                        <ref target="#genre_lifeWriting">Outside this grouping are her acclaimed historical biographies of reformed slave ship captain <persName>John Newton</persName>, in <title level="m">Servant of Slaves</title>, set in the <placeName>Mendips, Georgian London</placeName>, and aboard slavers in the Middle Passage; and of the <persName>Earl of Shaftesbury</persName>, the <orgName>Ragged School Union</orgName> founder, in <title level="m">The Seventh Earl</title>, set in Victorian <placeName>London</placeName>. <ref target="#response_formal">
+                                                <title level="m">Servant of Slaves</title> was hailed in the <title level="j">University of Toronto Quarterly</title> as <q>the best historical novel of the year</q>
+                                                <note place="inline">
+                                                    <bibl>Watt 466</bibl>
+                                                </note> and subsequently translated into German, while the cover of <orgName>Eerdman</orgName>’s paperback edition of <title level="m">The Seventh Earl</title> posted the praise of <ref target="#recognitions">Newbery Award–winner <persName>Madeleine L’Engle</persName>
+                                                </ref> commending Irwin’s portrait <q>of an extraordinary and many-faceted man, who spoke forcefully and ahead of his time on many issues which still, today, cry out for his vigour and vision.</q>
+                                            </ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1348">
+                    <ref target="#spatiality">
+                        <ref target="#characterization">
+                            <ref target="#theme_or_topic">
+                                <ref target="#genre_novel">
+                                    <ref target="#tone_or_style">
+                                        <persName>Irwin</persName> sketches a <placeName>Toronto</placeName> of specific neighbourhoods, ways of living, and networks of social, economic, and ideological preoccupations throughout her oeuvre—in the three novels spanning Andrew Connington’s ministerial career; the character study of a high school Latin teacher, <title level="m">In Little Place</title>; and <title level="m">Compensation</title>, the romance occurring between <placeName>Haliburton</placeName> and Toronto in the <date cert="high" from="1920-01-01" to="1926-12-31">early 1920s</date>, which was written when she was an undergraduate and published over seven decades later. <ref target="#genre_lifeWriting">Evidence in her autobiography, published when she was seventy-nine, buttresses her depiction of the city of Toronto in these works.</ref>
+                                    </ref> Topographic realism, external details of landmarks, and tradition link and illuminate the interior realities perceived and endured by her protagonists. Her city becomes what <persName>Pamela Gilbert</persName> terms a point of <q>intersection of narrative and place, time and space</q>
+                                    <note place="inline">
+                                        <bibl>120</bibl>
+                                    </note>. More than postcards of nostalgia, Irwin’s blending of locale and disposition comments acutely, often critically, on both. Such commentary could allow her particular social space to function as what Smith calls <q>a cross-roads or meeting ground for the interplay of diverse localizing practices</q>
+                                    <note place="inline">
+                                        <bibl>Smith 127</bibl>
+                                    </note>.</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1349">
+                    <ref target="#characterization">
+                        <ref target="#religion">
+                            <ref target="#genre_novel">
+                                <ref target="#tone_or_style">The novels of the Connington trilogy share a linking design: framed by contrasts, their narratives explore Connington’s realization of the breadth and dimensionality of his ministry. In the conversion experience of <title level="m">Least of All Saints</title> he transitions from an ambitious preacher attracting great crowds to his services yet lacking faith to a committed, engaged believer. Framed by the death of his first child, a five-day-old infant, and the birth of a healthy son, <title level="m">Andrew Connington</title> charts the conflicts of conscience Connington undergoes as a pastor who refuses to trim his principles to accommodate a well-heeled congregation. With the passage of twenty-five years, <title level="m">Contend with Horses</title> is framed by the death of his wife in a car accident and his refusal of a wealthy widow’s offer of re-marriage; noting tectonic social shifts in his home, church, and city, Connington still considers <q>rising and fighting another round</q>
+                                    <note place="inline">
+                                        <bibl>
+                                            <title level="m">Contend with Horses</title> 284</bibl>
+                                    </note>.</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1350">
+                    <ref target="#characterization">
+                        <ref target="#genre_novel">
+                            <ref target="#religion">Neither a romance nor the account of a flâneur, <title level="m">Least of All Saints</title> concerns the interplay of the city and human consciousness. Returning veteran, <orgName>Oxford</orgName> graduate, former employee of the <orgName>League of Nations</orgName>, Connington spends a lot of time walking—in search of himself, his vocation, his faith. Since his success as a preacher masks a lack of true conviction, faith follows vocation. <ref target="#spatiality">He saunters under the direction of the purposive narrator who has a direct line into his perceptions. Every point of his walking itinerary holds significance for this ruminative seeker—from the <placeName>Russell Hill Road</placeName> home he shares with his aunt and uncle, down <placeName>Avenue Road</placeName> to <placeName>Queen’s Park</placeName>, past the new <placeName>Hart House</placeName>, to <placeName>University College</placeName>, <placeName>Gate House</placeName>, <placeName>Jackson Hall</placeName>, to <placeName>Victoria College chapel</placeName>, to <placeName>Shorncliffe United Church</placeName> (the stand-in for <orgName>Timothy Eaton Memorial Church</orgName>, perhaps), the prestigious scene of Connington’s first appointment as minister, and on to his delayed appearance at a <orgName>Victoria College</orgName> convocation at <placeName>Annesley Hall</placeName>, where he meets the Victoria graduate, <persName>Cecily Ridout</persName>, who very shortly will become his wife. Each locale is the occasion for learning more about his determination and priggishness.</ref>
+                                <ref target="#education">He shocks his nominally observant relations with plans to study theology, expresses his intolerance for <q>the ‘arty’ set, a dreary imitation of sets he had seen in <placeName>England</placeName> the previous summer</q>
+                                    <note place="inline">
+                                        <bibl>
+                                            <title level="m">Least of All Saints</title> 87</bibl>
+                                    </note>, and uses his knowledge of Greek to convince his <orgName>Emmanuel College</orgName> peers wondering about their commitment to, in his words, <q>give the Bible a fair chance</q> instead of <q>the conviction that the authors were fools</q>
+                                    <note place="inline">
+                                        <bibl>111</bibl>
+                                    </note>
+                                </ref>. He is aware, too, of the power of his intellect to deceive. With <q>a certain ironic humour</q> he entertains his uncle by recounting how he repeated the Apostles’ Creed <q>prefacing each clause with <ab xml:lang="la-VA">Non credo</ab>
+                                </q>
+                                <note place="inline">
+                                    <bibl>28</bibl>
+                                </note>. But he also clarifies his pastoral ambitions, convincing his uncle that he does not anticipate <q>years of drudgery in the backwoods</q>; as he expostulates, <q>You must think I’m crazy. No, my philanthropic impulse doesn’t carry me as far as that, I assure you. It’s a city pulpit for me, or nothing. And believe me, I’ll get one. Does that convince you of the worldliness of my intentions?</q>
+                                <note place="inline">
+                                    <bibl>28</bibl>
+                                </note>.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1351">
+                    <ref target="#characterization">
+                        <ref target="#religion">
+                            <ref target="#genre_novel">By far the most resonant occasions are Connington’s encounter with the stained glass windows in the <orgName>Victoria chapel</orgName> depicting <persName>Milton</persName>, <persName>Newton</persName>, <persName>Luther</persName>, and <persName>Wesley</persName> and his meeting of Cecily, who stirs this immensely successful orator to realize his lack of faith. Although the temperate Connington allows his emotions to surface in such anodyne outbursts as <q>dash it all</q>
+                                <note place="inline">
+                                    <bibl>
+                                        <title level="m">Least of All Saints</title> 46</bibl>
+                                </note>, <q>what the deuce</q>
+                                <note place="inline">
+                                    <bibl>169</bibl>
+                                </note>, and <q>tell your own blasted crowd to go to blazes</q>
+                                <note place="inline">
+                                    <bibl>171</bibl>
+                                </note>, these instances prompt moments of introspection that unsettle, finally, his self-assured demeanour. <ref target="#spatiality">After passing <q>the arched elms of <placeName>St. Mary’s Street</placeName>,</q> beholding <q>the red roofs of <orgName>Victoria College</orgName> against a turquoise sky,</q> and striding <q>under the arch of <placeName>Gate House</placeName>,</q> Connington experiences the <q>gloriously rejuvenating sensation about returning to school in the crisp October air</q>
+                                    <note place="inline">
+                                        <bibl>40</bibl>
+                                    </note>. His brief stopover in the chapel, however, and examination of the windows, illustrating what <persName>Massey</persName> later identifies as <q>the fact of multiplicity within and the essential openness of place to the beyond</q>
+                                    <note place="inline">
+                                        <bibl>Massey 217</bibl>
+                                    </note>, effectively dislodge Connington’s confidence in being <q>a model theological student</q>
+                                    <note place="inline">
+                                        <bibl>
+                                            <title level="m">Least of All Saints</title> 40</bibl>
+                                    </note>.</ref>
+                                <ref target="#intertextuality">When he first examines the windows and their epigraphs, Connington finds no qualms in aligning himself with them. Milton’s <q>justify[ing] the ways of God to men…was precisely what he was taking upon himself to do</q>
+                                    <note place="inline">
+                                        <bibl>42</bibl>
+                                    </note>. Newton’s <q>The great ocean of Truth lay all undiscovered before me</q> tinges his thoughts <q>with an inward humility which never betrayed itself to others</q>
+                                    <note place="inline">
+                                        <bibl>42</bibl>
+                                    </note>. While he admits the need of Luther’s fighting words <q>against an all-powerful hierarchy and a half-hostile, ignorant world: ‘<ab xml:lang="ge-GE">Hier stehe ich; ich kann nicht anders. Gott helf’ mir</ab>’</q> and <q>the sheer force of his dogged personality</q>
+                                    <note place="inline">
+                                        <bibl>42</bibl>
+                                    </note>, Connington spends most time with Wesley’s <q>The best of all is God is with us</q>
+                                    <note place="inline">
+                                        <bibl>43</bibl>
+                                    </note>. Battling momentary disappointment in such <q>a simple statement for a scholar like Wesley!,</q> he determines <q>to find out when the words had been uttered, to be considered worthy of their position as an epitome of Wesley’s message</q>
+                                    <note place="inline">
+                                        <bibl>43</bibl>
+                                    </note>. This very simplicity is what he must discover. Privately shaken, Connington realizes that <q>the attitudes of the scientist and the poet-philosopher might be his, but the affirmations of the two divines met in his heart only emptiness that could not echo</q>
+                                </ref>
+                                <note place="inline">
+                                    <bibl>43</bibl>
+                                </note>.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1352">
+                    <ref target="#characterization">
+                        <ref target="#religion">
+                            <ref target="#genre_novel">As the rising star at <placeName>Shorncliffe</placeName> he trades in the Wesley connection, telling a fawning journalist of an unidentified <placeName>Toronto</placeName> daily newspaper that <persName>John Wesley</persName>
+                                <q>converted [his] great-great-great grandfather back in <date cert="medium" when="1770">1770</date> or thereabouts</q>
+                                <note place="inline">
+                                    <bibl>
+                                        <title level="m">Least of All Saints</title> 138</bibl>
+                                </note>, yet <persName>Connington</persName> only confronts his own inadequacy with the help of <persName>Cecily</persName>. Even before they meet he overhears her misgivings about this <q>magnificent preacher</q>: <q>I can’t be sure he means it or feels it himself….I’ve heard ministers not a quarter so brilliant that I liked much better</q>
+                                <note place="inline">
+                                    <bibl>191</bibl>
+                                </note>. His <q>arrogance seep[ing] from him, like air from a pricked balloon,</q> Connington realizes <q>he was a failure, whatever the world might think</q>
+                                <note place="inline">
+                                    <bibl>278</bibl>
+                                </note>. <ref target="#voice_or_narration">The narrator ushers us into his self-scrutiny: <q>He was a spiritual failure because he had ambitions for the well-being of others which he could not realize in himself….Success in hoodwinking any number of credulous people by sheer force of personality was a pitifully inadequate weight</q>
+                                </ref>
+                                <note place="inline">
+                                    <bibl>279</bibl>
+                                </note>. Ironically, his epiphany takes place removed from Toronto the Good (or, the fashionable), in a <q>plain white clapboard</q>
+                                <note place="inline">
+                                    <bibl>279</bibl>
+                                </note> church in <placeName>Haliburton</placeName>, where he accompanies Cecily’s relatives. A small but ardent congregation, a substitute minister <q>with an extraordinarily spiritual face</q>
+                                <note place="inline">
+                                    <bibl>280</bibl>
+                                </note>, the psalmist’s invocation to <q>Be still and know,</q> and the Wesleyan hymn lead Connington to understand—without the puffery of family history—that <q>Wesley had indeed possessed the secret; and being dead, yet spoke</q>
+                                <note place="inline">
+                                    <bibl>282</bibl>
+                                </note>. After his first post-vacation sermon, a <placeName>Shorncliffe</placeName> matron candidly criticizes his delivery as <q>a bit too serious, too intense, too theological, too much old-fashioned stress on the personal. We’ve got beyond that,</q> she insists. <q>We must have a wider outlook today. And we must preserve moderation in religion especially. One shouldn’t force things on people, you know</q>
+                                <note place="inline">
+                                    <bibl>301</bibl>
+                                </note>. <ref target="#tone_or_style">Serious theology untrimmed to the corporate tastes of his congregation becomes Connington’s hallmark.</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1353">
+                    <ref target="#characterization">
+                        <ref target="#religion">
+                            <ref target="#genre_novel">Such strength actually leads to his ejection from <placeName>Shorncliffe</placeName> in the sequel, <title level="m">Andrew Connington</title>, a move precipitated by his denial of communion to <ref target="#economics">a cost-saving executive who fires a long-time employee weeks before his pensionable service would be activated</ref>. <ref target="#intertextuality">Significantly, as Connington steels his courage to deny the communion salver, he silently recites <persName>Luther</persName>’s words while realizing and embracing <q>the pathos, the loneliness, the unthanked nobility of the true reformer, who is always the reluctant reformer</q>
+                                    <note place="inline">
+                                        <bibl>
+                                            <title level="m">Andrew Connington</title> 145</bibl>
+                                    </note>
+                                </ref>. <ref target="#history">Set largely in the <date cert="high" from="1930-01-01" to="1930-12-31">1930s</date> as <q>the depression hit[s]</q>
+                                    <note place="inline">
+                                        <bibl>28</bibl>
+                                    </note>, the narrative details Connington’s overriding of management board objections to welcome thirty transients to the basement of Shorncliffe. But this novel is more calibrated around disjunctions and changes—in Connington’s marriage, his ministry, and the city itself. <ref target="#spatiality">As a couple, the Conningtons enjoy 1930s entertainments, hearing contralto <persName>Sigrid Onegin</persName> at <placeName>Massey Hall</placeName> and seeing <persName>Hubert Henry Davies</persName>’s <title level="m">Mollusc</title> at <placeName>Hart House</placeName>.</ref> But growing tensions at the church disrupt their union. Before their separation Cecily warns her husband against <q>a melancholy pleasure from being a suffering saint,</q> but it is only in his subsequent walk in High Park, past the <placeName>Duke of Devonshire’s Gate</placeName>, the bob-sled run and the toboggan slides, to the <q>reflective waters of <placeName>Grenadier Pond</placeName>
+                                    </q> that this historic pleasure place prompts the realization that he wants neither <q>a public hearing</q> nor <q>an outright clash</q>
+                                    <note place="inline">
+                                        <bibl>189, 190</bibl>
+                                    </note>. Instead of fighting his ejection, Connington accepts <q>a suburban gospel hall</q>
+                                    <note place="inline">
+                                        <bibl>230</bibl>
+                                    </note> where <q>an improvised pulpit,</q>
+                                    <q>broken panes of glass,</q> and a squeaky piano cannot diminish his <q>deep solemn joy [to be] preaching again</q>
+                                    <note place="inline">
+                                        <bibl>225</bibl>
+                                    </note>. This time, however, the role of the penitent is reversed; Cecily admits she was wrong in hoping Connington would hold out for a better church. Another <placeName>Shorncliffe</placeName> marriage is on shakier ground. Connington, <q>absorbed in admiring contemplation of the neo-classical details of Eaton’s new College Street store,</q> is viewing <q>the massive triumphal-arch entry with its Minerva head keystone</q>
+                                    <note place="inline">
+                                        <bibl>34</bibl>
+                                    </note> when a shy heiress enters the narrative; she is infatuated—imprudently, the reader is warned—with a callow unbeliever, who is also proven to be a playboy and a drunk. <ref target="#class_issue">The marriage, rushed into at the urging of the girl’s social-climbing mother, and the funeral after the bride’s honeymoon suicide are both Connington’s solemn duties at Shorncliffe. Along with old verities, old places are changing, as <placeName>Toronto</placeName> expands beyond his childhood memories: <q>The district west and north of Jane and Bloor…surprise[s] him</q>; Swansea is no longer <q>a dusty country road</q>; <placeName>Clendenan Hill</placeName> and <placeName>Quebec</placeName> are not <q>the end of the line…to hike to the <placeName>Humber</placeName> for corn roasts</q>
+                                        <note place="inline">
+                                            <bibl>59</bibl>
+                                        </note>. These observations lead Connington to conclude that <q>youngsters won’t have any open land for picnics around the city soon</q>
+                                        <note place="inline">
+                                            <bibl>59</bibl>
+                                        </note>.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1354">
+                    <ref target="#spatiality">
+                        <ref target="#intertextuality">
+                            <ref target="#characterization">
+                                <ref target="#genre_novel">Fifteen years separate the publication of <title level="m">Contend with Horses</title> from the earlier two novels, but Connington’s life leaps ahead a quarter of a century. The sense of shifting space in this text evokes what <persName>Paul Ricoeur</persName> identifies as <q>the idea of different possible traversals following a multitude of itineraries,…a stratified structure assembled like a pile of sheets of paper, [getting] away from the idea of the past so assembled as a simple chronology</q>
+                                    <note place="inline">
+                                        <bibl>208</bibl>
+                                    </note>. <ref target="#religion">With a title borrowed from the answer to Jeremiah’s complaint <note place="inline">
+                                            <bibl>Jeremiah 12.5</bibl>
+                                        </note> about the wicked prospering, the narrative testifies to Connington’s stalwartness. The widowed father of an adult son and daughter, working half-time at his uncle’s Connington Glass Company, and devoted to his unfashionable parish, which is no longer officially affiliated with the United Church, he continues to face the postwar critique <q>about the failure of the Church to appeal to the intellectual</q>
+                                        <note place="inline">
+                                            <bibl>
+                                                <title level="m">Contend with Horses</title> 69</bibl>
+                                        </note>. Called away from a lecture at <placeName>Victoria College chapel</placeName> to the emergency ward at <placeName>St. Joseph’s Hospital</placeName> where he learns of Cecily’s death at the outset, to putting down the telephone after having rejected re-marriage at the close, Connington faces a changed city throughout the novel. As the escort and guest of the widowed Beth at the opening night of <title level="m">King John</title> at the <placeName>Stratford Shakespeare Festival</placeName>, he senses more than <q>the anguish of <persName>Constance</persName> and the fearful innocence of <persName>Arthur</persName>
+                                        </q>
+                                        <note place="inline">
+                                            <bibl>108</bibl>
+                                        </note>; as sports personalities, politicians, arts patrons, and board of trade chairs greet Beth, he realizes <q>how completely the social life of <placeName>Toronto</placeName> had left him behind</q>
+                                        <note place="inline">
+                                            <bibl>106</bibl>
+                                        </note>. References to his reading are more prominent in this novel; he pores over <persName>Charles Hartshorne</persName>’s process theology and finds relief in a crime novel by <persName>Michael Innes</persName> (the pseudonym of Oxford professor <persName>J.I.M. Stewart</persName>). His own book is drubbed in the popular press as <q>a thinly if skilfully camouflaged re-statement of nineteenth-century dogma,</q> though in Connington’s mind <q>his wit too had eluded or exasperated</q>
+                                        <note place="inline">
+                                            <bibl>192</bibl>
+                                        </note>.</ref> Despite vilification and criticism for stormy petrel, his sense of justice and loyalty to principles remains unshaken. When he confronts an attorney who has had a wealthy, childless, and elderly woman—her client for thirty-five years—transferred from her mansion on Park Road to the <placeName>Whitby Institution</placeName> and thus hastened her death, Connington’s tongue can be sharp and his reprimand searing, to the extent that the lawyer herself succumbs to a heart attack minutes after his departure. Significantly, as he meets this lawyer, Beryl Sexsmith, she calls to mind <q>Lewis’s most dreadful creation, Miss Hardcastle, the Fairy of <title level="m">That Hideous Strength</title>
+                                    </q>
+                                    <note place="inline">
+                                        <bibl>209</bibl>
+                                    </note>. <ref target="#violence">The connection between the direct glance of Sexsmith’s opaque blue eyes and Lewis’s sadistic head of police at the <placeName>National Institute for Coordinated Experiments</placeName>—known for her torture of female prisoners—underlines the lawyer’s menace as it reinforces Connington’s resolve: <q>Once this resemblance came home to him, he had no further doubt of the justice, only of the result, of his mission</q>
+                                        <note place="inline">
+                                            <bibl>209</bibl>
+                                        </note>
+                                    </ref>.</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1355">
+                    <ref target="#authorship">
+                        <ref target="#characterization">
+                            <ref target="#theme_or_topic">
+                                <ref target="#genre_novel">Aran Waring, the unmarried high school Latin teacher of <title level="m">In Little Place</title>, is as forceful a personality in her spatial and creedal allegiances as Connington and as much a reflection of their creator. <ref target="#intertextuality">With a protagonist who opts for living <q>fully and excitingly in a fairly circumscribed area</q>
+                                        <note place="inline">
+                                            <bibl>
+                                                <title level="m">In Little Place</title> 214</bibl>
+                                        </note>, <persName>Irwin</persName>’s title, from the prologue to <title level="m">Henry V</title>, praises the imaginary force of the theatre in which a single zero or <q>the wooden O</q>
+                                        <note place="inline">
+                                            <bibl>line 13</bibl>
+                                        </note> of the stage may multiply a number or <q>attest in little place a million</q>
+                                        <note place="inline">
+                                            <bibl>line 16</bibl>
+                                        </note>.</ref>
+                                    <ref target="#spatiality">Her evocation of this little place conveys the synecdochic importance of Waring’s life and decisions, so rooted in and loyal to her family background and milieu, occupying the same house for over fifty years and retracing the route between home and school four times a day, so much at odds with casual affections or liaisons.</ref>
+                                    <ref target="#tone_or_style">
+                                        <ref target="#voice_or_narration">The mirrored glance onto Irwin’s own life is revealing and intentionally refracted at the same time. As Waring’s own narrator, Irwin indulges in self-deprecatory humour about the prospect of Waring’s writing an autobiography <q>when she had two books already written concerning which no publisher had shared her enthusiasm</q>
+                                        </ref>
+                                        <note place="inline">
+                                            <bibl>
+                                                <title level="m">In Little Place</title> 16</bibl>
+                                        </note>.</ref>
+                                    <ref target="#editions">
+                                        <ref target="#language">
+                                            <ref target="#translation">In fact, the first two Connington novels had been successful enough for <orgName>McClelland and Stewart</orgName> to enter into an agreement for a German translation.</ref>
+                                        </ref> Linked to the half-concealed desire to write and be published is Irwin’s explanation to herself and her readers, and through the autobiographical stand-in of Waring, her single, unattached, independent state.</ref> During a <orgName>University of Toronto</orgName> reception at the <placeName>Royal Ontario Museum</placeName>, as guests wander from the Chinese galleries to the refreshment table, forty-five-year-old, self-possessed but <q>manless</q>
+                                    <note place="inline">
+                                        <bibl>10</bibl>
+                                    </note>
+                                    <ref target="#religion">Waring surveys the scene, longing to <q>remove her frozen expression of animation</q> and struggling with <q>her Methodist conscience between what she wanted and what was, she felt, expected of her</q>
+                                    </ref>
+                                    <note place="inline">
+                                        <bibl>8</bibl>
+                                    </note>. Waring acknowledges that she herself is an exhibit, a curiosity, as awkward in this gathering as she would be in a Harlequin romance, yet Irwin ensures that her protagonist’s rational position resonates with a joint conviction: <q>Why did people not realize that an incurable tendency to be guided by the head did not indicate lack of heart; that an instinctive prescience concerning the passing and dissipation of unguided emotion by no means quelled the violence of the emotion itself?</q>
+                                    <note place="inline">
+                                        <bibl>14</bibl>
+                                    </note>.</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1356">
+                    <ref target="#authorship">
+                        <ref target="#tone_or_style">
+                            <ref target="#intertextuality">
+                                <ref target="#genre_novel">
+                                    <ref target="#childhood">With the novel’s mixture of <ref target="#voice_or_narration">first- and third-person narration</ref>, Waring and <persName>Irwin</persName> revisit childhood, positioning individuals within segments of a metropolis changed radically by the <date cert="high" from="1950-01-01" to="1959-12-31">1950s</date>.</ref>
+                                    <ref target="#religion">Irwin’s developed yet exuberant Methodist conscience recreates a past presided over by a revered though melancholic father and a warmly hospitable, necessarily frugal mother.</ref>
+                                    <ref target="#spatiality">Hers was a <placeName>Toronto</placeName> of picnics, hikes, and amusement parks. Whether for Sunday afternoon walks or family picnics, <placeName>High Park</placeName>, <q>Howard’s blessed legacy</q>
+                                        <note place="inline">
+                                            <bibl>
+                                                <title level="m">In Little Place</title> 73</bibl>
+                                        </note>, was a favourite, lore-filled destination. She charts their hiking routes to the <placeName>Humber River</placeName> with cartographic detail, her precision indicating repetition and immense fondness. From her vantage point in contemporary <q>
+                                            <placeName>Metropolitan Toronto</placeName>,</q> Waring recasts <q>a largely motorless Toronto</q> where her mother’s <q>urge for outdoor life</q> and her father’s need to be near the city resulted in memorable and unique family camping experiences: <q>
+                                            <placeName>Ashbridge’s Bay</placeName>, or <placeName>central Rosedale</placeName>, or the top of <placeName>Scarboro Bluffs</placeName> in two outmoded streetcars, purchased as a bargain by my father instead of tents, afforded then more primitive camping life than is now permitted by the effeminacies of existence in <placeName>Muskoka</placeName> or <placeName>Haliburton</placeName>
+                                        </q>
+                                        <note place="inline">
+                                            <bibl>79</bibl>
+                                        </note>.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1357">
+                    <ref target="#authorship">
+                        <ref target="#intertextuality">
+                            <ref target="#genre_novel">
+                                <ref target="#characterization">
+                                    <ref target="#education">Waring’s climactic moment is her tour-de-force performance as a panelist on a Canadian Broadcasting Corporation (<abbr>CBC</abbr>) television talk show, <hi rend="italic">
+                                            <title level="m">Everybody’s Agora</title>
+                                        </hi>, in a live telecast devoted to the superior preparations of contemporary education.</ref> The event supplies another occasion for <persName>Irwin</persName>’s ventriloquizing through Waring, who proves to be as dedicated a reader of <persName>C.S. Lewis</persName> as Connington. After having been <q>transformed by the heavy pancake make-up into a sort of wax-works replica,</q> Waring considers the studio preparation, debating with herself about a sense of belonging and acceptance:</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <q type="block">
+                    <ref target="#intertextuailty">
+                        <ref target="#religion">Another aspect of the phenomenon <persName>C.S. Lewis</persName> had discussed in <title level="m">The Inner Ring</title>! How every group, every profession, had its circle, those who had arrived, those who knew the ropes, those who talked, and in some cases invented, its special language or jargon. And on their own ground at least, they were the priests and priestesses who could admit or exclude the uninitiate. <note place="inline">
+                                <bibl>
+                                    <title level="m">In Little Place</title> 155</bibl>
+                            </note>
+                        </ref>
+                    </ref>
+                </q>
+                <p xml:id="p1358">
+                    <ref target="#education">
+                        <ref target="#theme_or_topic">
+                            <ref target="#genre_novel">Waring proves how well she knows the work of former Massey Commissioner <persName>Hilda Neatby</persName> in her polemical indictment of education, <title level="m">So Little for the Mind</title>, which happened to be a best-selling imprint for <orgName>Clarke, Irwin</orgName>, the publishing firm Irwin’s brother co-founded. Taking up the cudgels for scholarly standards, she advocates education as a privilege, a lowered school-leaving age, competition, memory work, <q>the infinite power of words and their discovery</q>
+                                <note place="inline">
+                                    <bibl>
+                                        <title level="m">In Little Place</title> 164</bibl>
+                                </note>, and students, <q>who are capable of so much more than we are expecting of them by our slackness</q>
+                                <note place="inline">
+                                    <bibl>185</bibl>
+                                </note>. <ref target="#nationality">Though the panelists patronize Waring for <q>her ivory tower of Greek and philosophy—natural enough dwelling for a teacher of dead languages</q>
+                                    <note place="inline">
+                                        <bibl>166</bibl>
+                                    </note>—and for <q>‘pontificat[ing] concerning the upbringing of children, being…the only unmarried person in [the] group</q>
+                                    <note place="inline">
+                                        <bibl>185</bibl>
+                                    </note>, she wins the applause of her teaching colleagues at <orgName>Rivercrest Collegiate</orgName> the next day and declines an offer to teach classics in translation at an American college, declaring that she is <q>Canadian</q> and would consider acceptance to <q>be running away</q>
+                                    <note place="inline">
+                                        <bibl>210, 214</bibl>
+                                    </note>.</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1359">
+                    <ref target="#intertextuality">
+                        <ref target="#spatiality">
+                            <ref target="#genre_novel">While Connington and Waring are fashioned, in fact, indelibly imprinted, by a changing city, <persName>Irwin</persName>’s first though last-published novel, <title level="m">Compensation</title>, deals most explicitly with the contrasts between city and country, metropolis and hinterland. <ref target="#characterization">
+                                    <ref target="#education">Promising student and only surviving child Iris Dale leaves her parents’ home in <date cert="high" from="1920-01-01" to="1929-12-31">1920s</date>
+                                        <placeName>Haliburton</placeName> to complete high school in <placeName>Toronto</placeName>
+                                    </ref>. The <q>unfashionable remoteness</q> of the community she has known, with its <q>intermarriage,</q>
+                                    <q>lack of mental stimulus,</q> and <q>odd-jobbing</q>
+                                    <note place="inline">
+                                        <bibl>
+                                            <title level="m">Compensation</title> 84</bibl>
+                                    </note> is replaced by colours and crowds, the <q>hub-of-the-universe attraction</q> of the old <placeName>Union Station</placeName>, <q>the high vaulted roof, the candy and fruit stalls flanking the arcade, the fat red pillars and carved gallery in the rotundas,</q> and <q>the crowds of people thronging <placeName>Yonge Street</placeName>
+                                    </q>
+                                    <note place="inline">
+                                        <bibl>76</bibl>
+                                    </note>). Stores are closed on Saturday afternoons, but from her aunt’s boarding house Dale can see <q>flags hanging from shop windows on Yonge Street and…hear the clanging rush of passing streetcars</q>
+                                    <note place="inline">
+                                        <bibl>78</bibl>
+                                    </note>. <ref target="#genre_performance">Thanks to the benign paternalism of the Logans, a bourgeois <placeName>Toronto</placeName> family who, much like the Irwins, discovered in Haliburton an ideal location for their summer home, Dale enjoys a <orgName>D’Oyly Carte</orgName> company performance at the <placeName>Royal Alexandra Theatre</placeName> and <placeName>Hart House Theatre</placeName>
+                                        <q>with its magically lighted underground auditorium</q>
+                                        <note place="inline">
+                                            <bibl>100</bibl>
+                                        </note>.</ref> The sudden death of her father, her return to Haliburton, and the proposal of a local <q>unlovely and unheroic male</q>
+                                    <note place="inline">
+                                        <bibl>49</bibl>
+                                    </note> prompt her internal debate about compensation, her attempt to weigh the tough opportunities of the city against the stultified ease of a country life: <q>She was still essentially country-bred….But of what use was all the beauty of a country if, sinking into mental decadence, she should come to accept it casually, unastonished?</q>
+                                    <note place="inline">
+                                        <bibl>191</bibl>
+                                    </note>. Rejecting the local’s offer of marriage, Dale opts to face her future <q>bravely and doubtless find in it some compensations</q>
+                                    <note place="inline">
+                                        <bibl>191</bibl>
+                                    </note>. That she comes back to Toronto to work <q>in the Canadian branch of an English publishing house</q>
+                                    <note place="inline">
+                                        <bibl>262</bibl>
+                                    </note> and accepts the love of a forestry cartographer (yes, a godly <orgName>University of Toronto</orgName> man) braids the best of all Irwin’s worlds: united creedal and intellectual loyalties, in both city location and country retreat.</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1360">
+                    <ref target="#authorship">
+                        <ref target="#spatiality">
+                            <ref target="#class_issue">
+                                <ref target="#race_issue">
+                                    <ref target="#theme_or_topic">
+                                        <ref target="#genre_novel">In considering <persName>Irwin</persName>’s five <placeName>Toronto</placeName> novels, it is easy to itemize what is missing as historical and cultural landmarks: the eruption of <placeName>Yonge Street</placeName> for the subway line, the battles over the first leg of the Gardiner Expressway connecting downtown to the suburbs in the west, the opening of <orgName>York University</orgName>, the growth of racial diversity and visible minority neighbourhoods, the poetry reading scene at the <orgName>Bohemian Embassy</orgName>.</ref> Attitudinally there is little lament about the rise of carefree, conspicuous consumption or the sprawl of subdivisions like the <q>gilt-edged suburban labyrinth</q>
+                                        <note place="inline">
+                                            <bibl>Young 13</bibl>
+                                        </note> from which <persName>Phyllis Brett Young</persName>’s heroine in <title level="m">The Torontonians</title> dreams of escape. For today’s reader many topographical references also highlight what has changed: department stores have disappeared; the <orgName>
+                                            <abbr>CBC</abbr>
+                                        </orgName> has a new gleaming location on <placeName>Front Street West</placeName>; and the <orgName>Royal Ontario Museum</orgName> now literally juts onto <placeName>Bloor Street</placeName>.</ref> What Irwin captures, I suggest, is a Toronto few of her millions of residents would recognize today. <ref target="#religion">The modern consciousness of her Torontonian protagonists has a distinctive theological and apologetic cast. Within the confessional debates and church interiors of her novels there is limited recognition of coeval others.</ref> Communication circuits involve a range of ethical and pedagogical topics. <ref target="#intertextuality">Rather than simply reifying her work as glimpses of a past, it is worth considering how they amplify and thicken our understanding of boom and growth. Moreover, rather than positioning Irwin as the baseline against which to measure the urban consciousness of <persName>Young</persName>, <persName>Gwendolyn MacEwen</persName>, or <persName>Margaret Atwood</persName>, it might be time to adjust and re-apply the criteria of the interplay of diversity and the multiplicity and openness of place to resuscitate awareness of the career of this independent, strong-minded individual of great, unswerving conviction. If interest exists in what <persName>Ricoeur</persName> labelled a horizon of expectations, which <q>tends toward the breaking open of perspectives</q>
+                                        <note place="inline">
+                                            <bibl>209</bibl>
+                                        </note>, then perhaps the understudied hermeneutic architecture of Irwin’s Toronto the Good warrants exploration.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <div type="section">
+                    <head>works cited</head>
+                    <listBibl>
+                        <bibl>Ball, John Clement. <title level="a">Duelling and Dwelling in Toronto and London: Transnational Urbanism in Catherine Bush’s <title level="m">The Rules of Engagement</title>.</title>
+                            <title level="m">Downtown Canada: Writing Canadian Cities.</title> Ed. Justin Edwards and Douglas Ivison. Toronto: University of Toronto Press, 2005. 183–96.</bibl>
+                        <bibl>Clark, C.S. <title level="m">Of Toronto the Good: A Social Study</title>. Montreal: Toronto Publishing Company, 1898.</bibl>
+                        <bibl>Gilbert, Pamela K. <title level="a">Sex and the City: English Studies and the Spatial Turn.</title>
+                            <title level="m">The Spatial Turn: Interdisciplinary Perspectives</title>. Ed. Barney Warf and Santa Arias. New York: Routledge, 2009. 102–21.</bibl>
+                        <bibl>Grosz, Elizabeth. <title level="m">Space, Time, and Perversion: Essays on the Politics of Bodies</title>. New York: Routledge, 1995.</bibl>
+                        <bibl>Irwin, Grace. <title level="m">Andrew Connington</title>. Toronto: McClelland and Stewart, 1954.</bibl>
+                        <bibl>. <title level="m">Compensation</title>. Belleville, ON: Epic Press, 2003.</bibl>
+                        <bibl>. <title level="m">Contend with Horses</title>. Toronto: McClelland and Stewart, 1969.</bibl>
+                        <bibl>. <title level="m">In Little Place</title>. Grand Rapids, MI: W.B. Eerdmans Publishing Company, 1959.</bibl>
+                        <bibl>. <title level="m">Least of All Saints</title>. Toronto: McClelland and Stewart, 1952.</bibl>
+                        <bibl>. <title level="m">The Seventh Earl: A Dramatized Biography</title>. Grand Rapids, MI: William B. Eerdmans Publishing Company, 1976.</bibl>
+                        <bibl>. <title level="m">Three Lives in Mine</title>. Toronto: Irwin Publishing, 1986.</bibl>
+                        <bibl>Massey, Doreen. <title level="m">World City</title>. Cambridge: Polity Press, 2007.</bibl>
+                        <bibl>McCann, Larry D., and Peter J. Smith. <title level="a">Canada Becomes Urban: Cities and Urbanization in Historical Perspective.</title>
+                            <title level="m">Canadian Cities in Transition</title>. Ed. Trudi Bunting and Pierre Filion. Toronto: Oxford University Press, 1991. 59–99.</bibl>
+                        <bibl>Neatby, Hilda. <title level="m">So Little for the Mind: An Indictment of Canadian Education</title>. Toronto: Clarke, Irwin, 1953.</bibl>
+                        <bibl>Ricoeur, Paul. <title level="m">Time and Narrative</title>. Vol. 3. Trans. Kathleen Blamey and David Pellauer. Chicago: University of Chicago Press, 1985.</bibl>
+                        <bibl>Sassen, Saskia. <title level="m">Cities in a World Economy</title>. 3rd ed. Thousand Oaks, CA: Pine Forge Press, Sage Publications, 2006.</bibl>
+                        <bibl>Shakespeare, William. <title level="m">Henry V</title>. Ed. David Bevington. 6th ed. New York: Pearson Longman, 2009.</bibl>
+                        <bibl>Smith, Michael Peter. <title level="m">Transnational Urbanism: Locating Globalization</title>. Malden, MA: Blackwell, 2001.</bibl>
+                        <bibl>Squier, Susan Merrill, ed. Introduction. <title level="m">Women Writers and the City: Essays in Feminist Literary Criticism</title>. Knoxville: University of Tennessee Press, 1984. 3–10.</bibl>
+                        <bibl>Watt, F.W. <title level="a">Fiction.</title>
+                            <title level="j">University of Toronto Quarterly</title> 30.4 (1960–61): 401–16.</bibl>
+                        <bibl>Williams, Raymond. <title level="m">The Country and the City</title>. London: Chatto and Windus, 1973.</bibl>
+                        <bibl>Wilson, Elizabeth. <title level="m">The Sphinx in the City: Urban Life, the Control of Disorder, and Women</title>. London: Virago Press, 1991.</bibl>
+                        <bibl>Young, Phyllis Brett. <title level="m">The Torontonians</title>. Intro. by Nathalie Cooke and Suzanne Morton. Montreal and Kingston: McGill-Queen’s University Press, 2007.</bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

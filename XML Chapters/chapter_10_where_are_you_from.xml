@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>-->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Where are you from?</title>
+                <title level="m" type="main" xml:lang="en-CA">Cultural Mapping and the Digital Sphere</title>
+                <title level="m" type="sub" xml:lang="en-CA">Place and Space</title>
+                <author>Kathleen Kellett</author>
+                <editor role="editor">
+                    <forename>Ruth</forename>
+                    <surname>Panofsky</surname>
+                </editor>
+                <editor role="editor">
+                    <forename>Kathleen</forename>
+                    <surname>Kellett</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <forename>Ilovan</forename>
+                    </name>
+                </respStmt>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor>
+                    <orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Dynamic Table of Contexts editors: </resp>
+                    <name>
+                        <forename>Ruth</forename>
+                        <surname>Panofsky</surname>
+                    </name>
+                    <name>
+                        <forename>Kathleen</forename>
+                        <surname>Kellett</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Principal: </resp>
+                    <name>
+                        <forename>Susan</forename>
+                        <surname>Brown</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <surname>Ilovan</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copyediting and proofreading: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Olivier</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexing:</resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name>
+                        <forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Cover design: </resp>
+                    <name role="book_designer">
+                        <forename>Virginia</forename>
+                        <surname>Penny</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface design lead: </resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead: </resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>Mary Lou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer:</resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by: </resp>
+                    <name role="markup_editor">
+                        <forename>Kristine</forename>
+                        <surname>Abramoff</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Anita</forename>
+                        <surname>Cutic</surname>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address>
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address>
+                        <addrLine>www.cwrc.ca</addrLine>
+                    </address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1- 55195-365- 6</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Individual chapter extract from: Cultural Mapping and the Digital Sphere: Place and Space, ed. Ruth Panofsky &amp; Kathleen Kellett (Edmonton: University of Alberta Press, 2015 / DToC ed. 2016).</p>
+                <ab type="host-volume">
+                    <listBibl>
+                        <bibl>
+                            <title level="a" type="main">Foreword</title>
+                            <author>
+                                <forename>Susan</forename>
+                                <surname>Brown</surname>
+                            </author> &amp; <author>
+                                <forename>Mary-Jo</forename>
+                                <surname>Romaniuk</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Preface</title>
+                            <author>
+                                <forename>Ruth</forename>
+                                <surname>Panofsky</surname>
+                            </author> &amp; <author>
+                                <forename>Kathleen</forename>
+                                <surname>Kellett</surname>
+                            </author>
+                        </bibl>
+                        <listBibl>
+                            <head>Part I. Place and the Digital Frontier</head>
+                            <bibl>
+                                <title level="a" type="maiin">Mapping Tags and Tagging Maps</title>
+                                <title type="sub">Leveraging Spatial Markup for Literary History</title>
+                                <author>
+                                    <forename>Susan</forename>
+                                    <surname>Brown</surname>
+                                </author>, <author>
+                                    <forename>Isobel</forename>
+                                    <surname>Grundy</surname>
+                                </author>, <author>
+                                    <forename>Mariana</forename>
+                                    <surname>Paredes-Olea</surname>
+                                </author>, <author>
+                                    <forename>Jeffery</forename>
+                                    <surname>Antoniuk</surname>
+                                </author> &amp; <author>
+                                    <forename>Breanna</forename>
+                                    <surname>Mroczek</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Modeling Collaboration in Digital Humanities Scholarship</title>
+                                <title type="sub">Foundational Concepts of an EMiC UA Project Charter</title>
+                                <author>
+                                    <forename>Paul</forename>
+                                    <surname>Hjartarson</surname>
+                                </author>, <author>
+                                    <forename>Harvey</forename>
+                                    <surname>Quamen</surname>
+                                </author>, <author>
+                                    <forename>Andrea</forename>
+                                    <surname>Hasenbank</surname>
+                                </author>, <author>
+                                    <forename>Vanessa</forename>
+                                    <surname>Lent</surname>
+                                </author> &amp; <author>
+                                    <orgName> EMiC UA</orgName>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">An Interactive, Materialist-Semiotic Archive</title>
+                                <title type="sub">Visualizing the Canadian Theatrical Canon in the Simulated Environment for Theatre</title>
+                                <author>
+                                    <forename>Sasha</forename>
+                                    <surname>Kovacs</surname>
+                                </author> and <author>
+                                    <forename>Jennifer</forename>
+                                    <surname>Roberts-Smith</surname>
+                                </author>, <author>
+                                    <forename>Theresa M.</forename>
+                                    <surname>Dobson</surname>
+                                </author>, <author>
+                                    <forename>Sandra</forename>
+                                    <surname>Gabriele</surname>
+                                </author>, <author>
+                                    <forename>Omar</forename>
+                                    <surname>Rodrigues-Arenas</surname>
+                                </author>, <author>
+                                    <forename>Stan</forename>
+                                    <surname>Ruecker</surname>
+                                </author>, <author>
+                                    <forename>Stéfan</forename>
+                                    <surname>Sinclair</surname>
+                                </author>, <author>
+                                    <forename>Shawn</forename>
+                                    <surname>DeSouza-Coelho</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">"Talk to the Work"</title>
+                                <title type="sub">Applying istc Identifiers to the Digital Edition of the Canadian Bookman (1909–1941)</title>
+                                <author>
+                                    <forename>Ravit H.</forename>
+                                    <surname>David</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">How to Play with Maps</title>
+                                <author>
+                                    <forename>Bethany</forename>
+                                    <surname>Nowviskie</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Edmonton Pipelines</title>
+                                <title type="sub">Living and Playing in the Digital City </title>
+                                <author>
+                                    <forename>Heather</forename>
+                                    <surname>Zwicker</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Representing Canadian Queer Authorship</title>
+                                <title type="sub">Making the Internet a Women’s Place</title>
+                                <author>
+                                    <forename>Michelle</forename>
+                                    <surname>Schwartz</surname>
+                                </author> &amp; <author>
+                                    <forename>Constance</forename>
+                                    <surname>Crompton</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Part II. Writers and Readers: Mapping Textual Space</head>
+                            <bibl>
+                                <title level="a" type="main">Salomania</title>
+                                <title type="sub">Maud Allan, Postcards, and Early Twentieth-Century “Viral” Circulation</title>
+                                <author>
+                                    <forename>Cecily</forename>
+                                    <surname>Devereux</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Toronto the Good in the Fiction and Life of Grace Irwin</title>
+                                <author>
+                                    <forename>Patricia</forename>
+                                    <surname>Demers</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">« Where are you froM? »</title>
+                                <title type="sub" xml:lang="fr-CA">La ville et l’écriture migrante dans l’autofiction de Marguerite Andersen</title>
+                                <author>
+                                    <forename>Kathleen</forename>
+                                    <surname>Kellett</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Languages as Spaces, Translation as Play</title>
+                                <title type="sub">Moving (through) Languages</title>
+                                <author>
+                                    <forename>Lori</forename>
+                                    <surname>Saint-Martin</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">L'espace ensorcelé</title>
+                                <title type="sub">Les enfants du sabbat d’Anne Hébert</title>
+                                <author>
+                                    <forename>Stéphanie</forename>
+                                    <surname>Walsh Matthews</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick and Kim Thúy</title>
+                                <author>
+                                    <forename>Mireille</forename>
+                                    <surname>MaiTruong</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Standing on a Rainbow</title>
+                                <title type="sub">Reading in Place, Position, and Time</title>
+                                <author>
+                                    <forename>Margaret</forename>
+                                    <surname>Mackey</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <bibl>
+                            <title type="main" xml:lang="en-CA">Contributors</title> / <title type="main" xml:lang="fr-CA">Collaborateurs</title>
+                        </bibl>
+                    </listBibl>
+                </ab>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p />
+            </projectDesc>
+            <classDecl>
+                <taxonomy>
+                    <desc>Semantic tags employed in this book can be reviewed at <ref target="http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml">http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml</ref>
+                    </desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-CA">English</language>
+                <language ident="fr-CA">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline />
+                <item />
+                <index>
+                    <term />
+                </index>
+                <byline />
+                <index>
+                    <term />
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:lang="fr-CA">
+                <head>
+                    <title level="a" xml:lang="en-CA">
+                        <q>Where are you from?</q>
+                    </title>
+                </head>
+                <byline>La ville et l’écriture migrante dans l’autofiction de Marguerite Andersen</byline>
+                <docAuthor> Kathleen Kellett</docAuthor>
+                <p xml:id="p1361">
+                    <ref target="#genre_lifeWriting">
+                        <ref target="#characterization">Dans <title level="m">Le figuier sur le toit</title>, la narratrice, une vieille dame du nom de Marguerite, est incitée à la veille de ses quatre-vingt-quatre ans à se remémorer les détails de sa vie, aiguillonnée par cette question désobligeante que <ref target="#nationality">les Canadiens anglais</ref> tiennent à poser aux immigrants dès qu’ils décèlent les moindres traces d’accent</ref> : <q xml:lang="en-CA">
+                            <hi rend="italic">Where are you from?</hi>
+                        </q>
+                        <note place="inline">
+                            <bibl>29</bibl>
+                        </note>. <ref target="#history">
+                            <ref target="#violence">
+                                <ref target="#nationality">
+                                    <ref target="#race_and_ethnicity">La question la plonge dans les souvenirs de son enfance à Berlin d’avant et d’après l’arrivée au pouvoir du régime nazi qui entraîne la persécution puis le génocide des Juifs ainsi que l’exécution des homosexuels, des malades mentaux, des Roms et des infirmes</ref>
+                                </ref>
+                            </ref>. <ref target="#theme_or_topic">
+                                <ref target="#spatiality">
+                                    <ref target="#childhood">La recherche mémorielle du paradis perdu, celui de l’espace-temps de l’enfance berlinoise innocente, est une thématique qui traverse l’ensemble de l’œuvre autofictionnelle d’Andersen : le profond sentiment de culpabilité d’avoir vécu sous le régime nazi obsède Marguerite tout au long de sa vie, la poursuivant de Berlin à Toronto</ref>
+                                </ref>
+                            </ref>
+                        </ref>.</ref>
+                </p>
+                <p xml:id="p1362">
+                    <ref target="#authorship">
+                        <ref target="#intellectual_history">Née en 1924, auteure et éditrice <ref target="#nationality">franco-ontarienne</ref>, Marguerite Andersen est venue à l’écriture de fiction à l’âge de cinquante-trois ans, mariant cette nouvelle carrière à celle de professeure de littérature française.</ref>
+                        <ref target="#recognitions">Elle fait son entrée sur la scène littéraire en 1982 avec <ref target="#genre_lifeWriting">
+                                <title level="m">De mémoire de femme</title>, <q>récit en partie autobiographique</q>
+                            </ref> pour lequel elle reçoit le Prix du Journal de Montréal. Grande admiratrice de Simone de Beauvoir et de ses œuvres autobiographiques, Andersen récidive en littérature intime avec <ref target="#genre_poetry">la prose poétique <title level="m">Bleu sur blanc</title>
+                            </ref> en 2000, avec <ref target="#genre_fiction">la fiction documentaire <title level="m">Parallèles</title>
+                            </ref> en 2004 et avec <ref target="#genre_fiction">le roman <title level="m">Le figuier sur le toit</title>
+                            </ref>, pour lequel elle reçoit le Prix Trillium en 2008</ref>. <ref target="#genre_lifeWriting">Dans l’avant-propos de <title level="m">La vie devant elles</title>, paru en 2011, Andersen se présente comme <q>écrivaine à tendance autofictionnelle</q> mais précise que, dans cet ouvrage, elle construit plutôt <q>trois récits biofictionnels</q> à partir de la vie de ses six petites-filles <note place="inline">
+                                <bibl>7</bibl>
+                            </note>. Dans ces autofictions, le <q>pacte autobiographique</q>
+                            <note place="inline">
+                                <bibl>Lejeune</bibl>
+                            </note> est scellé par le nom propre — parfois, il est vrai, de façon indirecte. Ainsi, dans <title level="m">Bleu sur blanc</title>, <title level="m">Parallèles</title>, <title level="m">Le figuier sur le toit</title> et <title level="m">La vie devant elles</title>, la protagoniste s’appelle Marguerite; <ref target="#intertextuality">dans <title level="m">De mémoire de femme</title>, comme le remarque Lucie Hotte, le nom d’Anne Grimm établit de façon ludique un lien entre les frères allemands, conteurs renommés, et l’auteur danois Hans Christian Andersen, qui porte le même nom que l’écrivaine <note place="inline">
+                                    <bibl>Hotte 11</bibl>
+                                </note>
+                            </ref>. <ref target="#theme_or_topic">
+                                <ref target="#tone_or_style">Tous ces romans retravaillent le passé historique comme le passé personnel de l’auteure, évoquant sous des perspectives diverses la vie mouvementée d’Andersen sur trois continents</ref>
+                            </ref>
+                            <note xml:id="n86" place="end">
+                                <ref target="#intertextuality">
+                                    <ref target="#theory">
+                                        <ref target="#genre_lifeWriting">À partir de ces autofictions, Andersen crée ce que Régine Robin appelle un <q>roman mémoriel</q> : <q>Nous parlerons analogiquement de roman mémoriel par lequel un individu, un groupe ou une société pense son passé en le modifiant, le déplaçant, le déformant, s’inventant des souvenirs, un passé glorieux, des ancêtres, des filiations, des généalogies, ou, au contraire, luttant pour l’exactitude factuelle, pour la restitution de l’événement ou sa résurrection</q>
+                                            <note place="inline">
+                                                <bibl>Robin, 48</bibl>
+                                            </note>
+                                        </ref>
+                                    </ref>
+                                </ref>.</note> : <ref target="#spatiality">elle fuit Berlin en 1945 pour s’installer successivement à Londres, à Tunis, à Montréal, à Addis-Abeba et enfin à Toronto, au gré de ses amours et de sa carrière universitaire</ref>.</ref>
+                    </ref>
+                </p>
+                <p xml:id="p1363">
+                    <ref target="#spatiality">Chaque ville représente une nouvelle étape dans sa vie. Berlin, ville qui inspire culpabilité et honte à Andersen, est également le lieu privilégié de son père, Theodor Werner Bohner, <ref target="#religion">fils d’un missionnaire luthérien</ref>, ancien député au <hi rend="italic" xml:lang="de-DE">Landtag</hi>, romancier, biographe et essayiste, qui constitue à la fois un rival et une source d’inspiration. <ref target="#nationality">Londres est le lieu d’une évasion désespérée à la fin de la guerre pour sa famille, qui possède des passeports britanniques grâce à la naissance du père au Ghana. Marguerite perd sa citoyenneté allemande en se mariant à un soldat français qu’elle accompagne à Tunis : <q>J’avais rencontré un Français, jeune officier, j’allais l’épouser… L’amour? Au fond, je m’échappais, personne déplacée parmi tant d’autres</q>
+                            <note place="inline">
+                                <bibl>
+                                    <title level="m">Bleu sur blanc</title> 17</bibl>
+                            </note>.</ref> Divorcée, elle s’évade à Montréal, où elle poursuit une carrière universitaire exigeante et mène une vie privée déchirante. Paris, ville-lumière et lieu de congé sabbatique, lui offre brièvement le temps et le loisir pour la création littéraire. C’est pourtant Toronto qu’Andersen présente comme le lieu privilégié non seulement de l’écriture mais aussi de la convivialité d’une communauté artistique, ville où elle participe au débuts de la Société des écrivain(e)s de Toronto ainsi que de l’Association des auteures et des auteurs de l’Ontario français. <ref target="#childhood">De Berlin à Toronto, Andersen entreprend la quête difficile de se réconcilier avec une enfance vécue sous le régime nazi ainsi qu’avec le père écrivain et le paradis perdu de l’enfance, représenté dans l’œuvre comme le triangle sacré <hi rend="italic" xml:lang="de-DE">Vater, Mutter, Kind</hi> (père, mère, enfant).</ref>
+                    </ref>
+                </p>
+                <div type="section">
+                    <head>Une enfance berlinoise : l’enfant et le père écrivain</head>
+                    <p xml:id="p1364">
+                        <ref target="#spatiality">
+                            <ref target="#childhood">Bien qu’Andersen soit née à Magdebourg, petite ville proche de Berlin, c’est Berlin, où elle emménage avec sa famille à l’âge de quatre ans, qui incarne surtout le lieu de son enfance</ref>. D’ailleurs, dans <title level="m">Parallèles</title>, la narratrice a Berlin comme lieu de naissance <note place="inline">
+                                <bibl>19</bibl>
+                            </note>. Ses parents y côtoient des intellectuels, des artistes et des scientifiques. On pourrait même dire qu’elle vient au monde par l’intermédiaire de l’écriture de son père, Theo, lui-même auteur à tendance autofictionnelle. <ref target="#genre_fiction">Celui-ci raconte la naissance de sa fille dans son roman <title level="m" xml:lang="de-DE">Das Licht und sein Schatten</title> (<title level="m">La lumière et son ombre</title>) publié en 1937</ref>
+                            <note xml:id="n87" place="end">Pour satisfaire aux exigences de ce que Robin appelle la mémoire savante, Andersen inclut en annexe dans <title level="m">Le figuier sur le toit</title> la bibliographie des œuvres de son père.</note>. <ref target="#genre_lifeWriting">Que la protagoniste et sa sœur Emma s’identifient toutes deux à ce nouveau-né souligne le caractère équivoque de l’écriture autofictionnelle</ref>
+                            <note place="inline">
+                                <bibl>
+                                    <title level="m">Mémoire</title> 40</bibl>
+                            </note>. <ref target="#intertextuality">Le titre du roman est tiré d’un proverbe japonais : <q>La femme est l’ombre / L’homme est la lumière. / Une femme a beaucoup de malheur / Un homme a beaucoup de bonheur</q>
+                            </ref>
+                            <note place="inline">
+                                <bibl>
+                                    <title level="m">Mémoire</title> 43</bibl>
+                            </note>. <ref target="#intertextuality">
+                                <ref target="#gender_issue">Dans la version du père, la mère est déçue d’avoir eu une fille plutôt qu’un garçon, implorant le père de regarder de plus près pour bien vérifier le sexe de l’enfant, alors que le père n’en est pas trop inquiet, semble-t-il. Cette scène cruciale, Andersen la reprend dans plus d’une version <q>revue et corrigée par l’intéressée</q>
+                                    <note place="inline">
+                                        <bibl>
+                                            <title level="m">Mémoire</title> 41</bibl>; voir aussi <note place="inline">
+                                            <bibl>
+                                                <title level="m">Parallèles</title> 40-41</bibl>
+                                        </note>
+                                    </note>
+                                </ref>. Dans l’une de ces versions, racontée du point de vue de la mère, Martha, c’est plutôt le père qui aurait voulu avoir un fils : <q>Qui avait été déçu par la naissance de leur troisième fille? Qui, au fond, avait peur des femmes?</q>
+                                <note place="inline">
+                                    <bibl>
+                                        <title level="m">Mémoire</title> 100</bibl>
+                                </note>
+                            </ref>. <ref target="#voice_or_narration">Au moyen de la réécriture, l’écrivaine affronte son père, à la fois modèle, source d’émulation et rival. <ref target="#spatiality">À partir du récit paternel, qui repose sur une perspective essentialiste de l’homme et de la femme, elle construit un récit du premier jardin, du paradis réconfortant à l’intérieur de la cellule familiale, espèce de fusion pré-œdipienne à trois : <q>Dans la douleur, dans le sang, dans l’euphorie de la vie nouvelle, il y a entre nous trois quelques instants d’une intimité parfaite. Mon père, ma mère et moi. <hi rend="italic" xml:lang="de-DE">Vater, Mutter, Kind</hi>. Voilà mon début, mon origine, mon éden</q>
+                                    <note place="inline">
+                                        <bibl>
+                                            <title level="m">Mémoire</title> 42</bibl>
+                                    </note>
+                                </ref>. <ref target="#spatiality">Ce paradis fantasmé est celui du bonheur enfantin et innocent, qui ignore les conflits et les infidélités des parents dans la vie mondaine de Berlin. Lorsque le père exige de la mère la vente de la maison d’été de Ahrensoop, territoire du grand-père et du beau-frère <ref target="#violence">antisémites</ref>, Marguerite se sent expulsée du paradis : <q>Il fallait que quelqu’un me chasse de mon paradis, Theo, le dieu de mon enfance, était prédestiné à ce rôle rien que par son nom</q>
+                                    <note place="inline">
+                                        <bibl>
+                                            <title level="m">Figuier</title> 105</bibl>
+                                    </note>
+                                </ref>. <ref target="#history">L’impact du régime nazi et de la guerre fera plus tard de la figure paternelle un dieu déchu</ref>.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1365">
+                        <ref target="#spatiality">
+                            <ref target="#history">
+                                <ref target="#childhood">La perte de l’innocence enfantine fait écho à la destruction de la société berlinoise des années 1920, celle d’avant le régime hitlérien, celle d’une métropole culturelle et intellectuelle qui ne connaît pas encore le feu du Reichstag ni celui de la <hi rend="italic" xml:lang="de-DE">Kristallnacht</hi> (Nuit de cristal), ne connaît pas non plus la brutalité du nazisme, bien que les germes de l’antisémitisme y soient déjà bien enracinés.</ref>
+                                <ref target="#education">
+                                    <ref target="#intellectual_history">
+                                        <ref target="#religion">C’est à Berlin que le grand-père maternel, Reinhold Seeberg, recteur de la <hi xml:lang="de-DE">Freidrich-Wilhelms-Universität</hi>, enseigne et rédige des livres de théologie qui font encore autorité dans ce domaine</ref>
+                                    </ref>
+                                </ref>. Il est également l’auteur du <title level="m" xml:lang="de-DE">Seeberg-Adresse</title>, <q>document de nature pangermaniste et militariste</q> signé en 1915 par 1 347 intellectuels berlinois, dont 352 professeurs d’université <note place="inline">
+                                    <bibl>
+                                        <title level="m">Figuier</title> 142</bibl>
+                                </note>. Même s’il refuse de signer le document de son beau-père, Theodor Bohner, professeur lui-même, n’endosse pas non plus le contre-manifeste signé entre autres par Max Planck et Albert Einstein <note place="inline">
+                                    <bibl>
+                                        <title level="m">Figuier</title> 142</bibl>
+                                </note>. En 1928, lorsque Theodor Bohner, qui a reçu une promotion au ministère de l’Éducation, s’installe à Berlin avec sa famille, il s’agit d’une <q>ville de quatre millions d’habitants, dont <ref target="#nationality">170 000 Juifs, et 50 000 Russes</ref> parmi 150 000 étrangers, ville en compétition intellectuelle et artistique avec Paris</q>
+                                <note place="inline">
+                                    <bibl>
+                                        <title level="m">Figuier</title> 154</bibl>
+                                </note>
+                            </ref>. <ref target="#childhood">La fin abrupte de l’innocence est soulignée par le récit d’une excursion spéciale au cours duquel son père emmène Marguerite au Reichstag, où elle rencontre certaines relations de son père, dont <q>un M. Einstein ayant décidément besoin de se faire couper les cheveux</q>
+                                <note place="inline">
+                                    <bibl>
+                                        <title level="m">Figuier</title> 73</bibl>
+                                </note>. <ref target="#intellectual_history">Son père lui fait remarquer la beauté du style Haute Renaissance italienne du bâtiment créé par l’architecte célèbre M. Wallot : <q>Peu importe d’ailleurs, bientôt le Reichstag sera détruit par les flammes</q>
+                                    <note place="inline">
+                                        <bibl>
+                                            <title level="m">Figuier</title> 75</bibl>
+                                    </note>
+                                </ref>.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1366">C’est à Berlin que son père, Theo, qui s’oppose à Hitler et aux idées antisémites de son propre beau-père, est démis de ses fonctions et passe la guerre, avec sa femme et ses trois filles, ayant dû quitter leur logement opulent du centre-ville pour un quartier beaucoup plus modeste de la périphérie. <ref target="#economics">Pour subvenir aux besoins de sa famille, Theo vit de sa plume en composant des romans, des biographies et des études de légendes, tout en craignant d’être frappé du <hi rend="italic" xml:lang="de-DE">Schreibverbot</hi>
+                            <note place="inline">
+                                <bibl>
+                                    <title level="m">Figuier</title> 197</bibl>
+                            </note>, l’interdiction d’écrire : <q>Exclu de toute vie publique, Theo vit une émigration intérieure</q>
+                            <note place="inline">
+                                <bibl>
+                                    <title level="m">Figuier</title> 197</bibl>
+                            </note>
+                        </ref>. <ref target="#education">
+                            <ref target="#history">
+                                <ref target="#childhood">Étudiante à Berlin, la narratrice est obligée de se joindre au mouvement de jeunesse hitlérienne pour pouvoir continuer d’aller au lycée. L’enseignement pro-nazi est contesté par la famille Bohner</ref> : <ref target="#intertextuality">
+                                    <ref target="#genre_lifeWriting">dans une scène racontée dans <title level="m">Parallèles</title> ainsi que dans <title level="m">Le figuier sur le toit</title>, la mère s’emporte contre Marguerite, la giflant lorsque celle-ci arrive à la maison avec un drapeau portant la croix gammée. La jeune fille n’est pas à l’abri de la propagande hitlérienne, qui lui inspire un roman familial reposant sur le récit édénique du <hi rend="italic" xml:lang="de-DE">Vater, Mutter, Kind,</hi> mais revu : <q>Marguerite rêvait parfois, le soir, dans son lit, que le <hi rend="italic" xml:lang="de-DE">Führer</hi> était son vrai père… Que Theo n’était rien en comparaison de cet homme important, le plus important du pays</q>
+                                        <note place="inline">
+                                            <bibl>
+                                                <title level="m">Figuier</title> 219</bibl>
+                                        </note>
+                                    </ref>
+                                </ref>.</ref> Vers la fin de la guerre, alors que les autres membres de la famille s’enfuient en Autriche, le père reste à Berlin pour soutenir ses amis, qui planifient l’attentat manqué contre Hitler du 20 juillet 1944, et parmi eux Julius Leber. Ce Berlin de l’époque de la guerre ne suscite que de la culpabilité, ce que la narratrice exprime ainsi dans <title level="m">Parallèles</title> :</ref>
+                    </p>
+                    <q type="block">
+                        <ref target="#history">
+                            <ref target="#violence">La mère arrêtée brièvement, en 1942, pour avoir écouté Radio-Londres. Une nuit au poste, puis relâchée moyennant la somme de 500 marks. Le père démis de ses fonctions en 1933, mais jamais vraiment poursuivi. Son ami Julius Leber pendu à Plotzensee. Lui, un rouage trop insignifiant dans le mouvement, même pas arrêté. <note place="inline">
+                                    <bibl>218</bibl>
+                                </note>
+                            </ref>
+                        </ref>
+                    </q>
+                    <p xml:id="p1367">
+                        <ref target="#nationality">Après la guerre, pour s’évader d’un pays en ruines, la narratrice se marie à un officier français, originaire de Tunis, qui lui donne deux fils et l’emprisonne dans un mariage malheureux et oppressif</ref>. Dans <title level="m">Parallèles</title>, la narratrice confie au lecteur ce sentiment de honte qui motive sa fuite de la langue et de la culture allemandes : <q>je me suis jetée dans un autre milieu, une autre langue. Ai caché mes origines. Pour ne pas être accusée des horreurs commises. Et sans y avoir participé, je m’en sens coupable, encore et toujours</q>
+                        <note place="inline">
+                            <bibl>220</bibl>
+                        </note>. <ref target="#spatiality">Berlin reste donc un espace narratif marqué par l’ambivalence : l’écriture du père est symbole de la richesse culturelle du Berlin d’antan, mais aussi symbole d’impuissance, pauvre substitut de l’action héroïque. Pour retrouver le bonheur fantasmé de la cellule familiale, la narratrice entretiendra des liaisons amoureuses condamnées à lui apporter de l’angoisse</ref>.</p>
+                </div>
+                <div type="section">
+                    <head>Tunis, un paysage de beauté, de pauvreté et de douleur</head>
+                    <p xml:id="p1368">
+                        <ref target="#spatiality">Entre Berlin et Toronto, entre ces deux espaces urbains et leurs institutions littéraires, cinq villes figurent comme espaces intermédiaires : Londres, Tunis, Montréal, Addis-Abeba et Paris. Ville réelle mais aussi espace-temps construit par l’auteure, Tunis apparaît sous deux jours différents. <ref target="#intertextuality">
+                                <ref target="#genre_poetry">Dans <title level="m">Bleu sur blanc</title>, où Marguerite choisit de ne pas parler <q>des amours floués</q>
+                                    <note place="inline">
+                                        <bibl>7</bibl>
+                                    </note>, <q>Tunis la Blanche</q> est un oasis de beauté après le déchirement d’une jeunesse vécue sous la guerre : <q>Nous tous / chassés / au loin / exilés / parfois un coup d’œil rapide sur les / paradis perdus / l’enfance / puis la Tunisie / paradis terrestre / clair et simple / bleu sur blanc</q>
+                                    <note place="inline">
+                                        <bibl>9</bibl>
+                                    </note>
+                                </ref>. <ref target="#genre_lifeWriting">Dans <title level="m">De mémoire de femme</title> et <title level="m">Le figuier sur le toit</title>, par contre, <ref target="#tone_or_style">le discours mémoriel dresse un portrait plus sombre de cette ville</ref>. Soumise au contrôle de son mari franco-tunisien et de sa mère, qui détestent les Allemands, désignés de l’épithète méprisant de <q>boches</q>, la narratrice est plongée dans <ref target="#economics">un monde de pauvreté</ref> :</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <q type="block">
+                        <ref target="genre_lifeWriting">Tout ce que je voyais de la fenêtre de ma chambre, c’était le quartier des ouvriers italiens, de petites maisons misérables qu’on n’avait pas repeintes depuis le début de la guerre. Et c’est resté ainsi dans ma mémoire, telle une banale photo. Encore aujourd’hui, c’est toujours cette image qui me vient à l’esprit quand je me mets à penser à Tunis.</ref>
+                        <note place="inline">
+                            <bibl>
+                                <title level="m">Figuier</title> 127</bibl>
+                        </note>
+                    </q>
+                    <p xml:id="p1369">
+                        <ref target="#genre_lifeWriting">
+                            <ref target="#economics">
+                                <title level="m">De mémoire de femme</title> met en relief les dimensions scatologiques de cette pauvreté : tous les jours, la narratrice se plaint de devoir nettoyer la fosse d’aisance afin d’éviter les débordements : <q>fossoyeuse d’excréments, voilà ma pauvreté</q>
+                                <note place="inline">
+                                    <bibl>269</bibl>
+                                </note>. <ref target="#intertextuality">La protagoniste reconnaît volontiers la beauté du paysage, en citant Albert Camus, le grand écrivain d’Oran : <q>Cependant, et Camus le dit bien, il est plus facile, ou bien moins terrible, d’être pauvre en Afrique du Nord que de l’être ailleurs</q>
+                                </ref>
+                            </ref>
+                        </ref>
+                        <note place="inline">
+                            <bibl>269</bibl>
+                        </note>. <ref target="#motif">L’image récurrente, loin d’être poétique, est celle des tripes qu’elle achète bon marché et qu’elle doit laver à longueur de journée pour en faire quelque chose de mangeable : <q>Fallait-il avoir faim!</q>
+                        </ref>
+                        <note place="inline">
+                            <bibl>
+                                <title level="m">Mémoire</title> 189</bibl>
+                        </note>, comme le dit son fils! <ref target="#nationality">
+                            <ref target="#genre_lifeWriting">Cette tentative de s’évader de son passé allemand aboutit à un échec. <ref target="#voice_or_narration">
+                                    <ref target="#language">La narratrice autodiégétique</ref> doit partir en abandonnant pour un temps ses deux fils, qui sont obligés par la famille franco-tunisienne à renier leur langue natale et leurs origines pour devenir résolument français</ref>
+                            </ref>. Elle regrette d’avoir choisi le mariage plutôt que le sort de mère célibataire : <q>je payais cher mon erreur d’épouser Pierre au lieu de trouver le courage d’élever seule mon enfant, quitte à le priver de son père, à violer finalement l’image sacrée de <hi rend="italic" xml:lang="de-DE">Vater, Mutter, Kind</hi>
+                            </q>
+                            <note place="inline">
+                                <bibl>
+                                    <title level="m">Mémoire</title> 270</bibl>
+                            </note>. Le père, lui-même <q>personne déplacée</q>
+                            <note place="inline">
+                                <bibl>
+                                    <title level="m">Bleu sur blanc</title> 75</bibl>
+                            </note> après l’indépendance de la Tunisie en 1955, relâche son emprise sur ses fils, qui passent un certain temps à Berlin avec leur famille allemande. L’émigration à Montréal fournit à Marguerite l’occasion de refaire sa vie, même si elle doit se contenter pour un temps de laisser l’un de ses fils avec son père.</ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Montréal, espace urbain dysphorique</head>
+                    <p xml:id="p1370">
+                        <ref target="#genre_lifeWriting">
+                            <ref target="#spatiality">Dans l’ensemble de l’œuvre autofictionnelle, Montréal, où Marguerite s’installe en 1958, se présente comme un endroit excessivement pieux et nationaliste. <ref target="#theory">La scène de <q>l’arrivée en ville</q>, l’intrusion potentiellement subversive de l’étranger dans l’espace urbain dont parle Simon Harel dans <title level="m">Le Voleur de parcours</title>
+                                    <note place="inline">
+                                        <bibl>43</bibl>
+                                    </note>, coïncide avec l’arrivée au Canada</ref>
+                            </ref>. <ref target="#politics">Dans <title level="m">Parallèles</title>, Marguerite, <ref target="voice_or_narration">la narratrice autodiégétique</ref>, est agressée verbalement par un officier, qui la traite de <q>voleuse de job</q> car elle est embauchée comme professeur par la Commission des écoles protestantes de Montréal alors que sa sœur à lui, enseignante également, mais francophone, n’a pas accès aux postes du conseil scolaire protestant : <q>
+                                    <q>
+                                        <ref target="#gender_issue">Nous n’avons pas besoin de professeurs au Canada, nous avons besoin de femmes de ménage</ref>
+                                    </q>, me lance-t-il</q>
+                                <note place="inline">
+                                    <bibl>151</bibl>
+                                </note>. Cet accès de nationalisme étroit n’est pas de bon augure pour la nouvelle arrivante</ref>. <ref target="#education">Lorsqu’elle commence ses études à l’Université de Montréal, <ref target="#religion">elle est ébahie par la vision du professeur qui se met à genoux en prière avant de commencer son cours</ref>. De même, elle est scandalisée par l’idée d’une bibliothèque universitaire où on ne peut pas lire les livres à l’Index à moins d’avoir la permission de son directeur de conscience : <q>Je suis heureuse de ne pas avoir, de n’avoir jamais eu, de directeur de conscience</q>
+                                <note place="inline">
+                                    <bibl>
+                                        <title level="m">Parallèles</title> 67</bibl>
+                                </note>
+                            </ref>. <ref target="#social_movement">
+                                <ref target="#history">Elle parle peu de la Révolution tranquille, qu’elle a pourtant vécue, sauf pour remettre en question l’Acte des mesures de guerre lors de la Crise d’octobre <note place="inline">
+                                        <bibl>
+                                            <title level="m">Mémoire</title> 82</bibl>
+                                    </note>
+                                </ref>
+                            </ref>. Elle ne s’attarde pas non plus sur son activisme dans l’association des professeurs. Montréal est surtout le lieu de la culpabilité au féminin : dans <title level="m">De mémoire de femme</title>, <ref target="#representation_of_women">Andersen fait le portrait de la mère gagne-pain et de la femme amoureuse qui néglige son fils aîné et sa vieille mère infirme pour se dévouer à un mari difficile et à une carrière exigeante</ref>. <ref target="#voice_or_narration">Du point de vue du fils aîné, narrateur à son tour, Montréal est un espace dysphorique associé au souterrain. Il est relégué au sous-sol pour faire place à l’amant possessif de sa mère, un homme d’origine <ref target="#nationality">danoise</ref> qui deviendra son beau-père.</ref>
+                            <ref target="#education">
+                                <ref target="#language">On envoie le fils en pensionnat pendant la semaine dans une école anglaise de banlieue</ref>
+                            </ref>, près des raffineries de pétrole, et il s’agit pour lui carrément d’une descente en enfer : <q>Je ne vois pas que ces flammes sont celles de l’enfer, que le pasteur qui gère le pensionnat est l’ange des ténèbres</q>
+                            <note place="inline">
+                                <bibl>
+                                    <title level="m">Mémoire</title> 301</bibl>
+                            </note>. <ref target="women_writing">Dans <title level="m">De mémoire de femme</title> et <title level="m">Parallèles</title>, Montréal est associée moins à l’écriture créatrice qu’à l’écriture alimentaire : la femme exilée s’occupe de la rédaction de dissertations et de la correction de travaux d’étudiants, travail qu’elle effectue non seulement pour son propre compte mais aussi pour celui de son nouveau mari, fainéant</ref>.</ref>
+                    </p>
+                    <p xml:id="p1371">
+                        <ref target="#voice_or_narration">Les défaillances de ce mariage ne disparaissent pas au cours du séjour d’enseignement de la narratrice et de son mari à Addis-Abeba, même si c’est là qu’elle a le bonheur de donner naissance à sa fille. Sa tentative de retrouver le paradis douillet de <hi rend="italic" xml:lang="de-DE">Vater, Mutter, Kind</hi> échoue encore. <ref target="#violence">Marguerite et sa famille sont chassées du pays par les puces éthiopiennes, qui se délectent de la peau tendre du mari.</ref> Celui-ci est loin d’incarner la vision idéalisée de la figure paternelle. Le bonheur reviendra plus tard sous une configuration familiale moins traditionnelle qui exclut le père.</ref>
+                    </p>
+                    <p xml:id="p1372">
+                        <ref target="#spatiality">
+                            <ref target="#genre_lifeWriting">Il est à noter que dans <title level="m">La vie devant elles</title>, composé des récits biofictionnels de ses petits-enfants, Andersen construit une vision plus valorisante de Montréal</ref>. <ref target="#nationality">
+                                <ref target="#education">Le fils de Marguerite se souvient de ses études universitaires</ref> et de la rencontre avec sa femme polonaise, Zosia, avec qui il crée lui-même une cellule familiale <hi rend="italic" xml:lang="de-DE">Vater, Mutter, Kind</hi>, quitte à se présenter comme français en taisant ses origines allemandes auprès de ses enfants et de ses amis</ref>. <ref target="#education">Montréal se présente sous un autre jour encore dans le récit de la petite-fille Claire, qui quitte Ottawa pour étudier à l’Université McGill</ref>. En tant que Franco-Ontarienne, elle perçoit Montréal plutôt comme une métropole culturelle en ébullition : <q>Mais Claire choisit d’étudier à McGill, comme tant de jeunes Franco-Ontariens ambitieux, à Montréal, comme le fera plus tard sa sœur Ariane. La grande ville, les deux langues, la culture, les arts aux courants multiples l’attirent</q>
+                            <note place="inline">
+                                <bibl>
+                                    <title level="m">Vie devant elles</title> 198</bibl>
+                            </note>. Montréal, après avoir été le lieu d’exil douloureux d’une <q>personne déplacée</q> s’évadant de son passé berlinois, finit par incarner chez Andersen la métropole à prééminence artistique, surtout selon la perspective de ses petits-enfants nés au Canada.</ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Paris, ville-lumière, métropole culturelle</head>
+                    <p xml:id="p1373">
+                        <ref target="#genre_lifeWriting">
+                            <ref target="#spatiality">
+                                <ref target="#history">S’installer à Paris en congé sabbatique pendant un an pour écrire, quel rêve pour l’ex-Berlinoise! Nous avons vu que le Berlin des années 1920, <q>ville en compétition intellectuelle et artistique avec Paris</q>, se mesurait à l’aune de la ville-lumière <note place="inline">
+                                        <bibl>
+                                            <title level="m">Figuier</title> 154</bibl>
+                                    </note>
+                                </ref>. Les traces des géants littéraires se retrouvent partout. <ref target="#intertextuality">Ainsi, l’appartement loué pour l’année rappelle à la narratrice Balzac : <q>L’escalier sent la cire d’abeille, un écriteau en émail rappelle aux usagers de s’essuyer les pieds, s.v.p., je ne serais pas surprise de voir surgir Mme Vauquer dans ce décor balzacien</q>
+                                    <note place="inline">
+                                        <bibl>
+                                            <title level="m">Mémoire</title> 20</bibl>
+                                    </note>
+                                </ref>. Le cadre parisien ne se présente cependant pas uniquement comme lieu de pèlerinage littéraire. <ref target="voice_or_narration">La narratrice autodiégétique</ref> de <title level="m">De mémoire de femme</title>, Anne Grimm, s’installe en banlieue, à Bourg-la-Reine, dont le centre commercial évoque pour elle les lieux familiers de l’espace montréalais : <q>L’endroit m’a rappelé le Canada. S’il n’y avait pas eu le drapeau tricolore flottant sur le parking, je me serais crue à la place Alexis-Nihon, à Montréal</q>
+                                <note place="inline">
+                                    <bibl>231</bibl>
+                                </note>. Il s’agit d’un Paris moderne, où elle peut même ressasser les souvenirs de Tunis en fréquentant le hammam du quartier. <ref target="#gender_issue">
+                                    <ref target="#intertextuality">
+                                        <ref target="#representation_of_women">Le point culminant de cette autofiction est le retour au Canada, lorsque la protagoniste participe à une table ronde composée des femmes qui l’ont influencée, ce que Julie Tennier définit comme <q>lieu féminin collectif utopique</q>
+                                            <note place="inline">
+                                                <bibl>65</bibl>
+                                            </note> et qu’elle compare au <title level="m" xml:lang="en-CA">Dinner Party</title> de Judy Chicago et au <title level="m">Pique-nique sur l’Acropole</title> de l’auteure québécoise féministe Louky Bersianik <note place="inline">
+                                                <bibl>68</bibl>
+                                            </note>
+                                        </ref>. La table ronde constitue une affirmation féministe de solidarité, une image du désir d’Andersen de remplacer l’idéal du triangle <hi rend="italic" xml:lang="de-DE">Vater, Mutter, Kind</hi> afin de retrouver une autonomie créatrice appuyée par un milieu artistique convivial</ref>
+                                </ref>.</ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Toronto, lieu de réconciliation avec le père écrivain</head>
+                    <p xml:id="p1374">
+                        <ref target="#spatiality">
+                            <ref target="women_writing">Toronto, quoiqu’absente de l’ouvrage <title level="m">De mémoire de femme</title>, est la ville associée à l’écriture créatrice dans <title level="m">Parallèles</title> comme dans <title level="m">Le figuier sur le toit</title>. C’est à Toronto que la narratrice Marguerite finit par assumer son identité d’écrivaine et joue un rôle dans l’établissement d’institutions littéraires franco-ontariennes. <ref target="#men_writing">C’est à Toronto également qu’elle se réconcilie avec l’écrivain rival, le père</ref>
+                            </ref>. <ref target="#childhood">
+                                <ref target="#language">Si le père représente l’autorité quant à <q>l’allemand</q> et que l’anglais appartient à la sœur aînée <note place="inline">
+                                        <bibl>
+                                            <title level="m">Mémoire</title> 32</bibl>
+                                    </note>, quelle langue faut-il choisir pour écrire? Paradoxalement, dans cette ville à prédominance anglophone, Marguerite choisit d’écrire en français, langue qu’elle considère comme maternelle puisque c’est sa mère qui l’a amenée à l’étudier chez une dame belge au cœur brisé : <q>Le français reste néanmoins la langue de mon choix. Grâce au séjour de Mlle Gralier à Berlin, il est ma langue maternelle. C’est toi, ma mère, qui m’as dotée de cette langue que je choisis aujourd’hui pour m’exprimer</q>
+                                    <note place="inline">
+                                        <bibl>
+                                            <title level="m">Mémoire</title> 32</bibl>
+                                    </note>
+                                </ref>. <ref target="#response_formal">D’ailleurs, comme le remarque François Paré dans une étude sur les nouvelles d’Andersen, on retrouve chez cette auteure un <q>refus de la ville anglophone</q>
+                                    <note place="inline">
+                                        <bibl>825</bibl>
+                                    </note>, une tendance à transformer Toronto en un espace <q>où la plupart des habitants portent des noms et des prénoms français et fréquentent des lieux appartenant clairement à la communauté francophone</q>
+                                    <note place="inline">
+                                        <bibl>825</bibl>
+                                    </note>
+                                </ref>.</ref>
+                        </ref>
+                        <ref target="#intertextuality">Dans <title level="m">Parallèles</title>, la narratrice choisit de raconter sa vie et celle de son amie Lucienne Lacasse-Lovsted, toutes deux membres fondatrices de la Société des écrivain(e)s de Toronto, association décrite comme un <q>cercle de famille, regroupement de tribu</q>
+                            <note place="inline">
+                                <bibl>178</bibl>
+                            </note>
+                        </ref>. Toutes les institutions francophones de Toronto sont mises à l’honneur. <ref target="#religion">
+                            <ref target="#spatiality">Par exemple, lorsque Lucienne quitte Montréal et arrive à Toronto, elle est accueillie par une Anglaise qui l’envoie à l’église Sacré-Cœur, à l’angle des rues Sherbourne et Carlton. Pour Lucienne, <q>migrant[e] de l’intérieur</q>
+                                <note place="inline">
+                                    <bibl>Harel 30</bibl>
+                                </note>, Toronto représente un havre après sa vie au Québec, qui apparaît comme soumis aux valeurs patriarcales de l’Église catholique de l’époque. <ref target="#violence">À travers la vie de Lucienne, Andersen esquisse en effet le portrait d’une Église oppressive qui condamne les femmes aux grossesses fréquentes, ce qui épuise des femmes comme la mère de Lucienne, qui meurt dans un asile après un épisode de dépression post-partum.</ref> L’Église catholique parraine alors l’Institut des équipières sociales, dont Lucienne avait fait partie à Ottawa et à Montréal et qui impose aux pénitentes de marcher avec des fèves dans les souliers <q>pour s’empêcher de courir après le plaisir</q>
+                                <note place="inline">
+                                    <bibl>
+                                        <title level="m">Parallèles</title> 135</bibl>
+                                </note>
+                            </ref>. <ref target="#politics">
+                                <ref target="#language">Même si Lucienne choisit d’élever ses enfants en anglais à Toronto pour leur éviter d’être des <q>
+                                        <hi rend="italic" xml:lang="en-CA">second class citizen</hi>
+                                    </q>
+                                    <note place="inline">
+                                        <bibl>
+                                            <title level="m">Parallèles</title> 200</bibl>
+                                    </note>, elle-même parvient à vivre en français</ref>. <ref target="genre_fiction">Elle passe la fin de sa vie à Place Saint-Laurent, une résidence francophone pour personnes âgées.</ref> D’ailleurs, Lucienne n’est pas la seule membre de la Société des écrivain(e)s de Toronto à figurer dans cette <q>fiction-documentaire</q> : Marguerite mentionne également, entre autres, <q>Cécile</q> (Cloutier), <q>Mireille</q> (Déjarlais-Heynneman) et <q>Lélia</q> (Young)<note xml:id="n88" place="end">Voir à ce propos <bibl>Young 206-07</bibl>, qui décrit ainsi l’évolution du groupe littéraire : d’abord le Regroupement des écrivains de Toronto, ensuite la Société des écrivains canadiens de Toronto et enfin la Société des écrivain(e)s de Toronto.</note>
+                                <bibl>
+                                    <title level="m">Parallèles</title> 212</bibl>
+                            </ref>.</ref>
+                    </p>
+                    <p xml:id="p1375">
+                        <ref target="#spatiality">
+                            <ref target="genre_lifeWriting">Pour Andersen, Toronto constitue donc un milieu privilégié de convivialité artistique. Dans <title level="m">Parallèles</title>, la narratrice Marguerite fait l’éloge des institutions culturelles francophones, par exemple du Prix Trillium en langue française, créé en 1994 (pour ceux qui ne peuvent participer pleinement à la version anglophone, créée en 1988), ou de l’Association des auteures et des auteurs de l’Ontario français, dont Marguerite Andersen a été présidente de 2000 à 2004. Elle parle également de son travail en tant qu’éditrice de la revue franco-ontarienne <title level="j">Virages</title> consacrée à la nouvelle. C’est par cette célébration des institutions littéraires franco-torontoises dont elle fait partie que Marguerite finit par rejoindre le père d’une façon positive. <ref target="#archive">Elle décrit dans <title level="m">Le figuier sur le toit</title> la boîte d’archives personnelles marquée <q>Famille</q> qu’elle a transportée jusqu’à Toronto et dans laquelle elle conserve les documents de la société d’écrivains allemands dont son père avait été président avant le régime nazi</ref>. Écrivaine torontoise, elle retrouve alors un point de contact positif avec le père, écrivain berlinois :</ref>
+                        </ref>
+                    </p>
+                    <q type="block">
+                        <ref target="#economics">La coïncidence est remarquable : Berlin, un écrivain, une association professionnelle — Toronto, une écrivaine, des associations professionnelles. Tel père, telle fille! Des époques différentes, mais les mêmes objectifs : liberté d’expression, droit d’auteur, revenu acceptable, habitations à loyer modéré, paiement pour le prêt public, subventions gouvernementales.</ref>
+                        <note place="inline">
+                            <bibl>
+                                <title level="m">Figuier</title> 171</bibl>
+                        </note>
+                    </q>
+                    <p xml:id="p1376">
+                        <ref target="#tone_or_style">Grâce à cette figure idéalisée, elle crée une forme de complicité avec son père : <q>Au fond, se dit la vieille dame, heureuse de tous ces parallèles qu’elle découvre entre son père et elle-même, s’il était encore là, on travaillerait ensemble</q>
+                            <note place="inline">
+                                <bibl>
+                                    <title level="m">Figuier</title> 172</bibl>
+                            </note>. Le discours mémoriel réunit donc père et fille, Berlin et Toronto, une littérature allemande renommée et une littérature franco-ontarienne en émergence. Le monde de la convivialité artistique finit par l’emporter sur l’ancien idéal de la famille nucléaire.</ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>La ville multiculturelle et le figuier déterré</head>
+                    <p xml:id="p1377">
+                        <ref target="#spatiality">Toronto, tout en renvoyant, pour Andersen, au Berlin du père écrivain comme site urbain de l’institution littéraire, se démarque par un <hi rend="italic">zeitgeist</hi> qui contraste avec les idéaux de pureté ethnique et culturelle prônés par le grand-père Seeberg à Berlin avant la <ref target="#history">Seconde Guerre mondiale</ref>. Dans cette optique, Toronto incarnerait la réussite de <ref target="#politics">la politique canadienne de multiculturalisme, dont l’idéologie demeure d’ailleurs fortement critiquée de nos jours</ref>. <ref target="#intertextuality">On pourrait dès lors se poser la question : est-ce qu’Andersen tombe dans le piège de ce que Daniel Coleman appelle la <q>civilité blanche</q> (<q>
+                                    <hi rend="italic" xml:lang="en-CA">white civility</hi>
+                                </q>) <note place="inline">
+                                    <bibl>32-33</bibl>
+                                </note> au Canada, cette tendance à se faire valoir en se vantant de sa tolérance envers les dépossédés et les marginalisés?</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1378">
+                        <ref target="#spatiality">
+                            <title level="m">Le figuier sur le toit</title>, dont le cadre principal est la ville de Toronto, véhicule en fait un message quelque peu paradoxal. Il s’agit, comme nous l’avons vu, d’une réponse à la sempiternelle question des origines posée par un grand nombre de Canadiens, <q>
+                                <hi rend="italic" xml:lang="en-CA">Where are you from?</hi>
+                            </q>
+                        </ref>. <ref target="#intertextuality">
+                            <ref target="#violence">
+                                <ref target="#history">À l’instar de l’auteur anglo-allemand W.G. Sebald, entre autres, Andersen entreprend alors de révéler l’antisémitisme du grand-père Seeberg et de ses pairs, les atrocités de l’Holocauste et la culpabilité des <ref target="#nationality">Allemands</ref> témoins de toutes les brutalités imposées par le régime nazi ainsi que les effets dévastateurs de la guerre <note place="inline">
+                                        <bibl>
+                                            <title level="m">Figuier</title> 196</bibl>
+                                    </note>
+                                </ref>
+                            </ref>
+                        </ref>. <ref target="#methodology">Pour souligner le sérieux de son projet, l’auteure recourt à la mémoire savante en ajoutant l’annexe <q>Dates et faits importants, et mesures législatives du régime nazi</q>
+                            <note place="inline">
+                                <bibl>
+                                    <title level="m">Figuier</title> 257-58</bibl>
+                            </note>. <ref target="#violence">
+                                <ref target="#genre_lifeWriting">La vieille dame témoigne de la persécution des Juifs (de la perte de leurs droits jusqu’au génocide), de la persécution des amis homosexuels de ses parents à Berlin, des efforts de sa mère de protéger sa tante toxicomane (que les autorités pouvaient faire disparaître en tant que malade mentale)</ref>. Elle conclut cette autofiction en affirmant : <q>Après tout, les réponses aux <hi rend="italic" xml:lang="en-CA">Where are you from</hi>, mes enfants et les leurs n’en ont pas vraiment besoin</q>
+                                <note place="inline">
+                                    <bibl>
+                                        <title level="m">Figuier</title> 255</bibl>
+                                </note>
+                            </ref>. Au contraire de Marguerite, ce ne sont pas des <q>personnes déplacées</q>. Ils sont bien chez eux, jouissant d’une vie privilégiée dans une ville pluraliste et multilingue. <ref target="#language">Bien que les enfants de la narratrice et ses petits-enfants choisissent de vivre en français, la plupart d’entre eux parlent plus de deux langues : leurs partenaires proviennent de pays proches ou lointains : <q>nous sommes un ragoût, un couscous</q>, dit-elle ;</ref>
+                            <q>La tolérance est ce qui caractérise notre pays, disent-ils</q>
+                            <note place="inline">
+                                <bibl>
+                                    <title level="m">Figuier</title> 251</bibl>
+                            </note>
+                        </ref>.</p>
+                    <p xml:id="p1379">
+                        <ref target="#spatiality">
+                            <ref target="voice_or_narration">Il ne faut cependant pas oublier que la ville est une structure narrative construite par l’auteure, un espace-temps à forte teneur symbolique</ref>. <ref target="#violence">
+                                <ref target="race_issue">Ainsi, dans <title level="m">La vie devant elles</title>, on retrouve une attitude plus critique envers le pays d’accueil, lorsqu’Ariane, petite-fille de Marguerite, fait du camping en Ontario avec son mari togolais et leurs deux enfants et qu’ils sont confrontés à cette occasion au profilage racial, un policier les arrêtant sans motif valable</ref>.</ref> Si Toronto apparaît dans <title level="m">Le figuier sur le toit</title> comme un lieu de tolérance et de paix, <ref target="#history">c’est pour souligner le contraste avec un Berlin soumis aux affres de la guerre. C’est peut-être aussi pour rappeler que le Berlin d’avant la guerre apparaissait, lui aussi, comme un milieu ouvert à la diversité et à l’épanouissement culturel et artistique. Témoigner des atrocités de guerre, c’est également une façon de rappeler les dangers de la suffisance et de l’orgueil.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1380">
+                        <ref target="#voice_or_narration">
+                            <ref target="genre_lifeWriting">
+                                <ref target="theme_or_topic">L’image éponyme du <title level="m">Figuier sur le toit</title> souligne l’ambiguïté subversive de la présence de l’écrivaine migrante à Toronto. <ref target="#motif">La vieille dame parle de cet arbre exotique qu’elle avait essayé de cultiver et dont elle avait osé espérer un seul fruit, malgré le climat inclément de Toronto</ref>. Une histoire conventionnelle d’intégration réussie aurait pu aboutir à une célébration de cet arbre, qui parvient à produire un fruit en dépit des obstacles. Cependant, par mégarde, par négligence, Marguerite laisse mourir l’arbre. Elle se résout à le déraciner et à le jeter, malgré la résistance tenace de l’arbre mort. À la suggestion qu’on lui fait qu’elle pourrait prendre un autre figuier pour remplacer celui-ci, la vieille dame répond vivement : <q>Pas question. Je ne veux pas assassiner d’autres figuiers après avoir tant aimé celui-ci</q>
+                                    <note place="inline">
+                                        <bibl>250</bibl>
+                                    </note>. <ref target="#religion">
+                                        <ref target="#intertextuality">Dans ce roman mémoriel aux accents édéniques, le figuier rappelle l’histoire de l’arbre du bien et du mal au paradis, où Adam et Ève goûtent le fruit interdit au prix de leur expulsion. Le couple originel saisit alors des feuilles de figuier pour cacher leur nudité, dont ils ont honte. Perte de l’innocence, perte de l’illusion d’un monde sous le contrôle parfait de Dieu le père. On se souvient aussi de l’histoire du figuier maudit du Nouveau Testament : Jésus, déçu de ne pas avoir trouvé de figues hors saison, condamne le figuier à ne plus jamais porter de fruit <note place="inline">
+                                                <bibl>Mathieu 21, <title level="m">Sainte Bible</title> 18-22</bibl>
+                                            </note>
+                                        </ref>. Que le figuier de Marguerite soit condamné au déterrement brutal n’est donc pas étonnant. Déterrer le figuier mort sans fruit implique ici renoncer au rêve irréalisable d’un paradis perdu, celui d’une famille traditionnelle, à la figure paternelle autoritaire mais rassurante.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1381">
+                        <ref target="#spatiality">
+                            <ref target="#voice_or_narration">
+                                <ref target="#history">L’écrivaine a finalement réussi, en regardant en face son passé et en affrontant l’angoisse liée à ses souvenirs du régime nazi, à s’adonner à la création littéraire et à jouir de la convivialité d’une communauté artistique. À Toronto, où elle demeure fortement impliquée dans l’émergence d’institutions littéraires franco-ontariennes, Andersen réussit à régler ses comptes avec le père berlinois, à lui rendre hommage en tant qu’écrivain tout en acceptant ses faiblesses en tant qu’être humain. Elle a pu y affronter avec lucidité, grâce à l’écriture mémorielle, son passé empreint de culpabilité. Le figuier mort rappelle ce passé honteux, examiné et présenté au lecteur en guise de témoignage. Déterrer l’arbre est un geste de libération personnelle.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1382">
+                        <ref target="#genre_lifeWriting">C’est ce sentiment de libération qui prédomine dans les récits biofictionnels qui composent <title level="m">La vie devant elles</title>, où la réconciliation avec le père ainsi qu’avec le passé berlinois se fait à travers les voyages des petites-filles de Marguerite. <ref target="#spatiality">Lorsque la vieille dame fait un séjour à Berlin avec sa petite-fille Isa, elle brise le silence sur le passé. Elle lui révèle que son père (le fils de Marguerite), qui a toujours caché ses origines allemandes, a passé une partie de sa jeunesse dans la ville. Elles se délectent de la richesse culturelle du Berlin restauré, de ses musées d’art et de ses magasins. Ensemble, elles visitent le Musée du Judaïsme, elles traversent l’axe de l’Holocauste, l’axe de l’exil et celui de la continuité. L’espace mémoriel révèle les actes honteux du régime nazi et offre en retour une possibilité de guérison. Ariane, autre petite-fille de Marguerite, en voyage en Afrique pour établir un programme d’aide auprès des femmes du Ghana, complète quant à elle le processus de réconciliation avec le passé en retrouvant le pays de naissance de son arrière-grand-père Theo, et elle donne à son fils le nom africain de son aïeul, Kwabla</ref>.</ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Conclusion : <q xml:lang="en-CA">No, where are you really from?</q>
+                    </head>
+                    <p xml:id="p1383">
+                        <ref target="#genre_lifeWriting">Dans la scène finale du <title level="m">Figuier sur le toit</title>, c’est la fête de la vieille dame et elle craint de déranger ses enfants et ses petits-enfants si elle boit un peu trop et se met à parler de tout ce que les autres veulent taire. En bons Canadiens polis, ils n’aiment pas en effet trop discuter de ce qui pourrait déranger. La fête sera parfaite, selon l’écrivaine, <q>à condition peut-être qu’elle garde ses idées farfelues pour elle-même… À condition aussi de ne pas révéler la lointaine tare de l’arrière-grand-père balte</q>
+                            <note place="inline">
+                                <bibl>255</bibl>
+                            </note>. Or c’est justement le fait de déranger l’ordre, de briser le silence bienséant, qui confère à ces autofictions leur caractère subversif. Pour qu’on n’oublie jamais la capacité humaine pour l’atrocité, il s’agit plutôt d’espérer que l’écrivaine ne deviendra jamais sage!</ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Bibliographie</head>
+                    <listBibl>
+                        <bibl>Andersen, Marguerite. <title level="a" xml:lang="en-CA">Autobiography: Tightrope Across the Search for Understanding</title>. <title level="j" xml:lang="en-CA">Institut Simone de Beauvoir Institute Review/<hi xml:lang="fr-FR">Revue</hi>
+                            </title> 18-19 (2000): 113-28.</bibl>
+                        <bibl>. <title level="m">Bleu sur blanc</title>. Sudbury, ON: Prise de parole, 2000.</bibl>
+                        <bibl>. <title level="m">De mémoire de femme</title>. Montréal: Quinze, 1982. Nouvelle édition revue et corrigée, <hi rend="small-caps">bcf</hi>, Ottawa: L’Interligne, 2002.</bibl>
+                        <bibl>. <title level="m">Le figuier sur le toit</title>. Ottawa: L’Interligne, 2008.</bibl>
+                        <bibl>. <title level="m">Parallèles</title>. Sudbury, ON: Prise de parole, 2004.</bibl>
+                        <bibl>. <title level="m">La vie devant elles</title>. Sudbury, ON: Prise de parole, 2011.</bibl>
+                        <bibl>Coleman, Patrick. <title level="a" xml:lang="en-CA">From Canadian Trance to TransCanada: White Civility to Wry Civility in the Canlit Project</title>. <title level="m" xml:lang="en-CA">Trans.Can.Lit: Resituating the Study of Canadian Literature</title>. Dir. Smaro Kamboureli et Roy Miki. Waterloo, ON: Wilfrid Laurier University Press, 2007. 25-44.</bibl>
+                        <bibl>Harel, Simon. <title level="m">Le voleur de parcours: Identité et cosmopolitisme dans la littérature québécoise contemporaine</title>. Montréal: <hi rend="small-caps">xyz</hi>, 1999.</bibl>
+                        <bibl>Hotte, Lucie. <title level="a">Préface : L’écriture et la vie</title>. <title level="m">De mémoire de femme</title>. Marguerite Andersen. Édition revue et corrigée, <hi rend="small-caps">bcf</hi>. Ottawa: L’Interligne, 2002. 7-12.</bibl>
+                        <bibl>Lejeune, Philippe. <title level="m">Le pacte autobiographique</title>. Paris: Seuil, 1975.</bibl>
+                        <bibl>Paré, François. <title level="a">Souveraineté et détournement du regard dans les nouvelles de Marguerite Andersen</title>. <title level="j" xml:lang="en-CA">University of Toronto Quarterly</title> 68.4 (automne 1999): 823-34.</bibl>
+                        <bibl>Robin, Régine. <title level="m">Le roman mémoriel : de l’histoire à l’écriture du hors-lieu</title>. Montréal: Le Préambule, 1989.</bibl>
+                        <bibl>
+                            <title level="m">La Sainte Bible</title>. Traduite d’après les textes originaux hébreu et grec par Louis Segond. Édition revue avec références. Paris: La Société biblique, 1972.</bibl>
+                        <bibl>Tennier, Julie. <title level="a">Marguerite Andersen et le moi en l’absence de l’autre : <title level="m">De mémoire de femme</title>
+                            </title>. <title level="j">Voix plurielles</title> 9.1 (2012): 58-68.</bibl>
+                        <bibl>Young, Lélia. <title level="m">Poésie franco-ontarienne: Un aperçu</title>. <title level="m">Perspectives sur la littérature franco-ontarienne</title>. Dir. Ali Reguigui et Hédi Bouraoui. Édition revue et augmentée. Sudbury, ON: Prise de parole, 2007. 205-33.</bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

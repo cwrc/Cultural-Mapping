@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>-->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Talk to the Work</title>
+                <title level="m" type="main" xml:lang="en-CA">Cultural Mapping and the Digital Sphere</title>
+                <title level="m" type="sub" xml:lang="en-CA">Place and Space</title>
+                <author>Ravit H. David</author>
+                <editor role="editor">
+                    <forename>Ruth</forename>
+                    <surname>Panofsky</surname>
+                </editor>
+                <editor role="editor">
+                    <forename>Kathleen</forename>
+                    <surname>Kellett</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <forename>Ilovan</forename>
+                    </name>
+                </respStmt>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor>
+                    <orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Dynamic Table of Contexts editors: </resp>
+                    <name>
+                        <forename>Ruth</forename>
+                        <surname>Panofsky</surname>
+                    </name>
+                    <name>
+                        <forename>Kathleen</forename>
+                        <surname>Kellett</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Principal: </resp>
+                    <name>
+                        <forename>Susan</forename>
+                        <surname>Brown</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <surname>Ilovan</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copyediting and proofreading: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Olivier</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexing:</resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name>
+                        <forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Cover design: </resp>
+                    <name role="book_designer">
+                        <forename>Virginia</forename>
+                        <surname>Penny</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface design lead: </resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead: </resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>Mary Lou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer:</resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by: </resp>
+                    <name role="markup_editor">
+                        <forename>Kristine</forename>
+                        <surname>Abramoff</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Anita</forename>
+                        <surname>Cutic</surname>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address>
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address>
+                        <addrLine>www.cwrc.ca</addrLine>
+                    </address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1- 55195-365- 6</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Individual chapter extract from: Cultural Mapping and the Digital Sphere: Place and Space, ed. Ruth Panofsky &amp; Kathleen Kellett (Edmonton: University of Alberta Press, 2015 / DToC ed. 2016).</p>
+                <ab type="host-volume">
+                    <listBibl>
+                        <bibl>
+                            <title level="a" type="main">Foreword</title>
+                            <author>
+                                <forename>Susan</forename>
+                                <surname>Brown</surname>
+                            </author> &amp; <author>
+                                <forename>Mary-Jo</forename>
+                                <surname>Romaniuk</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Preface</title>
+                            <author>
+                                <forename>Ruth</forename>
+                                <surname>Panofsky</surname>
+                            </author> &amp; <author>
+                                <forename>Kathleen</forename>
+                                <surname>Kellett</surname>
+                            </author>
+                        </bibl>
+                        <listBibl>
+                            <head>Part I. Place and the Digital Frontier</head>
+                            <bibl>
+                                <title level="a" type="maiin">Mapping Tags and Tagging Maps</title>
+                                <title type="sub">Leveraging Spatial Markup for Literary History</title>
+                                <author>
+                                    <forename>Susan</forename>
+                                    <surname>Brown</surname>
+                                </author>, <author>
+                                    <forename>Isobel</forename>
+                                    <surname>Grundy</surname>
+                                </author>, <author>
+                                    <forename>Mariana</forename>
+                                    <surname>Paredes-Olea</surname>
+                                </author>, <author>
+                                    <forename>Jeffery</forename>
+                                    <surname>Antoniuk</surname>
+                                </author> &amp; <author>
+                                    <forename>Breanna</forename>
+                                    <surname>Mroczek</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Modeling Collaboration in Digital Humanities Scholarship</title>
+                                <title type="sub">Foundational Concepts of an EMiC UA Project Charter</title>
+                                <author>
+                                    <forename>Paul</forename>
+                                    <surname>Hjartarson</surname>
+                                </author>, <author>
+                                    <forename>Harvey</forename>
+                                    <surname>Quamen</surname>
+                                </author>, <author>
+                                    <forename>Andrea</forename>
+                                    <surname>Hasenbank</surname>
+                                </author>, <author>
+                                    <forename>Vanessa</forename>
+                                    <surname>Lent</surname>
+                                </author> &amp; <author>
+                                    <orgName> EMiC UA</orgName>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">An Interactive, Materialist-Semiotic Archive</title>
+                                <title type="sub">Visualizing the Canadian Theatrical Canon in the Simulated Environment for Theatre</title>
+                                <author>
+                                    <forename>Sasha</forename>
+                                    <surname>Kovacs</surname>
+                                </author> and <author>
+                                    <forename>Jennifer</forename>
+                                    <surname>Roberts-Smith</surname>
+                                </author>, <author>
+                                    <forename>Theresa M.</forename>
+                                    <surname>Dobson</surname>
+                                </author>, <author>
+                                    <forename>Sandra</forename>
+                                    <surname>Gabriele</surname>
+                                </author>, <author>
+                                    <forename>Omar</forename>
+                                    <surname>Rodrigues-Arenas</surname>
+                                </author>, <author>
+                                    <forename>Stan</forename>
+                                    <surname>Ruecker</surname>
+                                </author>, <author>
+                                    <forename>Stéfan</forename>
+                                    <surname>Sinclair</surname>
+                                </author>, <author>
+                                    <forename>Shawn</forename>
+                                    <surname>DeSouza-Coelho</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">"Talk to the Work"</title>
+                                <title type="sub">Applying istc Identifiers to the Digital Edition of the Canadian Bookman (1909–1941)</title>
+                                <author>
+                                    <forename>Ravit H.</forename>
+                                    <surname>David</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">How to Play with Maps</title>
+                                <author>
+                                    <forename>Bethany</forename>
+                                    <surname>Nowviskie</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Edmonton Pipelines</title>
+                                <title type="sub">Living and Playing in the Digital City </title>
+                                <author>
+                                    <forename>Heather</forename>
+                                    <surname>Zwicker</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Representing Canadian Queer Authorship</title>
+                                <title type="sub">Making the Internet a Women’s Place</title>
+                                <author>
+                                    <forename>Michelle</forename>
+                                    <surname>Schwartz</surname>
+                                </author> &amp; <author>
+                                    <forename>Constance</forename>
+                                    <surname>Crompton</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Part II. Writers and Readers: Mapping Textual Space</head>
+                            <bibl>
+                                <title level="a" type="main">Salomania</title>
+                                <title type="sub">Maud Allan, Postcards, and Early Twentieth-Century “Viral” Circulation</title>
+                                <author>
+                                    <forename>Cecily</forename>
+                                    <surname>Devereux</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Toronto the Good in the Fiction and Life of Grace Irwin</title>
+                                <author>
+                                    <forename>Patricia</forename>
+                                    <surname>Demers</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">« Where are you froM? »</title>
+                                <title type="sub" xml:lang="fr-CA">La ville et l’écriture migrante dans l’autofiction de Marguerite Andersen</title>
+                                <author>
+                                    <forename>Kathleen</forename>
+                                    <surname>Kellett</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Languages as Spaces, Translation as Play</title>
+                                <title type="sub">Moving (through) Languages</title>
+                                <author>
+                                    <forename>Lori</forename>
+                                    <surname>Saint-Martin</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">L'espace ensorcelé</title>
+                                <title type="sub">Les enfants du sabbat d’Anne Hébert</title>
+                                <author>
+                                    <forename>Stéphanie</forename>
+                                    <surname>Walsh Matthews</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick and Kim Thúy</title>
+                                <author>
+                                    <forename>Mireille</forename>
+                                    <surname>MaiTruong</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Standing on a Rainbow</title>
+                                <title type="sub">Reading in Place, Position, and Time</title>
+                                <author>
+                                    <forename>Margaret</forename>
+                                    <surname>Mackey</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <bibl>
+                            <title type="main" xml:lang="en-CA">Contributors</title> / <title type="main" xml:lang="fr-CA">Collaborateurs</title>
+                        </bibl>
+                    </listBibl>
+                </ab>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p />
+            </projectDesc>
+            <classDecl>
+                <taxonomy>
+                    <desc>Semantic tags employed in this book can be reviewed at <ref target="http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml">http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml</ref>
+                    </desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-CA">English</language>
+                <language ident="fr-CA">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline />
+                <item />
+                <index>
+                    <term />
+                </index>
+                <byline />
+                <index>
+                    <term />
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:lang="en-CA">
+                <head>
+                    <title level="a">Talk to the Work</title>
+                </head>
+                <byline>
+                    <hi rend="italic">Applying <abbr rend="small-caps">istc</abbr> Identifiers to the Digital Edition of the</hi>
+                    <title level="j">Canadian Bookman</title> (<date cert="high" from="1909" to="1941">1909–1941</date>)</byline>
+                <docAuthor>
+                    <persName>Ravit H. David</persName>
+                </docAuthor>
+                <div type="section">
+                    <head>Introduction</head>
+                    <p xml:id="p1184">
+                        <ref target="#technology">
+                            <ref target="#theme_or_topic">
+                                <ref target="#politics">There is growing international awareness of the political and cultural importance of offering access to digital resources and developing practices for their preservation.</ref> How to determine the identity of digital documents and data, however, and semantic relationships other than identity (including similarities and partial identities of various kinds, especially when rights may exist) rarely receives attention and remains an undertheorized subject.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1185">
+                        <ref target="#technology">
+                            <ref target="#genre">Colleagues who research good practice in the construction of projects in the digital humanities suggest one possible reason for this neglect. <ref target="#authorship">They point out that for the majority of academics who write books or other textual materials, dissemination of their work other than through print media is new terrain and considered outside the authors’ domain <note place="inline">
+                                        <bibl>Warwick et al. 90</bibl>
+                                    </note>. Rarely are authors and publishers concerned with accessibility and discoverability; rather, academic librarians are seen as largely responsible for ensuring discoverability of a scholar’s work. Authors and publishers expect librarians to create metadata records that link a scholarly work to the host institution’s integrated library system (<abbr rend="small-caps">ils</abbr>), perhaps highlight the work as a <q>special item</q> in its online public access catalogue (<abbr rend="small-caps">opac</abbr>), and to link further to a library resource guide.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1186">
+                        <ref target="#technology">
+                            <ref target="#authorship">
+                                <ref target="#theme_or_topic">Academic authors need to reconsider how they reach potential readers, and this means thinking beyond mounting content on a server in the hope that Google users will know what to do next. In order to draw attention to one’s scholarly labour and to have one’s labour revealed in searches across the web, digital identifiers become as important as name and title.</ref> This chapter offers conceptual and pragmatic perspectives on the potential and benefits of such identifiers at the work level for digital projects in the humanities. <ref target="#genre_journalism">More specifically, it considers how the new <orgName>International Standard Text Code</orgName> (<abbr>ISTC</abbr>) system may be used to manage e-content by offering functionality and potency for securing discoverability, stability, and sustainability of archival projects, scholarly digital editions, and sole databases in the humanities. As a test case, the chapter draws on the <orgName>Canadian Writing Research Collaboratory</orgName>’s (<abbr>CWRC</abbr>) digital edition of the <title level="j">Canadian Bookman</title> (<date cert="high" from="1909" to="1941">1909–1941</date>), a specialized periodical dedicated to promoting the literary and artistic culture of <placeName>Canada</placeName>. The <abbr>ISTC</abbr> system not only enhances usage of the periodical, it also signifies semantic and other identities, as well as relationships between these identities. I close this chapter with suggestions for further research into the nature of digit­al work, including bibliographic versus ideational identification and the need to supply enriched metadata and proper identifiers so that readers can have comprehensive access to a work’s identity.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>What Is a Digital Identifier?</head>
+                    <p xml:id="p1187">
+                        <ref target="#technology">
+                            <ref target="#spatiality">
+                                <ref target="#theme_or_topic">A digital identifier must be unique, and its uniqueness must be unambiguous; it must identify one and only one object in a given space. The purpose of using identifiers as labels for digital objects is to establish a one-to-one correspondence between the members of a set of labels and the members of the set counted and labelled <note place="inline">
+                                        <bibl>Paskin, <title level="a">On Making</title> 29</bibl>
+                                    </note>. <persName>Norman Paskin</persName> defines an identifier as <q>a tool for naming content objects as first-class objects in their own right with a mechanism to make these names actionable through ‘resolution,’</q> but cautions that such naming is not enough, as <q>managing resources interoperability requires appropriate metadata. Creating a mechanism to provide a description of what is identified in a structured way allows services about the object to be built for any purpose</q>
+                                    <note place="inline">
+                                        <bibl>
+                                            <title level="a">Digital Object</title> 98</bibl>
+                                    </note>. <ref target="#theme_or_topic">In other words, the management of content in digital environments requires the existence of not only unique, persistent, and reliable identifiers, but identifiers that are able to distinguish each piece of content, as well as any associated services (for example, access rights and copyright) that might be activated.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1188">
+                        <ref target="#technology">Currently, standards exist or are in development for managing Internet resources, including uniform resource names (<abbr>URN</abbr>), uniform resource locators (<abbr>URL</abbr>), and resource description frameworks (<abbr>RDF</abbr>) for metadata. These resource mechanisms provide infrastructure for managing resource discovery and distribution, but are not sufficient to manage intellectual content and associated rights in complex digital collections that involve various levels of contribution.</ref>
+                    </p>
+                    <p xml:id="p1189">
+                        <ref target="#technology">An identifier is an important feature of any model of information ontology.<note xml:id="n59" place="end">
+                                <persName>Warwick, Claire</persName>, <persName>Melissa Terras</persName>, <persName>Paul Huntington</persName>, and <persName>Nikoleta Pappa</persName>, <title level="a">If You Build It Will They Come? The <hi rend="small-caps">lairah</hi> Study: Quantifying the Use of Online Resources in the Arts and Humanities through Statistical Analysis of User Log Data,</title>
+                                <title level="j">Literary and Linguistic Computing </title>23.1 (<date cert="high" when="2008">2008</date>): 85–1021. For further discussion of identity conditions, see <bibl>
+                                    <persName>Renear</persName> and <persName>Dubin</persName> 183</bibl>; and <bibl>
+                                    <persName>Guarino</persName> 221</bibl>.</note> First, and most important, when international systems—such as the digital object identifier (<abbr>DOI</abbr>) system—are used to assign identifiers to digitized works, infrastructure administrators and technical staff no longer struggle to unify metadata standards that originate from different resources and are created by different people using different schemas. In many cases, such as <orgName>
+                                <abbr>CWRC</abbr>
+                            </orgName>—an online infrastructure project designed to enable unprecedented avenues for digital studies in and about <placeName>Canada</placeName>—the platform hosts projects from Canadian universities in both official languages, English and French. Normalization of <abbr>CWRC</abbr>’s metadata likely would require the involvement of professional cataloguers who were willing compromisers. In fact, an international object identifying system, under which all contributors may register their content, would be a more efficient way to overcome metadata differences.</ref>
+                    </p>
+                    <p xml:id="p1190">
+                        <ref target="#technology">
+                            <ref target="#theme_or_topic">Further, international identifier systems provide a more stable, persistent element than metadata.</ref> Although metadata may change, digital identifiers are registered in external agencies and are not affected by any changes that take place in the database. The stability of digital identifiers creates a foundation for the maintenance of reliable linking and traffic building and eases the management of copyright. <ref target="#genre">Often, for instance, securing copyright for digital scholarly editions is labour intensive—especially when dealing with older materials—and necessitates a management system at the site level to guarantee that all materials destined for online undergo the proper copyright clearance process.</ref> Moreover, digital identifiers make it easy to cite a work (regardless of its physical home) and serve as a version control (if it is assigned a checksum function). Digital identifiers employ a system of bibliographic identification that allows object identifiers to resolve dynamically into the correct <abbr>URL</abbr> as materials move. Thus, internal construction on the hosting platform should not affect the discoverability of the objects across the web, even in cases where they have been physically dis- or re-located.</ref>
+                    </p>
+                    <p xml:id="p1191">
+                        <ref target="#technology">The importance of unique identification has now been recognized by the digital preservation community <note place="inline">
+                                <bibl>
+                                    <persName>Jones</persName> and <persName>Beagrie</persName> 98</bibl>
+                            </note>, and the key to digital preservation lies in interoperability across media or formats, technology platforms, and linguistic and semantic barriers. An international system of identification, then, is a way to ensure preservation. For instance, if <orgName>
+                                <abbr>CWRC</abbr>
+                            </orgName>’s infrastructure is a project’s home, then registering the works of the project through an international system of <abbr>DOI</abbr>s with an external agency would be a major step towards preservation by ensuring consistency of the digital object identity, format, and size. While the <abbr>DOI</abbr> would have no connection with the actual content of the work, it can and should testify to the integrity of the files. Thus, an identifier’s meaning is what <persName>Matthew G. Kirschenbaum</persName> and his co-authors define as <q>a further layer of computational abstraction that we can leverage against the first in order to reach a more informed evaluation about the state of the digital materials in question</q>
+                            <note place="inline">
+                                <bibl> 8</bibl>
+                            </note>. Indeed, persistence is synonymous with future interoperability. In other words, any data put online should be able to identify a work, its creator, and its content, and provide a means to access it or some service about it both in the present and future <note place="inline">
+                                <bibl>
+                                    <persName>Paskin</persName>, <title level="a">Digital Object</title> 101</bibl>
+                            </note>. Further, in the case of works under copyright or some sort of digital rights management restrictions, identifiers and metadata are of paramount importance. The <abbr>DOI</abbr> would name the object and identify it as a unique entity, while metadata would describe the concept of the object. Assigned to objects of intellectual property, these identifiers would enable connections to be denoted on intellectual and physical levels <note place="inline">
+                                <bibl>Paskin, <title level="a">Components</title>
+                                </bibl>
+                            </note>.</ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>The Crisis of Book Identifiers</head>
+                    <p xml:id="p1192">
+                        <ref target="#technology">
+                            <ref target="#place_of_publication">
+                                <ref target="#theme_or_topic">The world of digital publishing is currently experiencing identity problems that also concern various conditions that apply to non-commercial digital content made available online by libraries, computational humanities projects, and other sources. When the publishing industry first set out to transform print content into digital content, it automatically adopted the international standard book number (<abbr>ISBN</abbr>). <ref target="#intellectual_history">The <abbr>ISBN</abbr> is a unique, numeric, commercial book identifier based on a nine-digit standard book numbering (<abbr rend="small-caps">sbn</abbr>) code created by <persName>Gordon Foster</persName> in <date cert="high" when="1966">1966</date>. In the early days of e-publishing, publishers thought of e-books as the digital equivalents of their print counterparts. By <date cert="high" when="2010-12">December 2010</date>, however, with the proliferation of media platforms, the <orgName>International <abbr>ISBN</abbr> Agency</orgName> had reached the conclusion that <q>given the complexity of the current e-book supply chain, the traditional model of publisher-assigned <abbr>ISBN</abbr>s is no longer adequate. An enhanced framework may be required for product description and the requirements of new intermediary stakeholders will need to be considered in formulating any solution.</q>
+                                        <note xml:id="n60" place="end">In a <date cert="high" when="2010-12">December 2010</date> report, the board of the International <abbr>ISBN</abbr> Agency described the problem as follows:<q> Consumers need to know whether a particular title that they want is available as an e-book and, if so, what specific <q>content experience</q> they are buying and whether any particular product is, or is not, capable of delivering the desired experience, regardless of the retail channel or application where they choose to purchase the e-book. Given the complexity of the current e-book supply chain, the traditional model of publisher-assigned <abbr>ISBN</abbr>s is no longer adequate. An enhanced framework may be required for product description and the requirements of new intermediary stakeholders will need to be considered in formulating any solution.</q>
+                                        </note>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1193">
+                        <ref target="#technology">
+                            <ref target="#place_of_publication">
+                                <ref target="#genre">
+                                    <ref target="#theory">The practice of using <abbr>ISBN</abbr>s to identify e-books varies. At times, <abbr>ISBN</abbr>s properly identify a product or version of an e-book; sometimes they identify only a file format; in other instances, the same <abbr>ISBN</abbr> is assigned to both the print and e-versions of a book. The failure of the old <abbr>ISBN</abbr> system to keep up with the multiple conversions that occur during the distribution of present-day titles makes its reception and survival vulnerable. Separate <abbr>ISBN</abbr>s do facilitate the discoverability of various file formats and resolve digital rights management issues, but they do not link different versions of an e-book title. Currently, to avoid fragmentation, publishers count on libraries and electronic platforms to employ internal work identifiers or an <abbr>ISBN</abbr> database to match and link the various forms of a given work. Interoperability is limited, however, and identifiers and databases do not enable cross-platform discoverability. In fact, in its present state the <abbr>ISBN</abbr> identifier of e-books actually impedes content: if an <abbr>ISBN</abbr> does not identify different versions and editions of books, then an understanding of the life cycle of a book—from print to digital, and from digital to various digital packages and formats—is unavailable. If that life cycle is not available to readers, the book’s identification is unavailable as well.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Between Book and Work: The <abbr>ISTC</abbr> Is Born</head>
+                    <p xml:id="p1194">
+                        <ref target="#technology">
+                            <ref target="#theory">Traditional cataloguing theory has a rich history of developing and refining the concepts of textual production and reception, a vital distinction in a world where <q>book</q> may begin to take on new meanings in the digital world.<note xml:id="n61" place="end">For the differences between <q>text,</q>
+                                    <q>data,</q> and <q>document,</q> see Buckland.</note>
+                            </ref> Indeed, a digital project may involve more than one print book, more than one work (for example, a digitized print book or a born-digital text), or a cross-media conversion of a text. <ref target="#theory">
+                                <ref target="#textual_agency">
+                                    <ref target="#spatiality">In his <date cert="high" when="2001">2001</date> publication, <title level="m">The Nature of <q>A Work</q>: Implications for the Organization of Knowledge</title>, <persName>Richard P. Smiraglia</persName> uses semiotics to advance the understanding of the social role of works and, building on <persName>Birger Hjørland</persName>’s epistemological stances, he delineates the spatial separation between <q>text,</q>
+                                        <q>document,</q> and <q>work</q>
+                                    </ref>: <q>A text is the set of words that constitute a writing. A text is not the same as a document, which is the physical container (an item) on which the text is recorded….A work is the set of ideas created probably by an author or perhaps a composer, or other artist, set into a document using text, with the intention of being communicated to a receiver….A work may have many texts and may appear in many different documents</q>
+                                    <note place="inline">
+                                        <bibl>
+                                            <title level="m">Nature</title> 3–4</bibl>
+                                    </note>. Smiraglia goes on to point out the necessity of establishing and tracking relationships between works. He divides these relationships into two categories: equivalence relationships that exist among copies of an item (for example, a book and its microform reproductions); and derivative relationships that exist among variations of a work (for example, editions and translations) <note place="inline">
+                                        <bibl>
+                                            <title level="a">Progress</title> 345</bibl>
+                                    </note>. Smiraglia further delineates derivative relationships as either derivations or mutations:</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <q type="block">
+                        <ref target="#textual_agency">
+                            <ref target="#theory">
+                                <ref target="#theme_or_topic">Derivation may take one or more forms: 1. Simultaneous editions; 2. Successive editions; 3. Amplifications; or, extractions….In these categories the work derives culturally over time, but ideational and semantic content do not change. Mutations may take one or more forms as well: 1. Translations; 2. Adaptations; 3. Performances. In these categories the ideational and semantic content have mutated to some degree. The relations among the exemplars of a work constitute a network of textual identity. <note place="inline">
+                                        <bibl>
+                                            <title level="a">Works as Signs</title> 199–200</bibl>
+                                    </note>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </q>
+                    <p xml:id="p1195">
+                        <ref target="#textual_agency">
+                            <ref target="#writing_climate">
+                                <ref target="#theory">As Smiraglia notes, because works are used to communicate new knowledge and exist in a social world, a work’s meaning is not chained to an <q>existential anchor</q>
+                                    <note place="inline">
+                                        <bibl>
+                                            <title level="a">Works as Signs</title> 193</bibl>
+                                    </note>—it is subject to ever-changing reception principles and continuous reinterpretation in evolving cultures. Simply, a work is an instantiation—a manifestation of a specific point in time—or, as <persName>Susan Schreibman</persName> writes, any text (or paratext<note xml:id="n62" place="end">For a discussion of paratext, see <bibl>
+                                            <persName>Genette</persName>
+                                        </bibl>.</note>) is <q>a temporal artefact reflecting both the prehistory of the most contemporary instantiation of the work and a post-history of previous instantiations</q>
+                                    <note place="inline">
+                                        <bibl>291</bibl>
+                                    </note>.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1196">
+                        <ref target="#technology">
+                            <ref target="#theory">
+                                <ref target="#place_of_publication">These theoretical underpinnings developed independently of the commercial book trade, but they became practical as it became clear that <abbr>ISBN</abbr>s were no longer adequate descriptors of commercial e-books. Users and the publishing industry grew increasingly frustrated by the fact that e-books do not fit the mould of discrete objects imposed by the <abbr>ISBN</abbr> system—e-books neither maintain their integrity, nor lend themselves in a simple way to conventional citation systems. As a result, the publishing industry began investigating other ways to identify e-books, and the <abbr>ISTC</abbr> soon emerged as a possible solution. <abbr>ISTC</abbr> is a new identifier for the book industry and has great potential for non-commercial text-based digitization projects. Whereas an <abbr>ISBN</abbr> provides a unique identity in the supply chain for each product format, either as a physical product (a hardback or paperback) or digital product or format (a downloadable audiobook or <abbr>PDF</abbr> e-book), an <abbr>ISTC</abbr> identifies the underlying creative textual work and the discrete results of creative and/or intellectual effort expressed as text. These works may include illustrations, but works that are predominantly illustrations—books of photographs with minimal text—are not eligible for <abbr>ISTC</abbr>. Graphic versions of novels, comics, cartoons, and manga are eligible, but the <abbr>ISTC</abbr> identifies only the textual element of these works, not the images.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1197">
+                        <ref target="#manuscript history">The <abbr>ISTC</abbr> standard is governed in a manner similar to <abbr>ISBN</abbr>. The <orgName>International <abbr>ISTC</abbr> Agency</orgName> licenses registration agencies to manage the allocation of identifiers. One notable identifier is the <q>derivation</q> field. For the purposes of assigning an <abbr>ISTC</abbr> to a work, a derivation (or a derived work) is one that is sufficiently different to be distinguishable from manifestations of the work from which it is derived. For instance, a numbered edition of an original work (a second edition, for example) is a derivation. There are various derivation types: abridged, annotated, compiled, critical, excerpted, expurgated, nontext added or revised, revised, translated, adapted, unspecified <note place="inline">
+                                <bibl>
+                                    <persName>Holdsworth</persName> 13–14</bibl>
+                            </note>.</ref>
+                    </p>
+                    <p xml:id="p1198">
+                        <ref target="#technology">
+                            <ref target="#intertextuality">
+                                <ref target="#intellectual_history">Although <abbr>ISTC</abbr> was released at the end of <date cert="high" when="2009">2009</date>, its implementation has been slow</ref>. This is unfortunate, as it is a promising identifier that is able to characterize relationships between works. In fact, relationships between different <abbr>ISTC</abbr>s provide as much value as the <abbr>ISTC</abbr> identifier itself, as they create connections between various life stages of a work and can facilitate the clustering of works. In the publishing world, for instance, an <abbr>ISTC</abbr> for an illustrated edition of a work and an <abbr>ISTC</abbr> for the original work can create a relationship that would easily reflect the insertion or deletion of non-textual components. Due to the flexibility of its <abbr>ONIX</abbr> (<hi rend="small-caps">on</hi>line Information eXchange)-based schema, <abbr>ISTC</abbr> can be extended to digital projects outside the commercial world, and the relationships that <abbr>ISTC</abbr> establishes would prove invaluable to humanities scholars seeking to follow texts through various permutations and adaptations. <ref target="#intertextuality">One need only think of a popular work such as <persName>Lewis Carroll</persName>’s <title level="m">Alice in Wonderland</title> to recognize the potential of such an identifier. Discovery of all the projects that make use of different elements or editions of such a work to create a new instantiation of part or all of its identity would change the face of <title level="m">Alice</title> scholarship. A determined scholar might, for instance, track the work from its original (pre-digital and pre-<abbr>ISBN</abbr>) publication through the hundreds of editions, expansions, contractions, and adaptations of <title level="m">Alice in Wonderland</title> over the past century (from annotated, critical, abridged, and illustrated editions to film script to stage play).</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1199">
+                        <ref target="#technology">
+                            <ref target="#theory">The <abbr>ONIX</abbr>-based schema of the <abbr>ISTC</abbr>
+                                <note place="inline">
+                                    <bibl>see Appendix, this chapter</bibl>
+                                </note> has two distinct advantages for the humanities scholar in that is does not establish preference for one version over another, and it does not relegate the identity of a work to a specific home. Instead, the <abbr>ISTC</abbr> system connects and associates works strictly according to content. As a global unique identifier, an <abbr>ISTC</abbr> makes it clear to users which expression of the work is being used where and by whom—without prejudice. The <abbr>ISTC</abbr> also frees readers, scholars, and editors from the mistaken perception of print editions as always being the <q>source</q> or <q>original work,</q> a perception that is no longer tenable in the <date cert="high" from="2001-01-01" to="2100-12-31">twenty-first century</date>.<note xml:id="n63" place="end">
+                                    <persName>Paul Fyfe</persName> recently suggested that universal identifiers and automated resolutions are the twin arms of a new system of bibliographic control and, as such, they may resuscitate an editorial idealism, since <q>the automation of correction can displace editorial judgments into the synthetic functions of server polling or algorithms whose logic may be increasingly difficult to extract or kept private by commercial entities</q>
+                                    <note place="inline">
+                                        <bibl>274</bibl>
+                                    </note>. <ref target="#collaboration">At the same time, Fyfe notes, an international digital identifier suggests editorial forgiveness, where editing can become seamless in a web of copy. Thus, he connects identifiers with the invisible life cycle of a digital work and suggests that identifiers are meaningful not only in supplying metadata for a work but in assigning specific objects. For Fyfe, the work thereby is transformed from an abstraction to an object with a unique name that cannot be duplicated, even in digital reproduction.</ref>
+                                </note>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Identity and Sameness: <title level="j">The Canadian Bookman</title> as a Test Case for <hi rend="sc-italic">istc</hi> Registration</head>
+                    <p xml:id="p1200">
+                        <ref target="#intellectual_history">
+                            <ref target="#genre_journalism">The <title level="j">Canadian Bookman</title> was a specialized periodical with a focus on books and authors, literary criticism, publishing, bookselling, and libraries. <ref target="#place_of_publication">The <title level="j">Bookman</title> commenced publication in <date cert="high" when="1909">1909</date> in <placeName>Toronto</placeName> as a monthly review of contemporary literature devoted to the interests of the Canadian book buyer.</ref> It published until <date cert="high" when="1914">1914</date> and re-emerged in <date cert="high" when="1915">1915</date> as the <title level="j">Canadian Bookseller and Library Journal</title>. It changed its name to <title level="j">Canadian Bookman</title> in <date cert="high" when="1919">1919</date> and published continuously until the October–November issue of <date cert="high" when="1941-10">1941</date>.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1201">
+                        <ref target="#technology">
+                            <ref target="#genre_journalism">The <title level="j">Canadian Bookman</title> digital edition project is hosted by <orgName>
+                                    <abbr>CWRC</abbr>
+                                </orgName> and uses <abbr>ISTC</abbr> registration to accomplish two primary objectives. The first objective is to enable cross-platform discovery of the project, in which readers are exposed to related projects and other digital copies of the <title level="j">Canadian Bookman</title> available on the web. The second objective of <abbr>ISTC</abbr> registration is to describe the serial’s paratextual elements, specifically advertisements, in order to move beyond basic encoding strategies to represent the relationship between works and advertisements.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1202">
+                        <ref target="#genre_journalism">
+                            <ref target="#history">
+                                <ref target="#economics">
+                                    <ref target="#literary_schools">Periodical publishing was profoundly affected by mass production during the rise of modernism.</ref> Publishers then (as now) had to increase advertising space to lower the price of subscriptions and widen the dissemination of periodicals. This created an economic dependency on advertising revenues.</ref> Drawing on <persName>Jerome McGann</persName>’s assertion that both the work’s words (<q>linguistic codes</q>) and its physical features (the <q>bibliographical code</q>) <note place="inline">
+                                    <bibl>56</bibl>
+                                </note> transmit meaning, <orgName>
+                                    <abbr>CWRC</abbr>
+                                </orgName>’s <title level="j">Canadian Bookman</title> project contends that advertisements exceed their commercial dimension to become an intrinsic textual feature of the periodical.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1203">
+                        <ref target="#theme_or_topic">
+                            <ref target="#non-book_media">
+                                <ref target="#genre_journalism">The functioning of advertisements as optical codes that guide reading has long been overlooked. <ref target="#literary_schools">Indeed, modernism tended to privilege the notion of an autonomous work and focused primarily on aesthetic features. The dismissal of advertisements as insignificant has resulted in the removal of advertisements from some modernist literary periodicals during the process of library rebinding. That incision prevents today’s readers from accessing the vast bibliographical knowledge that positions the literary work as a historicized object, as well as an aesthetic one.</ref> For instance, book advertising has changed over time and advertisements show how publishers viewed books in previous decades. Were those publishers selling books as physical objects? The content of books? The emotional experience of reading? Advertisements also act as gateways to the network of publishers, editors, typesetters, and advertising agencies associated with Canadian book publishing. Further, by modifying the original context in which a literary text was read, the work’s social dimensions are lost, the reading event—as well as the reader’s interpretation of the text—altered. <ref target="#authorship">The careers of many Canadian writers began in Canadian periodicals, for example, and advertisements that shared layout with short stories and poems have a bearing on the work, its evolution, and its life span. In fact, the digitization of the <title level="j">Canadian Bookman</title>—with a strong research emphasis on the juxtaposition of early literary works alongside advertisements—could reframe the reading event and influence anew the interpretation of literary texts.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1204">
+                        <ref target="#non-book_media">
+                            <ref target="#genre_journalism">In order to transcribe, annotate, and represent advertisements as extra-textual cues, and analyze how they serve to alter the reading event and a reader’s interpretation of literary texts, it is necessary to consider layout as a discursive system. Dissecting a periodical’s page (including the physical placement of advertisements on the page) will help determine the authoritative value of the physical proximity of advertisements to a literary work and their role in the production of literary meaning.<ref target="#technology" />
+                                <orgName>
+                                    <abbr>CWRC</abbr>
+                                </orgName>’s <title level="j">Canadian Bookman</title> project, in its initial stages, aims to look at the historical and bibliographical information connected to advertisements in each issue of the periodical (specifically, the people responsible for each advertisement, including the publisher, copywriter, printer, and consumers).</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1205">
+                        <ref target="#technology">
+                            <ref target="#genre_journalism">
+                                <ref target="#methodology">Before this in-depth identification of the periodical can take place, however, a full run of the journal had to be located and the paper issues scanned with optical character recognition (<abbr rend="small-caps">ocr</abbr>) software to convert them into workable files</ref>. <ref target="#spatiality">Some issues of the <title level="j">Canadian Bookman</title> were located at the <orgName>Thomas Fisher Rare Book Library</orgName> of the <orgName>University of Toronto</orgName> and others were found at the <orgName>E.J. Pratt Library of Victoria University</orgName> in the <orgName>University of Toronto</orgName>.</ref>
+                                <ref target="#archive">After librarians closely supervised the scanning of the fragile paper issues of the <title level="j">Canadian Bookman</title>, the journal was mounted on the <title level="m">Internet Archive</title> website (http://archive.org) where only those issues that are out of copyright are available. The <orgName>CWRC</orgName> project aims to put the full run of the <title level="j">Canadian Bookman</title> online, but there are ongoing Canadian copyright considerations for many of the issues, and all issues from <date cert="high" from="1923" to="1941">1923 to 1941</date> have been dark archived (i.e., the content has been preserved but has not been granted public access) until copyright is secured.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1206">
+                        <ref target="#technology">
+                            <ref target="#genre_journalism">A digital edition of the <title level="j">Canadian Bookman</title> will be used for the purpose of researching the relationship between advertisements and related works, and a digital edition with annotations and related research findings and materials will be created. Thus, almost a century after it ceased publication, renewed interest in the <title level="j">Canadian Bookman</title> has already begun to create at least three new instantiations of this work. <ref target="#archive">First, a complete run of the journal was scanned for the <title level="m">Internet Archive</title> where, unlike the print-based collections, the periodical issues were brought together as a single new digital object. Second, a digital edition of those issues out of copyright now appears on the <abbr>
+                                        <orgName>CWRC</orgName>
+                                    </abbr> website—a new event and format for this periodical that is now partly available via electronic devices. Since neither of these events changed either the content of the work or the texts associated with it, it would be appropriate to assign one <abbr>ISTC</abbr> number to both instantiations. Third, the annotated edition that is planned for the complete <abbr>CWRC</abbr> edition will derive from the scanned and print-based work.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1207">
+                        <ref target="#technology">
+                            <ref target="#genre_journalism">
+                                <ref target="#editions">
+                                    <ref target="#theme_or_topic">Several questions arise from these digitizations of <title level="j">Canadian Bookman</title>. One must ask, for example, whether these scanned versions should be registered as the original work. There is no easy answer to this probing question. If paratexts inform the work—as I believe they do—scanning and presenting on the web only those periodical issues that are free of copyright shifts the work away from its original, print-based state. But in what way has the periodical been derived from the original? Is it in a manner that justifies a different identifier? Does <q>original</q> refer to an individual issue (or the texts within that issue) or the complete run of <title level="j">Canadian Bookman</title>? This matter is complicated further by the fact that a significant amount of content in the full run has Canadian copyright issues that may prevent its inclusion in the final digital edition. Moreover, serials differ from monographs, and one may wonder whether separate registration of each issue accurately reflects the intention of its editors (both the editors of the original print run and the current digitization). In other words, how a work is divided and identified has much to do with editorial considerations and not only with the management of digital content.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1208">
+                        <ref target="#technology">The digitization of source materials, particularly for long-term curation and distribution in open formats, requires the use not only of regular and progressive naming systems but also unique global digital identifiers.<ref target="#non-book_media"> At times, digital identifiers may seem restrictive, especially to users who focus on content over the management of digital objects, for example. And yet, digital identifiers can and should be examined as attributes of textual manifestation. How do digital identifiers fit into frequently debated issues, such as how an infrastructure can be built to support the creation of <q>true</q> digital critical editions, and what constitutes a <q>digital critical edition</q>? <persName>Christine Borgman</persName> has noted the continuing importance of access to various editions of a text, commenting that humanities scholars and students make <q>the finest distinctions among editions, printings, and other variants—distinctions that are sometimes overlooked in the transition from print to digital form</q>
+                                <note place="inline">
+                                    <bibl>Borgman 12</bibl>
+                                </note>. <ref target="#editions">In their discussion of multi-texts and digital editions, <persName>Christopher Blackwell</persName> and <persName>Gregory Crane</persName> offer an overview of digital editions and what an ideal digital library infrastructure might provide:</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <q type="block">
+                        <ref target="#editions">Digital editions are designed from the start to include images of the manuscripts, inscriptions, other source materials, not only those available when the editor is at work but those which become available even after active work on the edition has ceased.…Even if we do not yet have an internationally recognized set of electronic identifiers for manuscripts, the print world has often produced unique names (e.g., <hi rend="small-caps">library</hi> + <hi rend="small-caps">number</hi>) that can later be converted into whatever standard identifiers appear. <note place="inline">
+                                <bibl>
+                                    <persName>Blackwell</persName> and <persName>Crane</persName> par. 62</bibl>
+                            </note>
+                        </ref>
+                    </q>
+                    <p xml:id="p1209">
+                        <ref target="#editions">
+                            <ref target="#technology">Instead of relying on unique names from the print world, as <persName>Blackwell</persName> and <persName>Crane</persName> suggest, using a global unique identifier, such as <abbr>ISTC</abbr>, at the work level will retain the distinctions among the various versions, editions, and derivations of texts. These identifiers will secure the discoverability of the works on a cross-platform level, since there is no single infrastructure or tool that is used in the field. Moreover, not only will registration of global unique identifiers make use of an identifier system that takes advantage of recent developments in the <orgName>Semantic Web</orgName>
+                            </ref>;<note xml:id="n64" place="end">
+                                <ref target="#technology">
+                                    <ref target="#theory">The Semantic Web relies on rules of inference that create a pathway between different data sets. Instead of looking for specific metadata filled with specific words, the Semantic Web uses objects to find specific data that include the rules of inference-objects that will make it possible for a researcher to find the precise document or data set necessary for a given project. At present, however, encoding language such as Extensible Markup Language (<abbr>XML</abbr>) and Text Encoding Initiative (<abbr>TEI</abbr>) does not yet respond to technologies and standards that identify the semantics of document contents, even when Document Type Definition (<abbr>DTD</abbr>) is available. An additional level of discoverability is needed in order to capture the relationship between entities, <abbr>RDF</abbr> for example, or, as suggested here, object identifiers that capture the relationship between objects on a semantic level.</ref>
+                                </ref>
+                            </note>
+                            <ref target="#technology">it will unveil to the reader all the critical decisions of a scholarly editor and serve to underline the importance of better representing the complicated nature of textual sources, variants, and their textual transmission. Models that advocate for the inclusion of all the raw data (page images and transcriptions, for example), previous editions, and scholarship on which an edition is based illustrate the important need for all digital scholarship—whether it be the creation of an archaeological reconstruction or a digital edition—to be recognized as an interpretative act.</ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Conclusion</head>
+                    <p xml:id="p1210">
+                        <ref target="#theory">Currently, because of its ability to rise above format, owners, and other issues to represent a more abstract identity of a work and thus enable access to the work’s relatives close and far, <abbr>ISTC</abbr> is the best option for an international identifier system. Assigning an identifier that is at once international and different from any current mode of automatically assigning object identification in a local database has many advantages.</ref>
+                    </p>
+                    <p xml:id="p1211">
+                        <ref target="#theory">In the future, it may be that scholarly communities, which include digital humanists, will develop a global unique identifier system that will support more adequately the open access paradigm and the non-commercial nature of their various projects. But until such a system is fully investigated and developed, the global unique identifier registry service <abbr>ISTC</abbr> can serve ongoing projects by distinguishing their content from that of previous and future scholarly editions and digital undertakings.</ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <p xml:id="p1212">Appendix</p>
+                    <figure>
+                        <head>Appendix</head>
+                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A1db280e3-4c6a-4c99-80c8-ef1f097818c6/datastream/JPG-DToC/view" />
+                        <figDesc>
+                            <hi rend="small-caps">
+                                <abbr>ISTC</abbr> ONIX</hi> Record for the <title level="j">Canadian Bookman</title>
+                        </figDesc>
+                    </figure>
+                </div>
+                <div type="section">
+                    <head>Works Cited</head>
+                    <listBibl>
+                        <bibl>Blackwell, Christopher, and Gregory Crane. <title level="a">Conclusion: Cyberinfrastructure, the Scaife Digital Library and Classics in a Digital Age.</title>
+                            <title level="j">
+                                <abbr>dhq</abbr>: Digital Humanities Quarterly</title> 3 (2009). <ref target="http://www.digitalhumanities.org/dhq/vol/3/1/000035.html">http://www.digitalhumanities.org/dhq/vol/3/1/000035.html</ref>
+                        </bibl>
+                        <bibl>Borgman, Christine L. <title level="a">The Digital Future Is Now: A Call to Action for the Humanities.</title>
+                            <title level="j">
+                                <abbr>dhq</abbr>: Digital Humanities Quarterly</title> 3 (2009). <ref target="http://works.bepress.com/cgi/viewcontent.cgi?article=1232&amp;context=borgman">http://works.bepress.com/cgi/viewcontent.cgi?article=1232&amp;context=borgman</ref>
+                        </bibl>
+                        <bibl>Buckland, Michael K. <title level="a">Information as Thing.</title>
+                            <title level="j">Journal of the American Society for Information Science </title>42.5 (1991): 351–60.</bibl>
+                        <bibl>Fyfe, Paul. <title level="a">Electronic Errata: Digital Publishing, Open Review, and the Futures of Correction.</title>
+                            <title level="m">Debates in the Digital Humanities</title>. Ed. Matthew Gold. Minneapolis: University of Minnesota Press, 2012. 259–80.</bibl>
+                        <bibl>Genette, Gerard. <title level="m">Paratexts: Thresholds of Interpretation</title>. Trans. Jane E. Lewin. Cambridge: Cambridge University Press, 1987.</bibl>
+                        <bibl>Guarino, Nicola. <title level="a">The Role of Identity Conditions in Ontology Design.</title>
+                            <title level="m">Proceedings of the International Conference on Spatial Information Theory: Cognitive and Computational Foundations of Geographic Information Science</title>. Ed. Christian Freska and David M. Mark. Berlin: Springer-Verlag, 1999. 221–34.</bibl>
+                        <bibl>Holdsworth, Michael. <title level="m">The International Standard Text Code (<abbr rend="sc-italic">istc</abbr>): A Work in Progress. A Supply Chain Perspective</title>. Book Industry Study Group and Book Industry Communication. March 2010. <ref target="http://www.bic.org.uk/files/pdfs/100401%20ISTC%20for%20BIC-BISG%20bic%20Final%20corrected.pdf">http://www.bic.org.uk/files/pdfs/100401%20ISTC%20for%20BIC-BISG%20bic%20Final%20corrected.pdf</ref>
+                        </bibl>
+                        <bibl>
+                            <orgName>International <abbr>ISBN</abbr> Agency</orgName>. <title level="m">Summary of Business Requirements Study on <abbr rend="sc-italic">isbns</abbr> &amp; E-books</title>. International <abbr>ISBN</abbr> Agency. December 2010. <ref target="http://api.ning.com/files/LyejPys2drPkZNQ1Pa59D*u-jaHaH24zdVRH3gvMXRmdABiCvPXYKt2bj*qgs*o4JjjGrNDMNs4IFTFV5ES9N*I8gw5PDYGQ/isbnebooksstudypublicsummary110105.pdf">http://api.ning.com/files/LyejPys2drPkZNQ1Pa59D*u-jaHaH24zdVRH3gvMXRmdABiCvPXYKt2bj*qgs*o4JjjGrNDMNs4IFTFV5ES9N*I8gw5PDYGQ/isbnebooksstudypublicsummary110105.pdf</ref>
+                        </bibl>
+                        <bibl>
+                            <title level="m">Internet Archive</title>. <ref target="http://archive.org">http://archive.org</ref>
+                        </bibl>
+                        <bibl>Jones, Maggie, and Neil Beagrie. <title level="m">Preservation Management of Digital Materials: A Handbook</title>. London: British Library, 2001.</bibl>
+                        <bibl>Kirschenbaum, Matthew G., Richard Ovenden, Gabriela Redwine, and Rachel Donahue. <title level="m">Digital Forensics and Born-Digital Content in Cultural Heritage Collections</title>. Council on Library and Information Resources, Washington, DC. December 2010. <ref target="http://www.clir.org/pubs/reports/pub149/reports/pub149/pub149.pdf">http://www.clir.org/pubs/reports/pub149/reports/pub149/pub149.pdf</ref>
+                        </bibl>
+                        <bibl>McGann, Jerome. <title level="m">The Textual Condition</title>. Princeton: Princeton University Press, 1991.</bibl>
+                        <bibl>Paskin, Norman. <title level="a">Components of <abbr>DRM</abbr> Systems.</title>
+                            <title level="m">Digital Rights Management: Technological, Economic, Legal and Political Aspects</title>. Ed. Eberhard Becker, Willms Buhse, Dirk Günnewig, Neils Rump. Berlin: Springer-Verlag, 2003. 26–61.</bibl>
+                        <bibl>. <title level="a">Digital Object Identifiers.</title>
+                            <title level="j">Information Services and Use </title>22 (2002): 97–112.</bibl>
+                        <bibl>. <title level="a">On Making and Identifying a <q>Copy.</q>
+                            </title>
+                            <title level="j">D-Lib Magazine </title>9.1 (January 2003). <ref target="http://www.dlib.org/dlib/april06/paskin/04paskin.htmldoi:10.1045/april2006-paskin">http://www.dlib.org/dlib/april06/paskin/04paskin.htmldoi:10.1045/april2006-paskin</ref>
+                        </bibl>
+                        <bibl>Renear, Allen, and David Dubin. <title level="a">Towards Identity Conditions for Digital Documents.</title>
+                            <title level="m">Proceedings of the 2003 International Conference on Dublin Core and Metadata Applications: Supporting Communities of Discourse and Practice—Metadata Research and Applications</title>. Dublin: Dublin Core Metadata Initiative, 2003. 181–89.</bibl>
+                        <bibl>Schreibman, Susan. <title level="a">Computer-mediated Texts and Textuality: Theory and Practice.</title>
+                            <title level="j">Computers and the Humanities </title>36 (2002): 283–93.</bibl>
+                        <bibl>Smiraglia, Richard P. <title level="m">The Nature of <q>A Work</q>: Implications for the Organization of Knowledge</title>. Lanham, MD: Scarecrow Press, 2001.</bibl>
+                        <bibl>. <title level="a">The Progress of Theory in Knowledge Organization.</title>
+                            <title level="j">Library Trends</title> 50.3 (2002): 330–49.</bibl>
+                        <bibl>. <title level="a">Works as Signs, Symbols, and Canons: The Epistemology of the Work.</title>
+                            <title level="j">Knowledge Organization </title>28.4 (2001): 199–200.</bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

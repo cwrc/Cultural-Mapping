@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>-->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">How to Play with Maps</title>
+                <title level="m" type="main" xml:lang="en-CA">Cultural Mapping and the Digital Sphere</title>
+                <title level="m" type="sub" xml:lang="en-CA">Place and Space</title>
+                <author>Bethany Nowviskie</author>
+                <editor role="editor">
+                    <forename>Ruth</forename>
+                    <surname>Panofsky</surname>
+                </editor>
+                <editor role="editor">
+                    <forename>Kathleen</forename>
+                    <surname>Kellett</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <forename>Ilovan</forename>
+                    </name>
+                </respStmt>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor>
+                    <orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Dynamic Table of Contexts editors: </resp>
+                    <name>
+                        <forename>Ruth</forename>
+                        <surname>Panofsky</surname>
+                    </name>
+                    <name>
+                        <forename>Kathleen</forename>
+                        <surname>Kellett</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Principal: </resp>
+                    <name>
+                        <forename>Susan</forename>
+                        <surname>Brown</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <surname>Ilovan</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copyediting and proofreading: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Olivier</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexing:</resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name>
+                        <forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Cover design: </resp>
+                    <name role="book_designer">
+                        <forename>Virginia</forename>
+                        <surname>Penny</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface design lead: </resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead: </resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>Mary Lou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer:</resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by: </resp>
+                    <name role="markup_editor">
+                        <forename>Kristine</forename>
+                        <surname>Abramoff</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Anita</forename>
+                        <surname>Cutic</surname>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address>
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address>
+                        <addrLine>www.cwrc.ca</addrLine>
+                    </address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1- 55195-365- 6</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Individual chapter extract from: Cultural Mapping and the Digital Sphere: Place and Space, ed. Ruth Panofsky &amp; Kathleen Kellett (Edmonton: University of Alberta Press, 2015 / DToC ed. 2016).</p>
+                <ab type="host-volume">
+                    <listBibl>
+                        <bibl>
+                            <title level="a" type="main">Foreword</title>
+                            <author>
+                                <forename>Susan</forename>
+                                <surname>Brown</surname>
+                            </author> &amp; <author>
+                                <forename>Mary-Jo</forename>
+                                <surname>Romaniuk</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Preface</title>
+                            <author>
+                                <forename>Ruth</forename>
+                                <surname>Panofsky</surname>
+                            </author> &amp; <author>
+                                <forename>Kathleen</forename>
+                                <surname>Kellett</surname>
+                            </author>
+                        </bibl>
+                        <listBibl>
+                            <head>Part I. Place and the Digital Frontier</head>
+                            <bibl>
+                                <title level="a" type="maiin">Mapping Tags and Tagging Maps</title>
+                                <title type="sub">Leveraging Spatial Markup for Literary History</title>
+                                <author>
+                                    <forename>Susan</forename>
+                                    <surname>Brown</surname>
+                                </author>, <author>
+                                    <forename>Isobel</forename>
+                                    <surname>Grundy</surname>
+                                </author>, <author>
+                                    <forename>Mariana</forename>
+                                    <surname>Paredes-Olea</surname>
+                                </author>, <author>
+                                    <forename>Jeffery</forename>
+                                    <surname>Antoniuk</surname>
+                                </author> &amp; <author>
+                                    <forename>Breanna</forename>
+                                    <surname>Mroczek</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Modeling Collaboration in Digital Humanities Scholarship</title>
+                                <title type="sub">Foundational Concepts of an EMiC UA Project Charter</title>
+                                <author>
+                                    <forename>Paul</forename>
+                                    <surname>Hjartarson</surname>
+                                </author>, <author>
+                                    <forename>Harvey</forename>
+                                    <surname>Quamen</surname>
+                                </author>, <author>
+                                    <forename>Andrea</forename>
+                                    <surname>Hasenbank</surname>
+                                </author>, <author>
+                                    <forename>Vanessa</forename>
+                                    <surname>Lent</surname>
+                                </author> &amp; <author>
+                                    <orgName> EMiC UA</orgName>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">An Interactive, Materialist-Semiotic Archive</title>
+                                <title type="sub">Visualizing the Canadian Theatrical Canon in the Simulated Environment for Theatre</title>
+                                <author>
+                                    <forename>Sasha</forename>
+                                    <surname>Kovacs</surname>
+                                </author> and <author>
+                                    <forename>Jennifer</forename>
+                                    <surname>Roberts-Smith</surname>
+                                </author>, <author>
+                                    <forename>Theresa M.</forename>
+                                    <surname>Dobson</surname>
+                                </author>, <author>
+                                    <forename>Sandra</forename>
+                                    <surname>Gabriele</surname>
+                                </author>, <author>
+                                    <forename>Omar</forename>
+                                    <surname>Rodrigues-Arenas</surname>
+                                </author>, <author>
+                                    <forename>Stan</forename>
+                                    <surname>Ruecker</surname>
+                                </author>, <author>
+                                    <forename>Stéfan</forename>
+                                    <surname>Sinclair</surname>
+                                </author>, <author>
+                                    <forename>Shawn</forename>
+                                    <surname>DeSouza-Coelho</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">"Talk to the Work"</title>
+                                <title type="sub">Applying istc Identifiers to the Digital Edition of the Canadian Bookman (1909–1941)</title>
+                                <author>
+                                    <forename>Ravit H.</forename>
+                                    <surname>David</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">How to Play with Maps</title>
+                                <author>
+                                    <forename>Bethany</forename>
+                                    <surname>Nowviskie</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Edmonton Pipelines</title>
+                                <title type="sub">Living and Playing in the Digital City </title>
+                                <author>
+                                    <forename>Heather</forename>
+                                    <surname>Zwicker</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Representing Canadian Queer Authorship</title>
+                                <title type="sub">Making the Internet a Women’s Place</title>
+                                <author>
+                                    <forename>Michelle</forename>
+                                    <surname>Schwartz</surname>
+                                </author> &amp; <author>
+                                    <forename>Constance</forename>
+                                    <surname>Crompton</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Part II. Writers and Readers: Mapping Textual Space</head>
+                            <bibl>
+                                <title level="a" type="main">Salomania</title>
+                                <title type="sub">Maud Allan, Postcards, and Early Twentieth-Century “Viral” Circulation</title>
+                                <author>
+                                    <forename>Cecily</forename>
+                                    <surname>Devereux</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Toronto the Good in the Fiction and Life of Grace Irwin</title>
+                                <author>
+                                    <forename>Patricia</forename>
+                                    <surname>Demers</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">« Where are you froM? »</title>
+                                <title type="sub" xml:lang="fr-CA">La ville et l’écriture migrante dans l’autofiction de Marguerite Andersen</title>
+                                <author>
+                                    <forename>Kathleen</forename>
+                                    <surname>Kellett</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Languages as Spaces, Translation as Play</title>
+                                <title type="sub">Moving (through) Languages</title>
+                                <author>
+                                    <forename>Lori</forename>
+                                    <surname>Saint-Martin</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">L'espace ensorcelé</title>
+                                <title type="sub">Les enfants du sabbat d’Anne Hébert</title>
+                                <author>
+                                    <forename>Stéphanie</forename>
+                                    <surname>Walsh Matthews</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick and Kim Thúy</title>
+                                <author>
+                                    <forename>Mireille</forename>
+                                    <surname>MaiTruong</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Standing on a Rainbow</title>
+                                <title type="sub">Reading in Place, Position, and Time</title>
+                                <author>
+                                    <forename>Margaret</forename>
+                                    <surname>Mackey</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <bibl>
+                            <title type="main" xml:lang="en-CA">Contributors</title> / <title type="main" xml:lang="fr-CA">Collaborateurs</title>
+                        </bibl>
+                    </listBibl>
+                </ab>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p />
+            </projectDesc>
+            <classDecl>
+                <taxonomy>
+                    <desc>Semantic tags employed in this book can be reviewed at <ref target="http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml">http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml</ref>
+                    </desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-CA">English</language>
+                <language ident="fr-CA">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline />
+                <item />
+                <index>
+                    <term />
+                </index>
+                <byline />
+                <index>
+                    <term />
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:lang="en-CA">
+                <head>
+                    <title level="a">How to Play with Maps</title>
+                </head>
+                <docAuthor>Bethany Nowviskie</docAuthor>
+                <p xml:id="p1214">
+                    <ref target="#intertextuality">
+                        <ref target="#education">The title of this chapter is a nod to Mark Monmonier’s influential 1991 volume, <title level="m">How to Lie with Maps</title>, a book that raised the cartographic awareness of a generation of university students, particularly in the social sciences where the stakes can be quite high for uncritical reading of graphs and images. Monmonier examines the complex rhetoric of contemporary mapmaking in the age of print journalism and pre-web mass media.</ref>
+                        <ref target="#technology">His book provides a cautionary tour through the variety of expressive approaches that cartographers and the designers of geospatial infographics were using on the cusp—but not quite the bloom—of interactive digital mapping. In essence, it is a survey of print-based designs that produce geospatial un-truths in exactly those situations where truth is implied or expected.</ref> In other words, Monmonier looks at mappy, newsprint versions of a progression Mark Twain is said to have named <q>lies, damned lies, and statistics.</q>
+                    </ref>
+                </p>
+                <p xml:id="p1215">
+                    <ref target="#technology">
+                        <ref target="#methodology">
+                            <ref target="#spatiality">
+                                <ref target="#theme_or_topic">But one cannot <q>play with maps</q> without playing with the truth. That is because we approach most geospatial visualizations with two strong assumptions that contribute to the power and supposed (strangely unquestioned) universality of digital mapping. The first assumption is that—unless otherwise explicitly signalled as fiction, farce, or allegory—solid, real-world referents underlie everything we see in maps. The second is that certain uniformities of scale and symbology exist within a single map—that is, cartographers maintain reasonable continuities in the relation of design to reality. Mapping embeds the tacit promise that <q>you are here</q> means something practical, and that the rules of any game of representation will never be changed in the middle of a street grid.</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1216">
+                    <ref target="#education">Humanities scholars know, however, that ludic fictions are among our surest avenues to deep understanding of culture, aesthetics, and the human psyche—to the interpretive outcomes that matter to us. In other scholarly disciplines, <q>playing</q> with maps might be seen as junk science or, worse, outright deception and abuse. In contrast, scholars of literature and the arts are free to validate, investigate, and even perpetrate the telling of delightful lies.</ref>
+                </p>
+                <p xml:id="p1217">
+                    <ref target="#technology">
+                        <ref target="#theme_or_topic">
+                            <ref target="#education">
+                                <ref target="#spatiality">In this chapter—originally conceived as a keynote presentation for the Canadian Writing Research Collaboratory conference on space, place, and play—I seek to promote wise foolishness in the spatial humanities. I intend to interrogate the bases of digital mapping and of engagement with geospatial information tools and systems (that is, with analytical <abbr>GIS</abbr>) as we have received those technologies from the sciences, and from more mimetic disciplines like landscape architecture and urban planning. Further, I hope to encourage and enable digital humanists to play with maps. By implication, that means to toy with (and maybe even subvert) established technological systems of production and dissemination of digital maps. Those twinned areas of praxis and inquiry, for my purposes, require much attention and work—and there is no denying that play elicits humanists’ best work.</ref>
+                                <ref target="#manuscript_history">
+                                    <ref target="#childhood">At the heart of this essay is a set of historical maps by a fourteen-year-old girl from 1820s New England. I will offer Frances Henshaw and her cartographic method as our guide to a twenty-first-century humanities <abbr>GIS</abbr>
+                                    </ref>
+                                </ref>. <ref target="#theme_or_topic">First, however, I must address an opportunity and its disciplinary context</ref>.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1218">
+                    <ref target="#education">
+                        <ref target="#intellectual_history">It is clear that we operate today from within the arc of a methodological turn in humanities scholarship. <ref target="#collaboration">
+                                <ref target="#methodology">The work my colleagues and I in the Scholars’ Lab have undertaken recently, from our location in a centre for digital study strategically embedded within the University of Virginia research library, aims to help us round that bend—that is, to prepare our archives and digital services to meet the humanities researchers we see moving, in increasing numbers, away from abstract, theoretical engagement with texts, images, and objects toward hands-on analysis, materialized synthesis, and active representation and manipulation of the cultural record. This work is not uncritical. It is theoretically informed, but it is also procedural and generative—hacked and made. And it is acutely aware of its relationship to traditional methods in the interpretive humanities.</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1219">
+                    <ref target="#methodology">
+                        <ref target="#intellectual_history">
+                            <ref target="#technology">
+                                <ref target="#spatiality">It is no surprise that the methodological turn is happening parallel to (or at least in a kind of parabolic synchronicity) a spatial turn in the humanities.</ref> Serious and growing scholarly engagement with <abbr>GIS</abbr> was virtually assured when the devices and interfaces of mapping technology became ubiquitous. We carry live links to global positioning systems in our pockets and embed them in our cars, we consult slippy maps on touchscreens before stepping outside for a walk, and we are coming to expect to be able to sort digital search results spatially and to access historical and real-time location information for a wide variety of data. If a particular datum can be mapped, we often feel annoyed when it has not yet been mapped. And although the spatial technologies of everyday life fuel some of our expectations (technologies like networked transportation and social media tools), it now seems obvious to us that mappable data points include more than busses and trains, family and friends, and related objects of our stalker-like affection.</ref>
+                            <ref target="#education">How could we, as humanities scholars, not expect that mapped information include our texts and objects of study, in the spatial contexts in which we find or place and interpret them?</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1220">
+                    <ref target="#technology">
+                        <ref target="#education">
+                            <ref target="#collaboration">
+                                <ref target="#theme_or_topic">
+                                    <ref target="#spatiality">The Scholars’ Lab at the University of Virginia Library has been busy in this arena. <ref target="#economics">Over the past few years, we have offered a variety of training programs for humanities scholars, software developers, and <abbr>GIS</abbr> librarians, including an Institute for Enabling Geospatial Scholarship funded by the National Endowment for the Humanities (NEH)</ref>. We have collaborated on presentational mapping and analytical <abbr>GIS</abbr> projects with University of Virginia faculty and with winners of our graduate fellowships in digital humanities. (In this program, nearly every applicant’s research project since 2007 has included some sort of spatial dimension.)</ref>
+                                    <ref target="#writing_climate">We have worked to make our collection of <abbr>GIS</abbr> data and scanned historical maps discoverable and freely available for use by scholars and developers in the most flexible way possible. Further, we have undertaken a project called Neatline, a set of open source, Omeka plug-ins for digital storytelling, <ref target="#economics">funded by the Library of Congress and <abbr>NEH</abbr>
+                                        </ref>. We are developing these tools so scholars can create their own selective, content-driven, and highly interpreted geotemporal expressions of collections that may be housed in libraries, museums, and archives, or which they assemble themselves with the aid of our Neatline software.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1221">
+                    <ref target="#technology">
+                        <ref target="#education">The Scholars’ Lab is a division of a major research library. That means it serves a very broad and interdisciplinary community that stretches well beyond the humanities.</ref>
+                        <ref target="#intellectual_history">
+                            <ref target="#theme_or_topic">But for me, trained as a textual critic, it is important to stop periodically to map our laboratory work in <abbr>GIS</abbr> onto my home discipline. It is fair to say that we are making local investments not so much in appreciation of the applicability of <abbr>GIS</abbr> to literary and bibliographical inquiry as it stands now, but rather in hopeful preparation: <ref target="#spatiality">to lay the groundwork for a spatial humanities to come.</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1222">
+                    <ref target="#technology">
+                        <ref target="#methodology">
+                            <ref target="#spatiality">
+                                <ref target="#theme_or_topic">
+                                    <ref target="#education">A first step for the Scholars’ Lab is to establish the following: humanities scholars should not consider cartographic and geospatial technologies only through the lens of more obviously <abbr>GIS</abbr>-able disciplines like anthropology and archaeology, or area studies, urban planning, and environmental history. These fields have adopted existing spatial data, tools, and methods—and they have, to varying degrees, either made their peace or already negotiated terms of compromise with a set of limitations and assumptions they have inherited from the sciences. These are assumptions that circumscribe and, from the point of view of literary scholars, may even circumvent the expressiveness of geographic information systems.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1223">
+                    <ref target="#collaboration">
+                        <ref target="#technology">
+                            <ref target="#spatiality">To question these assumptions is not to dismiss the fascinating work that is already unfolding when humanities scholars apply established <abbr>GIS</abbr> techniques to their research problems. <ref target="#authorship">Currently, for example, we are collaborating with University of Virginia classicist Jenny Strauss Clay and two of her graduate students. These scholars are letting Homeric verse drive a <abbr>GIS</abbr> analysis to determine feasible routes for travel—by mule—through the terrain of ancient Greece. The project tests Strauss’s theory that Homer’s catalogue of ships is ordered mnemonically as three distinct and real <q>itineraries</q> that would be familiar and memorable to listeners and bards. To that end, the Scholars’ Lab is applying a specific <abbr>GIS</abbr> technique called least-cost-path analysis, used primarily by governments to lay out highways.</ref> The project itself is potentially groundbreaking: it promises not only to elucidate the relationship between orally transmitted verse and real-world geographies, but—if distinct sequences are truly evident—to reveal the locations of lost archaeological sites <note place="inline">
+                                    <bibl>Clay</bibl>
+                                </note>. But its <abbr>GIS</abbr> methods, in themselves, are not strictly innovative. The story so far of <abbr>GIS</abbr> in the humanities is less about transformation and experimentation than about one-way adoption of technologies devised for other disciplines. Why is that?</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1224">
+                    <ref target="#technology">
+                        <ref target="#spatiality">First, we must acknowledge what has been holding humanists back. In 2008, Martyn Jessop of King’s College, London published an article in <title level="j">Literary and Linguistic Computing</title> in which he documented what he called an unexpected <title>inhibition</title> among digital humanities scholars—a reluctance to engage deeply with geospatial tools and data <note place="inline">
+                                <bibl>Jessop 39</bibl>
+                            </note>. <ref target="#education">In this piece, Jessop identifies the chief deficiencies of <abbr>GIS</abbr>es, from the point of view of the humanities, and he addresses the institutional systems that fail to support and promote their use. He notes that digital humanists are deeply engaged with place and space, and not usually daunted by a learning curve; they are, however, hesitant to embrace <abbr>GIS</abbr>.</ref> This article raises a fundamental question: Why—given the huge blossoming of activity elsewhere in <abbr>GIS</abbr>, the deep engagement of the humanities with place and space, and the general technological adventurousness of the digital humanities community—have scholars in our field been so slow to engage with maps?</ref>
+                    </ref>
+                </p>
+                <p xml:id="p1225">
+                    <ref target="#theory">
+                        <ref target="#methodology">Jessop offers four possible reasons <note place="inline">
+                                <bibl>42–52</bibl>
+                            </note>, which I will survey here. The first and <q>most fundamental</q> addresses the very place of visualization and work with images in the discourse-based research methodology of the humanities. <ref target="#intellectual_history">
+                                <ref target="#education">We were never taught (and therefore we are not teaching our graduate students) how to read and create images—much less how to engage intelligently with cartographic representation, old or new. This is a widely recognized (if seldom addressed) issue in humanities research training, particularly in the fields of literature and history. <ref target="#technology">But less frequently do we address the problem of cartographic awareness in the context of new possibilities afforded to literary scholarship by digital mapping.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1226">
+                    <ref target="#technology">
+                        <ref target="#spatiality">
+                            <ref target="#theme_or_topic">The next two reasons involve <abbr>GIS</abbr> tools and the data to which we as humanities scholars want to apply those tools. How suitable are current geospatial software packages to the concerns of the humanities, since this software is made and marketed almost entirely within the sciences and quantitative social sciences? <ref target="#history">Production and reception histories of texts—that is, the history of printing and publishing, the histories of readership—may be reasonably mappable, but, as we know, such bibliographical scholarship is still marginalized in the broader discipline of literary studies.</ref> How useful, then, are <abbr>GIS</abbr> tools to the interpretive concerns of the majority of literary scholars? How apt are they at reflecting or analyzing the spatial relations of qualities like subjectivity and emotion? Can <abbr>GIS</abbr> tools be used to analyze time as it is experienced and expressed in narrative—how do they deal with the complex chronologies we see every day in the documentary record? The answer is <q>not very well.</q>
+                                <ref target="#economics">In fact, it is only recently that time became a factor at all in the geospatial software produced by California-based Environmental Systems Research Institute, a company that controls the market for analytical <abbr>GIS</abbr>
+                                </ref>.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1227">
+                    <ref target="#technology">
+                        <ref target="#spatiality">
+                            <ref target="#theme_or_topic">We also we need to ask ourselves to what degree humanities questions and humanities data are at all suited to <abbr>GIS</abbr>. Typical <abbr>GIS</abbr> tools are geared toward synchronic analysis of incredibly dense data sets, but humanists tend to analyze sparser data, leading to understandings that play out diachronically over time. More importantly for literary scholars, <abbr>GIS</abbr> software has been designed to filter out uncertainty and ambiguity. It is built to smooth away wrinkles—to remove their traces as aberrations that are probably accidental, on the way to resolving larger data trends. <abbr>GIS</abbr> software does not celebrate, highlight, or dwell in ambiguity.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1228">
+                    <ref target="#technology">
+                        <ref target="#spatiality">For Jessop, the broad issue of scholarly communication is also of great importance <note place="inline">
+                                <bibl>46–49</bibl>
+                            </note>—how we are to fund, produce, evaluate, distribute, and archive innovative geospatial scholarship in disciplines and institutions that are wedded to traditional research practices—a large question whose parameters lie outside the scope of this chapter. One might expect that our uses of <abbr>GIS</abbr>, since Jessop’s 2008 article, would have become increasingly ludic and experimental. But Ian Gregory and Paul Ell suggest otherwise in their 2007 book, <title level="m">Historical <abbr>GIS</abbr>: Technologies, Methodologies, and Scholarship</title>. Gregory and Ell state that <q>the researcher using <abbr>GIS</abbr> should be asking, <q>What are the geographical aspects of my research question?</q> rather than [the more open] <q>What can I do with my dataset using this software?</q>
+                            </q>
+                            <note place="inline">
+                                <bibl>1</bibl>
+                            </note>, opening their treatment in a manner far too proscriptive for my purposes. Such an approach will be highly effective in applying <abbr>GIS</abbr> tools to the precise purposes for which they were designed, but I find it unnecessarily limiting with respect to experimental visualization practices in fields like literary and textual studies.</ref>
+                    </ref>
+                </p>
+                <p xml:id="p1229">
+                    <ref target="#technology">
+                        <ref target="#tone_or_style">
+                            <ref target="#spatiality">To summarize my discouraging litany, <abbr>GIS</abbr> does not enjoy wide use among humanists for a number of reasons. First, we are not practiced in handling image-based data. Second, there is a fundamental mismatch between our research questions, data, and expectations, and those for which <abbr>GIS</abbr> software was designed. As a result, we keep telling ourselves, in what may be a self-defeating way, that in order to use spatial tools and methods we should behave more like scientists. Finally, prevailing institutional structures have neither rewarded nor helped to sustain research in the field of digital humanities.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1230">
+                    <ref target="#technology">
+                        <ref target="#spatiality">
+                            <ref target="#methodology">But we must remind ourselves of the allure of lying with maps and the potential utility of any playful methodology for humanities inquiry. The notion of drawing as a way of thinking—what Johanna Drucker has called <q>graphesis</q> or knowledge building through iterative graphical expression—may help energize and shape a literary <abbr>GIS</abbr> suitable for humanities research <note place="inline">
+                                    <bibl>Drucker 133–36</bibl>
+                                </note>. It might aid us in asserting a role for cartographic design in humanities exegesis, and help us bring spatial approaches and software systems into productive tension with the aims and customs of interpretive (as well as strictly analytical) place-based research. Maps, as literary scholars will want to read and produce them, operate somewhere (perhaps everywhere) on the playful spectrum of lies, damned lies, and statistics. I view this not as something to caution against, de-bug, and filter away, but to enable—particularly if we want to see a locally appropriate upswell of creative and scholarly engagement in the spatial humanities, complementing the use of geographical information in other disciplines and industries.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1231">
+                    <ref target="#methodology">
+                        <ref target="#spatiality">We should not focus on maps as finished visualizations, as products of analysis; rather, we ought to consider mapping a hermeneutic activity, a process or methodology. For literary scholars, geographic specificity may prove less important than interpretive possibility. We must understand the making of maps and images as iterative and speculative (always something to be reworked and refined), and never treat maps in the humanities as monolithic, passively received outputs of <abbr>GIS</abbr> algorithms inaccessible to the typical reader or scholarly end user. Even within a framework that tacitly assumes a one-to-one correspondence between representation and real landscape, we can license ourselves to lie—experimentally, playfully, procedurally, and productively. The digital maps preferred by scholars of language and literature are not answers. They are questions. They are invitations.</ref>
+                    </ref>
+                </p>
+                <p xml:id="p1232">
+                    <ref target="#history">
+                        <ref target="#education">
+                            <ref target="#childhood">
+                                <ref target="#spatiality">The historical example of Frances Alsop Henshaw, who was fortunate to have good teachers, functions precisely in this invitational way. In 1823, Henshaw was fourteen years old. </ref>
+                                <ref target="#class_issue">As the daughter of a reasonably well-to-do New England merchant, she attended Middlebury Female Academy, a small school in Vermont</ref>. <ref target="#manuscript_history">
+                                    <ref target="#archival_location">There, she created a document I first encountered in the library of map collector David Rumsey. </ref>It purports to be a <q>book of penmanship,</q> but—in addition to the set copy-texts one might expect to see in a handwriting practice-book—also contains a series of hand-drawn, delicately coloured maps of what were then the nineteen United States. <ref target="#tone_or_style">Each of these maps—and this is where the penmanship exercise comes in—is paired with a geometrically designed and highly embellished prose passage, which Henshaw seems to have copied from the geography books that were available to her as a schoolgirl in the new American republic.</ref>
+                                </ref>
+                                <note xml:id="n65" place="end">This portion of the chapter draws on research previously published in the 2010 issue of <title level="j">Poetess Archive Journal</title> as <title level="a">
+                                        <q>Inventing the Map</q> in the Digital Humanities: A Young Lady’s Primer.</title> Additional slides and illustrations slides may be observed in the recording of the keynote presentation at the <bibl>Canadian Writing Research Collaboratory Conference, Ryerson University, Toronto, October 27, 2011</bibl>, available at <ref target="http://www.cwrc.ca/cwrc_news/cwrc-conference-keynote-bethany-noviskie/">http://www.cwrc.ca/cwrc_news/cwrc-conference-keynote-bethany-noviskie/</ref>.</note>
+                            </ref>
+                            <ref target="#intertextuality">
+                                <ref target="#tone_or_style">Henshaw’s maps and texts alike are interpretive representations of the geodetic or descriptive literature from which she read geography. The maps themselves are lovely, but more interesting is their interplay with texts—both with Henshaw’s source documents and with the words she lays out on the page.</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1233">
+                    <ref target="#response_informal">
+                        <ref target="#spatiality">
+                            <ref target="#theme_or_topic">What I find most fascinating about this small book is that Henshaw seems to have set herself clear cartographic operating constraints. She writes about geography on pages that hover within a framework of what I can only term aesthetically inflected cardinal co-ordinates. It is not just her maps that can be geolocated.</ref>
+                            <ref target="#politics">The shape of each of Henshaw’s textual passages represents (either conceptually or geographically) the American state it describes, and she frequently positions notes about political and natural boundaries around the text blocks in what would be—to a reader of a map rather than a paragraph—cartographically appropriate margins of the page.</ref> In other words, the top margin for her writing is <q>north,</q> and the gutter of the book (because she writes on rectos only) is the <q>west.</q>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1234">
+                    <ref target="#authorship">
+                        <ref target="#spatiality">In some ways, Henshaw’s book is utterly unique. <ref target="#history">
+                                <ref target="#education">But it is also a product of larger trends in the geographic education of women in North America in the early nineteenth century. <ref target="#gender_issue">Middlebury Female Academy was the first school established by famed educational reformer Emma Willard, author of <title level="m">A Plan for Improving Female Education</title>
+                                        <note place="inline">
+                                            <bibl>1818</bibl>
+                                        </note> and co-author of a seminal textbook, <title>Geography for Beginners</title>
+                                        <note place="inline">
+                                            <bibl>1826</bibl>
+                                        </note>. Willard is best remembered today as the founder of the Troy Female Seminary, now the prestigious Emma Willard School for girls in Troy, New York. Beginning in the 1820s, Troy Female Seminary was America’s pre­eminent academy for teachers who went on to spread Willard’s approaches to the pedagogy of place and space across the continent.</ref> Willard had moved from Middlebury to Troy two years before the date recorded in Henshaw’s book, but a reading of her letters and her <title level="m">System of Universal Geography</title>
+                                    <note place="inline">
+                                        <bibl>co-authored in 1827 with William Channing Woodbridge</bibl>
+                                    </note> in the context of Henshaw’s schoolwork is suggestive of continued influence. The arts-based geospatial exercises Willard developed early in her career as a teacher endured among the instructors she trained and the students she taught—influencing Frances Alsop Henshaw.</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1235">
+                    <ref target="#methodology">
+                        <ref target="#education">
+                            <ref target="#spatiality">Willard’s chief pedagogical innovations were two: first, to centre geographical instruction and discovery learning in hands-on activities that had her students creating personalized, localized, graphical maps. And second, to use maps at all, in the teaching of history and geography. </ref>
+                            <ref target="#gender_issue">
+                                <ref target="#history">Geography had long been accepted as a discipline suited to women’s education and was emerging as an important path to literacy and the development of a common national identity in early America <note place="inline">
+                                        <bibl>Brückner</bibl>
+                                    </note>. In women’s educational history, there seems to have been a marked rise, beginning in the 1790s, of cartographic representation mixed with the more conventional alphabets and didactic texts of ladies’ embroidered samplers. But until Willard’s work in the 1820s, formal geography was taught largely without maps <note place="inline">
+                                        <bibl>Schulten 542–45</bibl>
+                                    </note>.</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1236">
+                    <ref target="#methodology">
+                        <ref target="#technology">
+                            <ref target="#education">
+                                <ref target="#spatiality">
+                                    <ref target="#intertextuality">The chief geographical textbooks of Willard’s day were Jedidiah Morse’s <title level="m">Geography Made Easy</title> and Noah Webster’s collection of grammars and spellers. Both were geared toward purely textual and verbal exercises of memorization. Morse (whose book, I have discovered, served as a primary resource for Henshaw in 1823) offers complex and evocative textual descriptions of places and spaces on the American continent.</ref> He relegates maps, however, to an expensive and much less well-circulated supplementary volume. Similarly (as described by literary historian Martin Brückner), Webster’s closest gesture toward graphical expression of geography can be found in a prose <q>map</q> made entirely of typography—without representational line art—in which the names of American states and European countries are seen in rough spatial relation to each other <note place="inline">
+                                        <bibl>Brückner 115</bibl>
+                                    </note>.</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1237">
+                    <ref target="#methodology">
+                        <ref target="#education">
+                            <ref target="#spatiality">In contrast, in her early career as a teacher, Willard privileged the visual and asked her students to begin their mastery of American geography not by reading geodetic texts or even by studying maps, but by going outside and drawing. They sketched maps of spaces and places well known to them—their homes, schools, villages, and towns—from which they could work outward. Eventually, with the aid of textbooks and atlases, they moved from local representation to the national and international scene. Crucial to this lesson (and to my understanding of the graphetic possibilities for spatial humanities research) was the persistence of the basic exercise Willard taught: to create graphical visualizations as an aid to developing geospatial memory.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1238">
+                    <ref target="#spatiality">
+                        <ref target="#education">Historian Susan Schulten cites the cartographic impulse of Willard’s early pedagogical practice as stemming from a <q>more general fascination with the idea of graphic representation</q>
+                        </ref>
+                        <note place="inline">
+                            <bibl>543</bibl>
+                        </note>. <ref target="#spatiality">
+                            <ref target="#history">
+                                <ref target="#education">
+                                    <ref target="#women_writing">This fascination, which evolved and was tested at the Middlebury Female Academy, is everywhere evident in Willard’s later textbooks, a body of work that quickly moved from synchronic spatial imagery in geography primers (that is, maps as snapshots in time) to timelines and time-flows, architectures of time and diachronic geotemporal visualization in history books.</ref> For her powerful graphic intervention in a field dominated by prose, Schulten places Willard at <q>the graphic foundations of American history</q>
+                                </ref>
+                            </ref>
+                            <note place="inline">
+                                <bibl>542</bibl>
+                            </note>. <ref target="#technology">
+                                <ref target="#methodology">
+                                    <ref target="#history">
+                                        <ref target="#spatiality">
+                                            <ref target="#education">This suggests a central role for Willard in the complex, shared textual and visual endeavour of nation building that scholars like Brückner describe in the early American republic. Moreover, it is well worth noting (when we contemplate our own moment in the spatial humanities) that the use of maps in historical and interpretive texts evolved first through amateur drawing exercises—through pedagogical and methodological practice.</ref> Willard understood the importance of her contribution. <q>In history,</q> she said, <q>I have invented the map</q>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                            <note place="inline">
+                                <bibl>Willard, Letter. qtd. in Lord 228</bibl>
+                            </note>.</ref>
+                    </ref>
+                </p>
+                <p xml:id="p1239">
+                    <ref target="#education">
+                        <ref target="#response_formal">
+                            <ref target="#spatiality">But Willard had her critics. One of them raises issues that strike at the heart of Henshaw’s exercise book and the example it offers to modern, spatially minded scholars of the interpretive humanities. In the 1840s, Marcius Willson criticized Willard’s textbook maps—which bear the traces of the subjective and personal mapmaking exercises that she undertook with her students—as being <q>insufficiently geographical</q> and <q>focused instead on human events and boundaries</q>
+                                <note place="inline">
+                                    <bibl>Schulten 554</bibl>
+                                </note>. In effect, I read Willson as saying, <q>You put humanities in my geography!</q> But there is also an element to his critique that may be summarized as <q>You put space in my time!</q> Schulten sees Willson’s publications as an attack by a rival author on Willard’s attempts to <q>reconceptualize the past on a plane rather than in a narrative</q>
+                                <note place="inline">
+                                    <bibl>554</bibl>
+                                </note>.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1240">
+                    <ref target="#theme_or_topic">
+                        <ref target="#spatiality">For such a reconceptualization to work, we have to recognize the necessity of placing emphasis on perspective and dimensionality in both spatial and temporal visualization.</ref>
+                        <ref target="#non-book_media">
+                            <ref target="#tone_or_style">In moving fluidly from geography to history, Willard produced not only maps, but what she called fold-out <q>chronographer</q> timelines depicting events and cultural influences as a river widening toward the present-day reader at the bottom of the page. She also drew structural <q>temples of time</q> that raised architectural columns and a pediment of historical personages above the chronographic streams presented as part of the temple’s mosaic floor <note place="inline">
+                                    <bibl>Schulten 560</bibl>
+                                </note>. In order to work, such visualizations must emphasize the crucial element of the subjective positioning of the viewer or interpreter—in this case through means of exaggerated perspective. In the Henshaw example, the subjectivity of the mapmaker becomes evident through selection and arrangement.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1241">
+                    <ref target="#theme_or_topic">
+                        <ref target="#spatiality">Three hallmarks of Willard’s later geographic and visualized historical pedagogy are relevant to the spatial humanities: graphesis (or drawing as a way of knowing); perspective (both conceptual and pictorial); and a necessary, attendant privileging of individualized response—those human events and readings that so troubled Willson. <ref target="#non-book_media">
+                                <ref target="#manuscript_history">
+                                    <ref target="#education">How fortunate that Henshaw’s <q>penmanship</q> document has survived as an early product of Willard’s curriculum and educational philosophy—and with enough identifying information to connect Henshaw to Willard.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1242">
+                    <ref target="#non-book_media">
+                        <ref target="#spatiality">
+                            <ref target="#manuscript_history">Let us consider more closely Henshaw’s subjective mapmaking, in text and watercolour, across the American landscape of 1823. Close analysis of this historical document may provoke us to consider what modern mapping technology affords and fails to afford. </ref>
+                            <ref target="#technology">We must think both analytically—how might <abbr>GIS</abbr> help us better understand such artifacts?—and creatively—what might we require of our own tools and data in order to adopt Henshaw’s generative, playful methods? <ref target="#writing_climate">
+                                    <ref target="#methodology">Of course, such adoption will hinge on the openness of the academy to sketching and iterative design as legitimate methodologies in digital scholarship.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1243">
+                    <ref target="#intertextuality">
+                        <ref target="#education">
+                            <ref target="#spatiality">Henshaw’s book begins with penmanship exercises. <ref target="#non-book_media">
+                                    <ref target="#manuscript_history">Its first thirty-five pages contain astronomy, geography, and American history texts that she copied from a pre-1814 printing of Morse’s image-free <title level="m">Geography Made Easy</title>.</ref>
+                                    <ref target="#tone_or_style">It is interesting that Henshaw skips some of Morse’s most direct and provocative instructions for the design and reading of maps, found in a section of <title level="m">Geography Made Easy</title> that proscribes—again in prose—a symbology for rivers, mountains, forests, harbours, and roads and offers a whimsical notion of cardinality: <title>In books of geography by the right hand we must understand the east; in those of astronomy, the west; in such as relate to augury, the south; and the writings of poets, the north</title>
+                                        <note place="inline">
+                                            <bibl>Morse 28</bibl>
+                                        </note>.</ref>
+                                </ref> It is worth noting that Henshaw’s texts side with the geographers rather than the poets, marking north at the top of the page.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1244">
+                    <ref target="#manuscript_history">
+                        <ref target="#non-book_media">
+                            <ref target="#spatiality">
+                                <ref target="#theme_or_topic">
+                                    <ref target="#tone_or_style">The heart of Henshaw’s book, however, is a series of nineteen hand-coloured maps and accompanying texts, at least ten of which were designed to sit in a particular spatial relationship to the American states they describe.</ref>
+                                    <ref target="#intertextuality">
+                                        <ref target="#methodology">The maps are organized on a principle of adjacency, and Henshaw’s choices seem to reflect the conceptual and actual limits of American statehood in the atlases available to her at home and at school—primarily an 1805 edition of Mathew Carey’s <title level="m">American Pocket Atlas</title> and an 1812 edition of Aaron Arrowsmith and Samuel Lewis’s <title level="m">General Atlas</title>.</ref> She leaves out some defined territories and regions (like the Louisiana Purchase), and may have used a third, as yet unidentified atlas for the state of Indiana.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1245">
+                    <ref target="#textual_strategies">
+                        <ref target="#spatiality">It would seem that Henshaw deliberately selected, omitted, and recombined maps for representation in her book.</ref>
+                        <ref target="#technology">
+                            <ref target="#methodology">In my attempt to codify her activity, I began combing full-text archives and collating passages of her text using Juxta, a textual collation tool we have developed at the University of Virginia. This led to a wealth of information and an ability to draw reasonable conclusions about the sources for Henshaw’s prose. Sometimes my textual research methods helped me find a map, or think through the textual history of an atlas</ref>. <ref target="#writing_climate">Regrettably, a similar research approach to the geographical imagery in Henshaw’s book is almost unimaginable, since we lack sufficiently large, open corpora of scanned historical maps and widely adopted systems for identifying, geo-rectifying, comparing, and collating such maps.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1246">
+                    <ref target="#technology">
+                        <ref target="#spatiality">
+                            <ref target="#theme_or_topic">But what if it were possible to analyze Henshaw’s geographical imagery spatially? <ref target="#history">Most of the same protocols and software tools that would promote sophisticated research and identification of historical maps would be of interest beyond cartography and history; they are equally applicable to research problems in book history and graphic design. <ref target="#archive">What might comparative, image-based searches across archives of page scans teach us about the history of ornamentation and typography?</ref> What might a process like geo-rectification (the stretching and rubber-sheeting of historic maps made possible by <abbr>GIS</abbr> software) reveal when performed across a set of similar textual features—such as the manuscript flourishes that decorate Henshaw’s pages?</ref> Moreover, would the limits of this activity, limned with <abbr>GIS</abbr> approaches and toolsets, help illustrate the limitations of the software we have inherited from the sciences?</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1247">
+                    <ref target="#methodology">Henshaw uses a unique format and design for each pair of text-maps in her book. Two pairs will serve to illustrate her technique, but others are available for scrutiny online, in the open access map library of collector</ref>
+                    <figure>
+                        <head>Figure 5.1</head>
+                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3Abb803668-5642-4720-bc19-3421841d03d0/datastream/JPG-DToC/view" />
+                        <figDesc>
+                            <title level="a">(Description of) Virginia,</title> Frances Henshaw, 1823. <hi rend="italic">[Courtesy of David Rumsey Map Collection. List #2501N]</hi>
+                        </figDesc>
+                    </figure>
+                    <figure>
+                        <head>Figure 5.2</head>
+                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3Aa46477e2-4555-4e15-836e-72c54563509e/datastream/JPG-DToC/view" />
+                        <figDesc>
+                            <title level="a">Virginia,</title> Frances Henshaw, 1823. <hi rend="italic">[Courtesy of David Rumsey Map Collection. List #2501.012]</hi>
+                        </figDesc>
+                    </figure> David Rumsey. <ref target="#history">
+                        <ref target="#spatiality">The first pair of maps presents the state of Virginia in its antebellum contours—that is, before the events of the Civil War provoked the division of Virginia and West Virginia. Near the panhandle appear interesting incongruities—fictions, actually—between political boundaries and watersheds. It is tempting to read an unresolved tension between two conceptual layers or dimensions, as represented on the single plane of Henshaw’s map.</ref>
+                        <ref target="#technology">If she had been limited to modern <abbr>GIS</abbr> tools, Henshaw would have been forced to disambiguate her representation into layers, exposing a tension between informational and aesthetic structures in maps that textual scholars would recognize as the longstanding issue of <q>overlapping hierarchies</q> in the work of the Text Encoding Initiative (Renear, Mylonas, and Durand).</ref>
+                    </ref>
+                </p>
+                <p xml:id="p1248">
+                    <ref target="#methodology">
+                        <ref target="#authorship">
+                            <ref target="#non-book_media">
+                                <ref target="#spatiality">The textual representation of the state of Virginia shows Henshaw breaking her own rules. Recall her cardinal directions, which place north at the top margin and west in the gutter of each recto leaf. They are augmented by labels for bounding states and bodies of water: <q>Bounded North by Massachusetts,</q>
+                                    <q>south by the Atlantick,</q> and so forth. These cardinal directions hold true across every one of the nineteen texts, even in cases like Virginia, where the shape of the corresponding map prompts Henshaw to choose a landscape orientation for the page. <ref target="#tone_or_style">In the text that corresponds with her Virginia map, she offers a fairly unpoetic and disjointed selection of passages from <title level="m">Geography Made Easy</title>—capping the penmanship exercise with an elaborate ornamental cherub holding a sweeping ribbon or banner inscribed <q>Virginia.</q> But the cherub occupies the <q>northern</q> field of her page, so Henshaw is unable to position the expected <q>North by <hi rend="small-caps">maryland</hi>
+                                        </q> label appropriately. In other words, the aesthetic force of the textual ornament trumps Henshaw’s own conventions of directionality. Maryland is displaced to the west—where it crowds Kentucky toward the south, into a position where one might now seek, and fail to find, Tennessee.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1249">
+                    <ref target="#non-book_media">
+                        <ref target="#authorship">
+                            <ref target="#spatiality">In the case of Ohio, Henshaw’s text lacks labelled directionality but may have been designed to echo the rectilinear north and rough diamond-like shape of the southern portions of the state. At least two different editions of <title level="m">Geography Made Easy</title>, and—by my analysis—possibly three or more source documents, seem to have gone into Henshaw’s <figure>
+                                    <head>Figure 5.3</head>
+                                    <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A1d06bd0c-3098-4cf8-a325-f72c51568827/datastream/JPG-DToC/view" />
+                                    <figDesc>
+                                        <title level="a">(Description of) Ohio,</title> Frances Henshaw, 1823. <hi rend="italic">[Courtesy of David Rumsey Map Collection. List #2501T]</hi>
+                                    </figDesc>
+                                </figure>
+                                <figure>
+                                    <head>Figure 5.4</head>
+                                    <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A11f1d75d-251b-4ae7-bc04-b8d27878a663/datastream/JPG-DToC/view" />
+                                    <figDesc>
+                                        <title level="a">Ohio,</title> Frances Henshaw, 1823. <hi rend="italic">[Courtesy of David Rumsey Map Collection. List #2501.018]</hi>
+                                    </figDesc>
+                                </figure> selection and editing process for this very short passage. <ref target="#tone_or_style">
+                                    <ref target="#methodology">Henshaw’s deliberate pastiche approach to assembling her texts, even when they are brief, suggests a patchwork methodology that parallels the graphic design of the page. In fact, her choppy Ohio passages are most legible to readers who are familiar with the traditional <q>log cabin</q> pattern for a quilt square.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1250">
+                    <ref target="#authorship">
+                        <ref target="#spatiality">The map version of Henshaw’s <q>Ohio</q> is equally interesting as a study in interpretive selectivity. Two aspects of the map stand out. <ref target="#methodology">First, it appears that Henshaw may have used conflicting atlases as source images. <ref target="#education">Second, this map, above all others I have examined, seems to bear traces of a pedagogical practice, perhaps inspired by Willard’s teaching style, which otherwise might have been lost to us. I posit that someone, in all likelihood a schoolmistress, read aloud a geography textbook and directed Henshaw and her fellow students to make imaginative placements of voiced elements on the sketched maps before them. After tracing the basic contours of the map of Ohio, Henshaw sought to position forts and internal boundary lines based on descriptive prose she heard read aloud.</ref> Evidence of this is borne in the selection and placement of elements on the map, but her embedded texts also bear traces of the aural. The city of Cincinnati is spelled <q>Cincinata.</q> There is a town Henshaw labels as <q>Nassauville</q> which every source spells <q>Masseyville.</q> Many futile attempts to corroborate Henshaw’s spelling in text and map archives have led me to conclude that her map of Ohio bears evidence of mishearing. <ref target="#technology">This is perhaps a minor point, but it demonstrates how much we may be able to learn from a close and computer-assisted reading of historical maps.</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1251">
+                    <ref target="#authorship">
+                        <ref target="#spatiality">
+                            <ref target="#methodology">Whatever Henshaw’s cartographic practice may have been, it is clear that it is predicated on selection and interpretation, rather than completeness and verisimilitude—and that she was working with text and image in equal measure.</ref>
+                            <ref target="#tone_or_style">
+                                <ref target="#non-book_media">
+                                    <ref target="#education">In places, it is obvious that she was creating emotional landscapes. Despite her sources, which fill northern Ohio with an overwhelming density of geological features, waterways, settlements, marked historical events, and place names, Henshaw’s schoolgirl map contains a solitary, sentimental note gleaned from a reading of history books: </ref>
+                                </ref>
+                                <q>
+                                    <ref target="#history">Major Truman killed</ref>.</q>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1252">
+                    <ref target="#technology">
+                        <ref target="#spatiality">Today, for all of our increasing sophistication in managing, analyzing, and creating maps, our cartographic and <abbr>GIS</abbr> tools place us nowhere near the allusive, creative, and generative impulse Henshaw manifested in 1823. Where is the software that will allow contemporary humanists—descendants of Henshaw—to play with maps?</ref>
+                    </ref>
+                </p>
+                <p xml:id="p1253">
+                    <ref target="#technology">
+                        <ref target="#spatiality">
+                            <ref target="#theme_or_topic">I sense that analysis of the production of historical maps is best done through an experimental performance of similar cartographic processes—in the way that students of bibliography may fold sheets into gatherings in order to understand the construction of a book. The truest humanities <abbr>GIS</abbr> exercise, then, may be conducted completely offline, although the Scholars’ Lab Neatline project offers an interesting platform for sketching on maps and interrelating them with texts and contexts (Nowviskie et al.).</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1254">
+                    <ref target="#technology">
+                        <ref target="#methodology">It is impossible to imagine that the intellectual framework through which humanities scholars approach <abbr>GIS</abbr> would ever shed its formative connection to the arts. <ref target="#genre_poetry">To that end, we would do well to look closely at the liberating and ludic aspects of constraints-based methodology, validated by wranglers of poetic form throughout history and self-consciously addressed through aleatory and procedural experimentation in twentieth-century art and poetry.</ref> This is well-trodden ground, for which our best pathfinders are not critics, but performers and practitioners.</ref>
+                    </ref>
+                </p>
+                <p xml:id="p1255">
+                    <ref target="#technology">
+                        <ref target="#spatiality">It is no surprise that <abbr>GIS</abbr> is often regarded as positivist and mechanistic by humanities scholars. But we have a great opportunity to reform that perception—hence my emphasis in this chapter on processes as much as products of research. <ref target="#theme_or_topic">What if we did not assume that <abbr>GIS</abbr>es were merely <q>analytical or information-presentation tools,</q> but rather that they hold what Jessop calls <q>reflexive</q>
+                                <note place="inline">
+                                    <bibl>44</bibl>
+                                </note> potential? Operating in a reflective way within the mechanical framework presented by these tools may be as useful as inventing entirely new tools for humanities inquiry. Where they do not function optimally, we ought to use existing <abbr>GIS</abbr> tools to reflect on our methods and aims as humanities scholars interested in place and space in the documentary record, and thereby reconsider the construction of our disciplines.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1256">
+                    <ref target="#technology">
+                        <ref target="#spatiality">The time has come, however, to build our own versions of these tools—to engage actively with <abbr>GIS</abbr> in the realm of interpretive literary and textual studies: from support for complex mapping of print culture production and distribution networks through space and time, to the visualization of highly subjective spatial expression within and about historical and literary documents. We should also be perverting <abbr>GIS</abbr>—maybe lying, certainly playing with it—in order to examine not just literary and historical content (although that will be vastly interesting), but also the spatial and typographical features of books. Can we imagine the next generation of spatial analysis tools in support of the visual and aesthetic aspects of book history?</ref>
+                    </ref>
+                </p>
+                <p xml:id="p1257">
+                    <ref target="#technology">
+                        <ref target="#theme_or_topic">
+                            <ref target="#spatiality">I close this chapter with two questions that inspired the Scholars’ Lab Neatline project and continue to drive my spatial humanities research agenda. They pertain to geospatial editing in the two guises in which we understand all textual production and editorial and scholarly work—that is, with representation on the one hand, and generation on the other. First, representation. The question here is how to represent the intertwined cartographic and textual condition that is foregrounded in a project like Henshaw’s, but is actually evident in every atlas or map that we find incorporated into a printed or manuscript book. How might we, as scholarly editors, approach all the maps and geospatial data we either have been ignoring or, for decades, been treating like illustrations rather than the embedded geospatial information systems they are?</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1258">
+                    <ref target="#technology">
+                        <ref target="#spatiality">The question about generation is meant to be both merry and pragmatic, a balance I deem especially important in digital humanities scholarship. First, I wish to know how to create interpretive environments (sets of toys as much as tools) that will allow humanists to play with geographic expression—how, for instance, to incorporate cartographic sketching practices within our hermeneutic tool kit. Finally, I want to know how to make new digital mapping environments so naturally joyful to use that humanities scholars will see clearly that these tools are, indeed, toys.</ref>
+                    </ref>
+                </p>
+                <div type="section">
+                    <head>Works Cited</head>
+                    <listBibl>
+                        <bibl>Arrowsmith, Aaron, and Samuel Lewis. <title level="m">General Atlas</title>. Boston: Thomas and Andrews, 1812.</bibl>
+                        <bibl>Brückner, Martin. <title level="m">The Geographic Revolution in Early America: Maps, Literacy, and National Identity</title>. Chapel Hill: University of North Carolina Press, 2006.</bibl>
+                        <bibl>Carey, Mathew. <title level="m">Carey’s American Pocket Atlas</title>. Philadelphia: M. Carey, 1805.</bibl>
+                        <bibl>Clay, Jenny Strauss. <title level="a">Mapping the Catalogue of Ships</title>. <title level="m">Scholars’ Lab Blog</title>. 13 January 2012. <ref target="http://www.scholarslab.org/announcements/mapping-the-catalogue-of-ships">http://www.scholarslab.org/announcements/mapping-the-catalogue-of-ships</ref>
+                        </bibl>
+                        <bibl>Drucker, Johanna. <title level="m">SpecLab: Digital Aesthetics and Projects in Speculative Computing</title>. Chicago: University of Chicago Press, 2009.</bibl>
+                        <bibl>Gregory, Ian, and Paul S. Ell. <title level="m">Historical GIS: Technologies, Methodologies, and Scholarship</title>. Cambridge: Cambridge University Press, 2007.</bibl>
+                        <bibl>Henshaw, Frances Alsop. <title level="a">Book of Penmanship Executed at the Middlebury Female Academy</title>. 1823. <title level="m">Library of David Rumsey</title>. Pub. List No. 2501.000. <ref target="http://bit.ly/dmbgHL">http://bit.ly/dmbgHL</ref>
+                        </bibl>
+                        <bibl>Jessop, Martyn. <title level="a">“The Inhibition of Geographical Information in Digital Humanities Scholarship.”</title>
+                            <title level="j">Literary and Linguistic Computing</title> 23 (April 2008): 39–50.</bibl>
+                        <bibl>Monmonier, Mark. <title level="m">How to Lie with Maps</title>. Chicago: University of Chicago Press, 1996.</bibl>
+                        <bibl>Morse, Jedidiah. <title level="m">Geography Made Easy: Being an Abridgement of the American Universal Geography</title>. Boston: Thomas and Andrews, 1802.</bibl>
+                        <bibl>
+                            <author>
+                                <abbr>nines</abbr>: Networked Infrastructure for Nineteenth-Century Electronic Scholarship.</author>
+                            <title level="m">Juxta: Collation Software for Scholars</title>. University of Virginia. <ref target="http://www.juxtasoftware.org">http://www.juxtasoftware.org</ref>
+                        </bibl>
+                        <bibl>Nowviskie, Bethany. <title level="a">
+                                <q>Inventing the Map</q> in the Digital Humanities: A Young Lady’s Primer</title>. <title level="j">Poetess Archive Journal</title> 2.1 (2010). <ref target="http://paj.muohio.edu/paj/index.php/paj/article/viewArticle/11">http://paj.muohio.edu/paj/index.php/paj/article/viewArticle/11</ref>
+                        </bibl>
+                        <bibl>Nowviskie, Bethany, and Adam Soroka. <title level="a">
+                                <hi rend="italic">Neatline</hi>: Facilitating Geospatial and Temporal Interpretation of Archival Collections. NEH Level II Start-Up Grant White Paper</title>. <ref target="http://bit.ly/xnEJdl">http://bit.ly/xnEJdl</ref>
+                        </bibl>
+                        <bibl>Nowviskie, Bethany, David McClure, Wayne Graham, Adam Soroka, Jeremy Boggs, and Eric Rochester. <title level="a">Geo-Temporal Interpretation of Archival Collections with Neatline</title>. <title level="j">Literary and Linguistic Computing</title> 28.4 (2013): 692–99. <ref target="http://llc.oxfordjournals.org/content/28/4/692.abstract">http://llc.oxfordjournals.org/content/28/4/692.abstract</ref>
+                        </bibl>
+                        <bibl>Renear, Alan, Elli Mylonas, and David Durand. <title level="a">Refining Our Notion of What Text Really Is: The Problem of Overlapping Hierarchies</title>. 1993. <ref target="http://www.stg.brown.edu/resources/stg/monographs/ohco.html">http://www.stg.brown.edu/resources/stg/monographs/ohco.html</ref>
+                        </bibl>
+                        <bibl>Scholars’ Lab. <title level="m">Neatline: Plot Your Course in Space and Time</title>. University of Virginia Library. <ref target="http://neatline.org">http://neatline.org</ref>
+                        </bibl>
+                        <bibl>. <title level="m">Spatial Humanities: Institute for Enabling Geospatial Scholarship</title>. University of Virginia Library. <ref target="http://spatial.scholarslab.org">http://spatial.scholarslab.org</ref>
+                        </bibl>
+                        <bibl>Schulten, Susan. <title level="a">Emma Willard and the Graphic Foundations of American History</title>. <title level="j">Journal of Historical Geography</title> 33 (2007): 542–64.</bibl>
+                        <bibl>Willard, Emma. <title level="a">Letter to Miss Foster, 5 Nov. 1848</title>. <title level="m">The Life of Emma Willard</title>, by John Lord. New York: D. Appleton, 1873.</bibl>
+                        <bibl>. <title level="m">A Plan for Improving Female Education</title>. Middlebury: S.W. Copeland, 1819.</bibl>
+                        <bibl>Willson, Marcius. <title level="a">A Critical Review of American Common School Histories: As Embraced in a Report Submitted to the New Jersey Society of Teachers and Friends of Education</title>. <title level="j">Biblical Repository</title> (July 1845): 517–39.</bibl>
+                        <bibl>Woodbridge, William Channing, and Emma Willard. <title level="m">Geography for Beginners</title>. Hartford, CT: Oliver D. Cooke, 1826.</bibl>
+                        <bibl>. <title level="m">A System of Universal Geography</title>. Hartford, CT: Oliver D. Cooke, 1827.</bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

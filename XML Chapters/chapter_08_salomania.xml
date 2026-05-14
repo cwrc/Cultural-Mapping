@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>-->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Salomania</title>
+                <title level="m" type="main" xml:lang="en-CA">Cultural Mapping and the Digital Sphere</title>
+                <title level="m" type="sub" xml:lang="en-CA">Place and Space</title>
+                <author>Cecily Devereux</author>
+                <editor role="editor">
+                    <forename>Ruth</forename>
+                    <surname>Panofsky</surname>
+                </editor>
+                <editor role="editor">
+                    <forename>Kathleen</forename>
+                    <surname>Kellett</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <forename>Ilovan</forename>
+                    </name>
+                </respStmt>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor>
+                    <orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Dynamic Table of Contexts editors: </resp>
+                    <name>
+                        <forename>Ruth</forename>
+                        <surname>Panofsky</surname>
+                    </name>
+                    <name>
+                        <forename>Kathleen</forename>
+                        <surname>Kellett</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Principal: </resp>
+                    <name>
+                        <forename>Susan</forename>
+                        <surname>Brown</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <surname>Ilovan</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copyediting and proofreading: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Olivier</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexing:</resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name>
+                        <forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Cover design: </resp>
+                    <name role="book_designer">
+                        <forename>Virginia</forename>
+                        <surname>Penny</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface design lead: </resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead: </resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>Mary Lou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer:</resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by: </resp>
+                    <name role="markup_editor">
+                        <forename>Kristine</forename>
+                        <surname>Abramoff</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Anita</forename>
+                        <surname>Cutic</surname>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address>
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address>
+                        <addrLine>www.cwrc.ca</addrLine>
+                    </address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1- 55195-365- 6</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Individual chapter extract from: Cultural Mapping and the Digital Sphere: Place and Space, ed. Ruth Panofsky &amp; Kathleen Kellett (Edmonton: University of Alberta Press, 2015 / DToC ed. 2016).</p>
+                <ab type="host-volume">
+                    <listBibl>
+                        <bibl>
+                            <title level="a" type="main">Foreword</title>
+                            <author>
+                                <forename>Susan</forename>
+                                <surname>Brown</surname>
+                            </author> &amp; <author>
+                                <forename>Mary-Jo</forename>
+                                <surname>Romaniuk</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Preface</title>
+                            <author>
+                                <forename>Ruth</forename>
+                                <surname>Panofsky</surname>
+                            </author> &amp; <author>
+                                <forename>Kathleen</forename>
+                                <surname>Kellett</surname>
+                            </author>
+                        </bibl>
+                        <listBibl>
+                            <head>Part I. Place and the Digital Frontier</head>
+                            <bibl>
+                                <title level="a" type="maiin">Mapping Tags and Tagging Maps</title>
+                                <title type="sub">Leveraging Spatial Markup for Literary History</title>
+                                <author>
+                                    <forename>Susan</forename>
+                                    <surname>Brown</surname>
+                                </author>, <author>
+                                    <forename>Isobel</forename>
+                                    <surname>Grundy</surname>
+                                </author>, <author>
+                                    <forename>Mariana</forename>
+                                    <surname>Paredes-Olea</surname>
+                                </author>, <author>
+                                    <forename>Jeffery</forename>
+                                    <surname>Antoniuk</surname>
+                                </author> &amp; <author>
+                                    <forename>Breanna</forename>
+                                    <surname>Mroczek</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Modeling Collaboration in Digital Humanities Scholarship</title>
+                                <title type="sub">Foundational Concepts of an EMiC UA Project Charter</title>
+                                <author>
+                                    <forename>Paul</forename>
+                                    <surname>Hjartarson</surname>
+                                </author>, <author>
+                                    <forename>Harvey</forename>
+                                    <surname>Quamen</surname>
+                                </author>, <author>
+                                    <forename>Andrea</forename>
+                                    <surname>Hasenbank</surname>
+                                </author>, <author>
+                                    <forename>Vanessa</forename>
+                                    <surname>Lent</surname>
+                                </author> &amp; <author>
+                                    <orgName> EMiC UA</orgName>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">An Interactive, Materialist-Semiotic Archive</title>
+                                <title type="sub">Visualizing the Canadian Theatrical Canon in the Simulated Environment for Theatre</title>
+                                <author>
+                                    <forename>Sasha</forename>
+                                    <surname>Kovacs</surname>
+                                </author> and <author>
+                                    <forename>Jennifer</forename>
+                                    <surname>Roberts-Smith</surname>
+                                </author>, <author>
+                                    <forename>Theresa M.</forename>
+                                    <surname>Dobson</surname>
+                                </author>, <author>
+                                    <forename>Sandra</forename>
+                                    <surname>Gabriele</surname>
+                                </author>, <author>
+                                    <forename>Omar</forename>
+                                    <surname>Rodrigues-Arenas</surname>
+                                </author>, <author>
+                                    <forename>Stan</forename>
+                                    <surname>Ruecker</surname>
+                                </author>, <author>
+                                    <forename>Stéfan</forename>
+                                    <surname>Sinclair</surname>
+                                </author>, <author>
+                                    <forename>Shawn</forename>
+                                    <surname>DeSouza-Coelho</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">"Talk to the Work"</title>
+                                <title type="sub">Applying istc Identifiers to the Digital Edition of the Canadian Bookman (1909–1941)</title>
+                                <author>
+                                    <forename>Ravit H.</forename>
+                                    <surname>David</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">How to Play with Maps</title>
+                                <author>
+                                    <forename>Bethany</forename>
+                                    <surname>Nowviskie</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Edmonton Pipelines</title>
+                                <title type="sub">Living and Playing in the Digital City </title>
+                                <author>
+                                    <forename>Heather</forename>
+                                    <surname>Zwicker</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Representing Canadian Queer Authorship</title>
+                                <title type="sub">Making the Internet a Women’s Place</title>
+                                <author>
+                                    <forename>Michelle</forename>
+                                    <surname>Schwartz</surname>
+                                </author> &amp; <author>
+                                    <forename>Constance</forename>
+                                    <surname>Crompton</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Part II. Writers and Readers: Mapping Textual Space</head>
+                            <bibl>
+                                <title level="a" type="main">Salomania</title>
+                                <title type="sub">Maud Allan, Postcards, and Early Twentieth-Century “Viral” Circulation</title>
+                                <author>
+                                    <forename>Cecily</forename>
+                                    <surname>Devereux</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Toronto the Good in the Fiction and Life of Grace Irwin</title>
+                                <author>
+                                    <forename>Patricia</forename>
+                                    <surname>Demers</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">« Where are you froM? »</title>
+                                <title type="sub" xml:lang="fr-CA">La ville et l’écriture migrante dans l’autofiction de Marguerite Andersen</title>
+                                <author>
+                                    <forename>Kathleen</forename>
+                                    <surname>Kellett</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Languages as Spaces, Translation as Play</title>
+                                <title type="sub">Moving (through) Languages</title>
+                                <author>
+                                    <forename>Lori</forename>
+                                    <surname>Saint-Martin</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">L'espace ensorcelé</title>
+                                <title type="sub">Les enfants du sabbat d’Anne Hébert</title>
+                                <author>
+                                    <forename>Stéphanie</forename>
+                                    <surname>Walsh Matthews</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick and Kim Thúy</title>
+                                <author>
+                                    <forename>Mireille</forename>
+                                    <surname>MaiTruong</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Standing on a Rainbow</title>
+                                <title type="sub">Reading in Place, Position, and Time</title>
+                                <author>
+                                    <forename>Margaret</forename>
+                                    <surname>Mackey</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <bibl>
+                            <title type="main" xml:lang="en-CA">Contributors</title> / <title type="main" xml:lang="fr-CA">Collaborateurs</title>
+                        </bibl>
+                    </listBibl>
+                </ab>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p />
+            </projectDesc>
+            <classDecl>
+                <taxonomy>
+                    <desc>Semantic tags employed in this book can be reviewed at <ref target="http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml">http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml</ref>
+                    </desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-CA">English</language>
+                <language ident="fr-CA">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline />
+                <item />
+                <index>
+                    <term />
+                </index>
+                <byline />
+                <index>
+                    <term />
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:lang="en-CA">
+                <head>
+                    <title level="a">Salomania</title>
+                </head>
+                <byline>Maud Allan, Postcards, and Early Twentieth-Century “Viral” Circulation</byline>
+                <docAuthor> Cecily Devereux</docAuthor>
+                <p xml:id="p1309">
+                    <ref target="#technology">
+                        <ref target="#representation_of_women">
+                            <ref target="#theme_or_topic">
+                                <ref target="#history">
+                                    <ref target="#genre_Non_Book_Media">This chapter is concerned not with the digital per se or even with digital histories (histories of the media of representation and the processes by which those representations are reproduced and circulated), but with attempting to define and to trace the cultural genealogies that can also be seen to undergird the digital. It considers postcards, a technology of communication and of the circulation of images that took shape at the end of the nineteenth century, looking in particular at one crucial group in one category of early twentieth-century postcards—those bearing images of erotic dancers. My interest here is even more particular: this chapter focuses on postcard images of <ref target="#nationality">Canadian-born</ref> dancer Maud Allan in studio poses from what was, by 1908, her internationally known dance <title level="a">The Vision of Salome.</title>
+                                        <ref target="#genre_performance">
+                                            <ref target="#spatiality">
+                                                <ref target="#health_issue">Allan’s Salome postcards, carrying the image of the dancer around the world and from the space of performance into the space of the home, or the domestic, are a foundational element in what the rhetoric of media representation suggests was a kind of disease: <q>Salomania,</q> the name for the condition of proliferating performances of Salome in the manner of Maud Allan, was a <q>condition</q> that mobilized in the early twentieth century what is now familiar as the rhetoric of the <q>viral.</q>
+                                                </ref>
+                                                <ref target="#sexuality">
+                                                    <ref target="#gender_issue">Maud Allan’s Salome postcards, as I hope to demonstrate, are important as both analogous to and precursors for the digital sphere and in particular for the circulation of images of women that represents a crucial circuit for the web as an ideological apparatus and a structure for constituting gender and sexuality.</ref>
+                                                </ref> The <q>digital</q> is a cultural apparatus with histories in earlier technologies and practices of representation. By suggesting that postcards’ mobilization of images of women as erotic dancers anticipates and establishes a culture of the rapid circulation of images that women undertake to embody through imitation or what we might understand as corporeal mimesis (embodying the image), this chapter works toward an understanding of other <q>digital</q> histories.</ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <div type="section">
+                    <head>
+                        <q>The Vision of Salome</q>
+                    </head>
+                    <p xml:id="p1310">
+                        <ref target="#history">
+                            <ref target="#gender_issue">
+                                <ref target="#theme_or_topic">
+                                    <ref target="#response_formal">
+                                        <ref target="#genre_performance">On August 23, 1908, the <title level="j">New York Times</title> reported <ref target="#spatiality">an event that had taken place in London</ref>:<note xml:id="n75" place="end">On this <q>Maud Allan Dinner Dance,</q> see <bibl>Cherniavsky, <title level="m">Salome</title> 176–77</bibl> and <note place="inline">
+                                                    <bibl>Bentley 67–69</bibl>
+                                                </note>.</note>
+                                            <ref target="#class_issue"> headlined <title level="a">Salome Dinner Dance,</title> the article claimed that <q>one of the great hostesses of the metropolis a few weeks ago issued invitations to twenty or thirty ladies whose names figure in Court and other fashionable lists, to attend a <q>Maud Allan</q> dinner dance, which would be undesecrated by the presence of any man, and at which the guests were bidden to appear in Salome costumes</q>
+                                                <note place="inline">
+                                                    <bibl>
+                                                        <title level="a">Salome Dinner Dance</title>
+                                                    </bibl>
+                                                </note>. According to the report, <q>Each of the ladies proceeded to outvie her sisters in providing herself with a costume matching in all details the undress effect of Miss Allan’s scanty attire.</q> After dinner, at <q>the coffee and cigarette stage,</q> some of the women reportedly <q>demonstrated that they had not only succeeded in matching Miss Allan’s costume, but had learned some of her most captivating steps in movements.</q> The event, the article suggested, worked <q>as convincing proof that the classical dances make for public immorality</q> and, in particular, as <q>evidence of the <q>insidious effect</q> Maud Allan, Isadora Duncan, and other American <q>classic</q> dancers are having upon public morals in England</q>
+                                                <note place="inline">
+                                                    <bibl>
+                                                        <title level="a">Salome Dinner Dance</title>
+                                                    </bibl>
+                                                </note>.</ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1311">
+                        <ref target="#theme_or_topic">
+                            <ref target="#genre_performance">
+                                <ref target="#history">By 1908, when this article appeared in the <title level="j">New York Times</title>, Maud Allan (1873–1956) was one of the best-known dancers in the world, even, arguably, surpassing her contemporary Isadora Duncan (1877–1927), who had been <q>before the public,</q> as Allan’s mother described her daughter’s ambitions, a little longer. Both dancers had risen to fame in the first decade of the twentieth century as creative, <q>classical,</q> interpretive dancers. It was Allan, however, frequently accused of imitating her younger predecessor in the field, and described in a review in 1925 as <q>an Isadora Duncan of the music hall</q>
+                                    <note place="inline">
+                                        <bibl>cited in Cherniavsky, <title level="m">Maud</title> 137</bibl>
+                                    </note>, who erupted sensationally into the more or less high side of popular culture in Europe with her performance in the self-choreographed <title level="a">“Vision of Salome.”</title>
+                                    <ref target="#spatiality">
+                                        <ref target="#intertextuality">Allan’s dance, as her biographer Felix Cherniavsky indicates, was first performed publicly in Vienna in 1906 <note place="inline">
+                                                <bibl>
+                                                    <title level="m">Salome</title> 143</bibl>
+                                            </note>. <ref target="#genre_drama">It was, as Cherniavsky also suggests, inspired by Max Reinhardt’s 1902 production in Berlin of Oscar Wilde’s 1892 dramatic representation of Salome,</ref>
+                                        </ref>
+                                        <note xml:id="n76" place="end">
+                                            <ref target="#editions">
+                                                <ref target="#place_of_publication">Originally written in French, the first English edition of Wilde’s <title level="m">Salome</title> appeared in 1894, published by Elkin Mathews and John Lane in London and by Copeland and Day in Boston</ref>. It was translated by Lord Alfred Douglas and illustrated by Aubrey Beardsley</ref>.</note>
+                                    </ref>&gt; daughter of Herodias and step-daughter of Herod Antipas at whose request John the Baptist was beheaded following her dance for her step-father. <note xml:id="n77" place="end">Cherniavsky notes that both Maud Allan and Marcel Rémy, who composed the music for <title level="a">The Vision of Salome,</title> saw this production in Berlin in 1902 <bibl>
+                                            <title level="m">Salome</title> 142</bibl>. See also <bibl>Tydeman and Price 140</bibl>.</note> Allan toured briefly and sensationally through Europe, and in March 1908 <title level="a">The Vision of Salome</title> opened in London at the Palace Theatre. It would run for eighteen months, with Allan as a main performer among a range of variety shows.<note xml:id="n78" place="end">See Judith Walkowitz on the Palace Theatre, its history from 1893 of presenting <title level="a">Living Pictures</title>
+                                        <bibl>348–50</bibl>, and its identity as a variety theatre <bibl>347–48</bibl>.</note>
+                                    <ref target="#genre_lifeWriting">By October of 1908, Cherniavsky notes, the Palace Theatre marked the 250th performance of the dance with a gala event and publication of Allan’s autobiography, <title level="m">My Life and Dancing</title>, a slender volume that was distributed as a souvenir program <note place="inline">
+                                            <bibl>
+                                                <title level="m">Maud</title> 8</bibl>
+                                        </note>.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1312">
+                        <ref target="#genre_performance">
+                            <ref target="#history">
+                                <ref target="#genre_drama">
+                                    <ref target="#spatiality">Allan’s was neither the first nor the only Salome dance of its moment. <ref target="#intertextuality">American-born dancer Loïe Fuller (1862–1928) had staged what Rhonda Garelick describes as a <q>dance-pantomime version</q> of <title level="m">Salome</title> in 1895 in Paris <note place="inline">
+                                                <bibl>5–6</bibl>
+                                            </note>, preceding Allan as well as the women who played the part in the first European performances of Wilde’s <title level="m">Salome</title> from 1896.<note xml:id="n79" place="end">Tydeman and Price indicate that <q>the first performance of Wilde’s <title level="m">Salome</title> was staged by the Théâtre de l’Oeuvre in Paris on 11 February 1896</q>
+                                                <bibl>25</bibl>. Lina Munte played the title role. It was not <q>performed again until 15 November 1902 at the Kleines Theater, Berlin…in a production directed by Friedrich Kayssler and Hans Oberländer under the supervision of the twenty-nine-year-old Max Reinhardt</q>
+                                                <bibl>Tydeman and Price 31</bibl>. <bibl>Hutcheon and Hutcheon</bibl> suggest the <q>German version premiered in 1901 in Breslau</q>
+                                                <bibl>205</bibl>.) Cherniavsky notes that both Maud Allan and Marcel Rémy, who composed the music for <title level="a">The Vision of Salome,</title>
+                                                <q>saw this Reinhardt production in Berlin</q>
+                                                <bibl>
+                                                    <title level="m">Salome</title> 142</bibl>.</note> Richard Strauss’s opera <title level="m">Salome</title>, like Allan’s dance, inspired by Wilde’s play, had been performed for the first time in Dresden in 1905, giving rise to growing numbers of women who performed the title role in various locations and who performed the <title level="a">Dance of the Seven Veils</title> when the singer could not or would not do so. Dutch dancer Mata Hari (Margaretha Geertruida Zelle) (1876–1917), who debuted her <q>Oriental</q> temple dancing in Paris in 1905, had asked to <q>create</q> the <title level="a">Dance of the Seven Veils</title> for the Paris premiere of Strauss’s opera in May 1907</ref>
+                                        <note place="inline">
+                                            <bibl>Tydeman and Price 144</bibl>
+                                        </note>. Denied that opportunity, Toni Bentley suggests she nonetheless added the dance to her repertoire.<note xml:id="n80" place="end">Mata Hari, Cherniavsky points out, was also appearing in Vienna at the time of Allan’s first public performance of <title level="a">The Vision of Salome</title>
+                                            <bibl>
+                                                <title level="m">Salome</title> 143</bibl>.</note> Meanwhile, as Lacy McDearmon notes, Fuller developed a second Salome dance in 1907, <q>a much more elaborate version, with a specially commissioned score by Florent Schmitt, <hi xml:lang="fr-CA">La Tragédie de Salomé</hi>, to a scenario by Robert d’Humières</q>
+                                        <note place="inline">
+                                            <bibl>88</bibl>
+                                        </note>; see also <note place="inline">
+                                            <bibl>Tydeman and Price 138–39</bibl>
+                                        </note>.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1313">
+                        <ref target="#genre_performance">
+                            <ref target="#authority">
+                                <ref target="#spatiality">
+                                    <ref target="#genre_drama">
+                                        <ref target="#representation_of_women">
+                                            <ref target="#intellectual_history">Like Wilde’s play, Strauss’s opera, and Maud Allan’s <title level="a">Vision of Salome,</title> the performances by Fuller and Mata Hari are themselves part of what Udo Kultermann demonstrates was a growing interest in Europe and North America in the representation of the figure of Salome in visual arts, theatre, and music.</ref> Kultermann traces the circulation of cultural representations of Salome from around the 1840s through to the 1970s, focusing on the intensification of such representations in the first decade of the twentieth century.</ref> Of these many representations, it was arguably Wilde’s play that led to the popularizing of Salome’s dance: the <title level="a">Dance of the Seven Veils</title> was a climactic event in the play and, although not described in the stage directions, figured prominently in the famous illustrations developed by Aubrey Beardsley for the first English edition of 1894. But it was arguably Maud Allan’s performance that gave rise to what the <title level="j">New York Times</title> in 1908 called <q>Salomania.</q>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>
+                        <q>Salomania</q>
+                    </head>
+                    <p xml:id="p1314">
+                        <ref target="#theme_or_topic">
+                            <ref target="#genre_performance">
+                                <ref target="#response_formal">
+                                    <ref target="#spatiality">
+                                        <q>Salomania</q> was a term used in the wake of Maud Allan’s spectacular success in 1908 to describe the <q>craze</q> for <q>the sensational dance</q> that one writer in the <title level="j">New York Times</title> suggested <q>flowed over the Continent of Europe [and] is in process of covering our Anglo-Saxon lands</q>
+                                    </ref>
+                                    <note place="inline">
+                                        <bibl>Pollard</bibl>
+                                    </note>
+                                </ref>. <ref target="#history">
+                                    <ref target="#health_issue">In this and other articles in the <title level="j">New York Times</title> in the summer of 1908, Salomania identified a condition characterized by the proliferation of the image of Salome in cultural representation and by the repeated performance of Salome by women in theatres and music halls.</ref> An article in the <title level="j">New York Times</title> on August 16, 1908 ironically addressed <q>Rumours that Salomania Will Have a Free Hand This Season.</q>
+                                    <ref target="#representation_of_women">An editorial earlier in the month, on August 3, complained vigorously about the proliferation of <q>half-dressed women in all the variety theatres…doing the dance of seven veils and joyfully receiving a human head (in papier maché) on a platter</q> (<title level="a">The Salome Pestilence</title>).</ref> This editorial likewise looked forward unhappily to a theatrical season dominated by Salome dancers. <q>We shall have,</q> it ends sadly, <q>this deplorable dancing creature with us, more or less all Winter</q>: <q>any chorus girl</q> might be tempted to perform her own Salome dance and thus add to what is described as a proliferating number of Salomes and to the ubiquity of the dance in the theatrical scene.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1315">
+                        <ref target="#gender_issue">
+                            <ref target="#genre_performance">
+                                <ref target="#intellectual_history">This ubiquity is well charted. Cherniavsky notes a number of imitators of Allan’s Salome dance, some serious, some parodic, at least one—the well-known <q>female impersonator</q> Julian Eltinge—in drag <note place="inline">
+                                        <bibl>
+                                            <title level="m">Salome</title> 187–88n21</bibl>
+                                    </note>. <ref target="#genre">
+                                        <ref target="#response_formal">Kultermann reproduces a page from <title level="j">Theatre Magazine</title> in April 1909 showing what are described as <q>All Sorts and Kinds of Salomes</q>
+                                            <note place="inline">
+                                                <bibl>Kultermann 204</bibl>
+                                            </note>. The eight images on the page include Allan in symbolic first place at the top left: she is described in the article as <q>the pioneer of the present revival</q>
+                                        </ref>
+                                        <note place="inline">
+                                            <bibl>Kultermann 132</bibl>
+                                        </note>
+                                    </ref>. Allan’s followers here include a mix of dancers and singers. <ref target="#spatiality">There are images of <q xml:lang="fr-CA">Folies Bergère</q> dancer <q>La Sylphe”</q> (Edith Lambelle Langerfeld, 1883–1968) and vaudevillian Gertrude Hoffmann (1885–1966), identified by Cherniavsky as the dancer who, reportedly sent to watch and imitate Allan in London, brought a copy, or version, of the Salome dance to the United States before Allan could arrive with her own.</ref>
+                                    <note xml:id="n81" place="end">
+                                        <ref target="#education">Cherniavsky writes, <q>In April 1908—within weeks of [Allan’s] sensational debut in London—Oscar Hammerstein had sent Gertrude Hoffmann, well known in the United States as a <q>mimic</q> dancer to London, to study Maud Allan’s performance at the Palace Theatre. On July 13, 1908, Hoffmann duly opened a six-week season at the Hammerstein Theatre on Broadway featuring a skillful imitation of <hi rend="italic">
+                                                    <title level="a">The Vision of Salome</title>
+                                                </hi>. After Labour Day, Hoffmann set out on an ambitious tour that aroused more controversy than acclaim</q>
+                                        </ref>
+                                        <bibl>
+                                            <title level="m">Maud</title> 69</bibl>.</note> These Salomes are aligned with the putatively <q>higher</q> culture performers who played the roles of Salome in Strauss’s opera, represented here by Olive Fremstad (1871–1951) and Mary Garden (1874–1967). <ref target="#response_formal">Some of these women also comprise what the <title level="j">New York Times</title> article of August 16, 1908 reported with mock seriousness as <q>the <q>Salome</q> Club</q>: <q>President, Gertrude Hoffmann; Vice President, La Sylphe; Treasurer, Lotta Faust; Secretary, Eva Tanguay</q>
+                                        <note place="inline">
+                                            <bibl>
+                                                <title level="a">The Call of Salome</title>
+                                            </bibl>
+                                        </note>. Eltinge was identified as an <q>honorary member.</q>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1316">
+                        <ref target="#social_movement">
+                            <ref target="#health_issue">
+                                <ref target="#response_formal">What is compelling in so much of the media representation of Salomania is its framing in terms of infection and contagion: it is depicted as an <q>epidemic</q> and as <q>pestilence.</q> Indeed, <title level="a">The Call of Salome</title> begins with an ironically serious report:</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <q type="block">
+                        <ref target="#censorship">
+                            <ref target="#genre_performance">
+                                <ref target="#health_issue">
+                                    <ref target="#response_formal">
+                                        <ref target="#representation_of_women">It is announced on good authority that the management [at the New Amsterdam Theatre] has been exceptionally active in guarding against outbreaks of Salomania among members of the company. As soon as any chorus girl shows the very first symptoms of the disease she is at once enveloped in a fur coat—the most efficacious safeguard known against the Salome dance—and hurriedly isolated.</ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                        <note place="inline">
+                            <bibl>
+                                <title level="a">The Call of Salome</title>
+                            </bibl>
+                        </note>
+                    </q>
+                    <p xml:id="p1317">
+                        <ref target="#authority">
+                            <ref target="#health_issue">
+                                <ref target="#nationality">
+                                    <ref target="#theme_or_topic">
+                                        <ref target="#response_formal">The representation of Salomania as a disease is also implicit in the account of the <title level="a">Salome Dinner Dance</title> with which this chapter began. Although slightly tongue-in-cheek in its portrayal of Salomania as evidence of British morals corrupted by American dance—or Englishness by Americanness—and in its suggestion that danger to <q>public morals in England</q> lies partly in the exclusion of men from the dance, the <title level="a">Salome Dinner Dance</title> article makes an important point when it implies that the <q>effect</q> of Allan <q>and other American <q>classic</q> dancers</q> is comprehensible as a kind of infection and Salomania as a culture of imitation—reproduction, replication, proliferation, circulation—that is arguably best understood as <q>viral.</q>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1318">
+                        <ref target="#technology">
+                            <ref target="#intertextuality">
+                                <ref target="#theory">Defined in the <title level="m">Oxford English Dictionary (<abbr>OED</abbr>)</title> in a January 2005 <title level="a">Draft Addition,</title> the contemporary phrase <q>to go viral</q> has emerged from the digital sphere. <ref target="#economics">Used chiefly, the <title level="m">
+                                            <abbr>OED</abbr>
+                                        </title> suggests, in marketing, <q>going viral</q> designates or involves <q>the rapid spread of information (esp. about a product or service) amongst customers by word of mouth, e-mail, etc.</q>
+                                    </ref>
+                                    <q>To go viral,</q> it further suggests, is <q>to propagate in such a manner; to (be) spread widely and rapidly.</q> Website marketing company Volacci adds to this definition in a May 26, 2010 blog on the question <q>What Does It Mean to <q>Go Viral</q>?</q> Citing the online definition resource <title level="m">Answers.com</title>, Volacci suggests that <q>
+                                        <hi rend="italic">viral </hi>means becoming extremely popular in a very short amount of time. Often for something to be considered viral it needs to make its way into everyday non-internet life</q>
+                                    <note place="inline">
+                                        <bibl>cited in Volacci <abbr>SEO</abbr> Blog</bibl>
+                                    </note>. Not only <q>extremely popular,</q> and a mechanism for marketing, the viral is also arguably implicitly and foundationally—or, at least, rhetorically—constituted as <hi rend="italic">hazardous</hi>: when the viral moves into <q>everyday non-internet life,</q> it does so in way that is also simultaneously uncontrollable and undesirable. Indeed, viruses, in the context of the digital, refer to the machine counterpart of infecting agents for human bodies: a computer virus is a <q>piece of code which is capable of copying itself and typically has a detrimental effect, such as corrupting the system or destroying data</q>
+                                    <note place="inline">
+                                        <bibl>
+                                            <title level="m">
+                                                <abbr>OED</abbr>
+                                            </title>
+                                        </bibl>
+                                    </note>.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1319">
+                        <ref target="#health_isssue">
+                            <ref target="#race_issue">
+                                <ref target="#genre_performance">
+                                    <ref target="#authority">
+                                        <ref target="#theme_or_topic">
+                                            <ref target="#response_formal">
+                                                <ref target="#spatiality">Salomania was likewise represented as a <q>corrupting</q> agent. The real danger of the <q>outbreaks</q> of Salomania in New York theatres, as these articles all suggest, was its potential infection of white and Anglo-Saxon femininity at home. </ref>
+                                                <ref target="#genre_journalism">Toni Bentley draws attention to a <q>lengthy piece</q> that appeared in the <title level="j">New York Times Sunday Magazine</title> in 1908 issuing a <q>warning about the current threat</q>
+                                                    <note place="inline">
+                                                        <bibl>Bentley 68</bibl>
+                                                    </note> posed by Salome dancers and expressing concern not only that <q>this virus could lead [in the other direction]—to North America</q>
+                                                    <note place="inline">
+                                                        <bibl>Veteran Diplomat</bibl>
+                                                    </note> but into domestic space. <q>At the present rate,</q> the article suggests,</ref>
+                                            </ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <q type="block">
+                        <ref target="#genre_journalism">
+                            <ref target="#response_formal">
+                                <ref target="#genre_performance">
+                                    <ref target="#spatiality">it is probable that Salome dances will invade the fashionable drawing rooms of New York during the coming Winter, as they have of the London Great World during the season which has just come to an end….From the presentation of the Salome dance in English homes, and the lionization of the performer as an honored and gushed-over guest, to the appearance of some of these feminine enthusiasts of rank and lineage in the same role, is but a step. <note place="inline">
+                                            <bibl>Veteran Diplomat</bibl>
+                                        </note>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </q>
+                    <p xml:id="p1320">
+                        <ref target="#genre_journalism">
+                            <ref target="#health_issue">
+                                <ref target="#response_formal">
+                                    <ref target="#spatiality">Like the earlier editorial of August 3, this piece, headlined <title level="a">Salome in English Homes,</title> uses a vocabulary of contagion and voices explicit concern that <q>the spectacular, theatrical Salome has invaded our homes</q>
+                                        <note place="inline">
+                                            <bibl>
+                                                <title level="a">The Salome Pestilence</title>
+                                            </bibl>
+                                        </note>; see also <note place="inline">
+                                            <bibl>Cherniavsky, <title level="m">Maud</title> 70</bibl>
+                                        </note>.</ref>
+                                </ref>
+                                <ref target="#genre_performance">
+                                    <ref target="#representation_of_women">Salomania can thus be understood as the <q>craze</q> not simply for <q>the sensational dance</q>
+                                        <note place="inline">
+                                            <bibl>
+                                                <title level="a">The Salome Pestilence</title>
+                                            </bibl>
+                                        </note> in theatres but as a <q>virus</q> carrying <q>pestilence</q> not only from the Old World to the putative New, and not only from the theatrical to the home, but from the dancer to the <q>everyday</q> woman. <ref target="#class_issue">
+                                            <ref target="#history">
+                                                <ref target="#race_issue">It was a domestic <q>epidemic,</q> infecting the bodies of women <q>of rank and lineage</q> or, in other words, those white middle-class women called upon across so many late nineteenth- and early twentieth-century discursive registers as <q>mothers of the race,</q> the women who would do reproductive duty for the Empire and produce the babies that would ensure its growth and continuity at home and throughout colonial spaces.</ref>
+                                            </ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1321">
+                        <ref target="#genre_journalism">
+                            <ref target="#health_issue">
+                                <ref target="#response_formal">Although the <title level="j">New York Times</title> drew attention to the numbers of proliferating Salomes, drily noting that membership in the <q>Club…was limited to fifty thousand</q>
+                                    <note place="inline">
+                                        <bibl>
+                                            <title level="a">The Salome Pestilence</title>
+                                        </bibl>
+                                    </note>, and the <title level="j">Theatre Magazine</title> made a similar reference to <q>all sorts and kinds of Salomes,</q> it is clear that in 1908 there was actually only one <q>kind</q> of Salome.</ref>
+                                <ref target="#representation_of_women">All of the women whose photographs the <title level="j">Theatre Magazine</title> includes, for instance, can be understood not just to be doing a Salome dance but, like the women at the London dinner dance, to be doing <title level="a">Maud Allan</title>. Thus, they strike similar poses to Allan and wear versions of the costume that she made famous in her dance.<note xml:id="n82" place="end">Tydeman and Price suggest that Allan’s costume was <q>strongly reminiscent of [Charles] Ricketts’s design</q> for a 1906 production in London <bibl>140</bibl>. It is not clear, however, that Allan had seen this production prior to designing and making her costume.</note>
+                                </ref> Like the women at the London <title level="a">Salome Dinner Dance,</title> they can be seen to be imitating Allan, their poses indicating that they too <q>had learned some of her most captivating steps in movements</q> and their costumes <q>matching in all details the undress effect of Miss Allan’s scanty attire</q>
+                                <note place="inline">
+                                    <bibl>
+                                        <title level="a">Salome Dinner Dance</title>
+                                    </bibl>
+                                </note>. It is not surprising that what the <title level="j">New York Times</title> called <q>Salomania</q> in the United States, contemporary critics in London, as Judith Walkowitz has observed, described as the <q>Maud Allan boom</q>
+                                <note place="inline">
+                                    <bibl>344</bibl>
+                                </note>.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1322">
+                        <ref target="#intellectual_history">
+                            <ref target="#representation_of_women">
+                                <ref target="#authority">
+                                    <ref target="#theme_or_topic">The extraordinary success of <title level="a">The Vision of Salome</title> and the emergence in 1908 of a culture of imitation that turned not to the many women performing Salome but to Allan in particular raises important questions both about this culture of imitation (what it signifies, where it comes from, what it leads to) and about Allan’s Salome (what it did, how it did it, what was at stake in this representation, and why it achieved what other representations did not). <ref target="#class_issue">
+                                            <ref target="#spatiality">In her study of Allan and <title level="a">The Vision of Salome</title> in London, Walkowitz suggests that <q>Allan’s performances materialize[d] a new femininity</q> that, among other things, <q>facilitated the entry of respectable women into what one turn-of-the-century writer termed the <q>Night Side of London</q>: the cosmopolitan spaces of the commercial West End</q>
+                                                <note place="inline">
+                                                    <bibl>346</bibl>
+                                                </note>
+                                            </ref>
+                                        </ref>. <ref target="#social_movement">
+                                            <ref target="#race_issue">What is clear, however, is that in doing so Allan’s performances not only materialized but also mobilized <q>a new femininity,</q> literally taking women out of their homes and into <q>cosmopolitan spaces,</q> and putting into circulation an image of white femininity that was itself complicatedly mobile.</ref>
+                                        </ref> This mobility is implicit and foundational in the dance as it staged that mobility: Walkowitz astutely points out how the dancer’s movement in <title level="a">The Vision of Salome</title> is emphasized by the <q>visual juxtaposition of a mobile female body and a very immobile, trunkless male head</q>
+                                        <note place="inline">
+                                            <bibl>352</bibl>
+                                        </note>. In another register, the mobile female body is implicit and made spectacular in the fact of the performing woman who has travelled to appear on stage: Allan’s presence in front of the audience is evidence of her having come from elsewhere, of not being at home. <ref target="#language">
+                                            <ref target="#nationality">Although this fact of mobility is implicit in every female performer’s appearance on stage, Allan again made it emphatic: her own ambiguous nationality—she was Canadian-born, American by her father’s naturalization, trained in Europe, and, increasingly following her success in England in 1908, British-accented, as some interviewers noted, with flashes of Americanism </ref>
+                                            <note xml:id="n83" place="end">
+                                                <ref target="genre_journalism">See, for instance, an interview in the <title level="j">Chicago Tribune</title> on January 23, 1910, in which the interviewer notes that <q>[a] whole-souled eastern drawl seems all the time trying to break through the shell of an English veneer. Every now and then—when the owner grows excited—it gets out in the open and cavorts around until she grabs it and pushes it back, under its covering of rolled r’s and forgotten h’s</q>
+                                                    <bibl>qtd. in Cherniavsky, <title level="m">Salome</title> 194</bibl>.</ref>
+                                            </note>—was a significant part of her staging of the mobile body. It was, arguably, precisely this mobile identity—the travelling woman, the border-crossing body, the woman not at home and out of place—that is significantly remediated in the images of Allan as Salome that circulated in the early twentieth century.</ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>The Salome Postcards</head>
+                    <p xml:id="p1323">
+                        <ref target="#history">
+                            <ref target="#non-book_media">
+                                <ref target="#technology">
+                                    <ref target="#spatiality">During the first decade of the twentieth century, when Allan was touring Europe and performing in London, images of her in her Salome costume were reproduced on numerous postcards.</ref> These cards, manufactured and sold in many countries, and preceding the kinds of controls that would help put the protection of the images in the hands of the artist and/or her managers, are probably too numerous to count. In fact, they are arguably significant in terms of their proliferation rather than their precise numbers, and of their similarities rather than their differences. Even now, postcards remain the dominant record of Allan’s performance. A Google image search <note place="inline">
+                                        <bibl>April 3, 2012</bibl>
+                                    </note> using the term <q>Maud Allan</q> yields <q>about 347,000 results.</q> Of the first twenty-five images, twenty are certainly postcards; two are possibly postcards; one is a sketch; one is an image of Allan’s Salome costume worn by a contemporary model; and one is a postcard of Wilde. Of the twenty postcards with the image of Allan, seventeen are Salome postcards. A Google search <note place="inline">
+                                        <bibl>April 3, 2012</bibl>
+                                    </note> using the term <q>Maud Allan Salome</q> yields <q>about 30,900 results.</q> Of the first twenty-four, all but three are postcards. Allan’s <title level="m">Wikipedia</title> entry is illustrated with a Salome postcard. <ref target="#economics">Postcards with images of Allan outnumber all other Allan objects on the Internet auction site eBay: of the items listed by international sellers on April 17, 2012, seven are Salome postcards, two are newspaper clippings, and one is a print from 1908. The blog <title level="m">About Postcards</title> makes the point that original postcard images of Allan <q>are in considerable demand</q> and that <q>those featuring her in her Salome costume</q> are <q>some of the most desirable</q> and can <q>be priced much higher than other Edwardian stage and actress postcards</q>
+                                        <note place="inline">
+                                            <bibl>
+                                                <title level="m">Maud Allan: The Salome Dancer Postcards</title>
+                                            </bibl>
+                                        </note>. Most of the eBay postcards are listed between US$3.00 and US$4.00, but higher prices can be found across the Internet.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1324">
+                        <ref target="#technology">
+                            <ref target="#non-book_media">
+                                <ref target="#archive">
+                                    <ref target="#archival_location">
+                                        <ref target="#spatiality">Given their dominance of the online record of Allan, it is not surprising that postcards represent an important part of her archive or, at least, of the archival record of Allan and her art. Allan’s papers and personal effects are concentrated in two locations. The first is Toronto’s Dance Collection Danse (<abbr>DCD</abbr>), a non-institutional repository of documents and materials related to dance history. In 1996, through a donation from her biographer Felix Cherniavsky, <abbr>DCD</abbr> acquired Allan’s papers, two of her own handmade Salome costumes, and some other objects. The <abbr>DCD</abbr> collection includes several postcards, some of which date from the early twentieth century and some of which are recent reproductions. The second major location of Allan’s papers is the Charles E. Young Research Library at University of California, Los Angeles (<abbr>UCLA</abbr>). The <abbr>UCLA</abbr> Library holds some of Allan’s books, photograph albums, some performance ephemera, a <q>letter book</q> containing carbon copies of letters written by her manager Angus MacLeod during a tour of India, Asia, and Australasia between 1913 and 1915 with the Cherniavsky Trio, and a postcard album containing cards Allan received and acquired, only some of which reproduce her image; many are records of visits and travel through Europe. Other collections of materials related to Allan (the San Francisco Performing Arts Library, the New York Public Library for the Performing Arts) also include significant numbers of postcards.</ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1325">
+                        <ref target="#non-book_media">
+                            <ref target="#genre_performance">
+                                <ref target="#theme_or_topic">
+                                    <ref target="#archival_location">The Salome postcards online and in these North American repositories</ref> are by and large staged studio stills rather than captured images of the performance itself: they are images of static poses rather than of motion. Nonetheless, as Walkowitz has suggested of photographic images of Allan, they represent the movement of Allan’s body that was a fundamental part of her dance—what Walkowitz calls <q>pose</q> dancing—and help to explain the range of responses to <title level="a">The Vision of Salome</title> in the first decade of the twentieth century.</ref>
+                                <ref target="#social_movement">Even more compellingly, however, they serve by their sheer numbers as extant evidence to demonstrate how much the circulated and static print image actually meant to the rise of Allan as Salome.<note xml:id="n84" place="end">
+                                        <p xml:id="p1326">It is not necessarily clear that Allan oversaw a campaign of self-promotion through photographs. <ref target="#representation_of_women">In fact, there is evidence that Allan herself was not involved in the circulation of postcards, except as model for the images. In a copy of a 1913 letter in the <abbr>UCLA</abbr> letter book, for instance, Allan’s manager, MacLeod, writes to a company wishing to use her image:</ref>
+                                        </p>
+                                        <q type="block">
+                                            <ref target="#representation_of_women">
+                                                <ref target="#economics">Miss Allan has no objection to your advertising your cigarettes in the way you propose</ref> + can supply you with a block but cannot undertake to distribute your post-cards…I will however give you a list of the places in India Miss Allan will visit &amp; you could forward the matter yourselves. It must be understood that no liability of any kind attaches to this permission + that the wording on the post-card will not be altered without my consent in writing first obtained.</ref>
+                                            <bibl>89, 24 November 1913, by MacLeod in <title level="m">Bombay at the Taj Mahal Hotel</title>
+                                            </bibl>
+                                        </q>
+                                        <p xml:id="p1327">
+                                            <ref target="#representation_of_women">
+                                                <ref target="#economics">Although MacLeod’s note indicates that Allan would supply blocks images for printing postcards, which suggests that she had some control of the image if not of its circulation, it also suggests she does not profit by attaching her image to a commodity such as cigarettes, from the circulation of postcards themselves, or, in effect, from others capitalizing on her Salome performance.</ref>
+                                            </ref>
+                                        </p>
+                                    </note>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1328">
+                        <ref target="#non-book_media">
+                            <ref target="#archive">
+                                <ref target="#spatiality">Although Salome postcards dominate the <abbr>DCD</abbr> collection, as they do the other collections, including the online record and eBay listings, the earliest Allan postcards, which appear to date from 1905 and 1906, are not Salome cards. The <abbr>UCLA</abbr> Library <title level="a">
+                                        <hi xml:lang="de-DE">Postkarten</hi>
+                                    </title> album, probably acquired by Allan in Germany, contains a card advertising the 1905–06 season at the <hi xml:lang="de-DE">Stadthalle</hi> in Berlin with an image of Allan and an announcement of a <title level="a" xml:lang="de-DE">Kunstlerabend</title> (<title level="a">Artists’ Evening</title>) performance on November 8, 1905.</ref>
+                            </ref> Allan is identified here as Maud Gwendolen Allan, as she was known in her early years of performance in continental Europe. Another card, from the same generation, and using the same image, identifies her as Maudy Gwendolen Allan. This postcard album also contains what appears to be a very early black and white postcard of Allan as Salome, before the idiom had been so well established in and through the proliferation of Salome postcards, and before her own name had come to be well known: the card, with a grainy photograph of Allan in her Salome costume, identifies her as <q>Miss Allan Maud.</q>
+                        </ref>
+                    </p>
+                    <p xml:id="p1329">
+                        <ref target="#non-book_media">
+                            <ref target="#representation_of_women">The non-Salome postcards of 1905–06 suggest that the image of Allan as <q>Maud Allan</q> had begun to circulate in the earliest days of her performances.<note xml:id="n85" place="end">
+                                    <ref target="#violence">
+                                        <ref target="#religion">Christened Ulla Maude Durrant</ref>, she adopted the name Maud Allan following the conviction and execution of her brother Theodore Durrant in 1899 for the murder of two women in San Francisco.</ref>
+                                </note>
+                                <ref target="#social_movement">
+                                    <ref target="#economics">These cards also indicate this medium had an established work and value in circulating images to advertise an event and to bring <q>before the public</q> the image of a performer, and suggest how this value would be exploited in the groundswell that would be called the <q>Maud Allan boom,</q> if not by Allan or by Allan alone, certainly by many others in the business of image reproduction. Postcards, as the proliferation of Allan cards demonstrates, made it possible to capitalize on the image in ways that had not previously been possible. The image could be bought and sold; thus, while its work, as I am suggesting here, is importantly symbolic, the postcard also facilitated the emergence of the image as not simply the representation of the thing but the thing itself—or, as Jean-Luc Nancy suggests, of the image as <q>a thing that is not the thing [but] distinguishes itself from it</q>
+                                        <note place="inline">
+                                            <bibl>2</bibl>
+                                        </note>. The image on postcards of Allan as Salome may reference the body of Allan dancing, but they are, as images on postcards, things themselves.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Postcards and the Circulation of White Femininity</head>
+                    <p xml:id="p1330">
+                        <ref target="#non-book_media">
+                            <ref target="#history">Postcards, as Lisa Z. Sigel suggests, were not a brand new form of communication at the turn of the nineteenth century <note place="inline">
+                                    <bibl>860–61</bibl>
+                                </note>, but they were quite new—about as new in communication at that moment, arguably, as email or texting is now. <ref target="#spatiality">
+                                    <ref target="#theory">
+                                        <ref target="#economics">According to different histories, postcards appeared somewhere between 1865 and 1870 but became a functional medium of international communication, says Esther Milne, only after 1874 <note place="inline">
+                                                <bibl>115</bibl>
+                                            </note> when the General Postal Union made it possible to send cards across national borders: prior to this date and to international postage agreements, Milne observes, postcards routinely were returned to their senders. Postcards, notes Sigel, <q>gained the full authorization of the Congress of the Universal Postal Union</q>
+                                            <note place="inline">
+                                                <bibl>860</bibl>
+                                            </note> in 1886.</ref> Between 1894 and 1919, she indicates, <q>roughly 140 billion postcards were sent worldwide</q>
+                                        <note place="inline">
+                                            <bibl>861</bibl>
+                                        </note>. In Britain, <q>over 300 million cards were actually posted…in 1895, over 400 million in 1900, and over 850 million in 1908. The number merely sold was much greater</q>
+                                        <note place="inline">
+                                            <bibl>Donnachie and Macleod 98</bibl>
+                                        </note>. By 1909, when Allan’s Salome cards were in wide circulation, <q>800,000,000 postcards were sold in England alone each year</q>
+                                        <note place="inline">
+                                            <bibl>Sigel 861</bibl>
+                                        </note>.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1331">
+                        <ref target="#history">
+                            <ref target="#nationality">
+                                <ref target="#spatiality">
+                                    <ref target="#theme_or_topic">Although postcard images of Allan circulated widely and were produced in Europe and North America as well as England, I am focusing here on England for two key reasons. <ref target="#class_issue">First, it was in England that Allan rose to spectacular fame, and where the picture postcard’s mobilization of her image can be seen to have had its most telling effect on her celebrity. <ref target="#historical_oppression">
+                                                <ref target="#genre_journalism">Second, the postcard emerged in England as an imperial medium, a form of communication across the space of empire and a means of putting into circulation Anglo-Saxon presence in places outside of England—or, in effect, of affirming what Percival Pollard described in his <title level="j">New York Times</title> Salomania article of 1908 as <q>our Anglo-Saxon lands.</q> The British postcard’s imperial function is suggested in accounts of its beginnings. In <title level="m">The Picture Postcard and Its Origins</title>, Frank Staff cites a 1900 account of a deliberate decision on the part of the first publishers of <q>pictorial postcards</q> to <q>issue cards of a topical character, that is, having views or portraits of interest at the moment</q>
+                                                    <note place="inline">
+                                                        <bibl>89</bibl>
+                                                    </note>.</ref> Thus, according to this record, the <q>first topical picture postcard [in England] was that illustrating the Nile Expedition of 1897. It bore portraits of [imperial heroes Charles George] Gordon and the since famous Sirdar, Lord Kitchener</q>
+                                                <note place="inline">
+                                                    <bibl>Staff 89</bibl>
+                                                </note>. The early turn to imperial events and portraiture suggests that, in England at least, the postcard was functionalized from its first appearance as a medium for carrying information across and about imperial space—that, indeed, it was a form of communication that operated precisely in the context of empire.</ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1332">
+                        <ref target="#history">
+                            <ref target="#non-book_media">
+                                <ref target="#technology">
+                                    <ref target="#spatiality">According to Staff, and to Julia Gillen and Nigel Hall, when picture postcards were introduced into the United Kingdom in 1894 they typically bore an image on one side and the address on the other, with room around the picture for <q>a very short message in the margin</q>
+                                        <note place="inline">
+                                            <bibl>Staff 88</bibl>
+                                        </note>; <note place="inline">
+                                            <bibl>Gillen and Hall 2</bibl>
+                                        </note>. By 1900, as Tonie Holt and Valmai Holt note, picture postcards had become a regular form of communication. The Holts cite Margaret Mead, writing in the <title level="m">Girl’s Realm</title> in 1900: <q>The Picture Postcard,</q> Mead writes, <q>is with us. It suits us. It meets our needs</q>
+                                        <note place="inline">
+                                            <bibl>cover blurb</bibl>
+                                        </note>. These needs, Gillen and Hall suggest, can be understood to pertain to <q>quick, informal and attractive written messages</q>
+                                        <note place="inline">
+                                            <bibl>2</bibl>
+                                        </note> that could be sent and answered in multiple postal deliveries a day. In January 1902, Gillen and Hall further indicate, the British post office <q>gave in to popular demand and permitted the use of postcards on which one side was wholly taken up by an image, and the other side had half address and half message</q>
+                                        <note place="inline">
+                                            <bibl>2</bibl>
+                                        </note>. The space for the image, by then, exceeded that of the address and of the message, whose space was stipulated on many cards with statements such as <q>This space for communication only.</q>
+                                    </ref> If the communication was important, the image was no less a part of the circuit established in the transmission of the postcard from sender to recipient, and was certainly crucial to the rise of postcards as objects themselves.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1333">
+                        <ref target="#technology">
+                            <ref target="#non-book_media">
+                                <ref target="#intellectual_history">
+                                    <ref target="#economics">Postcards developed alongside and in unsurprising tandem with photography. The picture postcard is based, in part, on the earlier medium of the <hi rend="italic">carte de visite</hi>, itself an evolution of the calling card, with a photograph to identify the visitor. It also follows the emergence of commodity media such as the cabinet card and the cigarette card. The cabinet card emerged as a primary medium for portraits in the 1860s. The cigarette card was popularized in the 1880s as a means of stiffening soft cigarette packages. <ref target="#representation_of_women">Both media served as locations not only for personal portraiture to circulate among friends, but for the reproduction specifically of photographic images of women and, in particular, women dancers, actors, and burlesque performers, the latter often photographed wearing tights and closely fitting body suits, or, like the Salome images, in genital-defining, jewelled bra and torso filigree, and semi-transparent skirts. The images on these cards (especially the cigarette cards) are often identical or very close to those reproduced on postcards; hence, the shift from one commodity form to another at the fin de siècle makes sense.</ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1334">
+                        <ref target="#technology">
+                            <ref target="#history">
+                                <ref target="#economics">Cigarette cards were mobilized to sell cigarettes; postcards were mobilized as images that were themselves for sale, quickly becoming not only a medium of communication but itself a commodity to collect. Staff traces <q>the craze for collecting</q> that developed in Britain <note place="inline">
+                                        <bibl>64</bibl>
+                                    </note>. <ref target="#genre_journalism">The Holts note that in 1900 the <title level="j">Picture Postcard Magazine</title> was first published in Britain, described by its editor E.W. Richardson as <q>the first magazine to combine travel, philately and art through a natural connecting medium, the Picture Postcard</q>
+                                        <note place="inline">
+                                            <bibl>qtd. in Holt and Holt 37</bibl>
+                                        </note>. Not only did postcards emerge as a technology of communication alongside photography, they also emerged in tandem with increased travel—across categories of gender, race, and class.</ref> In both instances, postcards are, as Richardson put it in 1900, <q>a natural connecting medium</q> (qtd. in <note place="inline">
+                                        <bibl>Holt and Holt 37</bibl>
+                                    </note>) across these registers.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1335">
+                        <ref target="#representation_of_women">
+                            <ref target="#non-book_media">
+                                <ref target="#theme_or_topic">
+                                    <ref target="#archive">What does it mean to have—and to be known through—an archive in which postcards play such a central role? What does it mean to have risen, as Allan did, to international fame in part through this form of representation and circulation?</ref>
+                                    <ref target="#gender_issue">
+                                        <ref target="#spatiality">
+                                            <ref target="#theory">On the one hand, the postcards function as representations of Allan’s own mobility, their travels replicating hers and providing a visual record of the movement of white women such as Allan across national boundaries or, at any rate, out of the home or domestic space, into public, and, perversely, back again into the home, but with a different value or <q>insidious effect.</q>
+                                            </ref> They do work that is in some ways similar to what Galit Hasan-Rokem has described as <q>mark[ing] routes of traveling and migration</q>
+                                            <note place="inline">
+                                                <bibl>510</bibl>
+                                            </note> while also reproducing the travel itself. <ref target="#nationality">Hasan-Rokem frames these operations in her discussion of the figure of <q>the wandering Jew</q> and late nineteenth-century mobility with the doubled figure of what she terms <q>Jews as Postcards, or Postcards as Jews</q>
+                                            </ref>
+                                        </ref>
+                                        <note place="inline">
+                                            <bibl>505</bibl>
+                                        </note>
+                                    </ref>. <ref target="#genre_performance">
+                                        <ref target="#representation_of_women">
+                                            <ref target="#economics">On the other hand, the postcards of <title level="a">The Vision of Salome</title> also function, like all postcards, as commodities, representing metonymically what is exchanged in the erotic performance. In this work, they operate to mobilize the image and to monetize it. They are things to buy that are also representing something that makes people want to purchase them for circulation. One Salome postcard in the <abbr>DCD</abbr> Maud Allan collection, postmarked December 1908, makes this point evident in its referencing on the back the image on the front. <q>How’s this of Maudie?</q> the sender asks. Walkowitz cites a postcard in the San Francisco Performing Arts Library that emphasizes not only the value of the circulating image as spectacle but specifically the collector’s interest in images of Allan: the sender writes of the photograph of Allan in her <q>Chopin’s Funeral March</q> costume, <q>Hope you haven’t got this p.c. Are you still gone on this person?</q>
+                                                <note place="inline">
+                                                    <bibl>362n94</bibl>
+                                                </note>. Walkowitz draws attention to <q>schoolgirls who exchanged picture postcards of [Allan] and wrote of their <q>crush</q>
+                                                </q>
+                                                <note place="inline">
+                                                    <bibl>362</bibl>
+                                                </note>. As Walkowitz notes, girls could thus observe Allan in performances and then could <q>try out Allan’s movements in the privacy of their abodes</q>
+                                                <note place="inline">
+                                                    <bibl>362</bibl>
+                                                </note>, like the guests at the Salome Dinner Dance, imitating Maud Allan at home.</ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1336">
+                        <ref target="#non-book_media">
+                            <ref target="#archive">The postcard archive of Allan does a particular and crucial kind of work with regard to the image that represents the dancer and the <q>here</q> to which the sender wishes the recipient could also be present</ref>. <ref target="#intertextuality">It does this work across what Milne describes as a <q>double logic</q>: both the sender and the image on the card are constituted as being in transit, out of place, on the move. <ref target="#representation_of_women">
+                                    <ref target="#spatiality">Milne has suggested compellingly that postcards indicate and affirm presence, like calling cards <q>stand[ing] in for the corporeal presence of their author</q>
+                                        <note place="inline">
+                                            <bibl>95</bibl>
+                                        </note> and, importantly, for the corporeal presence of the figure represented on the card itself. The calling card, in these terms, conveys a message akin to <q>I am here.</q>
+                                    </ref> It is also the case, however, that the postcard always references and represents what is absent—both the sender and the object. They <q>take the place of one’s self</q> when the self is not actually there. They are, as image, absent (marking, as Nancy suggests, <q>the absence of the thing</q>
+                                    <note place="inline">
+                                        <bibl>37</bibl>
+                                    </note>; thus, they function as a space to be filled in by the woman looking at the image and seeing herself through its imitation or replication on her own. In this way postcards’ <q>double logic</q> is doubled again, and the card, with its message that may say something like the classic <q>Wish you were here,</q> counters the image that says, in effect, <q>You are here.</q> At least, this is what it might be understood to say to women and girls bringing the image of Allan as Salome home and <q>matching</q> it in the <q>privacy of their abodes</q>
+                                    <note place="inline">
+                                        <bibl>Walkowitz 362</bibl>
+                                    </note>
+                                </ref>
+                            </ref>.</ref>
+                    </p>
+                    <p xml:id="p1337">
+                        <ref target="#technology">
+                            <ref target="#representation_of_women">
+                                <ref target="#gender_issue">
+                                    <ref target="#social_movement">
+                                        <ref target="#spatiality">
+                                            <ref target="#theme_or_topic">
+                                                <ref target="#archive">Private and public; static and mobile; an index of presence and of absence; a record of a place and a record of the sender—postcards have a complex ambiguity that makes them peculiarly appropriate for circulating the image of women in spectacular and erotic performance and building an archive of women staging white femininity at the end of the nineteenth and the beginning of the twentieth centuries. Allan’s Salome postcards constitute what we might regard as an archive of the mobile subject, representing as they do figures who are not <q>here,</q> women who are not at home but on the move and in public. <ref target="#economics">Thus, they not only index but constitute a growing economy of the image itself as the space and the <q>reality</q> that women inhabit. At once indexical of Allan’s own movement through and across national spaces and of the commerce of exchange in white female bodies that Allan incorporates foundationally into her Salome dance, postcards also function as a space where white femininity is staged, representing and standing in for the body that has been rendered as image. <ref target="#health_issue">That is, although the travels of the mobile body are central to Salomania, the <q>craze,</q> as it developed in 1908, proved to be not only or even primarily about the infected <hi rend="italic">body</hi>.</ref> What is materialized, what is in circulation, what is imitated and copied, what is reproduced, what proliferates, and what <q>goes viral</q> is the image of Allan as Salome</ref>: indeed, it is the image itself that is a key element in the rise of Salomania as a culture of imitation. <ref target="#race_issue">
+                                                        <title level="a">The Vision of Salome</title> put into circulation an image of mobile, fungible white femininity that lent itself to imitation and generated mimic performance because it was itself foundationally <q>pose.</q> Allan did not embody but staged white femininity, functionalizing the body itself as image and thus as the space for the performance of racialized gender in what we might best understand as corporeal mimesis, and thus making evident and overt the terms under which white femininity could be understood to circulate at the turn of the century.</ref>
+                                                </ref>
+                                            </ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1338">
+                        <ref target="#gender_issue">
+                            <ref target="#history">
+                                <ref target="#non-book_media">
+                                    <ref target="#theme_or_topic">
+                                        <ref target="representation_of_women">
+                                            <ref target="#genre_performance">
+                                                <ref target="#theory">
+                                                    <ref target="#race_issue">The image of Allan as Salome in the first decade of the twentieth century, in its circulation, its work of outlining and affirming ideologies of white femininity, and its own travels in the form of photographs, objects, and especially postcards is central to what Walkowitz suggests is the emergence of a <q>visual culture where women predominated both as spectacles and increasingly as spectators</q>
+                                                        <note place="inline">
+                                                            <bibl>338</bibl>
+                                                        </note>, where, in effect, women came increasingly to recognize themselves, to see themselves reflected in the performer on stage, and to reflect back to the performer what they had seen, constituting themselves in and as image.</ref>
+                                                </ref>
+                                                <ref target="#genre_novel">This point has particular relevance to the figure of the white erotic dancer who had been emerging into visibility around the Anglo-Saxon empire since the 1860s. </ref>
+                                            </ref>
+                                            <ref target="#economics">Women, as Sara Jeannette Duncan suggests in her 1894 novel <title level="m">A Daughter of To-Day</title>, came increasingly by the fin de siècle to recognize that the erotic dancer in particular materialized a version of femininity that was easily recognizable because it was <q>true</q>—<q>truer,</q> indeed, than representations that did <hi rend="italic">not</hi> eroticize, commoditize, monetize, and circulate white femininity as image in precisely the way it can be seen to operate now.</ref>
+                                        </ref>
+                                        <ref target="#technology">That operation at this time is primarily evident in the digital sphere, but it was also evident in the nineteenth-century circulation of images of women on postcards. <ref target="#archive">The work of the Salome postcards, therefore, is neither simply archival (of the dance and its dancer) nor indexical (of Allan’s celebrity or even of her mobility).</ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1339">
+                        <ref target="#technology">
+                            <ref target="#gender_issue">
+                                <ref target="#social_movement">
+                                    <ref target="#health_issue">
+                                        <ref target="#theme_or_topic">
+                                            <ref target="#spatiality">
+                                                <ref target="#history">The history and the meaning of the digital sphere are not comprehensible only with reference to new technologies and media, but to older, sedimented histories—of the reproduction and circulation of images, of <ref target="#politics">the politics of gendered performance through embodied imitation or the corporeal mimetic</ref>, of a circulation that can be understood as viral not only through its rapid spread but through its <q>invasion</q> of the spaces of the domestic into which the media can spread and the concomitant <q>infection</q> of the bodies that inhabit domestic space. The Salomania of the early twentieth century is, I have undertaken to suggest, an effect of the rapid circulation of images in what was at that time the relatively new technology of postcards and, crucially, the mobilization of images of women that could move from public into domestic space, from body to image. <ref target="#genre_non_book_media">Postcards of erotic dancers and, in particular, Maud Allan’s Salome postcards, whose foundational importance to digital image culture is indicated in their reproduction and proliferation in digital media, are records of an earlier moment in the development of that culture; analogous to the digital circulation of images of women, they are also important precursors of that circulation.</ref>
+                                                </ref>
+                                            </ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Works Cited</head>
+                    <listBibl>
+                        <head>Archival Sources</head>
+                        <bibl>Allan, Maud. <title level="a">Maud Allan Clippings</title>. New York Public Library for the Performing Arts, New York.</bibl>
+                        <bibl>. <title level="a">Maud Allan Collection</title>. Dance Collection Danse Archives, Toronto.</bibl>
+                        <bibl>. <title level="a">Maud Allan Collection</title>. Museum of Performance and Design, San Francisco.</bibl>
+                        <bibl>. <title level="a">Maud Allan Papers. Collection 2038</title>. Department of Special Collections, Charles E. Young Research Library, University of California, Los Angeles.</bibl>
+                    </listBibl>
+                    <listBibl>
+                        <head>Secondary Sources</head>
+                        <bibl>Bentley, Toni. <title level="m">Sisters of Salome</title>. New Haven, CT: Yale University Press, 2002.</bibl>
+                        <bibl>
+                            <title level="a">The Call of Salome</title>. <title level="j">New York Times</title> 16 August 1908.</bibl>
+                        <bibl>Cherniavsky, Felix. <title level="m">The Cherniavsky Trio</title>. Vancouver: Felix Cherniavsky, 2001.</bibl>
+                        <bibl>. <title level="m">Maud Allan and Her Art</title>. Toronto: Dance Collection Danse Press/es, 1998.</bibl>
+                        <bibl>. <title level="m">The Salome Dancer: The Life and Times of Maud Allan</title>. Toronto: McClelland and Stewart, 1991.</bibl>
+                        <bibl>Donnachie, Ian L., and Innes Macleod. <title level="m">Victorian and Edwardian Scottish Lowlands from Historic Photographs</title>. London: B.T. Batsford, 1979.</bibl>
+                        <bibl>Dragon, Andrea.<title level="a">The Salome Dancer: An Eastern Dance Takes Western Roots. PowerPoint presentation</title>. N.d. Salome—People Server at <hi rend="small-caps">uncw</hi>. Accessed 3 April 2012. <ref target="http://people.uncw.edu/deagona/raqs/Salomes%20d1f.ppt">http://people.uncw.edu/deagona/raqs/Salomes%20d1f.ppt</ref>
+                        </bibl>
+                        <bibl>Garelick, Rhonda K. <title level="m">Electric Salome: Loie Fuller’s Performance of Modernism</title>. Princeton: Princeton University Press, 2007.</bibl>
+                        <bibl>Gillen, Julia, and Nigel Hall. <title level="a">The Edwardian Postcard: A Revolutionary Moment in Rapid Multimodal Communications</title>. Paper presented at the British Educational Research Association Annual Conference, Manchester, 2–5 September 2009. <ref target="http://www.lancs.ac.uk/fass/projects/EVIIpc/docs">http://www.lancs.ac.uk/fass/projects/EVIIpc/docs</ref>
+                        </bibl>
+                        <bibl>Hasan-Rokem, Galit. <title level="a">Jews as Postcards, or Postcards as Jews: Mobility in a Modern Genre</title>. <title level="j">Jewish Quarterly Review</title> 99.4 (2009): 505–46.</bibl>
+                        <bibl>Holt, Tonie, and Valmai Holt. <title level="m">Picture Postcards of the Golden Age: A Collector’s Guide</title>. London: MacGibbon and Kee, 1971.</bibl>
+                        <bibl>Hutcheon, Linda, and Michael Hutcheon. <title level="a">Staging the Female Body: Richard Strauss’s <title level="m">Salome</title>
+                            </title>. <title level="m">Siren Songs: Representations of Gender and Sexuality in Opera</title>. Ed. Mary Ann Smart. Princeton: Princeton University Press, 2000. 204–21.</bibl>
+                        <bibl>James, Russell. <title level="a">London Olympics 2012</title>. 5 June 2011. <title level="m">Internet Archive Wayback Machine</title>. <ref target="http://web.archive.org/web/20110615041339/http://www.russelljames.co.uk/rjolympics.htm">http://web.archive.org/web/20110615041339/http://www.russelljames.co.uk/rjolympics.htm</ref>
+                        </bibl>
+                        <bibl>Kultermann, Udo. <title level="a">The <q>Dance of the Seven Veils</q>: Salome and Erotic Culture around 1900</title>. <title level="j">Artibus et Historise</title> 27.53 (2006): 187–215.</bibl>
+                        <bibl>
+                            <title level="a">Maud Allan</title>. <title level="m">Wikipedia</title>. 8 April 2011. <ref target="http://en.wikipedia.org/wiki/Maud_Allan">http://en.wikipedia.org/wiki/Maud_Allan</ref>
+                        </bibl>
+                        <bibl>
+                            <title level="a">Maud Allan Costume Restoration</title>. <title level="j">Dance Collection Danse: The Magazine</title> 44 (1997): 7. <ref target="http://www.dcd.ca/general/Resources/44DCDTheMagazine.pdf">http://www.dcd.ca/general/Resources/44DCDTheMagazine.pdf</ref>
+                        </bibl>
+                        <bibl>
+                            <title level="a">Maud Allan: The Salome Dancer Postcards</title>. <title level="m">About Postcards: A Reference Resource for Postcard Collectors</title>. 4 December 2007. <ref target="http://aboutcards.blogspot.com/2007/12/maud-allan-salome-dancer-postcards.html">http://aboutcards.blogspot.com/2007/12/maud-allan-salome-dancer-postcards.html</ref>
+                        </bibl>
+                        <bibl>McDearmon, Lacy. <title level="a">Maud Allan: The Public Record</title>. <title level="j">Dance Chronicle</title> 2.2 (1978): 85–105.</bibl>
+                        <bibl>Milne, Esther. <title level="m">Letters, Postcards, Email: Technologies of Presence</title>. New York: Routledge, 2010.</bibl>
+                        <bibl>Nancy, Jean-Luc. <title level="m">The Ground of the Image</title>. Trans. Jeff Fort. New York: Fordham University Press, 2005.</bibl>
+                        <bibl>Pollard, Percival. <title level="a">The Regnant Wave of the Sensational Dance</title>. <title level="j">New York Times</title> 23 August 1908. http://www.nytimes.com<hi rend="italic"> </hi>3 April 2012.</bibl>
+                        <bibl>
+                            <title level="a">Salome Dinner Dance</title>. <title level="j">New York Times</title> 23 August 1908.</bibl>
+                        <bibl>
+                            <title level="a">The Salome Pestilence</title>. <title level="j">New York Times</title> 3 September 1908.</bibl>
+                        <bibl>Sigel, Lisa Z. <title level="a">Filth in the Wrong People’s Hands: Postcards and the Expansion of Pornography in Britain and the Atlantic World, 1880–1914</title>. <title level="j">Journal of Social History</title> 33.4 (2000): 859–85.</bibl>
+                        <bibl>Staff, Frank. <title level="a">The Picture Postcard and Its Origins</title>. London: Lutterworth Press, 1966.</bibl>
+                        <bibl>Tydeman, William, and Steven Price. <title level="m">Wilde: Salome</title>. Cambridge: Cambridge University Press, 1996.</bibl>
+                        <bibl>Veteran Diplomat. <title level="a">The Spread of Bohemianism in English Society</title>. <title level="j">New York Times</title> 16 August 1908.</bibl>
+                        <bibl>Volacci SEO Blog. <title level="a">What Does It Mean to <q>Go Viral</q>?</title>
+                            <title level="m">Volacci.co</title>m. 26 May 2010. <ref target="http://www.volacci.com/search-engine-optimization-defining-going-viral">http://www.volacci.com/search-engine-optimization-defining-going-viral</ref>
+                        </bibl>
+                        <bibl>Walkowitz, Judith R. <title level="a">The <q>Vision of Salome</q>: Cosmopolitanism and Erotic Dancing in Central London, 1908–1918</title>. <title level="j">American Historical Review</title> 108.2 (2003): 337–76.</bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

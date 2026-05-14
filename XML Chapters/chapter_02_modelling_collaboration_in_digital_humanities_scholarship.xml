@@ -1,0 +1,1069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>-->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Modelling Collaboration in Digital Humanities Scholarship</title>
+                <title level="m" type="main" xml:lang="en-CA">Cultural Mapping and the Digital Sphere</title>
+                <title level="m" type="sub" xml:lang="en-CA">Place and Space</title>
+                <author>Paul Hjartarson, Harvey Quamen, Andrea Hasenbank, Vanessa Lent, &amp; EMiC UA*</author>
+                <editor role="editor">
+                    <forename>Ruth</forename>
+                    <surname>Panofsky</surname>
+                </editor>
+                <editor role="editor">
+                    <forename>Kathleen</forename>
+                    <surname>Kellett</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <forename>Ilovan</forename>
+                    </name>
+                </respStmt>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor>
+                    <orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Dynamic Table of Contexts editors: </resp>
+                    <name>
+                        <forename>Ruth</forename>
+                        <surname>Panofsky</surname>
+                    </name>
+                    <name>
+                        <forename>Kathleen</forename>
+                        <surname>Kellett</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Principal: </resp>
+                    <name>
+                        <forename>Susan</forename>
+                        <surname>Brown</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <surname>Ilovan</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copyediting and proofreading: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Olivier</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexing:</resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name>
+                        <forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Cover design: </resp>
+                    <name role="book_designer">
+                        <forename>Virginia</forename>
+                        <surname>Penny</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface design lead: </resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead: </resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>Mary Lou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer:</resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by: </resp>
+                    <name role="markup_editor">
+                        <forename>Kristine</forename>
+                        <surname>Abramoff</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Anita</forename>
+                        <surname>Cutic</surname>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address>
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address>
+                        <addrLine>www.cwrc.ca</addrLine>
+                    </address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1- 55195-365- 6</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Individual chapter extract from: Cultural Mapping and the Digital Sphere: Place and Space, ed. Ruth Panofsky &amp; Kathleen Kellett (Edmonton: University of Alberta Press, 2015 / DToC ed. 2016).</p>
+                <ab type="host-volume">
+                    <listBibl>
+                        <bibl>
+                            <title level="a" type="main">Foreword</title>
+                            <author>
+                                <forename>Susan</forename>
+                                <surname>Brown</surname>
+                            </author> &amp; <author>
+                                <forename>Mary-Jo</forename>
+                                <surname>Romaniuk</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Preface</title>
+                            <author>
+                                <forename>Ruth</forename>
+                                <surname>Panofsky</surname>
+                            </author> &amp; <author>
+                                <forename>Kathleen</forename>
+                                <surname>Kellett</surname>
+                            </author>
+                        </bibl>
+                        <listBibl>
+                            <head>Part I. Place and the Digital Frontier</head>
+                            <bibl>
+                                <title level="a" type="maiin">Mapping Tags and Tagging Maps</title>
+                                <title type="sub">Leveraging Spatial Markup for Literary History</title>
+                                <author>
+                                    <forename>Susan</forename>
+                                    <surname>Brown</surname>
+                                </author>, <author>
+                                    <forename>Isobel</forename>
+                                    <surname>Grundy</surname>
+                                </author>, <author>
+                                    <forename>Mariana</forename>
+                                    <surname>Paredes-Olea</surname>
+                                </author>, <author>
+                                    <forename>Jeffery</forename>
+                                    <surname>Antoniuk</surname>
+                                </author> &amp; <author>
+                                    <forename>Breanna</forename>
+                                    <surname>Mroczek</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Modeling Collaboration in Digital Humanities Scholarship</title>
+                                <title type="sub">Foundational Concepts of an EMiC UA Project Charter</title>
+                                <author>
+                                    <forename>Paul</forename>
+                                    <surname>Hjartarson</surname>
+                                </author>, <author>
+                                    <forename>Harvey</forename>
+                                    <surname>Quamen</surname>
+                                </author>, <author>
+                                    <forename>Andrea</forename>
+                                    <surname>Hasenbank</surname>
+                                </author>, <author>
+                                    <forename>Vanessa</forename>
+                                    <surname>Lent</surname>
+                                </author> &amp; <author>
+                                    <orgName> EMiC UA</orgName>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">An Interactive, Materialist-Semiotic Archive</title>
+                                <title type="sub">Visualizing the Canadian Theatrical Canon in the Simulated Environment for Theatre</title>
+                                <author>
+                                    <forename>Sasha</forename>
+                                    <surname>Kovacs</surname>
+                                </author> and <author>
+                                    <forename>Jennifer</forename>
+                                    <surname>Roberts-Smith</surname>
+                                </author>, <author>
+                                    <forename>Theresa M.</forename>
+                                    <surname>Dobson</surname>
+                                </author>, <author>
+                                    <forename>Sandra</forename>
+                                    <surname>Gabriele</surname>
+                                </author>, <author>
+                                    <forename>Omar</forename>
+                                    <surname>Rodrigues-Arenas</surname>
+                                </author>, <author>
+                                    <forename>Stan</forename>
+                                    <surname>Ruecker</surname>
+                                </author>, <author>
+                                    <forename>Stéfan</forename>
+                                    <surname>Sinclair</surname>
+                                </author>, <author>
+                                    <forename>Shawn</forename>
+                                    <surname>DeSouza-Coelho</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">"Talk to the Work"</title>
+                                <title type="sub">Applying istc Identifiers to the Digital Edition of the Canadian Bookman (1909–1941)</title>
+                                <author>
+                                    <forename>Ravit H.</forename>
+                                    <surname>David</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">How to Play with Maps</title>
+                                <author>
+                                    <forename>Bethany</forename>
+                                    <surname>Nowviskie</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Edmonton Pipelines</title>
+                                <title type="sub">Living and Playing in the Digital City </title>
+                                <author>
+                                    <forename>Heather</forename>
+                                    <surname>Zwicker</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Representing Canadian Queer Authorship</title>
+                                <title type="sub">Making the Internet a Women’s Place</title>
+                                <author>
+                                    <forename>Michelle</forename>
+                                    <surname>Schwartz</surname>
+                                </author> &amp; <author>
+                                    <forename>Constance</forename>
+                                    <surname>Crompton</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Part II. Writers and Readers: Mapping Textual Space</head>
+                            <bibl>
+                                <title level="a" type="main">Salomania</title>
+                                <title type="sub">Maud Allan, Postcards, and Early Twentieth-Century “Viral” Circulation</title>
+                                <author>
+                                    <forename>Cecily</forename>
+                                    <surname>Devereux</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Toronto the Good in the Fiction and Life of Grace Irwin</title>
+                                <author>
+                                    <forename>Patricia</forename>
+                                    <surname>Demers</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">« Where are you froM? »</title>
+                                <title type="sub" xml:lang="fr-CA">La ville et l’écriture migrante dans l’autofiction de Marguerite Andersen</title>
+                                <author>
+                                    <forename>Kathleen</forename>
+                                    <surname>Kellett</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Languages as Spaces, Translation as Play</title>
+                                <title type="sub">Moving (through) Languages</title>
+                                <author>
+                                    <forename>Lori</forename>
+                                    <surname>Saint-Martin</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">L'espace ensorcelé</title>
+                                <title type="sub">Les enfants du sabbat d’Anne Hébert</title>
+                                <author>
+                                    <forename>Stéphanie</forename>
+                                    <surname>Walsh Matthews</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick and Kim Thúy</title>
+                                <author>
+                                    <forename>Mireille</forename>
+                                    <surname>MaiTruong</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Standing on a Rainbow</title>
+                                <title type="sub">Reading in Place, Position, and Time</title>
+                                <author>
+                                    <forename>Margaret</forename>
+                                    <surname>Mackey</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <bibl>
+                            <title type="main" xml:lang="en-CA">Contributors</title> / <title type="main" xml:lang="fr-CA">Collaborateurs</title>
+                        </bibl>
+                    </listBibl>
+                </ab>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p />
+            </projectDesc>
+            <classDecl>
+                <taxonomy>
+                    <desc>Semantic tags employed in this book can be reviewed at <ref target="http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml">http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml</ref>
+                    </desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-CA">English</language>
+                <language ident="fr-CA">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline />
+                <item />
+                <index>
+                    <term />
+                </index>
+                <byline />
+                <index>
+                    <term />
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:lang="en-CA">
+                <head>
+                    <title level="a">Modelling Collaboration in Digital Humanities Scholarship</title>
+                </head>
+                <byline>Foundational Concepts of an <abbr>EMiC UA</abbr> Project Charter</byline>
+                <docAuthor>Paul Hjartarson, Harvey Quamen, Andrea Hasenbank, Vanessa Lent, &amp; <abbr>EMiC UA</abbr>*</docAuthor>
+                <q type="block">
+                    <ref target="#education">In the humanities, Ms. Mentor regrets to say, things are murky from the start. As underlings in the academic hierarchy, graduate students are supposed to be humbly grateful for all the training they can imbibe. Sometimes they’re paid, but often they receive only an inside-the-book acknowledgment.…<ref target="#collaboration">Generous mentors can create once-in-a-lifetime opportunities. Stephen Ambrose’s students, for instance, spent summers retracing <ref target="#history">the steps of Lewis and Clark with their professor—sharing discoveries over campfires first, and later in books and articles.</ref> Theirs was a genuine community of scholars.</ref>
+                    </ref>
+                    <lb /> —<bibl>Ms. Mentor [Emily Toth], <title level="a">Who Owns Your Mind?</title>
+                        <title level="j">Chronicle of Higher Education</title>
+                    </bibl>
+                </q>
+                <q type="block">
+                    <ref target="#collaboration">What is collaboration, exactly? Where in the spectrum from broad, indirect and tacit indebtedness to explicitly joint work do we locate research in the humanities, especially in light of computing? What conclusion do we draw from the attested benefits of collaboration?</ref>
+                    <lb /> —<bibl>Willard McCarty, <title level="m">Humanities Computing</title>
+                    </bibl>
+                </q>
+                <div type="section">
+                    <head>Introduction</head>
+                    <p xml:id="p1076">
+                        <ref target="#collaboration">
+                            <ref target="#technology">
+                                <q>As scholarship goes multimedia,</q> Andrew Bretz, Susan Brown, and Hannah McGregor argue in <title level="m">Lasting Change: Sustaining Digital Scholarship and Culture in Canada</title>
+                                <note place="inline">
+                                    <bibl>2010</bibl>
+                                </note>, <q>it is also going collaborative. Knowledge and knowledge production are more extensively networked than ever before and are deeply embedded socially. The digital turn has led to the advent of increasingly large-scale and ambitious projects within the humanities</q>
+                                <note place="inline">
+                                    <bibl>18</bibl>
+                                </note>. <ref target="#economics">Funding large, interdisciplinary digital humanities (<abbr>DH</abbr>) projects is certainly a challenge. The problem of funding, however, pales in comparison to a bigger challenge: developing viable models of collaboration.</ref> If the Editing Modernism in Canada (<abbr>EMiC</abbr>) knowledge network, for example, of which our group at the University of Alberta (<abbr>EMiC UA</abbr>) is part, wants researchers—faculty and students—in a number of disciplines to <q>collaborate, edit, learn</q>
+                                <note place="inline">
+                                    <bibl>
+                                        <title level="a">About Us</title>
+                                    </bibl>
+                                </note>, it needs to develop working environments in which ground rules are collaboratively developed and clearly articulated and in which all project members can thrive.</ref>
+                            <ref target="#education">
+                                <ref target="#economics">The turn to the digital is occurring at a time when universities in general, and humanities departments in particular, face unprecedented budgetary challenges, when student debt is rising, when the job market for recently graduated <abbr>PhDs</abbr> is far from encouraging, and when both junior and senior faculty feel pressured to do more with less.</ref> Is it possible for anyone in the humanities to <q>thrive</q> in such circumstances?</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1077">
+                        <ref target="#writing_climate">Even if we could isolate these issues, there are challenges enough. One challenge is working across traditional disciplinary boundaries within the humanities themselves—between English and theatre or art history, for example—a difficulty that should neither be overlooked nor underestimated.</ref>
+                        <ref target="#collaboration">Collaborating within a discipline is no easy matter; it involves not only adjusting to another researcher’s personality, understanding the subject in question and each other’s work habits, but also trusting that the additional work necessitated by collaboration is more than offset by the reward. <ref target="#technology">Collaborating on a digital humanities project, however, involves working not just across disciplinary boundaries but also at what Brown terms <q>the interface of the digital-humanities divide</q>
+                                <note place="inline">
+                                    <bibl>218</bibl>
+                                </note>. Assessing the current state of digital humanities scholarship, Brown argues that <q>it will be a major and crucial undertaking to imbue technical systems for the humanities with sensitivity to the complexities of language and discourse, an undertaking in which humanists need to be involved</q>
+                                <note place="inline">
+                                    <bibl>218</bibl>
+                                </note>. The final phrase of that sentence underscores both the urgent need for humanists to engage in digital scholarship and their reluctance to do so. Brown adds, <q>Since digital modes of scholarly production are highly experimental, working at the interface of the digital-humanities divide constitutes, in itself, research, provided that the two aspects of the research seriously engage with one another. <ref target="#canon_formation">This includes archival development, creating generalized digital tools for access or analysis, or developing new pedagogies or critical literacies</ref>
+                                </q>
+                                <note place="inline">
+                                    <bibl>218</bibl>
+                                </note>.</ref>
+                        </ref> Brown’s statement is conditional: if humanists and computer scientists <q>seriously engage with one another,</q> then work at the interface/divide will be <q>highly experimental</q> and will constitute research in itself.</p>
+                    <p xml:id="p1078">
+                        <ref target="#technology">This conditional statement is key: serious engagement at the interface/divide of digital humanities is as difficult as it is important. Why? <ref target="#intertextuality">Because the digital humanities discipline is literally—if not for the work of Mary Louise Pratt—what one might term a <q>contact zone,</q> a many layered, conflicted, and overdetermined <q>pressure point</q> between the humanities and the sciences. Pratt’s term, developed in an analysis of colonial relations, is admittedly out of place here; what is more, it has been redeployed in so many different contexts, and used so frequently, that it has lost both specificity and analytical purchase.<note xml:id="n43" place="end">Mary Louise Pratt’s concept of contact zones gained currency less through her book <title level="m">Imperial Eyes: Travel Writing and Transculturation</title> than through her essay <title level="a">Arts of the Contact Zone,</title> published in <title level="j">Profession</title>
+                                    <note place="inline">
+                                        <bibl>New York: <abbr>MLA</abbr>
+                                        </bibl>
+                                    </note> in advance of the book. The article focuses on writing and literacy.</note> In <title level="m">Imperial Eyes: Travel Writing and Transculturation</title>
+                                <note place="inline">
+                                    <bibl>1992</bibl>
+                                </note>, Pratt defines contact zones as <q>social spaces where disparate cultures meet, clash, and grapple with each other, often in highly asymmetrical relations of domination and subordination—like colonialism, slavery, or their aftermaths as they are lived out across the globe today</q>
+                                <note place="inline">
+                                    <bibl>4</bibl>
+                                </note>. Although the humanities and sciences are <q>disparate cultures</q> that <q>meet, clash, and grapple with each other,</q> comparing that struggle with <q>colonialism, slavery, or their aftermaths</q> is certainly questionable. Nonetheless, here we use Pratt’s notion of a contact zone to problematize the space of collaboration, to highlight the tension between <q>interface</q> and <q>divide.</q>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1079">
+                        <ref target="#collaboration">
+                            <ref target="#spatiality">
+                                <ref target="#technology">There are certainly asymmetrical relations of power at work in this <q>space,</q> and the inequalities between the humanities and sciences are compounded by the power imbalance among graduate students, postdoctoral fellows, contract faculty, untenured and tenured faculty from various disciplines working side-by-side within a collaboratory.</ref>
+                                <ref target="#intertextuality">The term <hi rend="italic">collaboratory</hi>, a neologism that combines <hi rend="italic">collaboration </hi>and <hi rend="italic">laboratory</hi>, itself originates in the sciences; its use by digital humanities scholars is another sign of a paradigm shift in progress.</ref> The presence of students and postdoctoral fellows in digital humanities collaboratories serves as a reminder that the challenge is to create a space not just for collaborating across disciplines but for mentoring and completing program requirements as well. The premise here is that working <q>for</q> someone, as a <q>research assistant,</q> a long standing practice in the humanities, does not in itself, create the conditions necessary either for collaborating or mentoring, nor does it address a related issue, that graduate students, postdoctoral fellows, and contract faculty may only work on projects for a relatively short period of time. How does one mentor—can one mentor or be mentored—in a <q>contact zone</q>? Is collaboration itself possible in these conditions?</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1080">
+                        <ref target="#collaboration">
+                            <ref target="#theme_or_topic">In this chapter, members of the Editing Modernism in Canada research collaboratory at the University of Alberta report on our attempt to develop a viable model of collaboration.</ref> How can we produce a model for consent and collaboration that recognizes the disparate forms and conditions of labour connected to humanities research and presentation? <ref target="#intertextuality">
+                                <abbr>EMiC UA</abbr> has opted to develop a project charter on the iterative model advanced by Stan Ruecker and Milena Radzikowska and adapted for use by the Implementing New Knowledge Environments (<abbr>INKE</abbr>) project.</ref> Since this work is ongoing, this chapter is necessarily an interim report on ongoing discussions. When we began work on the project charter, <abbr>EMiC UA</abbr> consisted of nine researchers: two tenured faculty members, Paul Hjartarson and Harvey Quamen; an archivist, Raymond Frogner; and six graduate students, five in English—Rebecca Blakey, Kristin Fast, Andrea Hasenbank, Hannah McGregor, and Nick van Orden—and one, Matt Bouchard, in information studies. Postdoctoral fellow Vanessa Lent joined us in January 2012. We also work with a number of researchers—Gregory Betts, Wayne DeFehr, Joseph MacKinnon, Linda Morra, Shirley Neuman, and Paul Tiessen, for example—who may or may not ultimately join the collaboratory. Although most <abbr>EMiC UA</abbr> members are based at the University of Alberta, Raymond Frogner works in the Archives, Collections and Knowledge Division, BC Archives in Victoria, and Matt Bouchard is a doctoral student at the University of Toronto. (In October 2013, Hannah McGregor, who was a doctoral student at the University of Guelph, returned to the University of Alberta and to <abbr>EMiC UA</abbr> as a <abbr>SSHRC</abbr> postdoctoral fellow.) <ref target="#technology">
+                                <ref target="#theme_or_topic">
+                                    <abbr>EMiC UA</abbr> is engaged in three editorial initiatives: the Wilfred and Sheila Watson projects; the Manifestos project; and the Martha Ostenso project. Our mainstay, however, is the Editing Wilfred Watson Archive project. This is the initiative we are using to create digital infrastructure; it is also the initiative we are using to think through the project charter.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1081">
+                        <ref target="#collaboration">Although we have been worrying about the issues of collaboration and documentation for some time, our decision to propose a paper for the second Canadian Writers Research Collaboratory (<abbr>CWRC</abbr>) conference, held at Ryerson University in October 2011, signalled a commitment to devote collective time and energy to these issues. Once our proposal was accepted, our three-person group met regularly—approximately once a week over the summer—to push our thinking on these issues. <ref target="#technology">Developing a viable model of collaboration across the digital divide, a model that integrates mentoring into the collaboratory, we believe, is vital not just for our own work but for digital humanities projects generally. What rules of engagement might make collaboration and mentoring possible? Other members of <abbr>EMiC UA</abbr> joined us from time to time—as a break from scanning, to offer other perspectives on the matters at hand, or simply out of curiosity—and we reported on our work at regular meetings. In the weeks leading up to the conference, we devoted two regular <abbr>EMiC UA</abbr> meetings to debate project charter issues. Given the range of issues a project charter needs to address—from the nature of collaboration itself and the need for documentation to transparency in decision making and what we have tentatively termed <q>play nice</q> principles—we decided to focus the Ryerson iteration of our charter on what we term the <q>trust</q> cluster of principles: collaboration, credit, communication, and documentation.</ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Collaboration (or, <q>What’s in It for Me?</q>)</head>
+                    <p xml:id="p1082">
+                        <ref target="#collaboration">
+                            <ref target="#technology">
+                                <ref target="#writing_climate">The obstacles to serious and sustained work at the digital humanities interface are formidable. Collaboration is not for everyone and, in the humanities as presently constituted, collaboration is invariably neither the sole nor primary mode of research (or teaching).</ref> Although the English and Film Studies Department at the University of Alberta is home to the Orlando Project, to Streetprint, and now to <abbr>CWRC</abbr>, <abbr>DH</abbr> projects remain a marginal form of departmental research, and collaboration—much like interdisciplinary research itself—is invoked frequently in <ref target="#economics">applications for research funding</ref> and less in everyday practice. Given the relative absence of collaboration as a tradition in literary scholarship and the likelihood that collaborative work will remain in a minority relation to solitary research and the monograph, <abbr>EMiC UA’s</abbr> first commitment, for the foreseeable future, is necessarily to collaboration itself: <q>Principle: We will work collaboratively, that is, we want and need to learn from one another.</q> Why collaborate? Collaboration is not a component of graduate research programs—students cannot, for example, collaboratively complete master’s or doctoral theses—and the humanities, unlike the sciences, have yet to develop widely recognized protocols for evaluating conference presentations, articles, or books produced by multiple authors. If, however, research is inter- or multidisciplinary, collaboration is, or perhaps should be, the preferred model. Moreover, if that research is conducted at the digital humanities interface, it is necessarily collaborative.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1083">
+                        <ref target="#collaboration">
+                            <ref target="#technology">
+                                <ref target="#archive">The painstaking work involved in editing the letters exchanged by Wilfred Watson and Sheila Watson from 1956 to 1962, for example, centres on an ongoing dialogue between the literary scholars most familiar with the Wilfred and Sheila Watson archives and the digital specialists who can model and implement digital archives and editions.</ref> Virtually every editorial decision we make has a technological implication; every technological decision, an editorial consequence. It is worth noting, too, that the dialogue itself is both facilitated and shaped—not always in a positive way—by the technologies (<ref target="#non-book_media">wikis, Skype, Google documents, metadata entry websites</ref>) we find ourselves using.<note xml:id="n44" place="end">The use of technology in the practice of collaboration warrants further discussion. We find ourselves both liberated and constricted by the tools we choose to use to connect with one another, which facilitate, complicate, and prevent various relationships and processes.</note> Although each group may believe that at the digital humanities interface its particular questions should take precedence—that the issues valued by literary scholars outrank digital concerns or that technical issues trump all others, for example—collaboration works through dialogue. As Linda Hutcheon and Michael Hutcheon point out, <q>It is no accident that the conversation or dialogue model is a dominant one in theories of collaboration</q>
+                                <note place="inline">
+                                    <bibl>1367</bibl>
+                                </note>.<note xml:id="n45" place="end">Although collaboration is at the heart of research in the digital humanities, it is both an issue and a practice discussed in numerous contexts. In addition to the article by Linda Hutcheon and Michael Hutcheon, see, for example, articles by Ede and Lunsford, and by Gilman.</note>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1084">
+                        <ref target="#technology">
+                            <ref target="#theory">Since the mid-1990s, the computer software community has developed a philosophy known as Extreme Programming or <abbr>XP</abbr>. <ref target="#collaboration">Extreme Programming weaves together principles, practices, and values into strategies that lead not only to better software but to better teams as well. Although concepts like pair programming, frequent software releases, and short development cycles are the popular and well-known components of <abbr>XP</abbr>, its ramifications are larger and much more radical. <q>Extreme Programming,</q> writes <abbr>XP</abbr> guru Kent Beck, <q>is about social change. It is about letting go of habits and patterns that were adaptive in the past, but now get in the way of us doing our best work. It is about giving up the defenses that protect us but interfere with our productivity</q>
+                                    <note place="inline">
+                                        <bibl>1</bibl>
+                                    </note>. A similar attitude has informed our thinking about project charters.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1085">
+                        <ref target="#technology">
+                            <ref target="#canon_formation">Extreme Programming has been designed to help manage change. We might mistakenly believe that computer software is wholly mathematical, or inflexible when faced with the inexorable laws of logic, or that somehow it magically achieves stasis and stability on its own. None of these views is accurate. The stereotypical view of the retrograde humanities, however, is also fading. Humanists are no longer as technophobic as they once were; literary scholars no longer proclaim Luddism as a virtue, even when we lack technical knowledge, and less and less do we exhibit the ambivalent, oxymoronic personality that Tony Davies once referred to as being a <q>pioneer of the old</q>
+                                <note place="inline">
+                                    <bibl>74</bibl>
+                                </note>. <q>Everything in software changes,</q> Beck reminds us, and his caveat resonates for the humanities too: <q>The requirements change. The design changes. The business changes. The technology changes. The team changes. The team members change. The problem isn’t change, because change is going to happen; the problem, rather, is our inability to cope with change</q>
+                                <note place="inline">
+                                    <bibl>11</bibl>
+                                </note>. Adaptation and flexibility are so important to the <abbr>XP</abbr> community that Beck has adopted one of its popular mantras as the subtitle of his book: <title level="m" type="sub">Embrace Change</title>.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1086">
+                        <ref target="#technology">
+                            <ref target="#theory">
+                                <ref target="#intertextuality">The conceptual framework within which <abbr>XP</abbr> operates is identical to that found in our project charter—practices shaped by both principles and values. <q>Principles,</q> Beck argues, <q>are domain-specific guidelines for life</q>; <q>values are the large-scale criteria we use to judge what we see, think, and do</q>; and <q>practices are the things you do day-to-day</q>—observable <q>evidence of values</q>
+                                    <note place="inline">
+                                        <bibl>13–15</bibl>
+                                    </note>. <ref target="#writing_climate">In <abbr>XP</abbr>, principles such as <q>good communication</q> inform practices such as <q>conversation over written communication</q>—the latter is <q>inherently more wasteful</q> and is only <q>one-way</q>
+                                        <note place="inline">
+                                            <bibl>Beck 23</bibl>
+                                        </note>—which in turn demonstrate team values of humanity, respect, diversity, and sharing. Embodying those ideals in the daily routines and dynamics of programming teams is <abbr>XP’s</abbr> secret, manifesting itself in a variety of strategies recognizable to humanists—things like constant and iterative revision (called <q>refactoring</q> in programming circles), continual and repeated exposure to both public and peer feedback (<q>frequent releases</q>), and even collaboration (<q>pair programming</q>). In turn, those team-based strategies affect individual team members’ attitudes, inspiring confidence and the willingness to accept responsibility (<q>Responsibility cannot be assigned; it can only be accepted</q>
+                                        <note place="inline">
+                                            <bibl>Beck 34</bibl>
+                                        </note>), losing the fear of failure (<q>When you don’t know what to do,…risking failure can be the shortest, surest road to success</q>
+                                        <note place="inline">
+                                            <bibl>Beck 32</bibl>
+                                        </note>), and promoting <q>the rare ability to recognize simplicity</q>
+                                        <note place="inline">
+                                            <bibl>Chromatic, section 5.1</bibl>
+                                        </note>).</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1087">
+                        <ref target="#technology">
+                            <ref target="#collaboration">
+                                <ref target="#authorship">In terms of collaboration, perhaps one of the most interesting principles of <abbr>XP</abbr> is to <q>Adopt Collective Code Ownership,</q> the goal of which is to <q>spread the responsibility for the code to the whole team</q>
+                                    <note place="inline">
+                                        <bibl>Chromatic, section 6.3</bibl>
+                                    </note>. One way to achieve collective ownership is through the practice of pair programming—the coding equivalent of collaborative writing. Two team members sit down at the same computer, sharing the job of writing the day’s computer code. They pass the keyboard back and forth between themselves, taking turns writing and thinking and designing. The concept of the team supplants that of the individual; the group trumps the solo author. If one team member believes that a particular programming strategy is neither correct nor desirable, then the pair must find a mutually satisfying solution. <q>Collective code ownership requires teamwork</q> is the mantra. <q>Pair programming makes two people responsible for each line of code in the system, increasing the sense of team ownership</q>
+                                    <note place="inline">
+                                        <bibl>Chromatic, section 6.3</bibl>
+                                    </note>. If we import <abbr>XP</abbr> principles directly and literally into the humanities, we might suggest that (at least) two people should be responsible for each sentence, image, slideshow, and multimedia file. <ref target="#writing_climate">Collective ownership, carefully conceived and mutually understood, fosters the emergence of quality. <ref target="#politics">Individual ownership, on the other hand, often devolves into a political struggle for control.</ref> The problem with individual ownership, <abbr>XP</abbr> says, is that <q>to make a change in one piece, you must ask permission of its owner…[but] she may be on vacation, get hit by a bus, or be so swamped with other work that she has no time to make your changes. Collective code ownership gives you the power to make necessary changes yourself, wherever they are needed</q>
+                                        <note place="inline">
+                                            <bibl>Chromatic, section 6.3</bibl>
+                                        </note>.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1088">
+                        <ref target="#collaboration">
+                            <ref target="#intertextuality">
+                                <ref target="#technology">
+                                    <ref target="#writing_climate">The challenge of <abbr>DH</abbr> collaboration prompted Ruecker and Radzikowska to develop the concept of an iterative <q>project charter,</q> a contract that team members develop and sign in the early stages of their work together and revise as the project evolves, as digital humanities projects invariably do. That charter articulates the principles, policies, and practices governing collaboration. The practice of jointly developing a project charter has been adopted by a number of digital humanities groups. Ruecker himself refers to successive iterations of charters for the projects in which he has participated as <q>the history of his mistakes</q> and states that he aspires <q>to make only new mistakes</q>
+                                        <note place="inline">
+                                            <bibl>Ruecker, personal communication</bibl>
+                                        </note>. However self-deprecating Ruecker’s comments, they suggest something of the challenges he has faced. Project charters, however, also document successes. When one of Ruecker’s research groups developed a policy that stipulated, <q>As projects progress to new phases, each team member will have the right of first choice over whether or not to continue with the project,</q> Ruecker and Radzikowska report, <q>we suddenly found that many of the reasons for not providing source files simply disappeared</q>
+                                        <note place="inline">
+                                            <bibl>291–92</bibl>
+                                        </note>. Collaboration is grounded in the willingness to share resources, materials, findings, and outcomes; that sharing, in turn, depends on trust. Unfortunately, in the academy, trust invariably seems in short supply.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1089">
+                        <ref target="#collaboration">
+                            <ref target="#education">
+                                <ref target="#writing_climate">No group feels the lack of trust more acutely, perhaps, than graduate students, postdoctoral researchers, contract faculty, and emerging scholars, arguably the most vulnerable members of any collaboratory. <ref target="#authorship">Can these contributors trust faculty members to recognize their hard work, to involve them as co-authors—in short, to give them, as Jessica Schagerl puts it, a place at the table?</ref> Can vulnerable participants collaborate fully without exploitation? Can they place their trust in fellow students and other contract faculty?</ref> Interestingly, Schagerl opens her article on mentoring in <title level="m">Retooling the Humanities: The Culture of Research in Canadian Universities</title> with a quote from Ms. Mentor, aka Emily Toth:</ref>
+                        </ref>
+                    </p>
+                    <q type="block">
+                        <ref target="#collaboration">
+                            <ref target="#writing_climate">Sometimes Ms. Mentor has to burst hopes, shred bubbles, and be the Grinch. While it is true that scholarly types can be generous, open-minded souls who’ll share software, footnotes, and recipes for cat treats—they can also backstab, withhold, and compete to leave you penniless, naked, and shivering in the cold (metaphorically speaking).</ref>
+                        </ref>
+                        <note place="inline">
+                            <bibl>95</bibl>
+                        </note>
+                    </q>
+                    <p xml:id="p1090">
+                        <ref target="#intertextuality">
+                            <ref target="#education">
+                                <ref target="#writing_climate">Schagerl goes on to address the tenuous position of the emerging humanities scholar (graduate student, postdoctoral fellow, contract or junior faculty) in the current university environment. She calls for a shift in perspective at disciplinary and institutional levels to match the current goals of funding organizations such as the Social Sciences and Humanities Research Council of Canada (<abbr>SSHRC</abbr>).</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1091">
+                        <ref target="#intertextuality">
+                            <ref target="#collaboration">
+                                <ref target="#education">
+                                    <ref target="#writing_climate">At present, an emerging scholar who is contemplating interdisciplinary and collaborative work—attractive to granting organizations—needs to weigh the possibility that such work will not be valued by <q>department hiring committees and…promotion and tenure committees</q>
+                                        <note place="inline">
+                                            <bibl>Schagerl 107</bibl>
+                                        </note>. As a possible solution to this dilemma, Schagerl suggests that humanities <q>research culture</q> take <q>the everyday practice of mentoring</q> as <q>its central retooling strategy</q>
+                                        <note place="inline">
+                                            <bibl>110</bibl>
+                                        </note>. Schagerl’s vision of mentoring moves beyond a traditional one-on-one relationship between senior and junior colleagues to a model composed of intergenerational, interdisciplinary, and collaborative networks. She dismantles the stereotype of the isolated humanities scholar and instead reminds us that each emerging scholar already has a <q>network of professional relationships, some of which may indeed mimic sanctioned power structures but others that are informal, collaborative, and participatory</q>
+                                        <note place="inline">
+                                            <bibl>Schagerl 104</bibl>
+                                        </note>. In redefining the boundaries of mentorship, Schagerl conjures the dynamics of the networked and collaborative digital humanities project. Additionally, such mentorship brings with it membership in a community whose support begins at the intellectual level and extends to often unaddressed emotional and interpersonal issues. Such a mentorship model might help address the anxieties inherent in the figure of the transient emerging scholar who, driven by <ref target="#economics">the vagaries of the current postsecondary economy, shifts institutions every few years.</ref> Instead of viewing such movement as entirely negative, one might, following Schagerl, view it as enabling the scholar to develop a vital set of networks that <q>should be valued in the context of knowledge exchanges and effective linkages increasingly promoted by <abbr>SSHRC</abbr>
+                                        </q>
+                                        <note place="inline">
+                                            <bibl>Schagerl 102</bibl>
+                                        </note>.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1092">
+                        <ref target="#collaboration">
+                            <ref target="#theory">
+                                <ref target="#writing_climate">Collaborating necessarily involves taking calculated risks. The purpose of project charters is to establish rules of engagement and to manage expectations. While charters may mitigate the risk of collaborating, they certainly do not eliminate all risks. <ref target="#intertextuality">Project charters address factors identified by Daniel Coleman and Smaro Kamboureli in <title level="m">Retooling the Humanities</title> as foci for discussion about the future of humanities research, including funding pressures, mentorship models, the tension between solitary and collaborative work, and the idea of interdisciplinarity as a whole. In the collaboratory, multidisciplinary framework of the digital humanities, project charters are one strategy for <q>retooling</q> the humanities. Project charters are at once a response to some of the troubling aspects of the current research paradigm and an attempt to work within its structures.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Credit</head>
+                    <p xml:id="p1093">
+                        <ref target="#collaboration">
+                            <ref target="#theme_or_topic">Our work on an <abbr>EMiC UA</abbr> project charter is an attempt to think through issues of work—labour and organization—deliberately, in ways that are frequently overlooked in the digital humanities, as well as in ways that are underserved by traditional models of scholarship in literature and the other humanities.</ref>
+                            <ref target="#methodology">Much as our approach to collaboration comes out of he need and desire to learn from one another, our approach to credit comes out of the need to recognize our respective contributions to generating the outcomes of the project. We anticipate that work from Editing the Wilfred Watson Archive project will branch out into a range of venues, as a variety of shifting subgroups of our members come together to work out problems and address topics arising from this core research. <ref target="#archive">As we work theoretically and editorially to recuperate archival texts and to reassert the social networks of <ref target="#non-book_media">textual production in a digital medium</ref>, we have committed to emphasizing the mutually supporting roles of our own group members.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1094">
+                        <ref target="#collaboration">
+                            <ref target="#writing_climate">Weaving through these questions of venue, group, and contribution is the undeniable value of credit as academic currency. In an attempt to balance the multiple roles and contributions of project collaborators, <abbr>EMiC UA</abbr> has adopted a set of policies that allow for leading contributors to be recognized for their work on particular subprojects while also securing the foundational importance of the entire group to all work emanating from our collaboratory. <ref target="#authorship">We intend to expand existing publication practices in the humanities to give equal recognition to all collaborators as authors. Hence, the list of authors on our published work always includes the group as a whole. Policy: <abbr>EMiC UA</abbr> will be credited as an organizational author on all publications derived from collaboratory work. This approach allows individual co-authors to list work on a curriculum vitae in the traditional academic manner, while also directing interested parties to the project website to learn more about specific contributors and their roles. The author note, typically used to provide institutional or biographical details, offers a space to expand upon the roles of contributors. The acknowledgements section, typically used to credit funding bodies or other forms of research support, can be reworked as a space to elaborate networks of contribution.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1095">
+                        <ref target="#authorship">
+                            <ref target="#technology">
+                                <ref target="#theory">
+                                    <ref target="#writing_climate">This set of policies and practices creates a concentric model of credit, wherein <q>primary contributors</q> or co-authors are always recognized as working within a body of knowledge enabled by the work of the group as a whole. <ref target="#non-book_media">In this model, the project website becomes a primary signifier of credit; rather than simply recording a static directory of personnel, the website becomes a fluid document of participation and activity.</ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Documentation</head>
+                    <p xml:id="p1096">
+                        <ref target="#theory">The need for documentation is grounded in several realities: that <abbr>DH</abbr> projects change significantly as they develop; and that <abbr>DH</abbr> projects committed to mentoring are likely to experience a significant change in membership over time. <ref target="#technology">Documentation, the encapsulating of knowledge and wisdom into a collection of human readable files, has its parallels in the coding world, too. Often seen under the guise of <q>commenting,</q> the concept refers to the inclusion of human readable snippets of text that are interwoven into computer code itself, offering telltale signs about the genesis, history, or arcane logical gymnastics at work in the code itself. And, perhaps surprisingly, code documentation has spawned a controversy—is it a good thing or a bad thing?—that might help humanists arrive at better strategies for documenting projects.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1097">
+                        <ref target="#technology">Robert C. Martin, author of <title level="m">Clean Code: A Handbook of Agile Software Craftsmanship</title>, takes the radically negative stance that documentation is bad. Code ought to be self-explanatory, he maintains. It should express its intent with direct and obvious simplicity. Martin’s militant position, although surprising and perhaps counterintuitive, holds a useful lesson for humanists, however:</ref>
+                    </p>
+                    <q type="block">
+                        <p xml:id="p1098">
+                            <ref target="#technology">Comments are not like Schindler’s List. They are not <q>pure good.</q> Indeed, comments are, at best, a necessary evil. If our programming languages were expressive enough, or if we had the talent to subtly wield those languages to express our intent, we would not need comments very much—perhaps not at all.</ref>
+                        </p>
+                        <p xml:id="p1099">
+                            <ref target="#theory">The proper use of comments is to compensate for our failure to express ourself in code. Note that I used the word failure. I meant it. Comments are always failures. We must have them because we cannot always figure out how to express ourselves without them, but their use is not a cause for celebration.</ref>
+                            <note place="inline">
+                                <bibl>53–54</bibl>
+                            </note>
+                        </p>
+                    </q>
+                    <p xml:id="p1100">
+                        <ref target="#theory">
+                            <ref target="#technology">The problem with comments, says Martin, is that they go stale, cover up bad code, and shift us into a mode of describing when instead we should be fixing.</ref>
+                            <q>They lie,</q> he says flatly <note place="inline">
+                                <bibl>Martin 54</bibl>
+                            </note>.</ref>
+                    </p>
+                    <p xml:id="p1101">
+                        <ref target="#theory">Even Martin concedes that comments are necessary at times, but his caveats about when and how to comment properly and usefully can illustrate the issues for humanists who are grappling with the problematics of project documentation for the very first time. Martin articulates the mismatch between author and audience that is all too familiar to humanists. He is wrestling with the polysemous nature of language (that is, code). And humanists might read in Martin’s screed a number of other interesting theoretical maneuvers: that documentation serves as the Derridean <q>dangerous supplement</q>
+                            <note place="inline">
+                                <bibl>Derrida 158</bibl>
+                            </note> to language’s inadequacy, that it is the suturing of a cognitive rift, that it is a second attempt at ideological interpellation.</ref>
+                    </p>
+                    <p xml:id="p1102">
+                        <ref target="#theory">
+                            <ref target="#technology">And so, contra Martin, in the cultural divide between the <hi rend="italic">D</hi> and the <hi rend="italic">H</hi> of digital humanities, there is room for precisely the kind of documentation that he has described. Documentation is not the problem: it is both a solution and an opportunity. Digital humanists, increasingly working at the level of code, might not actually have the requisite literacy that Martin assumes is present in his programming teams. <ref target="#writing_climate">Brown’s observation that <q>working at the interface of the digital-humanities divide</q> is productive <q>providing that the two aspects of the research seriously engage with one another</q>
+                                    <note place="inline">
+                                        <bibl>218</bibl>
+                                    </note> means, for us, that humanists cannot sustain long-term <abbr>DH</abbr> projects if they refuse to engage—or even to learn anything at all about—topics like computer programming, markup languages, or interface design. Conversely, programmers cannot sustain <abbr>DH</abbr> projects in the long term without either taking the concerns of humanists seriously or understanding how and why humanities scholarship develops as it does. Altering practices on both sides of the divide might be the foundation that makes sustainable <abbr>DH</abbr> work possible.</ref> For example, Martin cites a few snippets of Java code and asks an intriguing question, but one that he sees as an either/or dichotomy</ref>
+                        </ref>:</p>
+                    <q type="block">Which would you rather see? This:<lb />// Check to see if the employee is eligible for full benefits<lb />if ( ( employee.flags &amp; HOURLY_FLAG ) &amp;&amp;<lb />( employee.age &gt; 65 ) )<lb />Or this?<lb />if ( employee.isEligibleForFullBenefits() ) <note place="inline">
+                            <bibl>Martin 55</bibl>
+                        </note>
+                    </q>
+                    <p xml:id="p1103">
+                        <ref target="#technology">
+                            <q>It takes only a few seconds of thought to explain most of your intent in code,</q> Martin says <note place="inline">
+                                <bibl>55</bibl>
+                            </note>. But humanists new to the <abbr>DH</abbr> world might easily benefit from both the English comment and the helpful clarity of an aptly named method. The best answer might be a combination of the two options Martin cites: both clear code and documentation.</ref>
+                    </p>
+                    <p xml:id="p1104">
+                        <ref target="#theory">
+                            <ref target="#collaboration">
+                                <ref target="#technology">A set of <q>best practices</q> in <abbr>DH</abbr> documentation, then, might be a hybrid form of the <q>typical practices</q> from both sides of the digital humanities and project documentation itself, the discursive common ground. Documentation is an information interchange, not compensation for failure. Documentation is shared culture. As <abbr>DHers</abbr>, we need not only to promote code literacy on the part of our humanist colleagues but also to encourage an understanding of humanist scholarship on the part of programmers. If documentation, as Martin insists, marks the failure of intent to match expression, then shared practices about documentation and discussions about the values that they embody might be the best way not to mind—that is, to mend—the gap between the digital and the humanities. Martin’s caveats remind us about the various kinds of documentation that digital humanities projects need to generate and the different audiences for whom those documents are intended. Well-written internal documentation, for example, should assist new team members by providing the record of a project’s history and its evolution (<q>The team changes. The team members change,</q> reflects <note place="inline">
+                                        <bibl>Beck [11]</bibl>
+                                    </note>) Code comments included for reasons that are legal, clarifying, informative, or expressive of some kind of incomplete intent are wholly worthwhile, Martin maintains. Warnings against potential consequences and leaving <q>to do</q> notes for other programmers is useful, too.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1105">
+                        <ref target="#collaboration">
+                            <ref target="#technology">
+                                <ref target="#methodology">In the early months of scanning correspondence in the Wilfred Watson fonds, Nick van Orden worked with Joe MacKinnon, our most experienced scanner, to develop a document they titled <title level="m">How to Scan like a Rock Star.</title> When Rebecca Blakey joined the project, she not only scanned with van Orden and MacKinnon but consulted their documentation, and has since updated it. When scanning moved from Wilfred Watson’s correspondence to his notebooks and journals, our scanning techniques needed to change and the documentation required updating. We recently installed updated scanner software that may well require changes in both scanning and documentation. Strong documentation enables the Watson project to build on the knowledge developed by previous group members; what is more, that documentation, we hope, keeps us true to our earlier decisions and commitments.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1106">
+                        <ref target="#theory">
+                            <ref target="#collaboration">
+                                <ref target="#technology">Strong documentation is also essential to recognizing the contribution of each member of the collaboratory to project milestones and outcomes: letters and journals scanned; a metadata entry site developed and tested; memoranda of agreement negotiated and signed; metadata entered; texts transcribed, optical character recognized, or proofread; lines of code written or bugs fixed; files backed up; images colour-corrected and cropped; new staff members trained. Another principle we have developed is that <q>a task is not completed until the documentation is shared.</q> Strong documentation will derive not just from reports filed but also from data collected as part of the workflow. Accurate documentation is necessary not only to give credit where credit is due but also to support applications for funding, to report to granting agencies on work completed, or to substantiate statements made in letters of reference and elsewhere. This chapter itself, part of what members of the collaboratory term the <q>Ryerson iteration</q> of the <abbr>EMiC UA</abbr> charter, is itself part of our documentation process (as are other papers published by <abbr>EMiC UA</abbr> members).</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Communications</head>
+                    <p xml:id="p1107">
+                        <ref target="#collaboration">
+                            <ref target="#theory">
+                                <ref target="#writing_climate">If dialogue and documentation are essential to collaboration, then communication needs to begin <q>at home,</q> among members of the collaboratory itself. Our subgroup is recommending that <abbr>EMiC UA</abbr> keep its administrative structure as <q>horizontal,</q> that is, non-hierarchical, and as simple as possible: <q>horizontal</q> to facilitate dialogue among group members and simple to minimize bureaucracy and to give <abbr>EMiC UA</abbr> the flexibility it needs to respond quickly to changing conditions and opportunities. Communication at home means access to working documents and as much transparency in decision making as possible. We need to communicate not only with other members of the collaboratory but with <abbr>EMiC UA</abbr> partners. The <abbr>EMiC</abbr> knowledge network is more parent than partner, so if communication begins at home, then <abbr>EMiC</abbr> itself is part of that home, as are the literary executors of the Wilfred and Sheila Watson estates. <abbr>EMiC UA</abbr> partners include <abbr>CWRC</abbr>, the University of Alberta Libraries, and the John M. Kelly Library at St. Michael’s College in Toronto. Our commitment to disseminate our work as widely as possible is a commitment to interdisciplinarity, that is, to present our work at gatherings of all disciplines represented on the project, not just to members of our own disciplinary groups.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1108">
+                        <ref target="#collaboration">
+                            <ref target="#intertextuality">
+                                <ref target="#education">
+                                    <ref target="#technology">If, as Schagerl argues, new forms of mentorship are needed, then <abbr>DH</abbr> projects may have a role to play in <q>retooling the humanities.</q>
+                                    </ref> For graduate students, postdoctoral fellows, and contract faculty, the value of collaboration extends well beyond traditional notions of training. In addition to training in research and methodology, team members learn to communicate and collaborate within an interdisciplinary environment.</ref> In <title level="a">An Addiction from Which We Never Get Free</title>—the title is Bill Reading’s characterization of thinking—Rey Chow reflects on the nature of <q>humanistic knowledge</q> in the age of information. <q>If the tendency of information is to render knowledge infinitely disposable,</q> Chow asks, <q>what are the possibilities of a nondisposable knowledge? Does nondisposable knowledge still exist and how may it be preserved? Is there something about the reading, writing, and thinking habits that scholars have cultivated for centuries that may still be relevant here?</q>
+                                <note place="inline">
+                                    <bibl>52</bibl>
+                                </note>.</ref> Thinking itself, Chow argues, may be at once the most vital and elusive thing we need to <q>redeem</q> in the age of information.</ref>
+                        <q>Such a redemption,</q> she argues,</p>
+                    <q type="block">
+                        <ref target="#collaboration">
+                            <ref target="#intertextuality">can take the form of reconceptualizing how the humanities—the writings, images, and sounds that constitute all those treasured records from the past—may become dialogue partners with non-humanistic fields. Such a dialogue, involving the understanding of how knowledge boundaries become established in the first place, would not only help contextualize the more narrow conception of the humanities and restore the latter’s proximities and affinities with the other human sciences. It would also make possible cross-disciplinary, cross-referential kinds of writing and reading that would have as their preoccupation not the defensive or nostalgic perpetuation of a particular kind of conceptual arrangement, but rather the intelligent construction of possible movements and passages among different conceptual arrangements.</ref>
+                        </ref>
+                        <note place="inline">
+                            <bibl>53</bibl>
+                        </note>
+                    </q>
+                    <p xml:id="p1109">
+                        <ref target="#collaboration">
+                            <ref target="#intertextuality">
+                                <ref target="#technology">Digital humanities projects not only open a dialogue between the humanities and <q>non-humanistic fields,</q> they also enable the <q>cross-disciplinary, cross-referential kinds of writing and reading</q> necessary to redeem humanistic thinking in an age of disposable information.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1110">
+                        <ref target="#intertextuality">
+                            <ref target="#collaboration">These concerns with collaboration, interdisciplinary dialogue, and communication are not, of course, unique to the digital humanities. Linda Hutcheon and Michael Hutcheon’s article <title level="a">A Convenience of Marriage: Collaboration and Interdisciplinarity,</title> for example, documents the experience of working collaboratively as married colleagues across disparate fields. When their research necessitated a further reach of knowledge and experience, they extended this collaboration to a group of four graduate students. Their article highlights the challenges and benefits of such interdisciplinary work and addresses many of the same issues of the collaborative collective within the context of a non-digital project. <ref target="#informal_response">Since the completion of the research and subsequent publication of their findings, the graduate students reported that <q>the professional skills learned in this collective process of researching, writing, and adapting have stood them in good stead in their subsequent (and differing) careers</q>
+                                    <note place="inline">
+                                        <bibl>Hutcheon and Hutcheon 1371</bibl>
+                                    </note>.</ref> Further, Hutcheon and Hutcheon assert that, although the collaborative process was at times slower than expected, the overall results for those involved were invaluable: <q>everyone was forced to think differently, to listen more carefully and more critically, to look for new ways to integrate insights</q>
+                                <note place="inline">
+                                    <bibl>1371</bibl>
+                                </note>. The collaborative process created an environment of <q>collective respect for personal and disciplinary differences and evolved a kind of <q>rhetoric of dissensus</q> that permitted, indeed demanded, continued discussion</q>
+                                <note place="inline">
+                                    <bibl>Trimbur 609</bibl>
+                                </note>. The collaborative process fosters an environment of innovative communication between disciplines. <ref target="#technology">Communication becomes even more crucial in <abbr>DH</abbr> projects. Clear communication within digital humanities teams is essential in alleviating the <q>tension that can exist between programmers and non-programmers, the varying perspectives of different disciplines, a lack of common language and understanding of the project between team members</q>
+                                    <note place="inline">
+                                        <bibl>Siemens 229</bibl>
+                                    </note>.</ref> A project charter sets in place the policies and practices necessary to foster effective communication among team members. Our hope is that such interdisciplinary and intergenerational communication results in scholarship that challenges the status quo and sets a standard for similar projects that will continue to enhance, evolve, and ultimately enrich the culture of humanities thinking.</ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Conclusion</head>
+                    <p xml:id="p1111">
+                        <ref target="#collaboration">
+                            <ref target="#theory">
+                                <ref target="#writing_climate">At this stage in our discussions regarding the <abbr>EMiC UA</abbr> project charter, we have more questions than answers. Perhaps we will always have more questions. Perhaps it is the dialogue itself—the ongoing discussions regarding the project charter as an enabling form of communication among members of the group—that is important. Certainly, communication plays a significant role in the trust cluster as we have been mapping it. At some point in our work together, we realized that collaboration and credit are the key issues we need to address if we are to sustain our work together over the long term. Those two principles, we also began to realize, are forces held in uneasy tension. As one group member put it, the more one invests in collaboration within the humanities, particularly as a graduate student, postdoctoral fellow, contract faculty, or emerging scholar, the more one is made aware of the need for the academic currency of individual credit. Prioritizing individual credit, however, can leave a researcher wanting the advantages of collaboration, the risks notwithstanding, and prompt her to undertake more collaborative work. Collaboration and credit function as two poles dominating and shaping the field in which we work, and the result is a constant flux of attraction and repulsion. Between these poles, we hold on to documentation and communication as ways of tracking the movements and relationships within our collaboratory, of balancing this dynamic, and propelling our work forward.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Appendix</head>
+                    <head>
+                        <abbr>EMiC UA</abbr> Project Charter <q>Trust Cluster</q>: Collaboration, Credit, Documentation, and Communication</head>
+                    <p xml:id="p1112" rend="authors-note">
+                        <ref target="#collaboration">
+                            <ref target="#eduction">
+                                <ref target="#theme_or_topic">The Editing Modernism in Canada project seeks to place graduate education at the centre of its work. In collaboration with the University of Victoria’s Digital Humanities Summer Institute, it provides training in the digital humanities; through its partnership with Trent University’s Public Texts program, it offers courses in the theory and practice of editing; and through <ref target="#economics">funding provided by a <abbr>SSHRC</abbr> Strategic Knowledge Cluster grant, it offers funding, including postdoctoral fellowships, to students who choose to edit Canadian texts.</ref>
+                                </ref> Early in its work, the <abbr>EMiC UA</abbr> research group resolved to build on <abbr>EMiC</abbr>’s foundational commitment to the training and mentorship of graduate students and other emerging scholars by developing a collaborative environment in which those scholars could function as full members of a research team and receive credit appropriate to their work on projects.</ref> To that end, <abbr>EMiC UA</abbr> placed a high priority on developing a project charter; we soon realized, however, that the task would prove as difficult and demanding as it was crucial to our work. This document is a work in progress. Because our work is in its early stages, it is grounded more in principles than in policies and practices. As our work develops, these principles will give rise to policies and practices; moreover, all principles, policies, and practices will be more fully tested and revised in our day-to-day operations. This ongoing revision we understand as the heart of an iterative project charter. The present document is part—a small part, at that—of a larger whole. The focus here is on <q>trust</q> because it is essential to equitable collaboration. We have also worked on a <q>play nice</q> cluster, that is, principles we think should govern our collective commitment to tasks, deadlines, and conflict resolution.</ref>
+                    </p>
+                    <table>
+                        <head>
+                            <hi rend="small-caps">i.</hi> Collaboration</head>
+                        <row role="label">
+                            <cell>Principle </cell>
+                            <cell>Policy </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <p xml:id="p1113">
+                                    <ref target="#collaboration">We will work collaboratively. That is, we want and need to learn from one another.</ref>
+                                </p>
+                            </cell>
+                            <cell />
+                        </row>
+                        <row>
+                            <cell>
+                                <p xml:id="p1114">
+                                    <ref target="#education">As a <abbr>DH</abbr>
+                                        <q>collaboratory</q> in a university setting, we place a high priority on fostering graduate student development in all areas (including in the acquisition of collaborative skills).</ref>
+                                </p>
+                            </cell>
+                            <cell>
+                                <p xml:id="p1115">
+                                    <ref target="#education">
+                                        <ref target="#economics">
+                                            <ref target="#technology">Research assistants are eligible for <abbr>EMiC UA</abbr> and <abbr>EMiC</abbr> Dalhousie funding to attend training institutes (Digital Editing and Modernism in Canada [<abbr>DEMIC</abbr>] and Textual Editing and Modernism in Canada [<abbr>TEMIC</abbr>]) and to present conference papers as part of one or more of the project groups.</ref>
+                                        </ref>
+                                    </ref>
+                                </p>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <p xml:id="p1116">
+                                    <ref target="#collaboration">Collaborators are people who sign the charter. That is, membership in <abbr>EMiC UA</abbr> is defined by an individual’s acceptance of the principles, policies, and practices of the collaboratory.</ref>
+                                </p>
+                            </cell>
+                            <cell>
+                                <p xml:id="p1117">
+                                    <ref target="#collaboration">
+                                        <ref target="#writing_climate">Research assistants are encouraged to sign the project charter when they begin their work with <abbr>EMiC UA</abbr> and thus become collaborators. They are also encouraged to expand their participation in the collaboratory beyond simply putting in their hours.</ref>
+                                    </ref>
+                                </p>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <p xml:id="p1118">
+                                    <ref target="#collaboration">We will strive to keep the administrative structure of the collaboratory as simple and as <q>horizontal</q> (that is, non-hierarchal) as the needs of the project permit.</ref>
+                                </p>
+                                <p xml:id="p1119">Given the developmental nature of the work <abbr>EMiC UA</abbr> is undertaking, the administrative structure of the collaboratory should be kept not only simple and non-hierarchical, but as malleable and flexible as possible to enable us to respond effectively and efficiently to the many changes development brings. </p>
+                            </cell>
+                            <cell />
+                        </row>
+                        <row>
+                            <cell>
+                                <p xml:id="p1120">
+                                    <ref target="#collaboration">We will work within schedules and to deadlines arrived at collaboratively.</ref>
+                                </p>
+                            </cell>
+                            <cell />
+                        </row>
+                        <row>
+                            <cell>
+                                <p xml:id="p1121">
+                                    <ref target="#collaboration">
+                                        <ref target="#authorship">All collaborators have the right of first refusal on ensuing stages of the project. </ref>
+                                    </ref>
+                                </p>
+                            </cell>
+                            <cell />
+                        </row>
+                    </table>
+                    <table>
+                        <head>
+                            <hi rend="small-caps">ii. </hi>Credit</head>
+                        <row role="label">
+                            <cell>Principle </cell>
+                            <cell>Policy</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <p xml:id="p1122">
+                                    <ref target="#authorship">All work undertaken to advance <abbr>EMiC UA</abbr> projects is equally deserving of credit. (Giving credit speaks to the ethos of the project itself.)</ref>
+                                </p>
+                            </cell>
+                            <cell>
+                                <p xml:id="p1123">
+                                    <ref target="#authorship">
+                                        <abbr>EMiC UA</abbr> will be credited as an organizational author on all publications; additionally, we will use the naming of authors, notes, and acknowledgements as differing ways of attributing credit on all publications.</ref>
+                                </p>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <p xml:id="p1124">
+                                    <ref target="#education">
+                                        <ref target="#collaboration">We recognize the need for credit as a part of academic advancement. (This follows from our commitment to mentoring and to our support for the completion of academic programs as part of <abbr>EMiC UA</abbr> project work.)</ref>
+                                    </ref>
+                                </p>
+                            </cell>
+                            <cell>
+                                <p xml:id="p1125">
+                                    <ref target="#authorship">
+                                        <ref target="#collaboration">All participants will be listed on the project website, including roles and dates; the website provides an ongoing record of contributors and their contributions.</ref>
+                                    </ref>
+                                </p>
+                            </cell>
+                        </row>
+                    </table>
+                    <table>
+                        <head>
+                            <hi rend="small-caps">iii. </hi>Documentation</head>
+                        <row role="label">
+                            <cell>Principle</cell>
+                            <cell>Policy</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <p xml:id="p1126">
+                                    <ref target="#collaboration">Collaboration is rooted in clear documentation, both as a means of understanding one another’s work and as a means of distributing credit.</ref>
+                                </p>
+                            </cell>
+                            <cell>
+                                <p xml:id="p1127">
+                                    <ref target="#collaboration">A task is not completed until the documentation is shared.</ref>
+                                </p>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <p xml:id="p1128">
+                                    <ref target="#theory">Documentation is necessary not only for the purpose of informing other group members and continuing workflow, but in support of grant applications and reports.</ref>
+                                </p>
+                            </cell>
+                            <cell />
+                        </row>
+                        <row>
+                            <cell>
+                                <p xml:id="p1129">
+                                    <ref target="#methodology">We will document our work as it arises from the rhythms of the project. (Documentation will be geared around project planning, dissemination, and reporting.)</ref>
+                                </p>
+                            </cell>
+                            <cell />
+                        </row>
+                        <row>
+                            <cell>
+                                <p xml:id="p1130">Documentation is meant as a support; therefore, documentation responsibilities will be kept to a minimum (so that the project work can carried out efficiently) while ensuring that a sense of the project’s development is recorded (so we can see how the project evolves). </p>
+                            </cell>
+                            <cell />
+                        </row>
+                        <row>
+                            <cell>
+                                <p xml:id="p1131">All documents, including working documents, generated by the group are always accessible to current group members.</p>
+                            </cell>
+                            <cell>
+                                <p xml:id="p1132">
+                                    <ref target="#non-book_media">The primary site for documentation is the wiki.</ref>
+                                </p>
+                            </cell>
+                        </row>
+                    </table>
+                    <table>
+                        <head>
+                            <hi rend="small-caps">iv. </hi>Communication</head>
+                        <row role="label">
+                            <cell>Principle </cell>
+                            <cell>Policy </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <p xml:id="p1133">We will strive for transparency in decision making and communication.</p>
+                            </cell>
+                            <cell />
+                        </row>
+                        <row>
+                            <cell>
+                                <p xml:id="p1134">
+                                    <ref target="#collaboration">We will strive to disseminate our work as widely as possible.</ref>
+                                </p>
+                            </cell>
+                            <cell>
+                                <p xml:id="p1135">
+                                    <ref target="#collaboration">We will strive to produce open source code and style sheets whenever possible.</ref>
+                                </p>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <p xml:id="p1136">
+                                    <ref target="#intertextuality">We will strive to reflect the interdisciplinary nature of our work in the way we disseminate it.</ref>
+                                </p>
+                            </cell>
+                            <cell />
+                        </row>
+                    </table>
+                </div>
+                <div type="section">
+                    <head>Authors’ Note</head>
+                    <p xml:id="p1137" rend="authors-note">* <ref target="#collaboration">
+                            <ref target="#authorship">This document is the work of many hands. Kristin Fast, Andrea Hasenbank, and Paul Hjartarson took the lead in developing the Editing Modernism in Canada University of Alberta (<abbr>EMiC UA</abbr>) project charter and in writing the paper presented at the <abbr>CWRC</abbr> conference held at Ryerson University in October 2011. At one time or another, most members of <abbr>EMiC UA</abbr>, including Matt Bouchard, Harvey Quamen, Joseph McKinnon, and Charlotte Nobles, participated in our meetings, and all members, including Hannah McGregor, discussed both the charter and the draft prior to its presentation at Ryerson. Andrea Hasenbank, Paul Hjartarson, Vanessa Lent, and Harvey Quamen took the lead in revising both the paper and the project charter for publication. We would also like to acknowledge the invaluable advice offered by Lynne Siemens of the University of Victoria and Stan Ruecker of the <abbr>IIT</abbr> Institute of Design in Chicago, and the support of Dean Irvine, director of <abbr>EMiC</abbr>, and Susan Brown, director of <abbr>CWRC</abbr>. The shortcomings of this chapter, however, are entirely our own.</ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Works Cited</head>
+                    <listBibl>
+                        <bibl>Beck, Kent, with Cynthia Andres. <title level="m">Extreme Programming Explained: Embrace Change</title>. 2nd ed. Boston: Addison-Wesley, 2005.</bibl>
+                        <bibl>Bretz, Andrew, Susan Brown, and Hannah McGregor. <title level="m">Lasting Change: Sustaining Digital Scholarship and Culture in Canada</title>. 2010. <ref target="http://www.cwrc.ca/wp-content/uploads/2011/05/Lasting-Change-Knowledge-Synthesis.pdf">http://www.cwrc.ca/wp-content/uploads/2011/05/Lasting-Change-Knowledge-Synthesis.pdf</ref>
+                        </bibl>
+                        <bibl>Brown, Susan. <title level="a">Don’t Mind the Gap: Evolving Digital Modes of Scholarly Production across the Digital-Humanities Divide</title>. <title level="m">Retooling the Humanities: The Culture of Research in Canadian Universities</title>. Ed. Daniel Coleman and Smaro Kamboureli. Edmonton: University of Alberta Press, 2011. 203–31.</bibl>
+                        <bibl>Chow, Rey.<title level="a">
+                                <q>An Addiction from Which We Never Get Free.</q>
+                            </title>
+                            <title level="j">New Literary History</title> 36.1 (2005): 47–55.</bibl>
+                        <bibl>Chromatic. <title level="m">Extreme Programming Pocket Guide</title>. Sebastopol, CA: O’Reilly Media, 2003.</bibl>
+                        <bibl>Collaboratory. <title level="m">Wikipedia: The Free Encyclopedia</title>. <ref target="http://en.wikipedia.org/wiki/Collaboratory">http://en.wikipedia.org/wiki/Collaboratory</ref>
+                        </bibl>
+                        <bibl>Davies, Tony. <title level="m">Humanism</title>. 2nd ed. New Critical Idiom Series. New York: Routledge, 2008.</bibl>
+                        <bibl>Derrida, Jacques.<title level="m">Of Grammatology</title>. 1967. Baltimore: Johns Hopkins University Press, 1997.</bibl>
+                        <bibl>Ede, Lisa, and Andrea J. Lunsford. <title level="a">Collaboration and the Concepts of Authorship</title>. <title level="j">
+                                <abbr>PMLA</abbr>
+                            </title> 116.2 (2001): 354–69.</bibl>
+                        <bibl>Editing Modernism in Canada. <title level="m">Project website</title>. <ref target="http://editingmodernism.ca">http://editingmodernism.ca</ref>
+                        </bibl>
+                        <bibl>Gilman, Sander L. <title level="a">Collaboration, the Economy, and the Future of the Humanities</title>. <title level="j">Critical Inquiry</title> 30.2 (2004): 384–90.</bibl>
+                        <bibl>Hutcheon, Linda, and Michael Hutcheon. <title level="a">A Convenience of Marriage: Collaboration and Interdisciplinarity</title>. <title level="j">PMLA</title> 116.5 (October 2001): 1364–76.</bibl>
+                        <bibl>MacKinnon, Joseph, Nicholas van Orden, and Rebecca Blakey. <title level="a">How to Scan Like a Rock Star. <abbr>EMiC UA</abbr> Working Document</title>.</bibl>
+                        <bibl>Martin, Robert C. <title level="m">Clean Code: A Handbook of Agile Software Craftsmanship</title>. Boston: Prentice-Hall, 2009.</bibl>
+                        <bibl>McCarty, Willard. <title level="m">Humanities Computing</title>. Basingstoke: Palgrave Macmillan, 2005.</bibl>
+                        <bibl>Ms. Mentor [Emily Toth]. <title level="a">Who Owns Your Mind?</title>
+                            <title level="j">Chronicle of Higher Education</title> 21 May 1999: n. pag.</bibl>
+                        <bibl>Pratt, Mary Louise. <title level="a">Arts of the Contact Zone</title>. <title level="j">Profession</title> (1992): 33–40.</bibl>
+                        <bibl>--- <title level="m">Imperial Eyes: Travel Writing and Transculturation</title>. New York: Routledge, 1992.</bibl>
+                        <bibl>Ruecker, Stan. <title level="a">Personal communication</title>. 16 July 2012.</bibl>
+                        <bibl>Ruecker, Stan, and Milena Radzikowska. <title level="a">The Iterative Design of a Project Charter for Interdisciplinary Research</title>. <title level="m">Proceedings of the 7th ACM Conference on Designing Interactive Systems</title>. New York: ACM, 2008. 288–94.</bibl>
+                        <bibl>Schagerl, Jessica. <title level="a">“Taking a Place at the Table.”</title>
+                            <title level="m">Retooling the Humanities: The Culture of Research in Canadian Universities</title>. Ed. Daniel Coleman and Smaro Kamboureli. Edmonton: University of Alberta Press, 2011. 95–112.</bibl>
+                        <bibl>Siemens, Lynne. <title level="a">
+                                <q>It’s a Team If You Use <q>Reply All</q>
+                                </q>: An Exploration of Research Teams in Digital Humanities Environments</title>. <title level="j">Literary and Linguistic Computing</title> 24.2 (2009): 225–33.</bibl>
+                        <bibl>Trimbur, John. <title level="a">Consensus and Difference in Collaborative Learning</title>. <title level="j">College English</title> 51.6 (October 1989): 602–16.</bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

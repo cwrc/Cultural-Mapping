@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>-->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">An Interactive, Materialist-Semiotic Archive</title>
+                <title level="m" type="main" xml:lang="en-CA">Cultural Mapping and the Digital Sphere</title>
+                <title level="m" type="sub" xml:lang="en-CA">Place and Space</title>
+                <author>Sasha Kovacs and Jennifer Roberts-Smith, Teresa M. Dobson, Sandra Gabriele, Omar Rodriguez-Arenas, Stan Ruecker, Stéfan Sinclair, Shawn DeSouza-Coelho</author>
+                <editor role="editor">
+                    <forename>Ruth</forename>
+                    <surname>Panofsky</surname>
+                </editor>
+                <editor role="editor">
+                    <forename>Kathleen</forename>
+                    <surname>Kellett</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <forename>Ilovan</forename>
+                    </name>
+                </respStmt>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor>
+                    <orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Dynamic Table of Contexts editors: </resp>
+                    <name>
+                        <forename>Ruth</forename>
+                        <surname>Panofsky</surname>
+                    </name>
+                    <name>
+                        <forename>Kathleen</forename>
+                        <surname>Kellett</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Principal: </resp>
+                    <name>
+                        <forename>Susan</forename>
+                        <surname>Brown</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <surname>Ilovan</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copyediting and proofreading: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Olivier</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexing:</resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name>
+                        <forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Cover design: </resp>
+                    <name role="book_designer">
+                        <forename>Virginia</forename>
+                        <surname>Penny</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface design lead: </resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead: </resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>Mary Lou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer:</resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by: </resp>
+                    <name role="markup_editor">
+                        <forename>Kristine</forename>
+                        <surname>Abramoff</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Anita</forename>
+                        <surname>Cutic</surname>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address>
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address>
+                        <addrLine>www.cwrc.ca</addrLine>
+                    </address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1- 55195-365- 6</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Individual chapter extract from: Cultural Mapping and the Digital Sphere: Place and Space, ed. Ruth Panofsky &amp; Kathleen Kellett (Edmonton: University of Alberta Press, 2015 / DToC ed. 2016).</p>
+                <ab type="host-volume">
+                    <listBibl>
+                        <bibl>
+                            <title level="a" type="main">Foreword</title>
+                            <author>
+                                <forename>Susan</forename>
+                                <surname>Brown</surname>
+                            </author> &amp; <author>
+                                <forename>Mary-Jo</forename>
+                                <surname>Romaniuk</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Preface</title>
+                            <author>
+                                <forename>Ruth</forename>
+                                <surname>Panofsky</surname>
+                            </author> &amp; <author>
+                                <forename>Kathleen</forename>
+                                <surname>Kellett</surname>
+                            </author>
+                        </bibl>
+                        <listBibl>
+                            <head>Part I. Place and the Digital Frontier</head>
+                            <bibl>
+                                <title level="a" type="maiin">Mapping Tags and Tagging Maps</title>
+                                <title type="sub">Leveraging Spatial Markup for Literary History</title>
+                                <author>
+                                    <forename>Susan</forename>
+                                    <surname>Brown</surname>
+                                </author>, <author>
+                                    <forename>Isobel</forename>
+                                    <surname>Grundy</surname>
+                                </author>, <author>
+                                    <forename>Mariana</forename>
+                                    <surname>Paredes-Olea</surname>
+                                </author>, <author>
+                                    <forename>Jeffery</forename>
+                                    <surname>Antoniuk</surname>
+                                </author> &amp; <author>
+                                    <forename>Breanna</forename>
+                                    <surname>Mroczek</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Modeling Collaboration in Digital Humanities Scholarship</title>
+                                <title type="sub">Foundational Concepts of an EMiC UA Project Charter</title>
+                                <author>
+                                    <forename>Paul</forename>
+                                    <surname>Hjartarson</surname>
+                                </author>, <author>
+                                    <forename>Harvey</forename>
+                                    <surname>Quamen</surname>
+                                </author>, <author>
+                                    <forename>Andrea</forename>
+                                    <surname>Hasenbank</surname>
+                                </author>, <author>
+                                    <forename>Vanessa</forename>
+                                    <surname>Lent</surname>
+                                </author> &amp; <author>
+                                    <orgName> EMiC UA</orgName>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">An Interactive, Materialist-Semiotic Archive</title>
+                                <title type="sub">Visualizing the Canadian Theatrical Canon in the Simulated Environment for Theatre</title>
+                                <author>
+                                    <forename>Sasha</forename>
+                                    <surname>Kovacs</surname>
+                                </author> and <author>
+                                    <forename>Jennifer</forename>
+                                    <surname>Roberts-Smith</surname>
+                                </author>, <author>
+                                    <forename>Theresa M.</forename>
+                                    <surname>Dobson</surname>
+                                </author>, <author>
+                                    <forename>Sandra</forename>
+                                    <surname>Gabriele</surname>
+                                </author>, <author>
+                                    <forename>Omar</forename>
+                                    <surname>Rodrigues-Arenas</surname>
+                                </author>, <author>
+                                    <forename>Stan</forename>
+                                    <surname>Ruecker</surname>
+                                </author>, <author>
+                                    <forename>Stéfan</forename>
+                                    <surname>Sinclair</surname>
+                                </author>, <author>
+                                    <forename>Shawn</forename>
+                                    <surname>DeSouza-Coelho</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">"Talk to the Work"</title>
+                                <title type="sub">Applying istc Identifiers to the Digital Edition of the Canadian Bookman (1909–1941)</title>
+                                <author>
+                                    <forename>Ravit H.</forename>
+                                    <surname>David</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">How to Play with Maps</title>
+                                <author>
+                                    <forename>Bethany</forename>
+                                    <surname>Nowviskie</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Edmonton Pipelines</title>
+                                <title type="sub">Living and Playing in the Digital City </title>
+                                <author>
+                                    <forename>Heather</forename>
+                                    <surname>Zwicker</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Representing Canadian Queer Authorship</title>
+                                <title type="sub">Making the Internet a Women’s Place</title>
+                                <author>
+                                    <forename>Michelle</forename>
+                                    <surname>Schwartz</surname>
+                                </author> &amp; <author>
+                                    <forename>Constance</forename>
+                                    <surname>Crompton</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Part II. Writers and Readers: Mapping Textual Space</head>
+                            <bibl>
+                                <title level="a" type="main">Salomania</title>
+                                <title type="sub">Maud Allan, Postcards, and Early Twentieth-Century “Viral” Circulation</title>
+                                <author>
+                                    <forename>Cecily</forename>
+                                    <surname>Devereux</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Toronto the Good in the Fiction and Life of Grace Irwin</title>
+                                <author>
+                                    <forename>Patricia</forename>
+                                    <surname>Demers</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">« Where are you froM? »</title>
+                                <title type="sub" xml:lang="fr-CA">La ville et l’écriture migrante dans l’autofiction de Marguerite Andersen</title>
+                                <author>
+                                    <forename>Kathleen</forename>
+                                    <surname>Kellett</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Languages as Spaces, Translation as Play</title>
+                                <title type="sub">Moving (through) Languages</title>
+                                <author>
+                                    <forename>Lori</forename>
+                                    <surname>Saint-Martin</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">L'espace ensorcelé</title>
+                                <title type="sub">Les enfants du sabbat d’Anne Hébert</title>
+                                <author>
+                                    <forename>Stéphanie</forename>
+                                    <surname>Walsh Matthews</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick and Kim Thúy</title>
+                                <author>
+                                    <forename>Mireille</forename>
+                                    <surname>MaiTruong</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Standing on a Rainbow</title>
+                                <title type="sub">Reading in Place, Position, and Time</title>
+                                <author>
+                                    <forename>Margaret</forename>
+                                    <surname>Mackey</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <bibl>
+                            <title type="main" xml:lang="en-CA">Contributors</title> / <title type="main" xml:lang="fr-CA">Collaborateurs</title>
+                        </bibl>
+                    </listBibl>
+                </ab>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p />
+            </projectDesc>
+            <classDecl>
+                <taxonomy>
+                    <desc>Semantic tags employed in this book can be reviewed at <ref target="http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml">http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml</ref>
+                    </desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-CA">English</language>
+                <language ident="fr-CA">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline />
+                <item />
+                <index>
+                    <term />
+                </index>
+                <byline />
+                <index>
+                    <term />
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:lang="en-CA">
+                <head>
+                    <title level="a">An Interactive, Materialist-Semiotic Archive</title>
+                </head>
+                <byline>Visualizing the Canadian Theatrical Canon in the Simulated Environment for Theatre</byline>
+                <docAuthor> Sasha Kovacs and Jennifer Roberts-Smith, Teresa M. Dobson, Sandra Gabriele, Omar Rodriguez-Arenas, Stan Ruecker, Stéfan Sinclair, Shawn DeSouza-Coelho</docAuthor>
+                <div type="section">
+                    <head>Introduction</head>
+                    <p xml:id="p1138">
+                        <ref target="#critique_of_canon">
+                            <ref target="#intellectual_history">
+                                <ref target="#genre_performance">
+                                    <ref target="#response_formal">In its 2011 season, Toronto’s Soulpepper Theatre Company contributed to a notable and <q>problematic,</q> to cite <title level="j">Globe and Mail</title> critic J. Kelly Nestruck, revival movement in the history of Canadian theatre (<title level="a">Canadian Revivals</title>)</ref>. <ref target="#recognitions">The two <q>revivals</q> mounted by the company, Guillermo Verdecchia’s <title level="m">Fronteras Americanas</title> and Judith Thompson’s <title level="m">White Biting Dog</title>, were both Governor General’s (<abbr>GG</abbr>) Literary Award–winning plays, which, despite their past successes and their status in the Canadian theatrical canon, had rarely, if ever, been revived on such a scale</ref>. This, in itself, was not surprising; as Nestruck observed, <q>in the country’s theatre ecology, second productions have always been harder to get than first productions…And revivals of older plays? For a long while, they were even rarer</q> (<title level="a">Canadian Revivals</title>). <ref target="#methodology">What was surprising was the intervention of Soulpepper’s productions into the traditional construction of the Canadian theatrical canon as a body of printed, rather than performed, works. In a gesture that we argue demonstrates what Ric Knowles has called a materialist-semiotic approach to theatre, Soulpepper publicized its revivals as re-presenting important past performances, rather than re-producing important published works.<note xml:id="n100" place="end">
+                                            <ref target="#canon_formation">Ric Knowles, in his analysis of the establishment of the English-Canadian canon, confirms the historical contexts that shape Nestruck’s assertion: <q>before 1980 few Canadian scripts received a second production</q>
+                                                <bibl>Knowles, <title level="a">Voices (Off)</title> 91</bibl>. <ref target="#anthologizaton">
+                                                    <ref target="#editions">Knowles suggests that the <q>quixotic and unpredictable</q> nature of the Canadian dramatic environment <bibl>
+                                                            <title level="a">Voices (Off)</title> 91</bibl> led to the development of three <q>national anthologies</q> that sought to stabilize the dramatic canon. One of these, Jerry Wasserman’s two-volume anthology, <title level="m">Modern Canadian Plays</title>, which features the work of Judith Thompson (<title level="m">Lion in the Streets</title>) and Guillermo Verdecchia (<title level="m">Fronteras Americanas</title>) in its fourth <bibl>2011</bibl> edition, <ref target="#education">
+                                                            <q>shaped curricula</q> and <q>heavily influenced subsequent scholarship</q>
+                                                        </ref>
+                                                        <bibl>Knowles, <title level="a">Voices (Off)</title> 95</bibl>
+                                                    </ref>. <ref target="#response_formal">André Loiselle’s assertion that the anthology was the most distinguished of a group first published in the mid-1980s <bibl>n. pag.</bibl> points to the continual praise bestowed upon this text.</ref> Thompson’s <title level="m">White Biting Dog</title> appears, perhaps not coincidentally, in a 2003 collection of her work introduced by Knowles, entitled <title level="m">Late 20th Century Plays</title>
+                                                </ref>. Nonetheless, the production histories of <title level="m">White Biting Dog</title> and <title level="m">Fronteras Americanas</title> are far from extensive. There is a discrepancy between the discourse of the canonization project (see below), which for the first time made these texts accessible and soon widely taught, and the theatre community’s allegiance to that project</ref>. Though <title level="m">White Biting Dog</title> did have a subsequent production in 1990 at the Grand Theatre <bibl>dir. Maya Ardal</bibl> after its 1984 premiere at Tarragon Theatre <bibl>dir. Bill Glassco</bibl>, and though it returned to Tarragon on its ten-year anniversary in 1994 <bibl>dir. Morris Panych</bibl>, before its Soulpepper revival the play never reached large audiences. Similarly, after the 1993 premiere of <title level="m">Fronteras Americanas</title> at Tarragon <bibl>dir. Jim Warren</bibl>, Theatre Aquarius produced the play in 1995 <bibl>dir. Christopher McHarge</bibl> and the only other production, prior to Soulpepper’s, was at the Adelaide, Australia 9’s Nexus Multicultural Arts Festival <bibl>dir. Sam Haren</bibl> (for references regarding this production history see Ardal; Glassco; Haren; McHarge; Panych; Warren). <ref target="response_formal">According to the Canadian Actors’ Equity Association’s classification system, which ranks theatres according to box office potential, the 2011 productions of <title level="m">White Biting Dog</title> at the Young Centre’s Michael Young Theatre (category D) and <title level="m">Fronteras Americanas</title> at the Young Centre’s Marilyn and Charles Baillie Theatre (category A) promoted both plays to higher ranked venues than previous productions (<abbr>CAEA</abbr>)</ref>.</note> That gesture reflected an increasing interest—in theatrical and scholarly circles alike—in the challenges of preserving and recovering the non-textual elements of theatrical performance. <ref target="#archive">If the canon is performative, how can one archive it for posterity, and who should be the archivist(s)?</ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1139">
+                        <ref target="#canon_formation">
+                            <ref target="#critique_of_canon">
+                                <ref target="#archive">
+                                    <ref target="#technology">
+                                        <ref target="#methodology">We propose that as printed text becomes increasingly unsatisfying as a means of archiving a theatrical canon, the digital Simulated Environment for Theatre (<abbr>SET</abbr>) provides some useful functions to supplement textual records. <ref target="#theme_or_topic">In particular, <abbr>SET</abbr> enables a materialist-semiotic perspective on the archive by accommodating both print-based and performative records. The precursor to <abbr>SET</abbr> was Watching the Script, a project we initiated in 2003 that aimed to enrich the ways in which plays could be read. It allowed users to see text displayed in proximity to an abstract visualization of <q>characters</q> (coloured dots) in <q>space</q> (a two-dimensional grid), thereby positioning users as watchers, rather than readers, of script <note place="inline">
+                                                    <bibl>Roberts-Smith et al., <title level="a">Visualizing Theatrical Text</title>
+                                                    </bibl>
+                                                </note>. <ref target="#collaboration">In 2008, when a domain expert in theatre joined our research team, we began to ask how the performative function of theatrical text might be visualized in relation to material theatrical phenomena that exist in time and <ref target="#spatiality">space</ref>
+                                                    <note place="inline">
+                                                        <bibl>Roberts-Smith et al.,<title level="a">Visualizing Theatrical Text</title>
+                                                        </bibl>
+                                                    </note>
+                                                </ref>. <ref target="#theory">
+                                                    <ref target="#theme or topic">The <abbr>SET</abbr> project was conceived to address that very question. In doing so, the project aimed to provide a useful tool for three constituencies of users: theatre creators, especially directors interested in virtually sketching their concepts before or during production; theatre educators, who might use the system to extend their own approaches to teaching the semiotic relationships between dramatic texts and performative contexts; and theatre researchers, who might visualize the insights into historical performance available in a range of theatrical and paratheatrical records <note place="inline">
+                                                            <bibl>Roberts-Smith et al., <title level="a">Visualizing Theatrical Text</title>
+                                                            </bibl>
+                                                        </note>; <note place="inline">
+                                                            <bibl>
+                                                                <title level="a">Visualizing Theatre Historiography</title>
+                                                            </bibl>
+                                                        </note>
+                                                    </ref>
+                                                </ref>
+                                            </ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>.</p>
+                    <p xml:id="p1140">
+                        <ref target="#technology">
+                            <ref target="#genre_performance">
+                                <ref target="#intellectual_history">In the experimental process of visualizing theatrical action in the <abbr>SET</abbr> system on the basis of records of two historically distinct productions of one play—Judith Thompson’s <title level="m">White Biting Dog</title>—we realized that <abbr>SET</abbr> could function as a dynamic tool to record not just discrete productions, but also production histories, and to mark the historiographic contingencies of any visual representation of performance. This realization gave rise to concrete outcomes: specifically, <abbr>SET</abbr> functions for visualizing the sources that had led us to the theatrical representations we authored <note place="inline">
+                                        <bibl>Roberts-Smith et al., <title level="a">Visualizing Theatre Historiography</title>
+                                        </bibl>
+                                    </note>. <ref target="#theory">At the theoretical level, we began to ask what our virtual mapping of documented production histories of a canonical text was doing to the text’s hegemonic hold on or authority in performance creation and analysis</ref>. <ref target="#theme_or_topic">
+                                        <ref target="#critique_of_canon">
+                                            <ref target="#archive">In this chapter, we offer an extended discussion of the Soulpepper revivals’ challenge to the prevailing concept of the Canadian theatrical canon; the theoretical questions raised by the revivals in relation to theatre archiving practices current among other contemporary theatre practitioners; and, using our visualization of the production history of <title level="m">White Biting Dog</title> as an illustration, the potential for the <abbr>SET</abbr> system to visualize those challenges and questions in materialist-semiotic terms. <ref target="#authority">We argue that <abbr>SET</abbr>, when used as an archival tool, has the potential to visualize the undoing of the authority of text in the project of theatrical canon formation</ref>
+                                            </ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>.</p>
+                </div>
+                <div type="section">
+                    <head>Soulpepper Theatre 2011: Reviving, Revising, and Questioning the Canon</head>
+                    <p xml:id="p1141">
+                        <ref target="#genre_performance">
+                            <ref target="#intellectual_history">To return to Soulpepper’s <q>problematic</q> revivals, it was neither surprising that <title level="m">Fronteras Americanas</title> and <title level="m">White Biting Dog</title> had rarely been revived in large-scale productions, nor was it surprising that Soulpepper chose to revive <ref target="#recognitions">Governor General’s Literary Award–winning plays</ref>. When it was first founded, Soulpepper mounted <q>only classical plays and modern classics</q>
+                                <note place="inline">
+                                    <bibl>Wasserman 22</bibl>
+                                </note> and, unlike the <q>alternative movement</q> that preceded Soulpepper, the company unapologetically refused to produce new Canadian work.<note xml:id="n107" place="end">
+                                    <ref target="#politics">
+                                        <ref target="#intertextuality">Eugene Benson and L.W. Conolly suggest that the <q>alternate theatre in Canada emerged in the 1960’s</q> and was <q>prompted by a changing political climate at home and a groundswell of interest in Canadian history, culture, and institutions</q>
+                                            <bibl>85</bibl>. They identify Toronto Workshop Productions (<abbr>TWP</abbr>) under the leadership of George Luscombe as the <q>forerunner</q>
+                                            <bibl>Benson and Conolly 86</bibl> to this movement</ref>. Other significant companies include Factory Theatre Lab (now Factory Theatre), Tarragon Theatre, and Theatre Passe Muraille (<abbr>TPM</abbr>). <ref target="#intertextuality">For a more thorough discussion of the history and characteristics of this movement, see Denis Johnston’s <title level="m">Up the Mainstream: The Rise of Toronto’s Alternative Theatres</title>. For a more detailed analysis of Tarragon’s position within that framework, see Johnston’s <title level="m">Diverting the Mainstream: Bill Glassco and the Early Years of Tarragon Theatre</title>
+                                        </ref>
+                                    </ref>.</note>
+                                <ref target="#politics">The nationalism at Soulpepper’s core was located instead in its self-designation as a <q>classical repertory theatre company</q> with a mandate to <q>tell the world’s greatest stories in vital Canadian interpretations</q>
+                                    <note place="inline">
+                                        <bibl>Soulpepper, <title level="a">The Company/The Soulpepper Difference</title>
+                                        </bibl>
+                                    </note>, which implied that Soulpepper’s performance methods, rather than the scripts it chose, were Canadian</ref>. <ref target="#response_formal">This conception of <q>Canadian</q> theatre (which is not unique to Soulpepper) has led to criticism, articulated most recently by Kamal Al-Solaylee, former theatre critic for the <title level="j">Globe and Mail</title>, who says, <q>we continue to operate in a theatrical milieu where our deference to the classical (and largely European) repertoire is coupled with undervaluing our own dramatic articulations. And, increasingly, that disconnect is making our largest theatres appear out of touch</q>
+                                    <note place="inline">
+                                        <bibl>58</bibl>
+                                    </note>
+                                </ref>
+                            </ref>
+                        </ref>.</p>
+                    <p xml:id="p1142">
+                        <ref target="#recognitions">Perhaps in response to such criticism, after three seasons that did not include a single Canadian work, Soulpepper has consistently mounted homegrown Canadian plays as among <q>the world’s best</q> stories <note place="inline">
+                                <bibl>Soulpepper, <title level="a">Archives</title>
+                                </bibl>
+                            </note>. Typically, these plays have been past critical and box office successes, many of which have won Governor General’s Literary Awards, and consequently have seemed unproblematic candidates for inclusion as Canadian <q>classics</q> in the Soulpepper repertoire.<note xml:id="n111" place="end">Since 2007, Soulpepper has mounted David French’s <title level="m">Of the Fields, Lately</title> (Chalmers Award for Best New Canadian Play, 1974), <title level="m">Salt-Water Moon</title> (Nominee for the Governor General’s Literary Award for Drama, 1985), and <title level="m">Jitters</title>; John Gray’s <title level="m">Billy Bishop Goes to War</title> (Chalmers Award for Best New Canadian Play, 1982; Governor General’s Literary Award for Drama, 1982); John Murrell’s <title level="m">Waiting for the Parade</title> (Chalmers Award for Best New Canadian Play, 1977; Governor General’s Lifetime Artistic Achievement Award, 2008); and Sharon Pollock’s <title level="m">Doc</title> (Chalmers Award for Best New Canadian Play, 1984; Governor General’s Literary Award for Drama, 1986).</note>
+                        </ref>
+                        <ref target="#response_formal">Nonetheless, Nestruck notes in a generally negative review of the 2011 production of <title level="m">White Biting Dog</title>:</ref>
+                    </p>
+                    <q type="block">
+                        <ref target="#response_formal">
+                            <ref target="#genre_performance">
+                                <ref target="#recognitions">While it’s unlikely that Soulpepper picks its Canadian programming by throwing darts at a list of past winners of the Governor General’s Award for Drama, it can sometimes seem like that’s the case. Sticking to plays that have previously made the <abbr>GG</abbr> grade has served the company well in the past, with the Eric Peterson-John Gray hit <title level="m">Billy Bishop Goes to War</title> and Sharon Pollock’s <title level="m">Doc</title>
+                                </ref>. But this season it’s proved more problematic</ref>
+                        </ref>. <note place="inline">
+                            <bibl>
+                                <title level="a">White Biting Dog</title>
+                            </bibl>
+                        </note>
+                    </q>
+                    <p xml:id="p1143">
+                        <ref target="#response_formal">
+                            <ref target="#critique_of_canon">More than one critic, bemoaning the shortcomings of Soulpepper’s productions of both <title level="m">Fronteras Americanas</title> and <title level="m">White Biting Dog</title>, took the opportunity to assert that <q>much canonized Canadian drama was weaker than its reputation</q>
+                                <note place="inline">
+                                    <bibl>Robert Cushman qtd. in Nestruck, <title level="a">Canadian Revivals</title>
+                                    </bibl>
+                                </note>. <ref target="#intertextuality">Nestruck cites, for example, Christopher Hoile’s astonishment that <q>such an <q>absolute mess</q> could have ever won the <abbr>G-G</abbr>
+                                    </q> and the <title level="j">National Post’s</title> Robert Cushman, who went so far as to question the existence of <q>the supposed Golden Age of English Canadian drama</q>
+                                    <note place="inline">
+                                        <bibl>qtd. in Nestruck, <title level="a">Canadian Revivals</title>
+                                        </bibl>
+                                    </note>
+                                </ref>. <ref target="#critique_of_canon">
+                                    <ref target="#recognitions">What was problematic about Soulpepper’s 2011 revivals was the canonical status of the plays, a status that was called into question when Soulpepper’s productions demanded that they demonstrate theatrical value as well as the literary value that had been conferred upon them by publishing houses, anthologists, and literary awards.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1144">
+                        <ref target="#critique_of_canon">
+                            <ref target="canon_formation">While not all critics assessed <title level="m">Fronteras Americanas</title> and <title level="m">White Biting Dog</title> as harshly as those quoted above, Soulpepper’s 2011 revivals seem to have opened a critical debate about the nature of the Canadian dramatic canon and the process by which it has been defined historically. <ref target="#intellectual_history">Nestruck lauded this opportunity for <q>critics and audiences to get in on the game of canon-building that academics have hitherto monopolized</q>
+                                    <note place="inline">
+                                        <bibl>
+                                            <title level="a">Canadian Revivals</title>
+                                        </bibl>
+                                    </note>, but he was not the first to draw attention to the historical centrality of text in this <q>game.</q> As Denis Salter has noted, the Massey Commission, which in 1951 reported to the federal government on the state of Canadian culture, expressed the hope that the production of more plays would translate into a more clearly defined Canadian nation with a robust cultural community at its core. The commission proposed that the development of a vital theatrical culture depended upon the establishment of a <q>national repertoire of Canadian-made plays on Canadian topics in a Canadian idiom and presented in a recognizable Canadian style</q>
+                                    <note place="inline">
+                                        <bibl>qtd. in Salter 82</bibl>
+                                    </note>. Alan Filewod further observed that<q>the notion of a dramatic literature [was] the first condition of an autonomous national theatre</q>
+                                    <note place="inline">
+                                        <bibl>
+                                            <title level="a">Undermining</title> 1</bibl>
+                                    </note>. The Massey Commission achieved much of its desired aim. The commission’s position, for example, informed the practices of founding editor Don Rubin of the <title level="j">Canadian Theatre Review</title> (<hi rend="sc-italic">
+                                        <abbr>CTR</abbr>
+                                    </hi>) <note place="inline">
+                                        <bibl>Filewod, <title level="a">Undermining</title> 1</bibl>
+                                    </note>—established in 1974, <hi rend="sc-italic">
+                                        <abbr>CTR</abbr>
+                                    </hi> still publishes <q>at least one significant new script per issue</q>
+                                    <note place="inline">
+                                        <bibl>
+                                            <title level="j">Canadian Theatre Review</title>
+                                        </bibl>
+                                    </note>—as well as the mandates of Canadian theatrical publishing houses, which contribute to the commission’s hoped for <q>substantial body of proven plays (Canadian classics in other words) to which artistic directors would automatically turn when planning their upcoming seasons</q>
+                                    <note place="inline">
+                                        <bibl>Salter 82</bibl>
+                                    </note>.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1145">
+                        <ref target="#intellectual_history">
+                            <ref target="#critique_of_canon">The alternative theatre movement of the 1970s, with its early emphasis on <ref target="#collaboration">collectively created works</ref>, has been read historically as a protest against regional theatres’ failure to get <q>in touch</q> with Canadian voices (a failure that has been blamed on the British organizational model inherited from Vincent Massey, along with his aspirations for a Canadian literary canon)</ref>.<note xml:id="n121" place="end">The development of a number of regional theatres in major urban centres throughout Canada was part of the <q>monument complex</q> or <q>edifice complex</q> at work in the late 1950s to the early 1970s Canadian theatrical ecology (see Kilbourn et al.). <ref target="#economics">Public investment in theatre buildings and infrastructure (Arts Club Theatre, Vancouver Playhouse, Theatre Calgary, Citadel Theatre, Globe Theatre, Royal Manitoba Theatre Centre, Neptune Theatre, Theatre New Brunswick) was made in the wake of the Massey Report of 1951, which also led to the establishment in 1957 of the Canada Council for the Arts (a government subsidy system to the arts)</ref>. Many of the regional theatres are characterized conventionally as endorsing <q>conservative repertoires, a mistrust of Canadian drama, <ref target="#class">middle-class audiences</ref>, and a marked tendency to prefer foreign, usually British, artistic directors</q>
+                                <note place="inline">
+                                    <bibl>Filewod, <title level="a">Erasing</title> 202</bibl>
+                                </note>. <ref target="#intellectual_history">Alan Filewod notes that the alternative houses of <abbr>TPM</abbr>, <abbr>TWP</abbr>, and Tarragon, in the late 1960s to the mid-1970s ushered in a <q>historical crisis</q> by <q>overshadow[ing]</q> and <q>challeng[ing]</q> regional theatres with an <q>experimental</q> and <q>nationalistic</q> fervour that has been characterized as a kind of <q>cultural heroism</q>
+                                    <bibl>
+                                        <title level="a">Erasing</title> 202</bibl>. See Filewod, <title level="a">Erasing Historical Difference</title>; Knowles, <title level="m">Reading the Material Theatre</title>; and note 5 below for a more complex discussion of the methodological dangers of this <q>mainstream/alternative paradigm</q>
+                                    <bibl>Filewod, <title level="a">Erasing</title> 202</bibl>.</ref>
+                            </note>
+                            <ref target="#response_recent">More recent scholarship, however, has challenged the <q>mythological nature of [that] history</q> (<note place="inline">
+                                    <bibl>Barton, <title level="m">Creating Spaces</title> viii</bibl>
+                                </note>), which did not account for the <q>nuances</q> at work within the <q>analytical category</q>
+                                <note place="inline">
+                                    <bibl>Knowles, <title level="m">Reading</title> 130</bibl>
+                                </note> it sought to define</ref>. <ref target="theory">
+                                <ref target="#authority">To take one salient example, Tarragon Theatre, although usually classified as an influential member of the alternative movement, has in many respects maintained Massey’s view of textual production as key to the success of Canada’s theatrical development <note place="inline">
+                                        <bibl>Filewod qtd. in Barton viii</bibl>
+                                    </note>
+                                </ref>
+                            </ref>.<note xml:id="n125" place="end">Knowles notes, <q>most scholars in recent years have become uncomfortable with a <q>mainstream-alternative</q> binary</q>
+                                <bibl>
+                                    <title level="m">Reading</title> 130</bibl>. He goes on to articulate Tarragon Theatre’s specific <q>discomfort</q> with the <q>alternative label</q>: <q>Although Tarragon has always been anxious to position itself <q>on the cutting edge,</q> and although its play development mandate and <ref target="#economics">relatively small budget</ref> set it apart from the Regional Theatre network from the beginning, the theatre has produced in its policies, procedures, physical arrangements, public profile and production history a discourse of stability, balance, comfort and quality that sets it apart from organizations such as the Factory Theatre, with its discourse of excitement, adventure, and risk</q>
+                                <bibl>Knowles, <title level="m">Reading</title> 130</bibl>.</note>
+                            <ref target="#intellectual_history">
+                                <ref target="#genre_performance">It is likely not coincidental that both <title level="m">Fronteras Americanas</title> and <title level="m">White Biting Dog</title> were developed at Tarragon.<note xml:id="n126" place="end">
+                                        <title level="m">Fronteras Americanas</title> premiered at Tarragon Theatre’s Extra Space after development workshops at the Canadian Stage Company and Tarragon <note place="inline">
+                                            <bibl>Wasserman 309</bibl>
+                                        </note>.</note> Bill Glassco, director of the original 1984 production of <title level="m">White Biting Dog</title>, founded Tarragon <q>partly in reaction to what he saw as <q>slapdash production standards</q>…at the Factory Theatre Lab </q>
+                                    <note place="inline">
+                                        <bibl>Knowles, <title level="m">Reading</title> 132</bibl>
+                                    </note>. Glassco sought to elevate the status of theatre by investing in Canadian playwrights, and his theatre’s loyalty to writers remains integral to its public profile.<note xml:id="n129" place="end">Tarragon Theatre currently supports twelve playwrights in residence <bibl>Tarragon Theatre, <title level="a">Playwrights-in-Residence</title>
+                                        </bibl>.</note> Today, Tarragon Theatre is the kind of Canadian theatrical institution envisaged by Massey: one with a focus on literary production, whose premieres of new Canadian plays typically coincide with their publication</ref>.<note xml:id="n130" place="end">
+                                    <title level="m">Fronteras Americanas</title> was published by Coach House Press in 1993. It premiered at Tarragon Theatre in January–February of that year. Similarly, <title level="m">White Biting Dog</title> premiered in January of 1984 and the first edition appeared that same year. More recent examples include Erin Shields’s <title level="m">If We Were Birds</title> (premiere in 2010; publication by Playwrights Canada Press in 2011) and Brendan Gall’s <title level="m">Wide Awake Hearts</title> (produced in 2010; publication by Coach House Press in 2010 in Gall’s collection <title level="m">Minor Complications</title>).</note>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1146">
+                        <ref target="#genre_performance">
+                            <ref target="#canon_formation">If the original Tarragon productions of <title level="m">Fronteras Americanas</title> and <title level="m">White Biting Dog</title> were <q>literary</q> in the sense that they grew out of aspirations for and have contributed to a printed literary canon, both plays nonetheless owe their status as Soulpepper’s <q>Canadian classics</q> as much to their Tarragon productions as they do to their literary histories. Indeed, the publicity surrounding Soulpepper’s 2011 productions indicated, directly and indirectly, that the original Tarragon productions were central to Soulpepper’s decision to mount the plays</ref>
+                        </ref>. <ref target="#recognitions">
+                            <ref target="#collaboration">In the case of <title level="m">Fronteras Americanas</title>, which won both a Chalmers Award and a Governor General’s Literary Award after a successful run in Tarragon’s Extra Space in January–February 1993 <note place="inline">
+                                    <bibl>Wasserman 309</bibl>
+                                </note>, Soulpepper announced, <q>Soulpepper Associate Artist, Guillermo Verdecchia, and director Jim Warren, are collaborating once again, after eighteen years, to introduce the Governor General’s Award–winning Fronteras Americanas to new audiences</q>
+                                <note place="inline">
+                                    <bibl>Soulpepper, <title level="a">Press Releases</title>
+                                    </bibl>
+                                </note>
+                            </ref>
+                        </ref>. <ref target="#genre_performance">With this announcement, Soulpepper positioned itself as renewing access to a classic stage production for audiences who missed the 1993 production</ref>.</p>
+                    <p xml:id="p1147">Similarly, Nancy Palk, who directed the 2011 production of <title level="m">White Biting Dog</title> was quoted on Soulpepper’s website:</p>
+                    <q type="block">
+                        <ref target="#intellectual_history">I was at the opening night of <title level="m">White Biting Dog</title> in 1984 at Tarragon, and it was one of those wonderful fantastic opening nights…I’ve always been just crazy about it [the play].…Not only does it make a lot of sense for Soulpepper to be doing it because of <ref target="#education">
+                                <ref target="#attitudes_to_women_writing">Judith [Thompson]’s stature in Canadian theatre</ref> but also because Judith, Joe [Ziegler] and I all went to theatre school together. As did Louise Guinand, the lighting designer and Christina Poddubiuk, the costume and set designer</ref>. <ref target="#intellectual_history">It really makes sense from the company’s historical point of view</ref>
+                        </ref>. <note place="inline">
+                            <bibl>Soulpepper, <title level="a">White Biting Dog</title>
+                            </bibl>
+                        </note>
+                    </q>
+                    <p xml:id="p1148">
+                        <ref target="#intellectual_history">
+                            <ref target="#canon_formation">
+                                <ref target="#genre_performance">The memory of the 1984 production was at the forefront of Palk’s mind as she approached her own production. Palk recalled a <q>fantastic</q> opening night, while Verdecchia and Warren revisited a previously successful production; both revivals were framed by Soulpepper as attempts to return in some way to a performed ideal, rather than a textual one. This was arguably a radical and progressive departure from traditional constructions of the Canadian canon, and one that reflected a movement (pace Nestruck) in both critical and academic circles. As Bruce Barton asks, <q>why not push hard on (even against) the historical preoccupation with a Canadian dramatic canon?</q>
+                                </ref>
+                            </ref>
+                        </ref>
+                        <note place="inline">
+                            <bibl>
+                                <title level="a">Evoking Theatre</title> 1</bibl>
+                        </note>.</p>
+                    <p xml:id="p1149">
+                        <ref target="#intellectual_history">
+                            <ref target="#genre_performance">Soulpepper’s desire to revive performance history was as evident on stage as it was off stage, and (perhaps ironically) seems to have been the focus of much of the criticism of its 2011 revivals. In the one-man show <title level="m">Fronteras American</title> as, for example, the playwright himself played the roles of <q>Wideload</q> and <q>Verdecchia,</q> as he had done in the original production.<note xml:id="n135" place="end">There is a difficulty in using an alternate actor, since this one-man show is a personal story and features a character named Verdecchia. Verdecchia himself, however, has expressed a desire for alternate casting scenarios: <q>I’d love to see—some day, I hope—<ref target="#gender_issue">
+                                            <ref target="#nationality">a production of <title level="m">Fronteras Americana</title>s that is transgendered and cast with an Asian actor, or something.</ref>
+                                        </ref> I’d really like to see somebody take the border theme to the nth degree</q>
+                                    <bibl>qtd. in Wasserman 310</bibl>. This suggests that the 2011 casting of Verdecchia was deliberate.</note>
+                                <ref target="#technology">Despite major advances in the field of visual projection, Soulpepper also simulated the same kinds of performance technologies that were used in the 1994 production (the original production was innovative for its use of PowerPoint <q>slides</q>). <ref target="#response_formal">It is not surprising, then, that the 2011 production of <title level="m">Fronteras Americanas</title> was criticized for smelling <q>to high heaven of the early 1990s</q>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                        <note place="inline">
+                            <bibl>Nestruck, <title level="a">Remount without a Cause</title>
+                            </bibl>
+                        </note>.</p>
+                    <p xml:id="p1150">
+                        <ref target="#intellectual_history">
+                            <ref target="#genre_performance">Palk’s <title level="m">White Biting Dog</title> likewise referenced the play’s Tarragon premiere, most vividly in Poddubiuk’s evocation of Sue LePage’s original set. Poddubiuk adapted LePage’s rendering of the Bloor Street Viaduct, using the crisscross pattern that had appeared on LePage’s arched, ceiling level <q>girders</q> as an element of the posts, which suggested both the bridge and the corners of the protagonist’s home in the 2011 production. <ref target="tone_or_style">This design gesture arguably extended the original production’s manipulation of stage reality, suggesting that Palk and Poddubiuk took seriously the principle (as Poddubiuk explained to Palk) that <q>it’s not realism</q> (Soulpepper, <title level="a">White Biting Dog</title>; see also our comments in <title level="a">Visualizing Theatre Historiography</title>)</ref>.<note xml:id="n137" place="end">On Thompson’s style and its relationship to Tarragon Theatre’s aesthetic, see Knowles <bibl>
+                                        <title level="a">Introduction</title>
+                                    </bibl>. By 1995, all of Thompson’s plays (save for the <q>anomalous</q> productions of <title level="m">The Crackwalker</title> and <title level="m">Habitat</title>) had premiered at Tarragon <bibl>Knowles, <title level="a">Introduction</title> xiii</bibl>. More recently, <title level="m">Palace of the End</title> received its premiere at the Canadian Stage Company in 2008, but it is not surprising that<ref target="#tone_or_style"> in her early career Thompson maintained a close link to Tarragon because her aesthetic, which stretches the limits of naturalism in subtle ways, became a signature of sorts for Tarragon Theatre. Following Glassco, Tarragon’s second artistic director Urjo Kareda claimed a <q>mysterious richness</q> in his theatre’s naturalistic plays <bibl>qtd. in Knowles, <hi rend="italic">Reading </hi>136</bibl>. Though Thompson’s work often is described as <q>magic realism</q> (see, for example, Maufort), her work still <q>rarely break[s] through</q> the <q>boundaries of naturalism</q>
+                                        <bibl>Knowles, <title level="m">Reading</title> 136</bibl>
+                                    </ref>. See also our comments below on Poddubiuk’s set.</note>
+                                <ref target="#response_formal">Like the design of <title level="m">Fronteras Americanas</title>, however, Poddubiuk’s set was the focus of complaints that <title level="a">White Biting Dog</title> was dated. For Cushman, for instance, the allusion of the bridge was unnecessary on the grounds that it was no longer a <q>practicable endeavour</q> to jump off the Bloor Street Viaduct, which has incorporated a suicide barrier since 2003; and he was unimpressed by the set’s unrealistic blending of bridge and apartment, complaining that <q>Christina Poddubiuk’s set does not seem to have mortgaged any appearance of domesticity for the sake of providing an upper level for the first brief scene on the bridge</q>
+                                    <note place="inline">
+                                        <bibl>
+                                            <title level="a">Theatre Reviews</title>
+                                        </bibl>
+                                    </note>
+                                </ref>.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1151">
+                        <ref target="response_formal">
+                            <ref target="#intellectual_history">
+                                <ref target="#genre_performance">Most likely, Nestruck, Cushman, and others were troubled by Soulpepper’s canonization of <title level="m">Fronteras Americanas</title> and <title level="m">White Biting Dog</title> precisely because the company strove to excavate and enact a performance history and, in doing so, it projected a <q>false</q> universalism. <ref target="critique_of_canon">Soulpepper seems to have assumed that the works in its canon had, as Knowles puts it, <q>universal meaning that is available for interpretation by audiences anywhere</q> and <q>that artistic inspiration transcends what are considered to be the accidentals of historical and cultural context, that it speaks across various kinds of difference to our common humanity</q>
+                                        <note place="inline">
+                                            <bibl>Knowles, <title level="m">Reading</title> 9</bibl>
+                                        </note>
+                                    </ref>
+                                </ref>. By drawing attention to the historical and cultural contexts of their premieres (<ref target="#technology">in literal rather than conceptual terms—again, consider the decision to simulate early PowerPoint slides rather than explore newer technologies</ref>), Soulpepper revealed those contexts as anything but accidental and in turn called into question the universality of the inspirations that should have transcended them. <ref target="#authority">Perhaps counterproductively, Soulpepper’s move towards a canonization of performance—rather than published text—was the very gesture that challenged the notion of a Canadian theatrical canon</ref>
+                            </ref>
+                        </ref>.</p>
+                </div>
+                <div type="section">
+                    <head>Archiving Performance from an Interactive, Materialist-Semiotic Perspective</head>
+                    <p xml:id="p1152">
+                        <ref target="#methodology">
+                            <ref target="genre_performance">
+                                <ref target="#canon_formation">
+                                    <ref target="#theme_or_topic">At the risk of buttressing the ivory tower of canon making that Nestruck has denounced, we would like to suggest that Soulpepper Theatre Company, by positioning its 2011 revivals as re-presentations of canonical performances, implicitly embraced what Knowles has called a <q>materialist semiotics</q> of the Canadian theatrical canon.</ref>
+                                    <ref target="#theory">Knowles borrows from theories of cultural materialism and theatre semiotics to analyze the ways a performance <q>text,</q> which he defines broadly to include script, <q>mise en scene, design, actors’ bodies, movement and gestures, etc.</q>
+                                    </ref>
+                                    <note place="inline">
+                                        <bibl>Knowles, <title level="m">Reading</title> 19</bibl>
+                                    </note>, is a <q>product of a more complex mode of production</q> than its literary counterpart, one <q>that is rooted, as in all cultural production, in specific and determinate social and cultural contexts</q>
+                                    <note place="inline">
+                                        <bibl>Knowles, <title level="m">Reading</title> 10</bibl>
+                                    </note>. <ref target="#theory">He proposes three central <q>poles</q> in his triangular model of performance analysis: <q>performance text,</q>
+                                        <q>conditions of theatrical production,</q> and <q>conditions of reception</q>
+                                        <note place="inline">
+                                            <bibl>Knowles, <title level="m">Reading</title> 19</bibl>
+                                        </note>. These poles, Knowles asserts, work dynamically and relationally to create meaning <note place="inline">
+                                            <bibl>19</bibl>
+                                        </note> and, if we apply them in an analysis of Soulpepper’s 2011 productions of <title level="m">Fronteras Americanas</title> and <title level="m">White Biting Dog</title>, we find evidence of all three in each play’s production history</ref>
+                                </ref>
+                            </ref>.</ref>
+                    </p>
+                    <p xml:id="p1153">
+                        <ref target="#genre_performance">
+                            <ref target="#intellectual_history">Soulpepper’s revivals were based on past performance <q>texts.</q> Both revivals re-enacted past conditions of production in their use of <ref target="#technology">theatre technologies</ref>, actors, and design gestures. Further, in the publicity framing the revivals, the conditions of their original reception were invoked. In drawing attention to these factors, Soulpepper staged what might be characterized as living histories: the productions and the publicity surrounding these performances operated as <ref target="#archive">embodied archives of definitive previous performances</ref>. The company (perhaps unintentionally) drew attention to the shaping influences of the process of production—in this case historical influences—and consequently characterized the production histories of their revivals as among the texts, conditions of production, and reception that defined the 2011 performances</ref>
+                        </ref>.</p>
+                    <p xml:id="p1154">
+                        <ref target="#genre_performance">
+                            <ref target="#canon_formation">
+                                <ref target="#theory">To further complicate theoretical matters, this method of reproducing the Canadian canon—by engaging the written text as well as the material and cultural conditions that surrounded the text’s original theatrical production—is as much anti-historical as it is a historicizing gesture.</ref> As Joseph Roach points out, <q>performance, like memory, operates as both quotation and invention</q>
+                                <note place="inline">
+                                    <bibl>33</bibl>
+                                </note>. Or, in Richard Schechner’s formulation, because performance is repeated, it is <q>always subject to revision</q> and <q>reinvention from the second time to the nth time</q>
+                                <note place="inline">
+                                    <bibl>Schechner 36–37</bibl>
+                                </note>. Performance cannot occur the same way twice, even if a <q>constancy of transmission</q>
+                                <note place="inline">
+                                    <bibl>Schechner 36–37</bibl>
+                                </note> implies a desire for exact reproduction. "?&gt;<ref target="#canon_formation">Hence, Soulpepper’s 2011 revivals cited their originals, but also—and inevitably—foregrounded the differences between the revivals and their originals. In so doing, Soulpepper’s Canadian canon became a process rather than an artifact, a gesture of canonization from the present rather than a presentation of a canonical object</ref>.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1155">
+                        <ref target="canon_formation">We must reiterate that Soulpepper’s re-characterization of the Canadian theatrical canon was not necessarily unique. In fact, the company was one of several to stage revivals in recent seasons <note place="inline">
+                                <bibl>Nestruck, <title level="a">Canadian Revivals</title>
+                                </bibl>
+                            </note>. Moreover, Soulpepper may not subscribe to the notion of re-characterization that we posit here. If, however, we regard re-characterization as a shift in thinking about the Canadian theatrical canon that affirms the processes over the artifacts of canonization, then—with further apologies to Nestruck—<ref target="#intellectual_history">Soulpepper’s revivals may be seen as part of a broader movement in theatre studies to reconsider the nature and potential function of performance histories</ref>. Roach has been a leader in this movement; also key is Diana Taylor’s formulation of the tensions between <ref target="#archive">the archive (the written record)</ref> and the repertoire (<q>embodied practice/knowledge</q>
+                            <note place="inline">
+                                <bibl>19</bibl>
+                            </note>), both of which she sees as recording vestiges of past performances. It is perhaps not irrelevant, in light of <ref target="#politics">Barton and Knowles’s politically inflected accounts of the development</ref>
+                        </ref>
+                        <figure>
+                            <head>Figure 3.1</head>
+                            <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A0597ab68-940e-4764-8244-ce31c72734b9/datastream/JPG-DToC/view" />
+                            <figDesc>Image of one page from Bluemouth Inc.'s archive of <title level="a">What the Thunder Said</title>, with columns for <q>film projection/sound,</q>
+                                <q>text/song,</q> and <q>movement</q> as performed <q>At the Toronto Warehouse</q> (23).</figDesc>
+                        </figure>
+                        <figure>
+                            <head>Figure 3.2</head>
+                            <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A1002fdaf-eb1d-4de2-a177-3b1831154cb6/datastream/JPG-DToC/view" />
+                            <figDesc>Image of one page from Bluemouth Inc.'s archive of <title level="a">What the Thunder Said</title>, with columns for <q>film projection/sound,</q>
+                                <q>text/song,</q> and <q>movement</q> as performed <q>At the AT&amp;T Office Space</q> (24).</figDesc>
+                        </figure>
+                        <ref target="#canon_formation">
+                            <ref target="#politics">of Canada’s theatrical canon, that Taylor’s work is concerned principally with the politics of printed documentation and draws on de Certeau’s analysis of archival knowledge’s <q>immunization against alterity</q>
+                                <note place="inline">
+                                    <bibl>Taylor 19</bibl>
+                                </note> to argue that the <q>degree of legitimization of writing over other epistemic and mnemonic systems</q>
+                                <note place="inline">
+                                    <bibl>Taylor 18</bibl>
+                                </note> is largely the vestige of a <ref target="#history">colonial history</ref>.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1156">
+                        <ref target="#methodology">
+                            <ref target="#genre_performance">
+                                <ref target="#canon_formation">Nonetheless, what a materialist-semiotic approach to canonization gains in richness and democracy it loses in stability, thoroughness, and detail; like all repertoires, the current <q>revival</q> movement remains a changing, incomplete, and approximate—perhaps even generalized—record of the past</ref>
+                            </ref>. <ref target="#archive">Companies currently producing non-textual performance have been particularly conscious of the challenge of archiving their repertoires. <ref target="#spatiality">Bluemouth Inc., for example, whose <title level="m">What the Thunder Said</title> is a site-specific, participatory piece that changes with every venue, has produced a printed archive documenting performances in two different environments. It is presented in columns, one of which shows <q>Stage Directions: 2003 Production (rear unit of a Dufferin Street warehouse between Queen and King Streets, the west end of Toronto),</q> and another <q>Stage Directions: 2006 Production (stripped office space, historic AT&amp;T building, lower Manhattan</q>
+                                    <note place="inline">
+                                        <bibl>Bluemouth Inc. 21</bibl>
+                                    </note>
+                                </ref>. <ref target="#methodology">Because of the limitations of print, overlay is impossible, so Bluemouth Inc. foregrounds sequentially the differences in material conditions that affected their final performance (see Figures 3.1 and 3.2)</ref>.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1157">
+                        <ref target="#technology">
+                            <ref target="#archive">
+                                <ref target="#genre_performance">In addition to stage directions, text, and <q>movement scores</q>
+                                    <note place="inline">
+                                        <bibl>Bluemouth Inc. 24</bibl>
+                                    </note>, Bluemouth Inc.’s non-traditional archival prompt book includes images of the <q>Isadora software operated in performance</q>
+                                    <note place="inline">
+                                        <bibl>Bluemouth Inc. 24</bibl>
+                                    </note>, photographic representations of several actors in performance <note place="inline">
+                                        <bibl>Bluemouth Inc. 28</bibl>
+                                    </note>, and <q>textual commentary</q> from company members who self-reflexively evaluate the performance process (see Figure 3.3).</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1158">
+                        <ref target="#methodology">
+                            <ref target="#archive">The design of Bluemouth Inc.’s script illustrates the methodology of its archival practices</ref>: <q>the text-performance-audience interaction should not be considered in a vacuum, but rather as an event embedded in a complex matrix of social concerns and actions, all of which <q>communicate</q> or contribute to giving the theatre experience its particular <figure>
+                                    <head>Figure 3.3</head>
+                                    <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3Ad8124592-de4e-4e37-965b-75627a920d28/datastream/JPG-DToC/view" />
+                                    <figDesc>Image of one page from Bluemouth Inc's archive of <title level="a">What the Thunder Said</title>, showing a section of Sabrina Reeves's <q>textual commentary</q> (39).</figDesc>
+                                </figure>
+                                <q>meaning</q> to its participants</q>
+                            <note place="inline">
+                                <bibl>Carlson 5</bibl>
+                            </note>
+                        </ref>.<ref target="#methodolgy">
+                            <ref target="#archive">This practice might equally be characterized, in Knowles’s terms, as a cultural materialist approach to the printed archive. <ref target="#genre_performance">Although Bluemouth Inc.’s publication defines the parameters of its text, its conditions of production, and its reception, it also acknowledges the <q>invention</q> (Roach’s term) in each performance by including records of two separate performances, and <ref target="#textual_agency">it engages its readers in an active process of reconstituting the performances it documents. Hence, this archive resists standardization and any implication of repeatability; instead, it offers its readers a set of choices from which to select and make new meanings. In a gesture paralleling its expectations of live audiences, Bluemouth Inc. asks readers to participate in constituting the meaning of its archive. <note xml:id="n155" place="end">
+                                            <ref target="#response_formal">See Keren Zaiontz’s analysis of <title level="m">What the Thunder Said</title>, which discusses the ways Bluemouth Inc. <q>integrates spectators into the performance event</q>
+                                                <bibl>10</bibl>
+                                            </ref>. This remains a salient feature of Bluemouth Inc.’s work: in its more recent production of <title level="m">Dance Marathon</title> (which premiered at Harbourfront Centre’s World Stage in 2008–09), the audience actively competed in the performed <q>marathon.</q>
+                                        </note>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1159">
+                        <ref target="#methodology">
+                            <ref target="#archive">
+                                <ref target="#genre_performance">
+                                    <ref target="#canon_formation">Bluemouth Inc.’s interactive, materialist-semiotic approach to archiving its repertoire is equally current in the present Canadian performance ecology, where there has been an upsurge in archives that resist the legacy of literary canonization. <ref target="#anthologization">Recently, a number of these archives have been collected in Barton’s <title level="m">Canadian Devised Theatre: Reluctant Texts from Exuberant Performance</title>, which he describes as <q>selections of documents that, arguably, first and foremost perform the limitations of print</q>
+                                            <note place="inline">
+                                                <bibl>
+                                                    <title level="a">Evoking Theatre</title> 1</bibl>
+                                            </note>. With the emergence of the rich <q>devised theatre</q> tradition from which Barton’s <q>texts</q> are drawn, the efficacy of the textual <q>canon</q> seems likely to become increasingly obsolete.</ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1160">According to Barton,</p>
+                    <q type="block">
+                        <ref target="#theory">
+                            <ref target="#genre_performance">
+                                <ref target="authority">
+                                    <q>devised theatre</q> is both a broadly defined and notoriously elusive category that incorporates a wide range of different objectives, techniques, and styles. However, in general, the terms identify an approach to theatrical creation and performance for which text is not accorded primary or <q>sacred</q> status—indeed one in which text may be secondary in terms of its authority within the developmental process and secondary in terms of the order in which the performance elements may be selected and incorporated into the final production</ref>. Rather, in devised theatre the elements of visual and aural presentation, as well as the work’s engagement with narrative, equally emerge out of a set of processes that are based on interdisciplinarity, movement, improvisation, physical discipline, and the set of creative instruments understood and experienced as instinct and intuition</ref>
+                        </ref>. <note place="inline">
+                            <bibl>
+                                <title level="a">Evoking Theatre</title> 1</bibl>
+                        </note>
+                    </q>
+                    <p xml:id="p1161">
+                        <ref target="#archive">
+                            <ref target="#genre_performance">Barton affirms the need for archives that do not purport to capture, reproduce, or define the essences of live performances, but instead offer experiences of meaning-making that are in some way analogous to the experiences they document. That analogy, as Bluemouth Inc.’s archive and Barton’s collection illustrate, can be accomplished by means of an active exploration of the parameters (defined as narrowly and as vividly as possible) that generated the original <q>texts</q> and their conditions of production and performance. <ref target="#politics">
+                                    <ref target="#textual_agency">This conception of the archive is politically inflected insofar as the reader or researcher, the director, designer, or performer (in Soulpepper’s case), the audience or critic (in Nestruck’s view) contributes to a creative and cultural process of meaning-making</ref>
+                                </ref>
+                            </ref>
+                        </ref>.</p>
+                </div>
+                <div type="section">
+                    <head>White Biting Dog: Archiving the Repertoire</head>
+                    <p xml:id="p1162">
+                        <ref target="#technology">
+                            <ref target="#archive">As the shortcomings of printed text as a means of archiving a theatrical canon become increasingly evident, the digital Simulated Environment for Theatre offers some useful functions with which to supplement print-based records. <ref target="#methodology">
+                                    <abbr>SET</abbr> approaches the archive from a materialist-semiotic perspective, potentially foregrounding the archival function of the <figure>
+                                        <head>Figure 3.4</head>
+                                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A4edc4c2c-7fe6-42dc-b97e-5d32ed623781/datastream/JPG-DToC/view" />
+                                        <figDesc>An excerpt from the opening sequence of Judith Thompson's <title level="m">White Biting Dog</title>, as performed by Soulpepper Theatre in 2011. <abbr>SET</abbr>'s Reading, Character, and Stage Views are linked by the central Line of Action and can be optionally annotated.</figDesc>
+                                    </figure> repertoire (to return to Taylor’s term) by taking account of the shifting relationships between Knowles’s poles of performance <q>text,</q> conditions of production, and reception. <ref target="#theory">Its interface offers three <q>Views,</q> or distinct areas, linked by means of a central <q>Line of Action</q> analogous to a timeline. The Reading View contains text and annotations in parallel, two-dimensional panels. The Character View provides a list of characters and indicates which characters are on stage—speaking or silent—at any given point in a text or performance. The Stage View shows a scaled, three-dimensional model of a performance environment, populated by abstract avatars that can be moved around in the space, and optionally annotated with text or images (see Figure 3.4).</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1163">
+                        <ref target="#technology">
+                            <ref target="#theory">Changes to any one view are automatically reflected in the other views, and both text and staging can be played back simultaneously in real time. Additionally, <abbr>SET</abbr> permits users to navigate through the three-dimensional space of the Stage View and adopt the perspective of any character avatar or audience member at any point in space, as an analogue for the various perspectives experienced by performers and audiences during live theatrical events (see Figures 3.5a, 3.5b, and 3.5c).</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1164">
+                        <ref target="#technology">
+                            <ref target="#textual_agency">
+                                <abbr>SET</abbr> also emphasizes the agency of the user in constituting the meaning of a performance, since all of <abbr>SET’s</abbr> functions are user controlled (though the interface can be used in playback mode to view what others have created). Users can input and edit texts, create and upload three-dimensional models of performance environments, move character</ref>
+                        </ref>
+                        <figure>
+                            <head>Figure 3.5a</head>
+                            <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A6b683d81-d1f0-4ada-8a77-7c0666bbd5c2/datastream/JPG-DToC/view" />
+                            <figDesc>Excerpt from the opening sequence of Judith Thompson's <title level="m">White Biting Dog</title>, as performed by Soulpepper Theatre in 2011. <abbr>SET</abbr> allows users to adopt the perspectives of audience and character avatars.</figDesc>
+                        </figure>
+                        <figure>
+                            <head>Figure 3.5b</head>
+                            <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3Aa2a5f654-5584-4e6d-8ddd-d9ef37ba434e/datastream/JPG-DToC/view" />
+                            <figDesc>Excerpt from the opening sequence of Judith Thompson's <title level="m">White Biting Dog</title>, as performed by Soulpepper Theatre in 2011. <abbr>SET</abbr> allows users to adopt the perspectives of audience and character avatars.</figDesc>
+                        </figure>
+                        <figure>
+                            <head>Figure 3.5c</head>
+                            <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3Aedd92793-a17e-4bef-9877-753e41bbfe4a/datastream/JPG-DToC/view" />
+                            <figDesc>Excerpt from the opening sequence of Judith Thompson's <title level="m">White Biting Dog</title>, as performed by Soulpepper Theatre in 2011. <abbr>SET</abbr> allows users to adopt the perspectives of audience and character avatars.</figDesc>
+                        </figure>
+                        <ref target="#technology">avatars around in the models, annotate all elements of the environment, link text and annotations to stage action, and control the pace and perspective of performance in playback. <ref target="#archive">Although its two principal interpretive modes—data creation and data playback—are interactive, <abbr>SET</abbr> also can produce more stable artifacts akin to written and material archives, since data can be exported in publication mode as read-only files or as playback movies. <ref target="#intellectual_history">Lastly, because it is a virtual environment, <abbr>SET</abbr> can offer hypothesized and hybridized performance histories, allowing users not only to archive aspects of a performance (real or imagined), but also to visualize the genealogies of a performance history</ref>.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1165">
+                        <ref target="#theory">
+                            <ref target="intellectual_history">
+                                <ref target="#canon_formation">Our team already has theorized the potential for these functionalities to enhance approaches to theatre history and historiography <note place="inline">
+                                        <bibl>Roberts-Smith et al., <title level="a">Visualizing Theatre Historiography</title>
+                                        </bibl>
+                                    </note>
+                                </ref>. <ref target="#methodology">
+                                    <ref target="#genre_performance">In practising this research methodology—by inputting and analyzing the materials from the production histories related to the canonical texts performed at Soulpepper—we also came to realize that <ref target="#technology">
+                                            <abbr>SET</abbr> has the further potential to assemble a corpus of performances of individual plays that make up the canon</ref>. <abbr>SET</abbr> can house not only a play script, but also the various visualizations of that play script’s theatrical history, the archival documents that validate that history, and the ephemeral memories that reshape theatrical knowledge. The analysis of electronic corpora, what Douglas Biber describes as <q>large systematic collections of spoken and/or written text stored on a computer,</q> has been used for decades to consider the <q>lexical and grammatical variations</q>
+                                        <note place="inline">
+                                            <bibl>20</bibl>
+                                        </note> of language use. Applying a similar methodology to a visualized performance corpus in <abbr>SET</abbr> might help articulate the <q>proof</q> that accounts for the place of individual plays or groups of plays in the <q>substantial body of proven plays</q>
+                                        <note place="inline">
+                                            <bibl>Salter 82</bibl>
+                                        </note> constituting the Canadian canon.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Visualizing the Performance <q>Text</q>
+                    </head>
+                    <p xml:id="p1166">
+                        <ref target="#genre_performance">
+                            <ref target="#archive">
+                                <ref target="#technology">
+                                    <ref target="#methodology">Perhaps the most obvious advantage to using the <abbr>SET</abbr> system as an archive is that its Stage View foregrounds the ways in which a theatrical <q>text</q> is constituted mutually by a variety of textual and non-textual theatrical elements. <ref target="#intellectual_history">
+                                            <ref target="#editions">For example, neither the 1984 nor the 2011 production of <title level="m">White Biting Dog</title> performed its text as it was first published in 1985 or in subsequent editions. All three versions of the play (1984, 1985, and 2011) begin with accounts of Cape’s attempted suicide. <ref target="#textual_agency">In the 1984 production, however, Cape reported his suicide attempt in a direct address to the audience that was significantly longer than the first published version of 1985; and, in 2011, the sequence was cut and altered so that Cape turned to the audience later and the exchange between Cape and the dog was enacted instead of reported. This alteration signalled that the 2011 production defined reality (or unreality, as Palk and Poddubiuk might put it) differently from the 1984 production and from the 1985 edition. In 1984, when eye contact and direct communication between character and audience was established immediately and the conversation with the dog was reported, the audience might have believed that the play-world operated according to the same rules as ordinary reality, and that Cape had imagined the dog; the 1985 text implied this same effect in fewer words. In 2011, however, Cape did not begin in direct address, and the dog spoke for itself. Immediately, the rules of the play-world (where dogs could speak) were significantly different from the rules of ordinary reality. But, when Cape turned to address the audience directly and viewers were suddenly defined as occupants of his unreal world, the ordinary reality the audience thought it occupied became as susceptible to redefinition as the play-world. If Cape could see the audience and viewers could see him and hear the dog, then either their sanity was as much in question as Cape’s or all reality—fictional and non-fictional—was radically perceptual. This significant development in the performance <q>text,</q> which relied on contrasting manipulations of space between productions—at times within a single production—is entirely occluded by the print transmission of the script. <ref target="#methodology">
+                                                        <ref target="#technology">In contrast, since materialist-semiotic visualization tools permit users to organize space and time as well as the written word, <abbr>SET</abbr> can illustrate the ways in which the 1984 and 2011 productions constructed the materialist-semiotic performance <q>text</q> differently to define on- and off-stage realities (see figures 3.6, 3.7a, and 3.7b)</ref>
+                                                    </ref>. <note place="inline">
+                                                        <bibl>See also our comments on this sequence in Roberts-Smith et al., <title level="a">Visualizing Theatre Historiography</title>.</bibl>
+                                                    </note>
+                                                </ref>
+                                            </ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <figure>
+                        <head>Figure 3.6</head>
+                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A639cc6b9-f12d-401b-b1e6-b0b7286f74dc/datastream/JPG-DToC/view" />
+                        <figDesc>Cape reporting his conversation with the dog to the audience in the 1984 Tarragon Theatre production of <title level="m">White Biting Dog</title>. In Sue LePage's set, the Bloor Street Viaduct is suggested by girder-like structures at ceiling level.</figDesc>
+                    </figure>
+                    <figure>
+                        <head>Figure 3.7A</head>
+                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3Ac812a50c-43a1-40b5-8b77-e63616461948/datastream/JPG-DToC/view" />
+                        <figDesc>The dog speaking in the 2011 Soulpepper Theatre Production of <title level="m">White Biting Dog</title>. In Christina Poddubiuk's set, the Bloor Street Viaduct is suggested by posts that operate as bridge girders in this sequence and later as the corners of Cape's apartment.</figDesc>
+                    </figure>
+                    <figure>
+                        <head>Figure 3.7B</head>
+                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A49294bf2-1333-40b3-94dd-61369ddbad53/datastream/JPG-DToC/view" />
+                        <figDesc>Cape turning to the audience at <q>the dog spoke!</q> in the 2011 Soulpepper Theatre production of <title level="m">White Biting Dog</title>.</figDesc>
+                    </figure>
+                    <figure>
+                        <head>Figure 3.8</head>
+                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A262d4f5f-333c-44f8-9822-4e1f4d386456/datastream/JPG-DToC/view" />
+                        <figDesc>Sue LePage's set for the 1984 Tarragon Theatre Production of <title level="m">White Biting Dog</title> included a ramp through the audience connecting the stage to the lobby.</figDesc>
+                    </figure>
+                    <p xml:id="p1167">
+                        <ref target="#technology">
+                            <ref target="#archive">
+                                <ref target="#methodology">
+                                    <abbr>SET</abbr>’s attempts to visualize textual multiplicities extends and amplifies similar materialist-semiotic gestures made in print-based archives such as Bluemouth Inc.’s archival prompt book; here, <abbr>SET</abbr> visualizes <q>textual</q> conditions of performance in a vivid dimensional image of the media in which they were first experienced (space and time) that is not accessible in print.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Visualizing Conditions of Production</head>
+                    <p xml:id="p1168">
+                        <ref target="writing_climate">
+                            <ref target="#politics">As Jonathan Dollimore and Alan Sinfield put it, <q>texts [are] inseparable from the conditions of their production and reception in history [and are] involved, necessarily, in the making of cultural meanings which are always, finally, political meanings</q>
+                                <note place="inline">
+                                    <bibl>qtd. in Knowles, <title level="m">Reading</title> 13</bibl>
+                                </note>
+                            </ref>
+                        </ref>. <ref target="#technology">The three-dimensional models we created for our visualizations of the 1984 and 2011 productions of <title level="m">White Biting Dog</title> not only illustrated significant differences in set design, which Knowles would classify as an element of the extended theatrical <q>text,</q> they also drew our attention to some of the conditions of production Knowles emphasizes</ref>. In particular, the <q>stage and backstage architectures</q>
+                        <note place="inline">
+                            <bibl>Knowles, <title level="m">Reading</title> 19</bibl>
+                        </note> of the Tarragon Theatre and the Young Centre for the Performing Arts (the home of the Soulpepper Theatre Company) had political implications <figure>
+                            <head>Figure 3.9</head>
+                            <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3Acf98541b-89df-4e54-8192-d5df08f66978/datastream/JPG-DToC/view" />
+                            <figDesc>View from the stage of the Michael Young Theatre, where there was no architectural possibility of connecting audience to lobby in the 2011 Soulpepper Theatre production of <title level="m">White Biting Dog</title>.</figDesc>
+                        </figure> we had not previously considered. <ref target="#intellectual_history">In the 1984 set, a ramp or walkway (representing the sidewalk outside Cape’s home and used for stage entrances and exits) extended out from the stage, through the audience, and into the lobby of the Tarragon Theatre (see Figure 3.8).</ref>
+                    </p>
+                    <p xml:id="p1169">
+                        <ref target="#politics">
+                            <ref target="#methodology">This was a political design gesture, which implicated the audience in <ref target="#characterization">the psychological deterioration of the play’s characters</ref> (see <note place="inline">
+                                    <bibl>Nunn 28</bibl>
+                                </note>) in a manner arguably consistent with Thompson’s work in general. In contrast, the 2011 Soulpepper production routed actors around the audience seated in the Young Centre’s Michael Young Theatre <note place="inline">
+                                    <bibl>Roberts-Smith et al., <title level="a">Visualizing Theatre Historiography</title>
+                                    </bibl>
+                                </note>. In fact, it was not feasible to build a ramp from the Michael Young Theatre stage through the audience to the Young Centre lobby (see Figure 3.9).</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1170">
+                        <ref target="#theory">
+                            <ref target="#genre_performance">
+                                <ref target="#politics">Before we visualized the sets, we had not interpreted the architecture of either Tarragon Theatre or the Michael Young Theatre as politically inflected; in practice, however, their respective layouts limited the range of meanings that could be articulated theatrically.<note xml:id="n166" place="end">For more on the way in which <abbr>SET</abbr> can instigate the exploration and comparison of performance environments, see Roberts-Smith et al., <title level="a">Visualizing Theatre Historiography.</title>
+                                    </note>
+                                    <ref target="#response_formal">Of course, we are not suggesting that Soulpepper’s production of White Biting Dog was a critical failure due solely to the theatre’s architectural differences from the original venue of Tarragon Theatre’s Mainspace. <ref target="#canon_formation">Rather, what a comparative visualization illustrates is that one (of many) often-overlooked circumstances of production inhibited the replication of a previous canonical performance</ref>. As stated earlier, Soulpepper posited a kind of <q>cultural modelling</q> in relationship to canon formation and envisaged a <q>replication</q> of past performance conditions of Thompson’s play</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                        <figure>
+                            <head>Figure 3.10</head>
+                            <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A02b16023-62d8-443d-b7d3-22a492fd224b/datastream/JPG-DToC/view" />
+                            <figDesc>Section of the <abbr>SET</abbr> interface showing <q>the dog spoke!</q> annotated with a photographic image of Mike Ross as Cape and Michaela Washburn as Pony in the 2011 Soulpepper production of <title level="m">White Biting Dog</title>.</figDesc>
+                        </figure>
+                        <note place="inline">
+                            <bibl>Sela-Sheffy 150</bibl>
+                        </note>. <ref target="#technology">
+                            <ref target="#genre_performance">In <abbr>SET</abbr>’s comparative visualization, such a transhistorical notion is shown to be fallacious. In fact, <abbr>SET</abbr> foregrounds the material factors that make such an attempt impossible. <abbr>SET</abbr> shows the way in which performance, as Knowles formulates, ultimately is always susceptible to change (and varied critical reception) depending on the conditions of production (paramount, in this case, the contingencies of space).</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1171">
+                        <ref target="#theory">
+                            <ref target="#genre_performance">
+                                <ref target="#technology">While <abbr>SET</abbr> is useful in serendipitously illustrating the changeability of theatrical production, we nonetheless are aware that <abbr>SET</abbr> visualizes some of Knowles’s conditions of production differently from others, and in so doing may imply a hierarchy of importance among those conditions. <ref target="#spatiality">Whereas spaces are simulated in <abbr>SET</abbr>’s three-dimensional stage view, other conditions—<q>actor, director, designer training and traditions, rehearsal process, working conditions</q>
+                                        <note place="inline">
+                                            <bibl>Knowles, <title level="m">Reading</title> 19</bibl>
+                                        </note>—can only be visualized as two-dimensional annotations in <abbr>SET</abbr>’s interface</ref>. <ref target="#archive">Some of these are paratheatrical activities, either physically or chronologically distant from any given performance of a play—designer training or the rehearsal process, for example—and, as such, they exceed <abbr>SET</abbr>’s central mandate to archive the experience of live performance and hence are relegated appropriately to two-dimensionality</ref>. <ref target="#methodology">Others—actors’ bodies in particular—are central to a materialist-semiotic understanding of performance experience; we might even contest Knowles’s classification of the actor’s body as a condition of production rather than an element of the performance <q>text.</q> Up to this stage of project development, our approach to avatar design has been to deliberately avoid representing the individual</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                        <figure>
+                            <head>Figure 3.11</head>
+                            <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A52a425e2-ffa2-4be4-8852-7527523fd273/datastream/JPG-DToC/view" />
+                            <figDesc>A visualization of the 2011 Soulpepper production of <title level="m">White Biting Dog</title> annotated with publicity materials hyperlinked to original online sources.</figDesc>
+                        </figure>
+                        <ref target="#methodology">identities of actors <note place="inline">
+                                <bibl>Ruecker et al.</bibl>
+                            </note>. <ref target="#characterization">Instead, we offer highly abstract representation of characters that are distinguished from one another only by colour, size, and human or non-human form, and optionally annotated with supplemental photographs of actors playing characters</ref> (see Figure 3.10; <note place="inline">
+                                <bibl>Roberts-Smith et al., <title level="a">Visualizing Theatre Historiography</title>
+                                </bibl>
+                            </note>).</ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Visualizing Conditions of Reception</head>
+                    <p xml:id="p1172">
+                        <ref target="#technology">
+                            <abbr>SET</abbr>’s annotation function also has been useful in visualizing Knowles’s third <q>pole</q> of theatrical analysis, conditions of reception, which include <q>publicity/review discourse, front of house, auditorium, and audience amenities, neighborhood, transportation, ticket prices, historical/cultural moment of reception, etc.</q>
+                            <note place="inline">
+                                <bibl>Knowles, <title level="m">Reading</title> 19</bibl>
+                            </note>. Above, we have discussed the impact of publicity and reviews on the reception of Soulpepper’s productions of <title level="m">Fronteras Americanas</title> and <title level="m">White Biting Dog</title>; records of all the sources we cite could be provided as annotations to simulations of the performances, with annotations referring to <ref target="#non-book_media">online sources hyperlinked to the originals</ref> (see Figure 3.11).</ref>
+                    </p>
+                    <p xml:id="p1173">
+                        <ref target="#technology">
+                            <ref target="#politics">
+                                <ref target="#genre_performance">To deconstruct and illustrate the politics of those reviews, <abbr>SET</abbr> can visualize the difference Cushman notes between the cultural historical moments of the 1984 and the 2011 productions of <title level="m">White Biting Dog</title>—specifically, the addition of the suicide barrier to the Bloor Street Viaduct</ref>. <ref target="#history">Until the suicide barrier was added in 2003, the Viaduct had remained</ref>
+                            </ref>
+                        </ref>
+                        <figure>
+                            <head>Figure 3.12A</head>
+                            <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3Afbd3713e-6cca-453a-8e37-110cc9de99b1/datastream/JPG-DToC/view" />
+                            <figDesc>Side view of the Bloor Street Viaduct in 1920. <hi rend="italic">[City of Toronto Archives, fonds 1244, item 2473]</hi>
+                            </figDesc>
+                        </figure>
+                        <figure>
+                            <head>Figure 3.12B</head>
+                            <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3Aa493597a-da47-466f-a64a-4c74dc82ed2f/datastream/JPG-DToC/view" />
+                            <figDesc>
+                                <hi rend="italic">Side view of the Bloor Street Viaduct in 1984. [City of Toronto Archives, fonds 268, item 11]</hi>
+                            </figDesc>
+                        </figure>
+                        <figure>
+                            <head>Figure 3.12C</head>
+                            <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A3763f0f0-3c03-485c-9fc2-918b55a3a9be/datastream/JPG-DToC/view" />
+                            <figDesc>Bloor Street Viaduct after the 2003 addition of a suicide barrier designed by Dereck Revington. This architectural project was titled <title level="a">The Luminous Veil</title>. <hi rend="italic">[Photo by Dereck Revington]</hi>
+                            </figDesc>
+                        </figure>
+                        <ref target="#history">visually consistent for the better part of a century (note especially the crisscross pattern in its girders; see Figures 3.12a, 3.12b, and 3.12c)</ref>.<note xml:id="n170" place="end">
+                            <ref target="#intellectual_history">The Bloor Street Viaduct also has a significant Canadian literary history, which unfortunately lies beyond the scope of this chapter. <ref target="#intertextuality">See, for example, Michael Ondaatje’s novel <title level="m">In the Skin of a Lion</title>
+                                </ref>.</ref>
+                        </note>
+                    </p>
+                    <p xml:id="p1174">
+                        <ref target="#response_informal">
+                            <ref target="#genre_performance">For audience members familiar with the cityscape of Toronto, the adverse effect of the suicide barrier upon the plausibility of the play’s action may have been as salient as it was for Cushman. Similarly, members of the 2011 audience who, like Palk and her team, had seen the 1984 production of <title level="m">White Biting Dog</title> may, like Cushman, have been especially conscious of the way in which the viaduct’s new architecture affected the 2011 production’s ability to construct a relationship between the stage</ref>
+                        </ref>
+                        <figure>
+                            <head>Figure 3.13A</head>
+                            <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A08070e08-52f0-4ee7-85ff-f8a49abdcadf/datastream/JPG-DToC/view" />
+                            <figDesc>A visualization of the cultural historical moments of a 2011 audience member who remembers the Bloor Street Viaduct of 1984.</figDesc>
+                        </figure>
+                        <figure>
+                            <head>Figure 3.13B</head>
+                            <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3Af78a3c4c-7417-4533-9b03-49e4ea83029c/datastream/JPG-DToC/view" />
+                            <figDesc>A visualization of the cultural historical moments of a 2011 audience member who never visited the Bloor Street Viaduct of 1984.</figDesc>
+                        </figure>
+                        <ref target="#response_informal">
+                            <ref target="#genre_performance">world and the world outside the theatre. <ref target="#history">As Cushman suggests, the reality of the suicide barrier effectively fictionalized the opening event of the play, and consequently historicized the play as an artifact from a pre-barrier era. Of course, not all audience members would have responded as Cushman did, especially those who were not familiar with the history of the bridge</ref>. <ref target="#technology">To distinguish between individual audience members’ experiences and memories, <abbr>SET</abbr> also allows users to collapse annotations when they are not relevant (see Figures 3.13a and 3.13b)</ref>.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1175">
+                        <ref target="#technology">
+                            <ref target="#methodology">
+                                <ref target="#intellectual_history">
+                                    <ref target="#genre_performance">
+                                        <ref target="#textual_agency">The user’s ability to include annotations and construct visualizations moves the scope and range of <abbr>SET</abbr>’s documentation of production histories beyond the theatrical context itself; it offers the ability to account for how specific historical differences (produced in this case by age, geography, and cultural experience outside the theatrical space) can affect and indeed constitute an audience member’s relationship to a particular production</ref>. <ref target="#canon_formation">This approach to documenting reception is yet another complex functionality of <abbr>SET</abbr>; it implicitly asks the user to reject the bias of trans­historicism, which, as Knowles asserts, typically characterizes assessments of a play’s canonicity. <abbr>SET</abbr> offers a function whereby users are encouraged to account for the historical context within which a play is produced and received, the cultural markers it refers to, and the ways in which distinct (even unique) sets of memories and experiences produce a play’s multiple meanings in performance. This function supplements and redefines the relationship to canonical text and canonical performance (in Soulpepper’s formulation) by foregrounding the relationship to a corpus of knowledge and experience that exists within and outside of the theatrical space, both simultaneous with and asynchronous to any individual performance experience</ref>.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Multiplicity, Imagination, and Interactivity</head>
+                    <p xml:id="p1176">
+                        <ref target="#genre_performance">
+                            <ref target="#intellectual_history">In addition to potentially contrasting memories of the pre-1984 Bloor Street Viaduct, viewers of the 2011 production of <title rend="italic">White Biting Dog</title> may also have had contrasting memories of the 1984 Tarragon production of Thompson’s play. One way to illustrate the influence of such memories upon the reception of the 2011 Soulpepper production might be to create a hybrid model of the 2011 and 1984 sets illustrating Poddubiuk’s response to LePage’s design gesture (see Figure 3.14). <ref target="#technology">We created such a model when first testing <abbr>SET</abbr>’s functionality</ref>.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1177">
+                        <ref target="#theory">
+                            <ref target="#genre_performance">
+                                <ref target="#spatiality">While this image does visualize conditions of reception, it is also, as we argue above, an imaginary space that allows users to ask speculative questions about a hypothetical performance that was not actually experienced</ref>
+                            </ref>
+                        </ref>. Indeed, in its <q>ability to alter and experiment with attested <figure>
+                                <head>Figure 3.14</head>
+                                <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3Aba7a67cc-ee57-486e-bd3d-f1ee5b6ed73f/datastream/JPG-DToC/view" />
+                                <figDesc>Section of the <abbr>SET</abbr> interface showing bridge girders and ramp from Sue LePage's 1984 design for <title level="m">White Biting Dog</title> superimposed on Christina Poddubiuk's 2011 design.</figDesc>
+                            </figure>
+                            <ref target="#intellectual_history">historical performance environments…<abbr>SET</abbr> allows us to ask, in a relatively quick and inexpensive way, <q>what if?</q>
+                            </ref>
+                        </q>
+                        <note place="inline">
+                            <bibl>Roberts-Smith et al., <title level="a">Visualizing Theatre Historiography</title>
+                            </bibl>
+                        </note>. <ref target="#methodology">
+                            <ref target="#archive">
+                                <ref target="#genre_performance">To augment Knowles’s rubric, we might call this kind of visualization an immaterialist semiotic, one that draws attention to the instability of performative meanings—not just under different performance conditions, as does Bluemouth Inc.’s archive, and not just under different conditions of reception, as does our comparison in Figures 3.13a and 3.13b, but also according to the creative agency of the archivist</ref>
+                            </ref>. <ref target="#theme_or_topic">This chapter argues for the impact of <title level="a">White Biting Dog</title> through the lens of <abbr>SET</abbr>’s publication mode—in particular its capacity to capture stable images of different states of our visualized archive of the 2011 production—and by exporting those images for examination outside of <abbr>SET</abbr>
+                            </ref>. <ref target="#textual_agency">
+                                <ref target="#methodology">But users with access to a copy of <abbr>SET</abbr> could add or remove representations of any element from any of Knowles’s three poles of materialist-semiotic analysis at will, thereby changing the archive to reflect differences in individual audience members’ recollections, interpretations, and applications of the performance after the event</ref>. Since any given visualization of a performance is only optionally recorded and exported as a <q>publication</q> in the <abbr>SET</abbr> system, the approach to archiving employed here is, to use Taylor’s term again (with some qualification), reportorial. Whereas Taylor expresses serious concern about the lack of embodiment in digital environments and their consequent inability to participate in epistemologies of performance <note place="inline">
+                                    <bibl>Taylor 16</bibl>
+                                </note>, <abbr>SET</abbr> offers users not the embodied experience of audience or performer, but the embodied experience of the archivist. <ref target="#methodology">Its users are required to create and interact with records of performance, and thereby are involved in the process of performing the archive. In <abbr>SET</abbr>, the archive is primarily practised rather than written or read; its users are inescapably both the subjects and the objects of the histories they generate. <ref target="#politics">
+                                        <ref target="#canon_formation">In this way, <abbr>SET</abbr> perhaps resists the politics of colonialism implicit in the typographical historical canon that is fixed and instead proposes an archive that can visualize the dynamism of transmission, revision, and alteration</ref>. There is, however, a cost to the application of <abbr>SET</abbr>: an acceptance of the particularities of the digital environment that, along with its vast ability to collect artifacts ranging from the historical to the speculative, also demands that representations be schematic and reduced to the scale of display</ref>.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Archiving the Archive</head>
+                    <p xml:id="p1178">
+                        <ref target="#critique_of_canon">
+                            <ref target="#archive">
+                                <ref target="#technology">
+                                    <ref target="#genre_performance">Despite our emphasis on the repertoire over the written archive, probably the most vivid contrast between <abbr>SET</abbr> and other digital performance simulation systems (such as <ref target="non-book_media">Virtual Vaudeville, Ortelia, or Theatron 3</ref>) is the presence of theatrical text as a constant feature of its interface <note place="inline">
+                                            <bibl>Roberts-Smith et al., <title level="a">Visualizing Theatre Historiography</title>
+                                            </bibl>
+                                        </note>. <ref target="#theory">
+                                            <ref target="#editions">The emphasis that <abbr>SET</abbr>’s Reading View inevitably places upon an analogue for printed editions arguably perpetuates the received ideas about the literary nature of the Canadian canon that scholars such as Knowles, Barton, and Salter have aimed to complicate. Like Bluemouth Inc.’s archive, or Barton’s collection of performance texts, <abbr>SET</abbr> is as invested in the stability of its records as it is in enabling a range of interpretive interactions with those same records</ref>. <ref target="#methodology">Because <abbr>SET</abbr> is a repository rather than a collection, however, it can also offer a meta-archival layer of visualization, potentially characterizing the archive itself as susceptible to a materialist-semiotic analysis. On the most literal level, <abbr>SET</abbr> can provide transparent documentation of the provenance of the records it synthesizes in the form of annotations (see, for example, our bibliographic citations for photographs in Figures 3.10 and 3.12a–c).</ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref> It also permits analyses of records, such <figure>
+                            <head>Figure 3.15</head>
+                            <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A6c02f8c0-d1a3-4729-88a0-4259b66278e9/datastream/JPG-DToC/view" />
+                            <figDesc>Our model of Sue LePage's set for the 1984 Tarragon Theatre production of <title level="m">White Biting Dog</title>, annotated with a section of LePage's technical drawings showing her designs for the bridge girders and an image of the bridge they represent.</figDesc>
+                        </figure>
+                        <figure>
+                            <head>Figure 3.16</head>
+                            <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3Af6053f23-90b3-493c-af3c-618abd33bb10/datastream/JPG-DToC/view" />
+                            <figDesc>The invisible off-stage dog speaking to Cape in 2011. The text cut from the 1984 version of <title level="m">White Biting Dog</title> is shown in an annotation in Text View.</figDesc>
+                        </figure> as our models of the sets for <title level="m">White Biting Dog</title>, to be annotated with the sources on which they are based (see Figure 3.15).</p>
+                    <p xml:id="p1179">
+                        <ref target="#technology">
+                            <ref target="#archive">
+                                <ref target="#genre_performance">
+                                    <abbr>SET</abbr> can also visualize the relationships between complementary or even contrasting records in an archive, showing, for example, changes made by the 2011 production to the text recorded in the 1984 prompt book of <title level="m">White Biting Dog</title> (see Figure 3.16).</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1180">
+                        <ref target="#technology">
+                            <ref target="#response_recent">
+                                <ref target="#genre_performance">
+                                    <ref target="#response_formal">
+                                        <ref target="#archive">Most interestingly for our purposes, however, the visual separation of the Reading View and the Stage View in <abbr>SET</abbr>’s interface implies the same disparity between the typographical and performance traditions, or between the archive and the repertoire, in Canadian theatre that recent scholarship and criticism have noted</ref>
+                                    </ref>. That separation highlights the written word as susceptible, like other moments captured in the archival records of production, to repertorial change over time. Although <abbr>SET</abbr> does not yet offer a means of visualizing cause and effect, future iterations might do so and, if they do, we might use <abbr>SET</abbr> to visualize the intervention that Soulpepper’s productions have made in the print-based Canadian theatrical canon <note place="inline">
+                                        <bibl>Roberts-Smith et al., <title level="a">Visualizing Theatre Historiography</title>
+                                        </bibl>
+                                    </note>. It might even be possible in <abbr>SET</abbr>, by manipulating emphases in the Reading and Text Views, to show the repertoire influencing the archive, and vice versa.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>
+                        <hi rend="italic">Conclusion: Archiving a Corpus Rather Than a Canon?</hi>
+                    </head>
+                    <p xml:id="p1181">
+                        <ref target="#critique_of_canon">
+                            <ref target="#intellectual_history">
+                                <ref target="#theory">As theatre historian Alan Filewod proposes, <q>the thesis that theatrical governance and canonicity are indexical of nationhood has collapsed to the point where it has widely been critiqued as an instrument of <ref target="#violence">historical racism</ref> and <ref target="#class_issue">class hegemony</ref>
+                                    </q>
+                                    <note place="inline">
+                                        <bibl>Filewod, <title level="a">Named in Passing</title> 118</bibl>
+                                    </note>. Indeed, to talk of the Canadian canon today is to discuss a <q>transhistorical textual community</q> that many might assert is necessarily obsolete in the wake of our acknowledgement that <q>texts do not have a single, authoritative meaning, however much the established spokesmen for the canon at any given moment may claim that is the case</q>
+                                    <note place="inline">
+                                        <bibl>Alter 5</bibl>
+                                    </note>. <ref target="#response_formal">
+                                        <ref target="#genre_performance">Despite these theoretical advances, the critical responses to Soulpepper’s productions of both <title level="m">Fronteras Americanas</title> and <title level="m">White Biting Dog</title> confirm that canonicity—an idea with lingering resonance—arguably could be used to discredit the worth of historical performance traditions when they no longer speak to current arbiters of taste</ref>
+                                    </ref>. <ref target="#archive">
+                                        <ref target="#technology">
+                                            <ref target="#textual_agency">Rather than deny the value of printed texts that undoubtedly have affected the collective memory of theatregoers, we propose that <abbr>SET</abbr> can assemble various performance texts, visualize the ways they constitute meaning, and potentially analyze those materials as a corpus</ref>. We hope this kind of archive might facilitate an understanding of Canadian theatre as more than a <q>substantial body of proven plays,</q> as Salter has suggested was characteristic of Massey’s theatrical federalism <note place="inline">
+                                                <bibl>82</bibl>
+                                            </note>. Rather, this corpus might visualize the synergies across a play’s production and reception histories as a vehicle for witnessing and experiencing the operations of nationhood that are, to quote Filewod again, <q>enacted in the imagined theatre</q>
+                                            <note place="inline">
+                                                <bibl>
+                                                    <title level="m">Performing Canada</title> 1</bibl>
+                                            </note>
+                                        </ref>
+                                    </ref>.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Authors’ note</head>
+                    <p xml:id="p1183" rend="authors-note">
+                        <ref target="#collaboration">
+                            <ref target="#economics">This research was funded by an Image, Text, Sound, and Technology Grant and a Standard Research Grant from the Social Sciences and Humanities Research Council of Canada</ref>. We are grateful to Eleanor Antoncic and Sue LePage (Tarragon Theatre); Drew Baker (Theatron 3); Toby Malone, Christina Poddubiuk, and Kelly Read (Soulpepper Theatre Company); Dereck Revington (University of Waterloo); the City of Toronto Archives; and the L.W. Conolly Theatre Archives (University of Guelph)</ref>.</p>
+                </div>
+                <div type="section">
+                    <head>Works Cited</head>
+                    <bibl>Al-Solaylee, Kamal. <title level="a">Dead White Guys: European Classics Still Dominate Canadian Theatres</title>. <title level="j">Walrus</title> September 2011. <ref target="http://walrusmagazine.com/articles/2011.09-theatre-dead-white-guys">http://walrusmagazine.com/articles/2011.09-theatre-dead-white-guys</ref>
+                    </bibl>
+                    <bibl>Alter, Robert. <title level="m">Canon and Creativity: Modern Writing and the Authority of Scripture</title>. New Haven, CT: Yale University Press, 2000.</bibl>
+                    <bibl>Ardal, Maya, dir. <title level="m">Graphic poster for production of <title level="m">White Biting Dog</title>, by Judith Thompson</title>. Grand Theatre, London, ON, 1990. L.W. Conolly Theatre Archives, University of Guelph Library, Guelph, ON.</bibl>
+                    <bibl>Barton, Bruce. <title level="a">Creating Spaces</title>. <title level="m">Developing Nation: New Play Creation in English-Speaking Canada</title>. Ed. Barton. Toronto: Playwrights Canada Press, 2009. v–xxii.</bibl>
+                    <bibl>. <title level="a">Evoking Theatre: From Reluctance to Exuberance</title>. <title level="m">Canadian Devised Theatre: Reluctant Texts from Exuberant Performance</title>. Ed. Bruce Barton, Natalie Corbett, Birgit Schreyer Duarte, and Keren Zaiontz. Ottawa: Borealis Press, 2008. 1–5.</bibl>
+                    <bibl>Benson, Eugene, and L.W. Conolly. <title level="m">English-Canadian Theatre</title>. Toronto: Oxford University Press, 1987.</bibl>
+                    <bibl>Biber, Douglas. <title level="a">Corpus Linguistics and the Study of Literature: Back to the Future?</title>
+                        <title level="j">Scientific Study of Literature</title> 1.1 (2011): 15–23.</bibl>
+                    <bibl>
+                        <title level="m">[Bloor Street Viaduct in 1920]</title>. City of Toronto Archives, fonds 1244, item 2473.</bibl>
+                    <bibl>
+                        <title level="m">[Bloor Street Viaduct in 1984, Side View]</title>. City of Toronto Archives, fonds 268, file 7, item 11.</bibl>
+                    <bibl>Bluemouth Inc. <title level="a">What the Thunder Said</title>. <title level="m">Canadian Devised Theatre: Reluctant Texts from Exuberant Performance</title>. Ed. Bruce Barton, Natalie Corbett, Birgit Schreyer Duarte, and Keren Zaiontz. Ottawa: Borealis Press, 2008. 18–57.</bibl>
+                    <bibl>Canadian Actors’ Equity Association (<abbr>CAEA</abbr>). <title level="a">Canadian Theatre Agreement for 2009–2012</title>. <title level="m">Equity Online</title>. <ref target="http://www.caea.com">http://www.caea.com</ref>
+                    </bibl>
+                    <bibl>
+                        <title level="j">Canadian Theatre Review. Website.</title> University of Toronto Press Journals, 2011. <ref target="http://www.utpjournals.com/Canadian-Theatre-Review.html">http://www.utpjournals.com/Canadian-Theatre-Review.html</ref>
+                    </bibl>
+                    <bibl>Carlson, Marvin. <title level="m">Places of Performance: The Semiotics of Theatre Architecture</title>. New York: Cornell University Press, 1993.</bibl>
+                    <bibl>Cushman, Robert. <title level="a">Theatre Reviews: Savage Whimsy in <title level="m">White Biting Dog</title> and Cirque’s <title level="m">Totem</title>.”</title>
+                        <title level="j">National Post</title> 26 August 2011. <ref target="http://arts.nationalpost.com/2011/08/26/theatre-reviews-savage-whimsy-in-white-biting-dog-and-cirques-totem">http://arts.nationalpost.com/2011/08/26/theatre-reviews-savage-whimsy-in-white-biting-dog-and-cirques-totem</ref>
+                    </bibl>
+                    <bibl>DeSouza-Coelho, Shawn. <title level="m">[Bloor Street Viaduct, Street View.]</title> Toronto, Ontario, 2012.</bibl>
+                    <bibl>Dondis, Donis A. <title level="m">A Primer of Visual Literacy</title>. Cambridge, MA: MIT Press, 1973.</bibl>
+                    <bibl>Glassco, Bill, dir. <title level="m">
+                            <title level="m">White Biting Dog</title>, by Judith Thompson. Set Sue LePage. Perf. Jackie Burroughs, Clare Coulter, Hardee T. Lineham, Stephen Ouimette, Larry Reynolds</title>. Archival <abbr>VHS</abbr>, Private Collection, Tarragon Theatre, 1984.</bibl>
+                    <bibl>Filewod, Alan. <title level="a">Erasing Historical Difference: The Alternative Orthodoxy in Canadian Theatre</title>. <title level="j">Theatre Journal</title> 41 (May 1989): 201–10.</bibl>
+                    <bibl>. <title level="a">Named in Passing: Deregimenting Canadian Theatre History</title>. <title level="m">Writing and Rewriting National Theatre Histories</title>. Ed. S.E. Wilmer. Iowa City: University of Iowa Press, 2004. 106–26.</bibl>
+                    <bibl>. <title level="m">Performing Canada: The Nation Enacted in the Imagined Theatre</title>. <title level="s">Textual Studies in Canada Monograph Series: Critical Performance/s in Canada</title>. Kamloops, BC: Textual Studies in Canada, 2002.</bibl>
+                    <bibl>. <title level="a">Undermining the Centre: The Canon According to CTR</title>. <title level="j">Theatre Research in Canada / <hi xml:lang="fr-CA">Recherches théâtrales au Canada</hi>
+                        </title> 11.2 (1990): 1–4.</bibl>
+                    <bibl>Haren, Sam, dir. <title level="m">
+                            <title level="m">Fronteras Americanas</title>, by Guillermo Verdecchia. Perf. Alirio Zavarce. Nexus Cabaret, Lion Arts Centre, June 2001</title>. <hi rend="italic">Theatre Australia</hi>.</bibl>
+                    <bibl>Johnston, Denis. <title level="m">Diverting the Mainstream: Bill Glassco and the Early Years of Tarragon Theatre</title>. N.p.: n.p., 1988. [Available at Tarragon Theatre].</bibl>
+                    <bibl>. <title level="m">Up the Mainstream: The Rise of Toronto’s Alternative Theatres</title>. Toronto: University of Toronto Press, 1991.</bibl>
+                    <bibl>King’s Visualization Lab. <title level="a">Theatron Final Report</title>. <title level="m">Theatron 3: Educational Undertakings in Second Life</title>. English Subject Centre, The Higher Education Academy, Council for College and University Education, 2009. <ref target="http://www.english.heacademy.ac.uk/explore/projects/archive/technology/tech23.php">http://www.english.heacademy.ac.uk/explore/projects/archive/technology/tech23.php</ref>
+                    </bibl>
+                    <bibl>Kilbourn, William, Jean Roberts, David Gardner, David Peacock, Claude Des Landes, and Walter Learning. <title level="a">The Canada Council and the Theatre: The Past Twenty-Five Years and Tomorrow.</title> Theatre Research in Canada / <hi xml:lang="fr-CA">Recherches théâtrales au Canada</hi> 3.2 (1982). <ref target="http://journals.hil.unb.ca/index.php/TRIC/article/view/7487">http://journals.hil.unb.ca/index.php/TRIC/article/view/7487</ref>
+                    </bibl>
+                    <bibl>Knowles, Ric. <title level="a">Introduction: Judith Thompson in Criticism.</title>
+                        <title level="m">Judith Thompson: Critical Perspectives on Canadian Theatre in English. Ed. Knowles</title>. Vol. 3. Toronto: Playwrights Canada Press, 2005. vii–xv.</bibl>
+                    <bibl>. <title level="m">Reading the Material Theatre</title>. Cambridge: Cambridge University Press, 1994.</bibl>
+                    <bibl>. <title level="a">Voices (Off): Deconstructing the Modern English-Canadian Dramatic Canon</title>. <title level="m">Canadian Canons: Essays in Literary Value</title>. Ed. Robert Lecker. Toronto: University of Toronto Press, 1991. 91–111.</bibl>
+                    <bibl>LePage, Sue, des. <title level="a">Technical drawings for <title level="m">White Biting Dog</title>, by Judith Thompson</title>. Tarragon Theatre, Toronto, ON, 1984. L.W. Conolly Theatre Archives, University of Guelph Library, Guelph, ON.</bibl>
+                    <bibl>Loiselle, André. <title level="a">Review of <title level="m">Modern Canadian Plays</title>, ed. Jerry Wasserman</title>. <title level="j">Theatre Research in Canada / <hi xml:lang="fr-CA">Recherches théâtrales au Canada</hi>
+                        </title> 16.1 (1995). <ref target="http://journals.hil.unb.ca/index.php/tric/article/view/7190/8249">http://journals.hil.unb.ca/index.php/tric/article/view/7190/8249</ref>
+                    </bibl>
+                    <bibl>MacDorman, Karl F., Robert Green, Chin-Chang Ho, and Clinton T. Koch. <title level="a">Too Real for Comfort? Uncanny Responses to Computer Generated Faces</title>. <title level="j">Computers in Human Behaviour</title> 25.3 (2009): 695–710.</bibl>
+                    <bibl>Marshall, Raymond, stage manager. <title level="a">Prompt script. <title level="m">White Biting Dog</title>, by Judith Thompson</title>. Tarragon Theatre, Toronto, ON, [1984]. L.W. Conolly Theatre Archives. University of Guelph Library, Guelph, ON.</bibl>
+                    <bibl>Maufort, Marc. <title level="a">Exploring the Other Side of the Dark: Judith Thompson’s Magic Realism</title>. <title level="m">
+                            <q>Union in Partition</q>: Essays in Honour of Jeanne Delbaere</title>. Ed. Gilbert Debusscher and Maufort. Liege: L3-Liege Language and Literature, 1997. 191–200.</bibl>
+                    <bibl>McHarge, Christopher. <title level="a">House Program, Theatre Aquarius Production of <title level="m">Fronteras Americanas</title>, by Guillermo Verdecchia, 1995</title>. Theatre Aquarius Archives, University of Guelph Library, Guelph, ON.</bibl>
+                    <bibl>Nestruck, J. Kelly. <title level="a">Canadian Revivals on the Rise</title>. <title level="j">Globe and Mail</title> 23 September 2011. <ref target="http://www.theglobeandmail.com/arts/theatre-and-performance/nestruck-on-theatre/canadian-revivals-on-the-rise/article617676/">http://www.theglobeandmail.com/arts/theatre-and-performance/nestruck-on-theatre/canadian-revivals-on-the-rise/article617676/</ref>
+                    </bibl>
+                    <bibl>. <title level="a">Remount without a Cause</title>. <title level="j">Globe and Mail</title> 12 May 2011. <ref target="http://www.theglobeandmail.com/news/arts/theatrefronteras-americanas-remount-without-a-cause/article2020028/">http://www.theglobeandmail.com/news/arts/theatrefronteras-americanas-remount-without-a-cause/article2020028/</ref>
+                    </bibl>
+                    <bibl>. <title level="a">
+                            <title level="m">White Biting Dog</title>: These People Need to Be Saved. So Does the Production</title>. <title level="j">Globe and Mail</title> 19 August 2011. <ref target="http://www.theglobeandmail.com/arts/theatre-and-performance/white-biting-dog-these-people-need-to-be-saved-so-does-the-production/article629793/">http://www.theglobeandmail.com/arts/theatre-and-performance/white-biting-dog-these-people-need-to-be-saved-so-does-the-production/article629793/</ref>
+                    </bibl>
+                    <bibl>Nunn, Robert. <title level="a">Spatial Metaphors in the Plays of Judith Thompson</title>. <title level="m">Judith Thompson: Critical Perspectives on Canadian Theatre in English</title>. Ed. Ric Knowles. Vol. 3. Toronto: Playwrights Canada Press, 2005. 20–40.</bibl>
+                    <bibl>Ondaatje, Michael. <title level="m">In the Skin of a Lion</title>. Toronto: McClelland and Stewart, 1987.</bibl>
+                    <bibl>Ouzounian, Richard. <title level="a">Is Tarragon Dropping of Healey Play Dramatic Cowardice?</title>
+                        <title level="j">Toronto Star</title> 3 February 2012. <ref target="http://www.thestar.com/article/1126131--is-tarragon-dropping-of-healey-play-dramatic-cowardice-ouzounian">http://www.thestar.com/article/1126131--is-tarragon-dropping-of-healey-play-dramatic-cowardice-ouzounian</ref>
+                    </bibl>
+                    <bibl>Palk, Nancy, dir. <title level="m">White Biting Dog</title>, by Judith Thompson. Set Christina Poddubiuk. Perf. Gregory Prest, Fiona Reid, Mike Ross, Michaela Washburn, Joseph Ziegler. Soulpepper Theatre, Toronto, ON. 15 August 2011.</bibl>
+                    <bibl>Panych, Morris, dir. <title level="a">Performance file for <title level="m">White Biting Dog</title>, by Judith Thompson</title>. Tarragon Theatre, Toronto, ON, 1994. L.W. Conolly Theatre Archives, University of Guelph Library, Guelph, ON.</bibl>
+                    <bibl>Quick, Andrew. <title level="m">The Wooster Group Workbook</title>. New York: Routledge, 2007.</bibl>
+                    <bibl>Revington, Dereck. <title level="a">[Photograph: <hi rend="italic">The Luminous Veil</hi>.]</title> 2003.</bibl>
+                    <bibl>Roach, Joseph. <title level="m">Cities of the Dead: Circum-Atlantic Performance</title>. New York: Columbia University Press, 1996.</bibl>
+                    <bibl>Roberts-Smith, Jennifer, Shawn DeSouza-Coelho, Teresa Dobson, Sandra Gabriele, Omar Rodriguez-Arenas, Stan Ruecker, Stéfan Sinclair, Annemarie Akong, Matt Bouchard, Diane Jakacki, David Lam, and Lesley Northam. <title level="a">Visualizing Theatrical Text: from Watching the Script to the Simulated Environment for Theatre (<abbr>SET</abbr>)</title>. <title level="j">Digital Humanities Quarterly</title> 7.3 (2013).</bibl>
+                    <bibl>Roberts-Smith, Jennifer, Shawn DeSouza-Coelho, Teresa Dobson, Sandra Gabriele, Stan Ruecker, Stéfan Sinclair, Alexandra (Sasha) Kovacs, and Daniel So. <title level="a">Visualizing Theatre Historiography: Judith Thompson’s <title level="m">White Biting Dog</title> (1984 and 2011) in the Simulated Environment for Theatre (<abbr>SET</abbr>)</title>. <title level="m">Digital Inquiry into Textual Relations: Research and Teaching with Online Tools</title>. Ed. Susan Brown and Stan Ruecker. Spec. issue of <title level="j">Digital Studies/Le champ numérique</title> 3.2 (2012).</bibl>
+                    <bibl>Ruecker, Stan, Ali Grotkowski, Sandra Gabriele, Jennifer Roberts-Smith, Stéfan Sinclair, Teresa Dobson, Annemarie Akong, Sally Fung, and Omar Rodriguez. <title level="a">Abstraction and Realism in the Design of Avatars for the Simulated Environment for Theatre</title>. <title level="j">Visual Communication Journal</title> 12.4 (2013): 459–72.</bibl>
+                    <bibl>Salter, Denis. <title level="a">The Idea of a National Theatre</title>. <title level="m">Canadian Canons: Essays in Literary Value</title>. Ed. Robert Lecker. Toronto: University of Toronto Press, 1991. 71–90.</bibl>
+                    <bibl>Schechner, Richard. <title level="m">Between Theatre and Anthropology</title>. Pennsylvania: University of Pennsylvania Press, 1995.</bibl>
+                    <bibl>Sela-Sheffy, Rakefet. <title level="a">Canon Formation Revisited: Canon and Cultural Production</title>. <title level="j">Neohelicon</title> 29.2 (2002): 141–59.</bibl>
+                    <bibl>Soulpepper Theatre Company. <title level="a">Archives</title>. Soulpepper Theatre Company, 2011. <ref target="http://www.soulpepper.ca/the_company/archives.aspx">http://www.soulpepper.ca/the_company/archives.aspx</ref>
+                    </bibl>
+                    <bibl>. <title level="a">The Company/The Soulpepper Difference</title>. Soulpepper Theatre Company, 2011. <ref target="http://www.soulpepper.ca/the_company/the_soulpepper_difference.aspx">http://www.soulpepper.ca/the_company/the_soulpepper_difference.aspx</ref>
+                    </bibl>
+                    <bibl>. <title level="a">Press Releases</title>. Soulpepper Theatre Company, 2011. Accessed 8 March 2012. <ref target="http://www.soulpepper.ca/media/press_releases.aspx">http://www.soulpepper.ca/media/press_releases.aspx</ref>
+                    </bibl>
+                    <bibl>. <title level="a">
+                            <title level="m">White Biting Dog</title>: Artist Profile</title>. Soulpepper Theatre Company, 2011. Accessed 29 September 2011.</bibl>
+                    <bibl>Tarragon Theatre. <title level="a">Playwrights in Residence</title>. Tarragon Theatre, 2012. Accessed 29 February 2012.</bibl>
+                    <bibl>. <title level="a">Production History.</title> Tarragon Theatre, 2012. Accessed 29 February 2012.</bibl>
+                    <bibl>Taylor, Diana. <title level="m">The Archive and the Repertoire: Performing Cultural Memory in the Americas</title>. Durham, NC: Duke University Press, 2003.</bibl>
+                    <bibl>Thompson, Judith. <title level="m">Late 20th Century Plays, 1980–2000</title>. Toronto: Playwrights Canada Press, 2003.</bibl>
+                    <bibl>. <title level="m">White Biting Dog</title>. Toronto: Playwrights Canada Press, 1985.</bibl>
+                    <bibl>von Tiedemann, Cylla. <title level="a">[Digital Photograph, Mike Ross and Michaela Washburn in <title level="m">White Biting Dog</title>, by Judith Thompson.]</title> Photo Gallery, Soulpepper Theatre Company, 2011. <ref target="http://www.soulpepper.ca/performances/11_season/white_biting_dog.aspx#overview">http://www.soulpepper.ca/performances/11_season/white_biting_dog.aspx#overview</ref>
+                    </bibl>
+                    <bibl>Warren, Jim, dir. <title level="m">
+                            <title level="m">Fronteras Americanas</title>, by Guillermo Verdecchia. Set Glenn Davidson. Perf. Guillermo Verdecchia</title>. Tarragon Theatre, Toronto, ON, October 1993.</bibl>
+                    <bibl>. <title level="m">
+                            <title level="m">Fronteras Americanas</title>, by Guillermo Verdecchia. Set Glenn Davidson. Perf. Guillermo Verdecchia</title>. Soulpepper Theatre Company, Toronto, ON, May 2012.</bibl>
+                    <bibl>Wasserman, Jerry, ed. <title level="m">Modern Canadian Plays</title>. 4th ed. Vol. 2. Vancouver: Talonbooks, 2001.</bibl>
+                    <bibl>Worthen, William. <title level="m">Drama: Between Poetry and Performance</title>. Malden, MA: Wiley-Blackwell, 2010.</bibl>
+                    <bibl>Zaiontz, Keren. <title level="a">The Instability of Walls, Pillars, and Floors in Bluemouth Inc. Presents <title level="m">What the Thunder Said</title>
+                        </title>. <title level="m">Canadian Devised Theatre: Reluctant Texts from Exuberant Performance</title>. Ed. Bruce Barton, Natalie Corbett, Birgit Schreyer Duarte, and Keren Zaiontz. Ottawa: Borealis Press, 2008. 8–17.</bibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

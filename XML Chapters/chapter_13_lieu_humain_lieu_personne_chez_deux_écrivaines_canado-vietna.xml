@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>-->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick et Kim Thúy</title>
+                <title level="m" type="main" xml:lang="en-CA">Cultural Mapping and the Digital Sphere</title>
+                <title level="m" type="sub" xml:lang="en-CA">Place and Space</title>
+                <author>Mireille Mai Truong</author>
+                <editor role="editor">
+                    <forename>Ruth</forename>
+                    <surname>Panofsky</surname>
+                </editor>
+                <editor role="editor">
+                    <forename>Kathleen</forename>
+                    <surname>Kellett</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <forename>Ilovan</forename>
+                    </name>
+                </respStmt>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor>
+                    <orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Dynamic Table of Contexts editors: </resp>
+                    <name>
+                        <forename>Ruth</forename>
+                        <surname>Panofsky</surname>
+                    </name>
+                    <name>
+                        <forename>Kathleen</forename>
+                        <surname>Kellett</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Principal: </resp>
+                    <name>
+                        <forename>Susan</forename>
+                        <surname>Brown</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <surname>Ilovan</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copyediting and proofreading: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Olivier</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexing:</resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name>
+                        <forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Cover design: </resp>
+                    <name role="book_designer">
+                        <forename>Virginia</forename>
+                        <surname>Penny</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface design lead: </resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead: </resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>Mary Lou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer:</resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by: </resp>
+                    <name role="markup_editor">
+                        <forename>Kristine</forename>
+                        <surname>Abramoff</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Anita</forename>
+                        <surname>Cutic</surname>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address>
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address>
+                        <addrLine>www.cwrc.ca</addrLine>
+                    </address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1- 55195-365- 6</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Individual chapter extract from: Cultural Mapping and the Digital Sphere: Place and Space, ed. Ruth Panofsky &amp; Kathleen Kellett (Edmonton: University of Alberta Press, 2015 / DToC ed. 2016).</p>
+                <ab type="host-volume">
+                    <listBibl>
+                        <bibl>
+                            <title level="a" type="main">Foreword</title>
+                            <author>
+                                <forename>Susan</forename>
+                                <surname>Brown</surname>
+                            </author> &amp; <author>
+                                <forename>Mary-Jo</forename>
+                                <surname>Romaniuk</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Preface</title>
+                            <author>
+                                <forename>Ruth</forename>
+                                <surname>Panofsky</surname>
+                            </author> &amp; <author>
+                                <forename>Kathleen</forename>
+                                <surname>Kellett</surname>
+                            </author>
+                        </bibl>
+                        <listBibl>
+                            <head>Part I. Place and the Digital Frontier</head>
+                            <bibl>
+                                <title level="a" type="maiin">Mapping Tags and Tagging Maps</title>
+                                <title type="sub">Leveraging Spatial Markup for Literary History</title>
+                                <author>
+                                    <forename>Susan</forename>
+                                    <surname>Brown</surname>
+                                </author>, <author>
+                                    <forename>Isobel</forename>
+                                    <surname>Grundy</surname>
+                                </author>, <author>
+                                    <forename>Mariana</forename>
+                                    <surname>Paredes-Olea</surname>
+                                </author>, <author>
+                                    <forename>Jeffery</forename>
+                                    <surname>Antoniuk</surname>
+                                </author> &amp; <author>
+                                    <forename>Breanna</forename>
+                                    <surname>Mroczek</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Modeling Collaboration in Digital Humanities Scholarship</title>
+                                <title type="sub">Foundational Concepts of an EMiC UA Project Charter</title>
+                                <author>
+                                    <forename>Paul</forename>
+                                    <surname>Hjartarson</surname>
+                                </author>, <author>
+                                    <forename>Harvey</forename>
+                                    <surname>Quamen</surname>
+                                </author>, <author>
+                                    <forename>Andrea</forename>
+                                    <surname>Hasenbank</surname>
+                                </author>, <author>
+                                    <forename>Vanessa</forename>
+                                    <surname>Lent</surname>
+                                </author> &amp; <author>
+                                    <orgName> EMiC UA</orgName>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">An Interactive, Materialist-Semiotic Archive</title>
+                                <title type="sub">Visualizing the Canadian Theatrical Canon in the Simulated Environment for Theatre</title>
+                                <author>
+                                    <forename>Sasha</forename>
+                                    <surname>Kovacs</surname>
+                                </author> and <author>
+                                    <forename>Jennifer</forename>
+                                    <surname>Roberts-Smith</surname>
+                                </author>, <author>
+                                    <forename>Theresa M.</forename>
+                                    <surname>Dobson</surname>
+                                </author>, <author>
+                                    <forename>Sandra</forename>
+                                    <surname>Gabriele</surname>
+                                </author>, <author>
+                                    <forename>Omar</forename>
+                                    <surname>Rodrigues-Arenas</surname>
+                                </author>, <author>
+                                    <forename>Stan</forename>
+                                    <surname>Ruecker</surname>
+                                </author>, <author>
+                                    <forename>Stéfan</forename>
+                                    <surname>Sinclair</surname>
+                                </author>, <author>
+                                    <forename>Shawn</forename>
+                                    <surname>DeSouza-Coelho</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">"Talk to the Work"</title>
+                                <title type="sub">Applying istc Identifiers to the Digital Edition of the Canadian Bookman (1909–1941)</title>
+                                <author>
+                                    <forename>Ravit H.</forename>
+                                    <surname>David</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">How to Play with Maps</title>
+                                <author>
+                                    <forename>Bethany</forename>
+                                    <surname>Nowviskie</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Edmonton Pipelines</title>
+                                <title type="sub">Living and Playing in the Digital City </title>
+                                <author>
+                                    <forename>Heather</forename>
+                                    <surname>Zwicker</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Representing Canadian Queer Authorship</title>
+                                <title type="sub">Making the Internet a Women’s Place</title>
+                                <author>
+                                    <forename>Michelle</forename>
+                                    <surname>Schwartz</surname>
+                                </author> &amp; <author>
+                                    <forename>Constance</forename>
+                                    <surname>Crompton</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Part II. Writers and Readers: Mapping Textual Space</head>
+                            <bibl>
+                                <title level="a" type="main">Salomania</title>
+                                <title type="sub">Maud Allan, Postcards, and Early Twentieth-Century “Viral” Circulation</title>
+                                <author>
+                                    <forename>Cecily</forename>
+                                    <surname>Devereux</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Toronto the Good in the Fiction and Life of Grace Irwin</title>
+                                <author>
+                                    <forename>Patricia</forename>
+                                    <surname>Demers</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">« Where are you froM? »</title>
+                                <title type="sub" xml:lang="fr-CA">La ville et l’écriture migrante dans l’autofiction de Marguerite Andersen</title>
+                                <author>
+                                    <forename>Kathleen</forename>
+                                    <surname>Kellett</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Languages as Spaces, Translation as Play</title>
+                                <title type="sub">Moving (through) Languages</title>
+                                <author>
+                                    <forename>Lori</forename>
+                                    <surname>Saint-Martin</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">L'espace ensorcelé</title>
+                                <title type="sub">Les enfants du sabbat d’Anne Hébert</title>
+                                <author>
+                                    <forename>Stéphanie</forename>
+                                    <surname>Walsh Matthews</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick and Kim Thúy</title>
+                                <author>
+                                    <forename>Mireille</forename>
+                                    <surname>MaiTruong</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Standing on a Rainbow</title>
+                                <title type="sub">Reading in Place, Position, and Time</title>
+                                <author>
+                                    <forename>Margaret</forename>
+                                    <surname>Mackey</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <bibl>
+                            <title type="main" xml:lang="en-CA">Contributors</title> / <title type="main" xml:lang="fr-CA">Collaborateurs</title>
+                        </bibl>
+                    </listBibl>
+                </ab>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p />
+            </projectDesc>
+            <classDecl>
+                <taxonomy>
+                    <desc>Semantic tags employed in this book can be reviewed at <ref target="http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml">http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml</ref>
+                    </desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-CA">English</language>
+                <language ident="fr-CA">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline />
+                <item />
+                <index>
+                    <term />
+                </index>
+                <byline />
+                <index>
+                    <term />
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:lang="fr-CA">
+                <head>
+                    <title level="a">Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick et Kim Thúy</title>
+                </head>
+                <docAuthor> Mireille Mai Truong</docAuthor>
+                <q type="block">À mon père, <hi xml:lang="vi-VN">Trương bưư Khánh</hi>
+                </q>
+                <div type="section">
+                    <p xml:id="p1465">Introduction</p>
+                    <p xml:id="p1466">
+                        <ref target="#nationality">
+                            <ref target="#recognitions">Kim Thúy (Saigon 1968), écrivaine francophone d’origine vietnamienne, a été lauréate du Prix littéraire du gouverneur général 2010 pour son premier roman, <title level="m">Ru</title>
+                                <note place="inline">
+                                    <bibl>2009</bibl>
+                                </note>
+                            </ref>. Thuong Vuong-Riddick (Hanoi 1940) est l’auteure d’un recueil de <ref target="#genre_poetry">poésie bilingue</ref>, <title level="m">Two Shores / Deux rives</title>
+                            <note place="inline">
+                                <bibl>1995</bibl>
+                            </note>, ainsi que de <ref target="#genre_lifeWriting">mémoires, <title level="m" xml:lang="en-CA">The Evergreen Country</title>
+                            </ref>
+                            <note place="inline">
+                                <bibl>2007</bibl>
+                            </note>. <ref target="#tone_or_style">
+                                <ref target="#language">Toutes les deux s’exprimant dans leur deuxième ou troisième langue, c’est la façon dont les langues d’origine transparaissent dans les comparaisons et les métaphores qu’elles utilisent qui nous intéressera ici</ref>.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1467">
+                        <ref target="#genre_novel">
+                            <ref target="#intellectual_history">
+                                <ref target="#translation">
+                                    <ref target="#language">Dans des études antérieures menées sur <ref target="#nationality">la romancière vietnamienne Duong Thu Huong</ref>
+                                        <note xml:id="n103" place="end">Communication présentée au colloque <title level="m">Le roman en Asie et ses traductions</title> qui s’est tenu à l’Université de Provence les 15 et 16 octobre 2009 et intitulée <title level="a">Pour la localisation des métaphores et des comparaisons dans la traduction des romans vietnamiens : Illustration de cette démarche au travers de quelques extraits d’<title level="m">Itinéraire d’enfance</title> de Duong Thu Huong</title>. <ref target="#nationality">Duong Thu Huong est une écrivaine vietnamienne</ref> née en 1947, auteure à présent d’une dizaine de romans. Pendant <ref target="#history">la guerre du Viêtnam, de 1967 à 1977, elle est chef d’une brigade de la jeunesse communiste, troupe d’animation artistique. Elle finit par être désillusionnée par une guerre dont les ennemis sont des compatriotes ainsi que par le régime communiste qu’elle critique ouvertement, et elle commence à écrire en 1980</ref>. <ref target="#recognitions">Notons en particulier le roman <title level="m">Les paradis aveugles</title>, paru en 1988, traduit en français en 1991 et qui lui valut le prix Femina ainsi que le prix littéraire de l’<abbr>UNESCO</abbr>
+                                            </ref>.</note>, deux particularités de la traduction en français de son œuvre ont attiré mon attention. <ref target="#editions">En premier lieu, la traduction en français des métaphores et des comparaisons employées par l’auteure de langue vietnamienne dans un de ses romans <note place="inline">
+                                                <bibl>
+                                                    <title level="m">Itinéraire d’enfance</title>
+                                                </bibl>
+                                            </note> effaçait leurs références locales en les francisant et en les banalisant : par exemple, au lieu de traduire littéralement certaines descriptions, ce qui aurait eu pour avantage de fournir du même coup des indications sur la faune ou la flore locales, le traducteur s’était livré à une simplification du cadre tropical, <ref target="#censorship">quelquefois même à la censure ou à l’effacement de ce qui pourrait peut-être choquer le lecteur francophone</ref>. Voici quelques exemples de ces phénomènes. <ref target="#childhood">Dans la version vietnamienne d’<title level="m">Itinéraire d’enfance</title>
+                                                <note xml:id="n104" place="end">C’est le premier roman de Duong Thu Huong, datant de 1985.</note>, les bras et les jambes du petit pêcheur à la nasse sont <q>maigres et rabougris<hi rend="italic"> comme les sarbacanes en cuivre utilisées pour la chasse aux oiseaux</hi>
+                                                </q> alors que dans la version française, <q>ses membres sont si maigres, <hi rend="italic">on dirait des baguettes</hi>
+                                                </q>
+                                                <note place="inline">
+                                                    <bibl>Duong 27</bibl>
+                                                </note>.</ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1468">
+                        <ref target="#editions">
+                            <ref target="#language">
+                                <ref target="#translation">Une <q>vendeuse d’enfants</q> dans la version vietnamienne devient une simple <q>sorcière</q> dans la version française. De la même façon, dans la version française, on <q>se brosse les dents</q> et on <q>se lave le visage</q> au lieu de <q>se laver les dents avec les doigts et le visage en se servant de ses mains</q> dans la version vietnamienne.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1469">
+                        <ref target="#editions">
+                            <ref target="#translation">
+                                <ref target="#language">En deuxième lieu, certains phénomènes subtils liés aux différentes façons dont les Vietnamiens s’interpellent ont été entièrement perdus, eux aussi, dans la traduction. Ainsi, il est presque impossible en vietnamien de ne pas établir, dès le premier contact entre deux personnes, une situation hiérarchisée, semblable au vouvoiement français mais beaucoup plus compliquée. Chacun se positionne dans une situation de respect par rapport à l’autre, de reconnaissance d’ancienneté, de pouvoir et de genre féminin ou masculin. Chacun est plus jeune ou plus âgé (jeune frère ou sœur/grand frère ou grande sœur; grand-père ou grand-mère <hi rend="italic">éloignés</hi>— donc maternels — ou paternels, etc). <ref target="#spatiality">Il y a une scène dans le roman de Duong Thu Huong où deux petites copines réussissent à ne pas instituer entre elles de hiérarchie en rejetant toutes les formules d’appellation habituelles qui n’admettent pas d’égalité, et en se transformant en lieux respectifs, semblables, peut-être, au <q>hé, là-bas</q> français, où le pronom personnel est remplacé par un démonstratif spatial : <q>lieu-ci</q> (<hi xml:lang="vi-VN">đây</hi> = je) ou <q>lieu-là</q> (<hi xml:lang="vi-VN">đâý</hi> ou <hi xml:lang="vi-VN">đó</hi> = tu).</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1470">
+                        <ref target="#theory">
+                            <ref target="#language">
+                                <ref target="#spatiality">Dans son analyse des démonstratifs spatiaux utilisés comme pronoms personnels <q>je</q> et <q>tu</q>, le linguiste <hi xml:lang="vi-VN">Nguyễn Phú Phong</hi> discute des oppositions je/tu : <hi xml:lang="vi-VN">đây</hi> (lieu-ci = je) et <hi xml:lang="vi-VN">đâý</hi> ou <hi xml:lang="vi-VN">đó</hi> (lieu-là = tu) <note xml:id="n105" place="end">
+                                        <q>
+                                            <hi xml:lang="vi-VN">Đây</hi> peut être interprété soit spatialement comme <q>place-ci</q>, soit temporellement comme <q>maintenant</q>. Mais il est patent que <hi xml:lang="vi-VN">đây</hi> est aussi susceptible d’un emploi de pronom personnel et dans ce cas, l’une de ses valeurs sera ‘je/moi’. Ainsi <hi xml:lang="vi-VN">đây</hi> à lui seul réunit sous la même morphologie les trois valeurs de la triade énonciative, […] le moi/ici/maintenant ou, sous une forme généralisante, personne/espace/temps</q>
+                                        <bibl xml:lang="vi-VN">Nguyễn 163</bibl>.</note> et indique que leur emploi <q>est spécifique au vietnamien</q> et que par rapport aux langues européennes personnelles (subjectives) et égocentriques, le vietnamien figure au nombre des langues <q>
+                                        <hi rend="italic">loco</hi>centriques</q>
+                                    <bibl xml:lang="vi-VN">Nguyễn 168</bibl>; c’est nous qui soulignons. <q>L’importance du type de repérage à fondement lococentrique en vietnamien, précise le linguiste, n’est plus à démontrer : l’homme, c’est-à-dire le lieu humain, et le lieu tout court, c’est-à-dire le lieu spatial, se confondent souvent en un signifiant</q>
+                                    <bibl xml:lang="vi-VN">Nguyễn 175</bibl>. J’ajouterai en passant que le mot <q>écrivain</q> en vietnamien est <q xml:lang="vi-VN">nhà văn</q>, ce qui signifie <q>maison de la littérature</q>, confirmant la possibilité en vietnamien d’une assimilation conceptuelle de la personne à un lieu.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1471">
+                        <ref target="#theme_or_topic">
+                            <ref target="#translation">
+                                <ref target="#language">Les questions que nous allons nous poser à présent au sujet des œuvres de deux Canado-Vietnamiennes qui écrivent dans leur langue seconde ou cinquième sont les suivantes. Que reste-t-il de leur culture d’origine maintenant qu’elles s’expriment dans la ou les langues postcoloniales de leur vie d’immigrées? L’effacement effectué par le traducteur et que j’ai décrit ci-dessus se fait-il <hi rend="italic">de lui-même</hi> dans leur écriture? Comment les écrivaines en situation de diaspora, mais décrivant leurs communautés d’origine, gèrent-elles les cas très particuliers des appellations vietnamiennes quand elles écrivent en français, en anglais ou dans les deux langues de leur nouvelle vie?</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Thuong Vuong-Riddick, <title level="m" xml:lang="en-CA">The Evergreen Country: A Memoir of Vietnam</title>
+                    </head>
+                    <p xml:id="p1472">
+                        <ref target="#genre_lifeWriting">
+                            <ref target="#nationality">
+                                <ref target="#language">Comme son nom l’indique, <title level="m" xml:lang="en-CA">The Evergreen Country: A Memoir of Vietnam</title> est un récit autobiographique, en anglais, de l’auteure Thuong Vuong-Riddick, dont le nom lui-même indique l’hybridité. Le prénom — Thuong — postposé en vietnamien, se retrouve en première position canadienne, et le nom d’épouse — Riddick — est rattaché par un trait d’union au nom de famille Vuong, à la québécoise. Par ailleurs, Vuong est la forme vietnamisée du patronyme chinois Wang <note place="inline">
+                                        <bibl>Vuong-Riddick 2007, 10</bibl>
+                                    </note>. <ref target="#education">Vuong-Riddick passa ses vingt-cinq premières années au Vietnam, principalement à Hanoi et à Saigon, puis quitta ce pays pour la France afin d’y poursuivre des études supérieures. Par des chemins détournés, elle se retrouva au Canada, à Montréal, où elle enseigna la littérature francophone à l’Université McGill, puis finit par s’établir en Colombie-Britannique où elle enseigna pendant plusieurs années à l’Université de Victoria avant de déménager à Vancouver</ref>. Elle n’est pas vietnamienne <q>pure laine</q> non plus, mais, comme le laissait prévoir son nom Vuong, issue d’une famille chinoise, elle-même établie depuis trois générations à Hanoi au Nord Vietnam. <ref target="#childhood">Sa langue maternelle est le foukinois (fujianese), vite suivie du vietnamien de la vie locale de son enfance, du mandarin appris en langue seconde à l’école élémentaire, puis du français à l’école catholique et de l’anglais, langue soi-disant <q>seconde</q> mais en réalité sa cinquième langue.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1473">
+                        <ref target="#genre_lifeWriting">
+                            <ref target="#tone_or_style">Ce qu’il y a d’absolument stupéfiant dans l’écriture anglaise de Vuong-Riddick est qu’elle est pratiquement dépourvue de comparaisons ou de métaphores, ce qui ne peut s’expliquer entièrement par le fait qu’il s’agit d’un récit autobiographique, de <hi rend="italic">mémoires</hi>, et non d’une <ref target="#intertextuality">autofiction à la manière de l’auteure française Marguerite Duras</ref>, par exemple, puisque sa <ref target="#genre_poetry">poésie bilingue — <title level="a">
+                                        <hi xml:lang="en-CA">Two Shores</hi> / Deux rives</title>
+                                </ref> — présente la même nudité.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1474">
+                        <ref target="#genre_lifeWriting">Dans <title level="m" xml:lang="en-CA">The Evergreen Country</title>, Vuong-Riddick elle-même reconnaît le caractère austère de son écriture et se livre, à l’occasion, à un genre d’autoanalyse diégétique, à une autopsie de sa propre écriture <q>dépouillée</q>. <ref target="#tone_or_style">Même du temps où elle était à l’école et qu’elle écrivait, son style, dit-elle, n’était pas sophistiqué : <q xml:lang="en-CA">My style was not sophisticated, but my sincerity and simplicity of tone made my writing stand out</q>
+                            </ref>
+                            <note place="inline">
+                                <bibl>Vuong-Riddick 2007, 71</bibl>
+                            </note>. <ref target="#tone_or_style">Même certains passages descriptifs présentent un caractère presque <q>objectif</q>, comme si la personne observant se contentait de nous communiquer juste assez d’éléments perceptuels — quelques <q>sense-data</q> russelliens de base — pour que nous puissions nous former par nous-mêmes une image de la scène, à la manière pointilliste, sans que la propre perception du peintre n’intervienne :</ref>
+                        </ref>
+                    </p>
+                    <q type="block" xml:lang="en-CA">
+                        <ref target="#tone_or_style">
+                            <ref target="#spatiality">
+                                <ref target="#childhood">Early on summer mornings, my elder sister and brother and I rode bicycles, stopping first at the East Gate where our grandparents lived, close to the Lake of the West, where we were joined by our three maternal aunts</ref>. Girls were <hi rend="italic">strolling</hi>, their long black hair <hi rend="italic">trailing</hi> down their backs, their <hi xml:lang="vi-VN">Ao dai</hi> dresses <hi rend="italic">fluttering</hi> in the fresh breeze. <hi rend="italic">Giggling</hi>, they played with their cone-shaped hats, whirling them in the air. Old men read newspapers on the benches. Children ran across the lawns. Young men played badminton. And vendors sold grilled peanuts and a <hi rend="italic">delicious</hi> snack of sticky rice steamed with yellow beans and topped with fried onions, all wrapped in a banana leaf.</ref>
+                        </ref>
+                        <note place="inline">
+                            <bibl>Vuong-Riddick 2007, 66</bibl>
+                        </note>; c’est nous qui soulignons les seuls termes <q>subjectifs</q> du passage</q>
+                    <p xml:id="p1475">
+                        <ref target="#genre_lifeWriting">D’entrée, Vuong-Riddick indique la mission identitaire qui a fait naître son projet de mémoires : <q xml:lang="en-CA">I needed to come back to the country where I was born to understand who I am</q>
+                            <note place="inline">
+                                <bibl>Vuong-Riddick 2007, 6</bibl>
+                            </note>. <ref target="#translation">
+                                <ref target="#language">
+                                    <ref target="#tone_or_style">Suit une métaphore filée assez banale, celle du travail souterrain et sismique de la formation de la personnalité dont le paradoxe est qu’il n’aboutit en définitive à rien qu’à d’autres mouvances <q>evergreen</q> — jamais finies, exigeant une perpétuelle mise à jour — <ref target="#genre_nonFiction">comme l’est un <q xml:lang="en-CA">evergreen paper</q> dans le domaine des écrits administratifs : un document à caractère évolutif, en évolution constante ou même, tout simplement, un document vivant</ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                            <note xml:id="n106" place="end">Voir le site de la terminologie du Bureau de la traduction du gouvernement fédéral <hi rend="small-caps">termium</hi> sous <q xml:lang="en-CA">evergreen document</q> les traductions proposées.</note>.</ref>
+                    </p>
+                    <p xml:id="p1476">
+                        <ref target="#genre_novel">
+                            <ref target="#tone_or_style">Une ou deux comparaisons dans le roman se conforment au schéma que nous espérions retrouver chez une écrivaine de la diaspora, du genre de celles qui avaient été occultées chez l’auteure de langue maternelle vietnamienne dont j’ai parlé en introduction. Elles consistent à décrire la réalité vietnamienne <hi rend="italic">indirectement</hi>. Vuong-Riddick évoque l’image un peu clichée, elle aussi, des <hi rend="italic">deux paniers d’un fléau</hi> portés par une marchande ambulante auxquels <ref target="#religion">elle compare l’église catholique Saint-Antoine et la pagode qui se trouvaient l’une en face de l’autre au bout de la rue de Hanoi où vivait sa famille : <q xml:lang="en-CA">These two symbols of faith were like two baskets bending a yoke across the shoulders of the country</q>
+                                </ref>
+                                <note place="inline">
+                                    <bibl>Vuong-Riddick 2007, 15</bibl>
+                                </note>.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1477">
+                        <ref target="#tone_or_style">Comme son père importait des produits de France pour les vendre aux Français, produits que la famille ne goûtait pas, Vuong-Riddick voit dans leur conservation dans de grands contenants en verre le symbole des <q>deux solitudes</q> :</ref>
+                    </p>
+                    <q type="block" xml:lang="en-CA">
+                        <ref target="#tone_or_style">
+                            <ref target="#nationality">
+                                <ref target="#economics">My father imported all his merchandise from France, so I grew up surrounded by Gruyere cheese, soap from Marseilles, Pastis wine, toilet water, and perfumes from Paris. We never tried the foods or used any of the other products ourselves; their use was foreign to us, but they were piled one on top of the other in huge glass containers. I remember thinking we were two worlds facing each other: Chinese and Vietnamese facing our clients, who were mostly French. Nothing could bridge the divide.</ref>
+                            </ref>
+                        </ref>
+                        <note place="inline">
+                            <bibl>Vuong-Riddick 2007, 16-17</bibl>
+                        </note>
+                    </q>
+                    <p xml:id="p1478">
+                        <ref target="#genre_lifeWriting">
+                            <ref target="#history">
+                                <ref target="#violence">
+                                    <ref target="#historical_oppression">Bien que Vuong-Riddick fasse le lien entre les contenants en verre et les deux mondes, il faut bien constater qu’elle n’ose pas, ne s’est pas suffisamment affranchie du joug colonial, pour que les objets prennent d’eux-mêmes, dans le contexte d’une écriture plus libre, un sens second que les lecteurs détermineraient tout seuls.</ref>
+                                </ref>
+                            </ref>
+                            <ref target="#economics">Son choix même du genre — les mémoires — est plus soumis et vaincu que le choix plus assuré de l’autofiction de <title level="m">L’Amant</title> effectué sans vergogne par une Marguerite Duras, fut-elle issue d’une famille de pauvres blancs établie au Vietnam alors que Vuong-Riddick vient d’une famille chinoise prospère et bourgeoise.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1479">
+                        <ref target="#tone_or_style">Certaines images non seulement ne nous transportent strictement ailleurs mais nous confinent à nous-mêmes et à notre for intérieur. <ref target="#spatiality">Dans le désarroi de l’immigration où l’écrivaine adulte ne se sent plus libre de faire des rapprochements et des comparaisons, il ne reste qu’un <hi rend="italic">double</hi> niveau de représentation, une <q>différance</q> derridéenne dans laquelle la réalité passée <hi rend="italic">reste</hi> irréelle et imaginaire, et ce, même quand elle est ressaisie pendant un voyage de retour au pays d’origine : <q xml:lang="en-CA">We travelled first by bus, then the long crossing by boat <hi rend="italic">felt like a dream landscape</hi>, with the fog rising and other boatloads of pilgrims greeting us as we passed, and the lime rocks standing <hi rend="italic">like lines in Chinese paintings</hi>
+                                </q>
+                                <note place="inline">
+                                    <bibl>Vuong-Riddick 2007, 194</bibl>
+                                </note>; c’est nous qui soulignons. Vuong-Riddick, on le voit, affiche une grande réticence à faire le moindre lien métaphorique ou comparatif entre les éléments du présent canadien et ceux de sa jeunesse indochinoise. En revanche, il lui arrive de faire des liens interculturels sur un ton légèrement didactique</ref>. <ref target="#theory">
+                                <ref target="#language">Ainsi, elle explique une particularité du système d’appellation asiatique, celui qu’elle a connu au sein de sa famille même, dans laquelle elle appelait sa propre mère <q>An Chiêm</q> qui signifie <q>ma tante</q>. <ref target="#class_issue">Apparemment, dans les familles riches et traditionnelles, afin d’instaurer une plus grande distance respectueuse entre enfants et parents, les enfants appelaient leurs parents <q>oncle</q> et <q>tante</q>
+                                    </ref>. Comme le précise Vuong-Riddick, anticipant des regards critiques : <q>
+                                        <hi xml:lang="en-CA">we see the same phenomemenon in French bourgeois families, who use the formal</hi>
+                                        <hi rend="italic">vous </hi>
+                                        <hi xml:lang="en-CA">instead of</hi>
+                                        <hi rend="italic">tu</hi>
+                                        <hi xml:lang="en-CA">to address their parents</hi>
+                                    </q>
+                                </ref>
+                            </ref>
+                            <note place="inline">
+                                <bibl>Vuong-Riddick 2007, 28</bibl>
+                            </note>. <ref target="#history">
+                                <ref target="#nationality">
+                                    <ref target="#education">D’autres <ref target="#historical_oppression">rapprochements interculturels sont établis entre des épisodes historiques, comme lorsque les Vietnamiens ont chassé les Chinois du pays ou les ont forcés à aller dans des camps de rééducation, <q>like Japanese Canadians who were interned or deported during World War II</q>
+                                            <note place="inline">
+                                                <bibl>Vuong-Riddick 2007, 169</bibl>
+                                            </note> ou lorsque les Vietnamiens cherchent à rééduquer les populations montagnardes, comme les Canadiens envoyaient de force les enfants autochtones dans des pensionnats</ref>
+                                    </ref>.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1480">
+                        <ref target="#theory">
+                            <ref target="#nationality">
+                                <ref target="#language">En citant son journal de jeunesse, Vuong-Riddick se plaint des difficultés que présente la traduction du vietnamien, en particulier certains termes d’appellation. Elle décrit le sentiment d’aliénation que ressent un Vietnamien quand il parle une autre langue, lui qui a l’habitude de faire référence à lui-même à la troisième personne et en terme de relation familiale au mieux, de relation féodale au pire, mais dans une langue où l’autre fait littéralement corps avec soi dans une unité reflétée par le terme vietnamien <q xml:lang="vi-VN">chúng mình</q>
+                                    <note place="end">
+                                        <hi xml:lang="vi-VN">Chúng mình</hi> ne comporte pas d’accents dans le texte.</note>, qui veut dire <q>nous</q>, mais qui signifie littéralement <q>corps</q> :</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <q type="block" xml:lang="en-CA">
+                        <ref target="#theory">
+                            <ref target="#nationality">How does one translate the language of a people who, most of the time, speak of themselves in the third person and designate themselves according to their relation with the speaker, using appellations like son or daughter, nephew, uncle or aunt; rarely, so rarely, by the neutral <q>I</q>? For this person the emergence of individuality is especially difficult. […] When a Vietnamese uses another language he or she feels at once exiled, depersonalized. The most usual term like <q xml:lang="vi-VN">Chung minh,</q> when translated to <q>we,</q> loses its intimacy because neither English nor French has the term <q xml:lang="vi-VN">minh,</q> which means <q>body</q>; it shows that the person who says <hi xml:lang="vi-VN">chung minh</hi> is so close to the others that he or she considers the others like a part of his or her body.</ref>
+                        </ref>
+                        <note place="inline">
+                            <bibl>Vuong-Riddick 2007, 137-38</bibl>
+                        </note>
+                    </q>
+                    <p xml:id="p1481">
+                        <ref target="#tone_or_style">Et de conclure, dans une des rares effusions nostalgiques lui échappant :</ref>
+                    </p>
+                    <q type="block" xml:lang="en-CA">
+                        <ref target="#theory">
+                            <ref target="#nationality">The act of translation loses so much. From the warm syllables of simple Vietnamese words, I inhale a familiar perfume.<lb />Here, in this country, love stories are lived in understatement, with inhibition, through secret thoughts and intuitions, beneath hints, which hold absolutely no significance for a European but are saturated with meaning for a Vietnamese or a Chinese.</ref>
+                        </ref>
+                        <note place="inline">
+                            <bibl>Vuong-Riddick 2007, 138</bibl>
+                        </note>
+                    </q>
+                    <p xml:id="p1482">
+                        <ref target="#ton_or_style">Sa propre écriture, justement, ne serait-elle pas remplie d’euphémismes, <q>saturée de sens</q> — plutôt que terne et dépouillée comme elle le paraît au début et en première analyse, ou <q>non sophistiquée et d’un ton sincère et simple</q> comme elle l’a affirmé.</ref>
+                    </p>
+                    <p xml:id="p1483">
+                        <ref target="#tone_or_style">
+                            <ref target="#language">
+                                <ref target="#childhood">Dans la façon retenue avec laquelle elle évoque son enfance et sa jeunesse, la rareté des métaphores et des comparaisons, la subtilité des émotions exprimées, ne conserve-t-elle pas, en définitive, mais <hi rend="italic">en anglais</hi>, la tradition vietnamienne en voie de disparition de réserve et d’euphémisme? <ref target="#intertextuality">Pour emprunter une très belle image à Patrice Desbiens (cité par François Paré), Vuong-Riddick n’est-elle pas de ceux et celles d’entre nous qui parlent — je le cite — <q>doucement, en italiques</q>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                        <note place="inline">
+                            <bibl>Paré 56</bibl>
+                        </note>?</p>
+                </div>
+                <div type="section">
+                    <head>Kim Thúy, <title level="m">Ru</title>
+                    </head>
+                    <p xml:id="p1484">
+                        <ref target="#intellectual_history">
+                            <ref target="#history">
+                                <title level="m">Ru</title> est le premier roman de Kim Thúy, membre d’une famille de <hi rend="italic" xml:lang="en-CA">boat people</hi> vietnamienne ayant abouti à Montréal lorsque l’auteure avait dix ans. <ref target="#recognitions">Il a obtenu le Prix littéraire du gouverneur général en 2010</ref>. <ref target="#tone_or_style">Dès ses premiers mots, dès le titre, Thúy semble être le contraire de Vuong-Riddick. Tout signifiant a une multitude de signifiés, rien n’est seulement ce qu’il dit être, comme en vietnamien, d’ailleurs, ou chaque <hi rend="italic">ton</hi> change le sens du mot. Dès le titre, <title level="m">Ru</title>, il y a polysémie. Prononcé [-ry] en français, un ru est un petit ruisseau au sens propre, et écoulement de larmes, de sang ou d’argent au sens figuré. Prononcé [-ru] en vietnamien, <q>ru</q> signifie berceuse. L’ouvrage n’est pas à proprement parler un roman, ni même une autofiction, mais une série de tableaux relatant la douleur de l’exil et de l’immigration des <hi rend="italic" xml:lang="en-CA">boat people</hi>, l’écoulement de ses larmes et de son sang, de manière poétique.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1485">
+                        <ref target="#theory">Dès la deuxième page, il y a explication des accents du vietnamien, langue à huit tons dont les différences subtiles effraient les Européens :</ref>
+                    </p>
+                    <q type="block">
+                        <p xml:id="p1486">
+                            <ref target="#theory">Je m’appelle <hi xml:lang="vi-VN">Nguyễn An Tịnh</hi> et ma mère, <hi xml:lang="vi-VN">Nguyển An Tĩnh</hi>. Mon nom est une simple variation du sien puisque seul un point sous le <hi rend="italic">i</hi> me différencie d’elle, me distingue d’elle, me dissocie d’elle. J’étais une extension d’elle, même dans le sens de mon nom. En vietnamien, le sien veut dire <q>environnement paisible</q> et le mien, <q>intérieur paisible</q>. Par ces noms presque interchangeables, ma mère confirmait que j’étais une suite d’elle, que je continuerais son histoire.</ref>
+                        </p>
+                        <p xml:id="p1487">
+                            <ref target="#history">
+                                <ref target="language">L’Histoire du Vietnam, celle avec un grand H, a déjoué les plans de ma mère. Elle a jeté les accents de nos noms à l’eau quand elle nous a fait traverser le golfe du Siam, il y a trente ans. Elle a aussi dépouillé nos noms de leur sens, les réduisant à des sons à la fois étrangers et étranges dans la langue française.</ref>
+                            </ref>
+                            <note place="inline">
+                                <bibl>Thúy 12</bibl>
+                            </note>
+                        </p>
+                    </q>
+                    <p xml:id="p1488">
+                        <ref target="#voice_or_narration">
+                            <ref target="#language">De temps en temps, Thúy tient même un discours métalinguistique, par exemple quand elle parle des différents verbes <q>aimer</q> en vietnamien : <q>Dans le cas du vietnamien, il est possible de classifier, de quantifier le geste d’aimer par des mots spécifiques : aimer par goût (<hi rend="italic" xml:lang="vi-VN">thích</hi>), aimer sans être amoureux (<hi rend="italic" xml:lang="vi-VN">thượng</hi>), aimer amoureusement (<hi rend="italic" xml:lang="vi-VN">yêu</hi>), aimer avec ivresse (<hi rend="italic" xml:lang="vi-VN">mê</hi>), aimer aveuglément (<hi rend="italic" xml:lang="vi-VN">mù quáng</hi>), aimer par gratitude (<hi rend="italic" xml:lang="vi-VN">tình nghĩa</hi>)</q>
+                                <note place="inline">
+                                    <bibl>Thúy 104</bibl>
+                                </note>.</ref>
+                            <ref target="#tone_or_style">Il y a des clichés — le paradis et l’enfer — mais moins frappants que chez Vuong-Riddick, car perdus dans la polysémie, au lieu de ressortir, comme chez cette dernière, dans une écriture de documentariste. <ref target="#childhood">On trouve des comparaisons qui nous rappellent que le <q>je</q> fictif est né et a été élevé au Québec où se trouvent ses nouvelles références. Ainsi, il arrive que deux comparaisons soient offertes au lecteur, l’une provenant de sa culture asiatique transmise par ses parents, et l’autre de sa vie québécoise. Les mouches du camp de réfugiés <q>s’agrippaient aux branches d’un arbre mort, […] se plaçaient l’une contre l’autre autour des branches <hi rend="italic">comme les baies d’une grappe de poivrier</hi>, ou <hi rend="italic">comme des raisins de Corinthe</hi>
+                                    </q>
+                                    <note place="inline">
+                                        <bibl>Thúy 35</bibl>
+                                    </note>; c’est nous qui soulignons.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1489">
+                        <ref target="#religion">Il y a d’insolites comparaisons d’inspiration chrétienne, par exemple, toujours au camp des réfugiés, lorsque des milliers de vers sortent de la fosse septique <q>comme s’ils avaient été appelés par un messie</q>
+                            <note place="inline">
+                                <bibl>Thúy 37</bibl>
+                            </note>
+                        </ref>. <ref target="#history">Le débarquement en Malaisie des <hi rend="italic" xml:lang="en-CA">boat people</hi>
+                        </ref> est rapproché cruellement de l’image de Bo Derek, la pin-up de <title level="j">Playboy</title> : <q>nous avons tous sauté dans l’eau comme lors du déploiement d’une armée. […] Je me souviens de cette image avec la même précision et la même clarté que celle de Bo Derek sortant de l’eau en courant dans son maillot couleur chair</q>
+                        <note place="inline">
+                            <bibl>Thúy 106</bibl>
+                        </note>. <ref target="#tone_or_style">Lorsque le bateau se désagrège sous l’effet d’un ouragan, c’est un spectacle à l’américaine </ref>:</p>
+                    <q type="block">
+                        <ref target="#tone_or_style">Notre bateau a été totalement détruit par les vagues d’une simple pluie, qui est tombée tout de suite après notre débarquement. Nous étions plus de deux cents à regarder ce spectacle en silence, les yeux embués par la pluie et la stupeur. Les planches de bois sautillaient l’une après l’autre sur la crête des vagues, comme dans un numéro de nage synchronisée.</ref>
+                        <note place="inline">
+                            <bibl>Thúy 107</bibl>
+                        </note>
+                    </q>
+                    <p xml:id="p1490">
+                        <ref target="#spatiality">
+                            <ref target="#representation_of_women">Mentionnons enfin une description et mise en abyme de l’étang à lotus en banlieue de Hanoi <q>où il y avait toujours deux ou trois femmes au dos arqué, aux mains tremblantes, qui, assises dans le fond d’une barque ronde, se déplaçaient sur l’eau à l’aide d’une perche pour placer des feuilles de thé à l’intérieur des fleurs de lotus ouvertes. Elles y retournaient le jour suivant pour les recueillir, une à une, avant que les pétales se fanent, après que les feuilles emprisonnées avaient absorbé le parfum des pistils pendant la nuit. Elles me disaient que chaque feuille de thé conservait ainsi l’âme de ces fleurs éphémères</q>
+                                <note place="inline">
+                                    <bibl>Thúy 49</bibl>
+                                </note>.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1491">
+                        <ref target="#tone_or_style">
+                            <ref target="#voice_or_narration">Comme les femmes sur l’étang, l’auteure place chaque anecdote qui lui est contée dans la fleur de lotus de ses vignettes pour les conserver tout en leur conférant un caractère unique.</ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Conclusions</head>
+                    <p xml:id="p1492">
+                        <ref target="#spatiality">Avons-nous répondu aux questions que nous avions posées au départ? <ref target="#language">Comment les auteures issues du Vietnam rendent-elles la complexité des systèmes d’appellation caractéristique de leur langue d’origine où le seul moyen de faire référence à une personne en dehors de la hiérarchie patriarchale et du sexisme est de transformer les personnes en lieux? Nous transportent-elles dans leur pays d’origine au risque de nous y perdre par leurs comparaisons ou leurs métaphores, ou font-elles du <q>sur place</q>?</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1493">
+                        <ref target="#theory">
+                            <ref target="#translation">
+                                <ref target="#language">Toutes deux problématisent la difficulté de traduire, en français ou en anglais, le système d’appellation et les tons du vietnamien, dans lesquels sont distillées les subtilités de la culture.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1494">
+                        <ref target="#tone_or_style">
+                            <ref target="#genre_lifeWriting">
+                                <ref target="#nationality">Kim Thúy se lance d’emblée dans le genre européanisé de l’autofiction dans laquelle elle fait une toute petite place à certains accents vietnamiens — son nom de famille, Thúy, et celui qui distingue son nom de celui de sa mère, au début — et les intègre même à la graphie de son roman</ref>. Vuong-Riddick ne fait aucune place à la graphie vietnamienne. Souvent, Thúy fait des comparaisons par lesquelles elle fait se confronter ses deux expériences si différentes. <ref target="#childhood">Grandir au Canada de <hi rend="italic" xml:lang="en-CA">boat people</hi> vietnamiens représente un choc culturel dont on ne contrôle pas les éléments marquants. Ainsi, le parfum auquel Thúy associe le Canada a quelque chose de saugrenu et d’insolite : le Canada, c’est l’odeur de l’assouplissant <hi rend="italic">Bounce</hi> qu’elle sent dans les vêtements de son mari <note place="inline">
+                                        <bibl>Thúy 117</bibl>
+                                    </note>.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1495">
+                        <ref target="#tone_or_style">
+                            <ref target="#spatiality">Dans l’échec et l’absence de métaphores reliant deux lieux ou plus, Vuong-Riddick semble créer un genre de hors-lieu : <ref target="#intertextuality">l’ <q>espace global</q> entre <q>deux rives indéterminées</q> où la situe le critique Dan Duffy dans l’analyse qu’il fait de son <ref target="#genre_poetry">recueil de poèmes antérieur, <title level="m">
+                                            <hi xml:lang="en-CA">Two Shores</hi> / Deux rives</title>
+                                    </ref>
+                                    <note place="inline">
+                                        <bibl>Duffy 327, 335</bibl>
+                                    </note>
+                                </ref>. <ref target="#genre_lifeWriting">
+                                    <ref target="#intertextuality">Dans <title level="m" xml:lang="en-CA">The Evergreen Country</title> s’effectue une nouvelle fois la <q>reterritorialisation linguistique et culturelle</q> caractérisée par une étonnante intertextualité que Kathleen Kellett-Betsos avait déjà repérée dans les poèmes bilingues de l’auteure <note place="inline">
+                                            <bibl>106</bibl>
+                                        </note>
+                                    </ref>
+                                </ref>.</ref> Vuong-Riddick rend la subtilité et la retenue de ses cultures d’origine par une écriture pratiquement dénuée de fioritures mais qui exprime <hi rend="italic">en anglais</hi>, et par <hi rend="italic">le non-dit</hi>, la profondeur du sentiment qu’il faut deviner. Elle aussi tient un discours métalinguistique occasionnel — sur la distanciation respectueuse de la mère qu’on appelle <q>tante</q> et sur la difficulté de la traduction des appellations hiérarchisées — mais finit par poser tranquillement les jalons d’une <hi rend="italic">nouvelle</hi> forme d’expression, analogue dans son ton <q>en italiques</q> à celle d’origine, quoique différente dans sa langue. <ref target="#spatiality">Elle crée un pays d’imagination purement littéraire — l’ <q xml:lang="en-CA">evergreen country</q> du titre — toujours à retoucher et à fignoler, fuyant la réification.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1496">
+                        <ref target="#intertextuality">
+                            <ref target="#theory">
+                                <ref target="#tone_or_style">Bref, on trouve chez Vuong-Riddick comme chez Thúy les phénomènes que Rocío G. Davis identifie comme représentant les contributions les plus importantes de la littérature canadienne asiatique des <q xml:lang="en-CA">Short-story cycles</q> : la subversion des formes traditionnelles — roman, nouvelles, mémoires — et le travail de la forme, lesquels sont simultanément au service de la recherche d’identité personnelle et communautaire typique de cette littérature et <hi rend="italic">ultime métaphore</hi> et <q xml:lang="en-CA">textual enactment</q>
+                                    <note place="inline">
+                                        <bibl>Davis 20</bibl>
+                                    </note> de la fragmentation et de la perte de ces identités. Ce caractère diégétique avant-garde exige à son tour l’engagement de lecteurs avertis et désireux d’interagir avec un texte différent de ceux auxquels ils sont habitués. <ref target="#canon_formation">
+                                        <ref target="#language">
+                                            <ref target="#race_issue">Pour fermer le triangle <hi rend="italic">auteur-lecteur-contexte institutionnel</hi> de la communication littéraire, nous estimons avec Davis que <q>l’usage plus libre du langage et du genre</q> que l’on constate chez les écrivains américano et canado-asiatiques, est le produit <q>d’une appréciation accrue de la part des Américains et des Canadiens d’origine asiatique de la diversité culturelle des sociétés nord-américaines contemporaines et de la conscience qu’ils ont une place dans la littérature nationale</q>
+                                            </ref>
+                                        </ref>
+                                        <note xml:id="n108" place="end">
+                                            <q xml:lang="en-CA">an expression of a new confidence demonstrated in a freer use of language and genre that stems from the Asian American and Asian Canadian’s increased appreciation of cultural diversity in contemporary North American societies and the awareness that they have that they have a place in the canons.</q>
+                                        </note>
+                                    </ref>
+                                    <note place="inline">
+                                        <bibl>Davis 9</bibl>
+                                    </note>; c’est nous qui traduisons.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Bibliographie</head>
+                    <listBibl>
+                        <bibl xml:lang="en-CA">Davis, Rocío G. <title level="m">Transcultural Reinventions: Asian American and Asian Canadian Short-Story Cycles</title>. Toronto: <hi rend="small-caps">tsar</hi> Publications, 2001.</bibl>
+                        <bibl>Duffy, Dan. <title level="a" xml:lang="en-CA">Beyond the National Tradition: Thuong Vuong-Riddick’s <title level="m">Two Shores / Deux rives</title>
+                            </title>. <title level="m">American Babel: Literatures of the United States from Abnaki to Zuni</title>. Dir. Marc Shell. Cambridge, MA: Harvard University Press, 2002. 322-42.</bibl>
+                        <bibl>Duras, Marguerite. <title level="m">L’Amant</title>. Paris: Les éditions de Minuit, 1984.</bibl>
+                        <bibl>
+                            <hi xml:lang="vi-VN">Dương, Thu Hương</hi>. <title level="m" xml:lang="vi-VN">Hành Trình Ngày Thơ Ấu</title>. 1985. <title level="m">Itinéraire d’enfance</title>. Trad. Phuong Dang Tran. Paris: Sabine Wespieser Éditeur, 2007.</bibl>
+                        <bibl>. <title level="m" xml:lang="vi-VN">Những thiên đường mú</title>. <hi xml:lang="en-CA">Hanoi: The Women’s Publishing House</hi>, 1988. <title level="m">Les Paradis Aveugles</title>. Trad. Des Femmes. Paris: Éditions Des Femmes, 1991. <title level="m" xml:lang="en-CA">Paradise of the Blind</title>. Trans. Phan Huy Duong and Nina McPherson. New York: William Morrow and Company, 1993.</bibl>
+                        <bibl>Kellett-Betsos, Kathleen. <title level="a">
+                                <title level="m">Two Shores / Deux rives</title> de Thuong Vuong-Riddick : Errance et ironie</title>. <title level="m">Littérature et culture francophones de Colombie-Britannique: Espaces culturels francophones I</title>. Dir. Guy Poirier, Jacqueline Viswanathan et Grazia Merler. Ottawa: Les Éditions David, 2004. 85-106.</bibl>
+                        <bibl>
+                            <author xml:lang="vi-VN">Nguyễn, Phú Phong</author>.<title level="m"> Questions de linguistique vietnamienne : Les classificateurs et les déictiques.</title> Paris: Presses de l’École française d’Extrême-Orient, 1995.</bibl>
+                        <bibl>Paré, François. <title level="m">Les Littératures de l’exiguïté</title>. Hearst: Les Éditions du Nordir, 1992.</bibl>
+                        <bibl>Thúy, Kim. <title level="m">Ru</title>. Longueuil: Les Éditions Libre Expression, 2009.</bibl>
+                        <bibl>Vuong-Riddick, Thuong. <title level="m" xml:lang="en-CA">The Evergreen Country: A Memoir of Vietnam</title>. Regina: Hagios Press, 2007.</bibl>
+                        <bibl>. <title level="m">Two Shores / Deux rives: Poems/Poèmes. Vancouver</title>: Ronsdale Press, 1995.</bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>-->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Edmonton Pipelines</title>
+                <title level="m" type="main" xml:lang="en-CA">Cultural Mapping and the Digital Sphere</title>
+                <title level="m" type="sub" xml:lang="en-CA">Place and Space</title>
+                <author>Heather Zwicker</author>
+                <editor role="editor">
+                    <forename>Ruth</forename>
+                    <surname>Panofsky</surname>
+                </editor>
+                <editor role="editor">
+                    <forename>Kathleen</forename>
+                    <surname>Kellett</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <forename>Ilovan</forename>
+                    </name>
+                </respStmt>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor>
+                    <orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Dynamic Table of Contexts editors: </resp>
+                    <name>
+                        <forename>Ruth</forename>
+                        <surname>Panofsky</surname>
+                    </name>
+                    <name>
+                        <forename>Kathleen</forename>
+                        <surname>Kellett</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Principal: </resp>
+                    <name>
+                        <forename>Susan</forename>
+                        <surname>Brown</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <surname>Ilovan</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copyediting and proofreading: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Olivier</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexing:</resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name>
+                        <forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Cover design: </resp>
+                    <name role="book_designer">
+                        <forename>Virginia</forename>
+                        <surname>Penny</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface design lead: </resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead: </resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>Mary Lou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer:</resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by: </resp>
+                    <name role="markup_editor">
+                        <forename>Kristine</forename>
+                        <surname>Abramoff</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Anita</forename>
+                        <surname>Cutic</surname>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address>
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address>
+                        <addrLine>www.cwrc.ca</addrLine>
+                    </address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1- 55195-365- 6</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Individual chapter extract from: Cultural Mapping and the Digital Sphere: Place and Space, ed. Ruth Panofsky &amp; Kathleen Kellett (Edmonton: University of Alberta Press, 2015 / DToC ed. 2016).</p>
+                <ab type="host-volume">
+                    <listBibl>
+                        <bibl>
+                            <title level="a" type="main">Foreword</title>
+                            <author>
+                                <forename>Susan</forename>
+                                <surname>Brown</surname>
+                            </author> &amp; <author>
+                                <forename>Mary-Jo</forename>
+                                <surname>Romaniuk</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Preface</title>
+                            <author>
+                                <forename>Ruth</forename>
+                                <surname>Panofsky</surname>
+                            </author> &amp; <author>
+                                <forename>Kathleen</forename>
+                                <surname>Kellett</surname>
+                            </author>
+                        </bibl>
+                        <listBibl>
+                            <head>Part I. Place and the Digital Frontier</head>
+                            <bibl>
+                                <title level="a" type="maiin">Mapping Tags and Tagging Maps</title>
+                                <title type="sub">Leveraging Spatial Markup for Literary History</title>
+                                <author>
+                                    <forename>Susan</forename>
+                                    <surname>Brown</surname>
+                                </author>, <author>
+                                    <forename>Isobel</forename>
+                                    <surname>Grundy</surname>
+                                </author>, <author>
+                                    <forename>Mariana</forename>
+                                    <surname>Paredes-Olea</surname>
+                                </author>, <author>
+                                    <forename>Jeffery</forename>
+                                    <surname>Antoniuk</surname>
+                                </author> &amp; <author>
+                                    <forename>Breanna</forename>
+                                    <surname>Mroczek</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Modeling Collaboration in Digital Humanities Scholarship</title>
+                                <title type="sub">Foundational Concepts of an EMiC UA Project Charter</title>
+                                <author>
+                                    <forename>Paul</forename>
+                                    <surname>Hjartarson</surname>
+                                </author>, <author>
+                                    <forename>Harvey</forename>
+                                    <surname>Quamen</surname>
+                                </author>, <author>
+                                    <forename>Andrea</forename>
+                                    <surname>Hasenbank</surname>
+                                </author>, <author>
+                                    <forename>Vanessa</forename>
+                                    <surname>Lent</surname>
+                                </author> &amp; <author>
+                                    <orgName> EMiC UA</orgName>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">An Interactive, Materialist-Semiotic Archive</title>
+                                <title type="sub">Visualizing the Canadian Theatrical Canon in the Simulated Environment for Theatre</title>
+                                <author>
+                                    <forename>Sasha</forename>
+                                    <surname>Kovacs</surname>
+                                </author> and <author>
+                                    <forename>Jennifer</forename>
+                                    <surname>Roberts-Smith</surname>
+                                </author>, <author>
+                                    <forename>Theresa M.</forename>
+                                    <surname>Dobson</surname>
+                                </author>, <author>
+                                    <forename>Sandra</forename>
+                                    <surname>Gabriele</surname>
+                                </author>, <author>
+                                    <forename>Omar</forename>
+                                    <surname>Rodrigues-Arenas</surname>
+                                </author>, <author>
+                                    <forename>Stan</forename>
+                                    <surname>Ruecker</surname>
+                                </author>, <author>
+                                    <forename>Stéfan</forename>
+                                    <surname>Sinclair</surname>
+                                </author>, <author>
+                                    <forename>Shawn</forename>
+                                    <surname>DeSouza-Coelho</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">"Talk to the Work"</title>
+                                <title type="sub">Applying istc Identifiers to the Digital Edition of the Canadian Bookman (1909–1941)</title>
+                                <author>
+                                    <forename>Ravit H.</forename>
+                                    <surname>David</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">How to Play with Maps</title>
+                                <author>
+                                    <forename>Bethany</forename>
+                                    <surname>Nowviskie</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Edmonton Pipelines</title>
+                                <title type="sub">Living and Playing in the Digital City </title>
+                                <author>
+                                    <forename>Heather</forename>
+                                    <surname>Zwicker</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Representing Canadian Queer Authorship</title>
+                                <title type="sub">Making the Internet a Women’s Place</title>
+                                <author>
+                                    <forename>Michelle</forename>
+                                    <surname>Schwartz</surname>
+                                </author> &amp; <author>
+                                    <forename>Constance</forename>
+                                    <surname>Crompton</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Part II. Writers and Readers: Mapping Textual Space</head>
+                            <bibl>
+                                <title level="a" type="main">Salomania</title>
+                                <title type="sub">Maud Allan, Postcards, and Early Twentieth-Century “Viral” Circulation</title>
+                                <author>
+                                    <forename>Cecily</forename>
+                                    <surname>Devereux</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Toronto the Good in the Fiction and Life of Grace Irwin</title>
+                                <author>
+                                    <forename>Patricia</forename>
+                                    <surname>Demers</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">« Where are you froM? »</title>
+                                <title type="sub" xml:lang="fr-CA">La ville et l’écriture migrante dans l’autofiction de Marguerite Andersen</title>
+                                <author>
+                                    <forename>Kathleen</forename>
+                                    <surname>Kellett</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Languages as Spaces, Translation as Play</title>
+                                <title type="sub">Moving (through) Languages</title>
+                                <author>
+                                    <forename>Lori</forename>
+                                    <surname>Saint-Martin</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">L'espace ensorcelé</title>
+                                <title type="sub">Les enfants du sabbat d’Anne Hébert</title>
+                                <author>
+                                    <forename>Stéphanie</forename>
+                                    <surname>Walsh Matthews</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick and Kim Thúy</title>
+                                <author>
+                                    <forename>Mireille</forename>
+                                    <surname>MaiTruong</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Standing on a Rainbow</title>
+                                <title type="sub">Reading in Place, Position, and Time</title>
+                                <author>
+                                    <forename>Margaret</forename>
+                                    <surname>Mackey</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <bibl>
+                            <title type="main" xml:lang="en-CA">Contributors</title> / <title type="main" xml:lang="fr-CA">Collaborateurs</title>
+                        </bibl>
+                    </listBibl>
+                </ab>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p />
+            </projectDesc>
+            <classDecl>
+                <taxonomy>
+                    <desc>Semantic tags employed in this book can be reviewed at <ref target="http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml">http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml</ref>
+                    </desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-CA">English</language>
+                <language ident="fr-CA">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline />
+                <item />
+                <index>
+                    <term />
+                </index>
+                <byline />
+                <index>
+                    <term />
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:lang="en-CA">
+                <head>
+                    <title level="a">Edmonton Pipelines</title>
+                </head>
+                <byline>
+                    <hi rend="italic">Living and Playing in the Digital City</hi>
+                </byline>
+                <docAuthor> Heather Zwicker</docAuthor>
+                <div type="section">
+                    <head>What is Pipelines?</head>
+                    <p xml:id="p1259">
+                        <ref target="#theme_or_topic">
+                            <ref target="#spatiality">
+                                <ref target="#technology">
+                                    <ref target="#collaboration">Edmonton Pipelines is a research cell based at the University of Alberta that is interested in bringing together urban theory, digital technologies, and creative mapping techniques in order to narrate the city of Edmonton. Our goal is to create a series of interactive digital maps of the city of Edmonton to serve as a platform for both our own and other scholars’ experimentation and research. While we take the city of Edmonton as our focus and object of study, we are also the founding research group in the Canadian Institute for Research Computing in Arts’ (<abbr>CIRCA</abbr>) Digital Urbanism Collaboratory. Through this structure, we also hope to connect and collaborate with urban and digital scholars around the world, building a network of humanists who share our interests and concerns.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1260">
+                        <ref target="#spatiality">Pipelines is not a single installation; rather, as the name might suggest, it is a collection of multiple granular <ref target="#economics">projects akin to the plethora of pipelines one might see at an oil refinery.</ref> To cite three relevant examples: <ref target="#theme_or_topic">
+                                <ref target="#historical_oppression">
+                                    <title level="m" xml:lang="cr-CA">Amiskwaciwâskahikan</title> (the Cree name for Edmonton) will lay bare the city’s colonial logic by superimposing Treaty 6 Aboriginal maps over conventional maps of the space we know as Edmonton;</ref>
+                                <title level="m">Vertical Suburbia</title> will search for the scattered signs of an untold material history of the suburbs; and <title level="m">Past Futures</title> will look at the Edmontons that never were, superimposing planning maps onto city maps to analyze the differences that emerge.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1261">
+                        <ref target="#theme_or_topic">This approach of capturing overlapping perspectives reflects our belief that a city is not a single construct, but rather a ragged collection of meanings that cross each other, sometimes without ever meeting.</ref>
+                        <ref target="#technology">
+                            <ref target="#collaboration">
+                                <ref target="#genre_issue">Each of the Pipelines projects mobilizes the genre most appropriate to its theme, using the richest digital media suited to the pipeline.</ref>
+                                <ref target="#non-book_media">Photography, video, narrative, animation, and audio</ref> are used to link analysis with representation. Each pipeline is led by an individual researcher connected to a specific team. <ref target="#theory">One of the key philosophies behind our diffuse structure is to allow the concerns and research questions of each pipeline to drive the format of expression.</ref> Nonetheless, a majority of our projects will be mapped in some form, and we have selected the HyperCities platform as the prototype for our map-based work.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1262">
+                        <ref target="#tone_or_style">
+                            <ref target="#theme_or_topic">This chapter is more speculative than descriptive</ref>, designed to raise questions about representational possibilities. The question that drives this chapter is whether there are modes of representation that can recreate, digitally, the ludic ways in which we inhabit our twenty-first-century city. In what follows, I address <q>the city</q>—in particular, the city of Edmonton—review some existing digital cartographies, and then use a Pipelines case study to raise questions about the affordances and limitations of ludic digitalism.</ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Why the City? Why this City?</head>
+                    <p xml:id="p1263">
+                        <ref target="#theory">
+                            <ref target="#theme_or_topic">To understand how Pipelines conceptualizes the city of Edmonton, we need to acknowledge four theoretical underpinnings that are related both intricately and contentiously.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1264">
+                        <ref target="#theory">
+                            <ref target="#spatiality">
+                                <ref target="#theme_or_topic">First, Pipelines asserts that the city is a place. The distinction between place and space has traditionally rested on the individual, subjective experience of the city. Space is a set of co-ordinates, an area delineated by objectivity alone, whereas place is what happens when this area is experienced by someone who creates memories, who builds his or her own path along with the traces left behind, who questions the layers of meaning and experience in any given location.<note xml:id="n66" place="end">This distinction is hinted at by Edward S. Casey in his 1997 book <title level="m">The Fate of Place</title>. But it is most clearly made by Augustin Berque in his 2000 book <title level="m" xml:lang="fr-CA">Écoumène: Introduction à l’étude des milieux humains</title>. See also Lucy Lippard, <title level="m">The Lure of the Local</title>
+                                        <bibl>1997</bibl>.</note>
+                                    <ref target="#technology">Space is the Google map on one’s smart phone; place is the creative cartography of the Hitotoki projects, which impregnate Google maps with <q>singular experiences tied to locations.</q>
+                                        <note xml:id="n67" place="end">
+                                            <hi rend="italic" xml:lang="ja-JP">Hitotoki</hi> is a Japanese word meaning <q>a moment in time.</q> Hitotoki sites exist for several global cities, including New York, Tokyo, and London. See <note place="inline">
+                                                <bibl>
+                                                    <ref target="http://www.hitotoki.org/classic/about">http://www.hitotoki.org/classic/about</ref>
+                                                </bibl>
+                                            </note> for an overview of the project.</note>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1265">
+                        <ref target="#theory">
+                            <ref target="#economics">
+                                <ref target="#spatiality">
+                                    <ref target="#theme_or_topic">Second, and at cross purposes with the notion of city as place, we are living less and less inside a city, and more and more inside urbanization itself—that is, inside a material and social space increasingly perceived to be in a constant state of flux—and in regards to which the stakes brought forth by material development—expansion, superposition, destruction, reconstruction—are challenging the formerly strict structural distinctions between centrality and periphery.</ref>
+                                    <note xml:id="n68" place="end">Saskia Sassen expresses it best when developing her well-known concept of the global city: <q>Today, there is no longer a simple straightforward relation between centrality and such geographic entities as the downtown and the central business district</q>
+                                        <note place="inline">
+                                            <bibl>110</bibl>
+                                        </note>.</note>
+                                    <ref target="#writing_climate"> The reshaping and acceleration of urban life at the onset of the new century offers a renewed context in which to think about the production of knowledge itself, since urbanization’s native tongue is not geography but data: demographics, corporate holdings, square footage, and housing values. The notions of flux and circulation endemic to such data permeate and infect our conception of the urban fabric itself.</ref>
+                                    <note xml:id="n69" place="end">On circulation particularly, see <bibl>Boutros and Straw</bibl>.</note>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1266">
+                        <ref target="#theory">
+                            <ref target="#technology">
+                                <ref target="#theme_or_topic">
+                                    <ref target="#spatiality">Third, we are no longer content with simply walking, commuting, or driving in our cities. Many of us are now reflecting on how we accomplish these things while on mobile digital devices and Global Positioning System (<abbr>GPS</abbr>)–enabled maps. The space between the digital and the urban is shrinking and moving toward the surface where subjectivity and urban space intersect, specifically the screen on which we are becoming our own characters in a new urban narrative. This urban reality is less <q>virtual,</q> or disincarnated, than it appeared to be even a decade ago. Pipelines holds that there is a new creativity in the redoubling of one’s experience on the screen of a mobile device, even while our belief in the classical, linear, <ref target="#genre_novel">bildungsroman</ref>-type narrative is challenged by these unforeseen digital parameters. The mobility of the screen itself has become as important as the mobility of images. Not only is the representation of urban experience being transformed by technology but so is the way we look at ourselves through the city.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1267">
+                        <ref target="#theory">
+                            <ref target="#theme_or_topic">
+                                <ref target="#spatiality">
+                                    <ref target="#history">Fourth, it appears to us that lesser known Canadian cities recently have become sites of fascinating activity. Entire neighbourhoods spring up from the ground in a matter of weeks; large downtown areas are reconceived and rebranded through ambitious projects. Since the turn of the twenty-first century, Canadian cities like Edmonton, for example, have been made infamous by such spectacle. This is a unique period in the history of urban development</ref>. <ref target="#writing_climate">From the perspective of the everyday, individual life, it might very well be an untold experience. As a postwar, mid-sized, car-centred city, Edmonton is at once unique and a representative case study. It is unique in that it is North America’s most northern city of over one million inhabitants, but it is also representative of the main type of urban space—based on mobility—that developed after the <ref target="#history">Second World War</ref>. Such cities have been either understudied or dismissed as characterless manifestations of <q>sprawl.</q> It is precisely this lack of attention that animates this project. This is starting to change, with books by Linda Goyette, Darrin Hagen, and my own beginning to chronicle Edmonton. But it is still possible to pick up a book subtitled <title level="m" type="sub">Writing Canadian Cities</title> and see no mention of Edmonton. Far from a detriment, however, being understoried is a boon to the Pipelines project, as it means the Edmonton city space is still malleable, amenable to a plethora of stories that intersect in complex ways. Any single city location might mean a number of things, and our various pipelines attempt to distribute distinct meanings through semiotically dense urban spaces.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Implication: The Need for New Representational Forms</head>
+                    <p xml:id="p1268">
+                        <ref target="#writing_climate">
+                            <ref target="#spatiality">These four contentiously linked theoretical convictions demonstrate the need for new urban narratives—new narrative forms, in fact.</ref>
+                            <ref target="#theme_or_topic">The Pipelines project aims to define the city from the ground up. But the combination of self-reflexive digital mediations, the rapid and disorienting pace of urbanization, the ubiquity of data, and the increasing typicality of urban forms (even walkable European cities are being transformed by housing tracts and big box stores) urges us to ask new questions about a city like Edmonton today. How can we narrate the personal experience of living inside urbanization? What do individual narratives absorb from their physical urban surroundings? What happens to these individual narratives when they incorporate urban data to show how physical surroundings are themselves the result of complex histories yet to be told? <ref target="#genre">What narrative forms can address the experience of relating to our own stories and feelings in a constantly shifting urban space?</ref> How is the assertion of place meaningful in the face of geographic information systems’ (<abbr>GIS</abbr>) blank spatiality, or in the face of multinational corporatization that makes all spaces look and feel the same? Exactly how might a place acquire an aura of authenticity in such a context? Also, how does urbanization exist in the past? What are the visual forms of its memory? And what of all those dreamt-up presents that never were realized, of all those possible futures that never occurred?</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1269">
+                        <ref target="#theme_or_topic">Pipelines is an attempt to tell new city stories for our twenty-first-century reality. The project draws on traditional <ref target="#genre">narrative practice—literature</ref>, <ref target="#genre_non-fiction">creative non-fiction</ref>, <ref target="#genre">close reading</ref>, and <ref target="#genre">literary theory</ref>, for instance—but it also seeks inspiration in new ways of inhabiting the city. <ref target="#theory">Traditionally, theories of urban culture have suggested three major concepts for inhabiting the city as place (versus space): the flâneur, the everyday, and psychogeography.</ref>
+                        </ref>
+                        <note xml:id="n70" place="end">For representative approaches to each, see Merlin Coverley, Will Self, and Ralph Steadman, respectively.</note>
+                        <ref target="#social_movement">
+                            <ref target="#technology">
+                                <ref target="#spatiality">More recently, however, the city has also emerged as place in the form of a playground for tech-savvy adults engaged in city games like Manhunt, parkour, and geocaching.<note xml:id="n71" place="end">This is to say nothing about locative games like Parallel Kingdom, Wherigo, Gbanga Familia, or TrailHit, few of which were even in production when I began writing this essay, nor of less ludic locative apps like FourSquare—the point being that urban gaming is a burgeoning field.</note> Manhunt, a massive game of hide-and-go-seek organized online and played by strangers, turns denizens into fellow game players for a few hours on a specified night; when the game ends, the community dissolves back into the urban flow. Parkour uses urban space against the grain, using city structures as a physical and orienteering challenge. And geocaching creates secret communities by hiding small objects in plain sight, unnoticed except by the online community swapping geolocations. These games, specific to cities, engender twenty-first-century urban subjectivities, less individualistic than those of the late nineteenth (flâneur) or twentieth centuries (psychogeography and the everyday), even though the forms of community they produce are fleeting and often accidental. Like their predecessors, Manhunt, parkour, and geocaching are technologically mediated. As automatic writing is to psychogeography, so is the website to Manhunt; as poetry is to flâneurie, so is the digital map to geocaching.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Digital Cartographies</head>
+                    <p xml:id="p1270">
+                        <ref target="#technology">
+                            <ref target="#spatiality">Of course, there are already many web-based cartographies that take cities as object and inspiration. Hitotoki, mentioned above, offers short place-based narratives from Tokyo, New York, Shanghai, Paris, and Sofia. The site has recently become Twitter-based, but in its <q>classic</q> form Hitotoki asserts the importance of place by insisting that even quotidian stories take place somewhere, and imbues that somewhere with significance. In a different vein, sound maps such as London’s Caledonian Road project demonstrate new ways of collecting and publicizing popular history <note place="inline">
+                                    <bibl>Dein and Panetta</bibl>
+                                </note>.<note xml:id="n72" place="end">
+                                    <ref target="#non-book_media">This map stands in for a growing number of sound maps, to say nothing of the less crafted, more encyclopedic acoustic city maps like those of Toronto</ref>
+                                    <bibl>
+                                        <ref target="http://www.torontosoundmap.com">http://www.torontosoundmap.com</ref>
+                                    </bibl>, Montreal <bibl>
+                                        <ref target="http://www.montrealsoundmap.com">http://www.montrealsoundmap.com</ref>
+                                    </bibl>, and New York <bibl>
+                                        <ref target="ref">http://www.nysoundmap.org</ref>
+                                    </bibl>.</note>
+                                <ref target="#non-book_media">
+                                    <ref target="#spatiality">
+                                        <ref target="#history">
+                                            <ref target="#technology">The Cleveland Historical Map similarly spatializes local history. Finally, the mapping projects that Christian Nold has initiated are particularly compelling for the way they map urban intensities (the San Francisco Emotion Map) or their opposites (the Stockport Emotion Map). Nold equips community mappers with an electronic device that measures physical responses and then he sends them into city spaces. After he amasses responses, he can map the city sites that evoke particularly strong physical responses. Nold’s work also has evolved into community-based mapping, and, as in the case of Stockport, helps citizens understand how and why the city might fail to elicit intensity.</ref>
+                                        </ref>
+                                    </ref>
+                                </ref> Pipelines hopes to adapt many aspects of projects like these—their community-mindedness, their attention to narrative, their understanding of history <q>from below,</q> for instance—while mobilizing the city’s open data to make sense of this particular city, in the here and now.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1271">
+                        <ref target="#technology">
+                            <ref target="#spatiality">Even these superbly thoughtful digital cartographies, however, assume the co-ordinates of latitude and longitude, the truth-telling aspects of mapping. As we know from even basic critiques of cartography, maps hide as much as they reveal. Maps are technologies of mastery that too often participate in the tyranny of the visible, organizing knowledge along unacknowledged co-ordinates—spatial co-ordinates, one might say, instead of place-based knowledge. This tendency is germane to all cartography, but perhaps is especially so for digital technologies, where the flat, disembodied screen underscores the myth of a <hi rend="italic">terra nullius</hi> filled by the mapper’s genius.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1272">
+                        <ref target="#theme_or_topic">
+                            <ref target="#technology">The question I pose at this stage of Pipelines’ development is whether we might use digital technologies against the grain. How might we represent a meaning-rich place using digital means without assuming unfettered visibility, total mastery, and pure knowability? How can we map a place whose meaning is—as with all lived places—incomplete, dynamic, and subject to power struggles? How can we draw a digital map that recognizes, rather than disavows, its own inadequacy? How can we show something important while drawing attention to the fact that we cannot show everything? A Pipelines case study will serve as a way to begin answering these questions.</ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Rossdale</head>
+                    <p xml:id="p1273">
+                        <ref target="#history">
+                            <ref target="#spatiality">The Rossdale Flats, a two-square-kilometre zone geographically central to Edmonton yet topographically as well as symbolically beneath the city core, have staged quintessentially urban contests between private and public, efficiency and commemoration, settlement, commerce, and resource extraction. <ref target="#race_issue">Rossdale occupies the site of pre–Treaty 6 Aboriginal settlements</ref>, the second Fort Edmonton, the inauguration of the Province of Alberta, a burial ground, an ice house, a fair ground, a ball park, and a power plant. <ref target="#class_issue">In the early twentieth century, it offered working-class housing near the coal seams of the North Saskatchewan River; in the early twenty-first century, it is characterized by expensive vinyl-sided Victorian houses alongside the Capital City Recreation Area.</ref>
+                                <ref target="#politics">The conflicts of civic, corporate, and environmental interests have circulated in Rossdale.</ref>
+                                <ref target="#economics">It is the site for powerful past futures: here is where the planetarium was to be built, where baseball would flourish, where power generation would triple, where artist studios and chic cafes would heighten Edmonton’s cosmopolitan cachet.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1274">
+                        <ref target="#history">
+                            <ref target="#spatiality">
+                                <ref target="#technology">Such a dense city space hosts multiple, contradictory stories. What does it mean to <q>read</q> such a densely signifying space? I want a technology that can represent the following</ref>. Stand in one spot in the Rossdale Flats to apprehend the complexity of place. <ref target="#economics">If one looks closely at the boreal bush along the bicycle trails, one can discern raspberry canes and apple trees on the riverbanks, domestic remnants of the backyards from houses expropriated in the 1970s to build the <q>Ribbon of Green,</q> the development of Edmonton’s river valley and ravine system. Where one stands and marvels, trying to imagine the vanished cityscape, is a riverbank hollowed by coal extraction: a formative city phenomenon beneath the plane of the visible. <ref target="#race_issue">Beneath that vision lies another, forcibly made invisible by the false celebration of this city as merely one hundred years old: Aboriginal Rossdale, routinely inhabited for six thousand years. </ref>One may be watched by a ring-necked pheasant, red squirrels, a coyote, foxes, and certainly magpies: denizens of the urban river valley. Look uphill, downriver, and one will see the brick brewery, now the residence of Gene Dub, the city’s best-loved architect, implicated as well in gentrification; upriver, the brickyard site has become a fitness centre. Running past is the North Saskatchewan River itself, linked to the Saskatchewan Glacier, though heated and treated by the Rossdale power generating station.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1275">
+                        <ref target="#economics">
+                            <ref target="#spatiality">
+                                <ref target="#theme_or_topic">Rossdale does not tell a narrative of progress.</ref> In fact, it does not tell a narrative at all. Instead, it shows that every urban phenomenon has contestatory values that collide in one moment and diverge in another—it highlights the <q>flux</q> and <q>circulation</q> of urbanization mentioned earlier. <ref target="#writing_environment">Rossdale tells us that a city is a palimpsest, replete with connotations that concentrate and occlude one another. How to represent this? <ref target="#technology">Our traditional humanist tools—principally, writing—cannot do it well enough. Writing is linear and moves from <q>here</q> to <q>there</q>; I want a more kaleidoscopic tool. <ref target="#genre_poetry">Poetry</ref> proffers possibility, but I suspect that digital technology may prove more flexible and adaptable.</ref>
+                                    <ref target="#history">My hope is that the Rossdale collection in HyperCities will show industrial histories against natural histories, reveal the burial grounds and the traffic circle built over them, demonstrate the power relations and neighbourly relations that together built this place and continue to give it meaning.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1276">
+                        <ref target="#spatiality">
+                            <ref target="#technology">What the Rossdale collection will look like is still to be determined, but I want to close by speculating about digitizing ludic tropes for inhabiting the city. <ref target="#social movement">With regard to Manhunt, for example, is there something in the way players find and use spaces that do not appear on a map that might allow us to better tell stories? In a sense, Manhunt turns the specificities of GIS in on itself: one might geolocate an individual and still not see her. As I mention above, parkour quite explicitly uses urban space against the grain. Could we imitate parkour’s hard-body insistence on taking built environments as a challenge? What if we take the built environment (whether that is urban space or Google Earth imagery) not as a given but as a dare? As for geocaching, it creates secret communities, populating the city with secret caches we cavalierly bypass all the time. Unlike maps, which pretend to tell everything, a map that uses geocaching as its formative metaphor would pretend to tell nothing.</ref> But everything is there, under the surface. <ref target="#theme_or_topic">Urban meaning is precisely that: not inert, but actively formed by adopting a purposeful perspective, by looking carefully at places where others see nothing, following power lines and lost burial grounds to uncover something telling. Nowhere is this truer than in Edmonton, where the one thing most people accept is that there is nothing to see in the city.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Author’s Note</head>
+                    <p xml:id="p1277" rend="authors-note">
+                        <ref target="#collaboration">I wish to acknowledge the assistance of colleagues Russell Cobb, Maureen Engel, and Daniel Laforest, as well as Erika Luckert, the student who has worked most closely with me on the Rossdale project.</ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Works Cited</head>
+                    <listBibl>
+                        <head>Digital Sources</head>
+                        <bibl>
+                            <title level="m">Cleveland Historical</title>. <ref target="http://www.clevelandhistorical.org">http://www.clevelandhistorical.org</ref>
+                        </bibl>
+                        <bibl>Dein, Alan, and Francesca Panetta. <title level="a">Sound Map: The Caledonian Road</title>. <title level="j">The Guardian</title> 26 April 2010. <ref target="http://www.guardian.co.uk/society/interactive/2010/apr/26/caledonian-road-sound-map">http://www.guardian.co.uk/society/interactive/2010/apr/26/caledonian-road-sound-map</ref>
+                        </bibl>
+                        <bibl>Mod, Craig. <title level="a">Hitotoki: Narrative Mapping the World</title>. <ref target="http://www.hitotoki.org">http://www.hitotoki.org</ref>
+                        </bibl>
+                        <bibl>
+                            <title level="a">Montreal Sound Map</title>. <ref target="http://www.montrealsoundmap.com">http://www.montrealsoundmap.com</ref>
+                        </bibl>
+                        <bibl>
+                            <title level="a">New York Sound Map</title>. <ref target="http://www.nysoundmap.org">http://www.nysoundmap.org</ref>
+                        </bibl>
+                        <bibl>Nold, Christian. <title level="m">Bio Mapping / Emotion Mapping</title>. 2004–ongoing. <ref target="http://biomapping.net">http://biomapping.net</ref>
+                        </bibl>
+                        <bibl>
+                            <title level="a">Toronto Sound Map</title>. <ref target="http://www.torontosoundmap.com">http://www.torontosoundmap.com</ref>
+                        </bibl>
+                    </listBibl>
+                    <listBibl>
+                        <head>Print Sources</head>
+                        <bibl xml:lang="fr-CA">Berque, Augustin. <title level="m">Écoumène: Introduction à l’étude des milieux humains</title>. Paris: Éditions Belin, 2000.</bibl>
+                        <bibl>Boutros, Alexandra, and Will Straw, eds. <title level="m">Circulation and the City: Essays on Urban Culture</title>. Montreal and Kingston: McGill-Queen’s University Press, 2010.</bibl>
+                        <bibl>Bruegmann, Robert. <title level="m">Sprawl: A Compact History</title>. Chicago: University of Chicago Press, 2006.</bibl>
+                        <bibl>Casey, Edward S.<title level="m">The Fate of Place: A Philosophical History</title>. Berkeley: University of California Press, 1998.</bibl>
+                        <bibl>Coverley, Merlin. <title level="m">Psychogeography</title>. London: Pocket Essentials, 2010.</bibl>
+                        <bibl>Edwards, Justin D., and Douglas Ivison. <title level="m">Downtown Canada: Writing Canadian Cities</title>. Toronto: University of Toronto Press, 2005.</bibl>
+                        <bibl>Goyette, Linda, and Carolina Jakeway Roemmich. <title level="m">Edmonton In Our Own Words</title>. Edmonton: University of Alberta Press, 2004.</bibl>
+                        <bibl>Hagen, Darrin. <title level="m">The Edmonton Queen: Not a Riverboat Story</title>. Edmonton: Slipstream Books, 1997.</bibl>
+                        <bibl>Jacobs, Jane. <title level="m">The Death and Life of Great American Cities</title>. 1961. New York: Modern Library, 1993.</bibl>
+                        <bibl>Lippard, Lucy. <title level="m">The Lure of the Local: Senses of Place in a Multicentered Society</title>. New York: New Press, 1997.</bibl>
+                        <bibl>Lynch, Kevin. <title level="m">The Image of the City</title>. Cambridge, MA: MIT Press, 1960.</bibl>
+                        <bibl>Mumford, Lewis. <title level="m">The Culture of Cities</title>. 1938. New York: Harcourt Brace, 1981.</bibl>
+                        <bibl>Sassen, Saskia. <title level="a">The Global City: Introducing a Concept and Its History</title>. <title level="m">Mutations</title>. Rem Koolhaas, Stefano Boeri, Sanford Kwinter, Nadia Tazi, Hans Ulrich Obrist. Barcelona: <abbr>actar</abbr>; Bordeaux: Arc en rêve centre d’architecture, 2001. 104–15.</bibl>
+                        <bibl>Self, Will, and Ralph Steadman. <title level="m">Psychogeography: Disentangling the Modern Conundrum of Psyche and Place</title>. New York: Bloomsbury, 2007.</bibl>
+                        <bibl>Zwicker, Heather, ed. <title level="m">Edmonton on Location: River City Chronicles</title>. Edmonton: NeWest Press, 2005.</bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

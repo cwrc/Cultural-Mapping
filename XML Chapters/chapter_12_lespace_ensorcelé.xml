@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>-->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">L’espace ensorcelé</title>
+                <title level="m" type="main" xml:lang="en-CA">Cultural Mapping and the Digital Sphere</title>
+                <title level="m" type="sub" xml:lang="en-CA">Place and Space</title>
+                <author>Stéphanie Walsh Matthews</author>
+                <editor role="editor">
+                    <forename>Ruth</forename>
+                    <surname>Panofsky</surname>
+                </editor>
+                <editor role="editor">
+                    <forename>Kathleen</forename>
+                    <surname>Kellett</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <forename>Ilovan</forename>
+                    </name>
+                </respStmt>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor>
+                    <orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Dynamic Table of Contexts editors: </resp>
+                    <name>
+                        <forename>Ruth</forename>
+                        <surname>Panofsky</surname>
+                    </name>
+                    <name>
+                        <forename>Kathleen</forename>
+                        <surname>Kellett</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Principal: </resp>
+                    <name>
+                        <forename>Susan</forename>
+                        <surname>Brown</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <surname>Ilovan</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copyediting and proofreading: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Olivier</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexing:</resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name>
+                        <forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Cover design: </resp>
+                    <name role="book_designer">
+                        <forename>Virginia</forename>
+                        <surname>Penny</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface design lead: </resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead: </resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>Mary Lou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer:</resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by: </resp>
+                    <name role="markup_editor">
+                        <forename>Kristine</forename>
+                        <surname>Abramoff</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Anita</forename>
+                        <surname>Cutic</surname>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address>
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address>
+                        <addrLine>www.cwrc.ca</addrLine>
+                    </address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1- 55195-365- 6</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Individual chapter extract from: Cultural Mapping and the Digital Sphere: Place and Space, ed. Ruth Panofsky &amp; Kathleen Kellett (Edmonton: University of Alberta Press, 2015 / DToC ed. 2016).</p>
+                <ab type="host-volume">
+                    <listBibl>
+                        <bibl>
+                            <title level="a" type="main">Foreword</title>
+                            <author>
+                                <forename>Susan</forename>
+                                <surname>Brown</surname>
+                            </author> &amp; <author>
+                                <forename>Mary-Jo</forename>
+                                <surname>Romaniuk</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Preface</title>
+                            <author>
+                                <forename>Ruth</forename>
+                                <surname>Panofsky</surname>
+                            </author> &amp; <author>
+                                <forename>Kathleen</forename>
+                                <surname>Kellett</surname>
+                            </author>
+                        </bibl>
+                        <listBibl>
+                            <head>Part I. Place and the Digital Frontier</head>
+                            <bibl>
+                                <title level="a" type="maiin">Mapping Tags and Tagging Maps</title>
+                                <title type="sub">Leveraging Spatial Markup for Literary History</title>
+                                <author>
+                                    <forename>Susan</forename>
+                                    <surname>Brown</surname>
+                                </author>, <author>
+                                    <forename>Isobel</forename>
+                                    <surname>Grundy</surname>
+                                </author>, <author>
+                                    <forename>Mariana</forename>
+                                    <surname>Paredes-Olea</surname>
+                                </author>, <author>
+                                    <forename>Jeffery</forename>
+                                    <surname>Antoniuk</surname>
+                                </author> &amp; <author>
+                                    <forename>Breanna</forename>
+                                    <surname>Mroczek</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Modeling Collaboration in Digital Humanities Scholarship</title>
+                                <title type="sub">Foundational Concepts of an EMiC UA Project Charter</title>
+                                <author>
+                                    <forename>Paul</forename>
+                                    <surname>Hjartarson</surname>
+                                </author>, <author>
+                                    <forename>Harvey</forename>
+                                    <surname>Quamen</surname>
+                                </author>, <author>
+                                    <forename>Andrea</forename>
+                                    <surname>Hasenbank</surname>
+                                </author>, <author>
+                                    <forename>Vanessa</forename>
+                                    <surname>Lent</surname>
+                                </author> &amp; <author>
+                                    <orgName> EMiC UA</orgName>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">An Interactive, Materialist-Semiotic Archive</title>
+                                <title type="sub">Visualizing the Canadian Theatrical Canon in the Simulated Environment for Theatre</title>
+                                <author>
+                                    <forename>Sasha</forename>
+                                    <surname>Kovacs</surname>
+                                </author> and <author>
+                                    <forename>Jennifer</forename>
+                                    <surname>Roberts-Smith</surname>
+                                </author>, <author>
+                                    <forename>Theresa M.</forename>
+                                    <surname>Dobson</surname>
+                                </author>, <author>
+                                    <forename>Sandra</forename>
+                                    <surname>Gabriele</surname>
+                                </author>, <author>
+                                    <forename>Omar</forename>
+                                    <surname>Rodrigues-Arenas</surname>
+                                </author>, <author>
+                                    <forename>Stan</forename>
+                                    <surname>Ruecker</surname>
+                                </author>, <author>
+                                    <forename>Stéfan</forename>
+                                    <surname>Sinclair</surname>
+                                </author>, <author>
+                                    <forename>Shawn</forename>
+                                    <surname>DeSouza-Coelho</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">"Talk to the Work"</title>
+                                <title type="sub">Applying istc Identifiers to the Digital Edition of the Canadian Bookman (1909–1941)</title>
+                                <author>
+                                    <forename>Ravit H.</forename>
+                                    <surname>David</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">How to Play with Maps</title>
+                                <author>
+                                    <forename>Bethany</forename>
+                                    <surname>Nowviskie</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Edmonton Pipelines</title>
+                                <title type="sub">Living and Playing in the Digital City </title>
+                                <author>
+                                    <forename>Heather</forename>
+                                    <surname>Zwicker</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Representing Canadian Queer Authorship</title>
+                                <title type="sub">Making the Internet a Women’s Place</title>
+                                <author>
+                                    <forename>Michelle</forename>
+                                    <surname>Schwartz</surname>
+                                </author> &amp; <author>
+                                    <forename>Constance</forename>
+                                    <surname>Crompton</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Part II. Writers and Readers: Mapping Textual Space</head>
+                            <bibl>
+                                <title level="a" type="main">Salomania</title>
+                                <title type="sub">Maud Allan, Postcards, and Early Twentieth-Century “Viral” Circulation</title>
+                                <author>
+                                    <forename>Cecily</forename>
+                                    <surname>Devereux</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Toronto the Good in the Fiction and Life of Grace Irwin</title>
+                                <author>
+                                    <forename>Patricia</forename>
+                                    <surname>Demers</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">« Where are you froM? »</title>
+                                <title type="sub" xml:lang="fr-CA">La ville et l’écriture migrante dans l’autofiction de Marguerite Andersen</title>
+                                <author>
+                                    <forename>Kathleen</forename>
+                                    <surname>Kellett</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Languages as Spaces, Translation as Play</title>
+                                <title type="sub">Moving (through) Languages</title>
+                                <author>
+                                    <forename>Lori</forename>
+                                    <surname>Saint-Martin</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">L'espace ensorcelé</title>
+                                <title type="sub">Les enfants du sabbat d’Anne Hébert</title>
+                                <author>
+                                    <forename>Stéphanie</forename>
+                                    <surname>Walsh Matthews</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick and Kim Thúy</title>
+                                <author>
+                                    <forename>Mireille</forename>
+                                    <surname>MaiTruong</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Standing on a Rainbow</title>
+                                <title type="sub">Reading in Place, Position, and Time</title>
+                                <author>
+                                    <forename>Margaret</forename>
+                                    <surname>Mackey</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <bibl>
+                            <title type="main" xml:lang="en-CA">Contributors</title> / <title type="main" xml:lang="fr-CA">Collaborateurs</title>
+                        </bibl>
+                    </listBibl>
+                </ab>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p />
+            </projectDesc>
+            <classDecl>
+                <taxonomy>
+                    <desc>Semantic tags employed in this book can be reviewed at <ref target="http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml">http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml</ref>
+                    </desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-CA">English</language>
+                <language ident="fr-CA">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline />
+                <item />
+                <index>
+                    <term />
+                </index>
+                <byline />
+                <index>
+                    <term />
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:lang="fr-CA">
+                <head>
+                    <title level="a">L’espace ensorcelé</title>
+                </head>
+                <byline>
+                    <title level="m">Les enfants du sabbat</title> d’Anne Hébert</byline>
+                <docAuthor> Stéphanie Walsh Matthews</docAuthor>
+                <q type="block">
+                    <ref target="#response_informal">Mais quelle lecture invraisemblable! <ref target="#religion">Une nonne démoniaque, permise de passer entre les murailles du temps, invincible à l’exorcisme… Ces rites religieux récités à perfection… Le couvent… Cette cabane…</ref> Hélas, ma chère Stéphanie, j’ai honte d’en avoir tiré tant de plaisir. Tu diras à Anne Hébert qu’elle m’a envahie comme un rêve.</ref>
+                    <lb /> —Extrait d’une lettre de ma grand-mère après qu’elle ait lu <title level="m">Les enfants du sabbat</title>
+                </q>
+                <p xml:id="p1436">
+                    <ref target="#tone_or_style">
+                        <ref target="#theory"> Tel un rêve trop réel, pendant lequel la raison n’interrompt point l’invraisemblable, la structure habituelle des objets est renversée dans un ordre tout de même plausible et, de ce fait, les paroles inconséquentes d’un personnage fabuleux forment un verdict sur le siècle. Le réalisme magique enchante tant il nous désenchante d’un monde fictif cruel et malade. Comme l’exprime son appellation, le réalisme magique oppose des extrêmes qu’il finit par marier, dans un syllogisme irréalisable, dans la complicité des paradoxes.</ref>
+                    </ref>
+                </p>
+                <p xml:id="p1437">
+                    <ref target="#genre_fiction">
+                        <ref target="#genre_novel">
+                            <ref target="#theory">Au-delà des contextes de production auxquels il est couramment rattaché, le réalisme magique peut imprégner certains romans qui n’ont pourtant pas été étudiés sous l’angle de ce genre populaire. <ref target="#writing_climate">
+                                    <ref target="#spatiality">Ainsi, l’espace québécois est un contexte de production réaliste magique idéal du fait de ses fables, de ses superstitions nombreuses et de ses saisons contrastées favorisant le chant et le conte, espace où s’épousent la dure réalité d’une terre et les sentiments d’exil et d’appartenance, où le mysticisme d’un pays rêvé hante les songes et où la culpabilité religieuse domine la mémoire et occupe l’esprit du <ref target="#nationality">Canadien français</ref>. Cet espace se reflète dans la production littéraire québécoise qui, à son tour, joue avec les crises et les passions de la culture et de l’histoire. <ref target="#history">Ne suffit-il pas de lire les romans d’après <ref target="#social_movement">la Révolution tranquille</ref> au Québec pour en remarquer la qualité unique, pour ne pas dire subversive, ironique, politique et radicalement empreinte de son contexte social?</ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1438">
+                    <ref target="#theme_or_topic">
+                        <ref target="#genre_fiction">Je voudrais montrer ici que le roman d’Anne Hébert <title level="m">Les enfants du sabbat</title> appartient lui aussi à cette veine, ce qui peut d’emblée surprendre. <ref target="#intertextuality">Pourtant, avec ce texte, écrit et publié bien avant que le réalisme magique ne devienne le genre préféré des littéraires comme des non-littéraires, avant même l’ascension vertigineuse des Isabel Allende, Angela Carter, Gabriel García Márquez, Toni Morrison, Ben Okri, Salman Rushdie et bien d’autres, Anne Hébert a en fait façonné un récit troublant dont les caractéristiques répondent parfaitement aux critères du genre <note xml:id="n89" place="end">Pour une analyse approfondie de cette question, voir Walsh Matthews <bibl>2011</bibl>.</note>.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1439">
+                    <ref target="#genre_fiction">
+                        <ref target="#religion">
+                            <ref target="#genre_novel">
+                                <ref target="#representation_of_women">
+                                    <ref target="#spatiality">En résumé, <title level="m">Les enfants du sabbat</title> raconte l’histoire d’une jeune religieuse, Sœur Julie, qui vit au couvent du Précieux-Sang, récit qui banalise à la fois la raison d’être du pouvoir surnaturel et qui subvertit toutes les notions associées à la structure sociale du conservatisme religieux et étatique du Québec. Le roman met de plus en scène les secrets infernaux de la vie rurale et raconte que la jeune nonne est une sorcière possédée par le diable. <ref target="tone_or_style">Dans ce texte, <q>l’ordre du monde est renversé</q>
+                                        </ref>
+                                    </ref> : <ref target="#characterization">Julie hante et terrorise ses consœurs et la mère supérieure et elle enchante et stupéfie l’aumônier et le docteur. Envahie par sa culpabilité, elle est capable de visions et de voyages extraordinaires : elle retourne dans son passé et revit les abus de ses parents lors des sabbats dans cette vieille cabane de la Montagne de B… <ref target="#economics">
+                                            <ref target="#childhood">Enfant pauvre</ref>, violée par son père (qui est en réalité le diable), abandonnée par son frère, pour qui l’amour est incestueux, et sous l’emprise d’une mère qui lui a transmis en héritage ses dons de sorcière et qui, même de la tombe, imprègne la vie de la jeune nonne de ses sacrilèges, sœur Julie finira par donner naissance au bébé diable dans le grenier du couvent</ref>.</ref>
+                                    <ref target="tone_or_style">Écrit dans un style féroce où s’entremêlent ironie, parodie, grotesque, horreur et amour, ce roman constitue un modèle du genre et met en relief l’importance du lien au social, marqueur caractéristique du réalisme magique</ref>
+                                </ref>. <ref target="#spatiality">Il est ainsi impossible d’ignorer que les zones cloîtrées du couvent sont le reflet de l’espace lugubre et violent de la cabane de la Montagne de B…</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1440">
+                    <ref target="#genre_fiction">Si l’on peut s’étonner de l’ajout d’Hébert à la liste des auteurs réalistes magiques, on ne peut guère l’être de l’incursion du genre dans la littérature québécoise. <ref target="#spatiality">Et, si le Québec est un espace propice à l’émergence du genre, c’est notamment parce que le surnaturel est fortement présent dans sa culture et sa tradition littéraire</ref>. <ref target="#anthologization">
+                            <ref target="#response_formal">Plusieurs critiques québécois ont ainsi constaté que le surnaturel accompagne et traverse la littérature québécoise, ce qu’illustrent les nombreuses anthologies et œuvres critiques sur le sujet</ref>
+                            <note xml:id="n90" place="end">Surtout la recherche dans le genre du fantastique et son apport au contexte culturel québécois.</note>
+                        </ref>
+                    </ref>. <ref target="#intellectual_history">
+                        <ref target="#intertextuality">Cet héritage, bien ancré dans les contes fabuleux de la Chasse Galerie, offre des antécédents réalistes magiques qui sont déjà visibles dans la fiction du 19 <hi rend="superscript">e</hi> siècle, dans le folklore et les légendes du pays, ce qui a contribué à instaurer une identité littéraire distincte de celle de la France. <ref target="#history">La littérature dite contemporaine, c’est-à-dire celle d’après <ref target="#social_movement">la Révolution tranquille</ref>, est fortement marquée par cet héritage.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1441">
+                    <ref target="#theory">
+                        <ref target="#motif">
+                            <ref target="#religion">Outre l’utilisation du surnaturel (qui renvoie à la mythologie et aux traditions folkloriques), la littérature québécoise emploie divers éléments du réel qui reviennent tel un <hi rend="italic">leitmotiv</hi>: le joual et la religion dominent ainsi depuis longtemps dans de nombreux textes contemporains</ref>
+                        </ref>. <ref target="#tone_or_style">Le réalisme est volontairement brisé par l’incursion d’éléments surnaturels lorsque, selon le sociocritique québécois André Bourassa, la littérature québécoise veut exprimer un désir de transformation de la réalité et se débarrasser ainsi de cette réalité</ref>. <ref target="#genre_novel">
+                            <ref target="#writing_climate       ">Par l’entremise du surnaturel et des références au traditionnel, le roman est donc un reflet de son contexte de production</ref>
+                        </ref>
+                    </ref>.</p>
+                <p xml:id="p1442">
+                    <ref target="#intertextuality">
+                        <ref target="#genre_fiction">
+                            <ref target="#religion">
+                                <ref target="#tone_or_style">La littérature contemporaine québécoise est dominée par l’inclusion de l’improbable et de l’extraordinaire dans la fiction car elle est héritière d’une culture traditionnelle dans laquelle les superstitions, l’oralité, les croyances religieuses et les fantasmes sont révélateurs d’une situation sociale. Que le Québec se soit épris des grands auteurs latino-américains peut paraître alors moins surprenant.</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1443">
+                    <ref target="#theory">
+                        <ref target="#genre_fiction">Si le réalisme magique semble présenter une lacune dans ce contexte littéraire, c’est sans doute attribuable au fait que, malgré son important lectorat, il n’ait toujours pas fait l’objet d’une définition suffisamment lumineuse pour s’appliquer à des œuvres issues de contextes habituellement non associés à ce genre.</ref>
+                    </ref>
+                </p>
+                <p xml:id="p1444">
+                    <ref target="#genre_fiction">
+                        <ref target="#genre_novel">
+                            <ref target="#tone_or_style">Selon diverses définitions, le genre réaliste magique se manifeste dans un roman par l’entremise d’une structure spécifique incluant les codes paradoxaux du réel (code construit selon les paramètres établis du roman réaliste) et du magique (dont les événements sont de l’ordre du surnaturel, de l’extraordinaire, se distinguant ainsi des événements de la réalité hors texte). <ref target="#spatiality">À l’orée du réalisme magique existe ainsi toujours un lien spécifique entre l’espace de production auquel fait appel le texte et le texte lui-même. Outre cette relation intrinsèque entre espace et texte, le genre réaliste magique implique que coexistent ces deux codes, et donc que leur antinomie soit résolue</ref>. <ref target="#voice_or_narration">Selon Amaryll Beatrice Chanady, c’est par l’instance narrative que ces deux codes antinomiques sont résolus, puisque l’effet réaliste n’est pas brisé par l’incursion d’événements extraordinaires. Au contraire, ce sont parfois les éléments réalistes qui créent un effet de merveilleux, transformant alors le naturel en extraordinaire</ref>
+                            </ref>
+                        </ref>
+                    </ref>.</p>
+                <p xml:id="p1445">
+                    <ref target="#theory">
+                        <ref target="#intellectual_history">
+                            <ref target="#genre_fiction">
+                                <ref target="#spatiality">Cette attraction entre des pôles contraires peut-elle servir à révéler des particularités de la réalité hors texte, en mettant en valeur des attributs de l’espace de production? <ref target="#intertextuality">Les théoriciens travaillent sur cette question depuis la parution des textes fondateurs sur la nature du genre réaliste magique, sur ce qui illumine la relation entre texte et contexte. En particulier, depuis la parution de <title level="m" xml:lang="en-CA">Magical Realism and the Fantastic: Resolved Versus Unresolved Antinomy</title>, l’ouvrage fondamental de Chanady, s’ils se sont donné pour tâche de décrire, d’énumérer et de critiquer ce genre insaisissable dans des lancées purement théoriques, ils n’ont pas pour autant abandonné la réflexion sur le lien primordial entre l’espace responsable (et sa culture) et sa capacité à générer le genre</ref>. <ref target="#voice_or_narration">Charles Scheel conclut ainsi que c’est ce désir de considérer le genre (ou mode, ou <q>label</q>) comme un effet culturel qui empêche l’érection d’une définition des techniques narratives du réalisme magique<note xml:id="n91" place="end">Dans sa communication <title level="a">Le réalisme magique : mode narratif de la fiction ou label culturel?</title>, Scheel décrit le problème culturaliste du réalisme magique. Selon lui, le réalisme magique a été assujetti à une étude culturelle brouillant la recherche à son propos en tant que mode narratif de la fiction. S’il est vrai que le réalisme magique mérite une définition technique, comme je l’explique, il reflète néanmoins son contexte culturel, ce qui constitue un lien intéressant.</note>. Il est vrai que la juxtaposition de diverses appellations, définitions et utilisations du réalisme magique a contribué à empêcher que se dégage une vision claire et constante de ce genre</ref>. De nombreuses publications, surtout entre 1995 et 2005, ont rassemblé des écrits sur le réalisme magique afin d’en dégager la nature<note xml:id="n92" place="end">Je fais essentiellement référence aux textes de Amaryll Beatrice Chanady, de Wendy B. Faris, de Katherine Roussos, de Charles Scheel et de Lois P. Zamora.</note> mais, selon moi, ces ouvrages ont davantage contribué à entretenir la confusion dans l’usage du terme et des notions qui lui sont associées.</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1446">
+                    <ref target="#theory">
+                        <ref target="#theme_or_topic">
+                            <ref target="#genre_fiction">Pour ma part, je considère le réalisme magique comme un genre littéraire au sens où le définit Tzvetan Todorov</ref>. Et si je me sers de Todorov comme référence pour une définition générique, c’est qu’on lui attribue l’une des définitions les plus solides du fantastique, genre connexe et similaire au réalisme magique<note xml:id="n93" place="end">Chanady s’en est tenue aux propos de Todorov afin d’expliquer son emploi du terme <q>mode</q> comme concept générique du réalisme magique. Dans ma thèse de doctorat, j’utilise la notion de genre à la lumière de l’ouvrage critique sur le fantastique dans la littérature québécoise de Michel Lord <bibl>
+                                    <title level="m">La logique de l’impossible</title>, 1995</bibl>.</note>. <ref target="#genre_novel">Si l’on excepte les critiques et débats taxinomiques, les lecteurs du genre acceptent un roman réaliste magique selon des critères inhérents au texte fantastique, sans les distinguer nécessairement <note xml:id="n94" place="end">
+                                    <ref target="#response_formal">
+                                        <ref target="#tone_or_style">Dès la parution de textes critiques sur ce genre, on a attribué au réalisme magique un ensemble de caractéristiques indéniablement propices à souligner un style particulier, en particulier la présence du surnaturel dans une trame narrative réelle et la critique sociale. <ref target="#spatiality">Toutefois, en raison de la popularité de certains auteurs, certains liens fondamentaux entre l’exotisme d’un lieu et la magie du texte ont embrouillé la notion générique</ref>. Il a fallu préciser la distinction entre réalisme merveilleux et réalisme magique et également faire le tri entre réalisme magique et surréel, baroque et néo-fantastique</ref>
+                                    </ref>.</note>
+                            </ref>. Le genre fantastique a été, lui aussi, fortement relié à son contexte de production, tant il éclaire les situations sociales<note xml:id="n95" place="end">Notamment <title level="m">Le récit fantastique</title> d’Irène Bessière <bibl>1974</bibl>.</note>. De plus, le jeu qui, dans le fantastique, oppose le doute du lecteur à celui du narrateur est révélateur de l’espace contextuel auquel il se réfère. Enfin, le fantastique est sans conteste populaire, comme l’est le réalisme magique</ref>.</ref>
+                </p>
+                <p xml:id="p1447">
+                    <ref target="#voice_or_narration">
+                        <ref target="#tone_or_style">
+                            <ref target="#theory">
+                                <ref target="#genre_novel">
+                                    <ref target="#genre_fiction">Afin de sortir du labyrinthe taxinomique, je propose la définition suivante. Premièrement, le réalisme magique romanesque est <hi rend="italic">a priori</hi> abordé par une voix narrative qui ne distingue pas les événements dits réels des surnaturels. Ou, plus exactement, c’est <hi rend="italic">au moyen</hi> de la narration que les événements surnaturels sont banalisés et que les aspects réalistes du roman sont organisés afin de les rendre bizarres. Deuxièmement, l’alliage de codes opposés fait appel à une écriture souvent critique, ironique et parodique. Troisièmement, offrant un style qui engage à tout sans rien promettre, plusieurs œuvres réalistes magiques n’offrent rien en guise de moralité explicite — il est plutôt question de remise en cause perpétuelle. <ref target="#spatiality">J’ajouterai pour terminer que la trame narrative réaliste magique joue avec son contexte de production et qu’en jouant avec l’espace narratif elle subvertit en retour l’espace socioculturel hors texte</ref>.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1448">
+                    <ref target="#genre_fiction">
+                        <ref target="#voice_or_narration">
+                            <ref target="#spatiality">
+                                <ref target="#theme_or_topic">
+                                    <ref target="#theory">Pour résumer, c’est dans l’espace narratif que se mêlent et s’inversent les deux codes et que naît le réalisme magique. Au-delà de cette structure narrative particulière, dont les subversions sont nombreuses, les thèmes réalistes magiques produisent des effets de perturbation et de questionnement</ref>
+                                </ref>. <ref target="#literary_schools">Si nous concevons aujourd’hui le réalisme magique comme un genre dominant la <q>
+                                        <hi rend="italic" xml:lang="en-CA">world literature</hi>
+                                    </q> et la critique postcoloniale, c’est parce qu’il menace le paradigme dominant avec un couteau à la gorge</ref>. <ref target="#intertextuality">Les romans de Allende, de Carter, de García Márquez, de Morrison, de Okri et de Rushdie illustrent bien ce phénomène — voire en sont emblématiques — pointant avec force des lieux mouvementés et subversifs dont les histoires refoulées doivent remonter à la surface</ref>.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1449">
+                    <ref target="#intellectual_history">La parution du roman d’Hébert en 1975 s’insère à un moment propice de l’histoire québécoise ainsi dans une période pertinente de son évolution littéraire, une période étayée par le désir de se débarrasser des valeurs et traditions d’antan. <ref target="#social_movement">
+                            <ref target="#history">
+                                <ref target="#politics">La sociocritique Marie-Hélène Lemieux explique que cette rupture s’accomplit avec la Révolution tranquille car elle se fabrique selon <q>les réformes politiques, économiques, sociales et culturelles réalisées entre 1960 et 1966 par le gouvernement libéral de Jean Lesage</q>
+                                    <note place="inline">
+                                        <bibl>97</bibl>
+                                    </note>. Selon Lemieux, la société québécoise passe d’une société dite traditionnelle (c’est-à-dire rurale et catholique) à une société dite moderne. Ce mouvement vers le laïque et l’urbain est le résultat d’une revendication sociale s’opposant à l’époque précédente. S’éloignant de la <q>Grande Noirceur</q> du gouvernement de Maurice Duplessis, la période 1950-1980 sera caractérisée par ses pluralités, ses contestations et ses changements en faveur de la nouveauté <note place="inline">
+                                        <bibl>Lemieux 97</bibl>
+                                    </note>.</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1450">
+                    <ref target="#theory">Je voudrais compléter cette présentation du contexte en rappelant ce que Pierre Nepveu définit comme l’idéologie de la révolte. Selon lui, le <q>rapport au réel tend à s’établir dans un contexte de lois, de normes, d’idéologies à <hi rend="italic">subvertir</hi>
+                        </q>
+                        <note place="inline">
+                            <bibl>Nepveu 212</bibl>
+                        </note>. <ref target="#intellectual_history">
+                            <ref target="#writing_conditions">J’ajouterai que, depuis 1960, l’écriture au Québec, comme le souligne Jozef Kwaterko, <q>s’est constituée en un espace de tensions, de jeu ouvert de langage, donnant prise à une réévaluation particulièrement dynamique du rapport au réel, au présent et au passé collectif</q>
+                                <note place="inline">
+                                    <bibl>12</bibl>
+                                </note>.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1451">
+                    <ref target="#theory">
+                        <ref target="#tone_or_style">
+                            <ref target="#genre_fiction">Soutenue par ce cadre sociocritique et à l’aide des théories sur le réalisme magique soulignant le lien fort entre les thèmes et les structures subversives du genre et le contexte hors texte, je voudrais démontrer que Julie constitue, en tant que nonne-sorcière, un dispositif générique, symbolique et critique d’un contexte dépassant amplement le cadre d’un couvent ensorcelé à Québec en 1940. Et, surtout, que l’analyse sémiotique des structures inversées révèle l’existence d’un paradoxe typique du genre réaliste magique. Cela permet d’associer pour la première fois ce discours à la littérature québécoise contemporaine.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1452">
+                    <ref target="#genre_novel">
+                        <ref target="#history">
+                            <ref target="#religion">Dans le roman sont décrites la vie rurale des années 1930 et la vie au couvent des années 1940. S’opposent ainsi deux décennies, toutes deux antérieures aux années de <ref target="#social_movement">la Révolution tranquille</ref>, mais, si l’on s’appuie sur les écrits de Bourassa, Lemieux et Nepveu, l’air du temps s’y fait toutefois sentir. Dès le titre, nous sommes renvoyés à la fois à la révolte et au surnaturel, l’évocation du sabbat annonçant déjà une antinomie (le sabbat renvoyant à la fois à une célébration de la sorcellerie et à une tradition ancrée dans le religieux). <ref target="#theory">Outre cette <q>ambivalence</q>
+                                    <note xml:id="n96" place="end">Le mot <q>ambivalence</q> renvoie ici à l’acception de Bakhtine comme <q>union de sens contraires</q>, comme nous le détaillerons plus loin.</note>, le roman typifie l’inclusion du surnaturel dans des espaces empreints d’effets réalistes</ref>.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1453">
+                    <ref target="#tone_or_style">
+                        <ref target="#characterization">
+                            <ref target="#voice_or_narration">
+                                <ref target="#genre_novel">Ces effets, que l’on peut indéniablement rattacher au style réaliste magique, ouvrent la voie à la subversion sociale. D’abord, le roman a pour sujet privilégié une sorcière qui est également nonne. Julie est réellement sorcière, personnage surnaturel capable d’actes surnaturels <note xml:id="n97" place="end">
+                                        <ref target="#intertextuality">Dans le même ordre d’idées, le rôle de sorcière dans le réalisme magique en littérature caribéenne est discuté dans Walsh Matthews <bibl>2012</bibl>
+                                        </ref>.</note>. Elle participe néanmoins à la vie du couvent, où elle est Sœur Julie de la Trinité. Ces faits ne sont ni métaphoriques, ni allégoriques. Ce ne sont pas seulement des éléments surnaturels qui sont associés à Julie : elle est un personnage dont les éléments réalistes sont également indéniables. <ref target="#theory">Et, conformément à la définition du genre, le conflit des deux codes antinomiques (le réel et le surnaturel) est résolu grâce à la voix narrative. Afin de rapprocher ces deux codes, l’instance narrative utilise un effet de banalisation, renvoyant un élément surnaturel ou extraordinaire au réel, le réduisant ainsi à un acte ordinaire.</ref>
+                                    <ref target="#intertextuality">Afin d’illustrer cet effet de banalisation, voici un extrait de la nouvelle <title level="m">Un monsieur très vieux avec des ailes immenses</title> de l’auteur symbolique du genre, Gabriel García Márquez : <q>C’est un ange, leur dit-elle. Il venait sûrement pour le petit, mais le pauvre est si âgé que la pluie l’a flanqué par terre</q>
+                                        <note place="inline">
+                                            <bibl>10-11</bibl>
+                                        </note>. Ce court extrait illustre bien l’effet banalisant de la narration : le fait que l’homme aux ailes soit un ange n’importe que peu, c’est plutôt le fait que la pluie, trop forte, l’ait flanqué par terre qui prime. Le mot <q>flanqué</q> illustre bien quant à lui ce que les théoriciens du genre réaliste magique entendent par <q>jeux de langage</q>, l’expression réduisant et banalisant l’ange <note xml:id="n98" place="end">
+                                            <ref target="#theory">Dans son analyse des techniques narratives réalistes magiques, Charles Scheel se sert du même passage afin de démontrer que, dès le début, le récit pose des problèmes de lecture, notamment du fait de l’introduction <hi rend="italic" xml:lang="la-VA">in media res</hi> et de la <q>nonchalance</q>
+                                                <bibl>136-37</bibl>
+                                            </ref>.</note>
+                                    </ref>.</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1454">
+                    <ref target="#genre_fiction">
+                        <ref target="#tone_or_style">Ce qui est, de plus, typique du genre, les événements magiques s’expliquent grâce à une logique traditionnelle, superstitieuse ou de nature mythique. La magie peut être étonnante sans toutefois être considérée comme impossible à l’aune des croyances du contexte socioculturel. <ref target="#genre_novel">
+                                <ref target="#religion">Ainsi, dans <title level="m">Les enfants du sabbat</title>, on parle de possession et d’exorcisme (éléments significatifs du catholicisme), qui sont des préceptes religieux inscrits dans le réel de l’époque. En cela, ils ne relèvent pas du royaume de l’impossible. En particulier, pour les religieuses du couvent, le diable constitue une véritable menace. Comme le magique dans le réalisme magique, le diable n’est ni métaphorique, ni allégorique. Le roman place de ce fait sur un seul niveau tous les éléments du surnaturel, peu importe qu’ils soient sacrilèges ou sacrés. En réduisant la distance entre ces antipodes, on ouvre la voie à une critique, qui s’y faufile. Le sabbat illustre ce principe : le diable, une métamorphose du père de Julie, viole la jeune fille, et la description du viol est tout à fait ancrée dans le réel. L’acte <hi rend="italic" xml:lang="la-VA">horribilis</hi> est ponctué de latin (toujours en italique dans le texte), le <q>
+                                        <hi rend="italic" xml:lang="la-VA">ite missa est</hi>
+                                    </q> provenant de voix désincarnées</ref>. <ref target="#charactrization">Après l’acte sanglant et brutal, Sœur Julie se dévoile à son père, ayant été témoin du viol de sa jeune forme. C’est au tour de la nonne de pouvoir faire subir un acte terrible à son père. Elle choisit plutôt de lui demander son aide. Son agresseur, son père, devra dès lors la servir. <ref target="#spatiality">L’espace temporel de cet accord est 1930</ref>. Toutefois, c’est en 1940 qu’une nonne du couvent, sœur Gemma, va être victime des tours de la sorcière Julie et de son père le diable. Ce passage illustre un nivellement pluridimensionnel qui résout de multiples antinomies sémantiques, typographiques, temporelles et spatiales. Pourrait-on dire alors que le Québec d’antan et le nouveau Québec sont mêlés dans ce brouillage thématique, temporel et spatial? Les rapprochements affutés dans ce roman sont ceux entre viol et rituels religieux, joual et latin, l’instruit et l’ignorant, la violence et l’amour <note xml:id="n99" place="end">Le discours direct de Julie, de Adélard et de Philomène, ainsi que celui des prostituées du roman, est marqué par le joual, langue courante québécoise. Dans plusieurs passages du roman, le joual et le latin sont entremêlés, tout comme le sont la messe et le sabbat.</note>.</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1455">
+                    <ref target="#genre_novel">
+                        <ref target="#tone_or_style">
+                            <ref target="#theory">Que faire de ces <q>ambivalences</q>? Afin d’éviter que tout ne devienne possible, le roman réaliste magique est assujetti à de nombreuses lois qui structurent à la fois le réel et le magique. Le récit réaliste magique expose ainsi, par la conjonction d’actes surnaturels et réels, diverses réalités sous-jacentes du contexte de production littéraire.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1456">
+                    <ref target="#genre_novel">
+                        <ref target="#tone_or_style">Dans <title level="m">Les enfants du sabbat</title>, il n’y a ainsi rien d’aléatoire. Les pouvoirs de Julie suivent une logique magique interne. Le lecteur accepte bien cet ordre et intègre ces éléments, présentés comme normaux, dans sa perception du réel hors texte, c’est-à-dire du <hi rend="italic">réel</hi> réel. Dans le récit, la sorcellerie est ainsi léguée à Julie par Philomène (sa mère sorcière). Que Julie soit sorcière n’est pas problématique puisque <q>(tout le monde sait que la sorcellerie est héréditaire)</q>
+                            <note place="inline">
+                                <bibl>108</bibl>
+                            </note>, comme nous le rappelle le texte en employant une formule qui banalise cet effet généalogique en plaçant entre parenthèses la remarque qui vise à souligner la nature évidente de la sorcellerie. La généalogie est présente dans le code du réel du roman par le truchement d’événements surnaturels. La sorcellerie est introduite de façon <q>nonchalante</q> (tel l’ange aux ailes immenses de Marquez) à l’aide de remarques triviales. Dans <title level="m">Les enfants du sabbat</title> s’entremêlent alors histoire, biologie et sorcellerie. <ref target="#history">Je voudrais surtout souligner ici la référence à l’histoire québécoise à l’aide de personnages non fictionnels, comme Barbe Hallé, sorcière et figure historique québécoise qui, dans le récit fictionnel, serait l’ancêtre de Julie. L’histoire générale de la sorcellerie est également présente, de façon paratextuelle, grâce à un inventaire d’études véritables sur la sorcellerie inclus en fin d’ouvrage <note place="end">En fin de roman, on trouve une courte bibliographie qui énumère dans la rubrique <title level="a">Ouvrages consultés</title> les ouvrages suivants : <title level="m">Magistrats et sorciers en France au <hi rend="small-caps">xviii</hi>
+                                        <hi rend="superscript">e</hi> siècle</title>, <title level="m">La sorcellerie au Québec du <hi rend="small-caps">xviii</hi>
+                                        <hi rend="superscript">e</hi> siècle</title>, <title level="m">Les dossiers secrets de la sorcellerie et de la magie noire</title>, <title level="m">Les sorcières et leur monde</title>, <title level="m">La sorcellerie</title>, <title level="m">La sorcière</title> et <title level="m">Les sorcières</title>. Je tiens surtout à souligner que tous ces ouvrages venaient d’être réédités (entre 1966 et 1973) au moment de l’écriture des <title level="m">Enfants du sabbat</title>.</note>.</ref>
+                            <ref target="#theory">
+                                <ref target="#genre_fiction">
+                                    <ref target="#theme_or_topic">Comme nous l’avons vu, le réalisme magique est un genre qui permet souvent une interprétation d’aspects thématiques et idéologiques typiques du contexte culturel de l’œuvre. <ref target="#spatiality">L’étude de la sorcellerie au Québec révèle ainsi le lien entre ce genre et un aspect fondamental du contexte socioculturel</ref>. En regroupant une pluralité de thèmes (religion, pauvreté, sorcellerie et ignorance), le réalisme magique produit ici une vision critique du contexte social. Grâce à ces thèmes, certaines valeurs traditionnelles ainsi que certains éléments négligés ou oubliés dans le contexte contemporain sont mis en évidence et contestés</ref>
+                                </ref>
+                            </ref>.</ref>
+                    </ref>
+                </p>
+                <p xml:id="p1457">
+                    <ref target="tone_or_style">
+                        <ref target="#genre_fiction">Afin de réaliser une analyse des procédés sociocritiques du genre, il faut engendrer <hi rend="italic" xml:lang="la-VA">a priori</hi> une première analyse de la construction des personnages et des objets auxquels ils sont associés. <ref target="#voice_or_narration">Au-delà de la nature du genre, par essence contradictoire, Sœur Julie, la nonne-sorcière, est symbolique d’une ambivalence enrichie par un réseau éclaté et dispersé dans le roman sur plusieurs plans et niveaux narratifs</ref>. <ref target="#theory">J’emprunte le terme <q>ambivalence</q> à Mikhail Bakhtine, dont la contribution sur le carnavalesque et le grotesque a largement concouru à la riche production d’approches sémiotiques du genre réaliste magique. Comme l’explique Janet Paterson, le concept bakhtinien d’ambivalence renvoie à <q>l’union de sens contraires</q>
+                                <note place="inline">
+                                    <bibl>62</bibl>
+                                </note>
+                            </ref>. <ref target="#religion">Quant à moi, j’entends par là que les intervertissements et les contradictions dévoilent le système d’inversions qui gouverne le texte. De nombreux objets (des tasses, des statuettes, des couteaux, des habits de nonne) — et pas seulement Julie — sont à la fois religieux et démoniaques. L’objet est ainsi mis en action dans la structure paradoxale du genre et il devient magique car il a été inséré dans un espace également paradoxal, celui du réel du texte (qui est paradoxal du fait que ce code dépend du réel hors texte tout en se posant définitivement comme de la fiction)</ref>. <ref target="#spatiality">C’est donc l’inversion spatiale qui modifie l’appartenance au code. Ainsi scindé par l’antinomie, l’objet (comme le réalisme magique) renvoie à la fois à l’ambivalence et à l’inversion. Nous avons vu que, dès son titre, <title level="m">Les enfants du sabbat</title> inspire une analyse portant sur les contrastes et les contradictions. Ainsi, comme l’explique Janet Paterson, <q>la <hi rend="italic">cabane</hi> des sorciers s’oppose et se juxtapose au <hi rend="italic">couvent</hi> des dames du Précieux-Sang et à la cellule de Sœur Julie, effectuant ainsi par un transcodage sémantique le passage entre deux espaces et deux signes</q>
+                                <note place="inline">
+                                    <bibl>61</bibl>
+                                </note>. Je voudrais souligner toutefois que, dans <title level="m">Les enfants du sabbat</title>, la magie n’est pas formellement liée à la cabane des sorciers. C’est au contraire dans le couvent des nonnes du Précieux-Sang que le surnaturel abonde. Comme Julie, l’objet devient magique lorsqu’il transgresse les bornes du passé de la Montagne de B… pour se caser dans le couvent</ref>.</ref>
+                    </ref>
+                </p>
+                <p xml:id="p1458">
+                    <ref target="#genre_fiction">
+                        <ref target="#tone_or_style">
+                            <ref target="#censorship">Pour mener une critique sociale tout en évitant la censure ou la contestation, les récits réalistes magiques sont souvent empreints d’un ton ironique, à la fois humoristique et critique</ref>. <ref target="#characterization">
+                                <ref target="#voice_or_narration">
+                                    <ref target="#response_formal">Cela permet au personnage de la sorcière de ne pas être confiné à un rôle grotesque ou fantasmagorique. Julie, outre le fait qu’elle offre une complexité polarisée par ses rôles complexes, peut inciter, par l’entremise des jeux présents dans la voix narrative, à de multiples réverbérations critiques. Il n’est donc pas surprenant que de nombreux critiques d’Hébert aient attribué à cette auteure des étiquettes du type <q>ironique</q>, <q>satirique</q>, <q>parodique</q> ou même <q>comique</q>
+                                    </ref>. Ces caractéristiques sont en réalité attribuables au genre, et ce roman en est riche. Voici par exemple comment Julie la sorcière a exercé sa volonté sur la pauvre sœur économe. Elle lui a expliqué où trouver les cigarettes que le docteur a laissées. Voici comment s’enchaînent les événements et comment survient le déclin de la bonne sœur économe</ref>
+                            </ref>
+                        </ref>
+                    </ref> :</p>
+                <q type="block">
+                    <ref target="#characterization">
+                        <ref target="#economics">La sœur économe a très rapidement appris à fumer. Dès cet instant, sa vie a été changée […] Dans un brouillard bleu qui la fait tousser, la sœur économe traite des affaires du couvent avec une dextérité et une assurance jamais encore atteintes [et] elle empoigne le téléphone, une cigarette au coin de la bouche, les yeux tout plissés par la fumée. D’une voix de basse russe, elle fait des affaires […] Ils vendent, à perte, actions, obligations et propriétés, achètent très cher des savanes dans des régions perdues […] Fureur. Désespoir. La sœur économe est aussitôt destituée de ses fonctions et enfermée dans le grenier […] <ref target="#gender_issues">La sœur économe hurle derrière la porte qu’elle est un homme d’affaires</ref>
+                        </ref>
+                    </ref>. <note place="inline">
+                        <bibl>139-40</bibl>
+                    </note>
+                </q>
+                <p xml:id="p1459">
+                    <ref target="#theme_or_topic">Il est clair ici que, malgré la présence de thèmes et d’éléments violents et toxiques, le roman d’Hébert (comme ceux de plusieurs autres romanciers réalistes magiques) incite au rire en offrant un commentaire cinglant</ref>. <ref target="#tone_or_style">La critique, masquée par le parodique et l’ironique, est possible : Sœur Julie, sorcière qui incarne le diable dans un couvent, subvertit ainsi l’ordre et les idées généralement admises</ref>.</p>
+                <p xml:id="p1460">
+                    <ref target="#religion">
+                        <ref target="#theme_or_topic">
+                            <ref target="#tone_or_style">Que ce renversement des idées généralement admises constitue un élément central du roman a été bien étudié</ref>. Ellen W. Munley, dans son article sur l’emploi de la métaphore dans <title level="m">Les enfants du sabbat</title>, explique ainsi que Julie, comme sorcière, incarne et réincarne le diable, représentant alors <q>les inversions de l’ordre civil établi et de la religion catholique au Québec. <ref target="#spatiality">Elle est possédée par les forces néfastes et est prisonnière des murs du couvent et de la cabane des sorciers</ref>
+                            </q>
+                            <note xml:id="n101" place="end">
+                                <q>
+                                    <hi rend="italic">the inversion of Québec’s established civil order and Catholic religion. Possessed by dark forces between the emprisoning </hi>[sic]<hi rend="italic"> walls of the convent and the rustic walls of the cabin that houses the Satanic rites</hi>
+                                </q>
+                                <bibl>Munley 57</bibl>.</note>. De nature subversive, la contestation s’insère à plusieurs niveaux du texte et va au-delà de la critique religieuse. Surtout, comme le constate Munley, elle prend des formes sanguinaires, violentes et scandaleuses (entre autres le viol de Julie, la naissance du bébé diable, les examens et les stigmates de Julie et l’épisode de sœur Gemma qui mange, couverte de sang animal, de la viande crue dans sa chambre)</ref>
+                    </ref>.</p>
+                <p xml:id="p1461">
+                    <ref target="#voice_or_narration">
+                        <ref target="#genre_novel">Dans les multiples structures du roman (thématique, diégétique et typographique), nous constatons que les codes antinomiques s’enchevêtrent pour former un réseau signifiant. Il existe ainsi, dans <title level="m">Les enfants du sabbat</title>, un profond désir de libération et de transformation. De plus, c’est son statut d’enfermée, qu’elle partage avec les sœurs du Précieux-Sang et avec son frère Joseph, que Julie réfute lorsqu’elle se sauve par la fenêtre. <ref target="#spatiality">
+                                <ref target="#theme_or_topic">Dès le début du roman, les lieux claustrophobes, l’habit de la nonne, l’emprise de la cabane ou du couvent et les thématiques de possession et d’enfermement signalent le cloisonnement</ref>
+                            </ref>. <ref target="#childhood">Or il faut, comme l’affirme Julie, <q>se débarrasser de la cabane de son enfance […] être délivrée du couple sacré qui présidait à la destinée de la cabane</q>
+                                <note place="inline">
+                                    <bibl>7</bibl>
+                                </note>.</ref>
+                            <ref target="#response_formal">
+                                <ref target="#theme_or_topic">
+                                    <ref target="#genre_fiction">Plusieurs critiques ont mis en lumière ce désir d’être libéré d’une situation opprimante comme constituant un thème privilégié du réalisme magique, et ce thème est bien présent dans la critique québécoise</ref>. Un genre qui subvertit les idées généralement admises, qui renverse les structures dominantes et qui donne la voix aux marginalisés est loin d’être étranger au contexte de production littéraire québécois.</ref>
+                                <ref target="#religion">Ainsi, le texte relève d’un contexte considérablement marqué par la tradition et la religion et, comme le note Denis Bouchard, <q>ces jeux sont féroces pour [les] Québécois accoutumés à des épopées des Laurentides et du Saint-Laurent. Des rétrospectives dénichant l’inceste et tout un catalogue de vices honteux peuvent en fin de compte se rapporter à nos expériences, inédites à cause d’un manque de courage héréditaire, refoulées à cause de notre culpabilité</q>
+                                    <note place="inline">
+                                        <bibl>173</bibl>
+                                    </note>
+                                </ref>.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1462">
+                    <ref target="#representation_of_women">
+                        <ref target="#genre_fiction">
+                            <ref target="#genre_novel">
+                                <ref target="#characterization">Ce roman, quoiqu’imprégné d’un désir de libération, demeure cependant prisonnier du paradoxe car la libération ne mène pas à l’oraison. Les choix de Julie semblent étonnants car ils ne visent pas l’amélioration ou la morale. Respectant en cela la structure subversive du genre, voici comment Julie espère dépasser ses limites héréditaires : <q>Je triompherai là où Philomène a échoué. Je coucherai avec mon fils. Telle est la loi antique […] Je serai mère et grande mère, maîtresse et sorcière […] J’oublierai ce couvent de si pauvres magies, toute l’Église souffreteuse et mon frère Joseph qui m’a trahie</q>
+                                    <note place="inline">
+                                        <bibl>174</bibl>
+                                    </note>. Ce n’est donc pas la raison qui prime sur l’ordre du monde maléfique. C’est, au contraire, dans ce monde inversé, Julie qui exerce son pouvoir de transformation et de libération. Elle se libère de la cabane pour la dépasser. Comme le note André Gaulin, elle constitue une figure féminine similaire aux autres figures féminines des romans d’Anne Hébert, qui <q>revendiquent chacune à leur manière un statut social, dans la révolte, dans le refus, luttent toutes du dedans contre un dehors aliénant</q>
+                                    <note place="inline">
+                                        <bibl>77</bibl>
+                                    </note>. Par cette confrontation des codes, Julie s’engage dans une libération qui donne naissance au réalisme magique, permettant ainsi de <q>[réveiller] les désirs cachés et les passions réprimées</q>
+                                    <note place="inline">
+                                        <bibl>English et Viswanathan 115</bibl>
+                                    </note>. Comme la logique du réalisme magique est interne, il est fort probable qu’elle ne propose aucune solution et, si solution il y a, rarement celle-ci sera-t-elle positive. <ref target="#theme_or_topic">Ce sont plutôt les renversements qui sont typiques, et qui illustrent bien les propos de Neil Bishop au sujet des thèmes de libération et d’enfermement : <q>
+                                            <ref target="#spatiality">le thème de la clôture spatiale, avec la signification fortement négative d’emprisonnement physique et psychologique qui s’y rattache, se renforce lors de la transgression des plus forts interdits, ce qui suggère ce que peut avoir d’illusoire, comme moyen de libération, ce recours à la sorcellerie</ref>
+                                        </q>
+                                    </ref>
+                                    <note place="inline">
+                                        <bibl>57</bibl>
+                                    </note>.</ref>
+                            </ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p1463">
+                    <ref target="#genre_fiction">
+                        <ref target="#theory">
+                            <ref target="#tone_or_style">Le réalisme magique ne se veut définitivement pas un genre moralisateur, <q>rose</q> et simplet. Au contraire sont présentes dans ces récits des subversions qui laissent au lecteur un arrière-goût plutôt amer et toxique.</ref>
+                            <ref target="#representation_of_women">
+                                <ref target="#characterization">Comme le remarque Anne Fonteneau, Sœur Julie dépasse bien les bornes du social acceptées et tolérées, mais ce n’est pas pour autant pour qu’elle est assujettie à des sensibilités plus modernes <note xml:id="n102" place="end">Anne Fonteneau, dans sa thèse de doctorat <title level="m">Le féminin et le sacré dans l’œuvre en prose d’Anne Hébert</title>, explique que les personnages féminins vivent un malaise lorsque la structure établie et les croyances institutionnalisées sont incapables de combler leur vie.</note>. <ref target="#characterization">Par sa nature antinomique, Julie, dans la misère de son monde, personnage grotesque à la fois victime et bourreau, est troublante et ensorcelante. Anne Fonteneau explique aussi que Julie est initiée par sa <q>mère, mais que son intronisation ne se produit qu’après le viol du père. Un viol qui se répètera et duquel Julie prendra plaisir.</q>
+                                    </ref>
+                                </ref>
+                                <note place="inline">
+                                    <bibl>183</bibl>
+                                </note> Faut-il dorénavant comprendre que la libération et la signifiance féminine demeurent dans les limites du rapport au père, à l’agresseur, à une sexualité soumise? Le genre réaliste magique ne résout jamais l’ambivalence des personnages. Au contraire, dans l’espace thématique du réalisme magique, un personnage ambivalent est à la source de tout un réseau d’énigmes à résoudre</ref>.</ref>
+                    </ref>
+                </p>
+                <p xml:id="p1464">
+                    <ref target="#genre_fiction">
+                        <ref target="#tone_or_style">
+                            <ref target="#spatiality">Par l’entremise des renversements caractéristiques du genre réaliste magique, le pouvoir de se voir et de se dire annonce et reflète en même temps son contexte de production. Ainsi, Julie se voit et se dit, s’enchante et se désenchante. Elle peut dépasser ses limites. Écrire dans une veine réaliste magique, c’est se mettre au diapason de cette volonté libératrice, se pencher sur les structures qui forment un lien entre l’envisageable et l’impossible. Le récit se trace dans l’équilibre du contraste et du paradoxe. Dans cet espace, tout est à la fois possible et contestable</ref>
+                        </ref>
+                    </ref>.</p>
+                <div type="section">
+                    <head>Bibliographie</head>
+                    <listBibl>
+                        <bibl>Allende, Isabel. <title level="m" xml:lang="en-CA">The House of the Spirits</title>. Trad. Magda Bogin. New York: Bantam, 1986. (traduction de <title level="m">La casa de los espíritus</title>, 1982)</bibl>
+                        <bibl>Bakhtine, Mikhail. <title level="m" xml:lang="en-CA">Rabelais and his World</title>. Trad. Hélène Iswolsky. Bloomington: Indiana University Press, 1984.</bibl>
+                        <bibl>Bessière, Irène. <title level="m">Le récit fantastique</title>.Paris: Larousse, 1974.</bibl>
+                        <bibl>Bishop, Neil.<title level="a">
+                                <title level="m">Les enfants du sabbat</title> et la problématique de la libération chez Anne Hébert</title>. <title level="m">The Art and Genius of Anne Hébert: Essays on Her Works</title>. Dir. Janis L. Pallister. Cranbury, NJ: Rosemont Publishing, 2001. 54-74.</bibl>
+                        <bibl>Bouchard, Denis. <title level="m">Une lecture d’Anne Hébert : La recherche d’une mythologie</title>. Montréal: Hurtubise <hi rend="small-caps">hmh</hi>, 1977.</bibl>
+                        <bibl>Bourassa, André. <title level="m">Surréalisme et littérature québécoise</title>. Montréal: L’Étincelle, 1977.</bibl>
+                        <bibl>Carter, Angela. <title level="m">Nights at the Circus</title>. London: Vintage, 1994. (1<hi rend="superscript">e</hi> édition 1984)</bibl>
+                        <bibl>Chanady, Amaryll Beatrice. <title level="m">Magical Realism and the Fantastic: Resolved Versus Unresolved Antinomy</title>. New York: Garland Publishing, 1985.</bibl>
+                        <bibl>English, Judith et Jacqueline Viswanathan. <title level="a">Les deux dames du Précieux-Sang : à propos des <title level="m">Enfants du sabbat</title> d’Anne Hébert</title>. <title level="j">Présence francophone</title> 22 (1981): 111-19.</bibl>
+                        <bibl>Faris, Wendy B. <title level="m" xml:lang="en-CA">Ordinary Enchantments: Magical Realism and the Remystification of Narrative</title>. Nashville: Vanderbilt University Press, 2004.</bibl>
+                        <bibl>Fonteneau, Anne. <title level="m">Le féminin et le sacré dans l’œuvre en prose d’Anne Hébert</title>. Thèse de doctorat, Université Laval, 2001.</bibl>
+                        <bibl>García Márquez, Gabriel. <title level="m">Cent ans de solitude</title>. Trad. Carmen et Claude Durand. Paris: Seuil, 1968. (traduction de <title level="m" xml:lang="es-ES">Cien años de soledad</title>, 1967)</bibl>
+                        <bibl>. <title level="a">Un monsieur très vieux avec des ailes immenses</title>. <title level="m">L’Incroyable et triste histoire de la candide Erendira et de sa diabolique grand-mère</title>. Trad. Claude Couffon. Paris: Grasset et Fasquelle, 1977. 10-11.</bibl>
+                        <bibl>Gaulin, André. <title level="a">Lecture politique d’Anne Hébert, point de vue d’une protagoniste</title>. <title level="j">Centre d’études québécoises</title> 92 (1994): 77-82.</bibl>
+                        <bibl>Hébert, Anne. <title level="m">Les enfants du sabbat</title>. Montréal: Boréal, 1995. (1<hi rend="superscript">e</hi> édition 1975)</bibl>
+                        <bibl>Kwaterko, Jozef. <title level="m">Le roman québécois et ses (inter)discours</title>. Québec: Nota Bene, 1998.</bibl>
+                        <bibl>Lemieux, Marie-Hélène. <title level="a">Pour une sociocritique du roman <title level="m">Kamouraska</title> d’Anne Hébert</title>. <title level="j">Voix et images</title> 28.3 (2003): 95-113.</bibl>
+                        <bibl>Lord, Michel. <title level="m">La logique de l’impossible</title>. Québec: Nuit Blanche Éditeur, 1995.</bibl>
+                        <bibl>Munley, Ellen W. <title level="a" xml:lang="en-CA">Spatial Metaphors in Anne Hébert’s <title level="m" xml:lang="fr-CA">Les enfants du sabbat</title>: Within and beyond the Confines of the Convent, the Cabin, and the Quotidian</title>. <title level="j">Dolphin</title> 20 (1991): 55-66.</bibl>
+                        <bibl>Nepveu, Pierre.<title level="m">L’écologie du réel. Mort et naissance de la littérature québécoise contemporaine</title>. Paris: Seuil, 1988.</bibl>
+                        <bibl>Okri, Ben. <title level="m" xml:lang="en-CA">The Famished Road</title>. London: Vintage, 1992.</bibl>
+                        <bibl>Paterson, Janet. <title level="a">Parodie et sorcellerie.</title>
+                            <title level="j">Études littéraires</title> 19.1 (1986): 59-66.</bibl>
+                        <bibl>Roussos, Katherine. <title level="m">Décoloniser l’imaginaire: Le réalisme magique chez Maryse Condé, Sylvie Germain et Marie Ndiaye</title>. Paris: L’Harmattan, 2007.</bibl>
+                        <bibl>Rushdie, Salman. <title level="m" xml:lang="en-CA">Midnight’s Children</title>. London: Picador, 1982.</bibl>
+                        <bibl>Scheel, Charles W. <title level="a">Le réalisme magique: mode narratif de la fiction ou label culturaliste?</title>
+                            <title level="m">Études culturelles, anthropologie culturelle et comparatisme. Vol. 2</title>. Dir. Didier Souiller, Antonio Dominguez Leiva, Sébastien Hubier et Philippe Chardin. Actes du 35<hi rend="superscript">e</hi> congrès de la <hi rend="small-caps">sflgc</hi> (Société française de littérature générale et comparée). Dijon: Éditions du Murmure, 2010. 211-22.</bibl>
+                        <bibl>. <title level="m">Réalisme magique et réalisme merveilleux : Des théories aux poétiques</title>. Paris: L’Harmattan, 2005.</bibl>
+                        <bibl>Todorov, Tzvetan. <title level="m">Introduction à la littérature fantastique</title>. Paris: Seuil, 1970.</bibl>
+                        <bibl>Viau, Robert (dir.). <title level="m">La création littéraire dans le contexte de l’exiguïté</title>. Québec: <hi rend="small-caps">mnh</hi>, 2000.</bibl>
+                        <bibl>Walsh Matthews, Stéphanie. <title level="m">Le réalisme magique dans la littérature contemporaine québécoise</title>. Thèse de doctorat, Université de Toronto, 2011.</bibl>
+                        <bibl>. <title level="a">Les vérités ensorcelantes: les sorcières dans la littérature francophone au féminin</title>. <title level="j">MaComère</title> 13.1-2 (2012): 82-97.</bibl>
+                        <bibl>Weisgerber, Jean (dir.). <title level="m">Le réalisme magique. Roman. Peinture. Cinéma</title>. Lausanne: L’Âge d’homme, 1987.</bibl>
+                        <bibl>Zamora, Lois P. et Wendy B. Faris (dir.). <title level="m" xml:lang="en-CA">Magical Realism: Theory, History, Community</title>. Durham, NC: Duke University Press, 1995.</bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

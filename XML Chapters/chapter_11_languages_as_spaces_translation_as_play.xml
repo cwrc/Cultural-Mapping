@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>-->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Languages as Spaces, Translation as Play</title>
+                <title level="m" type="main" xml:lang="en-CA">Cultural Mapping and the Digital Sphere</title>
+                <title level="m" type="sub" xml:lang="en-CA">Place and Space</title>
+                <author>Lori Saint-Martin</author>
+                <editor role="editor">
+                    <forename>Ruth</forename>
+                    <surname>Panofsky</surname>
+                </editor>
+                <editor role="editor">
+                    <forename>Kathleen</forename>
+                    <surname>Kellett</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <forename>Ilovan</forename>
+                    </name>
+                </respStmt>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor>
+                    <orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Dynamic Table of Contexts editors: </resp>
+                    <name>
+                        <forename>Ruth</forename>
+                        <surname>Panofsky</surname>
+                    </name>
+                    <name>
+                        <forename>Kathleen</forename>
+                        <surname>Kellett</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Principal: </resp>
+                    <name>
+                        <forename>Susan</forename>
+                        <surname>Brown</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name>
+                        <forename>Mihaela</forename>
+                        <surname>Ilovan</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copyediting and proofreading: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Olivier</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexing:</resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name>
+                        <forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Cover design: </resp>
+                    <name role="book_designer">
+                        <forename>Virginia</forename>
+                        <surname>Penny</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface design lead: </resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead: </resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>Mary Lou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer:</resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by: </resp>
+                    <name role="markup_editor">
+                        <forename>Kristine</forename>
+                        <surname>Abramoff</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Anita</forename>
+                        <surname>Cutic</surname>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address>
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address>
+                        <addrLine>www.cwrc.ca</addrLine>
+                    </address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1- 55195-365- 6</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Individual chapter extract from: Cultural Mapping and the Digital Sphere: Place and Space, ed. Ruth Panofsky &amp; Kathleen Kellett (Edmonton: University of Alberta Press, 2015 / DToC ed. 2016).</p>
+                <ab type="host-volume">
+                    <listBibl>
+                        <bibl>
+                            <title level="a" type="main">Foreword</title>
+                            <author>
+                                <forename>Susan</forename>
+                                <surname>Brown</surname>
+                            </author> &amp; <author>
+                                <forename>Mary-Jo</forename>
+                                <surname>Romaniuk</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Preface</title>
+                            <author>
+                                <forename>Ruth</forename>
+                                <surname>Panofsky</surname>
+                            </author> &amp; <author>
+                                <forename>Kathleen</forename>
+                                <surname>Kellett</surname>
+                            </author>
+                        </bibl>
+                        <listBibl>
+                            <head>Part I. Place and the Digital Frontier</head>
+                            <bibl>
+                                <title level="a" type="maiin">Mapping Tags and Tagging Maps</title>
+                                <title type="sub">Leveraging Spatial Markup for Literary History</title>
+                                <author>
+                                    <forename>Susan</forename>
+                                    <surname>Brown</surname>
+                                </author>, <author>
+                                    <forename>Isobel</forename>
+                                    <surname>Grundy</surname>
+                                </author>, <author>
+                                    <forename>Mariana</forename>
+                                    <surname>Paredes-Olea</surname>
+                                </author>, <author>
+                                    <forename>Jeffery</forename>
+                                    <surname>Antoniuk</surname>
+                                </author> &amp; <author>
+                                    <forename>Breanna</forename>
+                                    <surname>Mroczek</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Modeling Collaboration in Digital Humanities Scholarship</title>
+                                <title type="sub">Foundational Concepts of an EMiC UA Project Charter</title>
+                                <author>
+                                    <forename>Paul</forename>
+                                    <surname>Hjartarson</surname>
+                                </author>, <author>
+                                    <forename>Harvey</forename>
+                                    <surname>Quamen</surname>
+                                </author>, <author>
+                                    <forename>Andrea</forename>
+                                    <surname>Hasenbank</surname>
+                                </author>, <author>
+                                    <forename>Vanessa</forename>
+                                    <surname>Lent</surname>
+                                </author> &amp; <author>
+                                    <orgName> EMiC UA</orgName>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">An Interactive, Materialist-Semiotic Archive</title>
+                                <title type="sub">Visualizing the Canadian Theatrical Canon in the Simulated Environment for Theatre</title>
+                                <author>
+                                    <forename>Sasha</forename>
+                                    <surname>Kovacs</surname>
+                                </author> and <author>
+                                    <forename>Jennifer</forename>
+                                    <surname>Roberts-Smith</surname>
+                                </author>, <author>
+                                    <forename>Theresa M.</forename>
+                                    <surname>Dobson</surname>
+                                </author>, <author>
+                                    <forename>Sandra</forename>
+                                    <surname>Gabriele</surname>
+                                </author>, <author>
+                                    <forename>Omar</forename>
+                                    <surname>Rodrigues-Arenas</surname>
+                                </author>, <author>
+                                    <forename>Stan</forename>
+                                    <surname>Ruecker</surname>
+                                </author>, <author>
+                                    <forename>Stéfan</forename>
+                                    <surname>Sinclair</surname>
+                                </author>, <author>
+                                    <forename>Shawn</forename>
+                                    <surname>DeSouza-Coelho</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">"Talk to the Work"</title>
+                                <title type="sub">Applying istc Identifiers to the Digital Edition of the Canadian Bookman (1909–1941)</title>
+                                <author>
+                                    <forename>Ravit H.</forename>
+                                    <surname>David</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">How to Play with Maps</title>
+                                <author>
+                                    <forename>Bethany</forename>
+                                    <surname>Nowviskie</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Edmonton Pipelines</title>
+                                <title type="sub">Living and Playing in the Digital City </title>
+                                <author>
+                                    <forename>Heather</forename>
+                                    <surname>Zwicker</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Representing Canadian Queer Authorship</title>
+                                <title type="sub">Making the Internet a Women’s Place</title>
+                                <author>
+                                    <forename>Michelle</forename>
+                                    <surname>Schwartz</surname>
+                                </author> &amp; <author>
+                                    <forename>Constance</forename>
+                                    <surname>Crompton</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Part II. Writers and Readers: Mapping Textual Space</head>
+                            <bibl>
+                                <title level="a" type="main">Salomania</title>
+                                <title type="sub">Maud Allan, Postcards, and Early Twentieth-Century “Viral” Circulation</title>
+                                <author>
+                                    <forename>Cecily</forename>
+                                    <surname>Devereux</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Toronto the Good in the Fiction and Life of Grace Irwin</title>
+                                <author>
+                                    <forename>Patricia</forename>
+                                    <surname>Demers</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">« Where are you froM? »</title>
+                                <title type="sub" xml:lang="fr-CA">La ville et l’écriture migrante dans l’autofiction de Marguerite Andersen</title>
+                                <author>
+                                    <forename>Kathleen</forename>
+                                    <surname>Kellett</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a">Languages as Spaces, Translation as Play</title>
+                                <title type="sub">Moving (through) Languages</title>
+                                <author>
+                                    <forename>Lori</forename>
+                                    <surname>Saint-Martin</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">L'espace ensorcelé</title>
+                                <title type="sub">Les enfants du sabbat d’Anne Hébert</title>
+                                <author>
+                                    <forename>Stéphanie</forename>
+                                    <surname>Walsh Matthews</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title type="main" level="a" xml:lang="fr-CA">Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick and Kim Thúy</title>
+                                <author>
+                                    <forename>Mireille</forename>
+                                    <surname>MaiTruong</surname>
+                                </author>
+                            </bibl>
+                            <bibl>
+                                <title level="a" type="main">Standing on a Rainbow</title>
+                                <title type="sub">Reading in Place, Position, and Time</title>
+                                <author>
+                                    <forename>Margaret</forename>
+                                    <surname>Mackey</surname>
+                                </author>
+                            </bibl>
+                        </listBibl>
+                        <bibl>
+                            <title type="main" xml:lang="en-CA">Contributors</title> / <title type="main" xml:lang="fr-CA">Collaborateurs</title>
+                        </bibl>
+                    </listBibl>
+                </ab>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p />
+            </projectDesc>
+            <classDecl>
+                <taxonomy>
+                    <desc>Semantic tags employed in this book can be reviewed at <ref target="http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml">http://cwrc.ca/templates/DToC-Semantic_Tags_Glossary.xml</ref>
+                    </desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-CA">English</language>
+                <language ident="fr-CA">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline />
+                <item />
+                <index>
+                    <term />
+                </index>
+                <byline />
+                <index>
+                    <term />
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:lang="en-CA">
+                <head>
+                    <title level="a">Languages as Spaces, Translation as Play</title>
+                </head>
+                <byline>Moving (through) Languages</byline>
+                <docAuthor>
+                    <persName>Lori Saint-Martin</persName>
+                </docAuthor>
+                <p xml:id="p1384">
+                    <ref target="#authorship">
+                        <ref target="#language">
+                            <ref target="#translation">Women, space, place, play: the story of my life. My life is, my life in language and languages. Everything I have ever done comes down to this. <ref target="#theme_or_topic">This chapter—so different from what I usually do as an academic—is dedicated to my little sister, <persName>Cari</persName>, who died of breast cancer in May <date cert="high" when="2010">2010</date>. <ref target="#methodology">It has a prelude and five parts. The first speaks to my beginnings in language and in languages. I go on to deal with interpretation, translation, writing, and self-translation, all aspects of my being in language.</ref>
+                                </ref> There is also an interlude involving, of all things, the Brontë sisters, and a non-conclusion with two heads.</ref>
+                            <ref target="#tone_or_style">This piece was originally an intimate and personal keynote address and, though it is not a transcription, I have chosen to retain some signs of the immediacy, of connection, as well as the trace of the voice behind the words that now take written form.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <div type="section">
+                    <head>Prelude: Who Do You Think You Are?</head>
+                    <p xml:id="p1385">
+                        <ref target="#spatiality">On this topic I have only fragments to offer. Or rather, I have chosen the fragment as a way to generate openness and multiple meanings. <ref target="#intertextuality">Spaces in, spaces between: <q>that’s how the light gets in,</q>
+                                <persName>Leonard Cohen</persName> says</ref>. Fragments of a life in and through languages.</ref>
+                    </p>
+                    <p xml:id="p1386">
+                        <ref target="#spatiality">
+                            <ref target="#theme_or_topic">
+                                <ref target="#language">Languages belong to specific spaces but can be carried anywhere by speaking bodies through travel, immigration, exile. A language is also a space. A space to inhabit, a space to create. It can be a cage, a palace, a garden, a runway. Or a metaphorical space, a part of the self. If you have enough languages, you can become whole. Or, more probably, give up the illusion of wholeness and enjoy all the pieces.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1387">
+                        <ref target="#writing_climate">
+                            <ref target="#language">Passages, movement between, within, among languages, are what I spend my life creating. I grew up with only one language, English, but that was never enough. To me, a good day is a day when English, French, and Spanish cross in my reading, writing, emails, and conversations. Back, forth, within, into, from. Going where the other dwells.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1388">
+                        <ref target="#violence">
+                            <q>Who do you think you are?</q> is what my mother angrily asked whenever she sensed my desire for something else, for somewhere else. About my future, this is what my mother said: You’d better think of something else you can do with your life, nobody will ever pay you to read those books. Luckily, though brilliant and intuitively able to see into many worlds, my mother was wrong about that little thing.</ref>
+                    </p>
+                    <p xml:id="p1389">
+                        <ref target="#class_issue">
+                            <ref target="#economics">
+                                <ref target="#historical_oppression">My life is not the life a woman of my social class was meant to live. I worked in a hospital laundry when I was an undergraduate and it was hell (but less so for me than for the immigrant and untrained women who had nowhere else to go). <ref target="#violence">Who do you think you are? means: you’re not anywhere near as good as you think you are. It means: stop thinking you deserve more.</ref> It also means—and this I understood only much later—come back to me, my sweet baby, I see you moving away from me and I can’t stand the thought of losing you. My mother and I later reconciled, though that is not my topic here.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1390">
+                        <ref target="#voice_or_narration">
+                            <ref target="#representation_of_women">
+                                <ref target="#theme_or_topic">
+                                    <ref target="#translation">So, who <hi rend="italic">do</hi> I think I am? If I define myself alone—and not as a companion, mother, daughter—I would say: I think I am a woman, first of all. I think I am a traveller, a writer, and a translator. I am a professor of literature and that is central but I will say little about that here. <ref target="#textual_strategies">
+                                            <ref target="#language">The most important thing to say about me, here and now, is that I am a person with two native languages. One I acquired from birth, in the usual way. The other I learned much later, from the ages of, say, ten to twenty. I have published all my books, including my fiction, in French, my <q>second language,</q> officially. But I have never seen it that way. To me it was the language I was meant to speak.</ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1391">
+                        <ref target="#spatiality">I have now spent more than half my life in <placeName>Quebec</placeName>, including my years as <ref target="#education">a PhD student at <orgName>Laval University</orgName>
+                            </ref>. <ref target="#intertextuality">
+                                <ref target="#language">I have been living in <placeName>Montreal</placeName> since <date cert="high" when="1991">1991</date>, a city that <q>thinks and suffers in two languages,</q> as <persName>Gabrielle Roy</persName> once wrote <note place="inline">
+                                        <bibl>307</bibl>
+                                    </note>.</ref> Despite the presence of dozens of other world languages, as in any large cosmopolitan city, <placeName>Montreal</placeName> is one of the few truly bilingual cities in this world. <placeName>Paris</placeName>, <placeName>Toronto</placeName>, or <placeName>Buenos Aires</placeName> are crisscrossed by other languages, but there is one lingua franca, one standard, one common space. In <placeName>Montreal</placeName>, the simplest public transaction begins with a hesitation: English or French? How should I address this person in front of me who has not yet spoken a word?</ref> Where do we meet, how do we meet? <ref target="#politics">
+                                <ref target="#history">Language can be fraught with tension in my city. It is a source of division, suspicion, and endless polemics. For many, bilingualism has, historically, been a sign of weakness—the colonized learn the language of the colonizer, but not the other way around. The vast majority of Canadian English-French bilinguals are native speakers of French, for political reasons that are not pleasant to think about. <ref target="#childhood">On the other hand, my children have scores of friends who, like them, are totally comfortable in both languages and entirely non-polemical about them.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1392">
+                        <ref target="#tone_or_style">
+                            <ref target="#language">My own life is nothing if not this play of languages across spaces and within my own body. A story of voices. Voice is the thread, the key.</ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>
+                        <hi rend="sc-italic">i.</hi> Language and Names: You Are Not Who You Think</head>
+                    <p xml:id="p1393">My name is not my father’s name.</p>
+                    <p xml:id="p1394">My life is not my mother’s life.</p>
+                    <p xml:id="p1395">
+                        <ref target="#economics">
+                            <ref target="#spatiality">
+                                <ref target="#class_issue">
+                                    <ref target="#voice_or_narration">
+                                        <ref target="#theme_or_topic">
+                                            <ref target="#childhood">I grew up in a working-class family in a grey factory town (more on that shortly) and I was very young—nine or ten, no older—when I discovered I needed to be somewhere else in order to survive. That was a secret I shared with my two best friends, who came from <placeName>Korea</placeName> and <placeName>Guyana</placeName> and could not believe they had landed there either. Nobody in my family had a passport or had flown on an airplane, nobody had travelled beyond our town and the small scattering of nearby places where everyone we knew lived. They had heard of other countries but had no use for them, no thirst for them.</ref>
+                                        </ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1396">
+                        <ref target="#history">
+                            <ref target="#language">Both my grandmothers spoke only German, or rather Pennsylvania Dutch, when they started kindergarten. But German was not passed on to my parents—it was shameful during the <listEvent>
+                                    <event>
+                                        <label>First World War</label>
+                                    </event>
+                                </listEvent> and beyond.</ref> The city that I come from was initially called <placeName>Berlin</placeName>, but in <date cert="high" when="1916">1916</date> the name was changed to <placeName>Kitchener</placeName> as a sign of loyalty to the British Empire. <ref target="#characterization">Now <persName>Lord Kitchener</persName> was a wonderful person, a British field marshal, a pro-consul, a military man who won fame for his imperial campaigns. Lord Kitchener was in <placeName>Egypt</placeName>. Lord Kitchener was in the <placeName>Sudan</placeName>. <ref target="#historical_oppression">Lord Kitchener was in <placeName>India</placeName>. Lord Kitchener was in <placeName>South Africa</placeName> during the <listEvent>
+                                        <event>
+                                            <label>Boer Wars</label>
+                                        </event>
+                                    </listEvent>. <ref target="#violence">He practised a scorched earth policy, where the army destroys everything in its path as it moves through a territory. He was also famous for herding people—children, pregnant women, the elderly—into concentration camps.</ref> The ideal man to name a city after, as one can see.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1397">
+                        <ref target="#theme_or_topic">
+                            <ref target="#spatiality">
+                                <ref target="#childhood">But how do you end up in exile in the city where you and your parents and the past six or seven generations were born? How do you become a person whose hometown was never home? Why is what they happily take for granted dust and ashes to you, and why do you choke on the air in your parents’ house? All I know is that when I was nine or ten, I made a list of places I wanted to go. You have to remember I had never been anywhere and nobody had even told me there was anywhere else to be. And this was the list: Downtown. The cemetery. <placeName>Paris</placeName>. So a little excitement—downtown—some peace and quiet—the cemetery—and the world itself. Paris was shorthand for a place where real life unfolds. I was going and I was never coming back.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1398">
+                        <ref target="#theme_or_topic">
+                            <ref target="#voice_or_narration">
+                                <ref target="#childhood">Other than <q>Who do you think you are?,</q>
+                                    <q>You’re different</q> was the other chorus I heard from teachers, from classmates, from boys who would have liked me more if I had been more the same but didn’t mind fooling around with me in the back seat of their cars anyway. I dressed wrong (black, red, flamboyant), I talked wrong (used words I had read in books, probably mispronouncing half of them), I had <q>big ideas</q> (this was the only reference ever made to ideas, a thing much frowned upon), but I wasn’t<hi rend="italic"> trying</hi> to be different. I spoke English with an accent, even before learning to speak anything else. In simultaneous interpretation, this is called the gap, the <q>
+                                        <ab xml:lang="fr-CA">décalage</ab>
+                                    </q>; you lag a half-sentence behind the speaker. It was like watching someone dance and imitating their steps, I was always off beat, moving the wrong way. My mother said: wipe that look off your face, Missy, who do you think you are? Why do you always have to be different? But I wasn’t trying. That was the thing. It was more like a birth defect or a hole inside that nobody else had. Or maybe an extra limb? Something freakish in any case.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1399">
+                        <ref target="#voice_or_narration">
+                            <ref target="#language">
+                                <ref target="#childhood">When I speak English today I can sometimes hear my mother’s voice running under mine, particularly when I am scolding my children. When I speak French I don’t sound like anyone I know. (That is probably the whole point.) Sometimes that’s lonely. <ref target="#education">Sometimes it’s freedom itself. The first day of our very first French class, in grade six, I was a drowning person suddenly discovering this thing called a raft. Love at first sight? This was love at first sound. Another language was an outstretched hand, it was a parachute, a highway to take me away.</ref> There was another way of saying things, and that meant there was another way of being. And that meant there was somewhere else, and I could be someone else, somewhere else. It was, at last, a confirmation of that vague and painful longing I had been feeling, my very own problem with no name. So I worked hard at languages: I was good, I was the best, my life depended on it.</ref>
+                                <ref target="#spatiality">And later, at university, I travelled at last to <placeName>Paris</placeName>, and then I moved to <placeName>Montreal</placeName>, my double city, my home to the extent I will ever have one, the city where my books have been written and my children were born.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>
+                        <hi rend="sc-italic">ii.</hi> Interpretation</head>
+                    <p xml:id="p1400">
+                        <ref target="#voice_or_narration">
+                            <ref target="#theme_or_topic">
+                                <ref target="#translation">I have worked off and on for years as a simultaneous interpreter. You may have seen the booth in the back of the room at a conference or worn the headset to hear that other voice in your ear. The true story of how I became an interpreter is not particularly interesting. What may be more interesting is my fictional version of how it happened, which bloomed in a <ref target="#genre_short_story">short story</ref> I wrote a while ago.</ref> Here it is:</ref>
+                        </ref>
+                    </p>
+                    <q type="block">
+                        <ref target="#voice_or_narration">
+                            <ref target="#language">
+                                <ref target="#translation">
+                                    <ref target="#childhood">They began with neutral things: tell Daddy dinner’s ready. I turn to him: <hi xml:lang="fr-CA">papa, c’est servi. Dis à ta mère que mes chemises doivent aller chez le teinturier.</hi> Mommy, Daddy says his shirts…Later it became: <hi xml:lang="fr-CA">Dis à ta mère qu’elle est une grosse vache.</hi> Mommy, Daddy says you’re a big cow. Tell your father I’m leaving. <hi xml:lang="fr-CA">Papa, maman dit qu’elle s’en va.</hi> I ran back and forth between them, translating what they understood perfectly, stretching for the right word, the perfect phrase, happy that they were still talking, even though it was only through me, even though I conveyed only words of hate. If I worked hard enough, they would never stop talking to each other, and one day the tone would change. Those were my beginnings as a simultaneous interpreter: I was the relay, the safety net that kept them from the void.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </q>
+                    <p xml:id="p1401">
+                        <ref target="#voice_or_narration">
+                            <ref target="#language">
+                                <ref target="#translation">
+                                    <ref target="#childhood">In fact, this story is a complete fabrication. As a child, I spoke only one language and would have been incapable of switching in that way (my children could, that was my gift to them). Nor did my unilingual and happily married parents need or want that kind of mediation. But this story, for me, although invented, has the ring of truth. The little girl makes language <q>pass</q> across borders, she makes connections, she averts disaster. Is this how I glue the two halves of myself together? When I work as an interpreter, I am happy: both sides of me are united, I am fully there, always in transit from one to the other.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1402">
+                        <ref target="#voice_or_narration">
+                            <ref target="#translation">
+                                <ref target="#language">I love the speed and the danger of it. I love the immediacy of making the connection happen among people who do not share a language. I love the entry into so many different worlds where the speakers discuss their affairs as if they were alone. I love the lack of a safety net, the fact that the speaker moves on and you have to follow, no matter what. I find, though, that interpreters, although very interesting and congenial people, are too pragmatic about languages. They see them as tool kits, as means to an end, as little lexicons they prepare for each conference. They speak of <q>having</q> English or Spanish or Arabic as a working language, whereas I believe that if anything, language <q>has</q> us. Still, I love the movement between and among languages, and interpretation is an extreme form of that. Listening to words in one language and, with that half-sentence lag, spinning them into another. <q>How can you talk and listen at the same time?</q> is the question always asked by people who stop by our booth to say thank you. There is a switch on our console to change channels when you change languages, so that the listener does not receive the wrong one. Not so easy to flip that switch in your head. But that’s what being an interpreter is. <q>Double A</q> in interpreter-speak means <q>two native languages,</q> and I am proud to say I have a double A. <q xml:lang="fr-CA">Je suis la femme à deux têtes.</q> I am the two-headed woman.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>
+                        <hi rend="sc-italic">iii.</hi> Translation</head>
+                    <p xml:id="p1403">
+                        <ref target="#voice_or_narration">
+                            <ref target="#translation">
+                                <ref target="#language">Summer <date cert="high" when="2012">2012</date> marked the anniversary of my twenty years as a literary translator. <ref target="#collaboration">This is work I always do with my husband, <persName>Paul Gagné</persName>, and we have published over eighty translations of English-Canadian literature into French. Note the nice irony of translating into my <q>non-native</q> language! I also recently translated three books from Spanish to French, another leap of faith and something that I hope to pursue.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1404">
+                        <ref target="#spaciality">
+                            <ref target="#theme_or_topic">
+                                <ref target="#language">
+                                    <ref target="#translation">Literary translation is about recreating the music, finding the voice. Languages are spaces and translation is travelling between and among them. Translation is play of the most joyous and serious kind.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1405">
+                        <ref target="#collaboration">
+                            <ref target="#theme_or_topic">
+                                <ref target="#translation">
+                                    <ref target="#language">Translation is also a meeting with the other. In my case, because I work with another translator who happens to be my husband, I am directly faced with him as other; his knowledge and mine, his words and mine. He is an intimate other who is there with me from the beginning. And although he is my other, we ultimately speak as one.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1406">
+                        <ref target="#voice_or_narration">
+                            <ref target="#education">
+                                <ref target="#translation">
+                                    <ref target="#language">
+                                        <ref target="#childhood">But you don’t have to work with another translator to be faced with multiple others within the act of translation. In fact, otherness is everywhere; perhaps there is no such thing as sameness, though we convince ourselves for various reasons that there is. When our son was learning to talk, I remember teaching him: this is your hand. And this? he asked. Oh, that’s your other hand. He holds up one, then the other: my hand, my other hand. My other hand, my hand. It took him a long time to realize that if you start with the right hand, the <q>other hand</q> is the left, and vice versa. Otherness is a shifting property, and nothing makes that clearer than translation. The other text, the other words, the other that is language, the other in your <q>own</q> language, which you can never truly own. There are ways in which it will bend and others in which it will not, at least not without violence. Meeting the other text means confronting everything you know and do not know about <q>your</q> language and the <q>other</q> language. Both are yours, neither is yours. One hand, the other hand: which one is really the other again?</ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1407">
+                        <ref target="#voice_or_narration">
+                            <ref target="#theory">
+                                <ref target="#language">
+                                    <ref target="#translation">If you speak more than one language well, you are more than one person. As you translate, those other parts of you and of your languages are thrown into relief. You are another as you write, no longer yourself; the language changes and something about you slowly shifts shape. And this changing, this shifting, is the point of the journey, which has no end point: these multiple others are changing and they are changing you.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1408">
+                        <ref target="#voice_or_narration">
+                            <ref target="#theory">
+                                <ref target="#translation">And, finally, a metaphor: translation is a tightrope dance. You are high above the ground, and there is no net. You are standing on this tightrope, swaying slightly, but always pushing on. The original is the ground, the anchor, the footing you need. And yet you cannot cling to it, it is not a safety net; it will not catch you if you fall, it is indifferent to your possible failure and will not be changed or moved by it. <ref target="#language">You must also be far above it, on that tightrope, walking on a path uncharted in your language, looking backwards and forwards at once, hovering there. </ref>
+                                </ref>But you cannot creep along on little cautious steps, no matter how thin the wire, how high. You have to move, dance, invent, sway in the breeze you have just created. One foot on the wire, one foot in the air, you float or fall.</ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>
+                        <hi rend="sc-italic">iv.</hi> Writing</head>
+                    <p xml:id="p1409">
+                        <ref target="#authorship">
+                            <ref target="#theme_or_topic">
+                                <ref target="#genre_short_story">I am also a writer of fiction. I have published three books of short and short short stories and <ref target="#genre_novel">a novel, <title level="m" xml:lang="fr-CA">Les portes closes</title> (2013)</ref>.</ref>
+                                <ref target="#language">It might not surprise you to learn that it involves two characters speaking in two very different voices (although only one language).</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1410">
+                        <ref target="#voice_or_narration">Again, it’s all about the music, the voice. I work out loud very often. I close my eyes so I can hear better. That makes no sense; it makes perfect sense.</ref>
+                    </p>
+                    <p xml:id="p1411">
+                        <ref target="#women_writing">
+                            <ref target="#voice_or_narration">I write as a woman and a feminist though my creative writing has no message. When I sit down to write, I forget everything I know and follow the voice where it leads me. I write with my whole life, as we all do. It is all autobiographical, even when it did not happen to me; it is all fiction, even when I experienced it myself.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1412">
+                        <ref target="#voice_or_narration">
+                            <ref target="#genre_short_story">
+                                <ref target="language">I write in French, and this in itself is surprising but consistent.</ref> And I rewrite constantly, obsessively. I hate semicolons—that is my confession for today, with apologies to fans of that particular punctuation mark—and love the way a comma provides air and light and space for interpretation. I once wrote a story called <title level="a" xml:lang="fr-CA">Une femme, seule.</title> The comma, here, is everything. <q>A woman, alone,</q> is a very different proposition than <q>a woman alone,</q> I’m sure you can hear that. Or in another story, <title level="u" xml:lang="fr-CA">Mon père, la nuit,</title>
+                                <q>My father, at night,</q> the comma is the most important element of the title; I like what the comma does, how it separates without separating and makes a kind of hinge that shows just what the father does to the daughter at night.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1413">
+                        <ref target="#intertextuality">But instead of talking about writing I will suggest an interlude: a short piece about the Brontë sisters.</ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>Interlude: A Side Trip to Haworth</head>
+                    <p xml:id="p1414">
+                        <ref target="#voice_or_narration">
+                            <ref target="#intertextuality">
+                                <ref target="#theme_or_topic">
+                                    <ref target="#spatiality">A train, a bus, another bus and I was at <placeName>Haworth</placeName>, the home of the Brontë sisters, loves of my life since <title level="m">Jane Eyre</title> at fourteen.</ref>
+                                    <ref target="#genre_novel">Seven novels among them and all dead before they were forty.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1415">
+                        <ref target="#intertextuality">From their bedroom window, they could see the cemetery with its large flat stones, the oldest blurred green with moss. They had spent hours on end deciphering the inscriptions, the dead sorrows, dreaming stories of mothers dying with their last-born, of children taken minutes after their first breath or days before their first steps. Death was woven in among the days. And behind the cemetery, the church, the tall grey tower, the promise of eternal life. They dreamed of another love, a different immortality.</ref>
+                    </p>
+                    <p xml:id="p1416">
+                        <ref target="#intertextuality">
+                            <ref target="#representation_of_women">They had a spare and stubborn faith but it was nowhere near enough. They burnt and wrote, at night pacing around the scratched and ink-stained table. They read aloud, frowned, crossed out, reflected, began again. <persName>Anne</persName> sought a reason to hope in the long, plain, oddly stirring Sunday hymns. <ref target="#language">
+                                    <persName>Emily</persName> propped up her German grammar and murmured declensions as she kneaded the week’s bread.</ref>
+                                <persName>Charlotte</persName>, the only one to cross the seas, loved a married man she would never see again. She thought she would die. And then she began to write.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1417">
+                        <ref target="#gender_issue">
+                            <ref target="#spatiality">I think of women’s lives at that time, the constraints in space and play, the inner dissidence. <persName>Charlotte Brontë</persName> needed a chaperone to travel to <placeName>London</placeName> and meet her publisher. I somehow knew their straitened circumstances and their smooth grave faces, the narrow stillness that had driven them inwards, the virtue like floorboards scrubbed pale, the pride they could never reveal, prayers and scripture, the plunge in and down. Writing saved them from other forms of despair: a lover, an asylum, the river. Only Charlotte succumbed to marriage, that other leap of faith or of despair.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1418">
+                        <ref target="#religion">God and their father wore a single face on Sunday mornings when a voice thundered from the pulpit. Thighs pressed tightly together, they shivered but held their faces blank. They all died young, like their mother. I stayed with them until night fell and the last visitors were banished from their house.</ref>
+                    </p>
+                    <p xml:id="p1419">
+                        <ref target="#voice_or_narration">In their rooms, at night, did they touch themselves into sleep? Did they see a face or a page, a pot of ink, a boat, a wave? Darkness fell, light rose, the stars dove towards them and the tide rose and filled the room so that their beds began to float. They opened their eyes. They held out their hands. Mouths awry with iron and glory, they said yes. They said yes.</ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>
+                        <hi rend="sc-italic">v.</hi> Self-Translation</head>
+                    <p xml:id="p1420">
+                        <ref target="#voice_or_narration">
+                            <ref target="#theme_or_topic">
+                                <ref target="#language">
+                                    <ref target="#translation">I have said that I write fiction in French. Recently, I have been translating it, if I can call it that, into English. But in fact, I think I cannot call it that. Such freedom, such terror! Returning to some of these old pieces is like meeting with another version of myself. And, through the filter of another language, with another writing aesthetic. Purely through intuition, I feel there are things I cannot say in English or at least have to say very differently; subtly or not, the tone changes. And sometimes it’s not subtle at all.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1421">
+                        <ref target="#intertextuality">
+                            <ref target="#genre_poetry">Below are three excerpts from one of four brief prose poems that make up a series entitled <title level="a">Four Fruits.</title> They appear in the final poem, which describes the forbidden fruit as a mangosteen. Here is the first excerpt:</ref>
+                        </ref>
+                    </p>
+                    <q type="block">
+                        <ab xml:lang="fr-CA">Paris était pour elle nouveau, et les voyages, et l’amour.</ab>
+                        <lb />Paris was new to her then, although she would later visit dozens of times, without him.</q>
+                    <p xml:id="p1422">
+                        <ref target="#voice_or_narration">
+                            <ref target="#translation">Obviously, by any standards, this is a terrible translation, and any professional translator who ever dared to attempt such a thing would be fired or shot down in flames immediately. That is the beauty of self-translation; you can do anything you like. We could certainly discuss whether this translation is good or bad, if it works or doesn’t work, but that is another issue. Rather, let me tell you a bit about how I translate and what happens once it is done.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1423">
+                        <ref target="#tone_or_style">
+                            <ref target="#language">
+                                <ref target="#translation">In this passage, the English version is less lyrical, less sentimental, less beautifully balanced; the cadence in French is like poetry (the commas with <q xml:lang="fr-CA">et les voyages, et l’amour</q>). In English, the equivalent (<q>and travel, and love</q>) does not sound like poetry to my ear. In fact, I take a definite turn towards narrative instead of lyricism. Another difference is that the English version is more optimistic (we learn sooner that she survived the affair with the married man and kept visiting <placeName>Paris</placeName> anyway) but also speaks from a different space and time, many years later (the French tells how she feels in the present). The English is less immediate and more elegiac; <q>she</q> is less lost, more experienced, and more of a survivor. <ref target="#spatiality">But I am saying all this from another space, the space of a literary critic, looking at it from outside, at the effect it produces; when recreating, I don’t think of it that way, I just follow the words where they take me, on blind faith.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1424">Here is a second excerpt:</p>
+                    <q type="block">
+                        <ab xml:lang="fr-CA">Elle était si jeune qu’elle croyait encore aller de voyage en voyage, de fruit en fruit, si jeune qu’elle était sûre de toujours voyager en compagnie du même homme, qui n’allait pourtant jamais quitter sa femme.</ab>
+                        <lb />She was so young she still thought she would travel again and again with the same man, this man she confused with fate.</q>
+                    <p xml:id="p1425">
+                        <ref target="#tone_or_style">
+                            <ref target="#theory">
+                                <ref target="#translation">
+                                    <persName>George Steiner</persName> says that translation is essentially inflationist, but the above English version takes a radically anti-inflationist turn.</ref>
+                            </ref> You might wonder if anything remains on the page by the time I’m done! Again, this is a terrible translation. Here we have a rather shocking erasure: the going <q>from fruit to fruit.</q> That was just wrong, it could not survive the passage into English. So there is real loss here, there is mourning. Self-translation is about loss, or maybe it’s about getting rid of things and finding something else instead. <ref target="#theory">And also the loss, I hope, can be offset at some other point—in translation theory this is referred to as <q>compensation.</q>
+                            </ref> The final change, from <q>the man who would never leave his wife</q> to <q>this man she confused with fate,</q> is a major shift. I like this vague version, this image of her as confused (which refers back to the first passage and tells us, but at a different point in the text, about how lost she was then), this idea of fate not being where we thought it was: what we thought counted did not, and vice versa. <ref target="#language">
+                                <ref target="#translation">That difference in perspective corresponds, I think, not only to the differences between English and French but to the gap between the woman I was when I wrote the piece, years ago, and the woman I am now. I wonder what would happen if I translated it back into French again?</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1426">Here is a final excerpt:</p>
+                    <q type="block">
+                        <ab xml:lang="fr-CA">Dix ans ont passé et pourtant elle voit la chambre, le lit défait, l’amour et le fruit. Elle sourit, confiante, jeune, comme si elle n’avait qu’à tendre la main pour qu’y tombent un à un tous les fruits du monde.</ab>
+                        <lb />Ten years have passed and yet she sees the room, the open bed, the open fruit. She smiles, confident still and young, as if she had only to reach out her hands to have drop into them, one by one, all the fruits in the world.</q>
+                    <p xml:id="p1427">
+                        <ref target="#tone_or_style">
+                            <ref target="#voice_or_narration">
+                                <ref target="#genre_poetry">
+                                    <ref target="#language">
+                                        <ref target="#translation">The final sentence is more literally translated, but it is worth noting that, although the inversion of the verb and subject is a bit more of a stretch in English than it is in French, I decided to keep it. It is a sign of linguistic otherness, a slightly dissonant structure. The piece had to end with the mention of the fruit, which is the overall title and the thread that runs through the series of four poems. Here is something interesting: the word <q>love</q> has again done a disappearing act; is English really more puritanical, or is it just me? <ref target="#childhood">That upbringing I so longed to escape and which is still in my narrative voice?</ref> Things come back, life is full of cycles. I can accept that now, though earlier in my life it would not have been a joking matter. I like the parallel, which is added, with the word <q>open</q>: the <q>open bed</q> and the <q>open fruit.</q> In the middle of the piece is a lyrical description of the mangosteen, the bright red inside the brownish shell, and the bright white flesh inside. It is a metaphor of bodies, of desire. I think this parallel with the open bed and the open fruit offsets some of the loss of lyricism in the previous excerpt. I like the word <q>open</q> in this context and what it suggests about that confused, lost but vital young girl biting into the forbidden fruit—not an apple, not a pomegranate, but a mangosteen, losing the Eden of that particular passion but surviving to return to <placeName>Paris</placeName> over and over again and make it her own private garden. Is all that in the piece? Maybe not for an outside reader, though it is for me. And that is what I think I tried to put into those words.</ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1428">
+                        <ref target="#voice_or_narration">
+                            <ref target="#tone_or_style">
+                                <ref target="#translation">
+                                    <ref target="#language">To sum up: self-translation confronts me with my past as an author and with my linguistic split. But it also allows me to put them back together again. There are some things I would no longer say, years later—this piece is at least fifteen years old—and others I would say instead, and others I would still say, but differently (but of course if you say it differently you are no longer saying the same thing anyway). Languages are spaces and self-translation is a radical form of travel. I see the changes made as intrinsic to the languages I was writing in and into and suggest they be read not as discrepancies or mistakes but as signs of linguistic difference (although we could certainly discuss other choices that could have been made). Just as I feel both my languages to be my first or strongest and equally essential, I consider both versions of the prose poem originals.</ref>
+                                </ref>
+                            </ref>
+                        </ref>
+                    </p>
+                </div>
+                <div type="section">
+                    <head>
+                        <hi rend="sc-italic">vi.</hi> By Way of a Non-Conclusion: The Two-Headed Woman <lb />in <placeName>Buenos Aires</placeName>
+                    </head>
+                    <p xml:id="p1429">
+                        <ref target="#voice_or_narration">
+                            <ref target="#theme_or_topic">
+                                <ref target="#language">Since my sister died—though she, like my parents, was unilingual and uninterested in travel, uninterested really in any of the things that interest me—I have been more restless, less serene. In <date cert="high" when="2011">2011</date>, a few months after her death, I decided to return to Spanish, a language I spoke very well, once upon a time. I spent a few hours with a private tutor in <placeName>Montreal</placeName> and then flew to <placeName>Buenos Aires</placeName>.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1430">
+                        <ref target="#voice_or_narration">
+                            <ref target="#language">Such a fall from grace, to give up perfect fluency in two languages only to stammer and grope for words, to fail at the most elementary encounters (foreigners are awkward, foreigners are stupid!). But such freedom, once I gave up shame and shyness to accept and embrace mistakes. Every storefront has a new word, every exchange is a new world, a bookstore is a thousand highways. I have come so far, but the road (and that is the beauty of the thing) is endless.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p1431">
+                        <ref target="#spatiality">
+                            <ref target="#voice_or_narration">
+                                <ref target="#language">Languages as spaces, languages as play. I don’t believe in purity; I believe in bastard forms and border crossings. I want both, I want all three, I want it all. The marks and markers of gender, of space, of language. Work is play and I love my work. Who do you think you are? Who? Who? Moving through spaces and languages is my life. <hi rend="italic">That’s</hi> who I think I am. That’s who I am. This, for me, is what happiness looks like. Take a good look. This is what a very happy two-, almost three-headed woman looks like.</ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <q type="block" xml:lang="fr-CA">Ils se sont retrouvés à Paris, dans un petit hôtel de la rue Madame. Elle était jeune et elle aimait les livres, lui était vieux et il aimait l’écouter. Alors elle a parlé, elle lui a parlé de Gertrude Stein et de Colette, de la guerre et du salon de la rue de Fleurus, tout près. Il arrivait d’un voyage d’affaires en Asie, elle de Montréal où ils habitaient tous deux. Paris était pour elle nouveau, et les voyages, et l’amour. D’Asie il lui a rapporté des mangoustans. Goûte, dit-il, tu vas voir. La chair est d’une vive blancheur, lovée dans une écorce rouge violent. Elle goûte le sucre et l’eau fraîche, le lointain et la source. La jeune femme ne connaissait ni le nom, ni le fruit. Elle était si jeune qu’elle croyait encore aller de voyage en voyage, de fruit en fruit, si jeune qu’elle était sûre de toujours voyager en compagnie du même homme, qui n’allait pourtant jamais quitter sa femme. Dix ans ont passé, elle n’a jamais rien goûté d’aussi bon. Elle ne s’y attend guère. Dix ans ont passé et pourtant elle voit la chambre, le lit défait, l’amour et le fruit. Elle sourit, confiante, jeune, comme si elle n’avait qu’à tendre la main pour qu’y tombent un à un tous les fruits du monde.</q>
+                    <p xml:id="p1432" rend="column-quote">He was waiting for her in <placeName>Paris</placeName>, in a small hotel on rue Madame. She was young and loved books, he was old and loved listening to her. So she talked and talked, she told him about <persName>Gertrude Stein</persName> and <persName>Colette</persName>, about the war and the salon on <placeName xml:lang="fr-CA">rue de Fleurus</placeName>, close by.</p>
+                    <p xml:id="p1433" rend="column-quote"> He was returning from a business trip to <placeName>Asia</placeName>, she arrived from <placeName>Montreal</placeName> where they both lived. <placeName>Paris</placeName> was new to her then, though she would later visit dozens of times, without him. From <placeName>Thailand</placeName> he brought her mangosteens. Taste this, he said, you’ll see.</p>
+                    <p xml:id="p1434" rend="column-quote"> The flesh was a clear, intense white cradled in a deep red skin. It tasted of calm and of sweet water, of distance, of a hidden spring. She had never seen the fruit nor heard the name. She was so young she still thought she would travel again and again with the same man, this man she confused with fate.</p>
+                    <p xml:id="p1435" rend="Quote ParaOverride-9"> Ten years have passed, and she has never tasted anything so good since. Nor has she ever expected to. Ten years have passed and yet she sees the room, the open bed, the open fruit. She smiles, confident still and young, as if she had only to reach out her hands to have drop into them, one by one, all the fruits in the world. </p>
+                </div>
+                <div type="section">
+                    <head>work cited</head>
+                    <listBibl>
+                        <bibl>Roy, Gabrielle. <title level="m">Alexandre Chenevert</title>. Montréal: Éditions Beauchemin, 1954.</bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
