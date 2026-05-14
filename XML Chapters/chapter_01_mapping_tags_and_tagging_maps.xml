@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>-->
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -379,9 +374,87 @@
                 </ab>
             </sourceDesc>
         </fileDesc>
-        <encodingDesc>
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/cwrc/Cultural-Mapping/main/XML%20Chapters/chapter_01_mapping_tags_and_tagging_maps.xml?link_annotation_20260514105637807",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-05-14T16:56:37.807Z",
+	"dcterms:modified": "2026-05-14T16:56:37.807Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ilovan",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mihaela Ilovan"
+	},
+	"oa:motivatedBy": "oa:linking",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/cwrc/Cultural-Mapping/main/XML%20Chapters/chapter_01_mapping_tags_and_tagging_maps.xml?link_annotation_20260514105637807#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/cwrc/Cultural-Mapping/main/XML%20Chapters/chapter_01_mapping_tags_and_tagging_maps.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/cwrc/Cultural-Mapping/main/XML%20Chapters/chapter_01_mapping_tags_and_tagging_maps.xml?link_annotation_20260514105637807#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p/ref/ref/ref/ref"
+		}
+	},
+	"oa:hasBody": {
+		"@id": "https://cwrc.ca",
+		"@type": "cnt:ContentAsText"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.2.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
-                <p />
+                <p/>
             </projectDesc>
             <classDecl>
                 <taxonomy>
@@ -398,14 +471,14 @@
         </profileDesc>
         <revisionDesc>
             <list>
-                <byline />
-                <item />
+                <byline/>
+                <item/>
                 <index>
-                    <term />
+                    <term/>
                 </index>
-                <byline />
+                <byline/>
                 <index>
-                    <term />
+                    <term/>
                 </index>
             </list>
         </revisionDesc>
@@ -489,7 +562,7 @@
                             </ref> For example, the markup for the city of London is</ref>
                     </p>
                     <q type="block">
-                        <code>&lt;PLACE&gt;&lt;SETTLEMENT&gt;London&lt;/SETTLEMENT&gt;&lt;REGION REG=Middlesex&gt;&lt;/REGION&gt;&lt;GEOG REG=England&gt;&lt;/GEOG&gt;&lt;/PLACE&gt;</code>
+                        <code>&amp;lt;PLACE&amp;gt;&amp;lt;SETTLEMENT&amp;gt;London&amp;lt;/SETTLEMENT&amp;gt;&amp;lt;REGION REG=Middlesex&amp;gt;&amp;lt;/REGION&amp;gt;&amp;lt;GEOG REG=England&amp;gt;&amp;lt;/GEOG&amp;gt;&amp;lt;/PLACE&amp;gt;</code>
                     </q>
                     <p xml:id="p1043">
                         <ref target="#spatiality">Such tagging distinguishes this particular reference to London from the more than two dozen other settlements around the world (including London, Ontario) that take their name from the English city, from building names such as London House, and from proper names such as Jack London.</ref>
@@ -535,7 +608,7 @@
                     <p xml:id="p1048">
                         <ref target="#methodology">
                             <ref target="#canon_formation">
-                                <ref target="#theme_or_topic">The methodology for generating the maps discussed here involved several stages. <ref target="#technology">First, Orlando data was queried according to various parameters, drawing on the semantic tags discussed above, such as <q>return all biographies in a given range of birth dates,</q>
+                                <ref target="#theme_or_topic">The methodology for <ref target="https://cwrc.ca">generating</ref> the maps discussed here involved several stages. <ref target="#technology">First, Orlando data was queried according to various parameters, drawing on the semantic tags discussed above, such as <q>return all biographies in a given range of birth dates,</q>
                                         <q>return all excerpts containing a given keyword,</q> or, <q>return all excerpts containing <q>Scotland</q> within discussions of <ref target="#violence">violence</ref> or <ref target="#politics">politics.</ref>
                                         </q> Second, once the queried data was retrieved it was fed into a pre-processing stage in which geographical data was extracted, contextualized, and stored separately. By contextualization we mean specifically the association of geographical data with a declared temporal axis, or—when no date was mentioned in the precise context—with a speculation as to temporal location. We processed all place names returned by these search parameters into the form of events with spatial and temporal co-ordinates. <ref target="#non-book_media">In so doing, we avoided the necessity of visualizing all of Orlando’s spatial information in a single, temporally conflated map. In the absence of temporal information embedded in the spatial data itself, we drew on the fact that Orlando’s documents organize information in roughly chronological order to provisionally infer the temporality associated with a place by extrapolating from adjacent dated material. Based on this process of inference, each instance of geographical information produced by the initial extraction process was associated with a specific date or range of dates, the writer’s name, and the subject discussed, as well as the complete excerpt of the prose under each location as mentioned in Orlando.</ref>
                                     </ref>
@@ -577,26 +650,26 @@
                     </p>
                     <figure>
                         <head>Subset of Orlando places</head>
-                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3Aeb21a41e-1f7a-4446-b26b-5bd25bbb830e/datastream/JPG-DToC/view" />
+                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3Aeb21a41e-1f7a-4446-b26b-5bd25bbb830e/datastream/JPG-DToC/view"/>
                         <figDesc>Figure 1.1a: Biographies of writers born between 1500-1599.</figDesc>
                     </figure>
                     <figure>
                         <head>Subset of Orlando places</head>
-                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3Accfa9c69-b589-4a24-b9fa-665e595158c3/manage/datastreams" />
+                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3Accfa9c69-b589-4a24-b9fa-665e595158c3/manage/datastreams"/>
                         <figDesc>Figure 1.1b: Biographies of writers born between 1600-1699.</figDesc>
                     </figure>
                     <figure>
                         <head>Subset of Orlando places</head>
-                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A39c0d242-223b-4347-958f-0d6fed100d3d/datastream/JPG-DToC/view" />
+                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A39c0d242-223b-4347-958f-0d6fed100d3d/datastream/JPG-DToC/view"/>
                         <figDesc>Figure 1.1c: Biographies of writers born between 1700-1799.</figDesc>
                     </figure>
                     <figure>
                         <head>Subset of Orlando places</head>
-                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3Aa4956f56-fe4d-4e89-9455-9a1ffb2db540/datastream/JPG-DToC/view" />
+                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3Aa4956f56-fe4d-4e89-9455-9a1ffb2db540/datastream/JPG-DToC/view"/>
                         <figDesc>Figure 1.1d: Biographies of writers born between 1800-1899.</figDesc>
                         <figure>
                             <head>Subset of Orlando places</head>
-                            <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A075b6876-6e57-4df8-b802-1c579161a9c5/datastream/JPG-DToC/view" />
+                            <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A075b6876-6e57-4df8-b802-1c579161a9c5/datastream/JPG-DToC/view"/>
                             <figDesc>Figure 1.1e: Biographies of writers born between 1900-2000.</figDesc>
                         </figure>
                         <p xml:id="p1054">
@@ -615,12 +688,12 @@
                             </ref>
                             <figure>
                                 <head>Figure 1.3</head>
-                                <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A577eae57-b584-4fcf-9fde-a5ba94d0f78b/datastream/JPG-DToC/view" />
+                                <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A577eae57-b584-4fcf-9fde-a5ba94d0f78b/datastream/JPG-DToC/view"/>
                                 <figDesc>Places related to Mary Ward's travels and influence in Europe.</figDesc>
                             </figure>
                             <figure>
                                 <head>Figure 1.4</head>
-                                <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A206263d4-7084-4ab3-95b1-91bb866d04b9/datastream/JPG-DToC/view" />
+                                <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A206263d4-7084-4ab3-95b1-91bb866d04b9/datastream/JPG-DToC/view"/>
                                 <figDesc>Places related to Mary Ward's travels and influence in England.</figDesc>
                             </figure> writers’ London. <ref target="#close_reading">Theoretically, the degree of possible granularity knows no bounds.</ref>
                         </p>
@@ -643,12 +716,12 @@
                             <ref target="#spatiality">The way Orlando’s material on Mary Ward figures on our map highlights one of the crucial aspects of the kind of mapping that will be involved in <abbr>CWRC</abbr> as a whole. There are, as mentioned above, rare projects involved in <abbr>CWRC</abbr> that focus on the idea of space and have mapping as a central component; however, for the bulk of <abbr>CWRC</abbr> projects, and certainly for donated data projects that predate the Collaboratory, these</ref>
                             <figure>
                                 <head>Figure 1.5</head>
-                                <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A1e502987-5452-45e7-a9e8-98b3c468afe9/datastream/JPG-DToC/view" />
+                                <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A1e502987-5452-45e7-a9e8-98b3c468afe9/datastream/JPG-DToC/view"/>
                                 <figDesc>Places in London associated with writers of the eighteenth century in Orlando.</figDesc>
                             </figure>
                             <figure>
                                 <head>Figure 1.6</head>
-                                <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A56565066-25ba-481f-91b0-007e9c8f9d1b/datastream/JPG-DToC/view" />
+                                <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A56565066-25ba-481f-91b0-007e9c8f9d1b/datastream/JPG-DToC/view"/>
                                 <figDesc>Places in London associated with the writers of the nineteenth century in Orlando</figDesc>
                             </figure>
                             <ref target="#spatiality">concerns are not central to the research aims that inform the way that spatial information is collected. The implications of this are twofold. <ref target="#theme_or_topic">
@@ -668,7 +741,7 @@
                                             <bibl>Corrigan 80–81</bibl>
                                         </note>. As John Corrigan affirms, <q>Complex data is dynamic data…It is data that is characterized by interaction between its various parts, which massage each other <figure>
                                                 <head>Figure 1.7</head>
-                                                <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A8043a3ee-1ff4-4453-94b1-13a52e329dde/datastream/JPG-DToC/view" />
+                                                <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A8043a3ee-1ff4-4453-94b1-13a52e329dde/datastream/JPG-DToC/view"/>
                                                 <figDesc>Places associated with the seventeenth-century Society of Friends in Orlando.</figDesc>
                                             </figure> continually in ways that alter our understanding of what we are looking at</q>
                                         <note place="inline">
@@ -702,7 +775,7 @@
                             <ref target="#spatiality">
                                 <ref target="#politics">The example of Ward gives rise to potent questions. How, for instance, might one map First Nations settlements <figure>
                                         <head>Figure 1.8</head>
-                                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A6038108c-7313-4d53-99d3-dfeb89884338/datastream/JPG-DToC/view" />
+                                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A6038108c-7313-4d53-99d3-dfeb89884338/datastream/JPG-DToC/view"/>
                                         <figDesc>Enlarged portion of map of Society of Friends.</figDesc>
                                     </figure> and activities as opposed to colonial activity, and how might one represent First Nations conceptions of space at varying points in history?</ref>
                             </ref>
@@ -725,7 +798,7 @@
                             <ref target="#spatiality">
                                 <ref target="#writing_climate">The constructedness of space, as well as its constitutive aspects within literary culture and the production of subjectivities and sensibilities through literature, is especially relevant to Orlando and <abbr>CWRC</abbr> whose <figure>
                                         <head>Figure 1.9</head>
-                                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A1bd114ad-4cdc-469e-8580-f7c9b891fadf/datastream/JPG-DToC/view" />
+                                        <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A1bd114ad-4cdc-469e-8580-f7c9b891fadf/datastream/JPG-DToC/view"/>
                                         <figDesc>Scotland as a literary setting.</figDesc>
                                     </figure> teams are particularly interested in the possibilities for mapping place in both historical time and imaginative literature.</ref>
                             </ref>
