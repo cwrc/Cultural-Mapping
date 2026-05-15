@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>-->
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>--><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -381,7 +377,7 @@
         </fileDesc>
         <encodingDesc>
             <projectDesc>
-                <p />
+                <p/>
             </projectDesc>
             <classDecl>
                 <taxonomy>
@@ -398,14 +394,14 @@
         </profileDesc>
         <revisionDesc>
             <list>
-                <byline />
-                <item />
+                <byline/>
+                <item/>
                 <index>
-                    <term />
+                    <term/>
                 </index>
-                <byline />
+                <byline/>
                 <index>
-                    <term />
+                    <term/>
                 </index>
             </list>
         </revisionDesc>
@@ -421,13 +417,13 @@
                 <q type="block">
                     <ref target="#education">In the humanities, Ms. Mentor regrets to say, things are murky from the start. As underlings in the academic hierarchy, graduate students are supposed to be humbly grateful for all the training they can imbibe. Sometimes they’re paid, but often they receive only an inside-the-book acknowledgment.…<ref target="#collaboration">Generous mentors can create once-in-a-lifetime opportunities. Stephen Ambrose’s students, for instance, spent summers retracing <ref target="#history">the steps of Lewis and Clark with their professor—sharing discoveries over campfires first, and later in books and articles.</ref> Theirs was a genuine community of scholars.</ref>
                     </ref>
-                    <lb /> —<bibl>Ms. Mentor [Emily Toth], <title level="a">Who Owns Your Mind?</title>
+                    <lb/> —<bibl>Ms. Mentor [Emily Toth], <title level="a">Who Owns Your Mind?</title>
                         <title level="j">Chronicle of Higher Education</title>
                     </bibl>
                 </q>
                 <q type="block">
                     <ref target="#collaboration">What is collaboration, exactly? Where in the spectrum from broad, indirect and tacit indebtedness to explicitly joint work do we locate research in the humanities, especially in light of computing? What conclusion do we draw from the attested benefits of collaboration?</ref>
-                    <lb /> —<bibl>Willard McCarty, <title level="m">Humanities Computing</title>
+                    <lb/> —<bibl>Willard McCarty, <title level="m">Humanities Computing</title>
                     </bibl>
                 </q>
                 <div type="section">
@@ -712,7 +708,7 @@
                                         <bibl>218</bibl>
                                     </note> means, for us, that humanists cannot sustain long-term <abbr>DH</abbr> projects if they refuse to engage—or even to learn anything at all about—topics like computer programming, markup languages, or interface design. Conversely, programmers cannot sustain <abbr>DH</abbr> projects in the long term without either taking the concerns of humanists seriously or understanding how and why humanities scholarship develops as it does. Altering practices on both sides of the divide might be the foundation that makes sustainable <abbr>DH</abbr> work possible.</ref> For example, Martin cites a few snippets of Java code and asks an intriguing question, but one that he sees as an either/or dichotomy</ref>
                         </ref>:</p>
-                    <q type="block">Which would you rather see? This:<lb />// Check to see if the employee is eligible for full benefits<lb />if ( ( employee.flags &amp; HOURLY_FLAG ) &amp;&amp;<lb />( employee.age &gt; 65 ) )<lb />Or this?<lb />if ( employee.isEligibleForFullBenefits() ) <note place="inline">
+                    <q type="block">Which would you rather see? This:<lb/>// Check to see if the employee is eligible for full benefits <lb/>if ( ( employee.flags &amp; HOURLY_FLAG ) &amp;&amp;<lb/>( employee.age &gt; 65 ) )<lb/>Or this?<lb/>if ( employee.isEligibleForFullBenefits() ) <note place="inline">
                             <bibl>Martin 55</bibl>
                         </note>
                     </q>
@@ -831,7 +827,7 @@
                                     <ref target="#collaboration">We will work collaboratively. That is, we want and need to learn from one another.</ref>
                                 </p>
                             </cell>
-                            <cell />
+                            <cell/>
                         </row>
                         <row>
                             <cell>
@@ -871,7 +867,7 @@
                                 </p>
                                 <p xml:id="p1119">Given the developmental nature of the work <abbr>EMiC UA</abbr> is undertaking, the administrative structure of the collaboratory should be kept not only simple and non-hierarchical, but as malleable and flexible as possible to enable us to respond effectively and efficiently to the many changes development brings. </p>
                             </cell>
-                            <cell />
+                            <cell/>
                         </row>
                         <row>
                             <cell>
@@ -879,7 +875,7 @@
                                     <ref target="#collaboration">We will work within schedules and to deadlines arrived at collaboratively.</ref>
                                 </p>
                             </cell>
-                            <cell />
+                            <cell/>
                         </row>
                         <row>
                             <cell>
@@ -889,7 +885,7 @@
                                     </ref>
                                 </p>
                             </cell>
-                            <cell />
+                            <cell/>
                         </row>
                     </table>
                     <table>
@@ -954,7 +950,7 @@
                                     <ref target="#theory">Documentation is necessary not only for the purpose of informing other group members and continuing workflow, but in support of grant applications and reports.</ref>
                                 </p>
                             </cell>
-                            <cell />
+                            <cell/>
                         </row>
                         <row>
                             <cell>
@@ -962,13 +958,13 @@
                                     <ref target="#methodology">We will document our work as it arises from the rhythms of the project. (Documentation will be geared around project planning, dissemination, and reporting.)</ref>
                                 </p>
                             </cell>
-                            <cell />
+                            <cell/>
                         </row>
                         <row>
                             <cell>
                                 <p xml:id="p1130">Documentation is meant as a support; therefore, documentation responsibilities will be kept to a minimum (so that the project work can carried out efficiently) while ensuring that a sense of the project’s development is recorded (so we can see how the project evolves). </p>
                             </cell>
-                            <cell />
+                            <cell/>
                         </row>
                         <row>
                             <cell>
@@ -992,7 +988,7 @@
                             <cell>
                                 <p xml:id="p1133">We will strive for transparency in decision making and communication.</p>
                             </cell>
-                            <cell />
+                            <cell/>
                         </row>
                         <row>
                             <cell>
@@ -1012,7 +1008,7 @@
                                     <ref target="#intertextuality">We will strive to reflect the interdisciplinary nature of our work in the way we disseminate it.</ref>
                                 </p>
                             </cell>
-                            <cell />
+                            <cell/>
                         </row>
                     </table>
                 </div>
@@ -1029,7 +1025,7 @@
                         <bibl>Beck, Kent, with Cynthia Andres. <title level="m">Extreme Programming Explained: Embrace Change</title>. 2nd ed. Boston: Addison-Wesley, 2005.</bibl>
                         <bibl>Bretz, Andrew, Susan Brown, and Hannah McGregor. <title level="m">Lasting Change: Sustaining Digital Scholarship and Culture in Canada</title>. 2010. <ref target="http://www.cwrc.ca/wp-content/uploads/2011/05/Lasting-Change-Knowledge-Synthesis.pdf">http://www.cwrc.ca/wp-content/uploads/2011/05/Lasting-Change-Knowledge-Synthesis.pdf</ref>
                         </bibl>
-                        <bibl>Brown, Susan. <title level="a">Don’t Mind the Gap: Evolving Digital Modes of Scholarly Production across the Digital-Humanities Divide</title>. <title level="m">Retooling the Humanities: The Culture of Research in Canadian Universities</title>. Ed. Daniel Coleman and Smaro Kamboureli. Edmonton: University of Alberta Press, 2011. 203–31.</bibl>
+                        <bibl>Brown, Susan. <title level="a">Don’t Mind the Gap: Evolving Digital Modes of Scholarly Production across the Digital-Humanities Divide</title>. <title level="m">Retooling the Humanities: The Culture of Research in Canadian Universities</title>. Ed. Daniel Coleman and Smaro Kamboureli. <placeName key="Edmonton" ref="https://sws.geonames.org/5946768" ana="webannotation:http://temp.lincsproject.ca/A5wC6Y7lvz1">Edmonton</placeName>: University of Alberta Press, 2011. 203–31.</bibl>
                         <bibl>Chow, Rey.<title level="a">
                                 <q>An Addiction from Which We Never Get Free.</q>
                             </title>
@@ -1056,7 +1052,7 @@
                         <bibl>Ruecker, Stan. <title level="a">Personal communication</title>. 16 July 2012.</bibl>
                         <bibl>Ruecker, Stan, and Milena Radzikowska. <title level="a">The Iterative Design of a Project Charter for Interdisciplinary Research</title>. <title level="m">Proceedings of the 7th ACM Conference on Designing Interactive Systems</title>. New York: ACM, 2008. 288–94.</bibl>
                         <bibl>Schagerl, Jessica. <title level="a">“Taking a Place at the Table.”</title>
-                            <title level="m">Retooling the Humanities: The Culture of Research in Canadian Universities</title>. Ed. Daniel Coleman and Smaro Kamboureli. Edmonton: University of Alberta Press, 2011. 95–112.</bibl>
+                            <title level="m">Retooling the Humanities: The Culture of Research in Canadian Universities</title>. Ed. Daniel Coleman and Smaro Kamboureli. <placeName key="Edmonton" ref="https://sws.geonames.org/5946768" ana="webannotation:http://temp.lincsproject.ca/XxlxcA1SK5A">Edmonton</placeName>: University of Alberta Press, 2011. 95–112.</bibl>
                         <bibl>Siemens, Lynne. <title level="a">
                                 <q>It’s a Team If You Use <q>Reply All</q>
                                 </q>: An Exploration of Research Teams in Digital Humanities Environments</title>. <title level="j">Literary and Linguistic Computing</title> 24.2 (2009): 225–33.</bibl>
@@ -1066,4 +1062,192 @@
             </div>
         </body>
     </text>
+	<standOff type="annotation">
+		
+<xenoData>
+			
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/A5wC6Y7lvz1">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/A5wC6Y7lvz1",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-15T15:12:59.391Z",
+    "creator": {
+        "id": "https://github.com/ilovan",
+        "type": "crm:E21_Person",
+        "name": "Mihaela Ilovan"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/Ztl31v5OOTn",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/Ztl31v5OOTn/selector/textPosition/TaaOiuRmOE0",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 68229,
+                "end": 68237,
+                "refinedBy": {
+                    "id": "/target/Ztl31v5OOTn/selector/textQuote/5raa842hbBl",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Edmonton",
+                    "prefix": "",
+                    "suffix": " University of Alberta Press, 2011"
+                }
+            },
+            {
+                "id": "/target/Ztl31v5OOTn/selector/css/Bt8D3SRZMdY",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/A5wC6Y7lvz1]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://sws.geonames.org/5946768",
+        "type": "crm:E53_Place",
+        "label": "Edmonton",
+        "description": "Alberta, CA"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/XxlxcA1SK5A">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/XxlxcA1SK5A",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-15T15:12:59.392Z",
+    "creator": {
+        "id": "https://github.com/ilovan",
+        "type": "crm:E21_Person",
+        "name": "Mihaela Ilovan"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/Bwf2EVOzbxn",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/Bwf2EVOzbxn/selector/textPosition/MxwPvyKHwDv",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 70838,
+                "end": 70846,
+                "refinedBy": {
+                    "id": "/target/Bwf2EVOzbxn/selector/textQuote/cRpJJPZD7Cv",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Edmonton",
+                    "prefix": "",
+                    "suffix": " University of Alberta Press, 2011"
+                }
+            },
+            {
+                "id": "/target/Bwf2EVOzbxn/selector/css/7NeYnaQOKy4",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/XxlxcA1SK5A]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://sws.geonames.org/5946768",
+        "type": "crm:E53_Place",
+        "label": "Edmonton",
+        "description": "Alberta, CA"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+			
+</rdf:RDF>
+		
+</xenoData>
+	</standOff>
 </TEI>
