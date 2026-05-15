@@ -536,7 +536,7 @@
                     <p xml:id="p1040">
                         <ref target="#theme_or_topic">
                             <ref target="#spatiality">All of the research projects affiliated with <abbr>CWRC</abbr> have a spatial component. Some are concerned with regional writing. <ref target="#genre_performance">A number of theatre projects seek to spatially track productions and networks of professionals.</ref>
-                                <ref target="#technology">The Editing Modernism in <placeName key="Canadá" ref="http://viaf.org/viaf/136600716" ana="webannotation:http://temp.lincsproject.ca/5ncxV6fa4Py">Canada</placeName> project at <orgName key="University of Alberta" ref="http://viaf.org/viaf/155492116" ana="webannotation:http://temp.lincsproject.ca/3XaryBrijiE">the University of Alberta</orgName> has developed a smart phone app called <title level="m">WatsonWalk</title> based on <ref target="#history"><persName key="Hammill, Faye." ref="http://viaf.org/viaf/42097474" ana="webannotation:http://temp.lincsproject.ca/uA6OX2bTIAc" type="real" cert="high">walks </persName>taken by Sheila Watson while she and her husband Wilfred Watson lived in Paris from 1955 to 1956</ref>, as documented in her journals.</ref> Kristine Moruzi’s project <title level="m">From Colonial to Modern: Transnational Girlhood in Australian, New Zealand, and Canadian Print Cultures <note place="inline">
+                                <ref target="#technology">The Editing Modernism in <placeName key="Canadá" ref="http://viaf.org/viaf/136600716" ana="webannotation:http://temp.lincsproject.ca/uUek6qpqyjy">Canada</placeName> project at <orgName key="University of Alberta" ref="http://viaf.org/viaf/155492116" ana="webannotation:http://temp.lincsproject.ca/3XaryBrijiE">the University of Alberta</orgName> has developed a smart phone app called <title level="m">WatsonWalk</title> based on <ref target="#history"><persName key="Hammill, Faye." ref="http://viaf.org/viaf/42097474" ana="webannotation:http://temp.lincsproject.ca/uA6OX2bTIAc" type="real" cert="high">walks </persName>taken by Sheila Watson while she and her husband Wilfred Watson lived in Paris from 1955 to 1956</ref>, as documented in her journals.</ref> Kristine Moruzi’s project <title level="m">From Colonial to Modern: Transnational Girlhood in Australian, New Zealand, and Canadian Print Cultures <note place="inline">
                                         <bibl>(1840–1940)</bibl>
                                     </note>
                                 </title> aims to map the relationship between places of production, places of publication, and places of dissemination. The most ambitious of <abbr>CWRC’s</abbr> pilot projects is <title>Magazines, Travel, and Middlebrow Culture in Canada 1925–1960,</title> led by  of the University of Strathclyde. <ref target="#genre_journalism">This project investigates geographical mobility as a form of upward mobility, and is designed to distinguish leisure travel from the enforced movement of migration and diaspora. The project uses middlebrow magazines to map shifts in travel patterns.</ref> If one takes seriously the claim that space <q>is not simply a passive reflection of social and cultural trends, but an active participant, i.e., geography is constitutive as well as representative</q>
@@ -585,7 +585,7 @@
                     <p xml:id="p1046">
                         <ref target="#non-book_media">
                             <ref target="#technology">
-                                <ref target="#spatiality">Orlando’s texts use tags based on <abbr>TEI</abbr> for entities such as place, but they also use a custom tag set designed specifically by the research team for the production of a digital literary history. This tag set demarcates spans of text according to several contexts, such as discussions of writers’ residences, travels, or migrations; fictional settings or non-fictional topographical descriptions; sites of theatrical productions; or where a writer engaged in political activism. Thus, the tagging of a sentence such as <q>Frances Brooke sailed from <placeName key="Great Britain." ref="http://viaf.org/viaf/127756949" ana="webannotation:http://temp.lincsproject.ca/hcx9Dn5K2xz">England</placeName> to join her husband in Québec</q> under a <q>location</q> tag allows place as a destination of travel to be distinguished from a sentence such as <q>This novel is best known for its picture of settler or habitant life in Lower Canada, which Frances Brooke drew from her own years there</q>
+                                <ref target="#spatiality">Orlando’s texts use tags based on <abbr>TEI</abbr> for entities such as place, but they also use a custom tag set designed specifically by the research team for the production of a digital literary history. This tag set demarcates spans of text according to several contexts, such as discussions of writers’ residences, travels, or migrations; fictional settings or non-fictional topographical descriptions; sites of theatrical productions; or where a writer engaged in political activism. Thus, the tagging of a sentence such as <q>Frances Brooke sailed from <placeName key="England" ref="https://viaf.org/en/viaf/142995804" ana="webannotation:http://temp.lincsproject.ca/GBcXsOSfbfL">England</placeName> to join her husband in Québec</q> under a <q>location</q> tag allows place as a destination of travel to be distinguished from a sentence such as <q>This novel is best known for its picture of settler or habitant life in Lower Canada, which Frances Brooke drew from her own years there</q>
                                     <note place="inline">
                                         <bibl>Brown, Clements, and Grundy</bibl>
                                     </note>. <ref target="#politics">Places often mentioned under the <q>politics</q> tag, for instance, include Hyde Park and Trafalgar Square in <placeName key="London (England)" ref="http://viaf.org/viaf/8676155769103627880004" ana="webannotation:http://temp.lincsproject.ca/N1TZkfcdBkF">London</placeName>, the nuclear research station at Aldermaston in Berkshire as the site of <ref target="#social_movement">demonstrations</ref>, and Holloway Prison as the place where <placeName key="London (England)" ref="http://viaf.org/viaf/8676155769103627880004" ana="webannotation:http://temp.lincsproject.ca/bFcxNIGUSSZ">London</placeName> <ref target="#gender issue">
@@ -644,7 +644,7 @@
                     <head>Visualizations</head>
                     <p xml:id="p1053">
                         <ref target="#religion">
-                            <ref target="#historical_oppression">Consider the visualization we produced of the travels and global influence of Mary Ward (1585–1645), a Roman Catholic at a time when <ref target="#violence">people of this faith were a persecuted minority</ref> in <placeName key="Great Britain." ref="http://viaf.org/viaf/127756949" ana="webannotation:http://temp.lincsproject.ca/vMb4vjvTTE0">England</placeName>, whose lifelong ambition was to found a non-enclosed <ref target="#gender_issue">religious order for women modelled after the all-male Jesuits.</ref>
+                            <ref target="#historical_oppression">Consider the visualization we produced of the travels and global influence of Mary Ward (1585–1645), a Roman Catholic at a time when <ref target="#violence">people of this faith were a persecuted minority</ref> in <placeName key="England" ref="https://viaf.org/en/viaf/142995804" ana="webannotation:http://temp.lincsproject.ca/CbXPtHxHeMc">England</placeName>, whose lifelong ambition was to found a non-enclosed <ref target="#gender_issue">religious order for women modelled after the all-male Jesuits.</ref>
                             </ref>
                         </ref>
                     </p>
@@ -673,12 +673,12 @@
                             <figDesc>Figure 1.1e: Biographies of writers born between 1900-2000.</figDesc>
                         </figure>
                         <p xml:id="p1054">
-                            <ref target="#spatiality">This map produced many hits in <placeName key="Great Britain." ref="http://viaf.org/viaf/127756949" ana="webannotation:http://temp.lincsproject.ca/61nac96eZIS">England</placeName>, numerous hits in continental Europe, and a few hits worldwide (see Figure 1.2).</ref>
+                            <ref target="#spatiality">This map produced many hits in <placeName key="England" ref="https://viaf.org/en/viaf/142995804" ana="webannotation:http://temp.lincsproject.ca/lkvH27cy0bp">England</placeName>, numerous hits in continental Europe, and a few hits worldwide (see Figure 1.2).</ref>
                         </p>
                         <p xml:id="p1055">
                             <ref target="#representation_of_women">Figure 1.3 shows Ward’s extensive travels around Europe: an extraordinary testimony to one woman’s influence at a time when travel was slow and dangerous.</ref>
                         </p>
-                        <p xml:id="p1056">Figure 1.4 indicates a concentration of hits in northern <placeName key="Great Britain." ref="http://viaf.org/viaf/127756949" ana="webannotation:http://temp.lincsproject.ca/wmpergenCa0">England</placeName> (which reflects <ref target="#religion">the semi-underground life lived by Catholics</ref> during the time of Ward’s adolescence) and a cluster of hits in <placeName key="London (England)" ref="http://viaf.org/viaf/8676155769103627880004" ana="webannotation:http://temp.lincsproject.ca/YcPro7jpABx">London</placeName>.</p>
+                        <p xml:id="p1056">Figure 1.4 indicates a concentration of hits in northern <placeName key="England" ref="https://viaf.org/en/viaf/142995804" ana="webannotation:http://temp.lincsproject.ca/SEc6lE1bQVq">England</placeName> (which reflects <ref target="#religion">the semi-underground life lived by Catholics</ref> during the time of Ward’s adolescence) and a cluster of hits in <placeName key="London (England)" ref="http://viaf.org/viaf/8676155769103627880004" ana="webannotation:http://temp.lincsproject.ca/YcPro7jpABx">London</placeName>.</p>
                         <p xml:id="p1057">
                             <ref target="#spatiality">Zooming in further in the Exhibit view reveals the various addresses or names of public buildings associated with Mary Ward. Most, but not all, of these addresses and buildings still exist today, which affirms the desirability of certain kinds of <ref target="#technology">mapping technologies for smart phone applications.</ref>
                             </ref>
@@ -694,7 +694,7 @@
                             <figure>
                                 <head>Figure 1.4</head>
                                 <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A206263d4-7084-4ab3-95b1-91bb866d04b9/datastream/JPG-DToC/view"/>
-                                <figDesc>Places related to Mary Ward's travels and influence in <placeName key="Great Britain." ref="http://viaf.org/viaf/127756949" ana="webannotation:http://temp.lincsproject.ca/OAwZD7zixPi">England</placeName>.</figDesc>
+                                <figDesc>Places related to Mary Ward's travels and influence in <placeName key="England" ref="https://viaf.org/en/viaf/142995804" ana="webannotation:http://temp.lincsproject.ca/C5B5rbxjhKS">England</placeName>.</figDesc>
                             </figure> writers’ <placeName key="London (England)" ref="http://viaf.org/viaf/8676155769103627880004" ana="webannotation:http://temp.lincsproject.ca/N4w7mQ3wKSJ">London</placeName>. <ref target="#close_reading">Theoretically, the degree of possible granularity knows no bounds.</ref>
                         </p>
                         <p xml:id="p1059">
@@ -760,7 +760,7 @@
                             </ref>
                         </p>
                         <p xml:id="p1066">
-                            <ref target="#representation_of_women">Figure 1.7 shows at a glance how widely these intrepid women penetrated the eastern seaboard of colonial North America, travelled from <placeName key="Newfoundland and Labrador" ref="http://viaf.org/viaf/136989452" ana="webannotation:http://temp.lincsproject.ca/yzjn28mj4by">Newfoundland</placeName> in the north to <placeName key="Jamaica" ref="http://viaf.org/viaf/126584662" ana="webannotation:http://temp.lincsproject.ca/U7btaKWDOfj">Jamaica</placeName> and <placeName key="Barbados." ref="http://viaf.org/viaf/146498747" ana="webannotation:http://temp.lincsproject.ca/APPvTywug10">Barbados</placeName> in the south. It also shows their travels in Europe and eastwards to <placeName key="Greece" ref="http://viaf.org/viaf/513149294313280521686" ana="webannotation:http://temp.lincsproject.ca/LTH2wkPH70d">Greece</placeName>, <placeName key="Turkey" ref="http://viaf.org/viaf/244983681" ana="webannotation:http://temp.lincsproject.ca/qjlmQViUZQz">Turkey</placeName>, and <placeName key="Jerusalem" ref="http://viaf.org/viaf/242525665" ana="webannotation:http://temp.lincsproject.ca/Um2ijTs60Yx">Jerusalem</placeName>, as well as all over <placeName key="Great Britain." ref="http://viaf.org/viaf/127756949" ana="webannotation:http://temp.lincsproject.ca/6GUKl8RjwHe">England</placeName> and Ireland. <ref target="#religion">Like Mary Ward, these members of the Society of Friends were driven by the determination to spread their faith worldwide.</ref>
+                            <ref target="#representation_of_women">Figure 1.7 shows at a glance how widely these intrepid women penetrated the eastern seaboard of colonial North America, travelled from <placeName key="Newfoundland and Labrador" ref="http://viaf.org/viaf/136989452" ana="webannotation:http://temp.lincsproject.ca/yzjn28mj4by">Newfoundland</placeName> in the north to <placeName key="Jamaica" ref="http://viaf.org/viaf/126584662" ana="webannotation:http://temp.lincsproject.ca/U7btaKWDOfj">Jamaica</placeName> and <placeName key="Barbados." ref="http://viaf.org/viaf/146498747" ana="webannotation:http://temp.lincsproject.ca/APPvTywug10">Barbados</placeName> in the south. It also shows their travels in Europe and eastwards to <placeName key="Greece" ref="http://viaf.org/viaf/513149294313280521686" ana="webannotation:http://temp.lincsproject.ca/LTH2wkPH70d">Greece</placeName>, <placeName key="Turkey" ref="http://viaf.org/viaf/244983681" ana="webannotation:http://temp.lincsproject.ca/qjlmQViUZQz">Turkey</placeName>, and <placeName key="Jerusalem" ref="http://viaf.org/viaf/242525665" ana="webannotation:http://temp.lincsproject.ca/Um2ijTs60Yx">Jerusalem</placeName>, as well as all over <placeName key="England" ref="https://viaf.org/en/viaf/142995804" ana="webannotation:http://temp.lincsproject.ca/SVPCFR2SBLu">England</placeName> and Ireland. <ref target="#religion">Like Mary Ward, these members of the Society of Friends were driven by the determination to spread their faith worldwide.</ref>
                             </ref>
                         </p>
                         <p xml:id="p1067">
@@ -1286,20 +1286,20 @@
 				
 </rdf:Description>
 				
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/5ncxV6fa4Py">
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/uUek6qpqyjy">
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
         "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
         "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
-    "id": "http://temp.lincsproject.ca/5ncxV6fa4Py",
+    "id": "http://temp.lincsproject.ca/uUek6qpqyjy",
     "type": [
         "Annotation",
         "crm:E33_Linguistic_Object"
     ],
     "motivation": "oa:identifying",
-    "created": "2026-05-15T18:57:17.453Z",
+    "created": "2026-05-15T20:09:52.802Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
         "type": "crm:E21_Person",
@@ -1359,6 +1359,14 @@
                     "crm:E73_Information_Object"
                 ],
                 "value": "[ana~=webannotation:http://temp.lincsproject.ca/5ncxV6fa4Py]"
+            },
+            {
+                "id": "/target/JSQ5JWhLyrv/selector/css/8YT3pXwAOao",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/uUek6qpqyjy]"
             }
         ]
     },
@@ -4409,20 +4417,20 @@
 				
 </rdf:Description>
 				
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/hcx9Dn5K2xz">
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/GBcXsOSfbfL">
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
         "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
         "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
-    "id": "http://temp.lincsproject.ca/hcx9Dn5K2xz",
+    "id": "http://temp.lincsproject.ca/GBcXsOSfbfL",
     "type": [
         "Annotation",
         "crm:E33_Linguistic_Object"
     ],
     "motivation": "oa:identifying",
-    "created": "2026-05-15T19:07:02.976Z",
+    "created": "2026-05-15T20:21:46.545Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
         "type": "crm:E21_Person",
@@ -4482,36 +4490,61 @@
                     "crm:E73_Information_Object"
                 ],
                 "value": "[ana~=webannotation:http://temp.lincsproject.ca/hcx9Dn5K2xz]"
+            },
+            {
+                "id": "/target/VoC1p2b3M4t/selector/css/9xo9UluliU3",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/Pzve9Vq1JAN]"
+            },
+            {
+                "id": "/target/VoC1p2b3M4t/selector/css/TXO1Nz5xyln",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/qVHNbhqFLYg]"
+            },
+            {
+                "id": "/target/VoC1p2b3M4t/selector/css/KABerlXkqrX",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/GBcXsOSfbfL]"
             }
         ]
     },
     "body": {
-        "id": "http://viaf.org/viaf/127756949",
+        "id": "https://viaf.org/en/viaf/142995804",
+        "label": "England",
         "type": "crm:E53_Place",
-        "label": "Great Britain.",
-        "description": "Grande-Bretagne"
+        "entityType": "crm:E53_Place"
     },
     "P2_has_type": [
-        "oa:identifying"
+        "oa:identifying",
+        "edit:certaintyHigh"
     ]
 }]]>
 				
 </rdf:Description>
 				
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/vMb4vjvTTE0">
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/CbXPtHxHeMc">
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
         "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
         "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
-    "id": "http://temp.lincsproject.ca/vMb4vjvTTE0",
+    "id": "http://temp.lincsproject.ca/CbXPtHxHeMc",
     "type": [
         "Annotation",
         "crm:E33_Linguistic_Object"
     ],
     "motivation": "oa:identifying",
-    "created": "2026-05-15T19:07:03.346Z",
+    "created": "2026-05-15T20:21:46.548Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
         "type": "crm:E21_Person",
@@ -4571,14 +4604,22 @@
                     "crm:E73_Information_Object"
                 ],
                 "value": "[ana~=webannotation:http://temp.lincsproject.ca/vMb4vjvTTE0]"
+            },
+            {
+                "id": "/target/hJN2dua8zzp/selector/css/OQ5uttxzwwd",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/CbXPtHxHeMc]"
             }
         ]
     },
     "body": {
-        "id": "http://viaf.org/viaf/127756949",
+        "id": "https://viaf.org/en/viaf/142995804",
+        "label": "England",
         "type": "crm:E53_Place",
-        "label": "Great Britain.",
-        "description": "Grande-Bretagne"
+        "entityType": "crm:E53_Place"
     },
     "P2_has_type": [
         "oa:identifying"
@@ -4587,20 +4628,20 @@
 				
 </rdf:Description>
 				
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/61nac96eZIS">
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/lkvH27cy0bp">
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
         "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
         "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
-    "id": "http://temp.lincsproject.ca/61nac96eZIS",
+    "id": "http://temp.lincsproject.ca/lkvH27cy0bp",
     "type": [
         "Annotation",
         "crm:E33_Linguistic_Object"
     ],
     "motivation": "oa:identifying",
-    "created": "2026-05-15T19:07:03.811Z",
+    "created": "2026-05-15T20:21:46.549Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
         "type": "crm:E21_Person",
@@ -4660,14 +4701,22 @@
                     "crm:E73_Information_Object"
                 ],
                 "value": "[ana~=webannotation:http://temp.lincsproject.ca/61nac96eZIS]"
+            },
+            {
+                "id": "/target/YKWBrzgRMK0/selector/css/6wVZylJrjw0",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/lkvH27cy0bp]"
             }
         ]
     },
     "body": {
-        "id": "http://viaf.org/viaf/127756949",
+        "id": "https://viaf.org/en/viaf/142995804",
+        "label": "England",
         "type": "crm:E53_Place",
-        "label": "Great Britain.",
-        "description": "Grande-Bretagne"
+        "entityType": "crm:E53_Place"
     },
     "P2_has_type": [
         "oa:identifying"
@@ -4676,20 +4725,20 @@
 				
 </rdf:Description>
 				
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/wmpergenCa0">
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/SEc6lE1bQVq">
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
         "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
         "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
-    "id": "http://temp.lincsproject.ca/wmpergenCa0",
+    "id": "http://temp.lincsproject.ca/SEc6lE1bQVq",
     "type": [
         "Annotation",
         "crm:E33_Linguistic_Object"
     ],
     "motivation": "oa:identifying",
-    "created": "2026-05-15T19:07:04.204Z",
+    "created": "2026-05-15T20:21:46.550Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
         "type": "crm:E21_Person",
@@ -4749,14 +4798,22 @@
                     "crm:E73_Information_Object"
                 ],
                 "value": "[ana~=webannotation:http://temp.lincsproject.ca/wmpergenCa0]"
+            },
+            {
+                "id": "/target/jakOYa7lH0w/selector/css/XfKDFKKqlYf",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/SEc6lE1bQVq]"
             }
         ]
     },
     "body": {
-        "id": "http://viaf.org/viaf/127756949",
+        "id": "https://viaf.org/en/viaf/142995804",
+        "label": "England",
         "type": "crm:E53_Place",
-        "label": "Great Britain.",
-        "description": "Grande-Bretagne"
+        "entityType": "crm:E53_Place"
     },
     "P2_has_type": [
         "oa:identifying"
@@ -4765,20 +4822,20 @@
 				
 </rdf:Description>
 				
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/OAwZD7zixPi">
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/C5B5rbxjhKS">
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
         "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
         "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
-    "id": "http://temp.lincsproject.ca/OAwZD7zixPi",
+    "id": "http://temp.lincsproject.ca/C5B5rbxjhKS",
     "type": [
         "Annotation",
         "crm:E33_Linguistic_Object"
     ],
     "motivation": "oa:identifying",
-    "created": "2026-05-15T19:07:04.725Z",
+    "created": "2026-05-15T20:21:46.551Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
         "type": "crm:E21_Person",
@@ -4838,14 +4895,22 @@
                     "crm:E73_Information_Object"
                 ],
                 "value": "[ana~=webannotation:http://temp.lincsproject.ca/OAwZD7zixPi]"
+            },
+            {
+                "id": "/target/6SFtV0H79SY/selector/css/0ZWv8qHxKnk",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/C5B5rbxjhKS]"
             }
         ]
     },
     "body": {
-        "id": "http://viaf.org/viaf/127756949",
+        "id": "https://viaf.org/en/viaf/142995804",
+        "label": "England",
         "type": "crm:E53_Place",
-        "label": "Great Britain.",
-        "description": "Grande-Bretagne"
+        "entityType": "crm:E53_Place"
     },
     "P2_has_type": [
         "oa:identifying"
@@ -4854,20 +4919,20 @@
 				
 </rdf:Description>
 				
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/6GUKl8RjwHe">
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/SVPCFR2SBLu">
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
         "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
         "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
-    "id": "http://temp.lincsproject.ca/6GUKl8RjwHe",
+    "id": "http://temp.lincsproject.ca/SVPCFR2SBLu",
     "type": [
         "Annotation",
         "crm:E33_Linguistic_Object"
     ],
     "motivation": "oa:identifying",
-    "created": "2026-05-15T19:07:04.728Z",
+    "created": "2026-05-15T20:21:46.552Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
         "type": "crm:E21_Person",
@@ -4927,14 +4992,22 @@
                     "crm:E73_Information_Object"
                 ],
                 "value": "[ana~=webannotation:http://temp.lincsproject.ca/6GUKl8RjwHe]"
+            },
+            {
+                "id": "/target/2COKnBWvG5v/selector/css/UAdVy8ShH4o",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/SVPCFR2SBLu]"
             }
         ]
     },
     "body": {
-        "id": "http://viaf.org/viaf/127756949",
+        "id": "https://viaf.org/en/viaf/142995804",
+        "label": "England",
         "type": "crm:E53_Place",
-        "label": "Great Britain.",
-        "description": "Grande-Bretagne"
+        "entityType": "crm:E53_Place"
     },
     "P2_has_type": [
         "oa:identifying"
@@ -5572,6 +5645,10 @@
 			
 </rdf:RDF>
 		
+
+		
 </xenoData>
+	
 	</standOff>
+
 </TEI>
