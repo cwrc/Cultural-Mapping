@@ -756,9 +756,7 @@
                             </ref>
                         </p>
                         <p xml:id="p1065">
-                            <ref target="#theme_or_topic">Another issue of concern is the way insufficiently specified places—or the combination of varying levels of granularity in a single spatial visualization—can yield misleading results. <ref target="#religion">This can be seen clearly on a map showing the travels of seventeenth-century <rs key="Quäker" ref="https://viaf.org/en/viaf/3829151474904900490007" ana="webannotation:http://temp.lincsproject.ca/geLIca9Ot0y">Quakers</rs>.</ref>
-                            </ref>
-                        </p>
+                            <ref target="#theme_or_topic">Another issue of concern is the way insufficiently specified places—or the combination of varying levels of granularity in a single spatial visualization—can yield misleading results. <ref target="#religion">This can be seen clearly on a map showing the travels of seventeenth-century Quakers.                           </ref></ref></p>
                         <p xml:id="p1066">
                             <ref target="#representation_of_women">Figure 1.7 shows at a glance how widely these intrepid women penetrated the eastern seaboard of colonial <placeName key="North America" ref="https://sws.geonames.org/6255149" ana="webannotation:http://temp.lincsproject.ca/9rKn1wZFJk4">North America</placeName>, travelled from <placeName key="Newfoundland and Labrador" ref="https://sws.geonames.org/6354959" ana="webannotation:http://temp.lincsproject.ca/aiDJtDrP92X">Newfoundland</placeName> in the north to <placeName key="Jamaica" ref="https://sws.geonames.org/3489940" ana="webannotation:http://temp.lincsproject.ca/SX0LNA4pQ3r">Jamaica</placeName> and <placeName key="Barbados" ref="https://sws.geonames.org/3374084" ana="webannotation:http://temp.lincsproject.ca/GcXrbE3y2hi">Barbados</placeName> in the south. It also shows their travels in <orgName key="Europe" ref="https://sws.geonames.org/6255148" ana="webannotation:http://temp.lincsproject.ca/hwFHXJZsiMR">Europe</orgName> and eastwards to <placeName key="Hellenic Republic" ref="https://sws.geonames.org/390903" ana="webannotation:http://temp.lincsproject.ca/gFRGNWpN3kM">Greece</placeName>, <placeName key="Republic of Turkey" ref="https://sws.geonames.org/298795" ana="webannotation:http://temp.lincsproject.ca/cPpsQOJX4hs">Turkey</placeName>, and <placeName key="Jerusalem" ref="https://sws.geonames.org/281184" ana="webannotation:http://temp.lincsproject.ca/eE9yBGnaIGd">Jerusalem</placeName>, as well as all over <placeName key="England" ref="https://sws.geonames.org/6269131" ana="webannotation:http://temp.lincsproject.ca/0sj3Q7dPtpE">England</placeName> and <placeName key="Ireland" ref="https://sws.geonames.org/2963597" ana="webannotation:http://temp.lincsproject.ca/kwsvyKgmeAC">Ireland</placeName>. <ref target="#religion">Like <persName key="Ward, Mary" ref="http://viaf.org/viaf/62341746" ana="webannotation:http://temp.lincsproject.ca/gy9hkNb05hd">Mary Ward</persName>, these members of <orgName key="Society of Friends" ref="http://viaf.org/viaf/3829151474904900490007" ana="webannotation:http://temp.lincsproject.ca/jv7BxG6e0mH">the Society of Friends</orgName> were driven by the determination to spread their faith worldwide.</ref>
                             </ref>
@@ -19518,95 +19516,6 @@
     },
     "P2_has_type": [
         "oa:identifying"
-    ]
-}]]>
-				
-</rdf:Description>
-				
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/geLIca9Ot0y">
-<![CDATA[{
-    "@context": [
-        "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
-    ],
-    "id": "http://temp.lincsproject.ca/geLIca9Ot0y",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:tagging",
-    "created": "2026-06-02T15:43:15.576Z",
-    "creator": {
-        "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
-    },
-    "generator": {
-        "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
-        "name": "NERVE",
-        "softwareVersion": "0.3.0"
-    },
-    "target": {
-        "id": "/target/hqcP27QXht2",
-        "type": [
-            "SpecificResource",
-            "crm:E73_Information_Object"
-        ],
-        "source": {
-            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
-            "P1_is_identified_by": {
-                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Mapping Tags and Tagging Maps"
-            }
-        },
-        "selector": [
-            {
-                "id": "/target/hqcP27QXht2/selector/textPosition/5cf6MYkGfOE",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 33609,
-                "end": 33616,
-                "refinedBy": {
-                    "id": "/target/hqcP27QXht2/selector/textQuote/ryEoIDs09W6",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Quakers",
-                    "prefix": " This can be seen clearly on a map showing the travels of seventeenth-century",
-                    "suffix": "\n                            \n                        \n                        \n                            Figure 1"
-                }
-            },
-            {
-                "id": "/target/hqcP27QXht2/selector/css/oYADz5blon3",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/geLIca9Ot0y]"
-            }
-        ]
-    },
-    "body": {
-        "id": "https://viaf.org/en/viaf/3829151474904900490007",
-        "label": "Quäker",
-        "type": "crm:E74_Group",
-        "entityType": "crm:E74_Group"
-    },
-    "P2_has_type": [
-        "oa:tagging"
     ]
 }]]>
 				
