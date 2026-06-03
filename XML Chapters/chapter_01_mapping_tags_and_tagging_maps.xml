@@ -492,7 +492,7 @@
                 <byline>
                     <hi rend="italic">Leveraging Spatial Markup for Literary History</hi>
                 </byline>
-                <docAuthor> <persName key="Brown, Susan Irene" ref="http://viaf.org/viaf/104953085" ana="webannotation:http://temp.lincsproject.ca/l38EjyOiqAC">Susan Brown</persName>, <persName key="Grundy, Isobel." ref="http://viaf.org/viaf/12322641" ana="webannotation:http://temp.lincsproject.ca/t4chn7tEstr">Isobel Grundy</persName>, Mariana Paredes-Olea, Jeffery Antoniuk, &amp; Breanna Mroczek</docAuthor>
+                <docAuthor> <persName key="Brown, Susan Irene" ref="http://viaf.org/viaf/104953085" ana="webannotation:http://temp.lincsproject.ca/l38EjyOiqAC">Susan Brown</persName>, <persName key="Grundy, Isobel." ref="http://viaf.org/viaf/12322641" ana="webannotation:http://temp.lincsproject.ca/t4chn7tEstr">Isobel Grundy</persName>, <persName key="Mariana Paredes Olea" ref="https://orcid.org/0000-0003-2566-0884" ana="webannotation:http://temp.lincsproject.ca/ydTHR3pm2m8">Mariana Paredes-Olea</persName>, <persName key="Jeffery Antoniuk" ref="https://orcid.org/0000-0003-2632-8787" ana="webannotation:http://temp.lincsproject.ca/IbtGrmI7L7w">Jeffery Antoniuk</persName>, &amp; <persName key="Breanna Mroczek" ref="https://orcid.org/0000-0001-6889-8994" ana="webannotation:http://temp.lincsproject.ca/SvGLwctxOb0">Breanna Mroczek</persName></docAuthor>
                 <div type="section">
                     <head>Introduction</head>
                     <p xml:id="p1037">
@@ -514,9 +514,9 @@
                                 <ref target="#methodology">The application of computational spatial analysis in literary studies is relatively new, but the results are already evident in a number of impressive projects.</ref> These projects include an overview of the development of printing technologies <note place="inline">
                                     <bibl><orgName key="Prickman, Gregory J." ref="http://viaf.org/viaf/305283540" ana="webannotation:http://temp.lincsproject.ca/fSV1PsH8UI3">Prickman</orgName></bibl>
                                 </note>; an analysis of the impact of railway development <note place="inline">
-                                    <bibl>Thomas, <persName key="Healey, Richard G." ref="http://viaf.org/viaf/222743171" ana="webannotation:http://temp.lincsproject.ca/DPCmZIu18GH">Healey</persName>, and Cottingham</bibl>
+                                    <bibl><orgName key="Augustine, of Hippo, Saint, 354-430." ref="http://viaf.org/viaf/66806872" ana="webannotation:http://temp.lincsproject.ca/DksxzB6SP2k">Thomas</orgName>, <persName key="Healey, Richard G." ref="http://viaf.org/viaf/222743171" ana="webannotation:http://temp.lincsproject.ca/DPCmZIu18GH">Healey</persName>, and Cottingham</bibl>
                                 </note>; and a study of the circulation of letters in early modern <orgName key="Europe" ref="https://sws.geonames.org/6255148" ana="webannotation:http://temp.lincsproject.ca/QLGPEamJXd0">Europe</orgName> <note place="inline">
-                                    <bibl>Coleman, <persName key="Edelstein, Dan." ref="http://viaf.org/viaf/45481065" ana="webannotation:http://temp.lincsproject.ca/7j9cvKA5kny">Edelstein</persName>, and Findlen</bibl>
+                                    <bibl><orgName key="Mullen, Nicole C." ref="http://viaf.org/viaf/4597810" ana="webannotation:http://temp.lincsproject.ca/Pq2dnKgKuQT">Coleman</orgName>, <persName key="Edelstein, Dan." ref="http://viaf.org/viaf/45481065" ana="webannotation:http://temp.lincsproject.ca/7j9cvKA5kny">Edelstein</persName>, and <persName key="Findlen, Paula." ref="http://viaf.org/viaf/9957596" ana="webannotation:http://temp.lincsproject.ca/pDRMjMY4xDH">Findlen</persName></bibl>
                                 </note>.</ref>
                         </ref>
                     </p>
@@ -536,10 +536,10 @@
                     <p xml:id="p1040">
                         <ref target="#theme_or_topic">
                             <ref target="#spatiality">All of the research projects affiliated with <abbr><orgName key="Canadian Writing Research Collaboratory " ref="https://www.wikidata.org/wiki/Q134008740" ana="webannotation:http://temp.lincsproject.ca/9ACTtiXachU">CWRC</orgName></abbr> have a spatial component. Some are concerned with regional writing. <ref target="#genre_performance">A number of theatre projects seek to spatially track productions and networks of professionals.</ref>
-                                <ref target="#technology">The Editing Modernism in <placeName key="Canada" ref="https://sws.geonames.org/6251999" ana="webannotation:http://temp.lincsproject.ca/jJxRMVMly45">Canada</placeName> project at <orgName key="University of Alberta" ref="http://viaf.org/viaf/155492116" ana="webannotation:http://temp.lincsproject.ca/8iwdxNfSDj9">the University of Alberta</orgName> has developed a smart phone app called <title level="m">WatsonWalk</title> based on <ref target="#history">walks taken by <persName key="Watson, Sheila, 1909-1998" ref="http://viaf.org/viaf/35268398" ana="webannotation:http://temp.lincsproject.ca/Oh87D0eONFW">Sheila Watson</persName> while she and her husband <persName key="Watson, Wilfred, 1911-1998" ref="http://viaf.org/viaf/67854547" ana="webannotation:http://temp.lincsproject.ca/EmjlNNXdfDy">Wilfred Watson</persName> lived in <placeName key="Paris" ref="https://sws.geonames.org/2988507" ana="webannotation:http://temp.lincsproject.ca/JGxGrsMvyVz">Paris</placeName> from 1955 to 1956</ref>, as documented in her journals.</ref> <persName key="Moruzi, Kristine." ref="http://viaf.org/viaf/260397385" ana="webannotation:http://temp.lincsproject.ca/B4kDyjN4uld">Kristine Moruzi’s</persName> project <title level="m">From Colonial to Modern: Transnational Girlhood in Australian, <placeName key="New Zealand" ref="https://sws.geonames.org/2186223" ana="webannotation:http://temp.lincsproject.ca/RqspdZRQlRJ">New Zealand</placeName>, and Canadian Print Cultures <note place="inline">
+                                <ref target="#technology">The Editing Modernism in <placeName key="Canada" ref="https://sws.geonames.org/6251999" ana="webannotation:http://temp.lincsproject.ca/jJxRMVMly45">Canada</placeName> project at <orgName key="University of Alberta" ref="http://viaf.org/viaf/155492116" ana="webannotation:http://temp.lincsproject.ca/8iwdxNfSDj9">the University of Alberta</orgName> has developed a smart phone app called <title level="m">WatsonWalk</title> based on <ref target="#history">walks taken by <persName key="Watson, Sheila, 1909-1998" ref="http://viaf.org/viaf/35268398" ana="webannotation:http://temp.lincsproject.ca/Oh87D0eONFW">Sheila Watson</persName> while she and her husband <persName key="Watson, Wilfred, 1911-1998" ref="http://viaf.org/viaf/67854547" ana="webannotation:http://temp.lincsproject.ca/EmjlNNXdfDy">Wilfred Watson</persName> lived in <placeName key="Paris" ref="https://sws.geonames.org/2988507" ana="webannotation:http://temp.lincsproject.ca/JGxGrsMvyVz">Paris</placeName> from 1955 to 1956</ref>, as documented in her journals.</ref> <persName key="Moruzi, Kristine." ref="http://viaf.org/viaf/260397385" ana="webannotation:http://temp.lincsproject.ca/B4kDyjN4uld">Kristine Moruzi’s</persName> project <title level="m"><title key="From Colonial to Modern: Transnational Girlhood in Canadian, Australian, and New Zealand Literature, 1840-1940" ref="http://www.wikidata.org/entity/Q136183008" ana="webannotation:http://temp.lincsproject.ca/DzcRPiWWNAr">From Colonial to Modern</title>: Transnational Girlhood in Australian, <placeName key="New Zealand" ref="https://sws.geonames.org/2186223" ana="webannotation:http://temp.lincsproject.ca/RqspdZRQlRJ">New Zealand</placeName>, and Canadian Print Cultures <note place="inline">
                                         <bibl>(1840–1940)</bibl>
                                     </note>
-                                </title> aims to map the relationship between places of production, places of publication, and places of dissemination. The most ambitious of <abbr><orgName key="Canadian Writing Research Collaboratory " ref="https://www.wikidata.org/wiki/Q134008740" ana="webannotation:http://temp.lincsproject.ca/XGypZLjpwiy">CWRC</orgName>’s</abbr> pilot projects is <title>Magazines, Travel, and Middlebrow Culture in Canada 1925–1960,</title> led by <persName key="Hammill, Faye." ref="http://viaf.org/viaf/42097474" ana="webannotation:http://temp.lincsproject.ca/TBeVcmXWdw2">Faye Hammill</persName> of <orgName key="University of Strathclyde" ref="http://viaf.org/viaf/158205915" ana="webannotation:http://temp.lincsproject.ca/nBBORk7l1mZ">the University of Strathclyde</orgName>. <ref target="#genre_journalism">This project investigates geographical mobility as a form of upward mobility, and is designed to distinguish leisure travel from the enforced movement of migration and diaspora. The project uses middlebrow magazines to map shifts in travel patterns.</ref> If one takes seriously the claim that space <q>is not simply a passive reflection of social and cultural trends, but an active participant, i.e., geography is constitutive as well as representative</q>
+                                </title> aims to map the relationship between places of production, places of publication, and places of dissemination. The most ambitious of <abbr><orgName key="Canadian Writing Research Collaboratory " ref="https://www.wikidata.org/wiki/Q134008740" ana="webannotation:http://temp.lincsproject.ca/XGypZLjpwiy">CWRC</orgName>’s</abbr> pilot projects is <title><orgName key="Magazines, Travel, and Middlebrow Culture: Canadian Periodicals in English and French, 1925–1960" ref="https://www.wikidata.org/wiki/Q136220918" ana="webannotation:http://temp.lincsproject.ca/4q9cUxB9AZe">Magazines, Travel, and Middlebrow Culture in Canada</orgName> 1925–1960,</title> led by <persName key="Hammill, Faye." ref="http://viaf.org/viaf/42097474" ana="webannotation:http://temp.lincsproject.ca/TBeVcmXWdw2">Faye Hammill</persName> of <orgName key="University of Strathclyde" ref="http://viaf.org/viaf/158205915" ana="webannotation:http://temp.lincsproject.ca/nBBORk7l1mZ">the University of Strathclyde</orgName>. <ref target="#genre_journalism">This project investigates geographical mobility as a form of upward mobility, and is designed to distinguish leisure travel from the enforced movement of migration and diaspora. The project uses middlebrow magazines to map shifts in travel patterns.</ref> If one takes seriously the claim that space <q>is not simply a passive reflection of social and cultural trends, but an active participant, i.e., geography is constitutive as well as representative</q>
                                 <note place="inline">
                                     <bibl>Warf and Arias 10</bibl>
                                 </note>, then to make available a dynamic mapping environment that visualizes spatial relations is to give scholars a potentially transformative tool for investigating those constitutive relations. Yet, given the wide range of <abbr><orgName key="Canadian Writing Research Collaboratory " ref="https://www.wikidata.org/wiki/Q134008740" ana="webannotation:http://temp.lincsproject.ca/GrJlthlef8d">CWRC</orgName></abbr> projects, the task of devising even a basic generalized system of mapping is a considerable challenge, as the project’s core development team learned in its initial experiments with spatial data contained in its largest seed project, <orgName key="Orlando" ref="https://www.wikidata.org/wiki/Q60672320" ana="webannotation:http://temp.lincsproject.ca/H2KDpujdvvJ">the Orlando Project</orgName>, housed at <orgName key="University of Alberta" ref="http://viaf.org/viaf/155492116" ana="webannotation:http://temp.lincsproject.ca/8Uar09ZbiHh">the University of Alberta</orgName>.</ref>
@@ -565,7 +565,7 @@
                         <code>&amp;lt;PLACE&amp;gt;&amp;lt;SETTLEMENT&amp;gt;London&amp;lt;/SETTLEMENT&amp;gt;&amp;lt;REGION REG=Middlesex&amp;gt;&amp;lt;/REGION&amp;gt;&amp;lt;GEOG REG=England&amp;gt;&amp;lt;/GEOG&amp;gt;&amp;lt;/PLACE&amp;gt;</code>
                     </q>
                     <p xml:id="p1043">
-                        <ref target="#spatiality">Such tagging distinguishes this particular reference to <placeName key="London" ref="https://sws.geonames.org/2643743" ana="webannotation:http://temp.lincsproject.ca/KZgIamr3YKH">London</placeName> from the more than two dozen other settlements around the world (including <placeName key="London" ref="https://sws.geonames.org/6058560" ana="webannotation:http://temp.lincsproject.ca/k1C89hwzUG9">London</placeName>, <placeName key="Ontario" ref="https://sws.geonames.org/6093943" ana="webannotation:http://temp.lincsproject.ca/EjSh3NvYi6i">Ontario</placeName>) that take their name from the English city, from building names such as London House, and from proper names such as <placeName key="London, Jack, 1876-1916." ref="http://viaf.org/viaf/46764200" ana="webannotation:http://temp.lincsproject.ca/QUx7FC1Hw5q">Jack London</placeName>.</ref>
+                        <ref target="#spatiality">Such tagging distinguishes this particular reference to <placeName key="London" ref="https://sws.geonames.org/2643743" ana="webannotation:http://temp.lincsproject.ca/KZgIamr3YKH">London</placeName> from the more than two dozen other settlements around the world (including <placeName key="London" ref="https://sws.geonames.org/6058560" ana="webannotation:http://temp.lincsproject.ca/k1C89hwzUG9">London</placeName>, <placeName key="Ontario" ref="https://sws.geonames.org/6093943" ana="webannotation:http://temp.lincsproject.ca/EjSh3NvYi6i">Ontario</placeName>) that take their name from the English city, from building names such as <placeName key="London House Hotel" ref="https://sws.geonames.org/6464711" ana="webannotation:http://temp.lincsproject.ca/vhWqHalEAKW">London House</placeName>, and from proper names such as <placeName key="London, Jack, 1876-1916." ref="http://viaf.org/viaf/46764200" ana="webannotation:http://temp.lincsproject.ca/QUx7FC1Hw5q">Jack London</placeName>.</ref>
                     </p>
                     <p xml:id="p1044">
                         <ref target="#non-book_media">
@@ -632,7 +632,7 @@
                     </p>
                     <p xml:id="p1051">
                         <ref target="#technology">
-                            <ref target="#spatiality">We considered a number of mapping tools—such as Exhibit (Huynh), OpenLayers (MetaCarta), Google Maps (<orgName key="Google American multinational technology company, a subsidiary of Alphabet Inc." ref="http://viaf.org/viaf/124291214" ana="webannotation:http://temp.lincsproject.ca/lRIRZAUGrgl">Google</orgName>), ArcGIS (<orgName key="Environmental Systems Research Institute (Redlands, Calif.)" ref="http://viaf.org/viaf/150806221" ana="webannotation:http://temp.lincsproject.ca/HWSMASbVWlB">Esri</orgName>), and HyperCities (UCLA)—experimented with several, and achieved varying degrees of success depending, respectively, on the intuitiveness of their navigation, their ability to read and plot geo-referenced data, and the quality of the visualizations they produced. The maps discussed here were produced using the Map View component of the open source Exhibit 2.0 software produced by the SIMILE project (<abbr><orgName key="Massachusetts institute of technology" ref="http://viaf.org/viaf/150025207" ana="webannotation:http://temp.lincsproject.ca/g9y90Yigtzl">MIT</orgName></abbr>) and more recently sustained by <orgName key="Google American multinational technology company, a subsidiary of Alphabet Inc." ref="http://viaf.org/viaf/124291214" ana="webannotation:http://temp.lincsproject.ca/xZ894DMibrp">Google</orgName>. Exhibit enables the creation of dynamic websites with various views for rendering spatial data within a browser.</ref>
+                            <ref target="#spatiality">We considered a number of mapping tools—such as Exhibit (<object key="David François Huynh" ref="https://www.wikidata.org/wiki/Q102363461" ana="webannotation:http://temp.lincsproject.ca/lmktrXTFI0w">Huynh</object>), OpenLayers (<object key="MetaCarta" ref="https://www.wikidata.org/wiki/Q6822273" ana="webannotation:http://temp.lincsproject.ca/swNTXSh5RpT">MetaCarta</object>), Google Maps (<orgName key="Google American multinational technology company, a subsidiary of Alphabet Inc." ref="http://viaf.org/viaf/124291214" ana="webannotation:http://temp.lincsproject.ca/lRIRZAUGrgl">Google</orgName>), ArcGIS (<orgName key="Environmental Systems Research Institute (Redlands, Calif.)" ref="http://viaf.org/viaf/150806221" ana="webannotation:http://temp.lincsproject.ca/HWSMASbVWlB">Esri</orgName>), and HyperCities (UCLA)—experimented with several, and achieved varying degrees of success depending, respectively, on the intuitiveness of their navigation, their ability to read and plot geo-referenced data, and the quality of the visualizations they produced. The maps discussed here were produced using the Map View component of the open source Exhibit 2.0 software produced by the SIMILE project (<abbr><orgName key="Massachusetts institute of technology" ref="http://viaf.org/viaf/150025207" ana="webannotation:http://temp.lincsproject.ca/g9y90Yigtzl">MIT</orgName></abbr>) and more recently sustained by <orgName key="Google American multinational technology company, a subsidiary of Alphabet Inc." ref="http://viaf.org/viaf/124291214" ana="webannotation:http://temp.lincsproject.ca/xZ894DMibrp">Google</orgName>. Exhibit enables the creation of dynamic websites with various views for rendering spatial data within a browser.</ref>
                         </ref>
                     </p>
                     <p xml:id="p1052">
@@ -731,8 +731,8 @@
                         </p>
                         <p xml:id="p1063">
                             <ref target="#technology">
-                                <ref target="#spatiality">This species of map will differ considerably, for instance, from those facilitated by the Neatline project: <ref target="#archive">
-                                        <q>beautiful, complex maps and narrative sequences from collections of archives and artifacts…maps and narratives with timelines that are more-than-usually sensitive to ambiguity and nuance….Neatline lets you make hand-crafted, interactive stories as interpretive expressions of an archival or cultural heritage collection</q>
+                                <ref target="#spatiality">This species of map will differ considerably, for instance, from those facilitated by the <orgName key="Neatline" ref="https://www.wikidata.org/wiki/Q126085138" ana="webannotation:http://temp.lincsproject.ca/1opUDJrspql">Neatline</orgName> project: <ref target="#archive">
+                                        <q>beautiful, complex maps and narrative sequences from collections of archives and artifacts…maps and narratives with timelines that are more-than-usually sensitive to ambiguity and nuance…<orgName key="Neatline" ref="https://www.wikidata.org/wiki/Q126085138" ana="webannotation:http://temp.lincsproject.ca/Yv89IGbcKfz">.Neatline</orgName> lets you make hand-crafted, interactive stories as interpretive expressions of an archival or cultural heritage collection</q>
                                     </ref>
                                     <note place="inline">
                                         <bibl>Scholars’ Lab</bibl>
@@ -756,7 +756,9 @@
                             </ref>
                         </p>
                         <p xml:id="p1065">
-                            <ref target="#theme_or_topic">Another issue of concern is the way insufficiently specified places—or the combination of varying levels of granularity in a single spatial visualization—can yield misleading results. <ref target="#religion">This can be seen clearly on a map showing the travels of seventeenth-century Quakers.                           </ref></ref></p>
+                            <ref target="#theme_or_topic">Another issue of concern is the way insufficiently specified places—or the combination of varying levels of granularity in a single spatial visualization—can yield misleading results. <ref target="#religion">This can be seen clearly on a map showing the travels of seventeenth-century <rs key="Quäker" ref="https://viaf.org/en/viaf/3829151474904900490007" ana="webannotation:http://temp.lincsproject.ca/geLIca9Ot0y">Quakers</rs>.</ref>
+                            </ref>
+                        </p>
                         <p xml:id="p1066">
                             <ref target="#representation_of_women">Figure 1.7 shows at a glance how widely these intrepid women penetrated the eastern seaboard of colonial <placeName key="North America" ref="https://sws.geonames.org/6255149" ana="webannotation:http://temp.lincsproject.ca/9rKn1wZFJk4">North America</placeName>, travelled from <placeName key="Newfoundland and Labrador" ref="https://sws.geonames.org/6354959" ana="webannotation:http://temp.lincsproject.ca/aiDJtDrP92X">Newfoundland</placeName> in the north to <placeName key="Jamaica" ref="https://sws.geonames.org/3489940" ana="webannotation:http://temp.lincsproject.ca/SX0LNA4pQ3r">Jamaica</placeName> and <placeName key="Barbados" ref="https://sws.geonames.org/3374084" ana="webannotation:http://temp.lincsproject.ca/GcXrbE3y2hi">Barbados</placeName> in the south. It also shows their travels in <orgName key="Europe" ref="https://sws.geonames.org/6255148" ana="webannotation:http://temp.lincsproject.ca/hwFHXJZsiMR">Europe</orgName> and eastwards to <placeName key="Hellenic Republic" ref="https://sws.geonames.org/390903" ana="webannotation:http://temp.lincsproject.ca/gFRGNWpN3kM">Greece</placeName>, <placeName key="Republic of Turkey" ref="https://sws.geonames.org/298795" ana="webannotation:http://temp.lincsproject.ca/cPpsQOJX4hs">Turkey</placeName>, and <placeName key="Jerusalem" ref="https://sws.geonames.org/281184" ana="webannotation:http://temp.lincsproject.ca/eE9yBGnaIGd">Jerusalem</placeName>, as well as all over <placeName key="England" ref="https://sws.geonames.org/6269131" ana="webannotation:http://temp.lincsproject.ca/0sj3Q7dPtpE">England</placeName> and <placeName key="Ireland" ref="https://sws.geonames.org/2963597" ana="webannotation:http://temp.lincsproject.ca/kwsvyKgmeAC">Ireland</placeName>. <ref target="#religion">Like <persName key="Ward, Mary" ref="http://viaf.org/viaf/62341746" ana="webannotation:http://temp.lincsproject.ca/gy9hkNb05hd">Mary Ward</persName>, these members of <orgName key="Society of Friends" ref="http://viaf.org/viaf/3829151474904900490007" ana="webannotation:http://temp.lincsproject.ca/jv7BxG6e0mH">the Society of Friends</orgName> were driven by the determination to spread their faith worldwide.</ref>
                             </ref>
@@ -837,7 +839,7 @@
                                     <ref target="#technology">Our early experimental work tackles only a few of the more obvious complexities of spatial and temporal mapping. We are also keenly aware that our pragmatic experimentation with existing open source tools means that, to date, we have relied on existing conventions for representation of space that may be inherently out of step with the nature of our undertaking. As <persName key="Drucker, Johanna, 1952-...." ref="http://viaf.org/viaf/71503942" ana="webannotation:http://temp.lincsproject.ca/u6kCYmLMubp">Johanna Drucker</persName> urges, humanities visualization needs <q>interpretations that arise in observer-codependence, characterized by ambiguity and uncertainty, as the basis on which a representation is constructed</q> to create <q>a map whose basic coordinate grid is constructed as an effect of these ambiguities</q>
                                         <note place="inline">
                                             <bibl><persName key="Drucker, Johanna, 1952-...." ref="http://viaf.org/viaf/71503942" ana="webannotation:http://temp.lincsproject.ca/ypoH9kHZSDn">Drucker</persName> par. 2</bibl>
-                                        </note>. The systems with which we have experimented thus far cannot begin to support such a nuanced model of spatial visualization. How best to address the mapping needs of literary scholars within <abbr><orgName key="Canadian Writing Research Collaboratory " ref="https://www.wikidata.org/wiki/Q134008740" ana="webannotation:http://temp.lincsproject.ca/ifYmfHlIS2A">CWRC</orgName></abbr>, given the available resources, continues to drive our research. We look forward to learning what affordances other spatial visualization systems, such as Neatline with its attempt to incorporate an interpretive, humanistic perspective, can offer, and how we might adapt them to the kind of <ref target="#collaboration">collaborative, spontaneous, serendipitous mapping environment that <abbr><orgName key="Canadian Writing Research Collaboratory " ref="https://www.wikidata.org/wiki/Q134008740" ana="webannotation:http://temp.lincsproject.ca/QcEnB2vJZ6h">CWRC</orgName></abbr> hopes to support.</ref>
+                                        </note>. The systems with which we have experimented thus far cannot begin to support such a nuanced model of spatial visualization. How best to address the mapping needs of literary scholars within <abbr><orgName key="Canadian Writing Research Collaboratory " ref="https://www.wikidata.org/wiki/Q134008740" ana="webannotation:http://temp.lincsproject.ca/ifYmfHlIS2A">CWRC</orgName></abbr>, given the available resources, continues to drive our research. We look forward to learning what affordances other spatial visualization systems, such as <orgName key="Neatline" ref="https://www.wikidata.org/wiki/Q126085138" ana="webannotation:http://temp.lincsproject.ca/ZkPOG8bqZzU">Neatline</orgName> with its attempt to incorporate an interpretive, humanistic perspective, can offer, and how we might adapt them to the kind of <ref target="#collaboration">collaborative, spontaneous, serendipitous mapping environment that <abbr><orgName key="Canadian Writing Research Collaboratory " ref="https://www.wikidata.org/wiki/Q134008740" ana="webannotation:http://temp.lincsproject.ca/QcEnB2vJZ6h">CWRC</orgName></abbr> hopes to support.</ref>
                                         <abbr><orgName key="Canadian Writing Research Collaboratory " ref="https://www.wikidata.org/wiki/Q134008740" ana="webannotation:http://temp.lincsproject.ca/Trivr65Shu9">CWRC</orgName></abbr> also hopes to incorporate more focused, curated mapping work. Creating even a relatively simple environment within which scholars of wide-ranging perspectives can play with place and space as part of their respective investigations will help advance scholarly reflection on mapping itself and discovery of what kinds of mapping are most conducive to scholarly analysis and interpretation in the field of literary historical studies. But we know we still have considerable ground to cover.</ref>
                                 </ref>
                             </ref>
@@ -853,11 +855,11 @@
                         </bibl>
                         <bibl><persName key="Brown, Susan Irene" ref="http://viaf.org/viaf/104953085" ana="webannotation:http://temp.lincsproject.ca/rlZu2A2PEn3">Brown</persName>, <persName key="Brown, Susan Irene" ref="http://viaf.org/viaf/104953085" ana="webannotation:http://temp.lincsproject.ca/jMs0tOygruO">Susan</persName>, and <persName key="Clements, Patricia" ref="http://viaf.org/viaf/59097729" ana="webannotation:http://temp.lincsproject.ca/G5BvtHIZdyw">Patricia Clements</persName> et al. <title level="a">Tag Team: Computing, Collaborators, and the History of Women’s Writing in the British Isles</title>. <title level="s">Computing in the Humanities Working Papers</title> (April 1998). <ref target="http://projects.chass.utoronto.ca/chwp/orlando">http://projects.chass.utoronto.ca/chwp/orlando</ref>
                         </bibl>
-                        <bibl><persName key="Brown, Susan Irene" ref="http://viaf.org/viaf/104953085" ana="webannotation:http://temp.lincsproject.ca/txIMepH1r50">Brown</persName>, <persName key="Brown, Susan Irene" ref="http://viaf.org/viaf/104953085" ana="webannotation:http://temp.lincsproject.ca/yiMHHHus0Et">Susan</persName>, <persName key="Clements, Patricia" ref="http://viaf.org/viaf/59097729" ana="webannotation:http://temp.lincsproject.ca/schiKgw0wnX">Patricia Clements</persName>, and <persName key="Grundy, Isobel." ref="http://viaf.org/viaf/12322641" ana="webannotation:http://temp.lincsproject.ca/QVHMRhYZeq0">Isobel Grundy</persName>, eds. <title level="m">Orlando: Women’s Writing in the British Isles from the Beginnings to the Present</title>. <placeName key="University of Cambridge." ref="http://viaf.org/viaf/153568718" ana="webannotation:http://temp.lincsproject.ca/EeucRYi1L5T webannotation:http://temp.lincsproject.ca/82Qp1ZMbQUj">Cambridge</placeName>: <orgName key="Cambridge university press" ref="http://viaf.org/viaf/127979069" ana="webannotation:http://temp.lincsproject.ca/tt18nVN2JIP">Cambridge University Press</orgName>, 2006–2012. <ref target="http://orlando.cambridge.org">http://orlando.cambridge.org</ref>
+                        <bibl><persName key="Brown, Susan Irene" ref="http://viaf.org/viaf/104953085" ana="webannotation:http://temp.lincsproject.ca/txIMepH1r50">Brown</persName>, <persName key="Brown, Susan Irene" ref="http://viaf.org/viaf/104953085" ana="webannotation:http://temp.lincsproject.ca/yiMHHHus0Et">Susan</persName>, <persName key="Clements, Patricia" ref="http://viaf.org/viaf/59097729" ana="webannotation:http://temp.lincsproject.ca/schiKgw0wnX">Patricia Clements</persName>, and <persName key="Grundy, Isobel." ref="http://viaf.org/viaf/12322641" ana="webannotation:http://temp.lincsproject.ca/QVHMRhYZeq0">Isobel Grundy</persName>, eds. <title level="m"><orgName key="Orlando" ref="https://www.wikidata.org/wiki/Q60672320" ana="webannotation:http://temp.lincsproject.ca/5kkScPKStMN">Orlando: Women’s Writing in the British Isles</orgName> from the Beginnings to the Present</title>. <placeName key="University of Cambridge." ref="http://viaf.org/viaf/153568718" ana="webannotation:http://temp.lincsproject.ca/EeucRYi1L5T webannotation:http://temp.lincsproject.ca/82Qp1ZMbQUj">Cambridge</placeName>: <orgName key="Cambridge university press" ref="http://viaf.org/viaf/127979069" ana="webannotation:http://temp.lincsproject.ca/tt18nVN2JIP">Cambridge University Press</orgName>, 2006–2012. <ref target="http://orlando.cambridge.org">http://orlando.cambridge.org</ref>
                         </bibl>
-                        <bibl>Coleman, Nicole, <persName key="Edelstein, Dan." ref="http://viaf.org/viaf/45481065" ana="webannotation:http://temp.lincsproject.ca/UqwwHdEHEQk">Dan Edelstein</persName>, and <persName key="Findlen, Paula." ref="http://viaf.org/viaf/9957596" ana="webannotation:http://temp.lincsproject.ca/TlsHvgr7bWr">Paula Findlen</persName>. <title level="m">Mapping the Republic of Letters</title>. <orgName key="Stanford university" ref="http://viaf.org/viaf/129582224" ana="webannotation:http://temp.lincsproject.ca/EnlQxH21pkQ">Stanford University</orgName>. <ref target="https://republicofletters.stanford.edu">https://republicofletters.stanford.edu</ref>
+                        <bibl><orgName key="Mullen, Nicole C." ref="http://viaf.org/viaf/4597810" ana="webannotation:http://temp.lincsproject.ca/bOcEFDSnJB1">Coleman</orgName>, <persName key="Coleman, Catherine Nicole" ref="http://viaf.org/viaf/16161149770334942128" ana="webannotation:http://temp.lincsproject.ca/V4RLLbgpy4H">Nicole</persName>, <persName key="Edelstein, Dan." ref="http://viaf.org/viaf/45481065" ana="webannotation:http://temp.lincsproject.ca/UqwwHdEHEQk">Dan Edelstein</persName>, and <persName key="Findlen, Paula." ref="http://viaf.org/viaf/9957596" ana="webannotation:http://temp.lincsproject.ca/TlsHvgr7bWr">Paula Findlen</persName>. <title level="m">Mapping the Republic of Letters</title>. <orgName key="Stanford university" ref="http://viaf.org/viaf/129582224" ana="webannotation:http://temp.lincsproject.ca/EnlQxH21pkQ">Stanford University</orgName>. <ref target="https://republicofletters.stanford.edu">https://republicofletters.stanford.edu</ref>
                         </bibl>
-                        <bibl><persName key="Drucker, Johanna, 1952-...." ref="http://viaf.org/viaf/71503942" ana="webannotation:http://temp.lincsproject.ca/tHYepatq3IL">Drucker</persName>, <persName key="Drucker, Johanna, 1952-...." ref="http://viaf.org/viaf/71503942" ana="webannotation:http://temp.lincsproject.ca/fcPDDEo3RZG">Johanna</persName>. <title level="a">Humanities Approaches to Graphical Display</title>. <title level="j">DHQ: Digital Humanities Quarterly</title> 5.1 (2011). <ref target="http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html">http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html</ref>
+                        <bibl><persName key="Drucker, Johanna, 1952-...." ref="http://viaf.org/viaf/71503942" ana="webannotation:http://temp.lincsproject.ca/tHYepatq3IL">Drucker</persName>, <persName key="Drucker, Johanna, 1952-...." ref="http://viaf.org/viaf/71503942" ana="webannotation:http://temp.lincsproject.ca/fcPDDEo3RZG">Johanna</persName>. <title level="a">Humanities Approaches to Graphical Display</title>. <title level="j"><orgName key="Digital Humanities Quarterly" ref="https://www.wikidata.org/wiki/Q5275881" ana="webannotation:http://temp.lincsproject.ca/2kBUjVIuM6F">DHQ</orgName>: Digital Humanities Quarterly</title> 5.1 (2011). <ref target="http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html">http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html</ref>
                         </bibl>
                         <bibl>
                             <title level="m">GeoNames</title>. <ref target="http://www.geonames.org">http://www.geonames.org</ref>
@@ -868,36 +870,36 @@
                         <bibl>
                             <title level="m">Google Maps</title>. <ref target="http://maps.google.ca">http://maps.google.ca</ref>
                         </bibl>
-                        <bibl>Huynh, David François. <title level="m">Exhibit</title>. <orgName key="Massachusetts institute of technology" ref="http://viaf.org/viaf/150025207" ana="webannotation:http://temp.lincsproject.ca/8HXvtin9ezS">Massachusetts Institute of Technology</orgName>. <ref target="http://www.simile-widgets.org/exhibit">http://www.simile-widgets.org/exhibit</ref>
+                        <bibl><object key="David François Huynh" ref="https://www.wikidata.org/wiki/Q102363461" ana="webannotation:http://temp.lincsproject.ca/SVEocHzu6FI">Huynh</object>, <persName key="David François Huynh" ref="https://www.wikidata.org/wiki/Q102363461" ana="webannotation:http://temp.lincsproject.ca/7zFC5TMqQm0">David François</persName>. <title level="m">Exhibit</title>. <orgName key="Massachusetts institute of technology" ref="http://viaf.org/viaf/150025207" ana="webannotation:http://temp.lincsproject.ca/8HXvtin9ezS">Massachusetts Institute of Technology</orgName>. <ref target="http://www.simile-widgets.org/exhibit">http://www.simile-widgets.org/exhibit</ref>
                         </bibl>
                         <bibl>
                             <title level="m">HyperCities</title>. <orgName key="University of California, Los Angeles" ref="http://viaf.org/viaf/122477083" ana="webannotation:http://temp.lincsproject.ca/9aI9FEuHiR4">University of California, Los Angeles</orgName>. <ref target="http://hypercities.com">http://hypercities.com</ref>
                         </bibl>
-                        <bibl>MetaCarta. <title level="m">OpenLayers</title>. Open Source Geospatial Foundation. <ref target="http://openlayers.org">http://openlayers.org</ref>
+                        <bibl>MetaCarta. <title level="m">OpenLayers</title>. <orgName key="Open Source Geospatial Foundation" ref="http://viaf.org/viaf/167491447" ana="webannotation:http://temp.lincsproject.ca/lA9ue6Le9DI">Open Source Geospatial Foundation</orgName>. <ref target="http://openlayers.org">http://openlayers.org</ref>
                         </bibl>
                         <bibl><orgName key="Prickman, Gregory J." ref="http://viaf.org/viaf/305283540" ana="webannotation:http://temp.lincsproject.ca/vdC8WTB7Gvn">Prickman</orgName>, <persName key="Prickman, Gregory J." ref="http://viaf.org/viaf/305283540" ana="webannotation:http://temp.lincsproject.ca/CrcNcp0pJ19">Gregory</persName>. <title level="m">The Atlas of Early Printing</title>. <orgName key="University of Iowa. Libraries" ref="http://viaf.org/viaf/4081151778217518130006" ana="webannotation:http://temp.lincsproject.ca/y84VqHOtXw4">University of Iowa Libraries</orgName>. <ref target="http://atlas.lib.uiowa.edu">http://atlas.lib.uiowa.edu</ref>
                         </bibl>
                         <bibl>Scholars’ Lab. <title level="m">Neatline: Plot Your Course in Space and Time</title>. <orgName key="University of Virginia. Library." ref="http://viaf.org/viaf/154761183" ana="webannotation:http://temp.lincsproject.ca/LFwSVNK8iYq">University of Virginia Library</orgName>. <ref target="http://neatline.org">http://neatline.org</ref>
                         </bibl>
                         <bibl>
-                            <title level="m">The SIMILE Project</title>. Massachusetts Institute of Technology. <ref target="http://simile-widgets.org">http://simile-widgets.org</ref>
+                            <title level="m"><orgName key="SIMILE" ref="https://www.wikidata.org/wiki/Q7390401" ana="webannotation:http://temp.lincsproject.ca/oizfQ21sp1m">The SIMILE Project</orgName></title>. <orgName key="Massachusetts institute of technology" ref="http://viaf.org/viaf/150025207" ana="webannotation:http://temp.lincsproject.ca/ew8iLQO7St0">Massachusetts Institute of Technology</orgName>. <ref target="http://simile-widgets.org">http://simile-widgets.org</ref>
                         </bibl>
                         <bibl>
                             <title level="m">TEI: Text Encoding Initiative.</title>
                             <ref target="http://www.tei-c.org/index.xml">http://www.tei-c.org/index.xml</ref>
                         </bibl>
-                        <bibl>Thomas, William G., <hi rend="small-caps">iii</hi>, Richard G. Healey, and Ian J. Cottingham. <title level="m">The Aurora Project</title>. <orgName key="University of Nebraska–Lincoln" ref="http://viaf.org/viaf/312587805" ana="webannotation:http://temp.lincsproject.ca/l9w7BQAr518">University of Nebraska</orgName>. <ref target="http://auroraproject.unl.edu/web/railroads.xhtml">http://auroraproject.unl.edu/web/railroads.xhtml</ref>
+                        <bibl><orgName key="Thomas, William G., 1964-...." ref="http://viaf.org/viaf/29822258" ana="webannotation:http://temp.lincsproject.ca/ZP672z6E85J">Thomas</orgName>, <persName key="Thomas, William G., 1964-...." ref="http://viaf.org/viaf/29822258" ana="webannotation:http://temp.lincsproject.ca/9ZTQg8RRbk5">William G.,</persName> <hi rend="small-caps">iii</hi>, <persName key="Healey, Richard G." ref="http://viaf.org/viaf/222743171" ana="webannotation:http://temp.lincsproject.ca/zAFfNimEm46">Richard G. Healey</persName>, and Ian J. Cottingham. <title level="m">The Aurora Project</title>. <orgName key="University of Nebraska–Lincoln" ref="http://viaf.org/viaf/312587805" ana="webannotation:http://temp.lincsproject.ca/l9w7BQAr518">University of Nebraska</orgName>. <ref target="http://auroraproject.unl.edu/web/railroads.xhtml">http://auroraproject.unl.edu/web/railroads.xhtml</ref>
                         </bibl>
                     </listBibl>
                     <listBibl>
                         <head>Print Sources</head>
                         <bibl><persName key="Bol, Peter Kees" ref="http://viaf.org/viaf/56906098" ana="webannotation:http://temp.lincsproject.ca/FZ6Ieesu9S7">Bol</persName>, <persName key="Bol, Peter Kees" ref="http://viaf.org/viaf/56906098" ana="webannotation:http://temp.lincsproject.ca/sAu1kZbHoiW">Peter K.</persName> <title level="a">What Do Humanists Want? What Do Humanists Need? What Might Humanists Get?</title>
-                            <title level="m">GeoHumanities: Art, History, Text at the Edge of Place</title>. Ed. Michael Dear, <persName key="Ketchum, Jim" ref="http://viaf.org/viaf/297864675" ana="webannotation:http://temp.lincsproject.ca/CMlTe7DBX0n">Jim Ketchum</persName>, <persName key="Luria, Sarah" ref="http://viaf.org/viaf/8482149068426665730009" ana="webannotation:http://temp.lincsproject.ca/mDDWBotCEbz">Sarah Luria</persName>, and <persName key="Richardson, Douglas, 1950-...." ref="http://viaf.org/viaf/19915312" ana="webannotation:http://temp.lincsproject.ca/dOu2red2TmX">Douglas Richardson</persName>. <placeName key="London" ref="https://sws.geonames.org/2643743" ana="webannotation:http://temp.lincsproject.ca/FCpG1B6dooI">London</placeName>: <orgName key="Taylor &amp; Francis" ref="http://viaf.org/viaf/126513615" ana="webannotation:http://temp.lincsproject.ca/oMf4QuW3SaC">Routledge</orgName>, 2011. 296–308.</bibl>
-                        <bibl>Cooper, David, and <persName key="Gregory, Ian N., 1970-...." ref="http://viaf.org/viaf/119669087" ana="webannotation:http://temp.lincsproject.ca/DX3GdFQr0cL">Ian N. Gregory</persName>. <title level="a">Mapping the English Lake District: A Literary <abbr>GIS</abbr>
-                            </title>. <title level="j">Transactions of the Institute of British Geographers</title> 36 (2011): 89–108.</bibl>
-                        <bibl>Corrigan, John. <title level="a">Qualitative <abbr>GIS</abbr> and Emergent Semantics</title>. <title level="m">Spatial Humanities: <abbr>GIS</abbr> and the Future of Humanities Scholarship</title>. Bloomington: <orgName key="Indiana university press" ref="http://viaf.org/viaf/122335523" ana="webannotation:http://temp.lincsproject.ca/pkiusMY1RMr">Indiana University Press</orgName>, 2010. 76–88.</bibl>
-                        <bibl>Gregory, Ian. <title level="a">Exploiting Time and Space: A Challenge for <abbr>GIS</abbr> in the Digital Humanities</title>. <title level="m">The Spatial Humanities: <abbr>GIS</abbr> and the Future of Humanities Scholarship</title>. Ed. <persName key="Bodenhamer, David J." ref="http://viaf.org/viaf/73914431" ana="webannotation:http://temp.lincsproject.ca/dIVlLaCZ8sm">David J. Bodenhamer</persName>, <persName key="Corrigan, John, 1952-...." ref="http://viaf.org/viaf/44364599" ana="webannotation:http://temp.lincsproject.ca/L1TXbq7jTCd">John Corrigan</persName>, and <persName key="Harris, Trevor M." ref="http://viaf.org/viaf/6734702" ana="webannotation:http://temp.lincsproject.ca/ICqOo7vVuZP">Trevor M. Harris</persName>. Bloomington: <orgName key="Indiana university press" ref="http://viaf.org/viaf/122335523" ana="webannotation:http://temp.lincsproject.ca/gGyCH1NmCng">Indiana University Press</orgName>, 2010. 58–75.</bibl>
-                        <bibl>Jenstad, Janelle. <title level="a">Using Early Modern Maps in Literary Studies: Views and Caveats from <placeName key="London" ref="https://sws.geonames.org/2643743" ana="webannotation:http://temp.lincsproject.ca/PtZyPZm5YEz">London</placeName></title>. <title level="m">GeoHumanities: Art, History, Text at the Edge of Place</title>. Ed. Michael Dear, <persName key="Ketchum, Jim" ref="http://viaf.org/viaf/297864675" ana="webannotation:http://temp.lincsproject.ca/gIni4EP26ZW">Jim Ketchum</persName>, <persName key="Luria, Sarah" ref="http://viaf.org/viaf/8482149068426665730009" ana="webannotation:http://temp.lincsproject.ca/YY5fbtqI84A">Sarah Luria</persName>, and <persName key="Richardson, Douglas, 1950-...." ref="http://viaf.org/viaf/19915312" ana="webannotation:http://temp.lincsproject.ca/D6zAWBiAdnd">Douglas Richardson</persName>. <placeName key="London" ref="https://sws.geonames.org/2643743" ana="webannotation:http://temp.lincsproject.ca/Xnn6k6wxTn9">London</placeName>: Routledge, 2011. 112–19.</bibl>
+                            <title level="m">GeoHumanities: Art, History, Text at the Edge of Place</title>. Ed. <persName key="Dear, M. J. (Michael J.)" ref="http://viaf.org/viaf/17347605" ana="webannotation:http://temp.lincsproject.ca/BGIJmag7rlD">Michael Dear</persName>, <persName key="Ketchum, Jim" ref="http://viaf.org/viaf/297864675" ana="webannotation:http://temp.lincsproject.ca/CMlTe7DBX0n">Jim Ketchum</persName>, <persName key="Luria, Sarah" ref="http://viaf.org/viaf/8482149068426665730009" ana="webannotation:http://temp.lincsproject.ca/mDDWBotCEbz">Sarah Luria</persName>, and <persName key="Richardson, Douglas, 1950-...." ref="http://viaf.org/viaf/19915312" ana="webannotation:http://temp.lincsproject.ca/dOu2red2TmX">Douglas Richardson</persName>. <placeName key="London" ref="https://sws.geonames.org/2643743" ana="webannotation:http://temp.lincsproject.ca/FCpG1B6dooI">London</placeName>: <orgName key="Taylor &amp; Francis" ref="http://viaf.org/viaf/126513615" ana="webannotation:http://temp.lincsproject.ca/oMf4QuW3SaC">Routledge</orgName>, 2011. 296–308.</bibl>
+                        <bibl><persName key="David Cooper" ref="https://orcid.org/0000-0001-7578-7918" ana="webannotation:http://temp.lincsproject.ca/ExiWXykYMZO">Cooper</persName>, <persName key="David Cooper" ref="https://orcid.org/0000-0001-7578-7918" ana="webannotation:http://temp.lincsproject.ca/W6a0zqBAZg1">David</persName>, and <persName key="Gregory, Ian N., 1970-...." ref="http://viaf.org/viaf/119669087" ana="webannotation:http://temp.lincsproject.ca/DX3GdFQr0cL">Ian N. Gregory</persName>. <title level="a"><title key="Mapping the English Lake District: a literary GIS" ref="http://www.wikidata.org/entity/Q58297727" ana="webannotation:http://temp.lincsproject.ca/sZQ152rmzB3">Mapping the English Lake District</title>: A Literary <abbr>GIS</abbr>
+                            </title>. <title level="j">Transactions of <orgName key="Institute of British geographers" ref="http://viaf.org/viaf/145056055" ana="webannotation:http://temp.lincsproject.ca/SYqVWzm7kw7">the Institute of British Geographers</orgName></title> 36 (2011): 89–108.</bibl>
+                        <bibl>Corrigan, <persName key="Corrigan, John, 1952-...." ref="http://viaf.org/viaf/44364599" ana="webannotation:http://temp.lincsproject.ca/uhn6fA3yjDU">John</persName>. <title level="a">Qualitative <abbr>GIS</abbr> and Emergent Semantics</title>. <title level="m">Spatial Humanities: <abbr>GIS</abbr> and the Future of Humanities Scholarship</title>. : <orgName key="Indiana university press" ref="http://viaf.org/viaf/122335523" ana="webannotation:http://temp.lincsproject.ca/pkiusMY1RMr">Indiana University Press</orgName>, 2010. 76–88.</bibl>
+                        <bibl>Gregory, <persName key="Gregory, Ian N., 1970-...." ref="http://viaf.org/viaf/119669087" ana="webannotation:http://temp.lincsproject.ca/rYY15bvbbMS">Ian</persName>. <title level="a">Exploiting Time and Space: A Challenge for <abbr>GIS</abbr> in the Digital Humanities</title>. <title level="m">The Spatial Humanities: <abbr>GIS</abbr> and the Future of Humanities Scholarship</title>. Ed. <persName key="Bodenhamer, David J." ref="http://viaf.org/viaf/73914431" ana="webannotation:http://temp.lincsproject.ca/dIVlLaCZ8sm">David J. Bodenhamer</persName>, <persName key="Corrigan, John, 1952-...." ref="http://viaf.org/viaf/44364599" ana="webannotation:http://temp.lincsproject.ca/L1TXbq7jTCd">John Corrigan</persName>, and <persName key="Harris, Trevor M." ref="http://viaf.org/viaf/6734702" ana="webannotation:http://temp.lincsproject.ca/ICqOo7vVuZP">Trevor M. Harris</persName>. <placeName key="Bloomington" ref="https://sws.geonames.org/4254679 " ana="webannotation:http://temp.lincsproject.ca/1TlXKBIDdGf">Bloomington</placeName>: <orgName key="Indiana university press" ref="http://viaf.org/viaf/122335523" ana="webannotation:http://temp.lincsproject.ca/gGyCH1NmCng">Indiana University Press</orgName>, 2010. 58–75.</bibl>
+                        <bibl><persName key="Jenstad, Janelle." ref="http://viaf.org/viaf/125150746959316301336" ana="webannotation:http://temp.lincsproject.ca/Ghpr6rLNnqT">Jenstad</persName>, <persName key="Jenstad, Janelle." ref="http://viaf.org/viaf/125150746959316301336" ana="webannotation:http://temp.lincsproject.ca/OYSDPIsklSu">Janelle</persName>. <title level="a">Using Early Modern Maps in Literary Studies: Views and Caveats from <placeName key="London" ref="https://sws.geonames.org/2643743" ana="webannotation:http://temp.lincsproject.ca/PtZyPZm5YEz">London</placeName></title>. <title level="m">GeoHumanities: Art, History, Text at the Edge of Place</title>. Ed. <persName key="Dear, M. J. (Michael J.)" ref="http://viaf.org/viaf/17347605" ana="webannotation:http://temp.lincsproject.ca/m0cxQFNnXnu">Michael Dear</persName>, <persName key="Ketchum, Jim" ref="http://viaf.org/viaf/297864675" ana="webannotation:http://temp.lincsproject.ca/gIni4EP26ZW">Jim Ketchum</persName>, <persName key="Luria, Sarah" ref="http://viaf.org/viaf/8482149068426665730009" ana="webannotation:http://temp.lincsproject.ca/YY5fbtqI84A">Sarah Luria</persName>, and <persName key="Richardson, Douglas, 1950-...." ref="http://viaf.org/viaf/19915312" ana="webannotation:http://temp.lincsproject.ca/D6zAWBiAdnd">Douglas Richardson</persName>. <placeName key="London" ref="https://sws.geonames.org/2643743" ana="webannotation:http://temp.lincsproject.ca/Xnn6k6wxTn9">London</placeName>: Routledge, 2011. 112–19.</bibl>
                         <bibl><persName key="Warf, Barney, 1956-...." ref="http://viaf.org/viaf/29646209" ana="webannotation:http://temp.lincsproject.ca/wk44JxA2yV8">Warf</persName>, <persName key="Warf, Barney, 1956-...." ref="http://viaf.org/viaf/29646209" ana="webannotation:http://temp.lincsproject.ca/fE65VEYJAnd">Barney</persName>, and <persName key="Arias, Santa." ref="http://viaf.org/viaf/38729216" ana="webannotation:http://temp.lincsproject.ca/5rEl8YlLxzr">Santa Arias</persName>. <title level="a">Introduction: The Reinsertion of Space in to the Social Sciences and Humanities</title>. <title level="m">The Spatial Turn: Interdisciplinary Perspectives</title>. Ed. <persName key="Warf, Barney, 1956-...." ref="http://viaf.org/viaf/29646209" ana="webannotation:http://temp.lincsproject.ca/sA6xWD9UC6Z">Warf</persName> and <persName key="Arias, Santa." ref="http://viaf.org/viaf/38729216" ana="webannotation:http://temp.lincsproject.ca/bcw3q13mFsz">Arias</persName>. <placeName key="London" ref="https://sws.geonames.org/2643743" ana="webannotation:http://temp.lincsproject.ca/LXA6uPbUzaf">London</placeName>: <orgName key="Taylor &amp; Francis" ref="http://viaf.org/viaf/126513615" ana="webannotation:http://temp.lincsproject.ca/ckibleTAMDN">Routledge</orgName>, 2008. 1–10.</bibl>
                     </listBibl>
                 </div>
@@ -2322,6 +2324,184 @@
         "label": "Europe",
         "type": "crm:E53_Place",
         "entityType": "crm:E53_Place"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/Pq2dnKgKuQT">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/Pq2dnKgKuQT",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T17:23:01.346Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/XMRNzvUiWVs",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/XMRNzvUiWVs/selector/textPosition/tavzGUck55V",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 3079,
+                "end": 3086,
+                "refinedBy": {
+                    "id": "/target/XMRNzvUiWVs/selector/textQuote/a9vXOfCDb1L",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Coleman",
+                    "prefix": " These projects include an overview of the development of printing technologies \n                                    Prickman\n                                ; an analysis of the impact of railway development \n                                    Thomas, Healey, and Cottingham\n                                ; and a study of the circulation of letters in early modern Europe \n                                   ",
+                    "suffix": " Edelstein, and Findlen\n                                "
+                }
+            },
+            {
+                "id": "/target/XMRNzvUiWVs/selector/css/oXoCq1D60HO",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/Pq2dnKgKuQT]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/4597810",
+        "type": "crm:E21_Person",
+        "label": "Mullen, Nicole C.",
+        "description": "Mullen, Nicole C. 1967-"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/bOcEFDSnJB1">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/bOcEFDSnJB1",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T17:23:01.579Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/lzKhhhXbi9D",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/lzKhhhXbi9D/selector/textPosition/Y4L2o3WvRQo",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 45663,
+                "end": 45670,
+                "refinedBy": {
+                    "id": "/target/lzKhhhXbi9D/selector/textQuote/CVQNkB1CEyB",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Coleman",
+                    "prefix": "org\n                        \n                       ",
+                    "suffix": " Nicole, Dan Edelstein, and Paula Findlen"
+                }
+            },
+            {
+                "id": "/target/lzKhhhXbi9D/selector/css/s3Jv3pjxIuU",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/bOcEFDSnJB1]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/4597810",
+        "type": "crm:E21_Person",
+        "label": "Mullen, Nicole C.",
+        "description": "Mullen, Nicole C. 1967-"
     },
     "P2_has_type": [
         "oa:identifying"
@@ -16132,6 +16312,95 @@
 				
 </rdf:Description>
 				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/swNTXSh5RpT">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/swNTXSh5RpT",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T17:13:38.657Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/cIaRCt4PXpi",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/cIaRCt4PXpi/selector/textPosition/YIORS9NOfVO",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 19788,
+                "end": 19797,
+                "refinedBy": {
+                    "id": "/target/cIaRCt4PXpi/selector/textQuote/sU8GgMFKiRw",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "MetaCarta",
+                    "prefix": "\n                            \n                        \n                    \n                    \n                        \n                            We considered a number of mapping tools—such as Exhibit (Huynh), OpenLayers ",
+                    "suffix": ", Google Maps (Google), ArcGIS (Esri), and HyperCities (UCLA)—experimented with several, and achieved varying degrees of success depending, respectively, on the intuitiveness of their navigation, their ability to read and plot geo-referenced data, and the quality of the visualizations they produced"
+                }
+            },
+            {
+                "id": "/target/cIaRCt4PXpi/selector/css/hr66VTz6sKB",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/swNTXSh5RpT]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://www.wikidata.org/wiki/Q6822273",
+        "label": "MetaCarta",
+        "type": "crm:E74_Group",
+        "entityType": "crm:E74_Group"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/lRIRZAUGrgl">
 <![CDATA[{
     "@context": [
@@ -18980,6 +19249,273 @@
 				
 </rdf:Description>
 				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/1opUDJrspql">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/1opUDJrspql",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T17:05:25.642Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/eWDZqkOTdo4",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/eWDZqkOTdo4/selector/textPosition/PT1eD5WIelQ",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 29922,
+                "end": 29930,
+                "refinedBy": {
+                    "id": "/target/eWDZqkOTdo4/selector/textQuote/i3swD8Sguod",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Neatline",
+                    "prefix": "\n                        \n                        \n                            \n                                This species of map will differ considerably, for instance, from those facilitated by the",
+                    "suffix": "project: \n                                        beautiful, complex maps and narrative sequences from collections of archives and artifacts…maps and narratives with timelines that are more-than-usually sensitive to ambiguity and nuance…"
+                }
+            },
+            {
+                "id": "/target/eWDZqkOTdo4/selector/css/JthDOX4hH5Q",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/1opUDJrspql]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://www.wikidata.org/wiki/Q126085138",
+        "label": "Neatline",
+        "type": "crm:E74_Group",
+        "entityType": "crm:E74_Group"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/ZkPOG8bqZzU">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/ZkPOG8bqZzU",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T17:05:25.883Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/gWkL5kDuB72",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/gWkL5kDuB72/selector/textPosition/gEpa8cWaFKN",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 43966,
+                "end": 43974,
+                "refinedBy": {
+                    "id": "/target/gWkL5kDuB72/selector/textQuote/9XzfC2iT0Ql",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Neatline",
+                    "prefix": " We look forward to learning what affordances other spatial visualization systems, such as",
+                    "suffix": "with its attempt to incorporate an interpretive, humanistic perspective, can offer, and how we might adapt them to the kind of collaborative, spontaneous, serendipitous mapping environment that CWRC hopes to support"
+                }
+            },
+            {
+                "id": "/target/gWkL5kDuB72/selector/css/2MKLwyUB7kN",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/ZkPOG8bqZzU]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://www.wikidata.org/wiki/Q126085138",
+        "label": "Neatline",
+        "type": "crm:E74_Group",
+        "entityType": "crm:E74_Group"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/Yv89IGbcKfz">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/Yv89IGbcKfz",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T17:05:38.556Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/P6cOcXJbYjL",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/P6cOcXJbYjL/selector/textPosition/yoQz7yfkN2o",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 30168,
+                "end": 30177,
+                "refinedBy": {
+                    "id": "/target/P6cOcXJbYjL/selector/textQuote/T6CMKLA2E0l",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": ".Neatline",
+                    "prefix": "\n                        \n                        \n                            \n                                This species of map will differ considerably, for instance, from those facilitated by the Neatline project: \n                                        beautiful, complex maps and narrative sequences from collections of archives and artifacts…maps and narratives with timelines that are more-than-usually sensitive to ambiguity and nuance",
+                    "suffix": "lets you make hand-crafted, interactive stories as interpretive expressions of an archival or cultural heritage collection\n                                    \n                                    \n                                        Scholars’ Lab\n                                    "
+                }
+            },
+            {
+                "id": "/target/P6cOcXJbYjL/selector/css/nDevb8nT7C0",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/Yv89IGbcKfz]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://www.wikidata.org/wiki/Q126085138",
+        "label": "Neatline",
+        "type": "crm:E74_Group",
+        "entityType": "crm:E74_Group"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/hfUUIIBIeWK">
 <![CDATA[{
     "@context": [
@@ -19516,6 +20052,95 @@
     },
     "P2_has_type": [
         "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/geLIca9Ot0y">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/geLIca9Ot0y",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:tagging",
+    "created": "2026-06-02T15:43:15.576Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/hqcP27QXht2",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/hqcP27QXht2/selector/textPosition/5cf6MYkGfOE",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 33609,
+                "end": 33616,
+                "refinedBy": {
+                    "id": "/target/hqcP27QXht2/selector/textQuote/ryEoIDs09W6",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Quakers",
+                    "prefix": " This can be seen clearly on a map showing the travels of seventeenth-century",
+                    "suffix": "\n                            \n                        \n                        \n                            Figure 1"
+                }
+            },
+            {
+                "id": "/target/hqcP27QXht2/selector/css/oYADz5blon3",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/geLIca9Ot0y]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://viaf.org/en/viaf/3829151474904900490007",
+        "label": "Quäker",
+        "type": "crm:E74_Group",
+        "entityType": "crm:E74_Group"
+    },
+    "P2_has_type": [
+        "oa:tagging"
     ]
 }]]>
 				
@@ -22369,20 +22994,20 @@
 				
 </rdf:Description>
 				
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/82Qp1ZMbQUj">
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/uuV3knoLx0X">
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
         "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
         "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
-    "id": "http://temp.lincsproject.ca/82Qp1ZMbQUj",
+    "id": "http://temp.lincsproject.ca/uuV3knoLx0X",
     "type": [
         "Annotation",
         "crm:E33_Linguistic_Object"
     ],
     "motivation": "oa:identifying",
-    "created": "2026-06-02T16:32:55.452Z",
+    "created": "2026-06-03T13:49:57.324Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
         "type": "crm:E21_Person",
@@ -22450,14 +23075,22 @@
                     "crm:E73_Information_Object"
                 ],
                 "value": "[ana~=webannotation:http://temp.lincsproject.ca/82Qp1ZMbQUj]"
+            },
+            {
+                "id": "/target/MYEXYKRLIZM/selector/css/V9KZK3oXGWG",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/uuV3knoLx0X]"
             }
         ]
     },
     "body": {
-        "id": "http://viaf.org/viaf/153568718",
-        "type": "crm:E74_Group",
-        "label": "University of Cambridge.",
-        "description": "Varsity o Cambridge collegiate research varsity in Cambridge, Ingland, Unitit Kinrick"
+        "id": "https://sws.geonames.org/2653941 ",
+        "label": "Cambridge",
+        "type": "crm:E53_Place",
+        "entityType": "crm:E53_Place"
     },
     "P2_has_type": [
         "oa:identifying"
@@ -22547,6 +23180,95 @@
         "type": "crm:E74_Group",
         "label": "Cambridge university press",
         "description": "Gwasg Prifysgol Caergrawnt"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/V4RLLbgpy4H">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/V4RLLbgpy4H",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T17:23:59.174Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/9U4kPEubh0o",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/9U4kPEubh0o/selector/textPosition/z4TxwJQiDPo",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 45672,
+                "end": 45678,
+                "refinedBy": {
+                    "id": "/target/9U4kPEubh0o/selector/textQuote/tvMLoXToiTz",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Nicole",
+                    "prefix": "org\n                        \n                        Coleman,",
+                    "suffix": " Dan Edelstein, and Paula Findlen"
+                }
+            },
+            {
+                "id": "/target/9U4kPEubh0o/selector/css/eWM7er5tDnx",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/V4RLLbgpy4H]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/16161149770334942128",
+        "type": "crm:E21_Person",
+        "label": "Coleman, Catherine Nicole",
+        "description": "Coleman, Catherine Nicole ca. 20./21. Jh."
     },
     "P2_has_type": [
         "oa:identifying"
@@ -23000,6 +23722,95 @@
 				
 </rdf:Description>
 				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/ew8iLQO7St0">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/ew8iLQO7St0",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T17:07:40.149Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/qCz2qJJoCS1",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/qCz2qJJoCS1/selector/textPosition/1zM7psJ1WlB",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 47267,
+                "end": 47304,
+                "refinedBy": {
+                    "id": "/target/qCz2qJJoCS1/selector/textQuote/IqyEm9nrXIF",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Massachusetts Institute of Technology",
+                    "prefix": "",
+                    "suffix": " http://simile-widgets"
+                }
+            },
+            {
+                "id": "/target/qCz2qJJoCS1/selector/css/wrV7KCq87qV",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/ew8iLQO7St0]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/150025207",
+        "type": "crm:E74_Group",
+        "label": "Massachusetts institute of technology",
+        "description": "Massachusetts Institute of Technology private university in Cambridge, Massachusetts, USA, founded 1861"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/9aI9FEuHiR4">
 <![CDATA[{
     "@context": [
@@ -23354,6 +24165,184 @@
 				
 </rdf:Description>
 				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/oizfQ21sp1m">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/oizfQ21sp1m",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T17:08:42.239Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/RVCxwstUDTi",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/RVCxwstUDTi/selector/textPosition/Eh34san0RZp",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 47247,
+                "end": 47265,
+                "refinedBy": {
+                    "id": "/target/RVCxwstUDTi/selector/textQuote/MOm5P2icYMj",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "The SIMILE Project",
+                    "prefix": "org\n                        \n                        \n                           ",
+                    "suffix": " Massachusetts Institute of Technology"
+                }
+            },
+            {
+                "id": "/target/RVCxwstUDTi/selector/css/cBTQO8LPmgv",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/oizfQ21sp1m]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://www.wikidata.org/wiki/Q7390401",
+        "label": "SIMILE",
+        "type": "crm:E74_Group",
+        "entityType": "crm:E74_Group"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/zAFfNimEm46">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/zAFfNimEm46",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T17:10:09.996Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/dhRPihfPT6S",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/dhRPihfPT6S/selector/textPosition/XiROce1182N",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 47574,
+                "end": 47591,
+                "refinedBy": {
+                    "id": "/target/dhRPihfPT6S/selector/textQuote/yonCyCtuhD6",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Richard G. Healey",
+                    "prefix": ", iii,",
+                    "suffix": " and Ian J"
+                }
+            },
+            {
+                "id": "/target/dhRPihfPT6S/selector/css/8ZosJ2rZh9z",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/zAFfNimEm46]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/222743171",
+        "type": "crm:E21_Person",
+        "label": "Healey, Richard G.",
+        "description": "Healey, R. G."
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/l9w7BQAr518">
 <![CDATA[{
     "@context": [
@@ -23613,6 +24602,184 @@
         "type": "crm:E21_Person",
         "label": "Bol, Peter Kees",
         "description": "Bol, Peter Kees, 1948-...."
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/BGIJmag7rlD">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/BGIJmag7rlD",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T17:09:36.379Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/3WnmrBP1MwT",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/3WnmrBP1MwT/selector/textPosition/9oS6vLeSBXl",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 48014,
+                "end": 48026,
+                "refinedBy": {
+                    "id": "/target/3WnmrBP1MwT/selector/textQuote/OjUZ3FS9fTw",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Michael Dear",
+                    "prefix": "",
+                    "suffix": " Jim Ketchum, Sarah Luria, and Douglas Richardson"
+                }
+            },
+            {
+                "id": "/target/3WnmrBP1MwT/selector/css/FSAeUKF2gBo",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/BGIJmag7rlD]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/17347605",
+        "type": "crm:E21_Person",
+        "label": "Dear, M. J. (Michael J.)",
+        "description": "Dear, Michael, 1944-...."
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/m0cxQFNnXnu">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/m0cxQFNnXnu",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T17:09:36.630Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/6TdeuhHkf9N",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/6TdeuhHkf9N/selector/textPosition/feUrWcWokRk",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 48995,
+                "end": 49007,
+                "refinedBy": {
+                    "id": "/target/6TdeuhHkf9N/selector/textQuote/uTAmidMZa2R",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Michael Dear",
+                    "prefix": "",
+                    "suffix": " Jim Ketchum, Sarah Luria, and Douglas Richardson"
+                }
+            },
+            {
+                "id": "/target/6TdeuhHkf9N/selector/css/BUMkHRfkfwq",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/m0cxQFNnXnu]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/17347605",
+        "type": "crm:E21_Person",
+        "label": "Dear, M. J. (Michael J.)",
+        "description": "Dear, Michael, 1944-...."
     },
     "P2_has_type": [
         "oa:identifying"
@@ -24775,6 +25942,184 @@
 				
 </rdf:Description>
 				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/Ghpr6rLNnqT">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/Ghpr6rLNnqT",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T17:17:34.046Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/hQYOV7egZ1k",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/hQYOV7egZ1k/selector/textPosition/6A4cygYEmrd",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 48841,
+                "end": 48848,
+                "refinedBy": {
+                    "id": "/target/hQYOV7egZ1k/selector/textQuote/FCQkIi07wT0",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Jenstad",
+                    "prefix": "\n                       ",
+                    "suffix": " Janelle"
+                }
+            },
+            {
+                "id": "/target/hQYOV7egZ1k/selector/css/AhIijedq7He",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/Ghpr6rLNnqT]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/125150746959316301336",
+        "type": "crm:E21_Person",
+        "label": "Jenstad, Janelle.",
+        "description": "Janelle Jenstad professeure d'université canadienne"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/OYSDPIsklSu">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/OYSDPIsklSu",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T17:17:26.984Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/SkL0lBDaN6K",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps%20(10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/SkL0lBDaN6K/selector/textPosition/oXqeYSaj9rK",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 48850,
+                "end": 48857,
+                "refinedBy": {
+                    "id": "/target/SkL0lBDaN6K/selector/textQuote/1XXVRsCTlS5",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Janelle",
+                    "prefix": "\n                        Jenstad,",
+                    "suffix": " Using Early Modern Maps in Literary Studies: Views and Caveats from London"
+                }
+            },
+            {
+                "id": "/target/SkL0lBDaN6K/selector/css/jkTMSCvEJ9i",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/OYSDPIsklSu]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/125150746959316301336",
+        "type": "crm:E21_Person",
+        "label": "Jenstad, Janelle.",
+        "description": "Janelle Jenstad professeure d'université canadienne"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/wk44JxA2yV8">
 <![CDATA[{
     "@context": [
@@ -25129,9 +26474,2172 @@
 }]]>
 				
 </rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/ydTHR3pm2m8">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/ydTHR3pm2m8",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T18:40:53.023Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/WTkjVdn5nGn",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/WTkjVdn5nGn/selector/textPosition/SUgc6JtP3fv",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 253,
+                "end": 273,
+                "refinedBy": {
+                    "id": "/target/WTkjVdn5nGn/selector/textQuote/Y3cwXMebjDN",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Mariana Paredes-Olea",
+                    "prefix": "\n        \n            \n                \n                    Mapping Tags and Tagging Maps\n                \n                \n                    Leveraging Spatial Markup for Literary History\n                \n                 Susan Brown, Isobel Grundy,",
+                    "suffix": " Jeffery Antoniuk, & Breanna Mroczek\n                \n                    Introduction\n                    \n                        The spatial turn is making itself felt throughout literary studies, as it is in other areas of the humanities and social sciences"
+                }
+            },
+            {
+                "id": "/target/WTkjVdn5nGn/selector/css/fHMQGueAZso",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/ydTHR3pm2m8]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://orcid.org/0000-0003-2566-0884",
+        "label": "Mariana Paredes Olea",
+        "type": "crm:E21_Person",
+        "entityType": "crm:E21_Person"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/IbtGrmI7L7w">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/IbtGrmI7L7w",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T18:41:40.134Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/qFW1yCJyyRe",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/qFW1yCJyyRe/selector/textPosition/apQGVDAc4b8",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 275,
+                "end": 291,
+                "refinedBy": {
+                    "id": "/target/qFW1yCJyyRe/selector/textQuote/5LVLJ9cI5fT",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Jeffery Antoniuk",
+                    "prefix": "\n        \n            \n                \n                    Mapping Tags and Tagging Maps\n                \n                \n                    Leveraging Spatial Markup for Literary History\n                \n                 Susan Brown, Isobel Grundy, Mariana Paredes-Olea,",
+                    "suffix": " & Breanna Mroczek\n                \n                    Introduction\n                    \n                        The spatial turn is making itself felt throughout literary studies, as it is in other areas of the humanities and social sciences"
+                }
+            },
+            {
+                "id": "/target/qFW1yCJyyRe/selector/css/1LceP8PSP4P",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/IbtGrmI7L7w]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://orcid.org/0000-0003-2632-8787",
+        "label": "Jeffery Antoniuk",
+        "type": "crm:E21_Person",
+        "entityType": "crm:E21_Person"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/SvGLwctxOb0">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/SvGLwctxOb0",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T18:40:19.851Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/LPA7TWhaBzt",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/LPA7TWhaBzt/selector/textPosition/8EqFwxos0tV",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 295,
+                "end": 310,
+                "refinedBy": {
+                    "id": "/target/LPA7TWhaBzt/selector/textQuote/lOKi25YYaUo",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Breanna Mroczek",
+                    "prefix": "\n        \n            \n                \n                    Mapping Tags and Tagging Maps\n                \n                \n                    Leveraging Spatial Markup for Literary History\n                \n                 Susan Brown, Isobel Grundy, Mariana Paredes-Olea, Jeffery Antoniuk, &",
+                    "suffix": "                \n                    Introduction\n                    \n                        The spatial turn is making itself felt throughout literary studies, as it is in other areas of the humanities and social sciences"
+                }
+            },
+            {
+                "id": "/target/LPA7TWhaBzt/selector/css/fAqYovJaPXG",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/SvGLwctxOb0]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://orcid.org/0000-0001-6889-8994",
+        "label": "Breanna Mroczek",
+        "type": "crm:E21_Person",
+        "entityType": "crm:E21_Person"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/DksxzB6SP2k">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/DksxzB6SP2k",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T17:42:01.819Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/DkbJeo7552B",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/DkbJeo7552B/selector/textPosition/j1RyhswxXjB",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 2912,
+                "end": 2918,
+                "refinedBy": {
+                    "id": "/target/DkbJeo7552B/selector/textQuote/RhHOArzM2Td",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Thomas",
+                    "prefix": " These projects include an overview of the development of printing technologies \n                                    Prickman\n                                ; an analysis of the impact of railway development \n                                   ",
+                    "suffix": " Healey, and Cottingham\n                                ; and a study of the circulation of letters in early modern Europe \n                                    Coleman, Edelstein, and Findlen\n                                "
+                }
+            },
+            {
+                "id": "/target/DkbJeo7552B/selector/css/X2etKyaGalk",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/DksxzB6SP2k]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/66806872",
+        "type": "crm:E21_Person",
+        "label": "Augustine, of Hippo, Saint, 354-430.",
+        "description": "Augustin, 0354-0430, saint"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/ZP672z6E85J">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/ZP672z6E85J",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T17:37:55.574Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/qKlBu1s1nf7",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/qKlBu1s1nf7/selector/textPosition/FH5Kyeqikdh",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 47549,
+                "end": 47555,
+                "refinedBy": {
+                    "id": "/target/qKlBu1s1nf7/selector/textQuote/ZezI8RtZTuS",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Thomas",
+                    "prefix": "xml\n                        \n                       ",
+                    "suffix": " William G"
+                }
+            },
+            {
+                "id": "/target/qKlBu1s1nf7/selector/css/F6LwAcD50oq",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/ZP672z6E85J]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/29822258",
+        "type": "crm:E21_Person",
+        "label": "Thomas, William G., 1964-....",
+        "description": "Thomas, William G. III 1964-"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/pDRMjMY4xDH">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/pDRMjMY4xDH",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T17:41:13.242Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/UFH7VFgrQlU",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/UFH7VFgrQlU/selector/textPosition/KTMguF312mK",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 3103,
+                "end": 3110,
+                "refinedBy": {
+                    "id": "/target/UFH7VFgrQlU/selector/textQuote/U1vOlaXXCRK",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Findlen",
+                    "prefix": " These projects include an overview of the development of printing technologies \n                                    Prickman\n                                ; an analysis of the impact of railway development \n                                    Thomas, Healey, and Cottingham\n                                ; and a study of the circulation of letters in early modern Europe \n                                    Coleman, Edelstein, and",
+                    "suffix": "                                "
+                }
+            },
+            {
+                "id": "/target/UFH7VFgrQlU/selector/css/Hhau4mNjFsR",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/pDRMjMY4xDH]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/9957596",
+        "type": "crm:E21_Person",
+        "label": "Findlen, Paula.",
+        "description": "Findlen, Paula, 1964-...."
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/DzcRPiWWNAr">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/DzcRPiWWNAr",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-03T13:21:28.638Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/9sEL1KrPjAL",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/9sEL1KrPjAL/selector/textPosition/gQetVrXGnGW",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 5451,
+                "end": 5474,
+                "refinedBy": {
+                    "id": "/target/9sEL1KrPjAL/selector/textQuote/T3UIY7zq1Lq",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "From Colonial to Modern",
+                    "prefix": " Kristine Moruzi’s project",
+                    "suffix": " Transnational Girlhood in Australian, New Zealand, and Canadian Print Cultures \n                                        (1840–1940)\n                                    \n                                 aims to map the relationship between places of production, places of publication, and places of dissemination"
+                }
+            },
+            {
+                "id": "/target/9sEL1KrPjAL/selector/css/UzU226MRCJO",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/N65FFNLxmpz]"
+            },
+            {
+                "id": "/target/9sEL1KrPjAL/selector/css/rNywHkG2Xbp",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/DzcRPiWWNAr]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q136183008",
+        "type": "frbroo:F1",
+        "label": "From Colonial to Modern: Transnational Girlhood in Canadian, Australian, and New Zealand Literature, 1840-1940",
+        "description": "book 2018"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/4q9cUxB9AZe">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/4q9cUxB9AZe",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-03T13:19:35.640Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/jBLKZ1aPB4P",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/jBLKZ1aPB4P/selector/textPosition/ZVUIHUeOELs",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 5836,
+                "end": 5887,
+                "refinedBy": {
+                    "id": "/target/jBLKZ1aPB4P/selector/textQuote/EXeB1M2dvCb",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Magazines, Travel, and Middlebrow Culture in Canada",
+                    "prefix": " The most ambitious of CWRC’s pilot projects is",
+                    "suffix": "1925–1960, led by Faye Hammill of the University of Strathclyde"
+                }
+            },
+            {
+                "id": "/target/jBLKZ1aPB4P/selector/css/aHl2ELonMAF",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/4q9cUxB9AZe]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://www.wikidata.org/wiki/Q136220918",
+        "label": "Magazines, Travel, and Middlebrow Culture: Canadian Periodicals in English and French, 1925–1960",
+        "type": "frbroo:F1",
+        "entityType": "frbroo:F1"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/vhWqHalEAKW">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/vhWqHalEAKW",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T17:35:26.511Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/J7OeCrth9qH",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/J7OeCrth9qH/selector/textPosition/WBKDwBLj9eX",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 9849,
+                "end": 9861,
+                "refinedBy": {
+                    "id": "/target/J7OeCrth9qH/selector/textQuote/jvgmr4W6IqL",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "London House",
+                    "prefix": "\n                             For example, the markup for the city of London is\n                    \n                    \n                        &lt;PLACE&gt;&lt;SETTLEMENT&gt;London&lt;/SETTLEMENT&gt;&lt;REGION REG=Middlesex&gt;&lt;/REGION&gt;&lt;GEOG REG=England&gt;&lt;/GEOG&gt;&lt;/PLACE&gt;\n                    \n                    \n                        Such tagging distinguishes this particular reference to London from the more than two dozen other settlements around the world (including London, Ontario) that take their name from the English city, from building names such as",
+                    "suffix": " and from proper names such as Jack London"
+                }
+            },
+            {
+                "id": "/target/J7OeCrth9qH/selector/css/Q4ehXocydaa",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/vhWqHalEAKW]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://sws.geonames.org/6464711",
+        "type": "crm:E53_Place",
+        "label": "London House Hotel",
+        "description": "England, Greater London, GB"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/lmktrXTFI0w">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/lmktrXTFI0w",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T18:18:14.178Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/AcWCdAOtnhE",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/AcWCdAOtnhE/selector/textPosition/mkYZah4QZ9P",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 19768,
+                "end": 19773,
+                "refinedBy": {
+                    "id": "/target/AcWCdAOtnhE/selector/textQuote/50eAdoxObA8",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Huynh",
+                    "prefix": "\n                            \n                        \n                    \n                    \n                        \n                            We considered a number of mapping tools—such as Exhibit ",
+                    "suffix": ", OpenLayers (MetaCarta), Google Maps (Google), ArcGIS (Esri), and HyperCities (UCLA)—experimented with several, and achieved varying degrees of success depending, respectively, on the intuitiveness of their navigation, their ability to read and plot geo-referenced data, and the quality of the visualizations they produced"
+                }
+            },
+            {
+                "id": "/target/AcWCdAOtnhE/selector/css/dvXppYhFFzM",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/lmktrXTFI0w]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://www.wikidata.org/wiki/Q102363461",
+        "label": "David François Huynh",
+        "type": "crm:E21_Person",
+        "entityType": "crm:E21_Person"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/SVEocHzu6FI">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/SVEocHzu6FI",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T18:17:39.500Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/vfB8UTYnxcJ",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/vfB8UTYnxcJ/selector/textPosition/PbfxINAotqN",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 46462,
+                "end": 46467,
+                "refinedBy": {
+                    "id": "/target/vfB8UTYnxcJ/selector/textQuote/acUriRMi8s3",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Huynh",
+                    "prefix": "ca\n                        \n                       ",
+                    "suffix": " David François"
+                }
+            },
+            {
+                "id": "/target/vfB8UTYnxcJ/selector/css/efOfbnj8HUc",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/SVEocHzu6FI]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://www.wikidata.org/wiki/Q102363461",
+        "label": "David François Huynh",
+        "type": "crm:E21_Person",
+        "entityType": "crm:E21_Person"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/5kkScPKStMN">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/5kkScPKStMN",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T18:24:16.057Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/2yY8SXMQKy9",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/2yY8SXMQKy9/selector/textPosition/U1nEN2VwEmi",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 45453,
+                "end": 45498,
+                "refinedBy": {
+                    "id": "/target/2yY8SXMQKy9/selector/textQuote/8j4zNCxAQyb",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Orlando: Women’s Writing in the British Isles",
+                    "prefix": "",
+                    "suffix": "from the Beginnings to the Present"
+                }
+            },
+            {
+                "id": "/target/2yY8SXMQKy9/selector/css/Wi9sCaepZRV",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/5kkScPKStMN]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://www.wikidata.org/wiki/Q60672320",
+        "label": "Orlando",
+        "type": "crm:E74_Group",
+        "entityType": "crm:E74_Group"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/2kBUjVIuM6F">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/2kBUjVIuM6F",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T18:19:28.047Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/ie1PYFhBRZF",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/ie1PYFhBRZF/selector/textPosition/VGvmOHentwr",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 45918,
+                "end": 45921,
+                "refinedBy": {
+                    "id": "/target/ie1PYFhBRZF/selector/textQuote/DGvNSXvISXc",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "DHQ",
+                    "prefix": "",
+                    "suffix": " Digital Humanities Quarterly 5"
+                }
+            },
+            {
+                "id": "/target/ie1PYFhBRZF/selector/css/IBMSfYEuY1v",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/2kBUjVIuM6F]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://www.wikidata.org/wiki/Q5275881",
+        "label": "Digital Humanities Quarterly",
+        "type": "frbroo:F1",
+        "entityType": "frbroo:F1"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/7zFC5TMqQm0">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/7zFC5TMqQm0",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T18:17:22.621Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/G6rt5URuOdJ",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/G6rt5URuOdJ/selector/textPosition/iZXHU1cz6VU",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 46469,
+                "end": 46483,
+                "refinedBy": {
+                    "id": "/target/G6rt5URuOdJ/selector/textQuote/FgIT5oGKDUw",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "David François",
+                    "prefix": "ca\n                        \n                        Huynh,",
+                    "suffix": " Exhibit"
+                }
+            },
+            {
+                "id": "/target/G6rt5URuOdJ/selector/css/jpbpZ3ivrBD",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/7zFC5TMqQm0]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://www.wikidata.org/wiki/Q102363461",
+        "label": "David François Huynh",
+        "type": "crm:E21_Person",
+        "entityType": "crm:E21_Person"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/lA9ue6Le9DI">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/lA9ue6Le9DI",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T17:38:47.327Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/sxKlRbxfrAT",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/sxKlRbxfrAT/selector/textPosition/dKj2SDvEJ5k",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 46796,
+                "end": 46829,
+                "refinedBy": {
+                    "id": "/target/sxKlRbxfrAT/selector/textQuote/0jVsigsW0ZW",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Open Source Geospatial Foundation",
+                    "prefix": "",
+                    "suffix": " http://openlayers"
+                }
+            },
+            {
+                "id": "/target/sxKlRbxfrAT/selector/css/zFy8GzYjIs5",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/lA9ue6Le9DI]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/167491447",
+        "type": "crm:E74_Group",
+        "label": "Open Source Geospatial Foundation",
+        "description": "OSGeo Polska."
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/9ZTQg8RRbk5">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/9ZTQg8RRbk5",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T17:38:30.058Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/DTZsu4J6CVr",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/DTZsu4J6CVr/selector/textPosition/5k8zsnzHgT2",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 47557,
+                "end": 47568,
+                "refinedBy": {
+                    "id": "/target/DTZsu4J6CVr/selector/textQuote/OxWTfKPGxdz",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "William G.,",
+                    "prefix": "xml\n                        \n                        Thomas,",
+                    "suffix": "iii, Richard G"
+                }
+            },
+            {
+                "id": "/target/DTZsu4J6CVr/selector/css/QnPpfGQPMj0",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/UQesOSTT9QD]"
+            },
+            {
+                "id": "/target/DTZsu4J6CVr/selector/css/EIYrSlBI2qI",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/9ZTQg8RRbk5]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/29822258",
+        "type": "crm:E21_Person",
+        "label": "Thomas, William G., 1964-....",
+        "description": "Thomas, William G. III 1964-"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/ExiWXykYMZO">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/ExiWXykYMZO",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-03T13:48:23.122Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/ftSAKNOSQ2I",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/ftSAKNOSQ2I/selector/textPosition/vJfvh8BIOa4",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 48136,
+                "end": 48142,
+                "refinedBy": {
+                    "id": "/target/ftSAKNOSQ2I/selector/textQuote/l0WCrTsgJGm",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Cooper",
+                    "prefix": "\n                       ",
+                    "suffix": " David, and Ian N"
+                }
+            },
+            {
+                "id": "/target/ftSAKNOSQ2I/selector/css/J88sJZ0oZFq",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/ExiWXykYMZO]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://orcid.org/0000-0001-7578-7918",
+        "label": "David Cooper",
+        "type": "crm:E21_Person",
+        "entityType": "crm:E21_Person"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/W6a0zqBAZg1">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/W6a0zqBAZg1",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-03T13:48:57.813Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/4xRPTGsR08y",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/4xRPTGsR08y/selector/textPosition/llJoLwd6Qs0",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 48144,
+                "end": 48149,
+                "refinedBy": {
+                    "id": "/target/4xRPTGsR08y/selector/textQuote/8efd7lkl69n",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "David",
+                    "prefix": "\n                        Cooper,",
+                    "suffix": " and Ian N"
+                }
+            },
+            {
+                "id": "/target/4xRPTGsR08y/selector/css/XdUAmcP8ndJ",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/dpbA0mmZufS]"
+            },
+            {
+                "id": "/target/4xRPTGsR08y/selector/css/GznbQEXYi3Q",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/W6a0zqBAZg1]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://orcid.org/0000-0001-7578-7918",
+        "label": "David Cooper",
+        "type": "crm:E21_Person",
+        "entityType": "crm:E21_Person"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/sZQ152rmzB3">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/sZQ152rmzB3",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T17:46:35.748Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/973xzJtSqQh",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/973xzJtSqQh/selector/textPosition/IExJmdhpdnb",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 48171,
+                "end": 48204,
+                "refinedBy": {
+                    "id": "/target/973xzJtSqQh/selector/textQuote/fUFlFUg8XIC",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Mapping the English Lake District",
+                    "prefix": "",
+                    "suffix": " A Literary GIS\n                            "
+                }
+            },
+            {
+                "id": "/target/973xzJtSqQh/selector/css/FpK3bnh5aS0",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/sZQ152rmzB3]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q58297727",
+        "type": "frbroo:F1",
+        "label": "Mapping the English Lake District: a literary GIS",
+        "description": "article"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/SYqVWzm7kw7">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/SYqVWzm7kw7",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T18:00:46.573Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/YgxAWnvBQyY",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/YgxAWnvBQyY/selector/textPosition/Tx3S0IzrlEu",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 48267,
+                "end": 48303,
+                "refinedBy": {
+                    "id": "/target/YgxAWnvBQyY/selector/textQuote/lnlMLfh5jx3",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "the Institute of British Geographers",
+                    "prefix": " Transactions of",
+                    "suffix": "36 (2011): 89–108"
+                }
+            },
+            {
+                "id": "/target/YgxAWnvBQyY/selector/css/UILMugPEKbV",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/SYqVWzm7kw7]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/145056055",
+        "type": "crm:E74_Group",
+        "label": "Institute of British geographers"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/uhn6fA3yjDU">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/uhn6fA3yjDU",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T17:47:53.127Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/EMzESSa0OcB",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/EMzESSa0OcB/selector/textPosition/dbZttEmhKuU",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 48357,
+                "end": 48361,
+                "refinedBy": {
+                    "id": "/target/EMzESSa0OcB/selector/textQuote/VcjBz2X7YMo",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "John",
+                    "prefix": "\n                        Corrigan,",
+                    "suffix": " Qualitative GIS and Emergent Semantics"
+                }
+            },
+            {
+                "id": "/target/EMzESSa0OcB/selector/css/ANv5lgLb0I5",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/uhn6fA3yjDU]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/44364599",
+        "type": "crm:E21_Person",
+        "label": "Corrigan, John, 1952-....",
+        "description": "Corrigan, John"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/HDDT4UqWkLz">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/HDDT4UqWkLz",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T17:49:38.234Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/7r4Fz3kBbyZ",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/7r4Fz3kBbyZ/selector/textPosition/qofhHPcut5L",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 48469,
+                "end": 48480,
+                "refinedBy": {
+                    "id": "/target/7r4Fz3kBbyZ/selector/textQuote/P3OamwrHiBS",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Bloomington",
+                    "prefix": "",
+                    "suffix": " Indiana University Press, 2010"
+                }
+            },
+            {
+                "id": "/target/7r4Fz3kBbyZ/selector/css/HfJ1ot0UlWd",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/HDDT4UqWkLz]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://sws.geonames.org/4254679 ",
+        "label": "Bloomington",
+        "type": "crm:E53_Place",
+        "entityType": "crm:E53_Place"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/1TlXKBIDdGf">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/1TlXKBIDdGf",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-02T17:50:05.241Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/N6O8zne6ot2",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/N6O8zne6ot2/selector/textPosition/b5pco833bB2",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 48765,
+                "end": 48776,
+                "refinedBy": {
+                    "id": "/target/N6O8zne6ot2/selector/textQuote/Dc2hABuoZsv",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Bloomington",
+                    "prefix": "",
+                    "suffix": " Indiana University Press, 2010"
+                }
+            },
+            {
+                "id": "/target/N6O8zne6ot2/selector/css/HSKn8Cv8Tj9",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/1TlXKBIDdGf]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://sws.geonames.org/4254679 ",
+        "label": "Bloomington",
+        "type": "crm:E53_Place",
+        "entityType": "crm:E53_Place"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/rYY15bvbbMS">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/rYY15bvbbMS",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-03T13:52:13.209Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/9MqzBtR8J2V",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_01_mapping_tags_and_tagging_maps (10).xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Mapping Tags and Tagging Maps"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/9MqzBtR8J2V/selector/textPosition/jNPtIjjfrDP",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 48554,
+                "end": 48557,
+                "refinedBy": {
+                    "id": "/target/9MqzBtR8J2V/selector/textQuote/Yxme6HWwDcw",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Ian",
+                    "prefix": "\n                        Gregory,",
+                    "suffix": " Exploiting Time and Space: A Challenge for GIS in the Digital Humanities"
+                }
+            },
+            {
+                "id": "/target/9MqzBtR8J2V/selector/css/bnUqyvtq3Ry",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/rYY15bvbbMS]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/119669087",
+        "type": "crm:E21_Person",
+        "label": "Gregory, Ian N., 1970-....",
+        "description": "Gregory, Ian, 1970-"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
 			
 </rdf:RDF>
 		
+
+		
 </xenoData>
+	
 	</standOff>
+
 </TEI>
