@@ -488,7 +488,7 @@
                             <ref target="#theme_or_topic">In this chapter, members of the Editing Modernism in <placeName key="Canada" ref="https://sws.geonames.org/6251999" ana="webannotation:http://temp.lincsproject.ca/dXb2tgRNXJO">Canada</placeName> research collaboratory at <orgName key="University of Alberta." ref="http://viaf.org/viaf/155492116" ana="webannotation:http://temp.lincsproject.ca/DVrcnynEqW0">the University of Alberta</orgName> report on our attempt to develop a viable model of collaboration.</ref> How can we produce a model for consent and collaboration that recognizes the disparate forms and conditions of labour connected to humanities research and presentation? <ref target="#intertextuality">
                                 <abbr>EMiC UA</abbr> has opted to develop a project charter on the iterative model advanced by <persName key="Ruecker, Stan" ref="http://viaf.org/viaf/165153459" ana="webannotation:http://temp.lincsproject.ca/7wZbasequpH">Stan Ruecker</persName> and <persName key="Radzikowska, Milena" ref="http://viaf.org/viaf/2437148997678359870009" ana="webannotation:http://temp.lincsproject.ca/aApsRtLkECG">Milena Radzikowska</persName> and adapted for use by the Implementing New Knowledge Environments (<abbr>INKE</abbr>) project.</ref> Since this work is ongoing, this chapter is necessarily an interim report on ongoing discussions. When we began work on the project charter, <abbr>EMiC UA</abbr> consisted of nine researchers: two tenured faculty members, <persName key="Hjartarson, Paul Ivar" ref="http://viaf.org/viaf/39401783" ana="webannotation:http://temp.lincsproject.ca/5QSdWvvLRyQ">Paul Hjartarson</persName> and <persName key="Quamen, Harvey" ref="http://viaf.org/viaf/235167803166517771996" ana="webannotation:http://temp.lincsproject.ca/s24UnOSdi93">Harvey Quamen</persName>; an archivist, <persName key="Frogner, Raymond, 1964-" ref="http://viaf.org/viaf/105598388" ana="webannotation:http://temp.lincsproject.ca/skYzdVxOgir">Raymond Frogner</persName>; and six graduate students, five in English—Rebecca Blakey, Kristin Fast, Andrea Hasenbank, <persName key="McGregor, Hannah" ref="http://viaf.org/viaf/20153713810358661443" ana="webannotation:http://temp.lincsproject.ca/2FC6L835op3">Hannah McGregor</persName>, and Nick van Orden—and one, Matt Bouchard, in information studies. Postdoctoral fellow <persName key="Lent, Vanessa, 1979-" ref="http://viaf.org/viaf/141147423127944882061" ana="webannotation:http://temp.lincsproject.ca/A5VxaIQJmkc">Vanessa Lent</persName> joined us in January 2012. We also work with a number of researchers—<persName key="Betts, Gregory, 1975-...." ref="http://viaf.org/viaf/107903812" ana="webannotation:http://temp.lincsproject.ca/9OdptOiZQ47">Gregory Betts</persName>, <persName key="DeFehr, Wayne, 1962-" ref="http://viaf.org/viaf/106042359" ana="webannotation:http://temp.lincsproject.ca/oBjaDsE0faf">Wayne DeFehr</persName>, Joseph MacKinnon, <persName key="Morra, Linda M." ref="http://viaf.org/viaf/56850316" ana="webannotation:http://temp.lincsproject.ca/hMa36mSK3OI">Linda Morra</persName>, <persName key="Neuman, S. C. (Shirley C.)" ref="http://viaf.org/viaf/91929241" ana="webannotation:http://temp.lincsproject.ca/2og5HVc1Xye">Shirley Neuman</persName>, and <persName key="Tiessen, Paul, 1944-...." ref="http://viaf.org/viaf/71426952" ana="webannotation:http://temp.lincsproject.ca/Hj7wh22Ebkt">Paul Tiessen</persName>, for example—who may or may not ultimately join the collaboratory. Although most <abbr>EMiC UA</abbr> members are based at <orgName key="University of Alberta." ref="http://viaf.org/viaf/155492116" ana="webannotation:http://temp.lincsproject.ca/GlsyRBqOLRK">the University of Alberta</orgName>, <persName key="Frogner, Raymond, 1964-" ref="http://viaf.org/viaf/105598388" ana="webannotation:http://temp.lincsproject.ca/JRJvg6rWjLC">Raymond Frogner</persName> works in the Archives, Collections and Knowledge Division, <orgName key="British Columbia Archives" ref="http://viaf.org/viaf/132861680" ana="webannotation:http://temp.lincsproject.ca/0hCKFmQx1H1">BC Archives</orgName> in <placeName key="Victoria" ref="https://www.geonames.org/6174041/victoria.html" ana="webannotation:http://temp.lincsproject.ca/nB24uScjdm3" type="real" cert="high" precision="high">Victoria</placeName>, and Matt Bouchard is a doctoral student at <orgName key="University of Toronto." ref="http://viaf.org/viaf/130333233" ana="webannotation:http://temp.lincsproject.ca/xDjhNLvHDHR" type="real" cert="high">the University of Toronto</orgName>. (In October 2013, <persName key="McGregor, Hannah" ref="http://viaf.org/viaf/20153713810358661443" ana="webannotation:http://temp.lincsproject.ca/Eopn43VGz2Y">Hannah McGregor</persName>, who was a doctoral student at <orgName key="University of Guelph." ref="http://viaf.org/viaf/125486960" ana="webannotation:http://temp.lincsproject.ca/UsqpBuIYuCm" type="real" cert="high">the University of Guelph</orgName>, returned to <orgName key="University of Alberta." ref="http://viaf.org/viaf/155492116" ana="webannotation:http://temp.lincsproject.ca/v0hlv3syaMU">the University of Alberta</orgName> and to <abbr>EMiC UA</abbr> as a <abbr><orgName key="Social Sciences and Humanities Research Council of Canada" ref="http://viaf.org/viaf/150876296" ana="webannotation:http://temp.lincsproject.ca/SOzgcV2ru9K">SSHRC</orgName></abbr> postdoctoral fellow.) <ref target="#technology">
                                 <ref target="#theme_or_topic">
-                                    <abbr>EMiC UA</abbr> is engaged in three editorial initiatives: the Wilfred and Sheila Watson projects; the Manifestos project; and the Martha Ostenso project. Our mainstay, however, is the Editing Wilfred Watson Archive project. This is the initiative we are using to create digital infrastructure; it is also the initiative we are using to think through the project charter.</ref>
+                                    <abbr>EMiC UA</abbr> is engaged in three editorial initiatives: the Wilfred and Sheila Watson projects; the Manifestos project; and the <persName key="Ostenso, Martha, 1900-1963" ref="http://viaf.org/viaf/13501878" ana="webannotation:http://temp.lincsproject.ca/CuAWwKbFUkB">Martha Ostenso</persName> project. Our mainstay, however, is the Editing Wilfred Watson Archive project. This is the initiative we are using to create digital infrastructure; it is also the initiative we are using to think through the project charter.</ref>
                             </ref>
                         </ref>
                     </p>
@@ -508,10 +508,10 @@
                     <p xml:id="p1083">
                         <ref target="#collaboration">
                             <ref target="#technology">
-                                <ref target="#archive">The painstaking work involved in editing the letters exchanged by <persName key="Watson, Wilfred, 1911-1998" ref="http://viaf.org/viaf/67854547" ana="webannotation:http://temp.lincsproject.ca/vS2yFkoKIDP">Wilfred Watson</persName> and <persName key="Watson, Sheila, 1909-1998" ref="http://viaf.org/viaf/35268398" ana="webannotation:http://temp.lincsproject.ca/PsRFwZtJXMu">Sheila Watson</persName> from 1956 to 1962, for example, centres on an ongoing dialogue between the literary scholars most familiar with the Wilfred and Sheila Watson archives and the digital specialists who can model and implement digital archives and editions.</ref> Virtually every editorial decision we make has a technological implication; every technological decision, an editorial consequence. It is worth noting, too, that the dialogue itself is both facilitated and shaped—not always in a positive way—by the technologies (<ref target="#non-book_media">wikis, Skype, Google documents, metadata entry websites</ref>) we find ourselves using.<note xml:id="n44" place="end">The use of technology in the practice of collaboration warrants further discussion. We find ourselves both liberated and constricted by the tools we choose to use to connect with one another, which facilitate, complicate, and prevent various relationships and processes.</note> Although each group may believe that at the digital humanities interface its particular questions should take precedence—that the issues valued by literary scholars outrank digital concerns or that technical issues trump all others, for example—collaboration works through dialogue. As <persName key="Hutcheon, Linda, 1947-...." ref="http://viaf.org/viaf/101807260" ana="webannotation:http://temp.lincsproject.ca/Hccba8yJC0i">Linda Hutcheon</persName> and <persName key="Hutcheon, Michael, 1945-...." ref="http://viaf.org/viaf/262481632" ana="webannotation:http://temp.lincsproject.ca/z4lQLNU8ZCs">Michael Hutcheon</persName> point out, <q>It is no accident that the conversation or dialogue model is a dominant one in theories of collaboration</q>
+                                <ref target="#archive">The painstaking work involved in editing the letters exchanged by <persName key="Watson, Wilfred, 1911-1998" ref="http://viaf.org/viaf/67854547" ana="webannotation:http://temp.lincsproject.ca/vS2yFkoKIDP">Wilfred Watson</persName> and <persName key="Watson, Sheila, 1909-1998" ref="http://viaf.org/viaf/35268398" ana="webannotation:http://temp.lincsproject.ca/PsRFwZtJXMu">Sheila Watson</persName> from 1956 to 1962, for example, centres on an ongoing dialogue between the literary scholars most familiar with the Wilfred and Sheila Watson archives and the digital specialists who can model and implement digital archives and editions.</ref> Virtually every editorial decision we make has a technological implication; every technological decision, an editorial consequence. It is worth noting, too, that the dialogue itself is both facilitated and shaped—not always in a positive way—by the technologies (<ref target="#non-book_media">wikis, <orgName key="Skype Technologies S.A.R.L" ref="http://viaf.org/viaf/7715149619425904010008" ana="webannotation:http://temp.lincsproject.ca/LFyfbWt4mcj">Skype</orgName>, <orgName key="Google American multinational technology company, a subsidiary of Alphabet Inc." ref="http://viaf.org/viaf/124291214" ana="webannotation:http://temp.lincsproject.ca/AmG2N8ynqJo">Google</orgName> documents, metadata entry websites</ref>) we find ourselves using.<note xml:id="n44" place="end">The use of technology in the practice of collaboration warrants further discussion. We find ourselves both liberated and constricted by the tools we choose to use to connect with one another, which facilitate, complicate, and prevent various relationships and processes.</note> Although each group may believe that at the digital humanities interface its particular questions should take precedence—that the issues valued by literary scholars outrank digital concerns or that technical issues trump all others, for example—collaboration works through dialogue. As <persName key="Hutcheon, Linda, 1947-...." ref="http://viaf.org/viaf/101807260" ana="webannotation:http://temp.lincsproject.ca/Hccba8yJC0i">Linda Hutcheon</persName> and <persName key="Hutcheon, Michael, 1945-...." ref="http://viaf.org/viaf/262481632" ana="webannotation:http://temp.lincsproject.ca/z4lQLNU8ZCs">Michael Hutcheon</persName> point out, <q>It is no accident that the conversation or dialogue model is a dominant one in theories of collaboration</q>
                                 <note place="inline">
                                     <bibl>1367</bibl>
-                                </note>.<note xml:id="n45" place="end">Although collaboration is at the heart of research in the digital humanities, it is both an issue and a practice discussed in numerous contexts. In addition to the article by <persName key="Hutcheon, Linda, 1947-...." ref="http://viaf.org/viaf/101807260" ana="webannotation:http://temp.lincsproject.ca/Z3Ajh6MkRMt">Linda Hutcheon</persName> and <persName key="Hutcheon, Michael, 1945-...." ref="http://viaf.org/viaf/262481632" ana="webannotation:http://temp.lincsproject.ca/tw1vu3Vl8Cy">Michael Hutcheon</persName>, see, for example, articles by <persName key="Wilcox, Lisa, 1964-" ref="http://viaf.org/viaf/34276465" ana="webannotation:http://temp.lincsproject.ca/l8YWlpGPZFf">Ede</persName> and <persName key="Lunsford, Andrea A., 1942-...." ref="http://viaf.org/viaf/39473673" ana="webannotation:http://temp.lincsproject.ca/haqjwfLagL8">Lunsford</persName>, and by <persName key="Gilman, Sander L., 1944-...." ref="http://viaf.org/viaf/108235217" ana="webannotation:http://temp.lincsproject.ca/O5NqnCaEWva">Gilman</persName>.</note>
+                                </note>.<note xml:id="n45" place="end">Although collaboration is at the heart of research in the digital humanities, it is both an issue and a practice discussed in numerous contexts. In addition to the article by <persName key="Hutcheon, Linda, 1947-...." ref="http://viaf.org/viaf/101807260" ana="webannotation:http://temp.lincsproject.ca/Z3Ajh6MkRMt">Linda Hutcheon</persName> and <persName key="Hutcheon, Michael, 1945-...." ref="http://viaf.org/viaf/262481632" ana="webannotation:http://temp.lincsproject.ca/tw1vu3Vl8Cy">Michael Hutcheon</persName>, see, for example, articles by <persName key="Ede, Lisa S., 1947-2021" ref="http://viaf.org/viaf/108564398" ana="webannotation:http://temp.lincsproject.ca/g86KwYHvz67">Ede</persName> and <persName key="Lunsford, Andrea A., 1942-...." ref="http://viaf.org/viaf/39473673" ana="webannotation:http://temp.lincsproject.ca/haqjwfLagL8">Lunsford</persName>, and by <persName key="Gilman, Sander L., 1944-...." ref="http://viaf.org/viaf/108235217" ana="webannotation:http://temp.lincsproject.ca/O5NqnCaEWva">Gilman</persName>.</note>
                             </ref>
                         </ref>
                     </p>
@@ -607,7 +607,7 @@
                     <p xml:id="p1090">
                         <ref target="#intertextuality">
                             <ref target="#education">
-                                <ref target="#writing_climate"><persName key="Schagerl, Jessica, 1975-" ref="http://viaf.org/viaf/231694901" ana="webannotation:http://temp.lincsproject.ca/H4DbtWvNmb6">Schagerl</persName> goes on to address the tenuous position of the emerging humanities scholar (graduate student, postdoctoral fellow, contract or junior faculty) in the current university environment. She calls for a shift in perspective at disciplinary and institutional levels to match the current goals of funding organizations such as the Social Sciences and Humanities Research Council of Canada (<abbr><orgName key="Social Sciences and Humanities Research Council of Canada" ref="http://viaf.org/viaf/150876296" ana="webannotation:http://temp.lincsproject.ca/w7lNAtbr1Lz">SSHRC</orgName></abbr>).</ref>
+                                <ref target="#writing_climate"><persName key="Schagerl, Jessica, 1975-" ref="http://viaf.org/viaf/231694901" ana="webannotation:http://temp.lincsproject.ca/H4DbtWvNmb6">Schagerl</persName> goes on to address the tenuous position of the emerging humanities scholar (graduate student, postdoctoral fellow, contract or junior faculty) in the current university environment. She calls for a shift in perspective at disciplinary and institutional levels to match the current goals of funding organizations such as <orgName key="Social Sciences and Humanities Research Council of Canada" ref="http://viaf.org/viaf/150876296" ana="webannotation:http://temp.lincsproject.ca/K5U0Ys2BtF3">the Social Sciences and Humanities Research Council of Canada</orgName> (<abbr><orgName key="Social Sciences and Humanities Research Council of Canada" ref="http://viaf.org/viaf/150876296" ana="webannotation:http://temp.lincsproject.ca/w7lNAtbr1Lz">SSHRC</orgName></abbr>).</ref>
                             </ref>
                         </ref>
                     </p>
@@ -730,7 +730,7 @@
                     <p xml:id="p1105">
                         <ref target="#collaboration">
                             <ref target="#technology">
-                                <ref target="#methodology">In the early months of scanning correspondence in the Wilfred Watson fonds, Nick van Orden worked with <persName key="Joe MacKinnon" ref="https://nerve.lincsproject.ca/5sFxU4IZJCTsojB7l6FSt" ana="webannotation:http://temp.lincsproject.ca/EKKTdjfxF1g">Joe MacKinnon</persName>, our most experienced scanner, to develop a document they titled <title level="m">How to Scan like a Rock Star.</title> When Rebecca Blakey joined the project, she not only scanned with van Orden and MacKinnon but consulted their documentation, and has since updated it. When scanning moved from <persName key="Watson, Wilfred, 1911-1998" ref="http://viaf.org/viaf/67854547" ana="webannotation:http://temp.lincsproject.ca/G7wWZR86uEI">Wilfred Watson’s</persName> correspondence to his notebooks and journals, our scanning techniques needed to change and the documentation required updating. We recently installed updated scanner software that may well require changes in both scanning and documentation. Strong documentation enables the Watson project to build on the knowledge developed by previous group members; what is more, that documentation, we hope, keeps us true to our earlier decisions and commitments.</ref>
+                                <ref target="#methodology">In the early months of scanning correspondence in the Wilfred Watson fonds, Nick van Orden worked with Joe MacKinnon, our most experienced scanner, to develop a document they titled <title level="m">How to Scan like a Rock Star.</title> When Rebecca Blakey joined the project, she not only scanned with van Orden and MacKinnon but consulted their documentation, and has since updated it. When scanning moved from <persName key="Watson, Wilfred, 1911-1998" ref="http://viaf.org/viaf/67854547" ana="webannotation:http://temp.lincsproject.ca/G7wWZR86uEI">Wilfred Watson’s</persName> correspondence to his notebooks and journals, our scanning techniques needed to change and the documentation required updating. We recently installed updated scanner software that may well require changes in both scanning and documentation. Strong documentation enables the Watson project to build on the knowledge developed by previous group members; what is more, that documentation, we hope, keeps us true to our earlier decisions and commitments.</ref>
                             </ref>
                         </ref>
                     </p>
@@ -747,7 +747,7 @@
                     <p xml:id="p1107">
                         <ref target="#collaboration">
                             <ref target="#theory">
-                                <ref target="#writing_climate">If dialogue and documentation are essential to collaboration, then communication needs to begin <q>at home,</q> among members of the collaboratory itself. Our subgroup is recommending that <abbr>EMiC UA</abbr> keep its administrative structure as <q>horizontal,</q> that is, non-hierarchical, and as simple as possible: <q>horizontal</q> to facilitate dialogue among group members and simple to minimize bureaucracy and to give <abbr>EMiC UA</abbr> the flexibility it needs to respond quickly to changing conditions and opportunities. Communication at home means access to working documents and as much transparency in decision making as possible. We need to communicate not only with other members of the collaboratory but with <abbr>EMiC UA</abbr> partners. The <abbr>EMiC</abbr> knowledge network is more parent than partner, so if communication begins at home, then <abbr>EMiC</abbr> itself is part of that home, as are the literary executors of the Wilfred and Sheila Watson estates. <abbr>EMiC UA</abbr> partners include <abbr><orgName key="Canadian Writing Research Collaboratory" ref="http://id.lincsproject.ca/Ph49VISFM8m" ana="webannotation:http://temp.lincsproject.ca/FXmX6IuEdIE">CWRC</orgName></abbr>, <orgName key="University of Alberta. Library" ref="http://viaf.org/viaf/125238209" ana="webannotation:http://temp.lincsproject.ca/YkVCEwRlF4C">the University of Alberta Libraries</orgName>, and <orgName key="John M. Kelly Library" ref="http://viaf.org/viaf/134813832" ana="webannotation:http://temp.lincsproject.ca/09SBAfwQ1LS">the John M. Kelly Library</orgName> at <orgName key="St. Michael's College (Toronto, Ont.)" ref="http://viaf.org/viaf/135876741" ana="webannotation:http://temp.lincsproject.ca/3hcWCKyOSs5">St. Michael’s College</orgName> in <placeName key="Toronto" ref="https://sws.geonames.org/8133394/" ana="webannotation:http://temp.lincsproject.ca/0qsw8wzg5ml">Toronto</placeName>. Our commitment to disseminate our work as widely as possible is a commitment to interdisciplinarity, that is, to present our work at gatherings of all disciplines represented on the project, not just to members of our own disciplinary groups.</ref>
+                                <ref target="#writing_climate">If dialogue and documentation are essential to collaboration, then communication needs to begin <q>at home,</q> among members of the collaboratory itself. Our subgroup is recommending that <abbr>EMiC UA</abbr> keep its administrative structure as <q>horizontal,</q> that is, non-hierarchical, and as simple as possible: <q>horizontal</q> to facilitate dialogue among group members and simple to minimize bureaucracy and to give <abbr>EMiC UA</abbr> the flexibility it needs to respond quickly to changing conditions and opportunities. Communication at home means access to working documents and as much transparency in decision making as possible. We need to communicate not only with other members of the collaboratory but with <abbr>EMiC UA</abbr> partners. The <abbr>EMiC</abbr> knowledge network is more parent than partner, so if communication begins at home, then <abbr>EMiC</abbr> itself is part of that home, as are the literary executors of the <persName key="Watson, Wilfred, 1911-1998" ref="http://viaf.org/viaf/67854547" ana="webannotation:http://temp.lincsproject.ca/WY5wWNA5u1A">Wilfred</persName> and Sheila Watson estates. <abbr>EMiC UA</abbr> partners include <abbr><orgName key="Canadian Writing Research Collaboratory" ref="http://id.lincsproject.ca/Ph49VISFM8m" ana="webannotation:http://temp.lincsproject.ca/FXmX6IuEdIE">CWRC</orgName></abbr>, <orgName key="University of Alberta. Library" ref="http://viaf.org/viaf/125238209" ana="webannotation:http://temp.lincsproject.ca/YkVCEwRlF4C">the University of Alberta Libraries</orgName>, and <orgName key="John M. Kelly Library" ref="http://viaf.org/viaf/134813832" ana="webannotation:http://temp.lincsproject.ca/09SBAfwQ1LS">the John M. Kelly Library</orgName> at <orgName key="St. Michael's College (Toronto, Ont.)" ref="http://viaf.org/viaf/135876741" ana="webannotation:http://temp.lincsproject.ca/3hcWCKyOSs5">St. Michael’s College</orgName> in <placeName key="Toronto" ref="https://sws.geonames.org/8133394/" ana="webannotation:http://temp.lincsproject.ca/0qsw8wzg5ml">Toronto</placeName>. Our commitment to disseminate our work as widely as possible is a commitment to interdisciplinarity, that is, to present our work at gatherings of all disciplines represented on the project, not just to members of our own disciplinary groups.</ref>
                             </ref>
                         </ref>
                     </p>
@@ -786,7 +786,7 @@
                                     <bibl>1371</bibl>
                                 </note>. The collaborative process created an environment of <q>collective respect for personal and disciplinary differences and evolved a kind of <q>rhetoric of dissensus</q> that permitted, indeed demanded, continued discussion</q>
                                 <note place="inline">
-                                    <bibl>Trimbur 609</bibl>
+                                    <bibl><title key="Trimbur, John." ref="http://viaf.org/viaf/55776530" ana="webannotation:http://temp.lincsproject.ca/V3L0P5QKJjx">Trimbur 609</title></bibl>
                                 </note>. The collaborative process fosters an environment of innovative communication between disciplines. <ref target="#technology">Communication becomes even more crucial in <abbr>DH</abbr> projects. Clear communication within digital humanities teams is essential in alleviating the <q>tension that can exist between programmers and non-programmers, the varying perspectives of different disciplines, a lack of common language and understanding of the project between team members</q>
                                     <note place="inline">
                                         <bibl><orgName key="Siemens, Lynne" ref="http://viaf.org/viaf/542159474159427661062" ana="webannotation:http://temp.lincsproject.ca/ZoPclVwR5Dc">Siemens</orgName> 229</bibl>
@@ -811,7 +811,7 @@
                     <p xml:id="p1112" rend="authors-note">
                         <ref target="#collaboration">
                             <ref target="#eduction">
-                                <ref target="#theme_or_topic">The Editing Modernism in <placeName key="Canada" ref="https://sws.geonames.org/6251999" ana="webannotation:http://temp.lincsproject.ca/rMTbHztkIiu">Canada</placeName> project seeks to place graduate education at the centre of its work. In collaboration with <orgName key="University of Victoria" ref="http://viaf.org/viaf/144191869" ana="webannotation:http://temp.lincsproject.ca/xhAH66KEs1T">the University of Victoria’s</orgName> Digital Humanities Summer Institute, it provides training in the digital humanities; through its partnership with <orgName key="Trent University." ref="http://viaf.org/viaf/137723725" ana="webannotation:http://temp.lincsproject.ca/o4kkzlEBUUc">Trent University’s</orgName> <orgName key="Public Texts, Trent University" ref="http://id.lincsproject.ca/MXoTcfXMbei" ana="webannotation:http://temp.lincsproject.ca/CwWbJLpz4VI">Public Texts</orgName> program, it offers courses in the theory and practice of editing; and through <ref target="#economics">funding provided by a <abbr>SSHRC</abbr> Strategic Knowledge Cluster grant, it offers funding, including postdoctoral fellowships, to students who choose to edit Canadian texts.</ref>
+                                <ref target="#theme_or_topic">The Editing Modernism in <placeName key="Canada" ref="https://sws.geonames.org/6251999" ana="webannotation:http://temp.lincsproject.ca/rMTbHztkIiu">Canada</placeName> project seeks to place graduate education at the centre of its work. In collaboration with <orgName key="University of Victoria" ref="http://viaf.org/viaf/144191869" ana="webannotation:http://temp.lincsproject.ca/xhAH66KEs1T">the University of Victoria’s</orgName> Digital Humanities Summer Institute, it provides training in the digital humanities; through its partnership with <orgName key="Trent University." ref="http://viaf.org/viaf/137723725" ana="webannotation:http://temp.lincsproject.ca/o4kkzlEBUUc">Trent University’s</orgName> <orgName key="Public Texts, Trent University" ref="http://id.lincsproject.ca/MXoTcfXMbei" ana="webannotation:http://temp.lincsproject.ca/CwWbJLpz4VI">Public Texts</orgName> program, it offers courses in the theory and practice of editing; and through <ref target="#economics">funding provided by a <abbr>SSHRC</abbr> Strategic Knowledge Cluster grant, it offers funding, including postdoctoral fellowships, to students who choose to edit <rs key="Canadian" ref="http://vocab.getty.edu/aat/300107962" ana="webannotation:http://temp.lincsproject.ca/3cQvNo4VTo0">Canadian</rs> texts.</ref>
                                 </ref> Early in its work, the <abbr>EMiC UA</abbr> research group resolved to build on <abbr>EMiC</abbr>’s foundational commitment to the training and mentorship of graduate students and other emerging scholars by developing a collaborative environment in which those scholars could function as full members of a research team and receive credit appropriate to their work on projects.</ref> To that end, <abbr>EMiC UA</abbr> placed a high priority on developing a project charter; we soon realized, however, that the task would prove as difficult and demanding as it was crucial to our work. This document is a work in progress. Because our work is in its early stages, it is grounded more in principles than in policies and practices. As our work develops, these principles will give rise to policies and practices; moreover, all principles, policies, and practices will be more fully tested and revised in our day-to-day operations. This ongoing revision we understand as the heart of an iterative project charter. The present document is part—a small part, at that—of a larger whole. The focus here is on <q>trust</q> because it is essential to equitable collaboration. We have also worked on a <q>play nice</q> cluster, that is, principles we think should govern our collective commitment to tasks, deadlines, and conflict resolution.</ref>
                     </p>
                     <table>
@@ -1022,41 +1022,41 @@
                 <div type="section">
                     <head>Works Cited</head>
                     <listBibl>
-                        <bibl>Beck, Kent, with <persName key="Andres, Cynthia." ref="http://viaf.org/viaf/63394879" ana="webannotation:http://temp.lincsproject.ca/LTzoVEw5HLI">Cynthia Andres</persName>. <title level="m">Extreme Programming Explained: Embrace Change</title>. 2nd ed. Boston: Addison-Wesley, 2005.</bibl>
+                        <bibl>Beck, <placeName key="Beck, Kent." ref="http://viaf.org/viaf/39529441" ana="webannotation:http://temp.lincsproject.ca/X2aQhh0aDdu">Kent</placeName>, with <persName key="Andres, Cynthia." ref="http://viaf.org/viaf/63394879" ana="webannotation:http://temp.lincsproject.ca/LTzoVEw5HLI">Cynthia Andres</persName>. <title level="m">Extreme Programming Explained: Embrace Change</title>. 2nd ed. <placeName key="Boston" ref="https://sws.geonames.org/4930956" ana="webannotation:http://temp.lincsproject.ca/KSigvPMQhlh">Boston</placeName>: <orgName key="Addison-Wesley (1942-1999)." ref="http://viaf.org/viaf/122588708" ana="webannotation:http://temp.lincsproject.ca/bsPpV3jvpXH">Addison-Wesley</orgName>, 2005.</bibl>
                         <bibl>Bretz, Andrew, <persName key="Brown, Susan Irene" ref="http://viaf.org/viaf/104953085" ana="webannotation:http://temp.lincsproject.ca/BDgVw35UFqO">Susan Brown</persName>, and <persName key="McGregor, Hannah" ref="http://viaf.org/viaf/20153713810358661443" ana="webannotation:http://temp.lincsproject.ca/612OdYi2T6Q">Hannah McGregor</persName>. <title level="m">Lasting Change: Sustaining Digital Scholarship and Culture in <placeName key="Canada" ref="https://sws.geonames.org/6251999" ana="webannotation:http://temp.lincsproject.ca/OAbVkA4JV5d">Canada</placeName></title>. 2010. <ref target="http://www.cwrc.ca/wp-content/uploads/2011/05/Lasting-Change-Knowledge-Synthesis.pdf">http://www.cwrc.ca/wp-content/uploads/2011/05/Lasting-Change-Knowledge-Synthesis.pdf</ref>
                         </bibl>
-                        <bibl><persName key="Brown, Susan Irene" ref="http://viaf.org/viaf/104953085" ana="webannotation:http://temp.lincsproject.ca/vXdJ7DWthWm">Brown</persName>, Susan. <title level="a">Don’t Mind the Gap: Evolving Digital Modes of Scholarly Production across the Digital-Humanities Divide</title>. <title level="m">Retooling the Humanities: The Culture of Research in Canadian Universities</title>. Ed. Daniel Coleman and Smaro Kamboureli. Edmonton: University of Alberta Press, 2011. 203–31.</bibl>
-                        <bibl>Chow, Rey.<title level="a">
+                        <bibl><persName key="Brown, Susan Irene" ref="http://viaf.org/viaf/104953085" ana="webannotation:http://temp.lincsproject.ca/vXdJ7DWthWm">Brown</persName>, Susan. <title level="a">Don’t Mind the Gap: Evolving Digital Modes of Scholarly Production across the Digital-Humanities Divide</title>. <title level="m">Retooling the Humanities: The Culture of Research in Canadian Universities</title>. Ed. Daniel Coleman and Smaro Kamboureli. Edmonton: <orgName key="University of Alberta Press." ref="http://viaf.org/viaf/311351545" ana="webannotation:http://temp.lincsproject.ca/y3ulJdG8syZ">University of Alberta Press</orgName>, 2011. 203–31.</bibl>
+                        <bibl>Chow, <persName key="Chow, Rey, 1957-...." ref="http://viaf.org/viaf/27220733" ana="webannotation:http://temp.lincsproject.ca/a3rzB6SBurT">Rey</persName>.<title level="a">
                                 <q>An Addiction from Which We Never Get Free.</q>
                             </title>
                             <title level="j">New Literary History</title> 36.1 (2005): 47–55.</bibl>
-                        <bibl>Chromatic. <title level="m">Extreme Programming Pocket Guide</title>. Sebastopol, CA: O’Reilly Media, 2003.</bibl>
-                        <bibl>Collaboratory. <title level="m">Wikipedia: The Free Encyclopedia</title>. <ref target="http://en.wikipedia.org/wiki/Collaboratory">http://en.wikipedia.org/wiki/Collaboratory</ref>
+                        <bibl>Chromatic. <title level="m">Extreme Programming Pocket Guide</title>. <placeName key="Sebastopol" ref="https://sws.geonames.org/5394165" ana="webannotation:http://temp.lincsproject.ca/Zz2U3uQQOxs">Sebastopol</placeName>, <placeName key="California" ref="https://sws.geonames.org/5332921" ana="webannotation:http://temp.lincsproject.ca/oA3vBbKlPB9">CA</placeName>: <orgName key="O'reilly Media" ref="http://viaf.org/viaf/311353085">O’Reilly Media</orgName>, 2003.</bibl>
+                        <bibl>Collaboratory. <title level="m"><orgName key="Wikipédia" ref="http://viaf.org/viaf/220417855" ana="webannotation:http://temp.lincsproject.ca/7R4WAMusMDc">Wikipedia</orgName>: The Free Encyclopedia</title>. <ref target="http://en.wikipedia.org/wiki/Collaboratory">http://en.wikipedia.org/wiki/Collaboratory</ref>
                         </bibl>
-                        <bibl>Davies, Tony. <title level="m">Humanism</title>. 2nd ed. New Critical Idiom Series. New York: Routledge, 2008.</bibl>
-                        <bibl>Derrida, Jacques.<title level="m">Of Grammatology</title>. 1967. Baltimore: Johns Hopkins University Press, 1997.</bibl>
-                        <bibl>Ede, Lisa, and Andrea J. Lunsford. <title level="a">Collaboration and the Concepts of Authorship</title>. <title level="j">
+                        <bibl>Davies, Tony. <title level="m">Humanism</title>. 2nd ed. New Critical Idiom Series. <placeName key="New York" ref="https://www.geonames.org/5128638/new-york.html" ana="webannotation:http://temp.lincsproject.ca/CIITWYCN7fk">New York</placeName>: <orgName key="Routledge" ref="http://viaf.org/viaf/146326081" ana="webannotation:http://temp.lincsproject.ca/I2PaWb4331d">Routledge</orgName>, 2008.</bibl>
+                        <bibl>Derrida, Jacques.<title level="m">Of Grammatology</title>. 1967. <placeName key="Baltimore" ref="https://sws.geonames.org/4347778" ana="webannotation:http://temp.lincsproject.ca/yaCuGDOiS8g">Baltimore</placeName>: <orgName key="Johns Hopkins University. Press" ref="http://viaf.org/viaf/157408888" ana="webannotation:http://temp.lincsproject.ca/yKUV9EQjJIe">Johns Hopkins University Press</orgName>, 1997.</bibl>
+                        <bibl>Ede, <persName key="Ede, Lisa S., 1947-2021" ref="http://viaf.org/viaf/108564398" ana="webannotation:http://temp.lincsproject.ca/tDQm7g4544z">Lisa</persName>, and <persName key="Lunsford, Andrea A., 1942-...." ref="http://viaf.org/viaf/39473673" ana="webannotation:http://temp.lincsproject.ca/7ku5r94Xe5l">Andrea J. Lunsford</persName>. <title level="a">Collaboration and the Concepts of Authorship</title>. <title level="j">
                                 <abbr>PMLA</abbr>
                             </title> 116.2 (2001): 354–69.</bibl>
                         <bibl>Editing Modernism in Canada. <title level="m">Project website</title>. <ref target="http://editingmodernism.ca">http://editingmodernism.ca</ref>
                         </bibl>
                         <bibl>Gilman, Sander L. <title level="a">Collaboration, the Economy, and the Future of the Humanities</title>. <title level="j">Critical Inquiry</title> 30.2 (2004): 384–90.</bibl>
-                        <bibl>Hutcheon, Linda, and <persName key="Hutcheon, Michael, 1945-...." ref="http://viaf.org/viaf/262481632" ana="webannotation:http://temp.lincsproject.ca/nLeVBQgCGQP">Michael Hutcheon</persName>. <title level="a">A Convenience of Marriage: Collaboration and Interdisciplinarity</title>. <title level="j">PMLA</title> 116.5 (October 2001): 1364–76.</bibl>
+                        <bibl>Hutcheon, <persName key="Hutcheon, Linda, 1947-...." ref="http://viaf.org/viaf/101807260" ana="webannotation:http://temp.lincsproject.ca/YFaem6aaf4p">Linda</persName>, and <persName key="Hutcheon, Michael, 1945-...." ref="http://viaf.org/viaf/262481632" ana="webannotation:http://temp.lincsproject.ca/nLeVBQgCGQP">Michael Hutcheon</persName>. <title level="a">A Convenience of Marriage: Collaboration and Interdisciplinarity</title>. <title level="j">PMLA</title> 116.5 (October 2001): 1364–76.</bibl>
                         <bibl>MacKinnon, Joseph, Nicholas van Orden, and Rebecca Blakey. <title level="a">How to Scan Like a Rock Star. <abbr>EMiC UA</abbr> Working Document</title>.</bibl>
-                        <bibl><persName key="Martin, Robert C." ref="http://viaf.org/viaf/85276018" ana="webannotation:http://temp.lincsproject.ca/hFdgOIENKvg">Martin</persName>, Robert C. <title level="m">Clean Code: A Handbook of Agile Software Craftsmanship</title>. Boston: Prentice-Hall, 2009.</bibl>
-                        <bibl>McCarty, Willard. <title level="m">Humanities Computing</title>. Basingstoke: Palgrave Macmillan, 2005.</bibl>
+                        <bibl><persName key="Martin, Robert C." ref="http://viaf.org/viaf/85276018" ana="webannotation:http://temp.lincsproject.ca/hFdgOIENKvg">Martin</persName>, Robert C. <title level="m">Clean Code: A Handbook of Agile Software Craftsmanship</title>. Boston: <orgName key="Prentice-Hall, inc." ref="http://viaf.org/viaf/268796834" ana="webannotation:http://temp.lincsproject.ca/mkSe91VOM3j">Prentice-Hall</orgName>, 2009.</bibl>
+                        <bibl><persName key="McCarty, Willard, 1945-...." ref="http://viaf.org/viaf/119002646" ana="webannotation:http://temp.lincsproject.ca/gBD8rdxS5HB">McCarty</persName>, Willard. <title level="m">Humanities Computing</title>. <placeName key="Basingstoke" ref="https://sws.geonames.org/2656192" ana="webannotation:http://temp.lincsproject.ca/wN6RdDxSCD0">Basingstoke</placeName>: <orgName key="Palgrave Macmillan" ref="http://viaf.org/viaf/315532896" ana="webannotation:http://temp.lincsproject.ca/jxk9gMccvIB">Palgrave Macmillan</orgName>, 2005.</bibl>
                         <bibl>Ms. Mentor [<persName key="Toth, Emily." ref="http://viaf.org/viaf/27133714" ana="webannotation:http://temp.lincsproject.ca/6FMkkaBOxBR">Emily Toth</persName>]. <title level="a">Who Owns Your Mind?</title>
                             <title level="j">Chronicle of Higher Education</title> 21 May 1999: n. pag.</bibl>
                         <bibl><persName key="Pratt, Mary Louise, 1948-" ref="http://viaf.org/viaf/24648210" ana="webannotation:http://temp.lincsproject.ca/JcwUzu6lMHi">Pratt</persName>, Mary Louise. <title level="a">Arts of the Contact Zone</title>. <title level="j">Profession</title> (1992): 33–40.</bibl>
-                        <bibl>--- <title level="m">Imperial Eyes: Travel Writing and Transculturation</title>. New York: Routledge, 1992.</bibl>
+                        <bibl>--- <title level="m">Imperial Eyes: Travel Writing and Transculturation</title>. New York: <orgName key="Routledge" ref="http://viaf.org/viaf/146326081" ana="webannotation:http://temp.lincsproject.ca/RSLvM9mUl40">Routledge</orgName>, 1992.</bibl>
                         <bibl><persName key="Ruecker, Stan" ref="http://viaf.org/viaf/165153459" ana="webannotation:http://temp.lincsproject.ca/l6SgBHj1RII">Ruecker</persName>, Stan. <title level="a">Personal communication</title>. 16 July 2012.</bibl>
-                        <bibl><persName key="Ruecker, Stan" ref="http://viaf.org/viaf/165153459" ana="webannotation:http://temp.lincsproject.ca/ocDiN9mpatQ">Ruecker</persName>, Stan, and <persName key="Radzikowska, Milena" ref="http://viaf.org/viaf/2437148997678359870009" ana="webannotation:http://temp.lincsproject.ca/oyxd5Vih0Y0">Milena Radzikowska</persName>. <title level="a">The Iterative Design of a Project Charter for Interdisciplinary Research</title>. <title level="m">Proceedings of the 7th ACM Conference on Designing Interactive Systems</title>. New York: ACM, 2008. 288–94.</bibl>
-                        <bibl>Schagerl, Jessica. <title level="a">“Taking a Place at the Table.”</title>
-                            <title level="m">Retooling the Humanities: The Culture of Research in Canadian Universities</title>. Ed. Daniel Coleman and Smaro Kamboureli. Edmonton: University of Alberta Press, 2011. 95–112.</bibl>
-                        <bibl>Siemens, Lynne. <title level="a">
+                        <bibl><persName key="Ruecker, Stan" ref="http://viaf.org/viaf/165153459" ana="webannotation:http://temp.lincsproject.ca/ocDiN9mpatQ">Ruecker</persName>, Stan, and <persName key="Radzikowska, Milena" ref="http://viaf.org/viaf/2437148997678359870009" ana="webannotation:http://temp.lincsproject.ca/oyxd5Vih0Y0">Milena Radzikowska</persName>. <title level="a">The Iterative Design of a Project Charter for Interdisciplinary Research</title>. <title level="m">Proceedings of the 7th ACM Conference on Designing Interactive Systems</title>. New York: <orgName key="Association for computing machinery" ref="http://viaf.org/viaf/986176725935024980000" ana="webannotation:http://temp.lincsproject.ca/b1L2lwQzK2d">ACM</orgName>, 2008. 288–94.</bibl>
+                        <bibl>Schagerl, <persName key="Schagerl, Jessica, 1975-" ref="http://viaf.org/viaf/231694901" ana="webannotation:http://temp.lincsproject.ca/GokxRrAAuRz">Jessica.</persName> <title level="a">“Taking a Place at the Table.”</title>
+                            <title level="m">Retooling the Humanities: The Culture of Research in Canadian Universities</title>. <persName key="Coleman, Daniel, 1961-" ref="http://viaf.org/viaf/24827953" ana="webannotation:http://temp.lincsproject.ca/zIv3OHvoN4C">Ed. Daniel Coleman</persName> and Smaro Kamboureli. <placeName key="Edmonton" ref="https://sws.geonames.org/5946768" ana="webannotation:http://temp.lincsproject.ca/lua3CWJdgGa">Edmonton</placeName>: University of Alberta Press, 2011. 95–112.</bibl>
+                        <bibl>Siemens, <persName key="Siemens, Lynne" ref="http://viaf.org/viaf/542159474159427661062" ana="webannotation:http://temp.lincsproject.ca/GcnqP7WyLea">Lynne</persName>. <title level="a">
                                 <q>It’s a Team If You Use <q>Reply All</q>
                                 </q>: An Exploration of Research Teams in Digital Humanities Environments</title>. <title level="j">Literary and Linguistic Computing</title> 24.2 (2009): 225–33.</bibl>
-                        <bibl>Trimbur, John. <title level="a">Consensus and Difference in Collaborative Learning</title>. <title level="j">College English</title> 51.6 (October 1989): 602–16.</bibl>
+                        <bibl><persName key="Trimbur, John." ref="http://viaf.org/viaf/55776530" ana="webannotation:http://temp.lincsproject.ca/bX7MxQnPcv0">Trimbur</persName>, John. <title level="a">Consensus and Difference in Collaborative Learning</title>. <title level="j">College English</title> 51.6 (October 1989): 602–16.</bibl>
                     </listBibl>
                 </div>
             </div>
@@ -15361,20 +15361,20 @@
 				
 </rdf:Description>
 				
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/l8YWlpGPZFf">
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/g86KwYHvz67">
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
         "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
         "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
-    "id": "http://temp.lincsproject.ca/l8YWlpGPZFf",
+    "id": "http://temp.lincsproject.ca/g86KwYHvz67",
     "type": [
         "Annotation",
         "crm:E33_Linguistic_Object"
     ],
     "motivation": "oa:identifying",
-    "created": "2026-06-12T19:45:13.963Z",
+    "created": "2026-06-15T14:50:56.204Z",
     "creator": {
         "id": "https://github.com/doyleym15",
         "type": "crm:E21_Person",
@@ -15433,14 +15433,22 @@
                     "crm:E73_Information_Object"
                 ],
                 "value": "[ana~=webannotation:http://temp.lincsproject.ca/l8YWlpGPZFf]"
+            },
+            {
+                "id": "/target/KR2fNlmQjlG/selector/css/5fMy9ntLFcO",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/g86KwYHvz67]"
             }
         ]
     },
     "body": {
-        "id": "http://viaf.org/viaf/34276465",
+        "id": "http://viaf.org/viaf/108564398",
         "type": "crm:E21_Person",
-        "label": "Wilcox, Lisa, 1964-",
-        "description": "Wilcox, Lisa"
+        "label": "Ede, Lisa S., 1947-2021",
+        "description": "Ede, Lisa S., 1947-"
     },
     "P2_has_type": [
         "oa:identifying"
@@ -15801,93 +15809,6 @@
 				
 </rdf:Description>
 				
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/EKKTdjfxF1g">
-<![CDATA[{
-    "@context": [
-        "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
-    ],
-    "id": "http://temp.lincsproject.ca/EKKTdjfxF1g",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
-    "created": "2026-06-12T16:12:17.435Z",
-    "creator": {
-        "id": "https://github.com/doyleym15",
-        "type": "crm:E21_Person",
-        "name": "Megan Doyley"
-    },
-    "generator": {
-        "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
-        "name": "NERVE",
-        "softwareVersion": "0.3.0"
-    },
-    "target": {
-        "id": "/target/ToeueQLQJz6",
-        "type": [
-            "SpecificResource",
-            "crm:E73_Information_Object"
-        ],
-        "source": {
-            "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_02_modelling_collaboration_in_digital_humanities_scholarship (1) (1).xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "P1_is_identified_by": {
-                "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_02_modelling_collaboration_in_digital_humanities_scholarship (1) (1).xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Modelling Collaboration in Digital Humanities Scholarship"
-            }
-        },
-        "selector": [
-            {
-                "id": "/target/ToeueQLQJz6/selector/textPosition/0gfrQHzUW3u",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 43152,
-                "end": 43165,
-                "refinedBy": {
-                    "id": "/target/ToeueQLQJz6/selector/textQuote/cZpnBeYjEdL",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Joe MacKinnon",
-                    "prefix": "\n                            \n                        \n                    \n                    \n                        \n                            \n                                In the early months of scanning correspondence in the Wilfred Watson fonds, Nick van Orden worked with",
-                    "suffix": " our most experienced scanner, to develop a document they titled How to Scan like a Rock Star"
-                }
-            },
-            {
-                "id": "/target/ToeueQLQJz6/selector/css/1QDFnVyHP2K",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/EKKTdjfxF1g]"
-            }
-        ]
-    },
-    "body": {
-        "id": "https://nerve.lincsproject.ca/5sFxU4IZJCTsojB7l6FSt",
-        "type": "crm:E21_Person",
-        "label": "Joe MacKinnon"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
-}]]>
-				
-</rdf:Description>
-				
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/G7wWZR86uEI">
 <![CDATA[{
     "@context": [
@@ -16236,8 +16157,3046 @@
 }]]>
 				
 </rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/WY5wWNA5u1A">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/WY5wWNA5u1A",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-15T18:43:12.491Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/HKz3FEOx14w",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/HKz3FEOx14w/selector/textPosition/ywPC9WzI1W9",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 46346,
+                "end": 46353,
+                "refinedBy": {
+                    "id": "/target/HKz3FEOx14w/selector/textQuote/5VIMB60SkSM",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Wilfred",
+                    "prefix": " The EMiC knowledge network is more parent than partner, so if communication begins at home, then EMiC itself is part of that home, as are the literary executors of the",
+                    "suffix": "and Sheila Watson estates"
+                }
+            },
+            {
+                "id": "/target/HKz3FEOx14w/selector/css/Eqs3KiCjgw8",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/WY5wWNA5u1A]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/67854547",
+        "type": "crm:E21_Person",
+        "label": "Watson, Wilfred, 1911-1998",
+        "description": "Watson, Wilfred"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/CuAWwKbFUkB">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/CuAWwKbFUkB",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-15T15:59:53.854Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/5Fpen60nd8D",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/5Fpen60nd8D/selector/textPosition/BVv3ndVYnAA",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 11435,
+                "end": 11449,
+                "refinedBy": {
+                    "id": "/target/5Fpen60nd8D/selector/textQuote/fCB7PI3knJ7",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Martha Ostenso",
+                    "prefix": ") \n                                \n                                    EMiC UA is engaged in three editorial initiatives: the Wilfred and Sheila Watson projects; the Manifestos project; and the",
+                    "suffix": "project"
+                }
+            },
+            {
+                "id": "/target/5Fpen60nd8D/selector/css/UYD5pbdKcka",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/CuAWwKbFUkB]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/13501878",
+        "type": "crm:E21_Person",
+        "label": "Ostenso, Martha, 1900-1963",
+        "description": "Ostenso, Martha"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/LFyfbWt4mcj">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/LFyfbWt4mcj",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-15T18:36:55.856Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/xnn3XKaWSs8",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/xnn3XKaWSs8/selector/textPosition/TBGvx8aK87y",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 15867,
+                "end": 15872,
+                "refinedBy": {
+                    "id": "/target/xnn3XKaWSs8/selector/textQuote/Bxxj557D6Z1",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Skype",
+                    "prefix": " It is worth noting, too, that the dialogue itself is both facilitated and shaped—not always in a positive way—by the technologies (wikis,",
+                    "suffix": " Google documents, metadata entry websites) we find ourselves using"
+                }
+            },
+            {
+                "id": "/target/xnn3XKaWSs8/selector/css/Z3brAsEjNhB",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/LFyfbWt4mcj]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/7715149619425904010008",
+        "type": "crm:E74_Group",
+        "label": "Skype Technologies S.A.R.L"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/AmG2N8ynqJo">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/AmG2N8ynqJo",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-15T18:37:46.489Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/12Qw1kZIcPV",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/12Qw1kZIcPV/selector/textPosition/8e7QFkzjPKh",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 15874,
+                "end": 15880,
+                "refinedBy": {
+                    "id": "/target/12Qw1kZIcPV/selector/textQuote/wpBrqtgTMcW",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Google",
+                    "prefix": " It is worth noting, too, that the dialogue itself is both facilitated and shaped—not always in a positive way—by the technologies (wikis, Skype,",
+                    "suffix": "documents, metadata entry websites) we find ourselves using"
+                }
+            },
+            {
+                "id": "/target/12Qw1kZIcPV/selector/css/GT5bEWXqL9j",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/AmG2N8ynqJo]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/124291214",
+        "type": "crm:E74_Group",
+        "label": "Google American multinational technology company, a subsidiary of Alphabet Inc.",
+        "description": "Google firma"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/K5U0Ys2BtF3">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/K5U0Ys2BtF3",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-15T18:40:22.590Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/THDKKorZfrP",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/THDKKorZfrP/selector/textPosition/MONuPGJoru5",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 28113,
+                "end": 28174,
+                "refinedBy": {
+                    "id": "/target/THDKKorZfrP/selector/textQuote/rD0DX5lGZCQ",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "the Social Sciences and Humanities Research Council of Canada",
+                    "prefix": " She calls for a shift in perspective at disciplinary and institutional levels to match the current goals of funding organizations such as",
+                    "suffix": "(SSHRC)"
+                }
+            },
+            {
+                "id": "/target/THDKKorZfrP/selector/css/ukJXUCJsWf7",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/K5U0Ys2BtF3]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/150876296",
+        "type": "crm:E74_Group",
+        "label": "Social Sciences and Humanities Research Council of Canada",
+        "description": "Conseil de recherches en sciences humaines du Canada"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/X2aQhh0aDdu">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/X2aQhh0aDdu",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-15T14:52:51.409Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/5El7XcyJdHH",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/5El7XcyJdHH/selector/textPosition/RoCQ4Bjxj8I",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 67590,
+                "end": 67594,
+                "refinedBy": {
+                    "id": "/target/5El7XcyJdHH/selector/textQuote/9TGOhq9ZIeF",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Kent",
+                    "prefix": "\n                        \n                    \n                \n                \n                    Works Cited\n                    \n                        Beck,",
+                    "suffix": " with Cynthia Andres"
+                }
+            },
+            {
+                "id": "/target/5El7XcyJdHH/selector/css/w0vgMBS7G73",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/X2aQhh0aDdu]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/39529441",
+        "type": "crm:E21_Person",
+        "label": "Beck, Kent.",
+        "description": "Beck, Kent, 1961-...."
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/KSigvPMQhlh">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/KSigvPMQhlh",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-15T20:00:42.842Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/GLQDUb2gp9X",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/GLQDUb2gp9X/selector/textPosition/j28gFeKCjws",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 67672,
+                "end": 67678,
+                "refinedBy": {
+                    "id": "/target/GLQDUb2gp9X/selector/textQuote/sokZYmlJiMx",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Boston",
+                    "prefix": "",
+                    "suffix": " Addison-Wesley, 2005"
+                }
+            },
+            {
+                "id": "/target/GLQDUb2gp9X/selector/css/TLZUwKduNCw",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/ACxpuWO1pvZ]"
+            },
+            {
+                "id": "/target/GLQDUb2gp9X/selector/css/1lBGwS58Wfe",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/KSigvPMQhlh]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://sws.geonames.org/4930956",
+        "type": "crm:E53_Place",
+        "label": "Boston",
+        "description": "Massachusetts, Suffolk County, US"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/bsPpV3jvpXH">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/bsPpV3jvpXH",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-15T19:59:57.386Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/GI78rKPMNtx",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/GI78rKPMNtx/selector/textPosition/v4WfnlVQBTt",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 67680,
+                "end": 67694,
+                "refinedBy": {
+                    "id": "/target/GI78rKPMNtx/selector/textQuote/3o5TentmZDw",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Addison-Wesley",
+                    "prefix": " Boston:",
+                    "suffix": " 2005"
+                }
+            },
+            {
+                "id": "/target/GI78rKPMNtx/selector/css/IWIgsHekBvE",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/bsPpV3jvpXH]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/122588708",
+        "type": "crm:E74_Group",
+        "label": "Addison-Wesley (1942-1999).",
+        "description": "Addison-Wesley Publishing Company"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/y3ulJdG8syZ">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/y3ulJdG8syZ",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-15T20:01:02.605Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/IoxZBdJL0Jg",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/IoxZBdJL0Jg/selector/textPosition/2zG3JPprAgt",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 68231,
+                "end": 68258,
+                "refinedBy": {
+                    "id": "/target/IoxZBdJL0Jg/selector/textQuote/ROxmTsWjMhx",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "University of Alberta Press",
+                    "prefix": " Edmonton:",
+                    "suffix": " 2011"
+                }
+            },
+            {
+                "id": "/target/IoxZBdJL0Jg/selector/css/UzVUxYDrDgd",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/y3ulJdG8syZ]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/311351545",
+        "type": "crm:E74_Group",
+        "label": "University of Alberta Press."
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/a3rzB6SBurT">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/a3rzB6SBurT",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-15T14:51:53.412Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/4585IllSgvV",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/4585IllSgvV/selector/textPosition/xjg5nA6pMqt",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 68304,
+                "end": 68307,
+                "refinedBy": {
+                    "id": "/target/4585IllSgvV/selector/textQuote/5JX0rUQcWJN",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Rey",
+                    "prefix": "\n                        Chow,",
+                    "suffix": "\n                                An Addiction from Which We Never Get Free"
+                }
+            },
+            {
+                "id": "/target/4585IllSgvV/selector/css/PPDu5xzpiB9",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/a3rzB6SBurT]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/27220733",
+        "type": "crm:E21_Person",
+        "label": "Chow, Rey, 1957-....",
+        "description": "Chow, Rey"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/pkwOCOhuOeu">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/pkwOCOhuOeu",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-15T20:01:51.939Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/OemYxIuXN4G",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/OemYxIuXN4G/selector/textPosition/LXUVf16TQpE",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 68567,
+                "end": 68581,
+                "refinedBy": {
+                    "id": "/target/OemYxIuXN4G/selector/textQuote/d9Sd9yiNXNf",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "O’Reilly Media",
+                    "prefix": " Sebastopol, CA:",
+                    "suffix": " 2003"
+                }
+            },
+            {
+                "id": "/target/OemYxIuXN4G/selector/css/tC7XsTVXWSr",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/pkwOCOhuOeu]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/311353085",
+        "type": "crm:E74_Group",
+        "label": "O'reilly Media",
+        "description": "O'Reilly (Firm)"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/tDQm7g4544z">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/tDQm7g4544z",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-15T14:51:38.806Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/ZDBSmH5lAB9",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/ZDBSmH5lAB9/selector/textPosition/3O6MfGXh4ac",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 68982,
+                "end": 68986,
+                "refinedBy": {
+                    "id": "/target/ZDBSmH5lAB9/selector/textQuote/Gu3yT5V00Ir",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Lisa",
+                    "prefix": "\n                        Ede,",
+                    "suffix": " and Andrea J"
+                }
+            },
+            {
+                "id": "/target/ZDBSmH5lAB9/selector/css/FFyN2xymZe6",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/tDQm7g4544z]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/108564398",
+        "type": "crm:E21_Person",
+        "label": "Ede, Lisa S., 1947-2021",
+        "description": "Ede, Lisa S., 1947-"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/7ku5r94Xe5l">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/7ku5r94Xe5l",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-15T14:49:32.157Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/ikrTrHUjoUj",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/ikrTrHUjoUj/selector/textPosition/VwMfDWBfdfU",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 68992,
+                "end": 69010,
+                "refinedBy": {
+                    "id": "/target/ikrTrHUjoUj/selector/textQuote/L36QxrFChhr",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Andrea J. Lunsford",
+                    "prefix": "\n                        Ede, Lisa, and",
+                    "suffix": " Collaboration and the Concepts of Authorship"
+                }
+            },
+            {
+                "id": "/target/ikrTrHUjoUj/selector/css/Piz70xuDtib",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/7ku5r94Xe5l]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/39473673",
+        "type": "crm:E21_Person",
+        "label": "Lunsford, Andrea A., 1942-....",
+        "description": "Lunsford, Andrea A."
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/YFaem6aaf4p">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/YFaem6aaf4p",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-15T14:48:18.445Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/qWney1LoBWy",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/qWney1LoBWy/selector/textPosition/ubvQ0MnzvkF",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 69445,
+                "end": 69450,
+                "refinedBy": {
+                    "id": "/target/qWney1LoBWy/selector/textQuote/FqTKX9RuOYI",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Linda",
+                    "prefix": "\n                        Hutcheon,",
+                    "suffix": " and Michael Hutcheon"
+                }
+            },
+            {
+                "id": "/target/qWney1LoBWy/selector/css/3hs6X781YyO",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/YFaem6aaf4p]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/101807260",
+        "type": "crm:E21_Person",
+        "label": "Hutcheon, Linda, 1947-....",
+        "description": "Hutcheon, Linda"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/gBD8rdxS5HB">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/gBD8rdxS5HB",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-15T14:47:38.215Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/lm8Ryw5CAXS",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/lm8Ryw5CAXS/selector/textPosition/7sw4GuFm9VX",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 69866,
+                "end": 69873,
+                "refinedBy": {
+                    "id": "/target/lm8Ryw5CAXS/selector/textQuote/BQqiz0EYecD",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "McCarty",
+                    "prefix": "\n                       ",
+                    "suffix": " Willard"
+                }
+            },
+            {
+                "id": "/target/lm8Ryw5CAXS/selector/css/gAqLg7pA9wn",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/gBD8rdxS5HB]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/119002646",
+        "type": "crm:E21_Person",
+        "label": "McCarty, Willard, 1945-....",
+        "description": "McCarty, Willard"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/GokxRrAAuRz">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/GokxRrAAuRz",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-15T14:46:36.238Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/A5aGABaRrX1",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/A5aGABaRrX1/selector/textPosition/EmuR8qHI8Y0",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 70645,
+                "end": 70653,
+                "refinedBy": {
+                    "id": "/target/A5aGABaRrX1/selector/textQuote/ikVdBDOygvR",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Jessica.",
+                    "prefix": "\n                        Schagerl,",
+                    "suffix": "“Taking a Place at the Table"
+                }
+            },
+            {
+                "id": "/target/A5aGABaRrX1/selector/css/4k0nqRUNEME",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/GokxRrAAuRz]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/231694901",
+        "type": "crm:E21_Person",
+        "label": "Schagerl, Jessica, 1975-"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/zIv3OHvoN4C">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/zIv3OHvoN4C",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-15T17:05:52.334Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/jqyh9KdaIwY",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/jqyh9KdaIwY/selector/textPosition/QkNkyQLLn2e",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 70789,
+                "end": 70807,
+                "refinedBy": {
+                    "id": "/target/jqyh9KdaIwY/selector/textQuote/3oZ6kailNAW",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Ed. Daniel Coleman",
+                    "prefix": "",
+                    "suffix": "and Smaro Kamboureli"
+                }
+            },
+            {
+                "id": "/target/jqyh9KdaIwY/selector/css/qmXqWRTzbvj",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/zIv3OHvoN4C]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/24827953",
+        "type": "crm:E21_Person",
+        "label": "Coleman, Daniel, 1961-",
+        "description": "Coleman, Daniel"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/GcnqP7WyLea">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/GcnqP7WyLea",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-15T14:46:47.134Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/RBDVIbTAPCt",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/RBDVIbTAPCt/selector/textPosition/wocWrbS7e18",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 70916,
+                "end": 70921,
+                "refinedBy": {
+                    "id": "/target/RBDVIbTAPCt/selector/textQuote/YpwBkNLCf7C",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Lynne",
+                    "prefix": "\n                        Siemens,",
+                    "suffix": " \n                                It’s a Team If You Use Reply All\n                                : An Exploration of Research Teams in Digital Humanities Environments"
+                }
+            },
+            {
+                "id": "/target/RBDVIbTAPCt/selector/css/s8zBlGs5uRH",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/GcnqP7WyLea]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/542159474159427661062",
+        "type": "crm:E21_Person",
+        "label": "Siemens, Lynne"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/bX7MxQnPcv0">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/bX7MxQnPcv0",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-15T14:46:57.102Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/WXfEgo7yWP7",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/WXfEgo7yWP7/selector/textPosition/XAdHT9NxlqX",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 71171,
+                "end": 71178,
+                "refinedBy": {
+                    "id": "/target/WXfEgo7yWP7/selector/textQuote/N4CwT2P5NhP",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Trimbur",
+                    "prefix": "\n                       ",
+                    "suffix": " John"
+                }
+            },
+            {
+                "id": "/target/WXfEgo7yWP7/selector/css/hjLNnpVtFaz",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/bX7MxQnPcv0]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/55776530",
+        "type": "crm:E21_Person",
+        "label": "Trimbur, John."
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/I2PaWb4331d">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/I2PaWb4331d",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-15T20:18:57.077Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/nq7XdYEq8hA",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/nq7XdYEq8hA/selector/textPosition/hYUV0oqA7nz",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 68823,
+                "end": 68832,
+                "refinedBy": {
+                    "id": "/target/nq7XdYEq8hA/selector/textQuote/1aPiYZQE4Tn",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Routledge",
+                    "prefix": " New York:",
+                    "suffix": " 2008"
+                }
+            },
+            {
+                "id": "/target/nq7XdYEq8hA/selector/css/JkLIfu98Srd",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/I2PaWb4331d]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/146326081",
+        "type": "crm:E74_Group",
+        "label": "Routledge",
+        "description": "George Routledge and Sons."
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/RSLvM9mUl40">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/RSLvM9mUl40",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-15T20:20:43.066Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/GmuOONSq4SQ",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/GmuOONSq4SQ/selector/textPosition/9IhrB28Vyog",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 70279,
+                "end": 70288,
+                "refinedBy": {
+                    "id": "/target/GmuOONSq4SQ/selector/textQuote/5szbDfqF8tf",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Routledge",
+                    "prefix": " New York:",
+                    "suffix": " 1992"
+                }
+            },
+            {
+                "id": "/target/GmuOONSq4SQ/selector/css/FmQme0RuynS",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/RSLvM9mUl40]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/146326081",
+        "type": "crm:E74_Group",
+        "label": "Routledge",
+        "description": "George Routledge and Sons."
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/yKUV9EQjJIe">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/yKUV9EQjJIe",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-15T20:16:56.736Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/2sX5EFIv9VF",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/2sX5EFIv9VF/selector/textPosition/XNlIRU9oZVm",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 68915,
+                "end": 68945,
+                "refinedBy": {
+                    "id": "/target/2sX5EFIv9VF/selector/textQuote/IA3TPpKoFkY",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Johns Hopkins University Press",
+                    "prefix": " Baltimore:",
+                    "suffix": " 1997"
+                }
+            },
+            {
+                "id": "/target/2sX5EFIv9VF/selector/css/KZ2A1HrxgCP",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/yKUV9EQjJIe]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/157408888",
+        "type": "crm:E74_Group",
+        "label": "Johns Hopkins University. Press",
+        "description": "Johns Hopkins University Press American scholarly publisher"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/jxk9gMccvIB">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/jxk9gMccvIB",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-15T20:20:31.262Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/njCuno7i8v9",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/njCuno7i8v9/selector/textPosition/ftwEMPhJ5Qs",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 69919,
+                "end": 69937,
+                "refinedBy": {
+                    "id": "/target/njCuno7i8v9/selector/textQuote/kMhvEuqpygp",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Palgrave Macmillan",
+                    "prefix": " Basingstoke:",
+                    "suffix": " 2005"
+                }
+            },
+            {
+                "id": "/target/njCuno7i8v9/selector/css/9Ji2ovK3UO1",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/jxk9gMccvIB]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/315532896",
+        "type": "crm:E74_Group",
+        "label": "Palgrave Macmillan",
+        "description": "Palgrave Macmillan (2001-2015)."
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/b1L2lwQzK2d">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/b1L2lwQzK2d",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-15T20:20:59.864Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/6MwN97TJDhA",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/6MwN97TJDhA/selector/textPosition/SbswjPRSgIk",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 70592,
+                "end": 70595,
+                "refinedBy": {
+                    "id": "/target/6MwN97TJDhA/selector/textQuote/xt5LUDUa7yf",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "ACM",
+                    "prefix": " New York:",
+                    "suffix": " 2008"
+                }
+            },
+            {
+                "id": "/target/6MwN97TJDhA/selector/css/brkcrgu9d4A",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/b1L2lwQzK2d]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/986176725935024980000",
+        "type": "crm:E74_Group",
+        "label": "Association for computing machinery",
+        "description": "Association for Computing Machinery (New York)"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/CIITWYCN7fk">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/CIITWYCN7fk",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-16T14:09:10.637Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/rg5vETAcpfQ",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/rg5vETAcpfQ/selector/textPosition/kjH7uifYI0I",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 68813,
+                "end": 68821,
+                "refinedBy": {
+                    "id": "/target/rg5vETAcpfQ/selector/textQuote/w1FDYhZttdl",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "New York",
+                    "prefix": "",
+                    "suffix": " Routledge, 2008"
+                }
+            },
+            {
+                "id": "/target/rg5vETAcpfQ/selector/css/FplYjSGEcgp",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/CIITWYCN7fk]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://www.geonames.org/5128638/new-york.html",
+        "label": "New York",
+        "type": "crm:E53_Place",
+        "entityType": "crm:E53_Place"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/yaCuGDOiS8g">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/yaCuGDOiS8g",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-16T14:12:25.246Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/xldZHRKaCQ9",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/xldZHRKaCQ9/selector/textPosition/7VpdJS79D34",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 68904,
+                "end": 68913,
+                "refinedBy": {
+                    "id": "/target/xldZHRKaCQ9/selector/textQuote/OaYYa9zhEOG",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Baltimore",
+                    "prefix": "",
+                    "suffix": " Johns Hopkins University Press, 1997"
+                }
+            },
+            {
+                "id": "/target/xldZHRKaCQ9/selector/css/WHTpfbHeCvi",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/yaCuGDOiS8g]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://sws.geonames.org/4347778",
+        "type": "crm:E53_Place",
+        "label": "Baltimore",
+        "description": "Maryland, City of Baltimore, US"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/V3L0P5QKJjx">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/V3L0P5QKJjx",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-16T15:03:09.466Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/gi8RVcTLbgK",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_02_modelling_collaboration_in_digital_humanities_scholarship_newest.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_02_modelling_collaboration_in_digital_humanities_scholarship_newest.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/gi8RVcTLbgK/selector/textPosition/R2JwkJuYxNX",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 51631,
+                "end": 51642,
+                "refinedBy": {
+                    "id": "/target/gi8RVcTLbgK/selector/textQuote/h4WXLF6p5Vx",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Trimbur 609",
+                    "prefix": " The collaborative process created an environment of collective respect for personal and disciplinary differences and evolved a kind of rhetoric of dissensus that permitted, indeed demanded, continued discussion\n                                \n                                   ",
+                    "suffix": "                                "
+                }
+            },
+            {
+                "id": "/target/gi8RVcTLbgK/selector/css/tG10JzOsRvq",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/V3L0P5QKJjx]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/55776530",
+        "type": "crm:E21_Person",
+        "label": "Trimbur, John."
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/3cQvNo4VTo0">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/3cQvNo4VTo0",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:tagging",
+    "created": "2026-06-16T14:27:00.110Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/h8b8qbKCmeB",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_02_modelling_collaboration_in_digital_humanities_scholarship_newest.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_02_modelling_collaboration_in_digital_humanities_scholarship_newest.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/h8b8qbKCmeB/selector/textPosition/yfINMMYPgA2",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 55260,
+                "end": 55268,
+                "refinedBy": {
+                    "id": "/target/h8b8qbKCmeB/selector/textQuote/lDXUpfSAxot",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Canadian",
+                    "prefix": " In collaboration with the University of Victoria’s Digital Humanities Summer Institute, it provides training in the digital humanities; through its partnership with Trent University’s Public Texts program, it offers courses in the theory and practice of editing; and through funding provided by a SSHRC Strategic Knowledge Cluster grant, it offers funding, including postdoctoral fellowships, to students who choose to edit",
+                    "suffix": "texts"
+                }
+            },
+            {
+                "id": "/target/h8b8qbKCmeB/selector/css/Raq7xLxyNQ9",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/3cQvNo4VTo0]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://vocab.getty.edu/aat/300107962",
+        "type": "crm:E28_Conceptual_Object",
+        "label": "Canadian",
+        "description": ""
+    },
+    "P2_has_type": [
+        "oa:tagging"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/Zz2U3uQQOxs">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/Zz2U3uQQOxs",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-16T14:20:18.891Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/qmTlNFNsOC7",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_02_modelling_collaboration_in_digital_humanities_scholarship_newest.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_02_modelling_collaboration_in_digital_humanities_scholarship_newest.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/qmTlNFNsOC7/selector/textPosition/EFi1Nj4IPDX",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 68551,
+                "end": 68561,
+                "refinedBy": {
+                    "id": "/target/qmTlNFNsOC7/selector/textQuote/w2wqiz5MS0w",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Sebastopol",
+                    "prefix": "",
+                    "suffix": " CA: O’Reilly Media, 2003"
+                }
+            },
+            {
+                "id": "/target/qmTlNFNsOC7/selector/css/RywHkFmb1bo",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/Zz2U3uQQOxs]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://sws.geonames.org/5394165",
+        "type": "crm:E53_Place",
+        "label": "Sebastopol",
+        "description": "California, Sonoma County, US"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/oA3vBbKlPB9">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/oA3vBbKlPB9",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-16T14:20:08.662Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/TPLm9etsv3T",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_02_modelling_collaboration_in_digital_humanities_scholarship_newest.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_02_modelling_collaboration_in_digital_humanities_scholarship_newest.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/TPLm9etsv3T/selector/textPosition/0LFbfGnt0of",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 68563,
+                "end": 68565,
+                "refinedBy": {
+                    "id": "/target/TPLm9etsv3T/selector/textQuote/AIOqj9WmWox",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "CA",
+                    "prefix": " Sebastopol,",
+                    "suffix": " O’Reilly Media, 2003"
+                }
+            },
+            {
+                "id": "/target/TPLm9etsv3T/selector/css/AMWu15PyCQF",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/oA3vBbKlPB9]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://sws.geonames.org/5332921",
+        "type": "crm:E53_Place",
+        "label": "California",
+        "description": "California, US"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/mkSe91VOM3j">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/mkSe91VOM3j",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-16T14:31:34.809Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/fN1dkWiECKg",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_02_modelling_collaboration_in_digital_humanities_scholarship_newest.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_02_modelling_collaboration_in_digital_humanities_scholarship_newest.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/fN1dkWiECKg/selector/textPosition/gnRi1gK4Vwk",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 69821,
+                "end": 69834,
+                "refinedBy": {
+                    "id": "/target/fN1dkWiECKg/selector/textQuote/54f5E4URngL",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Prentice-Hall",
+                    "prefix": " Boston:",
+                    "suffix": " 2009"
+                }
+            },
+            {
+                "id": "/target/fN1dkWiECKg/selector/css/eAgEZ5LHgAk",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/mkSe91VOM3j]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/268796834",
+        "type": "crm:E74_Group",
+        "label": "Prentice-Hall, inc.",
+        "description": "Prentice-Hall"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/wN6RdDxSCD0">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/wN6RdDxSCD0",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-16T14:21:19.809Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/h6rvRfhvKFr",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_02_modelling_collaboration_in_digital_humanities_scholarship_newest.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_02_modelling_collaboration_in_digital_humanities_scholarship_newest.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/h6rvRfhvKFr/selector/textPosition/JTqhcfvSDK4",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 69906,
+                "end": 69917,
+                "refinedBy": {
+                    "id": "/target/h6rvRfhvKFr/selector/textQuote/wiEYN0hoiNI",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Basingstoke",
+                    "prefix": "",
+                    "suffix": " Palgrave Macmillan, 2005"
+                }
+            },
+            {
+                "id": "/target/h6rvRfhvKFr/selector/css/mW2KpJH4jb7",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/wN6RdDxSCD0]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://sws.geonames.org/2656192",
+        "type": "crm:E53_Place",
+        "label": "Basingstoke",
+        "description": "England, Hampshire, GB"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/lua3CWJdgGa">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/lua3CWJdgGa",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-17T15:50:49.072Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/dEGZb4MpJvU",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/dEGZb4MpJvU/selector/textPosition/jTaYntUM5M2",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 70830,
+                "end": 70838,
+                "refinedBy": {
+                    "id": "/target/dEGZb4MpJvU/selector/textQuote/MedaWue1RF9",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Edmonton",
+                    "prefix": "",
+                    "suffix": " University of Alberta Press, 2011"
+                }
+            },
+            {
+                "id": "/target/dEGZb4MpJvU/selector/css/OkfVkwUpvAj",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/lua3CWJdgGa]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://sws.geonames.org/5946768",
+        "type": "crm:E53_Place",
+        "label": "Edmonton",
+        "description": "Alberta, CA"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/7R4WAMusMDc">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/7R4WAMusMDc",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-17T15:49:51.144Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/1vibD8dnFkq",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "it",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Modelling Collaboration in Digital Humanities Scholarship"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/1vibD8dnFkq/selector/textPosition/nZH0Wt97O2A",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 68628,
+                "end": 68637,
+                "refinedBy": {
+                    "id": "/target/1vibD8dnFkq/selector/textQuote/g6Sts52UGQ8",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Wikipedia",
+                    "prefix": "",
+                    "suffix": " The Free Encyclopedia"
+                }
+            },
+            {
+                "id": "/target/1vibD8dnFkq/selector/css/pgEiIJUk3AT",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/7R4WAMusMDc]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/220417855",
+        "type": "crm:E74_Group",
+        "label": "Wikipédia",
+        "description": "Wikipedie (projekt)"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
 			
 </rdf:RDF>
+		
+
+		
+
+		
+
+		
+
+		
+
 		
 
 		
@@ -16258,7 +19217,17 @@
 	
 	
 	
+	
+	
+	
+	
+	
 	</standOff>
+
+
+
+
+
 
 
 
