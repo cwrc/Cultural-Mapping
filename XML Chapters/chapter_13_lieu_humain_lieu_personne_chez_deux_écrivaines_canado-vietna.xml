@@ -539,7 +539,7 @@
                                     </ref>
                                 </ref>
                             </ref>
-                            <note xml:id="n106" place="end">Voir le site de la terminologie du Bureau de la traduction du gouvernement fédéral <hi rend="small-caps">termium</hi> sous <q xml:lang="en-CA">evergreen document</q> les traductions proposées.</note>.</ref>
+                            <note xml:id="n106" place="end">Voir le site de la terminologie du <orgName key="Canada. Bureau de la traduction" ref="http://viaf.org/viaf/141381438" ana="webannotation:http://temp.lincsproject.ca/TzSqx7tztfc">Bureau de la traduction du gouvernement fédéral</orgName> <hi rend="small-caps">termium</hi> sous <q xml:lang="en-CA">evergreen document</q> les traductions proposées.</note>.</ref>
                     </p>
                     <p xml:id="p1476">
                         <ref target="#genre_novel">
@@ -690,7 +690,7 @@
                                 <bibl>Thúy 37</bibl>
                             </note>
                         </ref>. <ref target="#history">Le débarquement en <placeName key="Malaysia" ref="https://sws.geonames.org/1733045" ana="webannotation:http://temp.lincsproject.ca/z02b8MxqB0l" type="real" cert="high" precision="high">Malaisie</placeName> des <hi rend="italic" xml:lang="en-CA">boat people</hi>
-                        </ref> est rapproché cruellement de l’image de Bo Derek, la pin-up de <title level="j">Playboy</title> : <q>nous avons tous sauté dans l’eau comme lors du déploiement d’une armée. […] Je me souviens de cette image avec la même précision et la même clarté que celle de Bo Derek sortant de l’eau en courant dans son maillot couleur chair</q>
+                        </ref> est rapproché cruellement de l’image de Bo Derek, la pin-up de <title level="j"><orgName key="Playboy enterprises" ref="http://viaf.org/viaf/128660725" ana="webannotation:http://temp.lincsproject.ca/073NDkVzRpE">Playboy</orgName></title> : <q>nous avons tous sauté dans l’eau comme lors du déploiement d’une armée. […] Je me souviens de cette image avec la même précision et la même clarté que celle de Bo Derek sortant de l’eau en courant dans son maillot couleur chair</q>
                         <note place="inline">
                             <bibl>Thúy 106</bibl>
                         </note>. <ref target="#tone_or_style">Lorsque le bateau se désagrège sous l’effet d’un ouragan, c’est un spectacle à l’américaine </ref>:</p>
@@ -779,19 +779,19 @@
                     <listBibl>
                         <bibl xml:lang="en-CA"><placeName key="Davis, Roćio G" ref="http://viaf.org/viaf/15012547" ana="webannotation:http://temp.lincsproject.ca/sWbHhC5vUgh">Davis</placeName>, Rocío G. <title level="m">Transcultural Reinventions: Asian American and Asian Canadian Short-Story Cycles</title>. <placeName key="Toronto" ref="https://www.geonames.org/6167865/toronto.html" ana="webannotation:http://temp.lincsproject.ca/f21YA0hY8an" type="real" cert="high" precision="high">Toronto</placeName>: <hi rend="small-caps">tsar</hi> Publications, 2001.</bibl>
                         <bibl>Duffy, Dan. <title level="a" xml:lang="en-CA">Beyond the National Tradition: Thuong Vuong-Riddick’s <title level="m">Two Shores / Deux rives</title>
-                            </title>. <title level="m">American Babel: Literatures of the United States from Abnaki to Zuni</title>. Dir. Marc Shell. Cambridge, MA: Harvard University Press, 2002. 322-42.</bibl>
+                            </title>. <title level="m">American Babel: Literatures of the United States from Abnaki to Zuni</title>. Dir. Marc Shell. <placeName key="Cambridge" ref="https://www.geonames.org/4931972/cambridge.html" ana="webannotation:http://temp.lincsproject.ca/WRjmhMyKjWk" type="real" cert="high" precision="high">Cambridge</placeName>, <orgName key="Harvard University Press" ref="http://viaf.org/viaf/139568154" ana="webannotation:http://temp.lincsproject.ca/mgF0caRciNG" type="real" cert="high">MA: Harvard University Press</orgName>, 2002. 322-42.</bibl>
                         <bibl>Duras, Marguerite. <title level="m">L’Amant</title>. <placeName key="Paris" ref="https://sws.geonames.org/2988507" ana="webannotation:http://temp.lincsproject.ca/nbB5BU5YHaF">Paris</placeName>: Les éditions de Minuit, 1984.</bibl>
                         <bibl>
                             <hi xml:lang="vi-VN">Dương, Thu Hương</hi>. <title level="m" xml:lang="vi-VN">Hành Trình Ngày Thơ Ấu</title>. 1985. <title level="m">Itinéraire d’enfance</title>. Trad. Phuong Dang Tran. <placeName key="Paris" ref="https://sws.geonames.org/2988507" ana="webannotation:http://temp.lincsproject.ca/P302FBERMjO">Paris</placeName>: Sabine Wespieser Éditeur, 2007.</bibl>
-                        <bibl>. <title level="m" xml:lang="vi-VN">Những thiên đường mú</title>. <hi xml:lang="en-CA"><placeName key="Hanoi" ref="https://sws.geonames.org/1581129" ana="webannotation:http://temp.lincsproject.ca/IJ2jnuSdII6">Hanoi</placeName>: The Women’s Publishing House</hi>, 1988. <title level="m">Les Paradis Aveugles</title>. Trad. Des Femmes. <placeName key="Paris" ref="https://sws.geonames.org/2988507" ana="webannotation:http://temp.lincsproject.ca/el05EvlQIeX">Paris</placeName>: Éditions Des Femmes, 1991. <title level="m" xml:lang="en-CA">Paradise of the Blind</title>. Trans. Phan Huy Duong and Nina McPherson. New York: William Morrow and Company, 1993.</bibl>
+                        <bibl>. <title level="m" xml:lang="vi-VN">Những thiên đường mú</title>. <hi xml:lang="en-CA"><placeName key="Hanoi" ref="https://sws.geonames.org/1581129" ana="webannotation:http://temp.lincsproject.ca/IJ2jnuSdII6">Hanoi</placeName>: The Women’s Publishing House</hi>, 1988. <title level="m">Les Paradis Aveugles</title>. Trad. Des Femmes. <placeName key="Paris" ref="https://sws.geonames.org/2988507" ana="webannotation:http://temp.lincsproject.ca/el05EvlQIeX">Paris</placeName>: <orgName key="Des femmes" ref="http://viaf.org/viaf/144378421" ana="webannotation:http://temp.lincsproject.ca/nWzDiS0wATW">Éditions Des Femmes</orgName>, 1991. <title level="m" xml:lang="en-CA">Paradise of the Blind</title>. Trans. Phan Huy Duong and Nina McPherson. <placeName key="New York" ref="https://www.geonames.org/5128581/new-york-city.html" ana="webannotation:http://temp.lincsproject.ca/HXOMqbyw4QC" type="real" cert="high" precision="high">New York</placeName>: William Morrow and Company, 1993.</bibl>
                         <bibl><placeName key="Kellett-Betsos, Kathleen L. (Kathleen Louise), 1959-" ref="http://viaf.org/viaf/105747269" ana="webannotation:http://temp.lincsproject.ca/9imBDXpJwzF" type="real">Kellett-Betsos</placeName>, Kathleen. <title level="a">
                                 <title level="m">Two Shores / Deux rives</title> de Thuong Vuong-Riddick : Errance et ironie</title>. <title level="m">Littérature et culture francophones de <placeName key="British Columbia" ref="https://sws.geonames.org/5909050" ana="webannotation:http://temp.lincsproject.ca/tvgzTmGGi9e">Colombie-Britannique</placeName>: Espaces culturels francophones I</title>. Dir. Guy Poirier, Jacqueline Viswanathan et Grazia Merler. <placeName key="Ottawa" ref="https://www.geonames.org/6094817/ottawa.html" ana="webannotation:http://temp.lincsproject.ca/Z8ezIdZLHbl" type="real" cert="high" precision="high">Ottawa</placeName>: Les Éditions David, 2004. 85-106.</bibl>
                         <bibl>
-                            <author xml:lang="vi-VN"><placeName key="Nguyễn, Phú Phong" ref="http://viaf.org/viaf/2474905" ana="webannotation:http://temp.lincsproject.ca/5GGP7noqHmU" type="real" cert="high">Nguyễn</placeName>, Phú Phong</author>.<title level="m"> Questions de linguistique vietnamienne : Les classificateurs et les déictiques.</title> <placeName key="Paris" ref="https://sws.geonames.org/2988507" ana="webannotation:http://temp.lincsproject.ca/u7uVAbugHzQ">Paris</placeName>: Presses de l’École française d’Extrême-Orient, 1995.</bibl>
-                        <bibl>Paré, François. <title level="m">Les Littératures de l’exiguïté</title>. Hearst: Les Éditions du Nordir, 1992.</bibl>
-                        <bibl>Thúy, Kim. <title level="m">Ru</title>. Longueuil: Les Éditions Libre Expression, 2009.</bibl>
+                            <author xml:lang="vi-VN"><placeName key="Nguyễn, Phú Phong" ref="http://viaf.org/viaf/2474905" ana="webannotation:http://temp.lincsproject.ca/5GGP7noqHmU" type="real" cert="high">Nguyễn</placeName>, Phú Phong</author>.<title level="m"> Questions de linguistique vietnamienne : Les classificateurs et les déictiques.</title> <placeName key="Paris" ref="https://sws.geonames.org/2988507" ana="webannotation:http://temp.lincsproject.ca/u7uVAbugHzQ">Paris</placeName>: <orgName key="École française d'Extrême-Orient" ref="http://viaf.org/viaf/168331514" ana="webannotation:http://temp.lincsproject.ca/FOZNakIuI73">Presses de l’École française d’Extrême-Orient</orgName>, 1995.</bibl>
+                        <bibl>Paré, François. <title level="m">Les Littératures de l’exiguïté</title>. <placeName key="Hearst" ref="https://www.geonames.org/5973108/hearst.html" ana="webannotation:http://temp.lincsproject.ca/8msmKX75FG0">Hearst</placeName>: Les <placeName key="Editions du Nordir" ref="http://viaf.org/viaf/143030270" ana="webannotation:http://temp.lincsproject.ca/NTFL3CO8wYJ">Éditions du Nordir</placeName>, 1992.</bibl>
+                        <bibl>Thúy, Kim. <title level="m">Ru</title>. <placeName key="Longueuil" ref="https://sws.geonames.org/6059891" ana="webannotation:http://temp.lincsproject.ca/04hSnzNDeGi">Longueuil</placeName>: Les <placeName key="Libre expression (Firme)" ref="http://viaf.org/viaf/316743431" ana="webannotation:http://temp.lincsproject.ca/wPcPFRGichi">Éditions Libre Expression</placeName>, 2009.</bibl>
                         <bibl>Vuong-Riddick, Thuong. <title level="m" xml:lang="en-CA">The Evergreen Country: A Memoir of Vietnam</title>. Regina: Hagios Press, 2007.</bibl>
-                        <bibl>. <title level="m">Two Shores / Deux rives: Poems/Poèmes. <placeName key="Vancouver" ref="https://www.geonames.org/6173331/vancouver.html" ana="webannotation:http://temp.lincsproject.ca/fJdkDHxRDGl">Vancouver</placeName></title>: Ronsdale Press, 1995.</bibl>
+                        <bibl>. <title level="m">Two Shores / Deux rives: Poems/Poèmes. <placeName key="Vancouver" ref="https://www.geonames.org/6173331/vancouver.html" ana="webannotation:http://temp.lincsproject.ca/fJdkDHxRDGl">Vancouver</placeName></title>: <orgName key="Ronsdale Press." ref="http://viaf.org/viaf/198148704002036930139" ana="webannotation:http://temp.lincsproject.ca/zAwqDNxg6XL">Ronsdale Press</orgName>, 1995.</bibl>
                     </listBibl>
                 </div>
             </div>
@@ -4877,6 +4877,188 @@
 				
 </rdf:Description>
 				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/mgF0caRciNG">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/mgF0caRciNG",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-18T13:51:06.012Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/1QQF1R1b4sr",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "fr",
+            "P1_is_identified_by": {
+                "id": "/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick et Kim Thúy"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/1QQF1R1b4sr/selector/textPosition/mEkMzeXuMWM",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 37583,
+                "end": 37611,
+                "refinedBy": {
+                    "id": "/target/1QQF1R1b4sr/selector/textQuote/ab8OnqRTorv",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "MA: Harvard University Press",
+                    "prefix": " Cambridge,",
+                    "suffix": " 2002"
+                }
+            },
+            {
+                "id": "/target/1QQF1R1b4sr/selector/css/YbIJbKxWO7L",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/mgF0caRciNG]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/139568154",
+        "type": "crm:E74_Group",
+        "label": "Harvard University Press",
+        "description": "",
+        "P2_has_type": [
+            "edit:modeReal"
+        ]
+    },
+    "P2_has_type": [
+        "oa:identifying",
+        "edit:certaintyHigh"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/nWzDiS0wATW">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/nWzDiS0wATW",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-18T13:50:34.186Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/1Tmi8xNGJld",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "fr",
+            "P1_is_identified_by": {
+                "id": "/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick et Kim Thúy"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/1Tmi8xNGJld/selector/textPosition/IdiNTZksyv4",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 38040,
+                "end": 38059,
+                "refinedBy": {
+                    "id": "/target/1Tmi8xNGJld/selector/textQuote/k3vh2dIpIIf",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Éditions Des Femmes",
+                    "prefix": " Paris:",
+                    "suffix": " 1991"
+                }
+            },
+            {
+                "id": "/target/1Tmi8xNGJld/selector/css/5Ix6QSqhJmC",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/nWzDiS0wATW]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/144378421",
+        "type": "crm:E74_Group",
+        "label": "Des femmes",
+        "description": "Éditions des femmes."
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/9imBDXpJwzF">
 <![CDATA[{
     "@context": [
@@ -5155,9 +5337,916 @@
 }]]>
 				
 </rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/FOZNakIuI73">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/FOZNakIuI73",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-18T13:54:55.315Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/FdX8YkLyii4",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "fr",
+            "P1_is_identified_by": {
+                "id": "/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick et Kim Thúy"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/FdX8YkLyii4/selector/textPosition/WKYMhNJ1NVR",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 38683,
+                "end": 38728,
+                "refinedBy": {
+                    "id": "/target/FdX8YkLyii4/selector/textQuote/aQK0JFjXC6c",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Presses de l’École française d’Extrême-Orient",
+                    "prefix": " Paris:",
+                    "suffix": " 1995"
+                }
+            },
+            {
+                "id": "/target/FdX8YkLyii4/selector/css/ibnmSO4OKpj",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/FOZNakIuI73]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/168331514",
+        "label": "École française d'Extrême-Orient",
+        "type": "crm:E74_Group",
+        "entityType": "crm:E74_Group"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/NTFL3CO8wYJ">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/NTFL3CO8wYJ",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-18T14:02:08.742Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/rNfAdSI3QPi",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "fr",
+            "P1_is_identified_by": {
+                "id": "/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick et Kim Thúy"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/rNfAdSI3QPi/selector/textPosition/xK680sor7eg",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 38820,
+                "end": 38838,
+                "refinedBy": {
+                    "id": "/target/rNfAdSI3QPi/selector/textQuote/5cGdHf7ZCvd",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Éditions du Nordir",
+                    "prefix": " Hearst: Les",
+                    "suffix": " 1992"
+                }
+            },
+            {
+                "id": "/target/rNfAdSI3QPi/selector/css/SzXybyh3fTk",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/NTFL3CO8wYJ]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/143030270",
+        "type": "crm:E74_Group",
+        "label": "Editions du Nordir",
+        "description": "Nordir Éditions"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/zAwqDNxg6XL">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/zAwqDNxg6XL",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-18T14:00:25.885Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/naCsfY8EGdd",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "fr",
+            "P1_is_identified_by": {
+                "id": "/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick et Kim Thúy"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/naCsfY8EGdd/selector/textPosition/MnlzkY3Zkri",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 39128,
+                "end": 39142,
+                "refinedBy": {
+                    "id": "/target/naCsfY8EGdd/selector/textQuote/sv8dPK0VXTh",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Ronsdale Press",
+                    "prefix": " Vancouver:",
+                    "suffix": " 1995"
+                }
+            },
+            {
+                "id": "/target/naCsfY8EGdd/selector/css/cBMRgCJW4oE",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/zAwqDNxg6XL]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/198148704002036930139",
+        "type": "crm:E74_Group",
+        "label": "Ronsdale Press."
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/073NDkVzRpE">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/073NDkVzRpE",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-18T15:50:35.755Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/Wbhuka1IZlF",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_13_lieu_humain_lieu_personne_chez_deux_écrivaines_canado-vietna.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "fr",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_13_lieu_humain_lieu_personne_chez_deux_écrivaines_canado-vietna.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick et Kim Thúy"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/Wbhuka1IZlF/selector/textPosition/zZqg7Tek9zw",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 28842,
+                "end": 28849,
+                "refinedBy": {
+                    "id": "/target/Wbhuka1IZlF/selector/textQuote/WvLzYKZBdqT",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Playboy",
+                    "prefix": " Le débarquement en Malaisie des boat people\n                         est rapproché cruellement de l’image de Bo Derek, la pin-up de",
+                    "suffix": ": nous avons tous sauté dans l’eau comme lors du déploiement d’une armée"
+                }
+            },
+            {
+                "id": "/target/Wbhuka1IZlF/selector/css/6Sp0VrcmKJA",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/073NDkVzRpE]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/128660725",
+        "type": "crm:E74_Group",
+        "label": "Playboy enterprises",
+        "description": "Playboy Enterprises American privately held global media and lifestyle company headquartered in Beverly Hills, California"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/WRjmhMyKjWk">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/WRjmhMyKjWk",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-18T15:13:33.407Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/vrImIkK0Cuc",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_13_lieu_humain_lieu_personne_chez_deux_écrivaines_canado-vietna.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "fr",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_13_lieu_humain_lieu_personne_chez_deux_écrivaines_canado-vietna.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick et Kim Thúy"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/vrImIkK0Cuc/selector/textPosition/cvvUENKtXXj",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 37572,
+                "end": 37581,
+                "refinedBy": {
+                    "id": "/target/vrImIkK0Cuc/selector/textQuote/q9pqqpfPTLC",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Cambridge",
+                    "prefix": "",
+                    "suffix": " MA: Harvard University Press, 2002"
+                }
+            },
+            {
+                "id": "/target/vrImIkK0Cuc/selector/css/TN9ybGzQE8y",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/WRjmhMyKjWk]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://www.geonames.org/4931972/cambridge.html",
+        "label": "Cambridge",
+        "type": "crm:E53_Place",
+        "entityType": "crm:E53_Place",
+        "P2_has_type": [
+            "edit:modeReal"
+        ]
+    },
+    "P2_has_type": [
+        "oa:identifying",
+        "edit:certaintyHigh",
+        "edit:precisionHigh"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/HXOMqbyw4QC">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/HXOMqbyw4QC",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-18T15:10:32.750Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/ZAjnQWIKrqW",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_13_lieu_humain_lieu_personne_chez_deux_écrivaines_canado-vietna.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "fr",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_13_lieu_humain_lieu_personne_chez_deux_écrivaines_canado-vietna.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick et Kim Thúy"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/ZAjnQWIKrqW/selector/textPosition/hY2ibk62W0l",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 38132,
+                "end": 38140,
+                "refinedBy": {
+                    "id": "/target/ZAjnQWIKrqW/selector/textQuote/Oy02qQGhRke",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "New York",
+                    "prefix": "",
+                    "suffix": " William Morrow and Company, 1993"
+                }
+            },
+            {
+                "id": "/target/ZAjnQWIKrqW/selector/css/lbFksiWFGBf",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/HXOMqbyw4QC]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://www.geonames.org/5128581/new-york-city.html",
+        "label": "New York",
+        "type": "crm:E53_Place",
+        "entityType": "crm:E53_Place",
+        "P2_has_type": [
+            "edit:modeReal"
+        ]
+    },
+    "P2_has_type": [
+        "oa:identifying",
+        "edit:certaintyHigh",
+        "edit:precisionHigh"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/8msmKX75FG0">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/8msmKX75FG0",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-18T14:09:42.314Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/jtnc9uiqJod",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_13_lieu_humain_lieu_personne_chez_deux_écrivaines_canado-vietna.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "fr",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_13_lieu_humain_lieu_personne_chez_deux_écrivaines_canado-vietna.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick et Kim Thúy"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/jtnc9uiqJod/selector/textPosition/D07Vc1agZIb",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 38808,
+                "end": 38814,
+                "refinedBy": {
+                    "id": "/target/jtnc9uiqJod/selector/textQuote/qQQdUU2yt55",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Hearst",
+                    "prefix": "",
+                    "suffix": " Les Éditions du Nordir, 1992"
+                }
+            },
+            {
+                "id": "/target/jtnc9uiqJod/selector/css/lopJSzRIA12",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/8msmKX75FG0]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://www.geonames.org/5973108/hearst.html",
+        "label": "Hearst",
+        "type": "crm:E53_Place",
+        "entityType": "crm:E53_Place"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/04hSnzNDeGi">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/04hSnzNDeGi",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-18T15:07:57.545Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/hMVN6A300F3",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_13_lieu_humain_lieu_personne_chez_deux_écrivaines_canado-vietna.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "fr",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_13_lieu_humain_lieu_personne_chez_deux_écrivaines_canado-vietna.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick et Kim Thúy"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/hMVN6A300F3/selector/textPosition/muGAvZA5HAl",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 38885,
+                "end": 38894,
+                "refinedBy": {
+                    "id": "/target/hMVN6A300F3/selector/textQuote/3NTFvTvSwhU",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Longueuil",
+                    "prefix": "",
+                    "suffix": " Les Éditions Libre Expression, 2009"
+                }
+            },
+            {
+                "id": "/target/hMVN6A300F3/selector/css/NqllWyr0UZ3",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/04hSnzNDeGi]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://sws.geonames.org/6059891",
+        "type": "crm:E53_Place",
+        "label": "Longueuil",
+        "description": "Quebec, Montérégie, CA"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/wPcPFRGichi">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/wPcPFRGichi",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-18T15:09:39.837Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/PmB58vo7WRy",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_13_lieu_humain_lieu_personne_chez_deux_écrivaines_canado-vietna.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "fr",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/doyleym15/Cultural-Mapping/main/chapter_13_lieu_humain_lieu_personne_chez_deux_écrivaines_canado-vietna.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick et Kim Thúy"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/PmB58vo7WRy/selector/textPosition/cdZu44UJa6Z",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 38900,
+                "end": 38925,
+                "refinedBy": {
+                    "id": "/target/PmB58vo7WRy/selector/textQuote/MLY37Yc1Qwb",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Éditions Libre Expression",
+                    "prefix": " Longueuil: Les",
+                    "suffix": " 2009"
+                }
+            },
+            {
+                "id": "/target/PmB58vo7WRy/selector/css/qufYUr7yIus",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/wPcPFRGichi]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/316743431",
+        "type": "crm:E74_Group",
+        "label": "Libre expression (Firme)",
+        "description": "Éditions Libre Expression."
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/TzSqx7tztfc">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/TzSqx7tztfc",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-18T18:13:43.272Z",
+    "creator": {
+        "id": "https://github.com/doyleym15",
+        "type": "crm:E21_Person",
+        "name": "Megan Doyley"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/BVdwRYPM24h",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "/title",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "fr",
+            "P1_is_identified_by": {
+                "id": "/title/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Lieu humain / lieu personne chez deux écrivaines canado-vietnamiennes, Thuong Vuong-Riddick et Kim Thúy"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/BVdwRYPM24h/selector/textPosition/C14a6On9arM",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 14298,
+                "end": 14345,
+                "refinedBy": {
+                    "id": "/target/BVdwRYPM24h/selector/textQuote/t8en76AKpTV",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Bureau de la traduction du gouvernement fédéral",
+                    "prefix": " \n                                \n                                    Suit une métaphore filée assez banale, celle du travail souterrain et sismique de la formation de la personnalité dont le paradoxe est qu’il n’aboutit en définitive à rien qu’à d’autres mouvances evergreen — jamais finies, exigeant une perpétuelle mise à jour — comme l’est un evergreen paper dans le domaine des écrits administratifs : un document à caractère évolutif, en évolution constante ou même, tout simplement, un document vivant\n                                    \n                                \n                            \n                            Voir le site de la terminologie du",
+                    "suffix": "termium sous evergreen document les traductions proposées"
+                }
+            },
+            {
+                "id": "/target/BVdwRYPM24h/selector/css/b5KyovPxQ3C",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/TzSqx7tztfc]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/141381438",
+        "type": "crm:E74_Group",
+        "label": "Canada. Bureau de la traduction",
+        "description": "Canada. Translation Bureau"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
 			
 </rdf:RDF>
 		
+
+		
+
+		
 </xenoData>
+	
+	
 	</standOff>
+
+
 </TEI>
