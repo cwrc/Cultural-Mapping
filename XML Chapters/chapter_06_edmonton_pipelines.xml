@@ -528,8 +528,8 @@
                     <head>Digital Cartographies</head>
                     <p xml:id="p1270">
                         <ref target="#technology">
-                            <ref target="#spatiality">Of course, there are already many web-based cartographies that take cities as object and inspiration. Hitotoki, mentioned above, offers short place-based narratives from <placeName key="Tokyo" ref="https://sws.geonames.org/1850147" ana="webannotation:http://temp.lincsproject.ca/HEiZeFZ4k4V">Tokyo</placeName>, <placeName key="New York City" ref="https://sws.geonames.org/5128581" ana="webannotation:http://temp.lincsproject.ca/OjgrgXYFHuh">New York</placeName>, <placeName key="Shanghai" ref="https://sws.geonames.org/1796236" ana="webannotation:http://temp.lincsproject.ca/rb6pkpFx3WA">Shanghai</placeName>, <placeName key="Paris" ref="https://sws.geonames.org/2988507" ana="webannotation:http://temp.lincsproject.ca/li02975qs8J">Paris</placeName>, and Sofia. The site has recently become Twitter-based, but in its <q>classic</q> form Hitotoki asserts the importance of place by insisting that even quotidian stories take place somewhere, and imbues that somewhere with significance. In a different vein, sound maps such as London’s Caledonian Road project demonstrate new ways of collecting and publicizing popular history <note place="inline">
-                                    <bibl>Dein and Panetta</bibl>
+                            <ref target="#spatiality">Of course, there are already many web-based cartographies that take cities as object and inspiration. Hitotoki, mentioned above, offers short place-based narratives from <placeName key="Tokyo" ref="https://sws.geonames.org/1850147" ana="webannotation:http://temp.lincsproject.ca/HEiZeFZ4k4V">Tokyo</placeName>, <placeName key="New York City" ref="https://sws.geonames.org/5128581" ana="webannotation:http://temp.lincsproject.ca/OjgrgXYFHuh">New York</placeName>, <placeName key="Shanghai" ref="https://sws.geonames.org/1796236" ana="webannotation:http://temp.lincsproject.ca/rb6pkpFx3WA">Shanghai</placeName>, <placeName key="Paris" ref="https://sws.geonames.org/2988507" ana="webannotation:http://temp.lincsproject.ca/li02975qs8J">Paris</placeName>, and <placeName key="Sofia" ref="https://sws.geonames.org/727012" ana="webannotation:http://temp.lincsproject.ca/zQuTrIQ8flq">Sofia</placeName>. The site has recently become <orgName key="Twitter (Firm)" ref="http://viaf.org/viaf/38145970073232250833" ana="webannotation:http://temp.lincsproject.ca/q5Y4BAdZJYz">Twitter</orgName>-based, but in its <q>classic</q> form Hitotoki asserts the importance of place by insisting that even quotidian stories take place somewhere, and imbues that somewhere with significance. In a different vein, sound maps such as London’s <placeName key="Caledonian Road Apartments" ref="https://sws.geonames.org/10115056" ana="webannotation:http://temp.lincsproject.ca/XWsXhLAUdCo">Caledonian Road</placeName> project demonstrate new ways of collecting and publicizing popular history <note place="inline">
+                                    <bibl><orgName key="Dein, Alan" ref="http://viaf.org/viaf/51086449" ana="webannotation:http://temp.lincsproject.ca/sq4abDIObhZ">Dein</orgName> and <orgName key="Panetta, Francesca" ref="https://www.wikidata.org/wiki/Q87065570" ana="webannotation:http://temp.lincsproject.ca/MZ3JeLEwnyq">Panetta</orgName></bibl>
                                 </note>.<note xml:id="n72" place="end">
                                     <ref target="#non-book_media">This map stands in for a growing number of sound maps, to say nothing of the less crafted, more encyclopedic acoustic city maps like those of <placeName key="Toronto" ref="https://sws.geonames.org/6167865.  " ana="webannotation:http://temp.lincsproject.ca/8V44ljtuSL1">Toronto</placeName></ref>
                                     <bibl>
@@ -542,7 +542,7 @@
                                 <ref target="#non-book_media">
                                     <ref target="#spatiality">
                                         <ref target="#history">
-                                            <ref target="#technology">The Cleveland Historical Map similarly spatializes local history. Finally, the mapping projects that <persName key="Nold, Christian 1976-" ref="http://viaf.org/viaf/6732166007106875590006" ana="webannotation:http://temp.lincsproject.ca/1UL0N6kNvsc">Christian Nold</persName> has initiated are particularly compelling for the way they map urban intensities (the San Francisco Emotion Map) or their opposites (the Stockport Emotion Map). <persName key="Nold, Christian 1976-" ref="http://viaf.org/viaf/6732166007106875590006" ana="webannotation:http://temp.lincsproject.ca/oIbFic2ydTQ">Nold</persName> equips community mappers with an electronic device that measures physical responses and then he sends them into city spaces. After he amasses responses, he can map the city sites that evoke particularly strong physical responses. <persName key="Nold, Christian 1976-" ref="http://viaf.org/viaf/6732166007106875590006" ana="webannotation:http://temp.lincsproject.ca/GdVhZZ7dNem">Nold</persName>’s work also has evolved into community-based mapping, and, as in the case of Stockport, helps citizens understand how and why the city might fail to elicit intensity.</ref>
+                                            <ref target="#technology">The Cleveland Historical Map similarly spatializes local history. Finally, the mapping projects that <persName key="Nold, Christian 1976-" ref="http://viaf.org/viaf/6732166007106875590006" ana="webannotation:http://temp.lincsproject.ca/1UL0N6kNvsc">Christian Nold</persName> has initiated are particularly compelling for the way they map urban intensities (the San Francisco Emotion Map) or their opposites (the Stockport Emotion Map). <persName key="Nold, Christian 1976-" ref="http://viaf.org/viaf/6732166007106875590006" ana="webannotation:http://temp.lincsproject.ca/oIbFic2ydTQ">Nold</persName> equips community mappers with an electronic device that measures physical responses and then he sends them into city spaces. After he amasses responses, he can map the city sites that evoke particularly strong physical responses. <persName key="Nold, Christian 1976-" ref="http://viaf.org/viaf/6732166007106875590006" ana="webannotation:http://temp.lincsproject.ca/GdVhZZ7dNem">Nold</persName>’s work also has evolved into community-based mapping, and, as in the case of <placeName key="Stockport" ref="https://sws.geonames.org/2636882" ana="webannotation:http://temp.lincsproject.ca/TiJO21X1Jnu">Stockport</placeName>, helps citizens understand how and why the city might fail to elicit intensity.</ref>
                                         </ref>
                                     </ref>
                                 </ref> Pipelines hopes to adapt many aspects of projects like these—their community-mindedness, their attention to narrative, their understanding of history <q>from below,</q> for instance—while mobilizing the city’s open data to make sense of this particular city, in the here and now.</ref>
@@ -563,7 +563,7 @@
                     <head><placeName key="Rossdale" ref="https://sws.geonames.org/6127856" ana="webannotation:http://temp.lincsproject.ca/M9Bb9a1sS8K">Rossdale</placeName></head>
                     <p xml:id="p1273">
                         <ref target="#history">
-                            <ref target="#spatiality">The Rossdale Flats, a two-square-kilometre zone geographically central to <placeName key="Edmonton" ref="https://sws.geonames.org/5946768" ana="webannotation:http://temp.lincsproject.ca/Lf9s9g1HtNp">Edmonton</placeName> yet topographically as well as symbolically beneath the city core, have staged quintessentially urban contests between private and public, efficiency and commemoration, settlement, commerce, and resource extraction. <ref target="#race_issue"><placeName key="Rossdale" ref="https://sws.geonames.org/6127856" ana="webannotation:http://temp.lincsproject.ca/HcORCoWQ6Ss">Rossdale</placeName> occupies the site of pre–Treaty 6 Aboriginal settlements</ref>, the second Fort Edmonton, the inauguration of <placeName key="Alberta" ref="https://sws.geonames.org/5883102" ana="webannotation:http://temp.lincsproject.ca/5rmHWvMRdPs">the Province of Alberta</placeName>, a burial ground, an ice house, a fair ground, a ball park, and a power plant. <ref target="#class_issue">In the early twentieth century, it offered working-class housing near the coal seams of <placeName key="North Saskatchewan River" ref="https://sws.geonames.org/6090589" ana="webannotation:http://temp.lincsproject.ca/e6KuK5VisWo">the North Saskatchewan River</placeName>; in the early twenty-first century, it is characterized by expensive vinyl-sided Victorian houses alongside the Capital City Recreation Area.</ref>
+                            <ref target="#spatiality">The Rossdale Flats, a two-square-kilometre zone geographically central to <placeName key="Edmonton" ref="https://sws.geonames.org/5946768" ana="webannotation:http://temp.lincsproject.ca/Lf9s9g1HtNp">Edmonton</placeName> yet topographically as well as symbolically beneath the city core, have staged quintessentially urban contests between private and public, efficiency and commemoration, settlement, commerce, and resource extraction. <ref target="#race_issue"><placeName key="Rossdale" ref="https://sws.geonames.org/6127856" ana="webannotation:http://temp.lincsproject.ca/HcORCoWQ6Ss">Rossdale</placeName> occupies the site of pre–Treaty 6 Aboriginal settlements</ref>, the second <placeName key="Fort Edmonton" ref="http://www.wikidata.org/entity/Q1438515" ana="webannotation:http://temp.lincsproject.ca/Oqs1agbpAzR">Fort Edmonton</placeName>, the inauguration of <placeName key="Alberta" ref="https://sws.geonames.org/5883102" ana="webannotation:http://temp.lincsproject.ca/5rmHWvMRdPs">the Province of Alberta</placeName>, a burial ground, an ice house, a fair ground, a ball park, and a power plant. <ref target="#class_issue">In the early twentieth century, it offered working-class housing near the coal seams of <placeName key="North Saskatchewan River" ref="https://sws.geonames.org/6090589" ana="webannotation:http://temp.lincsproject.ca/e6KuK5VisWo">the North Saskatchewan River</placeName>; in the early twenty-first century, it is characterized by expensive vinyl-sided Victorian houses alongside the Capital City Recreation Area.</ref>
                                 <ref target="#politics">The conflicts of civic, corporate, and environmental interests have circulated in <placeName key="Rossdale" ref="https://sws.geonames.org/6127856" ana="webannotation:http://temp.lincsproject.ca/6HfzKICsX8F">Rossdale</placeName>.</ref>
                                 <ref target="#economics">It is the site for powerful past futures: here is where the planetarium was to be built, where baseball would flourish, where power generation would triple, where artist studios and chic cafes would heighten <placeName key="Edmonton" ref="https://sws.geonames.org/5946768" ana="webannotation:http://temp.lincsproject.ca/ISxiuqBXbyY">Edmonton</placeName>’s cosmopolitan cachet.</ref>
                             </ref>
@@ -572,22 +572,22 @@
                     <p xml:id="p1274">
                         <ref target="#history">
                             <ref target="#spatiality">
-                                <ref target="#technology">Such a dense city space hosts multiple, contradictory stories. What does it mean to <q>read</q> such a densely signifying space? I want a technology that can represent the following</ref>. Stand in one spot in the Rossdale Flats to apprehend the complexity of place. <ref target="#economics">If one looks closely at the boreal bush along the bicycle trails, one can discern raspberry canes and apple trees on the riverbanks, domestic remnants of the backyards from houses expropriated in the 1970s to build the <q>Ribbon of Green,</q> the development of <placeName key="Edmonton" ref="https://sws.geonames.org/5946768" ana="webannotation:http://temp.lincsproject.ca/o00HhXMoRxB">Edmonton</placeName>’s river valley and ravine system. Where one stands and marvels, trying to imagine the vanished cityscape, is a riverbank hollowed by coal extraction: a formative city phenomenon beneath the plane of the visible. <ref target="#race_issue">Beneath that vision lies another, forcibly made invisible by the false celebration of this city as merely one hundred years old: Aboriginal <placeName key="Rossdale" ref="https://sws.geonames.org/6127856" ana="webannotation:http://temp.lincsproject.ca/7gHOBkBgZDk">Rossdale</placeName>, routinely inhabited for six thousand years. </ref>One may be watched by a ring-necked pheasant, red squirrels, a coyote, foxes, and certainly magpies: denizens of the urban river valley. Look uphill, downriver, and one will see the brick brewery, now the residence of <persName key="Gene Dub architecte canadien" ref="http://viaf.org/viaf/96113713" ana="webannotation:http://temp.lincsproject.ca/Yqamdpjzeom">Gene Dub</persName>, the city’s best-loved architect, implicated as well in gentrification; upriver, the brickyard site has become a fitness centre. Running past is <placeName key="North Saskatchewan River" ref="https://sws.geonames.org/6090589" ana="webannotation:http://temp.lincsproject.ca/Jn2mCChwkoa">the North Saskatchewan River</placeName> itself, linked to <placeName key="Saskatchewan Glacier" ref="https://sws.geonames.org/6141246" ana="webannotation:http://temp.lincsproject.ca/KvuQ61897WC">the Saskatchewan Glacier</placeName>, though heated and treated by the <placeName key="Rossdale" ref="https://sws.geonames.org/6127856" ana="webannotation:http://temp.lincsproject.ca/oXZVnrWlXsr">Rossdale</placeName> power generating station.</ref>
+                                <ref target="#technology">Such a dense city space hosts multiple, contradictory stories. What does it mean to <q>read</q> such a densely signifying space? I want a technology that can represent the following</ref>. Stand in one spot in <placeName key="Ross Flats Apartments" ref="https://www.wikidata.org/wiki/Q42331813" ana="webannotation:http://temp.lincsproject.ca/ntiITcCULgu">the Rossdale Flats</placeName> to apprehend the complexity of place. <ref target="#economics">If one looks closely at the boreal bush along the bicycle trails, one can discern raspberry canes and apple trees on the riverbanks, domestic remnants of the backyards from houses expropriated in the 1970s to build the <q>Ribbon of Green,</q> the development of <placeName key="Edmonton" ref="https://sws.geonames.org/5946768" ana="webannotation:http://temp.lincsproject.ca/o00HhXMoRxB">Edmonton</placeName>’s river valley and ravine system. Where one stands and marvels, trying to imagine the vanished cityscape, is a riverbank hollowed by coal extraction: a formative city phenomenon beneath the plane of the visible. <ref target="#race_issue">Beneath that vision lies another, forcibly made invisible by the false celebration of this city as merely one hundred years old: Aboriginal <placeName key="Rossdale" ref="https://sws.geonames.org/6127856" ana="webannotation:http://temp.lincsproject.ca/7gHOBkBgZDk">Rossdale</placeName>, routinely inhabited for six thousand years. </ref>One may be watched by a ring-necked pheasant, red squirrels, a coyote, foxes, and certainly magpies: denizens of the urban river valley. Look uphill, downriver, and one will see the brick brewery, now the residence of <persName key="Gene Dub architecte canadien" ref="http://viaf.org/viaf/96113713" ana="webannotation:http://temp.lincsproject.ca/Yqamdpjzeom">Gene Dub</persName>, the city’s best-loved architect, implicated as well in gentrification; upriver, the brickyard site has become a fitness centre. Running past is <placeName key="North Saskatchewan River" ref="https://sws.geonames.org/6090589" ana="webannotation:http://temp.lincsproject.ca/Jn2mCChwkoa">the North Saskatchewan River</placeName> itself, linked to <placeName key="Saskatchewan Glacier" ref="https://sws.geonames.org/6141246" ana="webannotation:http://temp.lincsproject.ca/KvuQ61897WC">the Saskatchewan Glacier</placeName>, though heated and treated by the Rossdale power generating station.</ref>
                             </ref>
                         </ref>
                     </p>
                     <p xml:id="p1275">
                         <ref target="#economics">
                             <ref target="#spatiality">
-                                <ref target="#theme_or_topic"><placeName key="Rossdale" ref="https://sws.geonames.org/6127856" ana="webannotation:http://temp.lincsproject.ca/DQLGFNq1rQD">Rossdale</placeName> does not tell a narrative of progress.</ref> In fact, it does not tell a narrative at all. Instead, it shows that every urban phenomenon has contestatory values that collide in one moment and diverge in another—it highlights the <q>flux</q> and <q>circulation</q> of urbanization mentioned earlier. <ref target="#writing_environment"><placeName key="Rossdale" ref="https://sws.geonames.org/6127856" ana="webannotation:http://temp.lincsproject.ca/JsxSaOMxeAl">Rossdale</placeName> tells us that a city is a palimpsest, replete with connotations that concentrate and occlude one another. How to represent this? <ref target="#technology">Our traditional humanist tools—principally, writing—cannot do it well enough. Writing is linear and moves from <q>here</q> to <q>there</q>; I want a more kaleidoscopic tool. <ref target="#genre_poetry">Poetry</ref> proffers possibility, but I suspect that digital technology may prove more flexible and adaptable.</ref>
-                                    <ref target="#history">My hope is that the <placeName key="Rossdale" ref="https://sws.geonames.org/6127856" ana="webannotation:http://temp.lincsproject.ca/FXCxEM2hqiX">Rossdale</placeName> collection in HyperCities will show industrial histories against natural histories, reveal the burial grounds and the traffic circle built over them, demonstrate the power relations and neighbourly relations that together built this place and continue to give it meaning.</ref>
+                                <ref target="#theme_or_topic">Rossdale does not tell a narrative of progress.</ref> In fact, it does not tell a narrative at all. Instead, it shows that every urban phenomenon has contestatory values that collide in one moment and diverge in another—it highlights the <q>flux</q> and <q>circulation</q> of urbanization mentioned earlier. <ref target="#writing_environment">Rossdale tells us that a city is a palimpsest, replete with connotations that concentrate and occlude one another. How to represent this? <ref target="#technology">Our traditional humanist tools—principally, writing—cannot do it well enough. Writing is linear and moves from <q>here</q> to <q>there</q>; I want a more kaleidoscopic tool. <ref target="#genre_poetry">Poetry</ref> proffers possibility, but I suspect that digital technology may prove more flexible and adaptable.</ref>
+                                    <ref target="#history">My hope is that the Rossdale collection in HyperCities will show industrial histories against natural histories, reveal the burial grounds and the traffic circle built over them, demonstrate the power relations and neighbourly relations that together built this place and continue to give it meaning.</ref>
                                 </ref>
                             </ref>
                         </ref>
                     </p>
                     <p xml:id="p1276">
                         <ref target="#spatiality">
-                            <ref target="#technology">What the <placeName key="Rossdale" ref="https://sws.geonames.org/6127856" ana="webannotation:http://temp.lincsproject.ca/cNNepHEUpPm">Rossdale</placeName> collection will look like is still to be determined, but I want to close by speculating about digitizing ludic tropes for inhabiting the city. <ref target="#social movement">With regard to Manhunt, for example, is there something in the way players find and use spaces that do not appear on a map that might allow us to better tell stories? In a sense, Manhunt turns the specificities of GIS in on itself: one might geolocate an individual and still not see her. As I mention above, parkour quite explicitly uses urban space against the grain. Could we imitate parkour’s hard-body insistence on taking built environments as a challenge? What if we take the built environment (whether that is urban space or Google Earth imagery) not as a given but as a dare? As for geocaching, it creates secret communities, populating the city with secret caches we cavalierly bypass all the time. Unlike maps, which pretend to tell everything, a map that uses geocaching as its formative metaphor would pretend to tell nothing.</ref> But everything is there, under the surface. <ref target="#theme_or_topic">Urban meaning is precisely that: not inert, but actively formed by adopting a purposeful perspective, by looking carefully at places where others see nothing, following power lines and lost burial grounds to uncover something telling. Nowhere is this truer than in <placeName key="Edmonton" ref="https://sws.geonames.org/5946768" ana="webannotation:http://temp.lincsproject.ca/VEikp9isWnL">Edmonton</placeName>, where the one thing most people accept is that there is nothing to see in the city.</ref>
+                            <ref target="#technology">What the Rossdale collection will look like is still to be determined, but I want to close by speculating about digitizing ludic tropes for inhabiting the city. <ref target="#social movement">With regard to Manhunt, for example, is there something in the way players find and use spaces that do not appear on a map that might allow us to better tell stories? In a sense, Manhunt turns the specificities of GIS in on itself: one might geolocate an individual and still not see her. As I mention above, parkour quite explicitly uses urban space against the grain. Could we imitate parkour’s hard-body insistence on taking built environments as a challenge? What if we take the built environment (whether that is urban space or Google Earth imagery) not as a given but as a dare? As for geocaching, it creates secret communities, populating the city with secret caches we cavalierly bypass all the time. Unlike maps, which pretend to tell everything, a map that uses geocaching as its formative metaphor would pretend to tell nothing.</ref> But everything is there, under the surface. <ref target="#theme_or_topic">Urban meaning is precisely that: not inert, but actively formed by adopting a purposeful perspective, by looking carefully at places where others see nothing, following power lines and lost burial grounds to uncover something telling. Nowhere is this truer than in <placeName key="Edmonton" ref="https://sws.geonames.org/5946768" ana="webannotation:http://temp.lincsproject.ca/VEikp9isWnL">Edmonton</placeName>, where the one thing most people accept is that there is nothing to see in the city.</ref>
                             </ref>
                         </ref>
                     </p>
@@ -595,7 +595,7 @@
                 <div type="section">
                     <head>Author’s Note</head>
                     <p xml:id="p1277" rend="authors-note">
-                        <ref target="#collaboration">I wish to acknowledge the assistance of colleagues Russell Cobb, Maureen Engel, and Daniel Laforest, as well as Erika Luckert, the student who has worked most closely <orgName key="Dein, Alan" ref="http://viaf.org/viaf/51086449" ana="webannotation:http://temp.lincsproject.ca/QmGsKV7u6k7">with </orgName>me on the <placeName key="Rossdale" ref="https://sws.geonames.org/6127856" ana="webannotation:http://temp.lincsproject.ca/S1r8YrMFwvt">Rossdale</placeName> project.</ref>
+                        <ref target="#collaboration">I wish to acknowledge the assistance of colleagues <persName key="Cobb, Russell, 1974-" ref="http://viaf.org/viaf/305446131" ana="webannotation:http://temp.lincsproject.ca/tsYFJEjtW7n">Russell Cobb</persName>, <persName key="Engel, Maureen, 1968-" ref="http://viaf.org/viaf/14157222993184972804" ana="webannotation:http://temp.lincsproject.ca/pZNUhkLuC6H">Maureen Engel</persName>, and <persName key="Laforest, Daniel, 1974-...." ref="http://viaf.org/viaf/102772238" ana="webannotation:http://temp.lincsproject.ca/w91lHJPaIfZ">Daniel Laforest</persName>, as well as <persName key="Luckert, Erika Rebecca, 1992-" ref="http://viaf.org/viaf/316545930" ana="webannotation:http://temp.lincsproject.ca/OaXthNvUxaC">Erika Luckert</persName>, the student who has worked most closely <orgName key="Dein, Alan" ref="http://viaf.org/viaf/51086449" ana="webannotation:http://temp.lincsproject.ca/QmGsKV7u6k7">with </orgName>me on the Rossdale project.</ref>
                     </p>
                 </div>
                 <div type="section">
@@ -627,15 +627,15 @@
                         <bibl><persName key="Boutros, Alexandra, 1971-" ref="http://viaf.org/viaf/6355149068459965730007" ana="webannotation:http://temp.lincsproject.ca/hAI3grKdcz9">Boutros</persName>, <persName key="Boutros, Alexandra, 1971-" ref="http://viaf.org/viaf/6355149068459965730007" ana="webannotation:http://temp.lincsproject.ca/EcmkfWQJ9qe">Alexandra</persName>, and <persName key="Straw, Will, 1954-" ref="http://viaf.org/viaf/75456485" ana="webannotation:http://temp.lincsproject.ca/bVH45qu4Aw6" cert="high">Will Straw</persName>, eds. <title level="m"><title key="Circulation and the City: Essays on Urban Culture" ref="https://www.wikidata.org/wiki/Q136126751" ana="webannotation:http://temp.lincsproject.ca/lrSJBzbYX9R">Circulation and the City</title>: Essays on Urban Culture</title>. Montreal and <placeName key="Kingston" ref="https://sws.geonames.org/5992500 " ana="webannotation:http://temp.lincsproject.ca/xoQjs60t9Ys">Kingston</placeName>: <orgName key="McGill-Queen's University Press" ref="http://www.wikidata.org/entity/Q6801272" ana="webannotation:http://temp.lincsproject.ca/FHqa9j0GGGj">McGill-Queen’s University Press</orgName>, 2010.</bibl>
                         <bibl><persName key="Bruegmann, Robert" ref="http://viaf.org/viaf/46835259" ana="webannotation:http://temp.lincsproject.ca/udrAzzVemm2">Bruegmann</persName>, <persName key="Bruegmann, Robert" ref="http://viaf.org/viaf/46835259" ana="webannotation:http://temp.lincsproject.ca/rplVjcomBoT">Robert</persName>. <title level="m">Sprawl: A Compact History</title>. <placeName key="Chicago" ref="https://sws.geonames.org/4887398" ana="webannotation:http://temp.lincsproject.ca/NVrazmUvIK1">Chicago</placeName>: <orgName key="University of Chicago. Press" ref="http://viaf.org/viaf/122888939" ana="webannotation:http://temp.lincsproject.ca/mnRP8jC8Wek">University of Chicago Press</orgName>, 2006.</bibl>
                         <bibl><persName key="Casey, Edward S., 1939-...." ref="http://viaf.org/viaf/109734232" ana="webannotation:http://temp.lincsproject.ca/rHSiYgmRwxx">Casey</persName>, Edward S.<title level="m">The Fate of Place: A Philosophical History</title>. <placeName key="Berkeley" ref="https://sws.geonames.org/5327684 " ana="webannotation:http://temp.lincsproject.ca/sMOMTJkxawi">Berkeley</placeName>: <orgName key="University of California press" ref="http://viaf.org/viaf/148948307" ana="webannotation:http://temp.lincsproject.ca/0BqIjlIjWie">University of California Press</orgName>, 1998.</bibl>
-                        <bibl><persName key="Coverley, Merlin." ref="http://viaf.org/viaf/71355916" ana="webannotation:http://temp.lincsproject.ca/ZDYfSPEX1Db">Coverley</persName>, <persName key="Coverley, Merlin." ref="http://viaf.org/viaf/71355916" ana="webannotation:http://temp.lincsproject.ca/Oad2HFiBwcI">Merlin</persName>. <title level="m">Psychogeography</title>. <placeName key="London" ref="https://sws.geonames.org/2643743" ana="webannotation:http://temp.lincsproject.ca/Gyqj7ImiPVh">London</placeName>: Pocket Essentials, 2010.</bibl>
+                        <bibl><persName key="Coverley, Merlin." ref="http://viaf.org/viaf/71355916" ana="webannotation:http://temp.lincsproject.ca/ZDYfSPEX1Db">Coverley</persName>, <persName key="Coverley, Merlin." ref="http://viaf.org/viaf/71355916" ana="webannotation:http://temp.lincsproject.ca/Oad2HFiBwcI">Merlin</persName>. <title level="m">Psychogeography</title>. <placeName key="London" ref="https://sws.geonames.org/2643743" ana="webannotation:http://temp.lincsproject.ca/Gyqj7ImiPVh">London</placeName>: <orgName key="Pocket Essentials (Firm)" ref="http://viaf.org/viaf/141063678" ana="webannotation:http://temp.lincsproject.ca/ZWOi65It6r3">Pocket Essentials</orgName>, 2010.</bibl>
                         <bibl><persName key="Edwards, Justin D., 1970-...." ref="http://viaf.org/viaf/116861733" ana="webannotation:http://temp.lincsproject.ca/QSiqYTw0W9J">Edwards</persName>, <persName key="Edwards, Justin D., 1970-...." ref="http://viaf.org/viaf/116861733" ana="webannotation:http://temp.lincsproject.ca/bSyS8clzM2v">Justin D.,</persName> and <persName key="Ivison, Douglas" ref="http://viaf.org/viaf/74103425" ana="webannotation:http://temp.lincsproject.ca/jdIwbqt78ht" cert="high" type="real">Douglas Ivison</persName>. <title level="m">Downtown <placeName key="Canada" ref="https://sws.geonames.org/6251999" ana="webannotation:http://temp.lincsproject.ca/De5OjrD9IDQ">Canada</placeName>: Writing Canadian Cities</title>. <placeName key="Toronto" ref="https://sws.geonames.org/6167865" ana="webannotation:http://temp.lincsproject.ca/0nOYmWrSzHJ">Toronto</placeName>: <orgName key="University of Toronto. Press" ref="http://viaf.org/viaf/126595939" ana="webannotation:http://temp.lincsproject.ca/QknxExjPd26">University of Toronto Press</orgName>, 2005.</bibl>
-                        <bibl><persName key="Goyette, Linda, 1955-...." ref="http://viaf.org/viaf/36321908" ana="webannotation:http://temp.lincsproject.ca/yzrn0K00uoN">Goyette</persName>, <persName key="Goyette, Linda, 1955-...." ref="http://viaf.org/viaf/36321908" ana="webannotation:http://temp.lincsproject.ca/Dd1NHBzl4V7">Linda</persName>, and Carolina Jakeway Roemmich. <title level="m"><placeName key="Edmonton" ref="https://sws.geonames.org/5946768" ana="webannotation:http://temp.lincsproject.ca/6Q0wLnYEZW2">Edmonton</placeName> In Our Own Words</title>. <placeName key="Edmonton" ref="https://sws.geonames.org/5946768" ana="webannotation:http://temp.lincsproject.ca/TGKTMhq8Y5V">Edmonton</placeName>: <orgName key="University of Alberta Press." ref="http://viaf.org/viaf/311351545" ana="webannotation:http://temp.lincsproject.ca/PoTzWfxjFE5">University of Alberta Press</orgName>, 2004.</bibl>
+                        <bibl><persName key="Goyette, Linda, 1955-...." ref="http://viaf.org/viaf/36321908" ana="webannotation:http://temp.lincsproject.ca/yzrn0K00uoN">Goyette</persName>, <persName key="Goyette, Linda, 1955-...." ref="http://viaf.org/viaf/36321908" ana="webannotation:http://temp.lincsproject.ca/Dd1NHBzl4V7">Linda</persName>, and <persName key="Roemmich, Carolina Jakeway, 1974-" ref="http://viaf.org/viaf/28937000" ana="webannotation:http://temp.lincsproject.ca/X9pCnDbPe9w">Carolina Jakeway Roemmich</persName>. <title level="m"><placeName key="Edmonton" ref="https://sws.geonames.org/5946768" ana="webannotation:http://temp.lincsproject.ca/6Q0wLnYEZW2">Edmonton</placeName> In Our Own Words</title>. <placeName key="Edmonton" ref="https://sws.geonames.org/5946768" ana="webannotation:http://temp.lincsproject.ca/TGKTMhq8Y5V">Edmonton</placeName>: <orgName key="University of Alberta Press." ref="http://viaf.org/viaf/311351545" ana="webannotation:http://temp.lincsproject.ca/PoTzWfxjFE5">University of Alberta Press</orgName>, 2004.</bibl>
                         <bibl><persName key="Hagen, Darrin, 1964-" ref="http://viaf.org/viaf/34233225" ana="webannotation:http://temp.lincsproject.ca/e9AZPCbrX37">Hagen</persName>, <persName key="Hagen, Darrin, 1964-" ref="http://viaf.org/viaf/34233225" ana="webannotation:http://temp.lincsproject.ca/oedKSlQGMHE">Darrin</persName>. <title level="m">The Edmonton Queen: Not a Riverboat Story</title>. <placeName key="Edmonton" ref="https://sws.geonames.org/5946768" ana="webannotation:http://temp.lincsproject.ca/v0O2Zu3li3Z">Edmonton</placeName>: Slipstream Books, 1997.</bibl>
                         <bibl><persName key="Jacobs, Jane, 1916-2006." ref="http://viaf.org/viaf/90712053" ana="webannotation:http://temp.lincsproject.ca/YVZeR5LpMsl">Jacobs</persName>, <persName key="Jacobs, Jane, 1916-2006." ref="http://viaf.org/viaf/90712053" ana="webannotation:http://temp.lincsproject.ca/INOGXAoFL21">Jane</persName>. <title level="m">The Death and Life of Great American Cities</title>. 1961. New York: <orgName key="Modern Library" ref="https://www.wikidata.org/wiki/Q3822096" ana="webannotation:http://temp.lincsproject.ca/K1j6brnJTSE">Modern Library</orgName>, 1993.</bibl>
                         <bibl><persName key="Lippard, Lucy R." ref="http://viaf.org/viaf/109482861" ana="webannotation:http://temp.lincsproject.ca/d57qtC6RvpL">Lippard</persName>, <persName key="Lippard, Lucy R." ref="http://viaf.org/viaf/109482861" ana="webannotation:http://temp.lincsproject.ca/3fm8BT3q1VO">Lucy</persName>. <title level="m">The Lure of the Local: Senses of Place in a Multicentered Society</title>. <placeName key="New York" ref="https://sws.geonames.org/5128638" ana="webannotation:http://temp.lincsproject.ca/CbUQMuJKwP5">New York</placeName>: <orgName key="New Press" ref="http://viaf.org/viaf/142985504" ana="webannotation:http://temp.lincsproject.ca/XG8q83qvO0Q">New Press</orgName>, 1997.</bibl>
                         <bibl><persName key="Lynch, Kevin, 1918-1984." ref="http://viaf.org/viaf/76390028" ana="webannotation:http://temp.lincsproject.ca/f1oT2QiM5IY">Lynch</persName>, <persName key="Lynch, Kevin, 1918-1984." ref="http://viaf.org/viaf/76390028" ana="webannotation:http://temp.lincsproject.ca/WG2jBaAwVQf">Kevin</persName>. <title level="m">The Image of the City</title>. <placeName key="Cambridge" ref="https://sws.geonames.org/4931972" ana="webannotation:http://temp.lincsproject.ca/Eyd75XLNuYD">Cambridge</placeName>, <placeName key="Massachusetts" ref="https://sws.geonames.org/6254926   " ana="webannotation:http://temp.lincsproject.ca/ui2NPPO3hoP">MA</placeName>: <orgName key="MIT press" ref="http://viaf.org/viaf/159490691" ana="webannotation:http://temp.lincsproject.ca/QDXpxH82muH">MIT Press</orgName>, 1960.</bibl>
-                        <bibl>Mumford, <persName key="Mumford, Lewis, 1895-1990." ref="http://viaf.org/viaf/12312890" ana="webannotation:http://temp.lincsproject.ca/aRdkeeg6NOh">Lewis</persName>. <title level="m">The Culture of Cities</title>. 1938. <placeName key="New York" ref="https://sws.geonames.org/5128638" ana="webannotation:http://temp.lincsproject.ca/MR8l2JYFCLc">New York</placeName>: <orgName key="Harcourt Brace &amp; Company" ref="http://viaf.org/viaf/167837026" ana="webannotation:http://temp.lincsproject.ca/5TZeCC84McX">Harcourt Brace</orgName>, 1981.</bibl>
-                        <bibl><persName key="Sassen, Saskia." ref="http://viaf.org/viaf/66527919" ana="webannotation:http://temp.lincsproject.ca/fKNtgLxoTcF">Sassen</persName>, <placeName key="Sassen, Saskia." ref="http://viaf.org/viaf/66527919" ana="webannotation:http://temp.lincsproject.ca/ISsA5znz4UJ">Saskia</placeName>. <title level="a">The Global City: Introducing a Concept and Its History</title>. <title level="m">Mutations</title>. <persName key="Koolhaas, Rem, 1944-...." ref="http://viaf.org/viaf/111300727" ana="webannotation:http://temp.lincsproject.ca/XTVnZIIUC2k">Rem Koolhaas</persName>, <persName key="Boeri, Stefano, 1956-...." ref="http://viaf.org/viaf/79150344" ana="webannotation:http://temp.lincsproject.ca/rYg9MFp22TB">Stefano Boeri</persName>, <persName key="Kwinter, Sanford." ref="http://viaf.org/viaf/306416444" ana="webannotation:http://temp.lincsproject.ca/3b5lUuAHGAp">Sanford Kwinter</persName>, <persName key="Tazi, Nadia." ref="http://viaf.org/viaf/68936344" ana="webannotation:http://temp.lincsproject.ca/f0dsqRJIzWj">Nadia Tazi</persName>, <persName key="Obrist, Hans-Ulrich, 1968-" ref="http://viaf.org/viaf/116932378" ana="webannotation:http://temp.lincsproject.ca/YaCifW7mnbl">Hans Ulrich Obrist</persName>. Barcelona: <abbr>actar</abbr>; Bordeaux: <orgName key="Arc en rêve-Centre d'architecture (Bordeaux)" ref="http://viaf.org/viaf/147461741" ana="webannotation:http://temp.lincsproject.ca/JDsCfolFQHq">Arc en rêve centre d’architecture,</orgName> 2001. 104–15.</bibl>
+                        <bibl><persName key="Mumford, Lewis, 1895-1990." ref="http://viaf.org/viaf/12312890" ana="webannotation:http://temp.lincsproject.ca/3Un3Ggs3uun">Mumford</persName>, <persName key="Mumford, Lewis, 1895-1990." ref="http://viaf.org/viaf/12312890" ana="webannotation:http://temp.lincsproject.ca/aRdkeeg6NOh">Lewis</persName>. <title level="m">The Culture of Cities</title>. 1938. <placeName key="New York" ref="https://sws.geonames.org/5128638" ana="webannotation:http://temp.lincsproject.ca/MR8l2JYFCLc">New York</placeName>: <orgName key="Harcourt Brace &amp; Company" ref="http://viaf.org/viaf/167837026" ana="webannotation:http://temp.lincsproject.ca/5TZeCC84McX">Harcourt Brace</orgName>, 1981.</bibl>
+                        <bibl><persName key="Sassen, Saskia." ref="http://viaf.org/viaf/66527919" ana="webannotation:http://temp.lincsproject.ca/fKNtgLxoTcF">Sassen</persName>, <placeName key="Sassen, Saskia." ref="http://viaf.org/viaf/66527919" ana="webannotation:http://temp.lincsproject.ca/ISsA5znz4UJ">Saskia</placeName>. <title level="a">The Global City: Introducing a Concept and Its History</title>. <title level="m">Mutations</title>. <persName key="Koolhaas, Rem, 1944-...." ref="http://viaf.org/viaf/111300727" ana="webannotation:http://temp.lincsproject.ca/XTVnZIIUC2k">Rem Koolhaas</persName>, <persName key="Boeri, Stefano, 1956-...." ref="http://viaf.org/viaf/79150344" ana="webannotation:http://temp.lincsproject.ca/rYg9MFp22TB">Stefano Boeri</persName>, <persName key="Kwinter, Sanford." ref="http://viaf.org/viaf/306416444" ana="webannotation:http://temp.lincsproject.ca/3b5lUuAHGAp">Sanford Kwinter</persName>, <persName key="Tazi, Nadia." ref="http://viaf.org/viaf/68936344" ana="webannotation:http://temp.lincsproject.ca/f0dsqRJIzWj">Nadia Tazi</persName>, <persName key="Obrist, Hans-Ulrich, 1968-" ref="http://viaf.org/viaf/116932378" ana="webannotation:http://temp.lincsproject.ca/YaCifW7mnbl">Hans Ulrich Obrist</persName>. <placeName key="Barcelona" ref="https://sws.geonames.org/3128760 " ana="webannotation:http://temp.lincsproject.ca/MXmOyFDnz5r">Barcelona</placeName>: <abbr><orgName key="Actar (Firma)" ref="http://viaf.org/viaf/8786159477950027990000" ana="webannotation:http://temp.lincsproject.ca/13sDq5eyID5">actar</orgName></abbr>; <placeName key="Bordeaux" ref="https://sws.geonames.org/3031582" ana="webannotation:http://temp.lincsproject.ca/o5xbXoGgeZl">Bordeaux</placeName>: <orgName key="Arc en rêve-Centre d'architecture (Bordeaux)" ref="http://viaf.org/viaf/147461741" ana="webannotation:http://temp.lincsproject.ca/JDsCfolFQHq">Arc en rêve centre d’architecture,</orgName> 2001. 104–15.</bibl>
                         <bibl><persName key="Self, Will, 1961-...." ref="http://viaf.org/viaf/41934124" ana="webannotation:http://temp.lincsproject.ca/lSJnM5ySv3p">Self</persName>, <persName key="Self, Will, 1961-...." ref="http://viaf.org/viaf/41934124" ana="webannotation:http://temp.lincsproject.ca/NE6KUcIRIMv">Will</persName>, and <persName key="Steadman, Ralph, 1936-...." ref="http://viaf.org/viaf/103610475" ana="webannotation:http://temp.lincsproject.ca/vmwEhmNI8WP">Ralph Steadman</persName>. <title level="m">Psychogeography: Disentangling the Modern Conundrum of Psyche and Place</title>. <placeName key="New York" ref="https://sws.geonames.org/5128638" ana="webannotation:http://temp.lincsproject.ca/RbHQksgWYaw">New York</placeName>: <orgName key="Bloomsbury publishing" ref="http://viaf.org/viaf/127945522" ana="webannotation:http://temp.lincsproject.ca/AloxiQsbhGn">Bloomsbury</orgName>, 2007.</bibl>
                         <bibl><persName key="Zwicker, Heather" ref="http://viaf.org/viaf/17180740" ana="webannotation:http://temp.lincsproject.ca/wNwXOvpx5MJ">Zwicker</persName>, <persName key="Zwicker, Heather" ref="http://viaf.org/viaf/17180740" ana="webannotation:http://temp.lincsproject.ca/DPkvs0CRmhH">Heather</persName>, ed. <title level="m"><placeName key="Edmonton" ref="https://sws.geonames.org/5946768" ana="webannotation:http://temp.lincsproject.ca/kW2EDcZio0f">Edmonton</placeName> on Location: River City Chronicles</title>. <placeName key="Edmonton" ref="https://sws.geonames.org/5946768" ana="webannotation:http://temp.lincsproject.ca/bP4LC2gmYxL">Edmonton</placeName>: <orgName key="NeWest Press." ref="http://viaf.org/viaf/317291403" ana="webannotation:http://temp.lincsproject.ca/l7lsL9ECzeU">NeWest Press</orgName>, 2005.</bibl>
                     </listBibl>
@@ -5720,10 +5720,9 @@
         ]
     },
     "body": {
-        "id": "http://dbpedia.org/resource/Winter_War",
+        "id": "https://nerve.lincsproject.ca/sZIrMXxCISm9OENVxN5Xk",
         "type": "crm:E5_Event",
-        "label": "Winter War",
-        "description": "The Winter War was a war between the Soviet Union (USSR) and Finland. It began with a Soviet invasion of Finland on 30 November 1939, three months after the outbreak of World War II, and ended three and a half months later with the Moscow Peace Treaty on 13 March 1940. The League of Nations deemed the attack illegal and expelled the Soviet Union from the organisation."
+        "label": "pre–Treaty"
     },
     "P2_has_type": [
         "oa:identifying"
@@ -7858,540 +7857,6 @@
                     "crm:E73_Information_Object"
                 ],
                 "value": "[ana~=webannotation:http://temp.lincsproject.ca/7gHOBkBgZDk]"
-            }
-        ]
-    },
-    "body": {
-        "id": "https://sws.geonames.org/6127856",
-        "label": "Rossdale",
-        "type": "crm:E53_Place",
-        "entityType": "crm:E53_Place"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
-}]]>
-				
-</rdf:Description>
-				
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/oXZVnrWlXsr">
-<![CDATA[{
-    "@context": [
-        "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
-    ],
-    "id": "http://temp.lincsproject.ca/oXZVnrWlXsr",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
-    "created": "2026-06-23T15:59:48.348Z",
-    "creator": {
-        "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
-    },
-    "generator": {
-        "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
-        "name": "NERVE",
-        "softwareVersion": "0.3.0"
-    },
-    "target": {
-        "id": "/target/Fc02WEexvBq",
-        "type": [
-            "SpecificResource",
-            "crm:E73_Information_Object"
-        ],
-        "source": {
-            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
-            "P1_is_identified_by": {
-                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Edmonton Pipelines"
-            }
-        },
-        "selector": [
-            {
-                "id": "/target/Fc02WEexvBq/selector/textPosition/qzt336SeAxI",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 21894,
-                "end": 21902,
-                "refinedBy": {
-                    "id": "/target/Fc02WEexvBq/selector/textQuote/22eYPGUCuW5",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Rossdale",
-                    "prefix": " Running past is the North Saskatchewan River itself, linked to the Saskatchewan Glacier, though heated and treated by the",
-                    "suffix": "power generating station"
-                }
-            },
-            {
-                "id": "/target/Fc02WEexvBq/selector/css/aEA8nAJ6Mj3",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/oXZVnrWlXsr]"
-            }
-        ]
-    },
-    "body": {
-        "id": "https://sws.geonames.org/6127856",
-        "label": "Rossdale",
-        "type": "crm:E53_Place",
-        "entityType": "crm:E53_Place"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
-}]]>
-				
-</rdf:Description>
-				
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/DQLGFNq1rQD">
-<![CDATA[{
-    "@context": [
-        "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
-    ],
-    "id": "http://temp.lincsproject.ca/DQLGFNq1rQD",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
-    "created": "2026-06-23T15:59:49.001Z",
-    "creator": {
-        "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
-    },
-    "generator": {
-        "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
-        "name": "NERVE",
-        "softwareVersion": "0.3.0"
-    },
-    "target": {
-        "id": "/target/FIvkX7a47BT",
-        "type": [
-            "SpecificResource",
-            "crm:E73_Information_Object"
-        ],
-        "source": {
-            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
-            "P1_is_identified_by": {
-                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Edmonton Pipelines"
-            }
-        },
-        "selector": [
-            {
-                "id": "/target/FIvkX7a47BT/selector/textPosition/QzaDt6LQEHD",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 22111,
-                "end": 22119,
-                "refinedBy": {
-                    "id": "/target/FIvkX7a47BT/selector/textQuote/1aaKYNTRr8l",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Rossdale",
-                    "prefix": "\n                            \n                        \n                    \n                    \n                        \n                            \n                               ",
-                    "suffix": "does not tell a narrative of progress"
-                }
-            },
-            {
-                "id": "/target/FIvkX7a47BT/selector/css/jgaAfVeG8Vz",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/DQLGFNq1rQD]"
-            }
-        ]
-    },
-    "body": {
-        "id": "https://sws.geonames.org/6127856",
-        "label": "Rossdale",
-        "type": "crm:E53_Place",
-        "entityType": "crm:E53_Place"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
-}]]>
-				
-</rdf:Description>
-				
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/JsxSaOMxeAl">
-<![CDATA[{
-    "@context": [
-        "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
-    ],
-    "id": "http://temp.lincsproject.ca/JsxSaOMxeAl",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
-    "created": "2026-06-23T15:59:49.003Z",
-    "creator": {
-        "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
-    },
-    "generator": {
-        "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
-        "name": "NERVE",
-        "softwareVersion": "0.3.0"
-    },
-    "target": {
-        "id": "/target/Sg4YSxcQyKF",
-        "type": [
-            "SpecificResource",
-            "crm:E73_Information_Object"
-        ],
-        "source": {
-            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
-            "P1_is_identified_by": {
-                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Edmonton Pipelines"
-            }
-        },
-        "selector": [
-            {
-                "id": "/target/Sg4YSxcQyKF/selector/textPosition/e3HbfKCWGj3",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 22399,
-                "end": 22407,
-                "refinedBy": {
-                    "id": "/target/Sg4YSxcQyKF/selector/textQuote/G7PlGLnhBnw",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Rossdale",
-                    "prefix": "",
-                    "suffix": "tells us that a city is a palimpsest, replete with connotations that concentrate and occlude one another"
-                }
-            },
-            {
-                "id": "/target/Sg4YSxcQyKF/selector/css/TZsOZn8jIjk",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/JsxSaOMxeAl]"
-            }
-        ]
-    },
-    "body": {
-        "id": "https://sws.geonames.org/6127856",
-        "label": "Rossdale",
-        "type": "crm:E53_Place",
-        "entityType": "crm:E53_Place"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
-}]]>
-				
-</rdf:Description>
-				
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/FXCxEM2hqiX">
-<![CDATA[{
-    "@context": [
-        "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
-    ],
-    "id": "http://temp.lincsproject.ca/FXCxEM2hqiX",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
-    "created": "2026-06-23T15:59:49.004Z",
-    "creator": {
-        "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
-    },
-    "generator": {
-        "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
-        "name": "NERVE",
-        "softwareVersion": "0.3.0"
-    },
-    "target": {
-        "id": "/target/7x2iPsgyYL8",
-        "type": [
-            "SpecificResource",
-            "crm:E73_Information_Object"
-        ],
-        "source": {
-            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
-            "P1_is_identified_by": {
-                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Edmonton Pipelines"
-            }
-        },
-        "selector": [
-            {
-                "id": "/target/7x2iPsgyYL8/selector/textPosition/HUpD7obuKCB",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 22859,
-                "end": 22867,
-                "refinedBy": {
-                    "id": "/target/7x2iPsgyYL8/selector/textQuote/bZRLqvFpSdU",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Rossdale",
-                    "prefix": "\n                                    My hope is that the",
-                    "suffix": "collection in HyperCities will show industrial histories against natural histories, reveal the burial grounds and the traffic circle built over them, demonstrate the power relations and neighbourly relations that together built this place and continue to give it meaning"
-                }
-            },
-            {
-                "id": "/target/7x2iPsgyYL8/selector/css/nSUMiESvjTJ",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/FXCxEM2hqiX]"
-            }
-        ]
-    },
-    "body": {
-        "id": "https://sws.geonames.org/6127856",
-        "label": "Rossdale",
-        "type": "crm:E53_Place",
-        "entityType": "crm:E53_Place"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
-}]]>
-				
-</rdf:Description>
-				
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/cNNepHEUpPm">
-<![CDATA[{
-    "@context": [
-        "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
-    ],
-    "id": "http://temp.lincsproject.ca/cNNepHEUpPm",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
-    "created": "2026-06-23T15:59:49.004Z",
-    "creator": {
-        "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
-    },
-    "generator": {
-        "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
-        "name": "NERVE",
-        "softwareVersion": "0.3.0"
-    },
-    "target": {
-        "id": "/target/ycb4NT03mmS",
-        "type": [
-            "SpecificResource",
-            "crm:E73_Information_Object"
-        ],
-        "source": {
-            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
-            "P1_is_identified_by": {
-                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Edmonton Pipelines"
-            }
-        },
-        "selector": [
-            {
-                "id": "/target/ycb4NT03mmS/selector/textPosition/W08f2xxredx",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 23331,
-                "end": 23339,
-                "refinedBy": {
-                    "id": "/target/ycb4NT03mmS/selector/textQuote/1UvjLMGAd8W",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Rossdale",
-                    "prefix": "\n                                \n                            \n                        \n                    \n                    \n                        \n                            What the",
-                    "suffix": "collection will look like is still to be determined, but I want to close by speculating about digitizing ludic tropes for inhabiting the city"
-                }
-            },
-            {
-                "id": "/target/ycb4NT03mmS/selector/css/mR3CxkzTBTz",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/cNNepHEUpPm]"
-            }
-        ]
-    },
-    "body": {
-        "id": "https://sws.geonames.org/6127856",
-        "label": "Rossdale",
-        "type": "crm:E53_Place",
-        "entityType": "crm:E53_Place"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
-}]]>
-				
-</rdf:Description>
-				
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/S1r8YrMFwvt">
-<![CDATA[{
-    "@context": [
-        "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
-    ],
-    "id": "http://temp.lincsproject.ca/S1r8YrMFwvt",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
-    "created": "2026-06-23T15:59:49.005Z",
-    "creator": {
-        "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
-    },
-    "generator": {
-        "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
-        "name": "NERVE",
-        "softwareVersion": "0.3.0"
-    },
-    "target": {
-        "id": "/target/n9NATmllRUU",
-        "type": [
-            "SpecificResource",
-            "crm:E73_Information_Object"
-        ],
-        "source": {
-            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
-            "P1_is_identified_by": {
-                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Edmonton Pipelines"
-            }
-        },
-        "selector": [
-            {
-                "id": "/target/n9NATmllRUU/selector/textPosition/BhtqfpthKIP",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 25096,
-                "end": 25104,
-                "refinedBy": {
-                    "id": "/target/n9NATmllRUU/selector/textQuote/eyL1N3Skys5",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Rossdale",
-                    "prefix": "\n                            \n                        \n                    \n                \n                \n                    Author’s Note\n                    \n                        I wish to acknowledge the assistance of colleagues Russell Cobb, Maureen Engel, and Daniel Laforest, as well as Erika Luckert, the student who has worked most closely with me on the",
-                    "suffix": "project"
-                }
-            },
-            {
-                "id": "/target/n9NATmllRUU/selector/css/pzlbdu2WBxB",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/S1r8YrMFwvt]"
             }
         ]
     },
@@ -12681,13 +12146,1623 @@
 }]]>
 				
 </rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/zQuTrIQ8flq">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/zQuTrIQ8flq",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-24T17:48:48.809Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/e0HDJmsuMeZ",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Edmonton Pipelines"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/e0HDJmsuMeZ/selector/textPosition/ZcDTO5Psb7r",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 15155,
+                "end": 15160,
+                "refinedBy": {
+                    "id": "/target/e0HDJmsuMeZ/selector/textQuote/tD3Fko3a75f",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Sofia",
+                    "prefix": " Hitotoki, mentioned above, offers short place-based narratives from Tokyo, New York, Shanghai, Paris, and",
+                    "suffix": " The site has recently become Twitter-based, but in its classic form Hitotoki asserts the importance of place by insisting that even quotidian stories take place somewhere, and imbues that somewhere with significance"
+                }
+            },
+            {
+                "id": "/target/e0HDJmsuMeZ/selector/css/Sm9M2Xn4SVn",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/iErznGm7fWr]"
+            },
+            {
+                "id": "/target/e0HDJmsuMeZ/selector/css/5V9qhKCp2zJ",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/zQuTrIQ8flq]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://sws.geonames.org/727012",
+        "type": "crm:E53_Place",
+        "label": "Sofia",
+        "description": "Sofia, BG"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/q5Y4BAdZJYz">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/q5Y4BAdZJYz",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-24T16:00:54.974Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/BIVKpcqBhvY",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Edmonton Pipelines"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/BIVKpcqBhvY/selector/textPosition/4I7jjYCIPat",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 15191,
+                "end": 15198,
+                "refinedBy": {
+                    "id": "/target/BIVKpcqBhvY/selector/textQuote/ULDYaRQHpUR",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Twitter",
+                    "prefix": " The site has recently become",
+                    "suffix": "based, but in its classic form Hitotoki asserts the importance of place by insisting that even quotidian stories take place somewhere, and imbues that somewhere with significance"
+                }
+            },
+            {
+                "id": "/target/BIVKpcqBhvY/selector/css/259EeiWrA9n",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/q5Y4BAdZJYz]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/38145970073232250833",
+        "type": "crm:E74_Group",
+        "label": "Twitter (Firm)",
+        "description": "Twitter (selskap)"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/XWsXhLAUdCo">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/XWsXhLAUdCo",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-24T17:28:17.103Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/S6TNW2Udj4B",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Edmonton Pipelines"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/S6TNW2Udj4B/selector/textPosition/xkbIqHfZq32",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 15428,
+                "end": 15443,
+                "refinedBy": {
+                    "id": "/target/S6TNW2Udj4B/selector/textQuote/XNo5ewvKvjq",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Caledonian Road",
+                    "prefix": " In a different vein, sound maps such as London’s",
+                    "suffix": "project demonstrate new ways of collecting and publicizing popular history \n                                    Dein and Panetta\n                                "
+                }
+            },
+            {
+                "id": "/target/S6TNW2Udj4B/selector/css/4QfXEelJPsw",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/XWsXhLAUdCo]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://sws.geonames.org/10115056",
+        "type": "crm:E53_Place",
+        "label": "Caledonian Road Apartments",
+        "description": "England, Greater London, GB"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/sq4abDIObhZ">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/sq4abDIObhZ",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-24T17:42:43.691Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/Kp5W1i7LUfN",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Edmonton Pipelines"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/Kp5W1i7LUfN/selector/textPosition/vwDq5VpmjDL",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 15556,
+                "end": 15560,
+                "refinedBy": {
+                    "id": "/target/Kp5W1i7LUfN/selector/textQuote/xNTROTKURzk",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Dein",
+                    "prefix": " In a different vein, sound maps such as London’s Caledonian Road project demonstrate new ways of collecting and publicizing popular history \n                                   ",
+                    "suffix": "and Panetta\n                                "
+                }
+            },
+            {
+                "id": "/target/Kp5W1i7LUfN/selector/css/SyX0ey91KFQ",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/sq4abDIObhZ]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/51086449",
+        "label": "Dein, Alan",
+        "type": "crm:E21_Person",
+        "entityType": "crm:E21_Person"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/MZ3JeLEwnyq">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/MZ3JeLEwnyq",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-24T17:43:36.965Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/ITko6EoR5RH",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Edmonton Pipelines"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/ITko6EoR5RH/selector/textPosition/h7d1tprfJBz",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 15565,
+                "end": 15572,
+                "refinedBy": {
+                    "id": "/target/ITko6EoR5RH/selector/textQuote/6SxlYqkI1e3",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Panetta",
+                    "prefix": " In a different vein, sound maps such as London’s Caledonian Road project demonstrate new ways of collecting and publicizing popular history \n                                    Dein and",
+                    "suffix": "                                "
+                }
+            },
+            {
+                "id": "/target/ITko6EoR5RH/selector/css/bx0DRc5KvSn",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/MZ3JeLEwnyq]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://www.wikidata.org/wiki/Q87065570",
+        "label": "Panetta, Francesca",
+        "type": "crm:E21_Person",
+        "entityType": "crm:E21_Person"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/TiJO21X1Jnu">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/TiJO21X1Jnu",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-24T17:49:47.057Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/ejDsoKb1qrI",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Edmonton Pipelines"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/ejDsoKb1qrI/selector/textPosition/LtsZaDNLntn",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 16926,
+                "end": 16935,
+                "refinedBy": {
+                    "id": "/target/ejDsoKb1qrI/selector/textQuote/NDdYbk6OkGe",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Stockport",
+                    "prefix": " Nold’s work also has evolved into community-based mapping, and, as in the case of",
+                    "suffix": " helps citizens understand how and why the city might fail to elicit intensity"
+                }
+            },
+            {
+                "id": "/target/ejDsoKb1qrI/selector/css/4IXciRCfsko",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/TiJO21X1Jnu]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://sws.geonames.org/2636882",
+        "type": "crm:E53_Place",
+        "label": "Stockport",
+        "description": "England, Borough of Stockport, GB"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/Oqs1agbpAzR">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/Oqs1agbpAzR",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-24T17:14:15.725Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/LQO94u23wjl",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Edmonton Pipelines"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/LQO94u23wjl/selector/textPosition/TwZjhD3KlQs",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 19517,
+                "end": 19530,
+                "refinedBy": {
+                    "id": "/target/LQO94u23wjl/selector/textQuote/sRo7eTcuKAG",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Fort Edmonton",
+                    "prefix": " Rossdale occupies the site of pre–Treaty 6 Aboriginal settlements, the second",
+                    "suffix": " the inauguration of the Province of Alberta, a burial ground, an ice house, a fair ground, a ball park, and a power plant"
+                }
+            },
+            {
+                "id": "/target/LQO94u23wjl/selector/css/URFpG3QzYjo",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/Oqs1agbpAzR]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q1438515",
+        "type": "crm:E53_Place",
+        "label": "Fort Edmonton",
+        "description": "Hudson's Bay Company fortification in Alberta"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/ntiITcCULgu">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/ntiITcCULgu",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-24T17:16:58.858Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/g8BcDmr7Vso",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Edmonton Pipelines"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/g8BcDmr7Vso/selector/textPosition/e6g94IKHBLQ",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 20689,
+                "end": 20707,
+                "refinedBy": {
+                    "id": "/target/g8BcDmr7Vso/selector/textQuote/UjCK1IJWFKg",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "the Rossdale Flats",
+                    "prefix": " Stand in one spot in",
+                    "suffix": "to apprehend the complexity of place"
+                }
+            },
+            {
+                "id": "/target/g8BcDmr7Vso/selector/css/0R78qJ3DJMR",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/ntiITcCULgu]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://www.wikidata.org/wiki/Q42331813",
+        "label": "Ross Flats Apartments",
+        "type": "crm:E53_Place",
+        "entityType": "crm:E53_Place"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/tsYFJEjtW7n">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/tsYFJEjtW7n",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-24T15:44:00.466Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/dEdYqz0D2GD",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Edmonton Pipelines"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/dEdYqz0D2GD/selector/textPosition/FJdJBvKtYyM",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 24965,
+                "end": 24977,
+                "refinedBy": {
+                    "id": "/target/dEdYqz0D2GD/selector/textQuote/lmq0HTOuLJD",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Russell Cobb",
+                    "prefix": "\n                            \n                        \n                    \n                \n                \n                    Author’s Note\n                    \n                        I wish to acknowledge the assistance of colleagues",
+                    "suffix": " Maureen Engel, and Daniel Laforest, as well as Erika Luckert, the student who has worked most closely with me on the Rossdale project"
+                }
+            },
+            {
+                "id": "/target/dEdYqz0D2GD/selector/css/LmqlxF48dY3",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/tsYFJEjtW7n]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/305446131",
+        "type": "crm:E21_Person",
+        "label": "Cobb, Russell, 1974-",
+        "description": "Cobb, Russell"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/pZNUhkLuC6H">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/pZNUhkLuC6H",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-24T15:42:35.586Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/cwt8j1axJkg",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Edmonton Pipelines"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/cwt8j1axJkg/selector/textPosition/peXPTwScud0",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 24979,
+                "end": 24992,
+                "refinedBy": {
+                    "id": "/target/cwt8j1axJkg/selector/textQuote/RumdvTLhpqg",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Maureen Engel",
+                    "prefix": "\n                            \n                        \n                    \n                \n                \n                    Author’s Note\n                    \n                        I wish to acknowledge the assistance of colleagues Russell Cobb,",
+                    "suffix": " and Daniel Laforest, as well as Erika Luckert, the student who has worked most closely with me on the Rossdale project"
+                }
+            },
+            {
+                "id": "/target/cwt8j1axJkg/selector/css/MZ5f2q3Ks46",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/pZNUhkLuC6H]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/14157222993184972804",
+        "type": "crm:E21_Person",
+        "label": "Engel, Maureen, 1968-"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/w91lHJPaIfZ">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/w91lHJPaIfZ",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-24T15:43:22.311Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/bXSqXQCbEO9",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Edmonton Pipelines"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/bXSqXQCbEO9/selector/textPosition/z3wmuIQpdTm",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 24998,
+                "end": 25013,
+                "refinedBy": {
+                    "id": "/target/bXSqXQCbEO9/selector/textQuote/feZSOVWzGBO",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Daniel Laforest",
+                    "prefix": "\n                            \n                        \n                    \n                \n                \n                    Author’s Note\n                    \n                        I wish to acknowledge the assistance of colleagues Russell Cobb, Maureen Engel, and",
+                    "suffix": " as well as Erika Luckert, the student who has worked most closely with me on the Rossdale project"
+                }
+            },
+            {
+                "id": "/target/bXSqXQCbEO9/selector/css/biC9QBUQunO",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/w91lHJPaIfZ]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/102772238",
+        "type": "crm:E21_Person",
+        "label": "Laforest, Daniel, 1974-....",
+        "description": "Laforest, Daniel"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/OaXthNvUxaC">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/OaXthNvUxaC",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-24T15:41:15.617Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/GhVc5vLkAAY",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Edmonton Pipelines"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/GhVc5vLkAAY/selector/textPosition/OYtckgS8knN",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 25026,
+                "end": 25039,
+                "refinedBy": {
+                    "id": "/target/GhVc5vLkAAY/selector/textQuote/7x1O6O3mDd5",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Erika Luckert",
+                    "prefix": "\n                            \n                        \n                    \n                \n                \n                    Author’s Note\n                    \n                        I wish to acknowledge the assistance of colleagues Russell Cobb, Maureen Engel, and Daniel Laforest, as well as",
+                    "suffix": " the student who has worked most closely with me on the Rossdale project"
+                }
+            },
+            {
+                "id": "/target/GhVc5vLkAAY/selector/css/pG6RCCz2TbP",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/OaXthNvUxaC]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/316545930",
+        "type": "crm:E21_Person",
+        "label": "Luckert, Erika Rebecca, 1992-"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/ZWOi65It6r3">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/ZWOi65It6r3",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-24T17:54:04.095Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/2YbOLfOLQ5s",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Edmonton Pipelines"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/2YbOLfOLQ5s/selector/textPosition/rjo4RnDiwnH",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 26956,
+                "end": 26973,
+                "refinedBy": {
+                    "id": "/target/2YbOLfOLQ5s/selector/textQuote/z3J8iOpVU2x",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Pocket Essentials",
+                    "prefix": " London:",
+                    "suffix": " 2010"
+                }
+            },
+            {
+                "id": "/target/2YbOLfOLQ5s/selector/css/g1jUjhfNj0g",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/ZWOi65It6r3]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/141063678",
+        "type": "crm:E74_Group",
+        "label": "Pocket Essentials (Firm)"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/X9pCnDbPe9w">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/X9pCnDbPe9w",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-24T17:38:20.724Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/Y0ntZeeg8Lj",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Edmonton Pipelines"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/Y0ntZeeg8Lj/selector/textPosition/7WqzclHuDu0",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 27175,
+                "end": 27200,
+                "refinedBy": {
+                    "id": "/target/Y0ntZeeg8Lj/selector/textQuote/WtRUjPvMeU5",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Carolina Jakeway Roemmich",
+                    "prefix": "\n                        Goyette, Linda, and",
+                    "suffix": " Edmonton In Our Own Words"
+                }
+            },
+            {
+                "id": "/target/Y0ntZeeg8Lj/selector/css/SLCaQzUuD4F",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/X9pCnDbPe9w]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/28937000",
+        "type": "crm:E21_Person",
+        "label": "Roemmich, Carolina Jakeway, 1974-"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/3Un3Ggs3uun">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/3Un3Ggs3uun",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-24T15:33:16.613Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/HDdjQa4t1l6",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Edmonton Pipelines"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/HDdjQa4t1l6/selector/textPosition/BE8KA1kQUfF",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 27761,
+                "end": 27768,
+                "refinedBy": {
+                    "id": "/target/HDdjQa4t1l6/selector/textQuote/lEykTJm0cBw",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Mumford",
+                    "prefix": "\n                       ",
+                    "suffix": " Lewis"
+                }
+            },
+            {
+                "id": "/target/HDdjQa4t1l6/selector/css/RL7YyvOiP8o",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/3Un3Ggs3uun]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/12312890",
+        "type": "crm:E21_Person",
+        "label": "Mumford, Lewis, 1895-1990.",
+        "description": "Mumford, Lewis"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/MXmOyFDnz5r">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/MXmOyFDnz5r",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-24T15:11:40.811Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/83TMZDvugJC",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Edmonton Pipelines"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/83TMZDvugJC/selector/textPosition/plHsMs2FPlA",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 28023,
+                "end": 28032,
+                "refinedBy": {
+                    "id": "/target/83TMZDvugJC/selector/textQuote/SswHXrjKOby",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Barcelona",
+                    "prefix": "",
+                    "suffix": " actar; Bordeaux: Arc en rêve centre d’architecture, 2001"
+                }
+            },
+            {
+                "id": "/target/83TMZDvugJC/selector/css/9gNgT8W1WWx",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/MXmOyFDnz5r]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://sws.geonames.org/3128760 ",
+        "label": "Barcelona",
+        "type": "crm:E53_Place",
+        "entityType": "crm:E53_Place"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/13sDq5eyID5">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/13sDq5eyID5",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-24T15:08:25.735Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/DWWMvHU10eV",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Edmonton Pipelines"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/DWWMvHU10eV/selector/textPosition/qSufwGCA88J",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 28034,
+                "end": 28039,
+                "refinedBy": {
+                    "id": "/target/DWWMvHU10eV/selector/textQuote/FhgwnOJBXbH",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "actar",
+                    "prefix": " Barcelona:",
+                    "suffix": " Bordeaux: Arc en rêve centre d’architecture, 2001"
+                }
+            },
+            {
+                "id": "/target/DWWMvHU10eV/selector/css/PDrkRgZIoM8",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/13sDq5eyID5]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/8786159477950027990000",
+        "type": "crm:E74_Group",
+        "label": "Actar (Firma)",
+        "description": "Actar (Firme)"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/o5xbXoGgeZl">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/o5xbXoGgeZl",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-06-24T15:34:30.773Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/RwhKiq3pei0",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_06_edmonton_pipelines.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Edmonton Pipelines"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/RwhKiq3pei0/selector/textPosition/dCUKJUHn0pH",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 28041,
+                "end": 28049,
+                "refinedBy": {
+                    "id": "/target/RwhKiq3pei0/selector/textQuote/LgDDHAB3MFC",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Bordeaux",
+                    "prefix": " Barcelona: actar;",
+                    "suffix": " Arc en rêve centre d’architecture, 2001"
+                }
+            },
+            {
+                "id": "/target/RwhKiq3pei0/selector/css/SeuFZB3cwfQ",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/o5xbXoGgeZl]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://sws.geonames.org/3031582",
+        "label": "Bordeaux",
+        "type": "crm:E53_Place",
+        "entityType": "crm:E53_Place"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
 			
 </rdf:RDF>
 		
 
 		
+
+		
 </xenoData>
 	
+	
 	</standOff>
+
 
 </TEI>
