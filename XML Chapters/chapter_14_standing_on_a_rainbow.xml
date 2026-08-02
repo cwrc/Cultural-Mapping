@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>-->
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>--><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -381,7 +377,7 @@
         </fileDesc>
         <encodingDesc>
             <projectDesc>
-                <p />
+                <p/>
             </projectDesc>
             <classDecl>
                 <taxonomy>
@@ -398,14 +394,14 @@
         </profileDesc>
         <revisionDesc>
             <list>
-                <byline />
-                <item />
+                <byline/>
+                <item/>
                 <index>
-                    <term />
+                    <term/>
                 </index>
-                <byline />
+                <byline/>
                 <index>
-                    <term />
+                    <term/>
                 </index>
             </list>
         </revisionDesc>
@@ -417,7 +413,7 @@
                     <title level="a">Standing on a Rainbow</title>
                 </head>
                 <byline>Reading in Place, Position, and Time</byline>
-                <docAuthor> Margaret Mackey</docAuthor>
+                <docAuthor> <persName key="Mackey, Margaret, 1948-...." ref="http://viaf.org/viaf/105570154" ana="webannotation:http://temp.lincsproject.ca/GaajUqxASsV">Margaret Mackey</persName></docAuthor>
                 <p xml:id="p1497">
                     <ref target="#theme_or_topic">
                         <ref target="#textual_agency">Readers are material beings, placed in time and space, history and geography, and the material conditions of each reader have an inevitable impact on the reading experience. In this chapter, I address questions of how our understanding of literature may shift when we consider the materiality of the audience as well as of the text and of those responsible for its production. To increase awareness of the specificity of that material audience—in contrast to the widely studied concept of the mass audience—I focus here on two singular readers of one particular book. <ref target="#methodology">I seek to balance what I can ascertain about the readers against what I have been able to learn about the author, and against my assessment of at least some aspects of the text under consideration, <title level="m">Stand on a Rainbow</title> by <persName>Mary Quayle Innis</persName>. I then assess the conceptual implications of this tiny case study for how we may develop a principled literary map.</ref>
@@ -427,7 +423,7 @@
                 <p xml:id="p1498">
                     <ref target="#authorship">
                         <ref target="#education">
-                            <ref target="#textual_agency">As readers, we each have some sense of our own position in time and space, often almost by default. As students and scholars, we are sometimes invited to consider the importance of an author’s position in time and space. As contemporary lay readers (rather than scholars), we may also be encouraged to pay heed to the author’s persona as developed in websites, Twitter accounts, reading tours, and the like. None of these readerly stances is particularly rare; yet it is unusual to develop an awareness of a reading experience that takes account of the placement of both author and readers. One reason for the scarcity of such an approach, of course, is that readers are multiple and largely unknowable in that very plurality. <ref target="#genre">A book, simply by the fact of its existence, is designed on the broadcast model of one-to-many; to consider it in terms of one-to-one is to alter the exploration of its address in radical ways.</ref>
+                            <ref target="#textual_agency">As readers, we each have some sense of our own position in time and space, often almost by default. As students and scholars, we are sometimes invited to consider the importance of an author’s position in time and space. As contemporary lay readers (rather than scholars), we may also be encouraged to pay heed to the author’s persona as developed in websites, <orgName key="Twitter (Firm)" ref="http://viaf.org/viaf/38145970073232250833" ana="webannotation:http://temp.lincsproject.ca/Zbh2tqViGoQ">Twitter</orgName> accounts, reading tours, and the like. None of these readerly stances is particularly rare; yet it is unusual to develop an awareness of a reading experience that takes account of the placement of both author and readers. One reason for the scarcity of such an approach, of course, is that readers are multiple and largely unknowable in that very plurality. <ref target="#genre">A book, simply by the fact of its existence, is designed on the broadcast model of one-to-many; to consider it in terms of one-to-one is to alter the exploration of its address in radical ways.</ref>
                             </ref>
                         </ref>
                     </ref>
@@ -563,12 +559,12 @@
                                 <persName>Elizabeth McCurdy</persName>, my mother, has advanced Alzheimer’s. Additionally, in <date cert="high" when="2007">2007</date> she suffered a small but specific stroke that more or less destroyed her capacity to speak coherent sentences. From time to time, however, some important sentiment that can be expressed in a very short sentence will defeat the language scrambler in her brain. </ref>Not long after her debilitating stroke, I found <title level="m">Stand on a Rainbow</title> on her bookshelf and asked if I could borrow it. She agreed and managed one of her rare short remarks: <q>I love that book.</q>
                         </ref>
                     </p>
-                    <p xml:id="p1512">My mother’s copy is a library discard, but it does not indicate the name of the library. Inside the book I found a bookmark from <orgName>Munro’s Bookstore</orgName>, which indicates that she continued to read this story after she and my father moved to <placeName>Victoria</placeName> in <date cert="high" when="1994">1994</date> when she was seventy-one. If that is the case, her encounters with this novel spanned the best part of forty years and maybe more.</p>
+                    <p xml:id="p1512">My mother’s copy is a library discard, but it does not indicate the name of the library. Inside the book I found a bookmark from <orgName><persName key="Munro's Books" ref="https://www.wikidata.org/wiki/Q6936821" ana="webannotation:http://temp.lincsproject.ca/eimhubpyrZh">Munro</persName>’s Bookstore</orgName>, which indicates that she continued to read this story after she and my father moved to <placeName>Victoria</placeName> in <date cert="high" when="1994">1994</date> when she was seventy-one. If that is the case, her encounters with this novel spanned the best part of forty years and maybe more.</p>
                     <p xml:id="p1513">
                         <ref target="#theme_or_topic">
                             <ref target="#genre_lifeWriting">
                                 <ref target="#spatiality">
-                                    <title level="m">Stand on a Rainbow</title> was published in <date cert="high" when="1943">1943</date>, the year my mother married my father. I do not know when she first read it. The parallels between the events of the book and her personal life are many. <ref target="#spatiality">Although the geography of the autobiographical narrative is not specified, <persName>Mary Quayle Innis</persName> and her husband lived and worked in the <placeName>Toronto</placeName> region. The book begins and ends in cottage country, and the case for a <placeName>southern Ontario</placeName> setting is reasonably strong.</ref>
+                                    <title level="m">Stand on a Rainbow</title> was published in <date cert="high" when="1943">1943</date>, the year my mother married my father. I do not know when she first read it. The parallels between the events of the book and her personal life are many. <ref target="#spatiality">Although the geography of the autobiographical narrative is not specified, <persName>Mary Quayle Innis</persName> and her husband lived and worked in the <placeName>Toronto</placeName> region. The book begins and ends in cottage country, and the case for a <placeName>southern <placeName key="Ontario" ref="https://sws.geonames.org/6093943" ana="webannotation:http://temp.lincsproject.ca/ISY1GVHgwgH">Ontario</placeName></placeName> setting is reasonably strong.</ref>
                                 </ref>
                             </ref>
                         </ref>
@@ -583,7 +579,7 @@
                                         </listEvent>
                                     </ref>, times were so hard that there were days when the six children ate porridge for breakfast and porridge again for supper because their parents could afford only one proper meal a day (and that one heavy on potatoes).</ref>
                             </ref>
-                            <ref target="#spatiality">But during at least two summers, they rented a cottage in <placeName>Merigomish, Nova Scotia</placeName>
+                            <ref target="#spatiality">But during at least two summers, they rented a cottage in <placeName><placeName key="Merigomish" ref="https://sws.geonames.org/6072277" ana="webannotation:http://temp.lincsproject.ca/9EiJaSqna2V">Merigomish</placeName>, Nova Scotia</placeName>
                             </ref>, and my mother knew the intense pleasures of the summer escape that are described vividly in this book. Leslie is devoted to the charms of berry picking (making jam is her favourite domestic activity). My mother also liked to pick berries but she was even more attracted to the delights of wild flowers, and was knowledgeable about their names and habitats. Leslie’s choice is more domestic and productive; my mother’s preference led to nothing but pleasure. <ref target="#tone_or_style">I strongly suspect that the lyrical sections of the book, limning the joys of summer in the country or an ice storm in the city, spoke to her in important ways.</ref>
                             <ref target="#textual_agency">Contemporary readers often value <q>relatability,</q> a neologism that perhaps arises directly out of current reading practices; while I am certain my mother <q>related</q> to <title level="m">Stand on a Rainbow</title>, I believe she also relished the delights of the kind of lyrical description that featured more prominently in an earlier age of vernacular reading than in today’s relatable novels. <ref target="#spatiality">Readers belong to their time as well as to their place.</ref>
                             </ref>
@@ -623,8 +619,8 @@
                                     <ref target="#economics">In addition to her novel, Mary Quayle Innis wrote <title level="m">An Economic History of Canada</title>, which became a standard university textbook in its revised edition (also published in <date cert="high" when="1943">1943</date>).</ref>
                                 </ref>
                             </ref>
-                            <ref target="#education">After Harold Innis died, she served as dean of women at <orgName>University College in Toronto</orgName> for nine years, and was a Canadian delegate to the Commonwealth Conference on Education in <placeName>Oxford</placeName> in <date cert="high" when="1959">1959</date>.</ref>
-                            <ref target="#response_formal">She edited her husband’s work, and communications scholar <persName>J. David Black</persName> has devoted an extensive article to teasing out ways in which her own scholarly interests and background may have fed into Harold Innis’s widely known theories of communication.</ref>
+                            <ref target="#education">After Harold Innis died, she served as dean of women at <orgName><orgName key="University College" ref="https://www.wikidata.org/wiki/Q3551334" ana="webannotation:http://temp.lincsproject.ca/X0iZ5K8zv0G">University College</orgName> in Toronto</orgName> for nine years, and was a Canadian delegate to the Commonwealth Conference on Education in <placeName>Oxford</placeName> in <date cert="high" when="1959">1959</date>.</ref>
+                            <ref target="#response_formal">She edited her husband’s work, and communications scholar <persName>J. David Black</persName> has devoted an extensive article to teasing out ways in which her own scholarly interests and background may have fed into <persName key="Innis, Harold Adams, 1894-1952" ref="http://viaf.org/viaf/2643958" ana="webannotation:http://temp.lincsproject.ca/0NG0PJCjRzn">Harold Innis’s</persName> widely known theories of communication.</ref>
                         </ref>
                     </p>
                     <p xml:id="p1521">
@@ -634,10 +630,10 @@
                                 <bibl>435</bibl>
                             </note>. <ref target="#response_formal">
                                 <ref target="#genre_novel">According to Innis’s daughter <persName>Anne</persName>, <title level="m">Stand on a Rainbow</title> is highly autobiographical: <q>
-                                        <ref target="#class_issue">The novel is an account of a year in the life of a middle-class family, and according to Anne Innis Dagg, is drawn almost entirely from incidents in Mary’s domestic life</ref>
+                                        <ref target="#class_issue">The novel is an account of a year in the life of a middle-class family, and according to <persName key="Dagg, Anne Innis" ref="http://viaf.org/viaf/94279797" ana="webannotation:http://temp.lincsproject.ca/Yji0Hz0N74A">Anne Innis Dagg</persName>, is drawn almost entirely from incidents in <persName key="Innis, Mary Quayle, 1899-1972" ref="http://viaf.org/viaf/67707952" ana="webannotation:http://temp.lincsproject.ca/KOHlR2sOp7N">Mary</persName>’s domestic life</ref>
                                     </q>
                                     <note place="inline">
-                                        <bibl>Black 437</bibl>
+                                        <bibl><title key="Black, J. David (John David), 1964-" ref="http://viaf.org/viaf/26729704" ana="webannotation:http://temp.lincsproject.ca/7u4GFjqR8I2">Black 437</title></bibl>
                                     </note>. Mary Quayle Innis, according to her daughter, was frustrated at being taken only as an academic wife, not as an academic in her own right <note place="inline">
                                         <bibl>Black 437</bibl>
                                     </note>.</ref> The frustration certainly made its way into the novel but her autonomous academic achievements did not.</ref>
@@ -796,7 +792,7 @@
                     <head>Grounded Reading</head>
                     <p xml:id="p1542">
                         <ref target="#spatiality">
-                            <ref target="#textual_agency">My mother and I occupied the same space and time as we read <title level="m">Stand on a Rainbow</title> in the <date cert="high" from="1960-01-01" to="1965-12-31">early 1960s</date> in <placeName>St. John’s, Newfoundland</placeName>. But how we related our reading to our situation in time and space was different in a variety of vital ways.</ref>
+                            <ref target="#textual_agency">My mother and I occupied the same space and time as we read <title level="m">Stand on a Rainbow</title> in the <date cert="high" from="1960-01-01" to="1965-12-31">early 1960s</date> in <placeName><placeName key="St. John's" ref="https://sws.geonames.org/6324733" ana="webannotation:http://temp.lincsproject.ca/wceZI3nDZL7">St. John’s</placeName>, Newfoundland</placeName>. But how we related our reading to our situation in time and space was different in a variety of vital ways.</ref>
                         </ref>
                     </p>
                     <p xml:id="p1543">
@@ -833,17 +829,1996 @@
                 </div>
                 <div type="section">
                     <head>works cited</head>
-                    <bibl>Black, J. David. <title level="a">‘Both of Us Can Move Mountains’: Mary Quayle Innis and Her Relationship to Harold Innis’ Legacy.</title>
-                        <title level="j">Canadian Journal of Communication</title> 28 (2003): 433–47.</bibl>
-                    <bibl>Friedan, Betty. <title level="m">The Feminine Mystique</title>. New York: Dell, 1963.</bibl>
-                    <bibl>Fuller, Danielle. <title level="a">Listening to the Readers of ‘Canada Reads.’</title>
+                    <bibl>Black, <persName key="Black, J. David (John David), 1964-" ref="http://viaf.org/viaf/26729704" ana="webannotation:http://temp.lincsproject.ca/sf1aIWkJeXp">J. David</persName>. <title level="a">‘Both of Us Can Move Mountains’: Mary Quayle Innis and Her Relationship to <persName key="Innis, Harold Adams, 1894-1952" ref="http://viaf.org/viaf/2643958" ana="webannotation:http://temp.lincsproject.ca/3iOVIiOk2OY">Harold Innis’</persName> Legacy.</title>
+                        <title level="j"><orgName key="Canadian Journal of Communication" ref="http://www.wikidata.org/entity/Q30294995" ana="webannotation:http://temp.lincsproject.ca/YRYzkkuWcws">Canadian Journal of Communication</orgName></title> 28 (2003): 433–47.</bibl>
+                    <bibl><persName key="Friedan, Betty, 1921-2006" ref="http://viaf.org/viaf/49225729" ana="webannotation:http://temp.lincsproject.ca/EPpZIqxTePI">Friedan</persName>, <persName key="Friedan, Betty, 1921-2006" ref="http://viaf.org/viaf/49225729" ana="webannotation:http://temp.lincsproject.ca/UhONU7xDQXG">Betty</persName>. <title level="m">The Feminine Mystique</title>. <placeName key="New York City" ref="https://sws.geonames.org/5128581" ana="webannotation:http://temp.lincsproject.ca/MblRWO3euWk">New York</placeName>: <orgName key="Dell Publishing" ref="https://www.wikidata.org/wiki/Q2075464" ana="webannotation:http://temp.lincsproject.ca/ueHOBEOysoo">Dell</orgName>, 1963.</bibl>
+                    <bibl><persName key="Fuller, Danielle." ref="http://viaf.org/viaf/15049126" ana="webannotation:http://temp.lincsproject.ca/q43SBeMePPM">Fuller</persName>, <persName key="Fuller, Danielle." ref="http://viaf.org/viaf/15049126" ana="webannotation:http://temp.lincsproject.ca/LFMKj4CbLYu">Danielle</persName>. <title level="a">Listening to the Readers of ‘Canada Reads.’</title>
                         <title level="j">Canadian Literature</title> 193 (Summer 2007): 11–34.</bibl>
                     <bibl>Innis, Mary Quayle. <title>Mary Quayle Innis fonds.</title>
-                        <title>GA 127</title>. Special Collections, University of Waterloo Library. <ref target="https://uwaterloo.ca/library/special-collections-archives/collections/innis-mary-quayle-fonds">https://uwaterloo.ca/library/special-collections-archives/collections/innis-mary-quayle-fonds</ref>
+                        <title>GA 127</title>. Special Collections, <orgName key="University of Waterloo. Library." ref="http://viaf.org/viaf/141587796" ana="webannotation:http://temp.lincsproject.ca/9bjXf0dDTRB">University of Waterloo Library</orgName>. <ref target="https://uwaterloo.ca/library/special-collections-archives/collections/innis-mary-quayle-fonds">https://uwaterloo.ca/library/special-collections-archives/collections/innis-mary-quayle-fonds</ref>
                     </bibl>
-                    <bibl>. <title level="m">Stand on a Rainbow</title>. Toronto: William Collins, 1943.</bibl>
+                    <bibl>. <title level="m">Stand on a Rainbow</title>. Toronto: <persName key="William Collins Publishers" ref="http://viaf.org/viaf/144898842" ana="webannotation:http://temp.lincsproject.ca/w3zsONm5DYN">William Collins</persName>, 1943.</bibl>
                 </div>
             </div>
         </body>
     </text>
+	<standOff type="annotation">
+		
+<xenoData>
+			
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/GaajUqxASsV">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/GaajUqxASsV",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-07-16T02:16:50.345Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/4EiUttr9saz",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Standing on a Rainbow"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/4EiUttr9saz/selector/textPosition/ThfG4lfHi4n",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 169,
+                "end": 184,
+                "refinedBy": {
+                    "id": "/target/4EiUttr9saz/selector/textQuote/KPgJOQpYDN8",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Margaret Mackey",
+                    "prefix": "\n        \n            \n                \n                    Standing on a Rainbow\n                \n                Reading in Place, Position, and Time\n                ",
+                    "suffix": "                \n                    \n                        Readers are material beings, placed in time and space, history and geography, and the material conditions of each reader have an inevitable impact on the reading experience"
+                }
+            },
+            {
+                "id": "/target/4EiUttr9saz/selector/css/JCk2GFNVr6Y",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/eZ2H6O5tEmS]"
+            },
+            {
+                "id": "/target/4EiUttr9saz/selector/css/s9svyiSHCie",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/GaajUqxASsV]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/105570154",
+        "type": "crm:E21_Person",
+        "label": "Mackey, Margaret, 1948-....",
+        "description": "Mackey, Margaret"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/Zbh2tqViGoQ">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/Zbh2tqViGoQ",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-07-15T19:35:41.393Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/1GRumKoBPxJ",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Standing on a Rainbow"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/1GRumKoBPxJ/selector/textPosition/Y3AWS7FWtDQ",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 1685,
+                "end": 1692,
+                "refinedBy": {
+                    "id": "/target/1GRumKoBPxJ/selector/textQuote/HS4qQq8HodB",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Twitter",
+                    "prefix": " As contemporary lay readers (rather than scholars), we may also be encouraged to pay heed to the author’s persona as developed in websites,",
+                    "suffix": "accounts, reading tours, and the like"
+                }
+            },
+            {
+                "id": "/target/1GRumKoBPxJ/selector/css/rrdZHh7jFbG",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/Zbh2tqViGoQ]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/38145970073232250833",
+        "type": "crm:E74_Group",
+        "label": "Twitter (Firm)",
+        "description": "Twitter (selskap)"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/ISY1GVHgwgH">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/ISY1GVHgwgH",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-07-16T02:33:09.980Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/FBYAEzjwBWc",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Standing on a Rainbow"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/FBYAEzjwBWc/selector/textPosition/hfrgj4GijO3",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 15497,
+                "end": 15504,
+                "refinedBy": {
+                    "id": "/target/FBYAEzjwBWc/selector/textQuote/1MXvztywlyO",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Ontario",
+                    "prefix": " The book begins and ends in cottage country, and the case for a southern",
+                    "suffix": "setting is reasonably strong"
+                }
+            },
+            {
+                "id": "/target/FBYAEzjwBWc/selector/css/pkDes7LlzVy",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/ISY1GVHgwgH]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://sws.geonames.org/6093943",
+        "type": "crm:E53_Place",
+        "label": "Ontario",
+        "description": "Ontario, CA"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/9EiJaSqna2V">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/9EiJaSqna2V",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-07-16T02:33:14.936Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/kXb0vz7vUr6",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Standing on a Rainbow"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/kXb0vz7vUr6/selector/textPosition/W0ex8H2UT0v",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 16489,
+                "end": 16499,
+                "refinedBy": {
+                    "id": "/target/kXb0vz7vUr6/selector/textQuote/ZKnXCPn9EnA",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Merigomish",
+                    "prefix": "\n                            \n                            But during at least two summers, they rented a cottage in",
+                    "suffix": " Nova Scotia\n                            , and my mother knew the intense pleasures of the summer escape that are described vividly in this book"
+                }
+            },
+            {
+                "id": "/target/kXb0vz7vUr6/selector/css/DvxXPaf4Iks",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/9EiJaSqna2V]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://sws.geonames.org/6072277",
+        "type": "crm:E53_Place",
+        "label": "Merigomish",
+        "description": "Nova Scotia, CA"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/wceZI3nDZL7">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/wceZI3nDZL7",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-07-16T00:35:54.414Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/Kx5jyQNDV43",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Standing on a Rainbow"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/Kx5jyQNDV43/selector/textPosition/oWVYKTFac61",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 39708,
+                "end": 39718,
+                "refinedBy": {
+                    "id": "/target/Kx5jyQNDV43/selector/textQuote/aVQIYM9QmOk",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "St. John’s",
+                    "prefix": "\n                            \n                        \n                    \n                \n                \n                    Grounded Reading\n                    \n                        \n                            My mother and I occupied the same space and time as we read Stand on a Rainbow in the early 1960s in",
+                    "suffix": " Newfoundland"
+                }
+            },
+            {
+                "id": "/target/Kx5jyQNDV43/selector/css/UwrkyxNfkhP",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/wceZI3nDZL7]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://sws.geonames.org/6324733",
+        "type": "crm:E53_Place",
+        "label": "St. John's",
+        "description": "Newfoundland and Labrador, CA"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/sf1aIWkJeXp">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/sf1aIWkJeXp",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-07-16T02:31:39.575Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/X60FZvemgcK",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Standing on a Rainbow"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/X60FZvemgcK/selector/textPosition/cvVVCXSCwiZ",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 45324,
+                "end": 45332,
+                "refinedBy": {
+                    "id": "/target/X60FZvemgcK/selector/textQuote/fAThI4xVdgv",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "J. David",
+                    "prefix": " How can we acknowledge and make space for the variegated and transient power of that rainbow in our scholarly record keeping? Is it not time to take up that challenge?\n                        \n                    \n                \n                \n                    works cited\n                    Black,",
+                    "suffix": " ‘Both of Us Can Move Mountains’: Mary Quayle Innis and Her Relationship to Harold Innis’ Legacy"
+                }
+            },
+            {
+                "id": "/target/X60FZvemgcK/selector/css/cev31MF9P4r",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/sf1aIWkJeXp]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/26729704",
+        "label": "Black, J. David (John David), 1964-",
+        "type": "crm:E21_Person",
+        "entityType": "crm:E21_Person"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/3iOVIiOk2OY">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/3iOVIiOk2OY",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-07-16T00:36:48.848Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/UQU5QYdDSv2",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Standing on a Rainbow"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/UQU5QYdDSv2/selector/textPosition/BRhYlh8eGGn",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 45409,
+                "end": 45422,
+                "refinedBy": {
+                    "id": "/target/UQU5QYdDSv2/selector/textQuote/XpXenIYSdmY",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Harold Innis’",
+                    "prefix": " ‘Both of Us Can Move Mountains’: Mary Quayle Innis and Her Relationship to",
+                    "suffix": "Legacy"
+                }
+            },
+            {
+                "id": "/target/UQU5QYdDSv2/selector/css/mloGAgAb79G",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/3iOVIiOk2OY]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/2643958",
+        "type": "crm:E21_Person",
+        "label": "Innis, Harold Adams, 1894-1952",
+        "description": "Innis, Harold A., 1894-1952"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/YRYzkkuWcws">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/YRYzkkuWcws",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-07-15T19:34:18.289Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/Nnc8wPX0mjm",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Standing on a Rainbow"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/Nnc8wPX0mjm/selector/textPosition/EMxiQoVEI1u",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 45455,
+                "end": 45488,
+                "refinedBy": {
+                    "id": "/target/Nnc8wPX0mjm/selector/textQuote/TN6opfq5aUB",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Canadian Journal of Communication",
+                    "prefix": "\n                       ",
+                    "suffix": "28 (2003): 433–47"
+                }
+            },
+            {
+                "id": "/target/Nnc8wPX0mjm/selector/css/epHceLoyAPx",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/YRYzkkuWcws]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q30294995",
+        "type": "frbroo:F1",
+        "label": "Canadian Journal of Communication",
+        "description": "independent academic journal owned by its subscribers"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/EPpZIqxTePI">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/EPpZIqxTePI",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-07-16T00:32:25.245Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/JUaxBgUxVPy",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Standing on a Rainbow"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/JUaxBgUxVPy/selector/textPosition/FJKWNzFWAdN",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 45528,
+                "end": 45535,
+                "refinedBy": {
+                    "id": "/target/JUaxBgUxVPy/selector/textQuote/Y2743EIibnn",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Friedan",
+                    "prefix": "\n                   ",
+                    "suffix": " Betty"
+                }
+            },
+            {
+                "id": "/target/JUaxBgUxVPy/selector/css/kDYFvmz2AAg",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/EPpZIqxTePI]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/49225729",
+        "type": "crm:E21_Person",
+        "label": "Friedan, Betty, 1921-2006",
+        "description": "Friedan, Betty"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/UhONU7xDQXG">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/UhONU7xDQXG",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-07-16T00:32:20.085Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/XrQW0P3BsWj",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Standing on a Rainbow"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/XrQW0P3BsWj/selector/textPosition/EzCDXkaHWCY",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 45537,
+                "end": 45542,
+                "refinedBy": {
+                    "id": "/target/XrQW0P3BsWj/selector/textQuote/77FSG8Dsshw",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Betty",
+                    "prefix": "\n                    Friedan,",
+                    "suffix": " The Feminine Mystique"
+                }
+            },
+            {
+                "id": "/target/XrQW0P3BsWj/selector/css/GnLCk58ds30",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/UhONU7xDQXG]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/49225729",
+        "type": "crm:E21_Person",
+        "label": "Friedan, Betty, 1921-2006",
+        "description": "Friedan, Betty"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/MblRWO3euWk">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/MblRWO3euWk",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-07-16T00:35:23.380Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/xqalRt144wP",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Standing on a Rainbow"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/xqalRt144wP/selector/textPosition/xYWlHJ7HJUp",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 45567,
+                "end": 45575,
+                "refinedBy": {
+                    "id": "/target/xqalRt144wP/selector/textQuote/Jk5hwgwsYxQ",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "New York",
+                    "prefix": "",
+                    "suffix": " Dell, 1963"
+                }
+            },
+            {
+                "id": "/target/xqalRt144wP/selector/css/ROp3iQpcXpV",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/MblRWO3euWk]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://sws.geonames.org/5128581",
+        "type": "crm:E53_Place",
+        "label": "New York City",
+        "description": "New York, US"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/ueHOBEOysoo">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/ueHOBEOysoo",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-07-16T00:34:24.919Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/OyrKEtJfleo",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Standing on a Rainbow"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/OyrKEtJfleo/selector/textPosition/aHprej4H53n",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 45577,
+                "end": 45581,
+                "refinedBy": {
+                    "id": "/target/OyrKEtJfleo/selector/textQuote/aySdWdkj89Y",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Dell",
+                    "prefix": " New York:",
+                    "suffix": " 1963"
+                }
+            },
+            {
+                "id": "/target/OyrKEtJfleo/selector/css/1aPRJKjTHY4",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/ueHOBEOysoo]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://www.wikidata.org/wiki/Q2075464",
+        "label": "Dell Publishing",
+        "type": "crm:E74_Group",
+        "entityType": "crm:E74_Group"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/q43SBeMePPM">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/q43SBeMePPM",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-07-16T00:37:11.823Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/LXi4941lOlZ",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Standing on a Rainbow"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/LXi4941lOlZ/selector/textPosition/HBjF7YNWVmB",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 45609,
+                "end": 45615,
+                "refinedBy": {
+                    "id": "/target/LXi4941lOlZ/selector/textQuote/K8cx7KeKEvn",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Fuller",
+                    "prefix": "\n                   ",
+                    "suffix": " Danielle"
+                }
+            },
+            {
+                "id": "/target/LXi4941lOlZ/selector/css/k7eegPqWfth",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/q43SBeMePPM]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/15049126",
+        "type": "crm:E21_Person",
+        "label": "Fuller, Danielle.",
+        "description": "Fuller, Danielle, 1968-...."
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/LFMKj4CbLYu">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/LFMKj4CbLYu",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-07-16T00:31:54.382Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/jgL5MD8Cg7N",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Standing on a Rainbow"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/jgL5MD8Cg7N/selector/textPosition/Xy6dQGoa0CD",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 45617,
+                "end": 45625,
+                "refinedBy": {
+                    "id": "/target/jgL5MD8Cg7N/selector/textQuote/NL5JqUbfasb",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Danielle",
+                    "prefix": "\n                    Fuller,",
+                    "suffix": " Listening to the Readers of ‘Canada Reads"
+                }
+            },
+            {
+                "id": "/target/jgL5MD8Cg7N/selector/css/RKo1eiAVS7l",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/LFMKj4CbLYu]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/15049126",
+        "type": "crm:E21_Person",
+        "label": "Fuller, Danielle.",
+        "description": "Fuller, Danielle, 1968-...."
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/9bjXf0dDTRB">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/9bjXf0dDTRB",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-07-15T19:33:03.184Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/Grn2N50ORBf",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Standing on a Rainbow"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/Grn2N50ORBf/selector/textPosition/NTCdTWaiWPp",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 45859,
+                "end": 45889,
+                "refinedBy": {
+                    "id": "/target/Grn2N50ORBf/selector/textQuote/6f89G7EGAvQ",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "University of Waterloo Library",
+                    "prefix": " Special Collections,",
+                    "suffix": " https://uwaterloo"
+                }
+            },
+            {
+                "id": "/target/Grn2N50ORBf/selector/css/SURmfXH5ujR",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/9bjXf0dDTRB]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/141587796",
+        "type": "crm:E74_Group",
+        "label": "University of Waterloo. Library."
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/eimhubpyrZh">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/eimhubpyrZh",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-07-16T12:56:49.116Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/6qfU78TFnWR",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Standing on a Rainbow"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/6qfU78TFnWR/selector/textPosition/7RY5nb4TXbj",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 14682,
+                "end": 14687,
+                "refinedBy": {
+                    "id": "/target/6qfU78TFnWR/selector/textQuote/4U2a3gnPfW0",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Munro",
+                    "prefix": " Inside the book I found a bookmark from",
+                    "suffix": "s Bookstore, which indicates that she continued to read this story after she and my father moved to Victoria in 1994 when she was seventy-one"
+                }
+            },
+            {
+                "id": "/target/6qfU78TFnWR/selector/css/E4b9tdiH3yM",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/eimhubpyrZh]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://www.wikidata.org/wiki/Q6936821",
+        "label": "Munro's Books",
+        "type": "crm:E74_Group",
+        "entityType": "crm:E74_Group"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/X0iZ5K8zv0G">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/X0iZ5K8zv0G",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-07-16T12:36:24.239Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/5QpweCW7poK",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Standing on a Rainbow"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/5QpweCW7poK/selector/textPosition/WyvTODPxiNM",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 21893,
+                "end": 21911,
+                "refinedBy": {
+                    "id": "/target/5QpweCW7poK/selector/textQuote/z0A22V2pB38",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "University College",
+                    "prefix": "\n                                \n                            \n                            After Harold Innis died, she served as dean of women at",
+                    "suffix": "in Toronto for nine years, and was a Canadian delegate to the Commonwealth Conference on Education in Oxford in 1959"
+                }
+            },
+            {
+                "id": "/target/5QpweCW7poK/selector/css/Ps0gUDleBvx",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/X0iZ5K8zv0G]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://www.wikidata.org/wiki/Q3551334",
+        "label": "University College",
+        "type": "crm:E74_Group",
+        "entityType": "crm:E74_Group"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/0NG0PJCjRzn">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/0NG0PJCjRzn",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-07-16T12:47:23.095Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/Ocp9hWjOlOv",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Standing on a Rainbow"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/Ocp9hWjOlOv/selector/textPosition/HXyJsjkDueP",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 22254,
+                "end": 22268,
+                "refinedBy": {
+                    "id": "/target/Ocp9hWjOlOv/selector/textQuote/Rw0Wh53WyT6",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Harold Innis’s",
+                    "prefix": " David Black has devoted an extensive article to teasing out ways in which her own scholarly interests and background may have fed into",
+                    "suffix": "widely known theories of communication"
+                }
+            },
+            {
+                "id": "/target/Ocp9hWjOlOv/selector/css/WH049Un9UQy",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/0NG0PJCjRzn]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/2643958",
+        "label": "Innis, Harold Adams, 1894-1952",
+        "type": "crm:E21_Person",
+        "entityType": "crm:E21_Person"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/Yji0Hz0N74A">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/Yji0Hz0N74A",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-07-16T12:47:50.528Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/MxjLzp1JvMd",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Standing on a Rainbow"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/MxjLzp1JvMd/selector/textPosition/hSMRfDCGkEe",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 22854,
+                "end": 22869,
+                "refinedBy": {
+                    "id": "/target/MxjLzp1JvMd/selector/textQuote/vgfdtNsnnQn",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Anne Innis Dagg",
+                    "prefix": " \n                                According to Innis’s daughter Anne, Stand on a Rainbow is highly autobiographical: \n                                        The novel is an account of a year in the life of a middle-class family, and according to",
+                    "suffix": " is drawn almost entirely from incidents in Mary’s domestic life\n                                    \n                                    \n                                        Black 437\n                                    "
+                }
+            },
+            {
+                "id": "/target/MxjLzp1JvMd/selector/css/6advM9hvtz8",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/Yji0Hz0N74A]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/94279797",
+        "type": "crm:E21_Person",
+        "label": "Dagg, Anne Innis",
+        "description": "Dagg, Anne Innis, 1933-"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/KOHlR2sOp7N">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/KOHlR2sOp7N",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-07-16T12:50:35.158Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/iNBukFg4sVU",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Standing on a Rainbow"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/iNBukFg4sVU/selector/textPosition/ZZsoH4nevZ4",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 22914,
+                "end": 22918,
+                "refinedBy": {
+                    "id": "/target/iNBukFg4sVU/selector/textQuote/wNqusinqZ8i",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Mary",
+                    "prefix": " \n                                According to Innis’s daughter Anne, Stand on a Rainbow is highly autobiographical: \n                                        The novel is an account of a year in the life of a middle-class family, and according to Anne Innis Dagg, is drawn almost entirely from incidents in",
+                    "suffix": "s domestic life\n                                    \n                                    \n                                        Black 437\n                                    "
+                }
+            },
+            {
+                "id": "/target/iNBukFg4sVU/selector/css/Q5EE9Xm11ya",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/KOHlR2sOp7N]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/67707952",
+        "type": "crm:E21_Person",
+        "label": "Innis, Mary Quayle, 1899-1972",
+        "description": "Innis, Mary Quayle"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/7u4GFjqR8I2">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/7u4GFjqR8I2",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-07-16T12:38:24.888Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/ta0s2lVZllG",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Standing on a Rainbow"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/ta0s2lVZllG/selector/textPosition/zg7iFZjtzNY",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 23049,
+                "end": 23058,
+                "refinedBy": {
+                    "id": "/target/ta0s2lVZllG/selector/textQuote/FAT3trG6pox",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Black 437",
+                    "prefix": " \n                                According to Innis’s daughter Anne, Stand on a Rainbow is highly autobiographical: \n                                        The novel is an account of a year in the life of a middle-class family, and according to Anne Innis Dagg, is drawn almost entirely from incidents in Mary’s domestic life\n                                    \n                                    \n                                       ",
+                    "suffix": "                                    "
+                }
+            },
+            {
+                "id": "/target/ta0s2lVZllG/selector/css/QOI1BPCq6vp",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/7u4GFjqR8I2]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/26729704",
+        "label": "Black, J. David (John David), 1964-",
+        "type": "crm:E21_Person",
+        "entityType": "crm:E21_Person"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/w3zsONm5DYN">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/w3zsONm5DYN",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-07-16T12:52:56.290Z",
+    "creator": {
+        "id": "https://github.com/melisstuniewicz9",
+        "type": "crm:E21_Person",
+        "name": "Melissa Tuniewicz"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/uBQkQ3FqFtO",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_14_standing_on_a_rainbow.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Standing on a Rainbow"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/uBQkQ3FqFtO/selector/textPosition/KcvJATuvmN7",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 46057,
+                "end": 46072,
+                "refinedBy": {
+                    "id": "/target/uBQkQ3FqFtO/selector/textQuote/3VlJ1uVxxmb",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "William Collins",
+                    "prefix": " Toronto:",
+                    "suffix": " 1943"
+                }
+            },
+            {
+                "id": "/target/uBQkQ3FqFtO/selector/css/ulp80blVIQc",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/w3zsONm5DYN]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/144898842",
+        "label": "William Collins Publishers",
+        "type": "crm:E74_Group",
+        "entityType": "crm:E74_Group"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+			
+</rdf:RDF>
+		
+
+		
+</xenoData>
+	
+	</standOff>
+
 </TEI>
