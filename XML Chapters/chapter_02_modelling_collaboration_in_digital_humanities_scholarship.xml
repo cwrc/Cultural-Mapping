@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>--><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>-->
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -377,7 +381,7 @@
         </fileDesc>
         <encodingDesc>
             <projectDesc>
-                <p/>
+                <p />
             </projectDesc>
             <classDecl>
                 <taxonomy>
@@ -394,14 +398,14 @@
         </profileDesc>
         <revisionDesc>
             <list>
-                <byline/>
-                <item/>
+                <byline />
+                <item />
                 <index>
-                    <term/>
+                    <term />
                 </index>
-                <byline/>
+                <byline />
                 <index>
-                    <term/>
+                    <term />
                 </index>
             </list>
         </revisionDesc>
@@ -417,7 +421,7 @@
                 <q type="block">
                     <ref target="#education">In the humanities, Ms. <persName key="Toth, Emily." ref="http://viaf.org/viaf/27133714" ana="webannotation:http://temp.lincsproject.ca/Rb4n1kezdka">Mentor</persName> regrets to say, things are murky from the start. As underlings in the academic hierarchy, graduate students are supposed to be humbly grateful for all the training they can imbibe. Sometimes they’re paid, but often they receive only an inside-the-book acknowledgment.…<ref target="#collaboration">Generous mentors can create once-in-a-lifetime opportunities. <persName key="Ambrose, Stephen E., 1936-2002." ref="http://viaf.org/viaf/109151847" ana="webannotation:http://temp.lincsproject.ca/AAnJf9nhRzJ" type="real" cert="high">Stephen Ambrose’s</persName> students, for instance, spent summers retracing <ref target="#history">the steps of <persName key="Lewis, Meriwether, 1774-1809." ref="http://viaf.org/viaf/64071776" ana="webannotation:http://temp.lincsproject.ca/ADcTHQRFNoM" type="real" cert="high">Lewis</persName> and <persName key="Clark, William, 1770-1838." ref="http://viaf.org/viaf/24667398" ana="webannotation:http://temp.lincsproject.ca/hPoocaEIuCK" type="real" cert="high">Clark</persName> with their professor—sharing discoveries over campfires first, and later in books and articles.</ref> Theirs was a genuine community of scholars.</ref>
                     </ref>
-                    <lb/> —<bibl>Ms. Mentor [<persName key="Toth, Emily." ref="http://viaf.org/viaf/27133714" ana="webannotation:http://temp.lincsproject.ca/Tt3H6VkMrhm" type="real" cert="high">Emily Toth</persName>], <title level="a">Who Owns Your Mind?</title>
+                    <lb /> —<bibl>Ms. Mentor [Emily Toth], <title level="a">Who Owns Your Mind?</title>
                         <title level="j">Chronicle of Higher Education</title>
                     </bibl>
                 </q>
@@ -449,18 +453,18 @@
                     </p>
                     <p xml:id="p1077">
                         <ref target="#writing_climate">Even if we could isolate these issues, there are challenges enough. One challenge is working across traditional disciplinary boundaries within the humanities themselves—between English and theatre or art history, for example—a difficulty that should neither be overlooked nor underestimated.</ref>
-                        <ref target="#collaboration">Collaborating within a discipline is no easy matter; it involves not only adjusting to another researcher’s personality, understanding the subject in question and each other’s work habits, but also trusting that the additional work necessitated by collaboration is more than offset by the reward. <ref target="#technology">Collaborating on a digital humanities project, however, involves working not just across disciplinary boundaries but also at what <persName key="Brown, Susan Irene" ref="http://viaf.org/viaf/104953085" ana="webannotation:http://temp.lincsproject.ca/LYXzV8mwdRe" type="real" cert="high">Brown</persName> terms <q>the interface of the digital-humanities divide</q>
+                        <ref target="#collaboration">Collaborating within a discipline is no easy matter; it involves not only adjusting to another researcher’s personality, understanding the subject in question and each other’s work habits, but also trusting that the additional work necessitated by collaboration is more than offset by the reward. <ref target="#technology">Collaborating on a digital humanities project, however, involves working not just across disciplinary boundaries but also at what Brown terms <q>the interface of the digital-humanities divide</q>
                                 <note place="inline">
                                     <bibl>218</bibl>
-                                </note>. Assessing the current state of digital humanities scholarship, <persName key="Brown, Susan Irene" ref="http://viaf.org/viaf/104953085" ana="webannotation:http://temp.lincsproject.ca/V4NfitDpN7Z">Brown</persName> argues that <q>it will be a major and crucial undertaking to imbue technical systems for the humanities with sensitivity to the complexities of language and discourse, an undertaking in which humanists need to be involved</q>
+                                </note>. Assessing the current state of digital humanities scholarship, Brown argues that <q>it will be a major and crucial undertaking to imbue technical systems for the humanities with sensitivity to the complexities of language and discourse, an undertaking in which humanists need to be involved</q>
                                 <note place="inline">
                                     <bibl>218</bibl>
-                                </note>. The final phrase of that sentence underscores both the urgent need for humanists to engage in digital scholarship and their reluctance to do so. <persName key="Brown, Susan Irene" ref="http://viaf.org/viaf/104953085" ana="webannotation:http://temp.lincsproject.ca/Vg3AGiWCSi3">Brown</persName> adds, <q>Since digital modes of scholarly production are highly experimental, working at the interface of the digital-humanities divide constitutes, in itself, research, provided that the two aspects of the research seriously engage with one another. <ref target="#canon_formation">This includes archival development, creating generalized digital tools for access or analysis, or developing new pedagogies or critical literacies</ref>
+                                </note>. The final phrase of that sentence underscores both the urgent need for humanists to engage in digital scholarship and their reluctance to do so. Brown adds, <q>Since digital modes of scholarly production are highly experimental, working at the interface of the digital-humanities divide constitutes, in itself, research, provided that the two aspects of the research seriously engage with one another. <ref target="#canon_formation">This includes archival development, creating generalized digital tools for access or analysis, or developing new pedagogies or critical literacies</ref>
                                 </q>
                                 <note place="inline">
                                     <bibl>218</bibl>
                                 </note>.</ref>
-                        </ref> <persName key="Brown, Susan Irene" ref="http://viaf.org/viaf/104953085" ana="webannotation:http://temp.lincsproject.ca/hd0wocogbeC">Brown</persName>’s statement is conditional: if humanists and computer scientists <q>seriously engage with one another,</q> then work at the interface/divide will be <q>highly experimental</q> and will constitute research in itself.</p>
+                        </ref> Brown’s statement is conditional: if humanists and computer scientists <q>seriously engage with one another,</q> then work at the interface/divide will be <q>highly experimental</q> and will constitute research in itself.</p>
                     <p xml:id="p1078">
                         <ref target="#technology">This conditional statement is key: serious engagement at the interface/divide of digital humanities is as difficult as it is important. Why? <ref target="#intertextuality">Because the digital humanities discipline is literally—if not for the work of <persName key="Pratt, Mary Louise, 1948-" ref="http://viaf.org/viaf/24648210" ana="webannotation:http://temp.lincsproject.ca/aG8pGGSkurz">Mary Louise Pratt</persName>—what one might term a <q>contact zone,</q> a many layered, conflicted, and overdetermined <q>pressure point</q> between the humanities and the sciences. <persName key="Pratt, Mary Louise, 1948-" ref="http://viaf.org/viaf/24648210" ana="webannotation:http://temp.lincsproject.ca/OswQzkTpQ7G">Pratt</persName>’s term, developed in an analysis of colonial relations, is admittedly out of place here; what is more, it has been redeployed in so many different contexts, and used so frequently, that it has lost both specificity and analytical purchase.<note xml:id="n43" place="end"><persName key="Pratt, Mary Louise, 1948-" ref="http://viaf.org/viaf/24648210" ana="webannotation:http://temp.lincsproject.ca/8tBn5jS4P4B">Mary Louise Pratt’s</persName> concept of contact zones gained currency less through her book <title level="m">Imperial Eyes: Travel Writing and Transculturation</title> than through her essay <title level="a">Arts of the Contact Zone,</title> published in <title level="j">Profession</title>
                                     <note place="inline">
@@ -737,7 +741,7 @@
                     <p xml:id="p1106">
                         <ref target="#theory">
                             <ref target="#collaboration">
-                                <ref target="#technology">Strong documentation is also essential to recognizing the contribution of each member of the collaboratory to project milestones and outcomes: letters and journals scanned; a metadata entry site developed and tested; memoranda of agreement negotiated and signed; metadata entered; texts transcribed, optical character recognized, or proofread; lines of code written or bugs fixed; files backed up; images colour-corrected and cropped; new staff members trained. Another principle we have developed is that <q>a task is not completed until the documentation is shared.</q> Strong documentation will derive not just from reports filed but also from data collected as part of the workflow. Accurate documentation is necessary not only to give credit where credit is due but also to support applications for funding, to report to granting agencies on work completed, or to substantiate statements made in letters of reference and elsewhere. This chapter itself, part of what members of the collaboratory term the <q><orgName key="Ryerson University." ref="http://viaf.org/viaf/140971310" ana="webannotation:http://temp.lincsproject.ca/tzOSF5B0qqH">Ryerson</orgName> iteration</q> of the <abbr>EMiC UA</abbr> charter, is itself part of our documentation process (as are other papers published by <abbr>EMiC UA</abbr> members).</ref>
+                                <ref target="#technology">Strong documentation is also essential to recognizing the contribution of each member of the collaboratory to project milestones and outcomes: letters and journals scanned; a metadata entry site developed and tested; memoranda of agreement negotiated and signed; metadata entered; texts transcribed, optical character recognized, or proofread; lines of code written or bugs fixed; files backed up; images colour-corrected and cropped; new staff members trained. Another principle we have developed is that <q>a task is not completed until the documentation is shared.</q> Strong documentation will derive not just from reports filed but also from data collected as part of the workflow. Accurate documentation is necessary not only to give credit where credit is due but also to support applications for funding, to report to granting agencies on work completed, or to substantiate statements made in letters of reference and elsewhere. This chapter itself, part of what members of the collaboratory term the <q>Ryerson iteration</q> of the <abbr>EMiC UA</abbr> charter, is itself part of our documentation process (as are other papers published by <abbr>EMiC UA</abbr> members).</ref>
                             </ref>
                         </ref>
                     </p>
@@ -827,7 +831,7 @@
                                     <ref target="#collaboration">We will work collaboratively. That is, we want and need to learn from one another.</ref>
                                 </p>
                             </cell>
-                            <cell/>
+                            <cell />
                         </row>
                         <row>
                             <cell>
@@ -867,7 +871,7 @@
                                 </p>
                                 <p xml:id="p1119">Given the developmental nature of the work <abbr>EMiC UA</abbr> is undertaking, the administrative structure of the collaboratory should be kept not only simple and non-hierarchical, but as malleable and flexible as possible to enable us to respond effectively and efficiently to the many changes development brings. </p>
                             </cell>
-                            <cell/>
+                            <cell />
                         </row>
                         <row>
                             <cell>
@@ -875,7 +879,7 @@
                                     <ref target="#collaboration">We will work within schedules and to deadlines arrived at collaboratively.</ref>
                                 </p>
                             </cell>
-                            <cell/>
+                            <cell />
                         </row>
                         <row>
                             <cell>
@@ -885,7 +889,7 @@
                                     </ref>
                                 </p>
                             </cell>
-                            <cell/>
+                            <cell />
                         </row>
                     </table>
                     <table>
@@ -950,7 +954,7 @@
                                     <ref target="#theory">Documentation is necessary not only for the purpose of informing other group members and continuing workflow, but in support of grant applications and reports.</ref>
                                 </p>
                             </cell>
-                            <cell/>
+                            <cell />
                         </row>
                         <row>
                             <cell>
@@ -958,13 +962,13 @@
                                     <ref target="#methodology">We will document our work as it arises from the rhythms of the project. (Documentation will be geared around project planning, dissemination, and reporting.)</ref>
                                 </p>
                             </cell>
-                            <cell/>
+                            <cell />
                         </row>
                         <row>
                             <cell>
                                 <p xml:id="p1130">Documentation is meant as a support; therefore, documentation responsibilities will be kept to a minimum (so that the project work can carried out efficiently) while ensuring that a sense of the project’s development is recorded (so we can see how the project evolves). </p>
                             </cell>
-                            <cell/>
+                            <cell />
                         </row>
                         <row>
                             <cell>
@@ -988,7 +992,7 @@
                             <cell>
                                 <p xml:id="p1133">We will strive for transparency in decision making and communication.</p>
                             </cell>
-                            <cell/>
+                            <cell />
                         </row>
                         <row>
                             <cell>
@@ -1008,7 +1012,7 @@
                                     <ref target="#intertextuality">We will strive to reflect the interdisciplinary nature of our work in the way we disseminate it.</ref>
                                 </p>
                             </cell>
-                            <cell/>
+                            <cell />
                         </row>
                     </table>
                 </div>
