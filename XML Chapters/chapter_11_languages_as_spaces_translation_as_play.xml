@@ -818,87 +818,83 @@
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+        "http://cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "http://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
     "id": "http://temp.lincsproject.ca/k6Jb4kVNBg8",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
+    "type": "Annotation",
+    "motivation": "identifying",
     "created": "2026-07-14T16:45:34.532Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
+        "type": "Person",
+        "name": "Melissa Tuniewicz",
+        "label": "Melissa Tuniewicz"
     },
     "generator": {
         "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "type": "Software",
         "name": "NERVE",
+        "label": "NERVE",
         "softwareVersion": "0.3.0"
     },
     "target": {
-        "id": "/target/T4VauBqRSoJ",
+        "id": "http://temp.lincsproject.ca/k6Jb4kVNBg8/target/T4VauBqRSoJ",
         "type": [
             "SpecificResource",
-            "crm:E73_Information_Object"
+            "E73_Information_Object"
         ],
+        "format": "application/tei+xml",
+        "label": "Languages as Spaces, Translation as Play containing \"Lori Saint\"",
         "source": {
             "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
+            "type": [
+                "crmdig:D1_Digital_Object",
+                "E33_Linguistic_Object"
+            ],
+            "label": "Languages as Spaces, Translation as Play",
+            "P106_is_composed_of": "http://temp.lincsproject.ca/k6Jb4kVNBg8/target/T4VauBqRSoJ",
+            "P72_has_language": "lexvo:en",
             "P1_is_identified_by": {
                 "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Languages as Spaces, Translation as Play"
+                "type": "E33_E41_Linguistic_Appellation",
+                "label": "Title of Languages as Spaces, Translation as Play",
+                "P190_has_symbolic_content": "Languages as Spaces, Translation as Play"
             }
         },
+        "P67_refers_to": "http://viaf.org/viaf/9966293",
+        "P190_has_symbolic_content": "Lori Saint",
         "selector": [
             {
-                "id": "/target/T4VauBqRSoJ/selector/textPosition/CRnZpI8WarN",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 198,
-                "end": 208,
-                "refinedBy": {
-                    "id": "/target/T4VauBqRSoJ/selector/textQuote/BSu99iBq8JB",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Lori Saint",
-                    "prefix": "\n        \n            \n                \n                    Languages as Spaces, Translation as Play\n                \n                Moving (through) Languages\n                \n                   ",
-                    "suffix": "Martin\n                \n                \n                    \n                        \n                            Women, space, place, play: the story of my life"
-                }
+                "id": "http://temp.lincsproject.ca/k6Jb4kVNBg8/target/T4VauBqRSoJ/selector/textQuote/BSu99iBq8JB",
+                "type": "TextQuoteSelector",
+                "exact": "Lori Saint",
+                "prefix": "\n        \n            \n                \n                    Languages as Spaces, Translation as Play\n                \n                Moving (through) Languages\n                \n                   ",
+                "suffix": "Martin\n                \n                \n                    \n                        \n                            Women, space, place, play: the story of my life",
+                "label": "\"Lori Saint\" snippet from Languages as Spaces, Translation as Play"
             },
             {
-                "id": "/target/T4VauBqRSoJ/selector/css/BRGckR5gD4h",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/k6Jb4kVNBg8]"
+                "id": "http://temp.lincsproject.ca/k6Jb4kVNBg8/target/T4VauBqRSoJ/selector/textPosition/CRnZpI8WarN",
+                "type": "TextPositionSelector",
+                "start": 198,
+                "end": 208,
+                "label": "\"Lori Saint\" snippet from Languages as Spaces, Translation as Play"
+            },
+            {
+                "id": "http://temp.lincsproject.ca/k6Jb4kVNBg8/target/T4VauBqRSoJ/selector/css/BRGckR5gD4h",
+                "type": "CssSelector",
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/k6Jb4kVNBg8]",
+                "label": "\"Lori Saint\" snippet from Languages as Spaces, Translation as Play"
             }
         ]
     },
+    "label": "\"Lori Saint\" identifying Saint-Martin, Lori, 1959-2022 in Languages as Spaces, Translation as Play",
     "body": {
         "id": "http://viaf.org/viaf/9966293",
-        "type": "crm:E21_Person",
+        "type": "E21_Person",
         "label": "Saint-Martin, Lori, 1959-2022",
         "description": "Saint-Martin, Lori, 1959-"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
+    }
 }]]>
 				
 </rdf:Description>
@@ -907,87 +903,83 @@
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+        "http://cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "http://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
     "id": "http://temp.lincsproject.ca/GwysJftsDuj",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
+    "type": "Annotation",
+    "motivation": "identifying",
     "created": "2026-07-14T17:19:10.806Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
+        "type": "Person",
+        "name": "Melissa Tuniewicz",
+        "label": "Melissa Tuniewicz"
     },
     "generator": {
         "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "type": "Software",
         "name": "NERVE",
+        "label": "NERVE",
         "softwareVersion": "0.3.0"
     },
     "target": {
-        "id": "/target/RkbhNrlgsRo",
+        "id": "http://temp.lincsproject.ca/GwysJftsDuj/target/RkbhNrlgsRo",
         "type": [
             "SpecificResource",
-            "crm:E73_Information_Object"
+            "E73_Information_Object"
         ],
+        "format": "application/tei+xml",
+        "label": "Languages as Spaces, Translation as Play containing \"Brontë\"",
         "source": {
             "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
+            "type": [
+                "crmdig:D1_Digital_Object",
+                "E33_Linguistic_Object"
+            ],
+            "label": "Languages as Spaces, Translation as Play",
+            "P106_is_composed_of": "http://temp.lincsproject.ca/GwysJftsDuj/target/RkbhNrlgsRo",
+            "P72_has_language": "lexvo:en",
             "P1_is_identified_by": {
                 "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Languages as Spaces, Translation as Play"
+                "type": "E33_E41_Linguistic_Appellation",
+                "label": "Title of Languages as Spaces, Translation as Play",
+                "P190_has_symbolic_content": "Languages as Spaces, Translation as Play"
             }
         },
+        "P67_refers_to": "http://www.wikidata.org/entity/Q117802687",
+        "P190_has_symbolic_content": "Brontë",
         "selector": [
             {
-                "id": "/target/RkbhNrlgsRo/selector/textPosition/3vP2QyIPx2Z",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 916,
-                "end": 922,
-                "refinedBy": {
-                    "id": "/target/RkbhNrlgsRo/selector/textQuote/0ub2cM4a1JP",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Brontë",
-                    "prefix": "\n                                 There is also an interlude involving, of all things, the",
-                    "suffix": "sisters, and a non-conclusion with two heads"
-                }
+                "id": "http://temp.lincsproject.ca/GwysJftsDuj/target/RkbhNrlgsRo/selector/textQuote/0ub2cM4a1JP",
+                "type": "TextQuoteSelector",
+                "exact": "Brontë",
+                "prefix": "\n                                 There is also an interlude involving, of all things, the",
+                "suffix": "sisters, and a non-conclusion with two heads",
+                "label": "\"Brontë\" snippet from Languages as Spaces, Translation as Play"
             },
             {
-                "id": "/target/RkbhNrlgsRo/selector/css/UqdTy2oaBuy",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/GwysJftsDuj]"
+                "id": "http://temp.lincsproject.ca/GwysJftsDuj/target/RkbhNrlgsRo/selector/textPosition/3vP2QyIPx2Z",
+                "type": "TextPositionSelector",
+                "start": 916,
+                "end": 922,
+                "label": "\"Brontë\" snippet from Languages as Spaces, Translation as Play"
+            },
+            {
+                "id": "http://temp.lincsproject.ca/GwysJftsDuj/target/RkbhNrlgsRo/selector/css/UqdTy2oaBuy",
+                "type": "CssSelector",
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/GwysJftsDuj]",
+                "label": "\"Brontë\" snippet from Languages as Spaces, Translation as Play"
             }
         ]
     },
+    "label": "\"Brontë\" identifying Brontë sisters in Languages as Spaces, Translation as Play",
     "body": {
         "id": "http://www.wikidata.org/entity/Q117802687",
-        "type": "crm:E74_Group",
+        "type": "E74_Group",
         "label": "Brontë sisters",
         "description": "group 19th-century poets and novelists sisters"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
+    }
 }]]>
 				
 </rdf:Description>
@@ -996,87 +988,83 @@
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+        "http://cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "http://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
     "id": "http://temp.lincsproject.ca/wA7PFhSv0ul",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
+    "type": "Annotation",
+    "motivation": "identifying",
     "created": "2026-07-14T18:07:49.550Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
+        "type": "Person",
+        "name": "Melissa Tuniewicz",
+        "label": "Melissa Tuniewicz"
     },
     "generator": {
         "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "type": "Software",
         "name": "NERVE",
+        "label": "NERVE",
         "softwareVersion": "0.3.0"
     },
     "target": {
-        "id": "/target/Yk4OZYTRSVQ",
+        "id": "http://temp.lincsproject.ca/wA7PFhSv0ul/target/Yk4OZYTRSVQ",
         "type": [
             "SpecificResource",
-            "crm:E73_Information_Object"
+            "E73_Information_Object"
         ],
+        "format": "application/tei+xml",
+        "label": "Languages as Spaces, Translation as Play containing \"Brontë\"",
         "source": {
             "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
+            "type": [
+                "crmdig:D1_Digital_Object",
+                "E33_Linguistic_Object"
+            ],
+            "label": "Languages as Spaces, Translation as Play",
+            "P106_is_composed_of": "http://temp.lincsproject.ca/wA7PFhSv0ul/target/Yk4OZYTRSVQ",
+            "P72_has_language": "lexvo:en",
             "P1_is_identified_by": {
                 "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Languages as Spaces, Translation as Play"
+                "type": "E33_E41_Linguistic_Appellation",
+                "label": "Title of Languages as Spaces, Translation as Play",
+                "P190_has_symbolic_content": "Languages as Spaces, Translation as Play"
             }
         },
+        "P67_refers_to": "http://www.wikidata.org/entity/Q117802687",
+        "P190_has_symbolic_content": "Brontë",
         "selector": [
             {
-                "id": "/target/Yk4OZYTRSVQ/selector/textPosition/5IAnWzHM1F4",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 24600,
-                "end": 24606,
-                "refinedBy": {
-                    "id": "/target/Yk4OZYTRSVQ/selector/textQuote/T4EowThgO5C",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Brontë",
-                    "prefix": "\n                        \n                    \n                    \n                        But instead of talking about writing I will suggest an interlude: a short piece about the",
-                    "suffix": "sisters"
-                }
+                "id": "http://temp.lincsproject.ca/wA7PFhSv0ul/target/Yk4OZYTRSVQ/selector/textQuote/T4EowThgO5C",
+                "type": "TextQuoteSelector",
+                "exact": "Brontë",
+                "prefix": "\n                        \n                    \n                    \n                        But instead of talking about writing I will suggest an interlude: a short piece about the",
+                "suffix": "sisters",
+                "label": "\"Brontë\" snippet from Languages as Spaces, Translation as Play"
             },
             {
-                "id": "/target/Yk4OZYTRSVQ/selector/css/JhdDfq6MjIi",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/wA7PFhSv0ul]"
+                "id": "http://temp.lincsproject.ca/wA7PFhSv0ul/target/Yk4OZYTRSVQ/selector/textPosition/5IAnWzHM1F4",
+                "type": "TextPositionSelector",
+                "start": 24600,
+                "end": 24606,
+                "label": "\"Brontë\" snippet from Languages as Spaces, Translation as Play"
+            },
+            {
+                "id": "http://temp.lincsproject.ca/wA7PFhSv0ul/target/Yk4OZYTRSVQ/selector/css/JhdDfq6MjIi",
+                "type": "CssSelector",
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/wA7PFhSv0ul]",
+                "label": "\"Brontë\" snippet from Languages as Spaces, Translation as Play"
             }
         ]
     },
+    "label": "\"Brontë\" identifying Brontë sisters in Languages as Spaces, Translation as Play",
     "body": {
         "id": "http://www.wikidata.org/entity/Q117802687",
-        "type": "crm:E21_Person",
+        "type": "E21_Person",
         "label": "Brontë sisters",
         "description": "group 19th-century poets and novelists sisters"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
+    }
 }]]>
 				
 </rdf:Description>
@@ -1085,87 +1073,83 @@
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+        "http://cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "http://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
     "id": "http://temp.lincsproject.ca/O2TkAOpvplb",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
+    "type": "Annotation",
+    "motivation": "identifying",
     "created": "2026-07-14T18:05:04.919Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
+        "type": "Person",
+        "name": "Melissa Tuniewicz",
+        "label": "Melissa Tuniewicz"
     },
     "generator": {
         "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "type": "Software",
         "name": "NERVE",
+        "label": "NERVE",
         "softwareVersion": "0.3.0"
     },
     "target": {
-        "id": "/target/jHWt1diCE8o",
+        "id": "http://temp.lincsproject.ca/O2TkAOpvplb/target/jHWt1diCE8o",
         "type": [
             "SpecificResource",
-            "crm:E73_Information_Object"
+            "E73_Information_Object"
         ],
+        "format": "application/tei+xml",
+        "label": "Languages as Spaces, Translation as Play containing \"Brontë\"",
         "source": {
             "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
+            "type": [
+                "crmdig:D1_Digital_Object",
+                "E33_Linguistic_Object"
+            ],
+            "label": "Languages as Spaces, Translation as Play",
+            "P106_is_composed_of": "http://temp.lincsproject.ca/O2TkAOpvplb/target/jHWt1diCE8o",
+            "P72_has_language": "lexvo:en",
             "P1_is_identified_by": {
                 "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Languages as Spaces, Translation as Play"
+                "type": "E33_E41_Linguistic_Appellation",
+                "label": "Title of Languages as Spaces, Translation as Play",
+                "P190_has_symbolic_content": "Languages as Spaces, Translation as Play"
             }
         },
+        "P67_refers_to": "http://www.wikidata.org/entity/Q117802687",
+        "P190_has_symbolic_content": "Brontë",
         "selector": [
             {
-                "id": "/target/jHWt1diCE8o/selector/textPosition/L23eYnPVEkN",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 24935,
-                "end": 24941,
-                "refinedBy": {
-                    "id": "/target/jHWt1diCE8o/selector/textQuote/AaehCnfwgJ0",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Brontë",
-                    "prefix": "\n                    \n                \n                \n                    Interlude: A Side Trip to Haworth\n                    \n                        \n                            \n                                \n                                    A train, a bus, another bus and I was at Haworth, the home of the",
-                    "suffix": "sisters, loves of my life since Jane Eyre at fourteen"
-                }
+                "id": "http://temp.lincsproject.ca/O2TkAOpvplb/target/jHWt1diCE8o/selector/textQuote/AaehCnfwgJ0",
+                "type": "TextQuoteSelector",
+                "exact": "Brontë",
+                "prefix": "\n                    \n                \n                \n                    Interlude: A Side Trip to Haworth\n                    \n                        \n                            \n                                \n                                    A train, a bus, another bus and I was at Haworth, the home of the",
+                "suffix": "sisters, loves of my life since Jane Eyre at fourteen",
+                "label": "\"Brontë\" snippet from Languages as Spaces, Translation as Play"
             },
             {
-                "id": "/target/jHWt1diCE8o/selector/css/dMMbebnsp7X",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/O2TkAOpvplb]"
+                "id": "http://temp.lincsproject.ca/O2TkAOpvplb/target/jHWt1diCE8o/selector/textPosition/L23eYnPVEkN",
+                "type": "TextPositionSelector",
+                "start": 24935,
+                "end": 24941,
+                "label": "\"Brontë\" snippet from Languages as Spaces, Translation as Play"
+            },
+            {
+                "id": "http://temp.lincsproject.ca/O2TkAOpvplb/target/jHWt1diCE8o/selector/css/dMMbebnsp7X",
+                "type": "CssSelector",
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/O2TkAOpvplb]",
+                "label": "\"Brontë\" snippet from Languages as Spaces, Translation as Play"
             }
         ]
     },
+    "label": "\"Brontë\" identifying Brontë sisters in Languages as Spaces, Translation as Play",
     "body": {
         "id": "http://www.wikidata.org/entity/Q117802687",
-        "type": "crm:E21_Person",
+        "type": "E21_Person",
         "label": "Brontë sisters",
         "description": "group 19th-century poets and novelists sisters"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
+    }
 }]]>
 				
 </rdf:Description>
@@ -1174,87 +1158,83 @@
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+        "http://cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "http://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
     "id": "http://temp.lincsproject.ca/rfuLOwSiQkI",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
+    "type": "Annotation",
+    "motivation": "identifying",
     "created": "2026-07-14T16:49:50.280Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
+        "type": "Person",
+        "name": "Melissa Tuniewicz",
+        "label": "Melissa Tuniewicz"
     },
     "generator": {
         "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "type": "Software",
         "name": "NERVE",
+        "label": "NERVE",
         "softwareVersion": "0.3.0"
     },
     "target": {
-        "id": "/target/J5LScU0pOQD",
+        "id": "http://temp.lincsproject.ca/rfuLOwSiQkI/target/J5LScU0pOQD",
         "type": [
             "SpecificResource",
-            "crm:E73_Information_Object"
+            "E73_Information_Object"
         ],
+        "format": "application/tei+xml",
+        "label": "Languages as Spaces, Translation as Play containing \"Pennsylvania\"",
         "source": {
             "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
+            "type": [
+                "crmdig:D1_Digital_Object",
+                "E33_Linguistic_Object"
+            ],
+            "label": "Languages as Spaces, Translation as Play",
+            "P106_is_composed_of": "http://temp.lincsproject.ca/rfuLOwSiQkI/target/J5LScU0pOQD",
+            "P72_has_language": "lexvo:en",
             "P1_is_identified_by": {
                 "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Languages as Spaces, Translation as Play"
+                "type": "E33_E41_Linguistic_Appellation",
+                "label": "Title of Languages as Spaces, Translation as Play",
+                "P190_has_symbolic_content": "Languages as Spaces, Translation as Play"
             }
         },
+        "P67_refers_to": "https://sws.geonames.org/6254927",
+        "P190_has_symbolic_content": "Pennsylvania",
         "selector": [
             {
-                "id": "/target/J5LScU0pOQD/selector/textPosition/bIav5uEOAdM",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 8347,
-                "end": 8359,
-                "refinedBy": {
-                    "id": "/target/J5LScU0pOQD/selector/textQuote/2Jhe6EFTxS0",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Pennsylvania",
-                    "prefix": "\n                                        \n                                    \n                                \n                            \n                        \n                    \n                    \n                        \n                            Both my grandmothers spoke only German, or rather",
-                    "suffix": "Dutch, when they started kindergarten"
-                }
+                "id": "http://temp.lincsproject.ca/rfuLOwSiQkI/target/J5LScU0pOQD/selector/textQuote/2Jhe6EFTxS0",
+                "type": "TextQuoteSelector",
+                "exact": "Pennsylvania",
+                "prefix": "\n                                        \n                                    \n                                \n                            \n                        \n                    \n                    \n                        \n                            Both my grandmothers spoke only German, or rather",
+                "suffix": "Dutch, when they started kindergarten",
+                "label": "\"Pennsylvania\" snippet from Languages as Spaces, Translation as Play"
             },
             {
-                "id": "/target/J5LScU0pOQD/selector/css/eZcrQFtgL3P",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/rfuLOwSiQkI]"
+                "id": "http://temp.lincsproject.ca/rfuLOwSiQkI/target/J5LScU0pOQD/selector/textPosition/bIav5uEOAdM",
+                "type": "TextPositionSelector",
+                "start": 8347,
+                "end": 8359,
+                "label": "\"Pennsylvania\" snippet from Languages as Spaces, Translation as Play"
+            },
+            {
+                "id": "http://temp.lincsproject.ca/rfuLOwSiQkI/target/J5LScU0pOQD/selector/css/eZcrQFtgL3P",
+                "type": "CssSelector",
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/rfuLOwSiQkI]",
+                "label": "\"Pennsylvania\" snippet from Languages as Spaces, Translation as Play"
             }
         ]
     },
+    "label": "Pennsylvania identified in Languages as Spaces, Translation as Play",
     "body": {
         "id": "https://sws.geonames.org/6254927",
-        "type": "crm:E53_Place",
+        "type": "E53_Place",
         "label": "Pennsylvania",
         "description": "Pennsylvania, US"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
+    }
 }]]>
 				
 </rdf:Description>
@@ -1263,87 +1243,83 @@
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+        "http://cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "http://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
     "id": "http://temp.lincsproject.ca/FrQZ8Zp4WvY",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
+    "type": "Annotation",
+    "motivation": "identifying",
     "created": "2026-07-14T16:48:39.428Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
+        "type": "Person",
+        "name": "Melissa Tuniewicz",
+        "label": "Melissa Tuniewicz"
     },
     "generator": {
         "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "type": "Software",
         "name": "NERVE",
+        "label": "NERVE",
         "softwareVersion": "0.3.0"
     },
     "target": {
-        "id": "/target/tb5m1xdlqCR",
+        "id": "http://temp.lincsproject.ca/FrQZ8Zp4WvY/target/tb5m1xdlqCR",
         "type": [
             "SpecificResource",
-            "crm:E73_Information_Object"
+            "E73_Information_Object"
         ],
+        "format": "application/tei+xml",
+        "label": "Languages as Spaces, Translation as Play containing \"Kitchener\"",
         "source": {
             "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
+            "type": [
+                "crmdig:D1_Digital_Object",
+                "E33_Linguistic_Object"
+            ],
+            "label": "Languages as Spaces, Translation as Play",
+            "P106_is_composed_of": "http://temp.lincsproject.ca/FrQZ8Zp4WvY/target/tb5m1xdlqCR",
+            "P72_has_language": "lexvo:en",
             "P1_is_identified_by": {
                 "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Languages as Spaces, Translation as Play"
+                "type": "E33_E41_Linguistic_Appellation",
+                "label": "Title of Languages as Spaces, Translation as Play",
+                "P190_has_symbolic_content": "Languages as Spaces, Translation as Play"
             }
         },
+        "P67_refers_to": "http://viaf.org/viaf/2601254",
+        "P190_has_symbolic_content": "Kitchener",
         "selector": [
             {
-                "id": "/target/tb5m1xdlqCR/selector/textPosition/AGY2XoI9HQX",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 8736,
-                "end": 8745,
-                "refinedBy": {
-                    "id": "/target/tb5m1xdlqCR/selector/textQuote/CGdWtzqRp8s",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Kitchener",
-                    "prefix": " The city that I come from was initially called Berlin, but in 1916 the name was changed to",
-                    "suffix": "as a sign of loyalty to the British Empire"
-                }
+                "id": "http://temp.lincsproject.ca/FrQZ8Zp4WvY/target/tb5m1xdlqCR/selector/textQuote/CGdWtzqRp8s",
+                "type": "TextQuoteSelector",
+                "exact": "Kitchener",
+                "prefix": " The city that I come from was initially called Berlin, but in 1916 the name was changed to",
+                "suffix": "as a sign of loyalty to the British Empire",
+                "label": "\"Kitchener\" snippet from Languages as Spaces, Translation as Play"
             },
             {
-                "id": "/target/tb5m1xdlqCR/selector/css/LSE54jeriQZ",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/FrQZ8Zp4WvY]"
+                "id": "http://temp.lincsproject.ca/FrQZ8Zp4WvY/target/tb5m1xdlqCR/selector/textPosition/AGY2XoI9HQX",
+                "type": "TextPositionSelector",
+                "start": 8736,
+                "end": 8745,
+                "label": "\"Kitchener\" snippet from Languages as Spaces, Translation as Play"
+            },
+            {
+                "id": "http://temp.lincsproject.ca/FrQZ8Zp4WvY/target/tb5m1xdlqCR/selector/css/LSE54jeriQZ",
+                "type": "CssSelector",
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/FrQZ8Zp4WvY]",
+                "label": "\"Kitchener\" snippet from Languages as Spaces, Translation as Play"
             }
         ]
     },
+    "label": "\"Kitchener\" identifying Kitchener, Horatio Herbert Kitchener, Earl, 1850-1916 in Languages as Spaces, Translation as Play",
     "body": {
         "id": "http://viaf.org/viaf/2601254",
-        "type": "crm:E21_Person",
+        "type": "E21_Person",
         "label": "Kitchener, Horatio Herbert Kitchener, Earl, 1850-1916",
         "description": "Kitchener, Horatio Herbert, 1850-1916"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
+    }
 }]]>
 				
 </rdf:Description>
@@ -1352,87 +1328,83 @@
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+        "http://cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "http://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
     "id": "http://temp.lincsproject.ca/AxjBNMB2jUT",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
+    "type": "Annotation",
+    "motivation": "identifying",
     "created": "2026-07-14T16:48:23.870Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
+        "type": "Person",
+        "name": "Melissa Tuniewicz",
+        "label": "Melissa Tuniewicz"
     },
     "generator": {
         "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "type": "Software",
         "name": "NERVE",
+        "label": "NERVE",
         "softwareVersion": "0.3.0"
     },
     "target": {
-        "id": "/target/pSlpLeBUErp",
+        "id": "http://temp.lincsproject.ca/AxjBNMB2jUT/target/pSlpLeBUErp",
         "type": [
             "SpecificResource",
-            "crm:E73_Information_Object"
+            "E73_Information_Object"
         ],
+        "format": "application/tei+xml",
+        "label": "Languages as Spaces, Translation as Play containing \"Kitchener\"",
         "source": {
             "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
+            "type": [
+                "crmdig:D1_Digital_Object",
+                "E33_Linguistic_Object"
+            ],
+            "label": "Languages as Spaces, Translation as Play",
+            "P106_is_composed_of": "http://temp.lincsproject.ca/AxjBNMB2jUT/target/pSlpLeBUErp",
+            "P72_has_language": "lexvo:en",
             "P1_is_identified_by": {
                 "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Languages as Spaces, Translation as Play"
+                "type": "E33_E41_Linguistic_Appellation",
+                "label": "Title of Languages as Spaces, Translation as Play",
+                "P190_has_symbolic_content": "Languages as Spaces, Translation as Play"
             }
         },
+        "P67_refers_to": "http://viaf.org/viaf/2601254",
+        "P190_has_symbolic_content": "Kitchener",
         "selector": [
             {
-                "id": "/target/pSlpLeBUErp/selector/textPosition/AbU5jYT3oF0",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 8799,
-                "end": 8808,
-                "refinedBy": {
-                    "id": "/target/pSlpLeBUErp/selector/textQuote/cctRAOp6FWs",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Kitchener",
-                    "prefix": " Now Lord",
-                    "suffix": "was a wonderful person, a British field marshal, a pro-consul, a military man who won fame for his imperial campaigns"
-                }
+                "id": "http://temp.lincsproject.ca/AxjBNMB2jUT/target/pSlpLeBUErp/selector/textQuote/cctRAOp6FWs",
+                "type": "TextQuoteSelector",
+                "exact": "Kitchener",
+                "prefix": " Now Lord",
+                "suffix": "was a wonderful person, a British field marshal, a pro-consul, a military man who won fame for his imperial campaigns",
+                "label": "\"Kitchener\" snippet from Languages as Spaces, Translation as Play"
             },
             {
-                "id": "/target/pSlpLeBUErp/selector/css/Zbh32W7jFhE",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/AxjBNMB2jUT]"
+                "id": "http://temp.lincsproject.ca/AxjBNMB2jUT/target/pSlpLeBUErp/selector/textPosition/AbU5jYT3oF0",
+                "type": "TextPositionSelector",
+                "start": 8799,
+                "end": 8808,
+                "label": "\"Kitchener\" snippet from Languages as Spaces, Translation as Play"
+            },
+            {
+                "id": "http://temp.lincsproject.ca/AxjBNMB2jUT/target/pSlpLeBUErp/selector/css/Zbh32W7jFhE",
+                "type": "CssSelector",
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/AxjBNMB2jUT]",
+                "label": "\"Kitchener\" snippet from Languages as Spaces, Translation as Play"
             }
         ]
     },
+    "label": "\"Kitchener\" identifying Kitchener, Horatio Herbert Kitchener, Earl, 1850-1916 in Languages as Spaces, Translation as Play",
     "body": {
         "id": "http://viaf.org/viaf/2601254",
-        "type": "crm:E21_Person",
+        "type": "E21_Person",
         "label": "Kitchener, Horatio Herbert Kitchener, Earl, 1850-1916",
         "description": "Kitchener, Horatio Herbert, 1850-1916"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
+    }
 }]]>
 				
 </rdf:Description>
@@ -1441,87 +1413,83 @@
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+        "http://cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "http://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
     "id": "http://temp.lincsproject.ca/WhCm69GAV9C",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
+    "type": "Annotation",
+    "motivation": "identifying",
     "created": "2026-07-14T16:48:39.530Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
+        "type": "Person",
+        "name": "Melissa Tuniewicz",
+        "label": "Melissa Tuniewicz"
     },
     "generator": {
         "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "type": "Software",
         "name": "NERVE",
+        "label": "NERVE",
         "softwareVersion": "0.3.0"
     },
     "target": {
-        "id": "/target/hGtgzakmFeS",
+        "id": "http://temp.lincsproject.ca/WhCm69GAV9C/target/hGtgzakmFeS",
         "type": [
             "SpecificResource",
-            "crm:E73_Information_Object"
+            "E73_Information_Object"
         ],
+        "format": "application/tei+xml",
+        "label": "Languages as Spaces, Translation as Play containing \"Kitchener\"",
         "source": {
             "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
+            "type": [
+                "crmdig:D1_Digital_Object",
+                "E33_Linguistic_Object"
+            ],
+            "label": "Languages as Spaces, Translation as Play",
+            "P106_is_composed_of": "http://temp.lincsproject.ca/WhCm69GAV9C/target/hGtgzakmFeS",
+            "P72_has_language": "lexvo:en",
             "P1_is_identified_by": {
                 "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Languages as Spaces, Translation as Play"
+                "type": "E33_E41_Linguistic_Appellation",
+                "label": "Title of Languages as Spaces, Translation as Play",
+                "P190_has_symbolic_content": "Languages as Spaces, Translation as Play"
             }
         },
+        "P67_refers_to": "http://viaf.org/viaf/2601254",
+        "P190_has_symbolic_content": "Kitchener",
         "selector": [
             {
-                "id": "/target/hGtgzakmFeS/selector/textPosition/FjOM8EMcDTp",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 8933,
-                "end": 8942,
-                "refinedBy": {
-                    "id": "/target/hGtgzakmFeS/selector/textQuote/jOGdmCoREAM",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Kitchener",
-                    "prefix": " Lord",
-                    "suffix": "was in Egypt"
-                }
+                "id": "http://temp.lincsproject.ca/WhCm69GAV9C/target/hGtgzakmFeS/selector/textQuote/jOGdmCoREAM",
+                "type": "TextQuoteSelector",
+                "exact": "Kitchener",
+                "prefix": " Lord",
+                "suffix": "was in Egypt",
+                "label": "\"Kitchener\" snippet from Languages as Spaces, Translation as Play"
             },
             {
-                "id": "/target/hGtgzakmFeS/selector/css/LwfG7JUIbD2",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/WhCm69GAV9C]"
+                "id": "http://temp.lincsproject.ca/WhCm69GAV9C/target/hGtgzakmFeS/selector/textPosition/FjOM8EMcDTp",
+                "type": "TextPositionSelector",
+                "start": 8933,
+                "end": 8942,
+                "label": "\"Kitchener\" snippet from Languages as Spaces, Translation as Play"
+            },
+            {
+                "id": "http://temp.lincsproject.ca/WhCm69GAV9C/target/hGtgzakmFeS/selector/css/LwfG7JUIbD2",
+                "type": "CssSelector",
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/WhCm69GAV9C]",
+                "label": "\"Kitchener\" snippet from Languages as Spaces, Translation as Play"
             }
         ]
     },
+    "label": "\"Kitchener\" identifying Kitchener, Horatio Herbert Kitchener, Earl, 1850-1916 in Languages as Spaces, Translation as Play",
     "body": {
         "id": "http://viaf.org/viaf/2601254",
-        "type": "crm:E21_Person",
+        "type": "E21_Person",
         "label": "Kitchener, Horatio Herbert Kitchener, Earl, 1850-1916",
         "description": "Kitchener, Horatio Herbert, 1850-1916"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
+    }
 }]]>
 				
 </rdf:Description>
@@ -1530,87 +1498,83 @@
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+        "http://cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "http://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
     "id": "http://temp.lincsproject.ca/9it5nM5Lf8D",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
+    "type": "Annotation",
+    "motivation": "identifying",
     "created": "2026-07-14T16:48:39.605Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
+        "type": "Person",
+        "name": "Melissa Tuniewicz",
+        "label": "Melissa Tuniewicz"
     },
     "generator": {
         "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "type": "Software",
         "name": "NERVE",
+        "label": "NERVE",
         "softwareVersion": "0.3.0"
     },
     "target": {
-        "id": "/target/Z2F67NC7EzM",
+        "id": "http://temp.lincsproject.ca/9it5nM5Lf8D/target/Z2F67NC7EzM",
         "type": [
             "SpecificResource",
-            "crm:E73_Information_Object"
+            "E73_Information_Object"
         ],
+        "format": "application/tei+xml",
+        "label": "Languages as Spaces, Translation as Play containing \"Kitchener\"",
         "source": {
             "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
+            "type": [
+                "crmdig:D1_Digital_Object",
+                "E33_Linguistic_Object"
+            ],
+            "label": "Languages as Spaces, Translation as Play",
+            "P106_is_composed_of": "http://temp.lincsproject.ca/9it5nM5Lf8D/target/Z2F67NC7EzM",
+            "P72_has_language": "lexvo:en",
             "P1_is_identified_by": {
                 "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Languages as Spaces, Translation as Play"
+                "type": "E33_E41_Linguistic_Appellation",
+                "label": "Title of Languages as Spaces, Translation as Play",
+                "P190_has_symbolic_content": "Languages as Spaces, Translation as Play"
             }
         },
+        "P67_refers_to": "http://viaf.org/viaf/2601254",
+        "P190_has_symbolic_content": "Kitchener",
         "selector": [
             {
-                "id": "/target/Z2F67NC7EzM/selector/textPosition/bbw3nqEljqe",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 8962,
-                "end": 8971,
-                "refinedBy": {
-                    "id": "/target/Z2F67NC7EzM/selector/textQuote/Zy0OOM4tYV8",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Kitchener",
-                    "prefix": " Lord",
-                    "suffix": "was in the Sudan"
-                }
+                "id": "http://temp.lincsproject.ca/9it5nM5Lf8D/target/Z2F67NC7EzM/selector/textQuote/Zy0OOM4tYV8",
+                "type": "TextQuoteSelector",
+                "exact": "Kitchener",
+                "prefix": " Lord",
+                "suffix": "was in the Sudan",
+                "label": "\"Kitchener\" snippet from Languages as Spaces, Translation as Play"
             },
             {
-                "id": "/target/Z2F67NC7EzM/selector/css/0hanlhI7eVH",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/9it5nM5Lf8D]"
+                "id": "http://temp.lincsproject.ca/9it5nM5Lf8D/target/Z2F67NC7EzM/selector/textPosition/bbw3nqEljqe",
+                "type": "TextPositionSelector",
+                "start": 8962,
+                "end": 8971,
+                "label": "\"Kitchener\" snippet from Languages as Spaces, Translation as Play"
+            },
+            {
+                "id": "http://temp.lincsproject.ca/9it5nM5Lf8D/target/Z2F67NC7EzM/selector/css/0hanlhI7eVH",
+                "type": "CssSelector",
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/9it5nM5Lf8D]",
+                "label": "\"Kitchener\" snippet from Languages as Spaces, Translation as Play"
             }
         ]
     },
+    "label": "\"Kitchener\" identifying Kitchener, Horatio Herbert Kitchener, Earl, 1850-1916 in Languages as Spaces, Translation as Play",
     "body": {
         "id": "http://viaf.org/viaf/2601254",
-        "type": "crm:E21_Person",
+        "type": "E21_Person",
         "label": "Kitchener, Horatio Herbert Kitchener, Earl, 1850-1916",
         "description": "Kitchener, Horatio Herbert, 1850-1916"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
+    }
 }]]>
 				
 </rdf:Description>
@@ -1619,87 +1583,83 @@
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+        "http://cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "http://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
     "id": "http://temp.lincsproject.ca/tGwpNL5vcbV",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
+    "type": "Annotation",
+    "motivation": "identifying",
     "created": "2026-07-14T16:48:39.674Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
+        "type": "Person",
+        "name": "Melissa Tuniewicz",
+        "label": "Melissa Tuniewicz"
     },
     "generator": {
         "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "type": "Software",
         "name": "NERVE",
+        "label": "NERVE",
         "softwareVersion": "0.3.0"
     },
     "target": {
-        "id": "/target/11RhYQOWrXO",
+        "id": "http://temp.lincsproject.ca/tGwpNL5vcbV/target/11RhYQOWrXO",
         "type": [
             "SpecificResource",
-            "crm:E73_Information_Object"
+            "E73_Information_Object"
         ],
+        "format": "application/tei+xml",
+        "label": "Languages as Spaces, Translation as Play containing \"Kitchener\"",
         "source": {
             "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
+            "type": [
+                "crmdig:D1_Digital_Object",
+                "E33_Linguistic_Object"
+            ],
+            "label": "Languages as Spaces, Translation as Play",
+            "P106_is_composed_of": "http://temp.lincsproject.ca/tGwpNL5vcbV/target/11RhYQOWrXO",
+            "P72_has_language": "lexvo:en",
             "P1_is_identified_by": {
                 "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Languages as Spaces, Translation as Play"
+                "type": "E33_E41_Linguistic_Appellation",
+                "label": "Title of Languages as Spaces, Translation as Play",
+                "P190_has_symbolic_content": "Languages as Spaces, Translation as Play"
             }
         },
+        "P67_refers_to": "http://viaf.org/viaf/2601254",
+        "P190_has_symbolic_content": "Kitchener",
         "selector": [
             {
-                "id": "/target/11RhYQOWrXO/selector/textPosition/IjlTgBJNVLX",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 8995,
-                "end": 9004,
-                "refinedBy": {
-                    "id": "/target/11RhYQOWrXO/selector/textQuote/3QPbIwX2bz8",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Kitchener",
-                    "prefix": " Lord",
-                    "suffix": "was in India"
-                }
+                "id": "http://temp.lincsproject.ca/tGwpNL5vcbV/target/11RhYQOWrXO/selector/textQuote/3QPbIwX2bz8",
+                "type": "TextQuoteSelector",
+                "exact": "Kitchener",
+                "prefix": " Lord",
+                "suffix": "was in India",
+                "label": "\"Kitchener\" snippet from Languages as Spaces, Translation as Play"
             },
             {
-                "id": "/target/11RhYQOWrXO/selector/css/y58QSVIos6v",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/tGwpNL5vcbV]"
+                "id": "http://temp.lincsproject.ca/tGwpNL5vcbV/target/11RhYQOWrXO/selector/textPosition/IjlTgBJNVLX",
+                "type": "TextPositionSelector",
+                "start": 8995,
+                "end": 9004,
+                "label": "\"Kitchener\" snippet from Languages as Spaces, Translation as Play"
+            },
+            {
+                "id": "http://temp.lincsproject.ca/tGwpNL5vcbV/target/11RhYQOWrXO/selector/css/y58QSVIos6v",
+                "type": "CssSelector",
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/tGwpNL5vcbV]",
+                "label": "\"Kitchener\" snippet from Languages as Spaces, Translation as Play"
             }
         ]
     },
+    "label": "\"Kitchener\" identifying Kitchener, Horatio Herbert Kitchener, Earl, 1850-1916 in Languages as Spaces, Translation as Play",
     "body": {
         "id": "http://viaf.org/viaf/2601254",
-        "type": "crm:E21_Person",
+        "type": "E21_Person",
         "label": "Kitchener, Horatio Herbert Kitchener, Earl, 1850-1916",
         "description": "Kitchener, Horatio Herbert, 1850-1916"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
+    }
 }]]>
 				
 </rdf:Description>
@@ -1708,87 +1668,83 @@
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+        "http://cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "http://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
     "id": "http://temp.lincsproject.ca/HMPnbSspYJi",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
+    "type": "Annotation",
+    "motivation": "identifying",
     "created": "2026-07-14T16:48:39.747Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
+        "type": "Person",
+        "name": "Melissa Tuniewicz",
+        "label": "Melissa Tuniewicz"
     },
     "generator": {
         "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "type": "Software",
         "name": "NERVE",
+        "label": "NERVE",
         "softwareVersion": "0.3.0"
     },
     "target": {
-        "id": "/target/m7v5KcDLdha",
+        "id": "http://temp.lincsproject.ca/HMPnbSspYJi/target/m7v5KcDLdha",
         "type": [
             "SpecificResource",
-            "crm:E73_Information_Object"
+            "E73_Information_Object"
         ],
+        "format": "application/tei+xml",
+        "label": "Languages as Spaces, Translation as Play containing \"Kitchener\"",
         "source": {
             "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
+            "type": [
+                "crmdig:D1_Digital_Object",
+                "E33_Linguistic_Object"
+            ],
+            "label": "Languages as Spaces, Translation as Play",
+            "P106_is_composed_of": "http://temp.lincsproject.ca/HMPnbSspYJi/target/m7v5KcDLdha",
+            "P72_has_language": "lexvo:en",
             "P1_is_identified_by": {
                 "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Languages as Spaces, Translation as Play"
+                "type": "E33_E41_Linguistic_Appellation",
+                "label": "Title of Languages as Spaces, Translation as Play",
+                "P190_has_symbolic_content": "Languages as Spaces, Translation as Play"
             }
         },
+        "P67_refers_to": "http://viaf.org/viaf/2601254",
+        "P190_has_symbolic_content": "Kitchener",
         "selector": [
             {
-                "id": "/target/m7v5KcDLdha/selector/textPosition/xXHD2L1FNQc",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 9024,
-                "end": 9033,
-                "refinedBy": {
-                    "id": "/target/m7v5KcDLdha/selector/textQuote/zLp9G9TIOzs",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Kitchener",
-                    "prefix": " Lord",
-                    "suffix": "was in South Africa during the \n                                        \n                                            Boer Wars\n                                        \n                                    "
-                }
+                "id": "http://temp.lincsproject.ca/HMPnbSspYJi/target/m7v5KcDLdha/selector/textQuote/zLp9G9TIOzs",
+                "type": "TextQuoteSelector",
+                "exact": "Kitchener",
+                "prefix": " Lord",
+                "suffix": "was in South Africa during the \n                                        \n                                            Boer Wars\n                                        \n                                    ",
+                "label": "\"Kitchener\" snippet from Languages as Spaces, Translation as Play"
             },
             {
-                "id": "/target/m7v5KcDLdha/selector/css/GJ6E7TNgV22",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/HMPnbSspYJi]"
+                "id": "http://temp.lincsproject.ca/HMPnbSspYJi/target/m7v5KcDLdha/selector/textPosition/xXHD2L1FNQc",
+                "type": "TextPositionSelector",
+                "start": 9024,
+                "end": 9033,
+                "label": "\"Kitchener\" snippet from Languages as Spaces, Translation as Play"
+            },
+            {
+                "id": "http://temp.lincsproject.ca/HMPnbSspYJi/target/m7v5KcDLdha/selector/css/GJ6E7TNgV22",
+                "type": "CssSelector",
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/HMPnbSspYJi]",
+                "label": "\"Kitchener\" snippet from Languages as Spaces, Translation as Play"
             }
         ]
     },
+    "label": "\"Kitchener\" identifying Kitchener, Horatio Herbert Kitchener, Earl, 1850-1916 in Languages as Spaces, Translation as Play",
     "body": {
         "id": "http://viaf.org/viaf/2601254",
-        "type": "crm:E21_Person",
+        "type": "E21_Person",
         "label": "Kitchener, Horatio Herbert Kitchener, Earl, 1850-1916",
         "description": "Kitchener, Horatio Herbert, 1850-1916"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
+    }
 }]]>
 				
 </rdf:Description>
@@ -1797,87 +1753,83 @@
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+        "http://cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "http://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
     "id": "http://temp.lincsproject.ca/cZc2V9CaSzW",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
+    "type": "Annotation",
+    "motivation": "identifying",
     "created": "2026-07-14T18:06:33.176Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
+        "type": "Person",
+        "name": "Melissa Tuniewicz",
+        "label": "Melissa Tuniewicz"
     },
     "generator": {
         "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "type": "Software",
         "name": "NERVE",
+        "label": "NERVE",
         "softwareVersion": "0.3.0"
     },
     "target": {
-        "id": "/target/6ZHsmyfy30R",
+        "id": "http://temp.lincsproject.ca/cZc2V9CaSzW/target/6ZHsmyfy30R",
         "type": [
             "SpecificResource",
-            "crm:E73_Information_Object"
+            "E73_Information_Object"
         ],
+        "format": "application/tei+xml",
+        "label": "Languages as Spaces, Translation as Play containing \"Jane Eyre\"",
         "source": {
             "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
+            "type": [
+                "crmdig:D1_Digital_Object",
+                "E33_Linguistic_Object"
+            ],
+            "label": "Languages as Spaces, Translation as Play",
+            "P106_is_composed_of": "http://temp.lincsproject.ca/cZc2V9CaSzW/target/6ZHsmyfy30R",
+            "P72_has_language": "lexvo:en",
             "P1_is_identified_by": {
                 "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Languages as Spaces, Translation as Play"
+                "type": "E33_E41_Linguistic_Appellation",
+                "label": "Title of Languages as Spaces, Translation as Play",
+                "P190_has_symbolic_content": "Languages as Spaces, Translation as Play"
             }
         },
+        "P67_refers_to": "http://www.wikidata.org/entity/Q182961",
+        "P190_has_symbolic_content": "Jane Eyre",
         "selector": [
             {
-                "id": "/target/6ZHsmyfy30R/selector/textPosition/tFKlYwXGvbk",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 24974,
-                "end": 24983,
-                "refinedBy": {
-                    "id": "/target/6ZHsmyfy30R/selector/textQuote/nbFQ81IooPL",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Jane Eyre",
-                    "prefix": "\n                    \n                \n                \n                    Interlude: A Side Trip to Haworth\n                    \n                        \n                            \n                                \n                                    A train, a bus, another bus and I was at Haworth, the home of the Brontë sisters, loves of my life since",
-                    "suffix": "at fourteen"
-                }
+                "id": "http://temp.lincsproject.ca/cZc2V9CaSzW/target/6ZHsmyfy30R/selector/textQuote/nbFQ81IooPL",
+                "type": "TextQuoteSelector",
+                "exact": "Jane Eyre",
+                "prefix": "\n                    \n                \n                \n                    Interlude: A Side Trip to Haworth\n                    \n                        \n                            \n                                \n                                    A train, a bus, another bus and I was at Haworth, the home of the Brontë sisters, loves of my life since",
+                "suffix": "at fourteen",
+                "label": "\"Jane Eyre\" snippet from Languages as Spaces, Translation as Play"
             },
             {
-                "id": "/target/6ZHsmyfy30R/selector/css/1jHPobnHDMM",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/cZc2V9CaSzW]"
+                "id": "http://temp.lincsproject.ca/cZc2V9CaSzW/target/6ZHsmyfy30R/selector/textPosition/tFKlYwXGvbk",
+                "type": "TextPositionSelector",
+                "start": 24974,
+                "end": 24983,
+                "label": "\"Jane Eyre\" snippet from Languages as Spaces, Translation as Play"
+            },
+            {
+                "id": "http://temp.lincsproject.ca/cZc2V9CaSzW/target/6ZHsmyfy30R/selector/css/1jHPobnHDMM",
+                "type": "CssSelector",
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/cZc2V9CaSzW]",
+                "label": "\"Jane Eyre\" snippet from Languages as Spaces, Translation as Play"
             }
         ]
     },
+    "label": "Jane Eyre identified in Languages as Spaces, Translation as Play",
     "body": {
         "id": "http://www.wikidata.org/entity/Q182961",
-        "type": "frbroo:F1",
+        "type": "E73_Information_Object",
         "label": "Jane Eyre",
         "description": "1847 novel by Charlotte Brontë"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
+    }
 }]]>
 				
 </rdf:Description>
@@ -1886,87 +1838,83 @@
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+        "http://cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "http://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
     "id": "http://temp.lincsproject.ca/jmzyXXuiGTf",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
+    "type": "Annotation",
+    "motivation": "identifying",
     "created": "2026-07-14T18:00:29.385Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
+        "type": "Person",
+        "name": "Melissa Tuniewicz",
+        "label": "Melissa Tuniewicz"
     },
     "generator": {
         "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "type": "Software",
         "name": "NERVE",
+        "label": "NERVE",
         "softwareVersion": "0.3.0"
     },
     "target": {
-        "id": "/target/9wPZ1fJYxNm",
+        "id": "http://temp.lincsproject.ca/jmzyXXuiGTf/target/9wPZ1fJYxNm",
         "type": [
             "SpecificResource",
-            "crm:E73_Information_Object"
+            "E73_Information_Object"
         ],
+        "format": "application/tei+xml",
+        "label": "Languages as Spaces, Translation as Play containing \"de Colette\"",
         "source": {
             "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
+            "type": [
+                "crmdig:D1_Digital_Object",
+                "E33_Linguistic_Object"
+            ],
+            "label": "Languages as Spaces, Translation as Play",
+            "P106_is_composed_of": "http://temp.lincsproject.ca/jmzyXXuiGTf/target/9wPZ1fJYxNm",
+            "P72_has_language": "lexvo:en",
             "P1_is_identified_by": {
                 "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Languages as Spaces, Translation as Play"
+                "type": "E33_E41_Linguistic_Appellation",
+                "label": "Title of Languages as Spaces, Translation as Play",
+                "P190_has_symbolic_content": "Languages as Spaces, Translation as Play"
             }
         },
+        "P67_refers_to": "http://viaf.org/viaf/68937443",
+        "P190_has_symbolic_content": "de Colette",
         "selector": [
             {
-                "id": "/target/9wPZ1fJYxNm/selector/textPosition/vd3YQDybON8",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 39192,
-                "end": 39202,
-                "refinedBy": {
-                    "id": "/target/9wPZ1fJYxNm/selector/textQuote/uStRrvlY5FX",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "de Colette",
-                    "prefix": " Alors elle a parlé, elle lui a parlé de Gertrude Stein et",
-                    "suffix": " de la guerre et du salon de la rue de Fleurus, tout près"
-                }
+                "id": "http://temp.lincsproject.ca/jmzyXXuiGTf/target/9wPZ1fJYxNm/selector/textQuote/uStRrvlY5FX",
+                "type": "TextQuoteSelector",
+                "exact": "de Colette",
+                "prefix": " Alors elle a parlé, elle lui a parlé de Gertrude Stein et",
+                "suffix": " de la guerre et du salon de la rue de Fleurus, tout près",
+                "label": "\"de Colette\" snippet from Languages as Spaces, Translation as Play"
             },
             {
-                "id": "/target/9wPZ1fJYxNm/selector/css/Jq4uWnVa3Fl",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/jmzyXXuiGTf]"
+                "id": "http://temp.lincsproject.ca/jmzyXXuiGTf/target/9wPZ1fJYxNm/selector/textPosition/vd3YQDybON8",
+                "type": "TextPositionSelector",
+                "start": 39192,
+                "end": 39202,
+                "label": "\"de Colette\" snippet from Languages as Spaces, Translation as Play"
+            },
+            {
+                "id": "http://temp.lincsproject.ca/jmzyXXuiGTf/target/9wPZ1fJYxNm/selector/css/Jq4uWnVa3Fl",
+                "type": "CssSelector",
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/jmzyXXuiGTf]",
+                "label": "\"de Colette\" snippet from Languages as Spaces, Translation as Play"
             }
         ]
     },
+    "label": "\"de Colette\" identifying Colette, 1873-1954. in Languages as Spaces, Translation as Play",
     "body": {
         "id": "http://viaf.org/viaf/68937443",
-        "type": "crm:E21_Person",
+        "type": "E21_Person",
         "label": "Colette, 1873-1954.",
         "description": "Colette, Sidonie-Gabrielle, 1873-1954"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
+    }
 }]]>
 				
 </rdf:Description>
@@ -1975,87 +1923,82 @@
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+        "http://cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "http://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
     "id": "http://temp.lincsproject.ca/bMKlOikmLn3",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
+    "type": "Annotation",
+    "motivation": "identifying",
     "created": "2026-07-14T17:04:05.876Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
+        "type": "Person",
+        "name": "Melissa Tuniewicz",
+        "label": "Melissa Tuniewicz"
     },
     "generator": {
         "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "type": "Software",
         "name": "NERVE",
+        "label": "NERVE",
         "softwareVersion": "0.3.0"
     },
     "target": {
-        "id": "/target/XtoALKyT5Of",
+        "id": "http://temp.lincsproject.ca/bMKlOikmLn3/target/XtoALKyT5Of",
         "type": [
             "SpecificResource",
-            "crm:E73_Information_Object"
+            "E73_Information_Object"
         ],
+        "format": "application/tei+xml",
+        "label": "Languages as Spaces, Translation as Play containing \"rue Madame\"",
         "source": {
             "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
+            "type": [
+                "crmdig:D1_Digital_Object",
+                "E33_Linguistic_Object"
+            ],
+            "label": "Languages as Spaces, Translation as Play",
+            "P106_is_composed_of": "http://temp.lincsproject.ca/bMKlOikmLn3/target/XtoALKyT5Of",
+            "P72_has_language": "lexvo:en",
             "P1_is_identified_by": {
                 "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Languages as Spaces, Translation as Play"
+                "type": "E33_E41_Linguistic_Appellation",
+                "label": "Title of Languages as Spaces, Translation as Play",
+                "P190_has_symbolic_content": "Languages as Spaces, Translation as Play"
             }
         },
+        "P67_refers_to": "https://www.wikidata.org/wiki/Q3448998",
+        "P190_has_symbolic_content": "rue Madame",
         "selector": [
             {
-                "id": "/target/XtoALKyT5Of/selector/textPosition/cupav95Vfdx",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 40254,
-                "end": 40264,
-                "refinedBy": {
-                    "id": "/target/XtoALKyT5Of/selector/textQuote/TVt5kTdBy8i",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "rue Madame",
-                    "prefix": "\n                    He was waiting for her in Paris, in a small hotel on",
-                    "suffix": " She was young and loved books, he was old and loved listening to her"
-                }
+                "id": "http://temp.lincsproject.ca/bMKlOikmLn3/target/XtoALKyT5Of/selector/textQuote/TVt5kTdBy8i",
+                "type": "TextQuoteSelector",
+                "exact": "rue Madame",
+                "prefix": "\n                    He was waiting for her in Paris, in a small hotel on",
+                "suffix": " She was young and loved books, he was old and loved listening to her",
+                "label": "\"rue Madame\" snippet from Languages as Spaces, Translation as Play"
             },
             {
-                "id": "/target/XtoALKyT5Of/selector/css/ufys7IZHVp9",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/bMKlOikmLn3]"
+                "id": "http://temp.lincsproject.ca/bMKlOikmLn3/target/XtoALKyT5Of/selector/textPosition/cupav95Vfdx",
+                "type": "TextPositionSelector",
+                "start": 40254,
+                "end": 40264,
+                "label": "\"rue Madame\" snippet from Languages as Spaces, Translation as Play"
+            },
+            {
+                "id": "http://temp.lincsproject.ca/bMKlOikmLn3/target/XtoALKyT5Of/selector/css/ufys7IZHVp9",
+                "type": "CssSelector",
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/bMKlOikmLn3]",
+                "label": "\"rue Madame\" snippet from Languages as Spaces, Translation as Play"
             }
         ]
     },
+    "label": "\"rue Madame\" identifying Rue Madame in Languages as Spaces, Translation as Play",
     "body": {
         "id": "https://www.wikidata.org/wiki/Q3448998",
-        "label": "Rue Madame",
-        "type": "crm:E53_Place",
-        "entityType": "crm:E53_Place"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
+        "type": "E53_Place",
+        "label": "Rue Madame"
+    }
 }]]>
 				
 </rdf:Description>
@@ -2064,87 +2007,83 @@
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+        "http://cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "http://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
     "id": "http://temp.lincsproject.ca/YLe1MIGpaqo",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
+    "type": "Annotation",
+    "motivation": "identifying",
     "created": "2026-07-14T17:12:08.044Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
+        "type": "Person",
+        "name": "Melissa Tuniewicz",
+        "label": "Melissa Tuniewicz"
     },
     "generator": {
         "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "type": "Software",
         "name": "NERVE",
+        "label": "NERVE",
         "softwareVersion": "0.3.0"
     },
     "target": {
-        "id": "/target/hd8Umwrz0W1",
+        "id": "http://temp.lincsproject.ca/YLe1MIGpaqo/target/hd8Umwrz0W1",
         "type": [
             "SpecificResource",
-            "crm:E73_Information_Object"
+            "E73_Information_Object"
         ],
+        "format": "application/tei+xml",
+        "label": "Languages as Spaces, Translation as Play containing \"Roy\"",
         "source": {
             "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
+            "type": [
+                "crmdig:D1_Digital_Object",
+                "E33_Linguistic_Object"
+            ],
+            "label": "Languages as Spaces, Translation as Play",
+            "P106_is_composed_of": "http://temp.lincsproject.ca/YLe1MIGpaqo/target/hd8Umwrz0W1",
+            "P72_has_language": "lexvo:en",
             "P1_is_identified_by": {
                 "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Languages as Spaces, Translation as Play"
+                "type": "E33_E41_Linguistic_Appellation",
+                "label": "Title of Languages as Spaces, Translation as Play",
+                "P190_has_symbolic_content": "Languages as Spaces, Translation as Play"
             }
         },
+        "P67_refers_to": "http://viaf.org/viaf/32002395",
+        "P190_has_symbolic_content": "Roy",
         "selector": [
             {
-                "id": "/target/hd8Umwrz0W1/selector/textPosition/KXH3LOuObc0",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 41529,
-                "end": 41532,
-                "refinedBy": {
-                    "id": "/target/hd8Umwrz0W1/selector/textQuote/9XGfZeXbuYH",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Roy",
-                    "prefix": " \n                \n                \n                    work cited\n                    \n                       ",
-                    "suffix": " Gabrielle"
-                }
+                "id": "http://temp.lincsproject.ca/YLe1MIGpaqo/target/hd8Umwrz0W1/selector/textQuote/9XGfZeXbuYH",
+                "type": "TextQuoteSelector",
+                "exact": "Roy",
+                "prefix": " \n                \n                \n                    work cited\n                    \n                       ",
+                "suffix": " Gabrielle",
+                "label": "\"Roy\" snippet from Languages as Spaces, Translation as Play"
             },
             {
-                "id": "/target/hd8Umwrz0W1/selector/css/sgxHDdoN5Rk",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/YLe1MIGpaqo]"
+                "id": "http://temp.lincsproject.ca/YLe1MIGpaqo/target/hd8Umwrz0W1/selector/textPosition/KXH3LOuObc0",
+                "type": "TextPositionSelector",
+                "start": 41529,
+                "end": 41532,
+                "label": "\"Roy\" snippet from Languages as Spaces, Translation as Play"
+            },
+            {
+                "id": "http://temp.lincsproject.ca/YLe1MIGpaqo/target/hd8Umwrz0W1/selector/css/sgxHDdoN5Rk",
+                "type": "CssSelector",
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/YLe1MIGpaqo]",
+                "label": "\"Roy\" snippet from Languages as Spaces, Translation as Play"
             }
         ]
     },
+    "label": "\"Roy\" identifying Roy, Gabrielle, 1909-1983‏ in Languages as Spaces, Translation as Play",
     "body": {
         "id": "http://viaf.org/viaf/32002395",
-        "type": "crm:E21_Person",
+        "type": "E21_Person",
         "label": "Roy, Gabrielle, 1909-1983‏",
         "description": "Roy, Gabrielle, 1909-1983, romancière"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
+    }
 }]]>
 				
 </rdf:Description>
@@ -2153,87 +2092,83 @@
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+        "http://cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "http://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
     "id": "http://temp.lincsproject.ca/6oAwvgPy3lt",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
+    "type": "Annotation",
+    "motivation": "identifying",
     "created": "2026-07-14T17:11:40.398Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
+        "type": "Person",
+        "name": "Melissa Tuniewicz",
+        "label": "Melissa Tuniewicz"
     },
     "generator": {
         "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "type": "Software",
         "name": "NERVE",
+        "label": "NERVE",
         "softwareVersion": "0.3.0"
     },
     "target": {
-        "id": "/target/oAlesW79Kp2",
+        "id": "http://temp.lincsproject.ca/6oAwvgPy3lt/target/oAlesW79Kp2",
         "type": [
             "SpecificResource",
-            "crm:E73_Information_Object"
+            "E73_Information_Object"
         ],
+        "format": "application/tei+xml",
+        "label": "Languages as Spaces, Translation as Play containing \"Gabrielle\"",
         "source": {
             "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
+            "type": [
+                "crmdig:D1_Digital_Object",
+                "E33_Linguistic_Object"
+            ],
+            "label": "Languages as Spaces, Translation as Play",
+            "P106_is_composed_of": "http://temp.lincsproject.ca/6oAwvgPy3lt/target/oAlesW79Kp2",
+            "P72_has_language": "lexvo:en",
             "P1_is_identified_by": {
                 "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Languages as Spaces, Translation as Play"
+                "type": "E33_E41_Linguistic_Appellation",
+                "label": "Title of Languages as Spaces, Translation as Play",
+                "P190_has_symbolic_content": "Languages as Spaces, Translation as Play"
             }
         },
+        "P67_refers_to": "http://viaf.org/viaf/32002395",
+        "P190_has_symbolic_content": "Gabrielle",
         "selector": [
             {
-                "id": "/target/oAlesW79Kp2/selector/textPosition/1AtiX2LesEw",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 41534,
-                "end": 41543,
-                "refinedBy": {
-                    "id": "/target/oAlesW79Kp2/selector/textQuote/zB7ZIP7kMrf",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Gabrielle",
-                    "prefix": " \n                \n                \n                    work cited\n                    \n                        Roy,",
-                    "suffix": " Alexandre Chenevert"
-                }
+                "id": "http://temp.lincsproject.ca/6oAwvgPy3lt/target/oAlesW79Kp2/selector/textQuote/zB7ZIP7kMrf",
+                "type": "TextQuoteSelector",
+                "exact": "Gabrielle",
+                "prefix": " \n                \n                \n                    work cited\n                    \n                        Roy,",
+                "suffix": " Alexandre Chenevert",
+                "label": "\"Gabrielle\" snippet from Languages as Spaces, Translation as Play"
             },
             {
-                "id": "/target/oAlesW79Kp2/selector/css/agCa62RT8oT",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/6oAwvgPy3lt]"
+                "id": "http://temp.lincsproject.ca/6oAwvgPy3lt/target/oAlesW79Kp2/selector/textPosition/1AtiX2LesEw",
+                "type": "TextPositionSelector",
+                "start": 41534,
+                "end": 41543,
+                "label": "\"Gabrielle\" snippet from Languages as Spaces, Translation as Play"
+            },
+            {
+                "id": "http://temp.lincsproject.ca/6oAwvgPy3lt/target/oAlesW79Kp2/selector/css/agCa62RT8oT",
+                "type": "CssSelector",
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/6oAwvgPy3lt]",
+                "label": "\"Gabrielle\" snippet from Languages as Spaces, Translation as Play"
             }
         ]
     },
+    "label": "\"Gabrielle\" identifying Roy, Gabrielle, 1909-1983‏ in Languages as Spaces, Translation as Play",
     "body": {
         "id": "http://viaf.org/viaf/32002395",
-        "type": "crm:E21_Person",
+        "type": "E21_Person",
         "label": "Roy, Gabrielle, 1909-1983‏",
         "description": "Roy, Gabrielle, 1909-1983, romancière"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
+    }
 }]]>
 				
 </rdf:Description>
@@ -2242,87 +2177,82 @@
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+        "http://cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "http://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
     "id": "http://temp.lincsproject.ca/dAaD7TMSaTd",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
+    "type": "Annotation",
+    "motivation": "identifying",
     "created": "2026-07-14T17:13:24.338Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
+        "type": "Person",
+        "name": "Melissa Tuniewicz",
+        "label": "Melissa Tuniewicz"
     },
     "generator": {
         "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "type": "Software",
         "name": "NERVE",
+        "label": "NERVE",
         "softwareVersion": "0.3.0"
     },
     "target": {
-        "id": "/target/AcnYPCqZE6z",
+        "id": "http://temp.lincsproject.ca/dAaD7TMSaTd/target/AcnYPCqZE6z",
         "type": [
             "SpecificResource",
-            "crm:E73_Information_Object"
+            "E73_Information_Object"
         ],
+        "format": "application/tei+xml",
+        "label": "Languages as Spaces, Translation as Play containing \"Alexandre Chenevert\"",
         "source": {
             "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
+            "type": [
+                "crmdig:D1_Digital_Object",
+                "E33_Linguistic_Object"
+            ],
+            "label": "Languages as Spaces, Translation as Play",
+            "P106_is_composed_of": "http://temp.lincsproject.ca/dAaD7TMSaTd/target/AcnYPCqZE6z",
+            "P72_has_language": "lexvo:en",
             "P1_is_identified_by": {
                 "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Languages as Spaces, Translation as Play"
+                "type": "E33_E41_Linguistic_Appellation",
+                "label": "Title of Languages as Spaces, Translation as Play",
+                "P190_has_symbolic_content": "Languages as Spaces, Translation as Play"
             }
         },
+        "P67_refers_to": "https://www.wikidata.org/wiki/Q120693089",
+        "P190_has_symbolic_content": "Alexandre Chenevert",
         "selector": [
             {
-                "id": "/target/AcnYPCqZE6z/selector/textPosition/UCzHizhWYfr",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 41545,
-                "end": 41564,
-                "refinedBy": {
-                    "id": "/target/AcnYPCqZE6z/selector/textQuote/MyDLGpMXB8D",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Alexandre Chenevert",
-                    "prefix": "",
-                    "suffix": " Montréal: Éditions Beauchemin, 1954"
-                }
+                "id": "http://temp.lincsproject.ca/dAaD7TMSaTd/target/AcnYPCqZE6z/selector/textQuote/MyDLGpMXB8D",
+                "type": "TextQuoteSelector",
+                "exact": "Alexandre Chenevert",
+                "prefix": "",
+                "suffix": " Montréal: Éditions Beauchemin, 1954",
+                "label": "\"Alexandre Chenevert\" snippet from Languages as Spaces, Translation as Play"
             },
             {
-                "id": "/target/AcnYPCqZE6z/selector/css/WlqqurBYiYV",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/dAaD7TMSaTd]"
+                "id": "http://temp.lincsproject.ca/dAaD7TMSaTd/target/AcnYPCqZE6z/selector/textPosition/UCzHizhWYfr",
+                "type": "TextPositionSelector",
+                "start": 41545,
+                "end": 41564,
+                "label": "\"Alexandre Chenevert\" snippet from Languages as Spaces, Translation as Play"
+            },
+            {
+                "id": "http://temp.lincsproject.ca/dAaD7TMSaTd/target/AcnYPCqZE6z/selector/css/WlqqurBYiYV",
+                "type": "CssSelector",
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/dAaD7TMSaTd]",
+                "label": "\"Alexandre Chenevert\" snippet from Languages as Spaces, Translation as Play"
             }
         ]
     },
+    "label": "Alexandre Chenevert identified in Languages as Spaces, Translation as Play",
     "body": {
         "id": "https://www.wikidata.org/wiki/Q120693089",
-        "label": "Alexandre Chenevert",
-        "type": "frbroo:F1",
-        "entityType": "frbroo:F1"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
+        "type": "E73_Information_Object",
+        "label": "Alexandre Chenevert"
+    }
 }]]>
 				
 </rdf:Description>
@@ -2331,87 +2261,82 @@
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+        "http://cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "http://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
     "id": "http://temp.lincsproject.ca/3KOyHdH557e",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
+    "type": "Annotation",
+    "motivation": "identifying",
     "created": "2026-07-14T18:04:18.489Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
+        "type": "Person",
+        "name": "Melissa Tuniewicz",
+        "label": "Melissa Tuniewicz"
     },
     "generator": {
         "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "type": "Software",
         "name": "NERVE",
+        "label": "NERVE",
         "softwareVersion": "0.3.0"
     },
     "target": {
-        "id": "/target/KCiKAbvyIWT",
+        "id": "http://temp.lincsproject.ca/3KOyHdH557e/target/KCiKAbvyIWT",
         "type": [
             "SpecificResource",
-            "crm:E73_Information_Object"
+            "E73_Information_Object"
         ],
+        "format": "application/tei+xml",
+        "label": "Languages as Spaces, Translation as Play containing \"Montréal\"",
         "source": {
             "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
+            "type": [
+                "crmdig:D1_Digital_Object",
+                "E33_Linguistic_Object"
+            ],
+            "label": "Languages as Spaces, Translation as Play",
+            "P106_is_composed_of": "http://temp.lincsproject.ca/3KOyHdH557e/target/KCiKAbvyIWT",
+            "P72_has_language": "lexvo:en",
             "P1_is_identified_by": {
                 "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Languages as Spaces, Translation as Play"
+                "type": "E33_E41_Linguistic_Appellation",
+                "label": "Title of Languages as Spaces, Translation as Play",
+                "P190_has_symbolic_content": "Languages as Spaces, Translation as Play"
             }
         },
+        "P67_refers_to": "https://sws.geonames.org/6077243",
+        "P190_has_symbolic_content": "Montréal",
         "selector": [
             {
-                "id": "/target/KCiKAbvyIWT/selector/textPosition/z42wDI9CXmB",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 41566,
-                "end": 41574,
-                "refinedBy": {
-                    "id": "/target/KCiKAbvyIWT/selector/textQuote/SqBGtOObi7E",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Montréal",
-                    "prefix": "",
-                    "suffix": " Éditions Beauchemin, 1954"
-                }
+                "id": "http://temp.lincsproject.ca/3KOyHdH557e/target/KCiKAbvyIWT/selector/textQuote/SqBGtOObi7E",
+                "type": "TextQuoteSelector",
+                "exact": "Montréal",
+                "prefix": "",
+                "suffix": " Éditions Beauchemin, 1954",
+                "label": "\"Montréal\" snippet from Languages as Spaces, Translation as Play"
             },
             {
-                "id": "/target/KCiKAbvyIWT/selector/css/TVE8B3zSwwb",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/3KOyHdH557e]"
+                "id": "http://temp.lincsproject.ca/3KOyHdH557e/target/KCiKAbvyIWT/selector/textPosition/z42wDI9CXmB",
+                "type": "TextPositionSelector",
+                "start": 41566,
+                "end": 41574,
+                "label": "\"Montréal\" snippet from Languages as Spaces, Translation as Play"
+            },
+            {
+                "id": "http://temp.lincsproject.ca/3KOyHdH557e/target/KCiKAbvyIWT/selector/css/TVE8B3zSwwb",
+                "type": "CssSelector",
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/3KOyHdH557e]",
+                "label": "\"Montréal\" snippet from Languages as Spaces, Translation as Play"
             }
         ]
     },
+    "label": "\"Montréal\" identifying Montreal in Languages as Spaces, Translation as Play",
     "body": {
-        "id": "https://sws.geonames.org/6077243     ",
-        "label": "Montreal",
-        "type": "crm:E53_Place",
-        "entityType": "crm:E53_Place"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
+        "id": "https://sws.geonames.org/6077243",
+        "type": "E53_Place",
+        "label": "Montreal"
+    }
 }]]>
 				
 </rdf:Description>
@@ -2420,87 +2345,82 @@
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+        "http://cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "http://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
     "id": "http://temp.lincsproject.ca/1t2rGoXcXbz",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
+    "type": "Annotation",
+    "motivation": "identifying",
     "created": "2026-07-14T17:10:37.057Z",
     "creator": {
         "id": "https://github.com/melisstuniewicz9",
-        "type": "crm:E21_Person",
-        "name": "Melissa Tuniewicz"
+        "type": "Person",
+        "name": "Melissa Tuniewicz",
+        "label": "Melissa Tuniewicz"
     },
     "generator": {
         "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "type": "Software",
         "name": "NERVE",
+        "label": "NERVE",
         "softwareVersion": "0.3.0"
     },
     "target": {
-        "id": "/target/8hN8SXvtTGu",
+        "id": "http://temp.lincsproject.ca/1t2rGoXcXbz/target/8hN8SXvtTGu",
         "type": [
             "SpecificResource",
-            "crm:E73_Information_Object"
+            "E73_Information_Object"
         ],
+        "format": "application/tei+xml",
+        "label": "Languages as Spaces, Translation as Play containing \"Éditions Beauchemin\"",
         "source": {
             "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
+            "type": [
+                "crmdig:D1_Digital_Object",
+                "E33_Linguistic_Object"
+            ],
+            "label": "Languages as Spaces, Translation as Play",
+            "P106_is_composed_of": "http://temp.lincsproject.ca/1t2rGoXcXbz/target/8hN8SXvtTGu",
+            "P72_has_language": "lexvo:en",
             "P1_is_identified_by": {
                 "id": "https://raw.githubusercontent.com/melisstuniewicz9/Cultural-Mapping/main/chapter_11_languages_as_spaces_translation_as_play.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Languages as Spaces, Translation as Play"
+                "type": "E33_E41_Linguistic_Appellation",
+                "label": "Title of Languages as Spaces, Translation as Play",
+                "P190_has_symbolic_content": "Languages as Spaces, Translation as Play"
             }
         },
+        "P67_refers_to": "https://www.wikidata.org/wiki/Q90319275",
+        "P190_has_symbolic_content": "Éditions Beauchemin",
         "selector": [
             {
-                "id": "/target/8hN8SXvtTGu/selector/textPosition/vBuO3s7nvej",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 41576,
-                "end": 41595,
-                "refinedBy": {
-                    "id": "/target/8hN8SXvtTGu/selector/textQuote/FuJDW9lsMqf",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Éditions Beauchemin",
-                    "prefix": " Montréal:",
-                    "suffix": " 1954"
-                }
+                "id": "http://temp.lincsproject.ca/1t2rGoXcXbz/target/8hN8SXvtTGu/selector/textQuote/FuJDW9lsMqf",
+                "type": "TextQuoteSelector",
+                "exact": "Éditions Beauchemin",
+                "prefix": " Montréal:",
+                "suffix": " 1954",
+                "label": "\"Éditions Beauchemin\" snippet from Languages as Spaces, Translation as Play"
             },
             {
-                "id": "/target/8hN8SXvtTGu/selector/css/NrtyvVD79T0",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/1t2rGoXcXbz]"
+                "id": "http://temp.lincsproject.ca/1t2rGoXcXbz/target/8hN8SXvtTGu/selector/textPosition/vBuO3s7nvej",
+                "type": "TextPositionSelector",
+                "start": 41576,
+                "end": 41595,
+                "label": "\"Éditions Beauchemin\" snippet from Languages as Spaces, Translation as Play"
+            },
+            {
+                "id": "http://temp.lincsproject.ca/1t2rGoXcXbz/target/8hN8SXvtTGu/selector/css/NrtyvVD79T0",
+                "type": "CssSelector",
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/1t2rGoXcXbz]",
+                "label": "\"Éditions Beauchemin\" snippet from Languages as Spaces, Translation as Play"
             }
         ]
     },
+    "label": "\"Éditions Beauchemin\" identifying éditions Beauchemin in Languages as Spaces, Translation as Play",
     "body": {
         "id": "https://www.wikidata.org/wiki/Q90319275",
-        "label": "éditions Beauchemin",
-        "type": "crm:E74_Group",
-        "entityType": "crm:E74_Group"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
+        "type": "E74_Group",
+        "label": "éditions Beauchemin"
+    }
 }]]>
 				
 </rdf:Description>
